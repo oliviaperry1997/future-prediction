@@ -1,0 +1,8 @@
+# Generated/binary files
+*.kmz
+*.DS_Store
+.DS_Store
+
+# Obsidian workspace lock
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json

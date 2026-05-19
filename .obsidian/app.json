@@ -1,0 +1,14 @@
+{
+  "attachmentFolderPath": "./sources",
+  "promptDelete": false,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "vimMode": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "2050-snapshot/domains",
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "useTab": false,
+  "tabSize": 2
+}
