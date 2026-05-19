@@ -12,7 +12,13 @@ A coherent, grounded, internally consistent vision of how the world transforms b
 
 ### Validated
 
-(None yet — ship to validate)
+- [x] Obsidian vault with Dataview plugin configured (Phase 1)
+- [x] YAML frontmatter templates: base, domain-doc, prediction, counter-scenario (Phase 1)
+- [x] Directory structure: per-milestone flat layout with root supporting dirs (Phase 1)
+- [x] Prediction register with 6 falsifiable claims across 4 STEEP domains (Phase 1)
+- [x] Counter-scenario document with "clean revolution" alternative thesis (Phase 1)
+- [x] Dataview query dashboard with 5 views (Phase 1)
+- [x] Cross-domain consistency mechanism with review process (Phase 1)
 
 ### Active
 
@@ -42,6 +48,10 @@ The user has already built a modern-day KML basemap in Google Earth. This projec
 - **Collaboration**: None
 - **Scope**: Big-picture trends with specific checkpoints at 2050, 2075, 2100
 
+## Current State
+
+**Phase 1 (Foundation & Methodology) — Complete.** The project vault is operational in Obsidian with Dataview, 4 YAML frontmatter templates ready, prediction register seeded with 6 falsifiable claims, counter-scenario documented, and consistency methodology established. Ready to begin the 2050 milestone.
+
 ## Key Decisions
 
 | Decision | Rationale | Outcome |
@@ -53,4 +63,4 @@ The user has already built a modern-day KML basemap in Google Earth. This projec
 
 ---
 
-*Last updated: 2026-05-19 after initialization*
+*Last updated: 2026-05-19 — Phase 1 complete*
