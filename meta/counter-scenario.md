@@ -4,7 +4,11 @@ status: draft
 created: 2026-05-19
 updated: 2026-05-19
 tags: [counter-scenario, alternative-thesis, us-collapse]
-alternative_thesis: Revolutionary movements gain sufficient national strength to overcome regional reactionary insurgencies and secessionist movements, consolidating the United States as a single socialist state rather than fragmenting into multiple successor polities.
+alternative_thesis: >
+  Revolutionary movements gain sufficient national strength to overcome
+  regional reactionary insurgencies and secessionist movements, consolidating
+  the United States as a single socialist state rather than fragmenting into
+  multiple successor polities.
 divergence_points:
   - 2028-2032: Mass political mobilization reaches critical mass
   - 2032-2035: Federal apparatus captured by revolutionary coalition

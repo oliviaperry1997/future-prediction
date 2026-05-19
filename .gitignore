@@ -1,6 +1,5 @@
 # Generated/binary files
 *.kmz
-*.DS_Store
 .DS_Store
 
 # Obsidian workspace lock

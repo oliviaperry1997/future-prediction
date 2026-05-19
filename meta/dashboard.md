@@ -28,16 +28,6 @@ SORT
   target_milestone ASC
 ```
 
-> **Fallback** if `choice()` is not supported in your Dataview version (alphabetical sort: H < M < L):
-> ```dataview
-> TABLE
->   confidence AS "Confidence",
->   target_milestone AS "Target",
->   domain AS "Domain"
-> FROM "meta/predictions"
-> SORT confidence ASC
-> ```
-
 ## View 2: Predictions by Target Milestone
 
 Predictions grouped by target milestone year, showing confidence level and domain. Useful for milestone-level calibration reviews.
