@@ -1,4 +1,5 @@
 {
+  "baseTheme": "moonstone",
   "attachmentFolderPath": "./sources",
   "promptDelete": false,
   "showLineNumber": true,
