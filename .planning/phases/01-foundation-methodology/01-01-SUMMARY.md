@@ -128,6 +128,17 @@ The human has confirmed these steps work correctly.
 - Phase 01 Plan 03 (Basemap KML and vault documentation) can proceed — BASEMAP_README.md is written
 - Future phases that create content (domain docs, predictions, counter-scenarios) can use the established templates
 
+## Self-Check: PASSED
+
+- [x] All 12 created files exist on disk
+- [x] All 4 commits exist in git log (50c8d0d, 8796594, 96b8f6f, 1203efe)
+- [x] No unexpected file deletions in the last commit
+- [x] .obsidian/community-plugins.json contains "dataview"
+- [x] .gitignore contains "*.kmz"
+- [x] BASEMAP_README.md contains "WGS-84"
+- [x] app.json contains "showLineNumber": true
+- [x] All four templates exist with correct frontmatter schemas
+
 ---
 
 *Phase: 01-foundation-methodology*
