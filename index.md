@@ -2,7 +2,7 @@
 title: Future Prediction — Project Index
 status: draft
 created: 2026-05-19
-updated: 2026-05-19
+updated: 2026-05-20
 ---
 
 # Future Prediction: Project Index
@@ -19,7 +19,7 @@ A personal collection of structured forecasts mapping the evolution of global ge
 
 ## Transitions
 
-- [2026-2050: Collapse & Realignment](2026-2050-transition/) — Present day through the dissolution of the US and emergence of new order
+- [2026-2050: Collapse & Realignment](2026-2050-transition/) — Present day through the dissolution of the US and emergence of new order _(draft)_
 - [2051-2075: Transitional Chaos](2075-snapshot/) — The turbulent middle period
 - [2076-2100: Consolidation](2100-snapshot/) — The final arc to 2100
 
@@ -38,7 +38,7 @@ A personal collection of structured forecasts mapping the evolution of global ge
 
 | Claim | Appears In | Also Affects | Status |
 |-------|-----------|--------------|--------|
-| _(Populated during milestone writing)_ | | | |
+| _(2026-2050 transition domain docs populated during Phase 2)_ | | | |
 
 ---
 
