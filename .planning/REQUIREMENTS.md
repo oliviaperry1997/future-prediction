@@ -23,7 +23,7 @@ Requirements for initial release. Each maps to roadmap phases.
 
 - [ ] **BORD-01**: Describe the geopolitical landscape including sovereign entities, border changes, and power blocs as of 2050
 - [ ] **BORD-02**: Detail specific border shifts consistent with the collapse/socialist transition thesis
-- [ ] **BORD-03**: Create KML polygons for 2050 world map
+- [x] **BORD-03**: Create KML polygons for 2050 world map
 
 ### 2050 Snapshot — Climate
 
@@ -51,8 +51,8 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### 2050 KML Maps
 
-- [ ] **KMLP-01**: Produce KML map files for the 2050 world map with geopolitical boundaries
-- [ ] **KMLP-02**: Ensure KML entries cross-reference the markdown sections that justify each boundary
+- [x] **KMLP-01**: Produce KML map files for the 2050 world map with geopolitical boundaries
+- [x] **KMLP-02**: Ensure KML entries cross-reference the markdown sections that justify each boundary
 
 ## v2 Requirements
 
@@ -99,7 +99,7 @@ Deferred to future release. Tracked but not in current roadmap.
 | TRAN-02 | Phase 2 | Pending |
 | BORD-01 | Phase 3 | Pending |
 | BORD-02 | Phase 3 | Pending |
-| BORD-03 | Phase 5 | Pending |
+| BORD-03 | Phase 5 | Complete |
 | CLIM-01 | Phase 3 | Pending |
 | CLIM-02 | Phase 3 | Pending |
 | TECH-01 | Phase 3 | Pending |
@@ -109,8 +109,8 @@ Deferred to future release. Tracked but not in current roadmap.
 | DEMO-01 | Phase 4 | Pending |
 | DEMO-02 | Phase 4 | Pending |
 | CULT-01 | Phase 4 | Pending |
-| KMLP-01 | Phase 5 | Pending |
-| KMLP-02 | Phase 5 | Pending |
+| KMLP-01 | Phase 5 | Complete |
+| KMLP-02 | Phase 5 | Complete |
 
 **Coverage:**
 - v1 requirements: 20 total

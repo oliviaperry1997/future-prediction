@@ -105,7 +105,7 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 05-01-PLAN.md — KML Generation Script & Source Data Pipeline (Wave 1)
+- [x] 05-01-PLAN.md — KML Generation Script & Source Data Pipeline (Wave 1)
 - [ ] 05-02-PLAN.md — Generate All 6 KML Files (Wave 2)
 - [ ] 05-03-PLAN.md — Verification & Index Finalization (Wave 3)
 
@@ -126,4 +126,4 @@ Plans:
 | 2. 2026-2050 Transition | 0/4 | Ready to execute | - |
 | 3. 2050 Structural Snapshot | 0/0 | Not started | - |
 | 4. 2050 Socioeconomic Snapshot | 4/4 | Complete   | 2026-05-21 |
-| 5. 2050 KML Maps & Integration | 0/3 | Ready to plan | - |
+| 5. 2050 KML Maps & Integration | 1/3 | In Progress|  |
