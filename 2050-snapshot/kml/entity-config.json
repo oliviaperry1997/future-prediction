@@ -956,8 +956,22 @@
         "approximate_coords": [-180, -90, 180, -90, 180, 90, -180, 90]
       }
     ],
-    "demographics": [],
-    "culture": []
+    "demographics": [
+      {
+        "name": "Demographic Profile Reference — PPR",
+        "type": "entity_copy",
+        "source_entity": "Pacific People's Republic",
+        "description": "See: 2050-snapshot/domains/demographics.md#pacific-peoples-republic"
+      }
+    ],
+    "culture": [
+      {
+        "name": "Cultural Profile Reference — PPR",
+        "type": "entity_copy",
+        "source_entity": "Pacific People's Republic",
+        "description": "See: 2050-snapshot/domains/culture.md#pacific-peoples-republic"
+      }
+    ]
   },
   "modifications_2050": {
     "Palestine": {
