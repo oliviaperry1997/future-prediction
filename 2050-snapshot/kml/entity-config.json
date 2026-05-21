@@ -954,6 +954,30 @@
         "type": "rough_polygon",
         "description": "See: 2050-snapshot/domains/economy.md#labor--automation",
         "approximate_coords": [-180, -90, 180, -90, 180, 90, -180, 90]
+      },
+      {
+        "name": "Atlantic South",
+        "type": "entity_copy",
+        "source_entity": "Atlantic South",
+        "description": "See: 2050-snapshot/domains/economy.md#atlantic-south"
+      },
+      {
+        "name": "Appalachian Zone",
+        "type": "entity_copy",
+        "source_entity": "Appalachian Zone",
+        "description": "See: 2050-snapshot/domains/economy.md#appalachian-zone"
+      },
+      {
+        "name": "Mountain Tapestry",
+        "type": "entity_copy",
+        "source_entity": "Mountain Tapestry",
+        "description": "See: 2050-snapshot/domains/economy.md#mountain-tapestry"
+      },
+      {
+        "name": "European Core Federation",
+        "type": "entity_copy",
+        "source_entity": "European Core Federation",
+        "description": "See: 2050-snapshot/domains/economy.md#eu-core"
       }
     ],
     "demographics": [
@@ -962,6 +986,30 @@
         "type": "entity_copy",
         "source_entity": "Pacific People's Republic",
         "description": "See: 2050-snapshot/domains/demographics.md#pacific-peoples-republic"
+      },
+      {
+        "name": "Atlantic South",
+        "type": "entity_copy",
+        "source_entity": "Atlantic South",
+        "description": "See: 2050-snapshot/domains/demographics.md#atlantic-south"
+      },
+      {
+        "name": "Appalachian Zone",
+        "type": "entity_copy",
+        "source_entity": "Appalachian Zone",
+        "description": "See: 2050-snapshot/domains/demographics.md#appalachian-zone"
+      },
+      {
+        "name": "Mountain Tapestry",
+        "type": "entity_copy",
+        "source_entity": "Mountain Tapestry",
+        "description": "See: 2050-snapshot/domains/demographics.md#mountain-tapestry"
+      },
+      {
+        "name": "European Core Federation",
+        "type": "entity_copy",
+        "source_entity": "European Core Federation",
+        "description": "See: 2050-snapshot/domains/demographics.md#eu-core"
       }
     ],
     "culture": [
@@ -970,6 +1018,48 @@
         "type": "entity_copy",
         "source_entity": "Pacific People's Republic",
         "description": "See: 2050-snapshot/domains/culture.md#pacific-peoples-republic"
+      },
+      {
+        "name": "Atlantic South",
+        "type": "entity_copy",
+        "source_entity": "Atlantic South",
+        "description": "See: 2050-snapshot/domains/culture.md#atlantic-south"
+      },
+      {
+        "name": "Appalachian Zone",
+        "type": "entity_copy",
+        "source_entity": "Appalachian Zone",
+        "description": "See: 2050-snapshot/domains/culture.md#appalachian-zone"
+      },
+      {
+        "name": "Mountain Tapestry",
+        "type": "entity_copy",
+        "source_entity": "Mountain Tapestry",
+        "description": "See: 2050-snapshot/domains/culture.md#mountain-tapestry"
+      },
+      {
+        "name": "European Core Federation",
+        "type": "entity_copy",
+        "source_entity": "European Core Federation",
+        "description": "See: 2050-snapshot/domains/culture.md#eu-core"
+      },
+      {
+        "name": "Dakota/Lakota Nation",
+        "type": "entity_copy",
+        "source_entity": "Dakota/Lakota Nation",
+        "description": "See: 2050-snapshot/domains/culture.md#oceti-sakowin"
+      },
+      {
+        "name": "Sequoyan Nation",
+        "type": "entity_copy",
+        "source_entity": "Sequoyan Nation",
+        "description": "See: 2050-snapshot/domains/culture.md#sequoyan-nation"
+      },
+      {
+        "name": "Alaska Indigenous Confederated Socialist Republic",
+        "type": "entity_copy",
+        "source_entity": "Alaska Indigenous Confederated Socialist Republic",
+        "description": "See: 2050-snapshot/domains/culture.md#alaska-indigenous-csr"
       }
     ]
   },

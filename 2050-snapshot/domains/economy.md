@@ -370,7 +370,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **Economic model:** Social-democratic / regulated market. Strong welfare states, high union density, coordinated wage bargaining, progressive taxation. The "Northern Euro" hard currency enforces fiscal discipline. Industrial policy is activist — the Core coordinates strategic investment in green tech, AI, and defense manufacturing through the European Industrial Coordination Agency.
 - **Currency:** Northern Euro (EUR-N) — hard currency with strict fiscal rules, inflation targeting, and pooled debt issuance. Trades at a premium to the periphery euro. Major reserve currency (~20% of global reserves — combined with periphery euro).
 - **Labor market character:** Mixed automated labor. Manufacturing highly automated (50-60%). Services mixed. UBI implemented in Finland, Netherlands, Denmark. Four-day workweek emerging norms. Strong labor protections, high minimum wages, robust retraining systems. ~120M population across core states.
-- **→ See KML: EU Core**
+- **→ See KML: European Core Federation**
 - → See transition doc: events T-08b, T-09b
 
 **India:**

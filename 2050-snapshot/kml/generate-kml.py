@@ -701,11 +701,20 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code):
         is_fragmented = poly_data["cfg"].get("fragmented", False)
         
         if is_fragmented:
-            # Fragmentd entity: folder with sub-polygon placemarks
+            # Fragmentd entity: folder with parent placemark + sub-polygon placemarks
+            # Parent placemark allows → See KML: markers to resolve to this entity
             sub_polygons_config = cfg.get("fragmented_entities", {}).get(entity_name, {})
             sub_names = sub_polygons_config.get("sub_polygons", [])
             
             sub_placemarks = []
+            # Add parent placemark with entity name for cross-reference matching
+            parent_pm = make_placemark(
+                entity_name,
+                poly_data["coords"],
+                description=see_path,
+                style_url=style_id,
+            )
+            sub_placemarks.append(parent_pm)
             for sub_name in sub_names:
                 pm = make_placemark(
                     sub_name,

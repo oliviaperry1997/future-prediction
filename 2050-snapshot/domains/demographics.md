@@ -345,7 +345,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Life expectancy:** 83 (among the highest globally — universal healthcare, clean energy environment, strong public health infrastructure)
 - **Labor force participation:** 55% (UBI in Finland, Netherlands, Denmark; strong social safety nets; automation penetration high)
 - **Primary languages:** German, French, Dutch, English, Nordic languages (Swedish, Danish, Norwegian, Finnish, Icelandic)
-- **→ See KML: EU Core**
+- **→ See KML: European Core Federation**
 - → See transition doc: [demographics.md Driver 1](../../2026-2050-transition/demographics.md#driver-1-global-fertility-decline-and-population-aging)
 
 **India:**
