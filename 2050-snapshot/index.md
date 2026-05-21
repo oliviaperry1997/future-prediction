@@ -17,7 +17,7 @@ This document is the entry point for the 2050 milestone — a steady-state snaps
 | Domain | File | Status | Description |
 |--------|------|--------|-------------|
 | Borders & Geopolitics | domains/borders-geopolitics.md | ✅ Complete | Sovereign entities, territorial claims, power blocs |
-| Climate | domains/climate.md | ⬜ Pending | Climate system state, environmental changes, impacts |
+| Climate | domains/climate.md | ✅ Complete | Climate system state, environmental changes, impacts |
 | Technology | domains/technology.md | ⬜ Pending | Transformative technologies, societal impacts |
 
 ## See Also
