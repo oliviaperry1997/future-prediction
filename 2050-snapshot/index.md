@@ -22,6 +22,7 @@ This document is the entry point for the 2050 milestone — a steady-state snaps
 | Economy | domains/economy.md | ✅ Complete | Global economic structure, systems, trade blocs, labor/automation |
 | Demographics | domains/demographics.md | ✅ Complete | Population distributions, migration, urbanization, climate migration |
 | Culture | domains/culture.md | ✅ Complete | Ideological landscape, belief systems, cultural shifts, language shift |
+| KML Maps | kml/borders.kml | ✅ Generated | 2050 geopolitical boundaries and STEEP-domain overlay placemarks (borders, climate, technology, economy, demographics, culture) |
 
 ## See Also
 
