@@ -8,7 +8,7 @@ confidence: MEDIUM
 target_milestone: 2050
 falsifiable_statement: The United States will fragment into at least three successor states with de facto sovereignty by 2050. The "clean revolution" counter-scenario (nationwide revolutionary consolidation into a single socialist state) will not occur.
 domain: borders
-doc_ref: 2026-2050-transition/borders.md
+doc_ref: 2050-snapshot/domains/borders-geopolitics.md
 ---
 
 # US Fragmentation into 3+ Successor States (Counter-Scenario Does Not Occur)
