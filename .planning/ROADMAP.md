@@ -102,7 +102,19 @@ Plans:
   3. Each KML polygon entry includes a `See:` cross-reference back to the specific markdown section that justifies that boundary change
   4. All border descriptions in domain documents are consistent with KML map polygons (no border described in markdown that contradicts the map)
   5. 2050/index.md exists as a navigable entry point linking to all six domain documents and the KML map descriptions
-**Plans**: TBD
+**Plans**: 3 plans
+
+Plans:
+- [ ] 05-01-PLAN.md — KML Generation Script & Source Data Pipeline (Wave 1)
+- [ ] 05-02-PLAN.md — Generate All 6 KML Files (Wave 2)
+- [ ] 05-03-PLAN.md — Verification & Index Finalization (Wave 3)
+
+**Cross-cutting constraints:**
+- Plan 01 defines the generation script and config that Plans 02 and 03 depend on
+- Plan 02 is the core deliverable (all KML files)
+- Plan 03 has a human-verify checkpoint — user must open KMLs in Google Earth Pro
+- Per D-06: 2050 KMLs are separate files loaded alongside Earth Current.kml, not modifications of it
+- Per D-19: Programmatic generation with user refinement — script generates, user adjusts in Google Earth Pro
 
 ## Progress
 
@@ -114,4 +126,4 @@ Plans:
 | 2. 2026-2050 Transition | 0/4 | Ready to execute | - |
 | 3. 2050 Structural Snapshot | 0/0 | Not started | - |
 | 4. 2050 Socioeconomic Snapshot | 4/4 | Complete   | 2026-05-21 |
-| 5. 2050 KML Maps & Integration | 0/0 | Not started | - |
+| 5. 2050 KML Maps & Integration | 0/3 | Ready to plan | - |
