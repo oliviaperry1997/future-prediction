@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document xmlns:ns0="http://www.opengis.net/kml/2.2">
+    <name>2050 Economy</name>
+    <visibility>0</visibility>
+    <gx:CascadingStyle ns0:id="__managed_style_0000000000000016">
+      <Style>
+        <IconStyle>
+          <Icon>
+            <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+          </Icon>
+          <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+        </IconStyle>
+        <LabelStyle/>
+        <LineStyle>
+          <color>ff55b055</color>
+          <width>0.5</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>4055b055</color>
+        </PolyStyle>
+        <BalloonStyle>
+          <displayMode>hide</displayMode>
+        </BalloonStyle>
+      </Style>
+    </gx:CascadingStyle>
+    <gx:CascadingStyle ns0:id="__managed_style_0000000000000017">
+      <Style>
+        <IconStyle>
+          <Icon>
+            <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+          </Icon>
+          <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+        </IconStyle>
+        <LabelStyle/>
+        <LineStyle>
+          <color>ff55b055</color>
+          <width>1.0</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>4055b055</color>
+        </PolyStyle>
+        <BalloonStyle>
+          <displayMode>hide</displayMode>
+        </BalloonStyle>
+      </Style>
+    </gx:CascadingStyle>
+    <StyleMap ns0:id="__managed_style_0000000000000018">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#__managed_style_0000000000000016</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#__managed_style_0000000000000017</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Economy</name>
+      <Placemark>
+        <name>BRICS+ Financial Infrastructure</name>
+        <styleUrl>#__managed_style_0000000000000018</styleUrl>
+        <description>See: 2050-snapshot/domains/economy.md#brics-financial-infrastructure</description>
+        <Polygon>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>60.000000,-40.000000,0 160.000000,-40.000000,0 160.000000,60.000000,0 60.000000,60.000000,0 60.000000,-40.000000,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Trade Bloc Zones</name>
+        <styleUrl>#__managed_style_0000000000000018</styleUrl>
+        <description>See: 2050-snapshot/domains/economy.md#trade-blocs</description>
+        <Polygon>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>-180.000000,-90.000000,0 180.000000,-90.000000,0 180.000000,90.000000,0 -180.000000,90.000000,0 -180.000000,-90.000000,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Labor Market Zones</name>
+        <styleUrl>#__managed_style_0000000000000018</styleUrl>
+        <description>See: 2050-snapshot/domains/economy.md#labor--automation</description>
+        <Polygon>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>-180.000000,-90.000000,0 180.000000,-90.000000,0 180.000000,90.000000,0 -180.000000,90.000000,0 -180.000000,-90.000000,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -1,0 +1,976 @@
+{
+  "description": "2050 World Map — Entity and overlay configuration for KML generation. Per D-19 (programmatic generation) and D-04 (rough polygon overlays).",
+  "styles": {
+    "default-polygon": {
+      "lineColor": "ffb08155",
+      "lineWidth": 0.75,
+      "polyColor": "80b08155"
+    },
+    "overlay-zone": {
+      "lineColor": "ff55b0b0",
+      "lineWidth": 0.5,
+      "polyColor": "4055b0b0"
+    },
+    "indigenous-polygon": {
+      "lineColor": "ff55d455",
+      "lineWidth": 0.75,
+      "polyColor": "8055d455"
+    },
+    "reactionary-polygon": {
+      "lineColor": "ffb05555",
+      "lineWidth": 0.75,
+      "polyColor": "80b05555"
+    },
+    "fragmented-entity": {
+      "lineColor": "ffb0b055",
+      "lineWidth": 0.6,
+      "polyColor": "60b0b055"
+    },
+    "modification-2050": {
+      "lineColor": "ffff5555",
+      "lineWidth": 0.8,
+      "polyColor": "40ff5555"
+    },
+    "climate-overlay": {
+      "lineColor": "ff55b0b0",
+      "lineWidth": 0.5,
+      "polyColor": "4055b0b0"
+    },
+    "technology-overlay": {
+      "lineColor": "ffb055b0",
+      "lineWidth": 0.5,
+      "polyColor": "40b055b0"
+    },
+    "economy-overlay": {
+      "lineColor": "ff55b055",
+      "lineWidth": 0.5,
+      "polyColor": "4055b055"
+    },
+    "demographics-overlay": {
+      "lineColor": "ffb0b055",
+      "lineWidth": 0.5,
+      "polyColor": "40b0b055"
+    },
+    "culture-overlay": {
+      "lineColor": "ff55b0ff",
+      "lineWidth": 0.5,
+      "polyColor": "4055b0ff"
+    }
+  },
+  "folder_hierarchy": {
+    "North America": {
+      "Former United States": {
+        "Revolutionary States": [
+          "Pacific People's Republic",
+          "Northeast Corridor",
+          "Great Lakes People's Republic",
+          "Front Range Socialist Republic",
+          "Chicano Socialist Republic",
+          "Hawaiian Free State"
+        ],
+        "Indigenous Sovereign Nations": [
+          "Navajo Nation",
+          "Dakota/Lakota Nation",
+          "Sequoyan Nation",
+          "Alaska Indigenous Confederated Socialist Republic",
+          "Haudenosaunee Confederacy"
+        ],
+        "Reactionary States": [
+          "Gulf Compact",
+          "Atlantic South",
+          "Appalachian Zone",
+          "Heartland Plains",
+          "Mormon Corridor",
+          "Mountain Tapestry"
+        ],
+        "Degrading Rumps": [
+          "Anchorage Rump",
+          "Alaska Indigenous Territories"
+        ]
+      },
+      "Canada": [],
+      "Mexico": [],
+      "Caribbean": []
+    },
+    "South America": {
+      "Brazil": [],
+      "Argentina": [],
+      "Lithium Triangle": [],
+      "Andean States": []
+    },
+    "Europe": {
+      "European Core Federation": [],
+      "France": [],
+      "Germany": [],
+      "United Kingdom": [],
+      "Russia": [],
+      "Turkey": []
+    },
+    "Africa": {
+      "East African Federation": [],
+      "Confederation of Sahel States": [],
+      "Egypt": [],
+      "Nigeria": [],
+      "South Africa": []
+    },
+    "Asia": {
+      "China": [],
+      "India": [],
+      "Japan": [],
+      "Unified Korea": [],
+      "ASEAN": []
+    },
+    "West Asia": {
+      "Iran": [],
+      "Israel": [],
+      "Palestine": [],
+      "Saudi Arabia": [],
+      "Quartet": []
+    },
+    "Oceania": {
+      "Australia": [],
+      "New Zealand": [],
+      "Pacific Islands Forum": [],
+      "Guam / HFS Compact": []
+    },
+    "Polar Regions": {
+      "Arctic Governance Zone": [],
+      "Antarctica": []
+    },
+    "Orbital and Extraterrestrial": {
+      "Orbital Governance Regime": [],
+      "Lunar Zones": []
+    }
+  },
+  "entities": {
+    "Pacific People's Republic": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "county",
+      "counties": [
+        {"state": "CA", "county": ".*"},
+        {"state": "OR", "county": ".*"},
+        {"state": "WA", "county": ".*"},
+        {"state": "NV", "county": "Clark"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "pacific-peoples-republic",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#pacific-peoples-republic"
+    },
+    "Northeast Corridor": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "county",
+      "counties": [
+        {"state": "MA", "county": ".*"},
+        {"state": "RI", "county": ".*"},
+        {"state": "CT", "county": ".*"},
+        {"state": "NY", "county": ".*"},
+        {"state": "NJ", "county": ".*"},
+        {"state": "DE", "county": ".*"},
+        {"state": "MD", "county": ".*"},
+        {"state": "DC", "county": ".*"},
+        {"state": "NH", "county": ".*"},
+        {"state": "VT", "county": ".*"},
+        {"state": "ME", "county": ".*"},
+        {"state": "PA", "county": "^(?!Erie|Crawford|Mercer|Lawrence|Beaver|Washington|Greene|Fayette|Westmoreland|Indiana|Jefferson|Clearfield|Elk|McKean|Potter|Tioga|Bradford|Susquehanna|Wayne|Pike).*"},
+        {"state": "VA", "county": "^(Arlington|Fairfax|Loudoun|Prince William|Stafford|Spotsylvania|Fredericksburg|Alexandria|Falls Church|Manassas).*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "northeast-corridor",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#northeast-corridor"
+    },
+    "Great Lakes People's Republic": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "county",
+      "counties": [
+        {"state": "MI", "county": ".*"},
+        {"state": "OH", "county": ".*"},
+        {"state": "IN", "county": ".*"},
+        {"state": "IL", "county": ".*"},
+        {"state": "WI", "county": ".*"},
+        {"state": "MN", "county": ".*"},
+        {"state": "PA", "county": "^(Erie|Crawford|Mercer|Lawrence|Beaver|Washington|Greene|Fayette|Westmoreland|Indiana|Jefferson|Clearfield|Elk|McKean|Potter|Tioga|Bradford|Susquehanna|Wayne|Pike).*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "great-lakes-peoples-republic",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes-peoples-republic"
+    },
+    "Front Range Socialist Republic": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "county",
+      "counties": [
+        {"state": "CO", "county": "^(Denver|Adams|Arapahoe|Jefferson|Boulder|Larimer|Weld|Broomfield|Douglas|Elbert|El Paso).*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "front-range-socialist-republic",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#front-range-socialist-republic"
+    },
+    "Chicano Socialist Republic": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "county",
+      "counties": [
+        {"state": "AZ", "county": ".*"},
+        {"state": "NM", "county": ".*"},
+        {"state": "TX", "county": "^(El Paso|Hudspeth|Culberson|Jeff Davis|Presidio|Brewster|Terrell).*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "chicano-socialist-republic",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#chicano-socialist-republic"
+    },
+    "Hawaiian Free State": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "county",
+      "counties": [
+        {"state": "HI", "county": ".*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "hawaiian-free-state",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#hawaiian-free-state"
+    },
+    "Navajo Nation": {
+      "type": "entity",
+      "category": "indigenous",
+      "source": "county",
+      "counties": [
+        {"state": "AZ", "county": "^(Apache|Navajo|Coconino).*"},
+        {"state": "NM", "county": "^(McKinley|San Juan|Cibola).*"},
+        {"state": "UT", "county": "^(San Juan|Kane|Garfield).*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "navajo-nation",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#navajo-nation"
+    },
+    "Dakota/Lakota Nation": {
+      "type": "entity",
+      "category": "indigenous",
+      "source": "county",
+      "counties": [
+        {"state": "SD", "county": "^(Todd|Jackson|Bennett|Shannon|Oglala|Pine Ridge|Rosebud|Mellette|Tripp|Gregory|Lyman|Brule|Aurora|Charles Mix|Bon Homme|Yankton|Lake|Moody|Minnehaha|Lincoln|Turner|Hutchinson|Douglas|Hanson|McCook|Miner|Sanborn|Jerauld|Hand|Hyde|Buffalo|Stanley|Haakon|Jackson|Pennington|Custer|Fall River|Shannon|Bennett).*"},
+        {"state": "ND", "county": "^(Sioux|Grant|Morton|Mercer|Oliver|Burleigh|Kidder|Stutsman|Barnes|Cass|Traill|Grand Forks).*"},
+        {"state": "NE", "county": "^(Thurston|Dakota|Dixon|Cedar|Wayne).*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "dakota-lakota-nation",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#dakota-lakota-nation"
+    },
+    "Sequoyan Nation": {
+      "type": "entity",
+      "category": "indigenous",
+      "source": "county",
+      "counties": [
+        {"state": "OK", "county": "^(Adair|Cherokee|Delaware|Mayes|Rogers|Wagoner|Muskogee|Sequoyah).*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "sequoyan-nation",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#sequoyan-nation"
+    },
+    "Alaska Indigenous Confederated Socialist Republic": {
+      "type": "entity",
+      "category": "indigenous",
+      "source": "county",
+      "counties": [
+        {"state": "AK", "county": "^(Juneau|Skagway|Haines|Sitka|Petersburg|Wrangell|Ketchikan|Prince of Wales-Hyder|Hoonah-Angoon|Yakutat|Bristol Bay|Lake and Peninsula|Kodiak Island|Kenai Peninsula).*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "alaska-indigenous-confederated-socialist-republic",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#alaska-indigenous-confederated-socialist-republic"
+    },
+    "Haudenosaunee Confederacy": {
+      "type": "entity",
+      "category": "indigenous",
+      "source": "none",
+      "description": "Autonomous indigenous zone within NEC territory. No separate polygon — represented by a point marker within NEC territory.",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "haudenosaunee-confederacy",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#haudenosaunee-confederacy"
+    },
+    "Gulf Compact": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "county",
+      "counties": [
+        {"state": "TX", "county": "^(?!El Paso|Hudspeth|Culberson|Jeff Davis|Presidio|Brewster|Terrell|Hidalgo|Cameron|Willacy|Starr|Zapata|Jim Hogg|Brooks|Kenedy|Kleberg|Nueces|San Patricio|Aransas|Refugio|Bee|Live Oak|McMullen|Duval|Jim Wells|Goliad|Victoria|Calhoun|Jackson|Matagorda|Wharton|Fort Bend|Brazoria|Galveston|Chambers|Jefferson|Orange|Hardin|Liberty|Tyler|Jasper|Newton|Polk).*"},
+        {"state": "LA", "county": ".*"},
+        {"state": "MS", "county": ".*"},
+        {"state": "AL", "county": ".*"},
+        {"state": "FL", "county": "^(Escambia|Santa Rosa|Okaloosa|Walton|Holmes|Washington|Bay|Jackson|Calhoun|Gulf|Franklin|Gadsden|Liberty|Wakulla|Leon|Jefferson|Madison|Taylor|Lafayette|Suwannee|Hamilton|Columbia|Baker|Union|Bradford|Clay|Duval|Nassau).*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "gulf-compact",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#gulf-compact"
+    },
+    "Atlantic South": {
+      "type": "entity",
+      "category": "fragmented",
+      "source": "county",
+      "fragmented": true,
+      "sub_polygons": ["Research Triangle Area", "Atlanta Metro", "South Carolina Rural", "Georgia Rural", "Southern Virginia", "Interior Florida"],
+      "counties": [
+        {"state": "SC", "county": ".*"},
+        {"state": "GA", "county": ".*"},
+        {"state": "VA", "county": "^(?!Arlington|Fairfax|Loudoun|Prince William|Stafford|Spotsylvania|Fredericksburg|Alexandria|Falls Church|Manassas).*"},
+        {"state": "FL", "county": "^(Miami-Dade|Broward|Palm Beach|Orange|Seminole|Osceola|Lake|Volusia|Flagler|St. Johns|Putnam|Alachua|Marion|Citrus|Hernando|Pasco|Hillsborough|Pinellas|Manatee|Sarasota|Charlotte|Lee|Collier|Monroe).*"},
+        {"state": "NC", "county": ".*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "atlantic-south",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#atlantic-south"
+    },
+    "Appalachian Zone": {
+      "type": "entity",
+      "category": "fragmented",
+      "source": "county",
+      "fragmented": true,
+      "sub_polygons": ["Southern West Virginia Revolutionary", "Eastern Kentucky Revolutionary", "Tennessee Rump", "Kentucky Rump"],
+      "counties": [
+        {"state": "WV", "county": ".*"},
+        {"state": "KY", "county": ".*"},
+        {"state": "TN", "county": ".*"},
+        {"state": "VA", "county": "^(Buchanan|Wise|Dickenson|Lee|Scott|Washington|Russell|Tazewell|Smyth|Wythe|Bland|Carroll|Grayson|Galax|Bristol|Norton).*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "appalachian-zone",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#appalachian-zone"
+    },
+    "Heartland Plains": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "county",
+      "counties": [
+        {"state": "NE", "county": ".*"},
+        {"state": "KS", "county": ".*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "heartland-plains",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#heartland-plains"
+    },
+    "Mormon Corridor": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "county",
+      "counties": [
+        {"state": "UT", "county": ".*"},
+        {"state": "ID", "county": "^(Ada|Canyon|Gem|Payette|Washington|Owyhee|Elmore|Gooding|Jerome|Twin Falls|Cassia|Minidoka|Oneida|Power|Bannock|Caribou|Bear Lake|Franklin).*"},
+        {"state": "NV", "county": "^(White Pine|Lincoln|Nye|Esmeralda|Mineral|Lyon|Storey|Churchill|Pershing|Humboldt|Washoe).*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "mormon-corridor",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#mormon-corridor"
+    },
+    "Mountain Tapestry": {
+      "type": "entity",
+      "category": "fragmented",
+      "source": "county",
+      "fragmented": true,
+      "sub_polygons": ["Columbia Plateau Republic", "Idaho Central", "Montana Remnant", "Wyoming Remnant", "Nevada Rural"],
+      "counties": [
+        {"state": "WA", "county": "^(Adams|Asotin|Benton|Chelan|Columbia|Douglas|Ferry|Franklin|Garfield|Grant|Kittitas|Klickitat|Lincoln|Okanogan|Pend Oreille|Spokane|Stevens|Walla Walla|Whitman|Yakima).*"},
+        {"state": "OR", "county": "^(Baker|Crook|Deschutes|Gilliam|Grant|Harney|Hood River|Jefferson|Klamath|Lake|Malheur|Morrow|Sherman|Umatilla|Union|Wallowa|Wasco|Wheeler).*"},
+        {"state": "ID", "county": "^(?!Ada|Canyon|Gem|Payette|Washington|Owyhee|Elmore|Gooding|Jerome|Twin Falls|Cassia|Minidoka|Oneida|Power|Bannock|Caribou|Bear Lake|Franklin).*"},
+        {"state": "MT", "county": ".*"},
+        {"state": "WY", "county": ".*"},
+        {"state": "CO", "county": "^(?!Denver|Adams|Arapahoe|Jefferson|Boulder|Larimer|Weld|Broomfield|Douglas|Elbert|El Paso).*"},
+        {"state": "NV", "county": "^(?!Clark|White Pine|Lincoln|Nye|Esmeralda|Mineral|Lyon|Storey|Churchill|Pershing|Humboldt|Washoe).*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "mountain-tapestry",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#mountain-tapestry"
+    },
+    "Anchorage Rump": {
+      "type": "entity",
+      "category": "degrading",
+      "source": "county",
+      "counties": [
+        {"state": "AK", "county": "^(Anchorage|Matanuska-Susitna|Kenai Peninsula|Valdez-Cordova).*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "anchorage-rump",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#anchorage-rump"
+    },
+    "Alaska Indigenous Territories": {
+      "type": "entity",
+      "category": "degrading",
+      "source": "county",
+      "counties": [
+        {"state": "AK", "county": "^(?!Anchorage|Matanuska-Susitna|Kenai Peninsula|Valdez-Cordova|Juneau|Skagway|Haines|Sitka|Petersburg|Wrangell|Ketchikan|Prince of Wales-Hyder|Hoonah-Angoon|Yakutat|Bristol Bay|Lake and Peninsula|Kodiak Island).*"}
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "alaska-indigenous-territories",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#alaska-indigenous-territories"
+    },
+    "Canada": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "CAN",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "canada",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#canada"
+    },
+    "Mexico": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "MEX",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "mexico",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#mexico"
+    },
+    "Caribbean": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "country_codes": ["CUB", "HTI", "DOM", "JAM", "BHS", "TTO", "BRB", "GRD", "VCT", "LCA", "DMA", "KNA", "ATG", "PRI"],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "caribbean",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#caribbean"
+    },
+    "Brazil": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "BRA",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "brazil",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#brazil"
+    },
+    "Argentina": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "ARG",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "argentina",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#argentina"
+    },
+    "Lithium Triangle": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "country_codes": ["CHL", "BOL", "ARG"],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "lithium-triangle",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#lithium-triangle"
+    },
+    "Andean States": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "country_codes": ["COL", "PER", "ECU", "VEN"],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "andean-states",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#andean-states"
+    },
+    "European Core Federation": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "country_codes": ["FIN", "SWE", "NOR", "DNK", "ISL", "NLD", "BEL", "LUX", "HUN", "SVN", "EST", "LVA", "LTU"],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "eu-core-federation",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#eu-core-federation"
+    },
+    "France": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "FRA",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "france",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#france"
+    },
+    "Germany": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "DEU",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "germany",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#germany"
+    },
+    "United Kingdom": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "GBR",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "united-kingdom",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#united-kingdom"
+    },
+    "Russia": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "RUS",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "russia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#russia"
+    },
+    "Turkey": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "TUR",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "turkey",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#turkey"
+    },
+    "East African Federation": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "country_codes": ["KEN", "UGA", "TZA", "RWA", "BDI", "SSD", "COD", "SOM"],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "east-african-federation",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#east-african-federation"
+    },
+    "Confederation of Sahel States": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "country_codes": ["MLI", "BFA", "NER"],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "confederation-of-sahel-states",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#confederation-of-sahel-states"
+    },
+    "Egypt": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "EGY",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "egypt",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#egypt"
+    },
+    "Nigeria": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "NGA",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "nigeria",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#nigeria"
+    },
+    "South Africa": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "ZAF",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "south-africa",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#south-africa"
+    },
+    "China": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "CHN",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "china",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#china"
+    },
+    "India": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "IND",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "india",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#india"
+    },
+    "Japan": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "JPN",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "japan",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#japan"
+    },
+    "Unified Korea": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "country_codes": ["KOR", "PRK"],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "korea-unified",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#korea-unified"
+    },
+    "ASEAN": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "country_codes": ["IDN", "MYS", "PHL", "SGP", "THA", "VNM", "MMR", "KHM", "LAO", "BRN"],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "asean",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#asean"
+    },
+    "Iran": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "IRN",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "iran",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#iran"
+    },
+    "Israel": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "ISR",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "israel",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#israel"
+    },
+    "Palestine": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "PSE",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "palestine",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#palestine"
+    },
+    "Saudi Arabia": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "SAU",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "saudi-arabia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#saudi-arabia"
+    },
+    "Quartet": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "country_codes": ["TUR", "SAU", "EGY", "PAK"],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "quartet",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#quartet"
+    },
+    "Australia": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "AUS",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "australia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#australia"
+    },
+    "New Zealand": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "NZL",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "new-zealand",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#new-zealand"
+    },
+    "Pacific Islands Forum": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "country_codes": ["FJI", "PNG", "SLB", "VUT", "WSM", "TON", "KIR", "TUV", "FSM", "MHL", "PLW", "NRU", "COK", "NIU"],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "pacific-islands",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#pacific-islands"
+    },
+    "Guam / HFS Compact": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "GUM",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "guam-hfs-compact",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#guam-hfs-compact"
+    },
+    "Arctic Governance Zone": {
+      "type": "entity",
+      "category": "global",
+      "source": "rough_polygon",
+      "description": "Multipolar governance framework for the Arctic region. See: 2050-snapshot/domains/borders-geopolitics.md#arctic",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "arctic",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#arctic",
+      "approximate_coords": [-180, 66, 180, 66, 180, 90, -180, 90]
+    },
+    "Antarctica": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "ATA",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "antarctica",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
+    },
+    "Orbital Governance Regime": {
+      "type": "entity",
+      "category": "global",
+      "source": "no_polygon",
+      "description": "Multipolar governance regime for orbital space. No terrestrial polygon — described in See: reference.",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "orbital-space",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#orbital-space"
+    },
+    "Lunar Zones": {
+      "type": "entity",
+      "category": "global",
+      "source": "no_polygon",
+      "description": "De facto Chinese-led ILRS zones on the Moon. No terrestrial polygon — described in See: reference.",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "moon",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#moon"
+    }
+  },
+  "fragmented_entities": {
+    "Atlantic South": {
+      "sub_polygons": [
+        "Research Triangle Area",
+        "Atlanta Metro",
+        "South Carolina Rural",
+        "Georgia Rural",
+        "Southern Virginia",
+        "Interior Florida"
+      ],
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#atlantic-south"
+    },
+    "Appalachian Zone": {
+      "sub_polygons": [
+        "Southern West Virginia Revolutionary",
+        "Eastern Kentucky Revolutionary",
+        "Tennessee Rump",
+        "Kentucky Rump"
+      ],
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#appalachian-zone"
+    },
+    "Mountain Tapestry": {
+      "sub_polygons": [
+        "Columbia Plateau Republic",
+        "Idaho Central",
+        "Montana Remnant",
+        "Wyoming Remnant",
+        "Nevada Rural"
+      ],
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#mountain-tapestry"
+    }
+  },
+  "domain_overlays": {
+    "climate": [
+      {
+        "name": "Arctic Permafrost Degradation Zone",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/climate.md#arctic",
+        "approximate_coords": [-180, 65, 180, 65, 180, 90, -180, 90]
+      },
+      {
+        "name": "Greenland Ice Sheet Retreat Zone",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/climate.md#greenland",
+        "approximate_coords": [-55, 60, -15, 60, -15, 85, -55, 85]
+      },
+      {
+        "name": "Glacier Mass Loss Extent",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/climate.md#glaciers",
+        "approximate_coords": [-180, -90, 180, -90, 180, 90, -180, 90]
+      },
+      {
+        "name": "Sea Level Impact Zones",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/climate.md#sea-level",
+        "approximate_coords": [-180, -90, 180, -90, 180, 90, -180, 90]
+      },
+      {
+        "name": "Extreme Heat Zones",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/climate.md#heatwaves",
+        "approximate_coords": [40, 10, 100, 10, 100, 40, 40, 40]
+      },
+      {
+        "name": "Fire Regime Shift",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/climate.md#wildfire",
+        "approximate_coords": [-130, 30, -100, 30, -100, 60, -130, 60]
+      },
+      {
+        "name": "Sahel Degradation Zone",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/climate.md#africa",
+        "approximate_coords": [-18, 10, 40, 10, 40, 20, -18, 20]
+      },
+      {
+        "name": "Extreme Heat — Persian Gulf",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/climate.md#west-asia--middle-east",
+        "approximate_coords": [40, 22, 60, 22, 60, 32, 40, 32]
+      },
+      {
+        "name": "Transboundary Water Conflict Basins",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/climate.md#water-scarcity",
+        "approximate_coords": [-180, -90, 180, -90, 180, 90, -180, 90]
+      },
+      {
+        "name": "Arctic Resource Zones",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/climate.md#arctic-resource-competition",
+        "approximate_coords": [-180, 66, 180, 66, 180, 90, -180, 90]
+      },
+      {
+        "name": "Desalination and Adaptation Infrastructure",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/climate.md#to-technology",
+        "approximate_coords": [-180, -90, 180, -90, 180, 90, -180, 90]
+      }
+    ],
+    "technology": [
+      {
+        "name": "PPR AI Regulation Zone",
+        "type": "entity_copy",
+        "source_entity": "Pacific People's Republic",
+        "description": "See: 2050-snapshot/domains/technology.md#ai-governance-regimes"
+      },
+      {
+        "name": "European AI Regulation Zone",
+        "type": "entity_copy",
+        "source_entity": "European Core Federation",
+        "description": "See: 2050-snapshot/domains/technology.md#ai-governance-regimes"
+      },
+      {
+        "name": "BRICS+ AI Deployment Zone",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#ai-governance-regimes",
+        "approximate_coords": [60, -40, 160, -40, 160, 60, 60, 60]
+      },
+      {
+        "name": "Reactionary AI Vacuum Zone",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#ai-governance-regimes",
+        "approximate_coords": [-100, 25, -75, 25, -75, 40, -100, 40]
+      },
+      {
+        "name": "AI Datacenter Concentration Zones",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#computational-infrastructure",
+        "approximate_coords": [-130, 32, -115, 32, -115, 50, -130, 50]
+      },
+      {
+        "name": "Revolutionary State Energy Systems",
+        "type": "entity_copy",
+        "source_entity": "Pacific People's Republic",
+        "description": "See: 2050-snapshot/domains/technology.md#energy-systems"
+      },
+      {
+        "name": "Reactionary State Energy Systems",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#energy-systems",
+        "approximate_coords": [-100, 25, -75, 25, -75, 40, -100, 40]
+      },
+      {
+        "name": "Grid Architecture Zones",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#grid-architecture",
+        "approximate_coords": [-130, 30, -70, 30, -70, 50, -130, 50]
+      },
+      {
+        "name": "Gene Editing Governance Zones",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#biotechnology--healthcare",
+        "approximate_coords": [-180, -90, 180, -90, 180, 90, -180, 90]
+      },
+      {
+        "name": "Healthcare System Types",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#health-system-divergence",
+        "approximate_coords": [-180, -90, 180, -90, 180, 90, -180, 90]
+      },
+      {
+        "name": "Information Sovereignty Zones",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#internet-fragmentation",
+        "approximate_coords": [-180, -90, 180, -90, 180, 90, -180, 90]
+      },
+      {
+        "name": "Communication Infrastructure Types",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#communication-infrastructure",
+        "approximate_coords": [-180, -90, 180, -90, 180, 90, -180, 90]
+      },
+      {
+        "name": "Orbital Habitation Zones",
+        "type": "no_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#commercial-space-stations-and-habitats"
+      },
+      {
+        "name": "Lunar Zones",
+        "type": "no_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#lunar-presence"
+      },
+      {
+        "name": "Satellite Infrastructure Coverage",
+        "type": "no_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#satellite-infrastructure"
+      },
+      {
+        "name": "Cislunar Logistics Governance",
+        "type": "no_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#orbital-territory-and-governance"
+      },
+      {
+        "name": "Arctic Shipping Routes",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#maritime-shipping",
+        "approximate_coords": [-180, 66, 180, 66, 180, 90, -180, 90]
+      },
+      {
+        "name": "Supply Chain Blocs",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/technology.md#supply-chain-reconfiguration",
+        "approximate_coords": [-180, -90, 180, -90, 180, 90, -180, 90]
+      }
+    ],
+    "economy": [
+      {
+        "name": "BRICS+ Financial Infrastructure",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/economy.md#brics-financial-infrastructure",
+        "approximate_coords": [60, -40, 160, -40, 160, 60, 60, 60]
+      },
+      {
+        "name": "Trade Bloc Zones",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/economy.md#trade-blocs",
+        "approximate_coords": [-180, -90, 180, -90, 180, 90, -180, 90]
+      },
+      {
+        "name": "Labor Market Zones",
+        "type": "rough_polygon",
+        "description": "See: 2050-snapshot/domains/economy.md#labor--automation",
+        "approximate_coords": [-180, -90, 180, -90, 180, 90, -180, 90]
+      }
+    ],
+    "demographics": [],
+    "culture": []
+  },
+  "modifications_2050": {
+    "Palestine": {
+      "type": "new_entity_polygon",
+      "description": "New sovereign entity replacing West Bank/Gaza with corridor connecting to Lebanon. Approximate coordinates — to be refined in Google Earth Pro per D-04.",
+      "approximate_coords": [34.0, 31.0, 35.5, 31.0, 35.5, 33.0, 34.0, 33.0],
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#israel"
+    },
+    "Israel": {
+      "type": "contracted_entity",
+      "description": "Israel contracted to coastal rump state ~8,000-10,000 sq km from Haifa to Ashkelon. Approximate bounding polygon — to be refined.",
+      "approximate_coords": [34.5, 31.2, 35.0, 31.2, 35.0, 33.0, 34.5, 33.0],
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#israel"
+    }
+  }
+}
