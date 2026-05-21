@@ -4,14 +4,14 @@ milestone: v1.0
 milestone_name: milestone
 status: executing
 stopped_at: Phase 5 plans created
-last_updated: "2026-05-21T21:54:40.633Z"
+last_updated: "2026-05-21T22:00:08.953Z"
 last_activity: 2026-05-21
 progress:
   total_phases: 5
   completed_phases: 4
   total_plans: 17
-  completed_plans: 15
-  percent: 88
+  completed_plans: 16
+  percent: 94
 ---
 
 # Project State
@@ -26,11 +26,11 @@ See: .planning/PROJECT.md (updated 2026-05-19)
 ## Current Position
 
 Phase: 05 (2050-kml-maps-integration) — EXECUTING
-Plan: 2 of 3
+Plan: 3 of 3
 Status: Ready to execute
 Last activity: 2026-05-21
 
-Progress: [█████████░] 88%
+Progress: [█████████░] 94%
 
 ## Performance Metrics
 
@@ -57,6 +57,7 @@ Progress: [█████████░] 88%
 
 *Updated after each plan completion*
 | Phase 05-2050-kml-maps-integration P01 | 5m35s | 2 tasks | 10 files |
+| Phase 05-2050-kml-maps-integration PP02 | 8m30s | 2 tasks | 11 files |
 
 ## Accumulated Context
 
@@ -82,6 +83,9 @@ Phase 1 locked decisions from discuss-phase (see `01-CONTEXT.md` for full detail
 | D-14 | Dataview + manual review for cross-domain consistency | Consistency |
 
 - [Phase ?]: Used Natural Earth 1:110m countries for global boundaries (GeoJSON -> ogr2ogr KML)
+- [Phase 05]: Added parent entity placemark inside fragmented entity folders for See KML resolution
+- [Phase 05]: Added entity_copy overlays for fragmented entities in economy, demographics, culture domains
+- [Phase 05]: Reconciled domain doc See KML marker names with actual KML entity names (6 fixes)
 
 ### Pending Todos
 
@@ -99,6 +103,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-21T21:53:38.452Z
+Last session: 2026-05-21T22:00:02.430Z
 Stopped at: Phase 5 plans created
 Resume file: None

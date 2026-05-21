@@ -106,7 +106,7 @@ Plans:
 
 Plans:
 - [x] 05-01-PLAN.md — KML Generation Script & Source Data Pipeline (Wave 1)
-- [ ] 05-02-PLAN.md — Generate All 6 KML Files (Wave 2)
+- [x] 05-02-PLAN.md — Generate All 6 KML Files (Wave 2)
 - [ ] 05-03-PLAN.md — Verification & Index Finalization (Wave 3)
 
 **Cross-cutting constraints:**
