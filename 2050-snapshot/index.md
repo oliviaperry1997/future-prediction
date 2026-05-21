@@ -20,6 +20,7 @@ This document is the entry point for the 2050 milestone — a steady-state snaps
 | Climate | domains/climate.md | ✅ Complete | Climate system state, environmental changes, impacts |
 | Technology | domains/technology.md | ✅ Complete | Transformative technologies, societal impacts |
 | Economy | domains/economy.md | ✅ Complete | Global economic structure, systems, trade blocs, labor/automation |
+| Demographics | domains/demographics.md | ✅ Complete | Population distributions, migration, urbanization, climate migration |
 
 ## See Also
 
