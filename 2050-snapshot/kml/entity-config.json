@@ -524,7 +524,7 @@
       "type": "entity",
       "category": "global",
       "source": "group",
-      "country_codes": ["KEN", "UGA", "TZA", "RWA", "BDI", "SSD", "COD", "SOM"],
+      "country_codes": ["KEN", "UGA", "TZA", "RWA", "BDI", "SDS", "COD", "SOM"],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "east-african-federation",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#east-african-federation"
@@ -632,7 +632,7 @@
       "type": "entity",
       "category": "global",
       "source": "country",
-      "country_code": "PSE",
+      "country_code": "PSX",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "palestine",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#palestine"

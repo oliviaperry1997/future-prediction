@@ -195,20 +195,23 @@ def read_global_kml(path):
         
         # Get polygon geometry
         geom = None
-        polygon_el = pm.find(".//kml:Polygon", NSMAP)
-        if polygon_el is not None:
-            geom = parse_kml_polygon(polygon_el)
+        # Check for MultiGeometry first — when both Polygon and MultiGeometry
+        # exist (e.g., China, Russia, Canada), MultiGeometry has ALL polygons
+        # while a bare Polygon may only contain a tiny island.
+        multi_geom = pm.find(".//kml:MultiGeometry", NSMAP)
+        if multi_geom is not None:
+            polygons = []
+            for poly_el in multi_geom.findall("kml:Polygon", NSMAP):
+                g = parse_kml_polygon(poly_el)
+                if g is not None:
+                    polygons.append(g)
+            if polygons:
+                geom = MultiPolygon(polygons) if len(polygons) > 1 else polygons[0]
         else:
-            # Check for MultiGeometry
-            multi_geom = pm.find(".//kml:MultiGeometry", NSMAP)
-            if multi_geom is not None:
-                polygons = []
-                for poly_el in multi_geom.findall("kml:Polygon", NSMAP):
-                    g = parse_kml_polygon(poly_el)
-                    if g is not None:
-                        polygons.append(g)
-                if polygons:
-                    geom = MultiPolygon(polygons) if len(polygons) > 1 else polygons[0]
+            # No MultiGeometry — check for single Polygon
+            polygon_el = pm.find("kml:Polygon", NSMAP)
+            if polygon_el is not None:
+                geom = parse_kml_polygon(polygon_el)
         
         if geom is None:
             continue
@@ -270,11 +273,13 @@ def merge_polygons(geometries):
         return valid[0]
 
 
-def simplify_polygon(geom, tolerance=0.02):
+def simplify_polygon(geom, tolerance=0.01):
     """
     Douglas-Peucker simplification.
-    tolerance=0.02 degrees ≈ ~2.2km at mid-latitudes.
+    tolerance=0.01 degrees ≈ ~1.1km at mid-latitudes.
     Per D-16: target 5-20km vertex spacing.
+    With 1:10m/1:500k source data, 0.01 preserves sufficient detail
+    while keeping KML files at manageable size (~5-20km effective spacing).
     """
     if geom is None:
         return None
@@ -595,7 +600,7 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code):
             
             merged = merge_polygons(matches)
             if merged is not None:
-                simplified = simplify_polygon(merged, tolerance=0.02)
+                simplified = simplify_polygon(merged, tolerance=0.01)
                 coords = geom_to_coords(simplified)
                 if coords:
                     entity_polygons[entity_name] = {
@@ -612,7 +617,7 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code):
             geom = global_by_code.get(country_code)
             
             if geom is not None:
-                simplified = simplify_polygon(geom, tolerance=0.02)
+                simplified = simplify_polygon(geom, tolerance=0.01)
                 coords = geom_to_coords(simplified)
                 if coords:
                     entity_polygons[entity_name] = {
@@ -636,7 +641,7 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code):
             
             merged = merge_polygons(geoms)
             if merged is not None:
-                simplified = simplify_polygon(merged, tolerance=0.02)
+                simplified = simplify_polygon(merged, tolerance=0.01)
                 coords = geom_to_coords(simplified)
                 if coords:
                     entity_polygons[entity_name] = {
@@ -974,8 +979,8 @@ def main():
     
     # Read source data
     script_dir = os.path.dirname(__file__)
-    county_path = os.path.join(script_dir, SOURCE_DIR, "us-counties.kml")
-    global_path = os.path.join(script_dir, SOURCE_DIR, "global-countries.kml")
+    county_path = os.path.join(script_dir, SOURCE_DIR, "us-counties-500k.kml")
+    global_path = os.path.join(script_dir, SOURCE_DIR, "global-countries-10m.kml")
     
     if not os.path.exists(county_path):
         print(f"ERROR: County source not found: {county_path}")
