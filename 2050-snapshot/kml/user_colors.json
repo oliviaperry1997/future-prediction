@@ -1,0 +1,1304 @@
+{
+  "East African Federation": {
+    "hex": "#42a5f5",
+    "kml_fill": "80f5a542",
+    "kml_line": "fff5a542",
+    "width": 1.0
+  },
+  "Madagascar": {
+    "hex": "#e84f3f",
+    "kml_fill": "803f4fe8",
+    "kml_line": "ff3f4fe8",
+    "width": 1.0
+  },
+  "Malawi": {
+    "hex": "#bd2d2f",
+    "kml_fill": "802f2dbd",
+    "kml_line": "ff2f2dbd",
+    "width": 1.0
+  },
+  "Mozambique": {
+    "hex": "#306f67",
+    "kml_fill": "80676f30",
+    "kml_line": "ff676f30",
+    "width": 1.0
+  },
+  "Zambia": {
+    "hex": "#418825",
+    "kml_fill": "80258841",
+    "kml_line": "ff258841",
+    "width": 1.0
+  },
+  "Zimbabwe": {
+    "hex": "#cc3725",
+    "kml_fill": "802537cc",
+    "kml_line": "ff2537cc",
+    "width": 1.0
+  },
+  "Angola": {
+    "hex": "#a02015",
+    "kml_fill": "801520a0",
+    "kml_line": "ff1520a0",
+    "width": 1.0
+  },
+  "Cameroon": {
+    "hex": "#347860",
+    "kml_fill": "80607834",
+    "kml_line": "ff607834",
+    "width": 1.0
+  },
+  "Central African Republic": {
+    "hex": "#c12d3a",
+    "kml_fill": "803a2dc1",
+    "kml_line": "ff3a2dc1",
+    "width": 1.0
+  },
+  "Chad": {
+    "hex": "#d4c45d",
+    "kml_fill": "805dc4d4",
+    "kml_line": "ff5dc4d4",
+    "width": 1.0
+  },
+  "Congo": {
+    "hex": "#ca392c",
+    "kml_fill": "802c39ca",
+    "kml_line": "ff2c39ca",
+    "width": 1.0
+  },
+  "Equatorial Guinea": {
+    "hex": "#4499c5",
+    "kml_fill": "80c59944",
+    "kml_line": "ffc59944",
+    "width": 1.0
+  },
+  "Gabon": {
+    "hex": "#f5d34b",
+    "kml_fill": "804bd3f5",
+    "kml_line": "ff4bd3f5",
+    "width": 1.0
+  },
+  "São Tomé and Príncipe": {
+    "hex": "#da3251",
+    "kml_fill": "805132da",
+    "kml_line": "ff5132da",
+    "width": 1.0
+  },
+  "Algeria": {
+    "hex": "#286038",
+    "kml_fill": "80386028",
+    "kml_line": "ff386028",
+    "width": 1.0
+  },
+  "Egypt": {
+    "hex": "#b99530",
+    "kml_fill": "803095b9",
+    "kml_line": "ff3095b9",
+    "width": 1.0
+  },
+  "Libya": {
+    "hex": "#4aa45a",
+    "kml_fill": "805aa44a",
+    "kml_line": "ff5aa44a",
+    "width": 1.0
+  },
+  "Morocco": {
+    "hex": "#b13634",
+    "kml_fill": "803436b1",
+    "kml_line": "ff3436b1",
+    "width": 1.0
+  },
+  "Sudan": {
+    "hex": "#307032",
+    "kml_fill": "80327030",
+    "kml_line": "ff327030",
+    "width": 1.0
+  },
+  "Tunisia": {
+    "hex": "#d42d26",
+    "kml_fill": "80262dd4",
+    "kml_line": "ff262dd4",
+    "width": 1.0
+  },
+  "Botswana": {
+    "hex": "#80a8d7",
+    "kml_fill": "80d7a880",
+    "kml_line": "ffd7a880",
+    "width": 1.0
+  },
+  "Eswatini": {
+    "hex": "#445db3",
+    "kml_fill": "80b35d44",
+    "kml_line": "ffb35d44",
+    "width": 1.0
+  },
+  "Namibia": {
+    "hex": "#c0fd82",
+    "kml_fill": "8082fdc0",
+    "kml_line": "ff82fdc0",
+    "width": 1.0
+  },
+  "South Africa": {
+    "hex": "#ef8b34",
+    "kml_fill": "80348bef",
+    "kml_line": "ff348bef",
+    "width": 1.0
+  },
+  "Ghana": {
+    "hex": "#bd2d2f",
+    "kml_fill": "802f2dbd",
+    "kml_line": "ff2f2dbd",
+    "width": 1.0
+  },
+  "Senegambia": {
+    "hex": "#d0352f",
+    "kml_fill": "802f35d0",
+    "kml_line": "ff2f35d0",
+    "width": 1.0
+  },
+  "Cabo Verde": {
+    "hex": "#44D299",
+    "kml_fill": "8099d244",
+    "kml_line": "ff99d244",
+    "width": 1.0
+  },
+  "Côte d'Ivoire": {
+    "hex": "#e78531",
+    "kml_fill": "803185e7",
+    "kml_line": "ff3185e7",
+    "width": 1.0
+  },
+  "Antigua and Barb.": {
+    "hex": "#35404f",
+    "kml_fill": "804f4035",
+    "kml_line": "ff4f4035",
+    "width": 1.0
+  },
+  "Bahamas": {
+    "hex": "#4ca7c5",
+    "kml_fill": "80c5a74c",
+    "kml_line": "ffc5a74c",
+    "width": 1.0
+  },
+  "Barbados": {
+    "hex": "#1c30c0",
+    "kml_fill": "80c0301c",
+    "kml_line": "ffc0301c",
+    "width": 1.0
+  },
+  "Cuba": {
+    "hex": "#c26a8e",
+    "kml_fill": "808e6ac2",
+    "kml_line": "ff8e6ac2",
+    "width": 1.0
+  },
+  "Dominica": {
+    "hex": "#888696",
+    "kml_fill": "80968688",
+    "kml_line": "ff968688",
+    "width": 1.0
+  },
+  "Dominican Rep.": {
+    "hex": "#ea3327",
+    "kml_fill": "802733ea",
+    "kml_line": "ff2733ea",
+    "width": 1.0
+  },
+  "Grenada": {
+    "hex": "#c15525",
+    "kml_fill": "802555c1",
+    "kml_line": "ff2555c1",
+    "width": 1.0
+  },
+  "Haiti": {
+    "hex": "#081e99",
+    "kml_fill": "80991e08",
+    "kml_line": "ff991e08",
+    "width": 1.0
+  },
+  "Jamaica": {
+    "hex": "#9dda45",
+    "kml_fill": "8045da9d",
+    "kml_line": "ff45da9d",
+    "width": 1.0
+  },
+  "Puerto Rico": {
+    "hex": "#3A5EAB",
+    "kml_fill": "80ab5e3a",
+    "kml_line": "ffab5e3a",
+    "width": 1.0
+  },
+  "St. Kitts and Nevis": {
+    "hex": "#995733",
+    "kml_fill": "80335799",
+    "kml_line": "ff335799",
+    "width": 1.0
+  },
+  "Saint Lucia": {
+    "hex": "#416da5",
+    "kml_fill": "80a56d41",
+    "kml_line": "ffa56d41",
+    "width": 1.0
+  },
+  "St. Vin. and Gren.": {
+    "hex": "#94d0c8",
+    "kml_fill": "80c8d094",
+    "kml_line": "ffc8d094",
+    "width": 1.0
+  },
+  "Trinidad and Tobago": {
+    "hex": "#4b1f50",
+    "kml_fill": "80501f4b",
+    "kml_line": "ff501f4b",
+    "width": 1.0
+  },
+  "Belize": {
+    "hex": "#bd2d2f",
+    "kml_fill": "802f2dbd",
+    "kml_line": "ff2f2dbd",
+    "width": 1.0
+  },
+  "Chicano Socialist Republic": {
+    "hex": "#beca6c",
+    "kml_fill": "806ccabe",
+    "kml_line": "ff6ccabe",
+    "width": 1.0
+  },
+  "Costa Rica": {
+    "hex": "#94813a",
+    "kml_fill": "803a8194",
+    "kml_line": "ff3a8194",
+    "width": 1.0
+  },
+  "El Salvador": {
+    "hex": "#2045a9",
+    "kml_fill": "80a94520",
+    "kml_line": "ffa94520",
+    "width": 1.0
+  },
+  "Guatemala": {
+    "hex": "#5d95cb",
+    "kml_fill": "80cb955d",
+    "kml_line": "ffcb955d",
+    "width": 1.0
+  },
+  "Honduras": {
+    "hex": "#63ac7a",
+    "kml_fill": "807aac63",
+    "kml_line": "ff7aac63",
+    "width": 1.0
+  },
+  "Mexico": {
+    "hex": "#296144",
+    "kml_fill": "80446129",
+    "kml_line": "ff446129",
+    "width": 1.0
+  },
+  "Nicaragua": {
+    "hex": "#99b2bd",
+    "kml_fill": "80bdb299",
+    "kml_line": "ffbdb299",
+    "width": 1.0
+  },
+  "Panama": {
+    "hex": "#21518e",
+    "kml_fill": "808e5121",
+    "kml_line": "ff8e5121",
+    "width": 1.0
+  },
+  "Anchorage Rump": {
+    "hex": "#100853",
+    "kml_fill": "80530810",
+    "kml_line": "ff530810",
+    "width": 1.0
+  },
+  "Alaska Indigenous Territories": {
+    "hex": "#eb5f2f",
+    "kml_fill": "802f5feb",
+    "kml_line": "ff2f5feb",
+    "width": 1.0
+  },
+  "Appalachian Zone": {
+    "hex": "#ffffff",
+    "kml_fill": "80ffffff",
+    "kml_line": "ff2dc0fb",
+    "width": 1.0
+  },
+  "Atlantic South": {
+    "hex": "#ffffff",
+    "kml_fill": "80ffffff",
+    "kml_line": "ff2dc0fb",
+    "width": 1.0
+  },
+  "Canada": {
+    "hex": "#904438",
+    "kml_fill": "80384490",
+    "kml_line": "ff384490",
+    "width": 1.0
+  },
+  "Front Range Socialist Republic": {
+    "hex": "#161e5b",
+    "kml_fill": "805b1e16",
+    "kml_line": "ff5b1e16",
+    "width": 1.0
+  },
+  "Greenland": {
+    "hex": "#5eb357",
+    "kml_fill": "8057b35e",
+    "kml_line": "ff57b35e",
+    "width": 1.0
+  },
+  "Gulf Compact": {
+    "hex": "#b0341a",
+    "kml_fill": "801a34b0",
+    "kml_line": "ff1a34b0",
+    "width": 1.0
+  },
+  "Heartland Plains": {
+    "hex": "#e6a816",
+    "kml_fill": "8016a8e6",
+    "kml_line": "ff16a8e6",
+    "width": 1.0
+  },
+  "Mountain Tapestry": {
+    "hex": "#ffffff",
+    "kml_fill": "80ffffff",
+    "kml_line": "ff2dc0fb",
+    "width": 1.0
+  },
+  "Nevada Rural": {
+    "hex": "#ffffff",
+    "kml_fill": "80ffffff",
+    "kml_line": "ff2dc0fb",
+    "width": 1.0
+  },
+  "Northeast Corridor": {
+    "hex": "#c67dac",
+    "kml_fill": "80ac7dc6",
+    "kml_line": "ffac7dc6",
+    "width": 1.0
+  },
+  "Sequoyah": {
+    "hex": "#cccce3",
+    "kml_fill": "80e3cccc",
+    "kml_line": "ffe3cccc",
+    "width": 1.0
+  },
+  "Mormon Corridor": {
+    "hex": "#b7642a",
+    "kml_fill": "802a64b7",
+    "kml_line": "ff2a64b7",
+    "width": 1.0
+  },
+  "Argentina": {
+    "hex": "#7cb2e9",
+    "kml_fill": "80e9b27c",
+    "kml_line": "ffe9b27c",
+    "width": 1.0
+  },
+  "Bolivia": {
+    "hex": "#55a988",
+    "kml_fill": "8088a955",
+    "kml_line": "ff88a955",
+    "width": 1.0
+  },
+  "Brazil": {
+    "hex": "#41924a",
+    "kml_fill": "804a9241",
+    "kml_line": "ff4a9241",
+    "width": 1.0
+  },
+  "Chile": {
+    "hex": "#cf4a3b",
+    "kml_fill": "803b4acf",
+    "kml_line": "ff3b4acf",
+    "width": 1.0
+  },
+  "Colombia": {
+    "hex": "#f6c645",
+    "kml_fill": "8045c6f6",
+    "kml_line": "ff45c6f6",
+    "width": 1.0
+  },
+  "Ecuador": {
+    "hex": "#be923c",
+    "kml_fill": "803c92be",
+    "kml_line": "ff3c92be",
+    "width": 1.0
+  },
+  "Falkland Islands": {
+    "hex": "#ffffff",
+    "kml_fill": "80ffffff",
+    "kml_line": "ff2dc0fb",
+    "width": 1.0
+  },
+  "Guyana": {
+    "hex": "#f5d34b",
+    "kml_fill": "804bd3f5",
+    "kml_line": "ff4bd3f5",
+    "width": 1.0
+  },
+  "Paraguay": {
+    "hex": "#5c91f7",
+    "kml_fill": "80f7915c",
+    "kml_line": "fff7915c",
+    "width": 1.0
+  },
+  "Peru": {
+    "hex": "#c3884c",
+    "kml_fill": "804c88c3",
+    "kml_line": "ff4c88c3",
+    "width": 1.0
+  },
+  "South Georgia": {
+    "hex": "#ffffff",
+    "kml_fill": "80ffffff",
+    "kml_line": "ff2dc0fb",
+    "width": 1.0
+  },
+  "Suriname": {
+    "hex": "#a52432",
+    "kml_fill": "803224a5",
+    "kml_line": "ff3224a5",
+    "width": 1.0
+  },
+  "Uruguay": {
+    "hex": "#2748f1",
+    "kml_fill": "80f14827",
+    "kml_line": "fff14827",
+    "width": 1.0
+  },
+  "Venezuela": {
+    "hex": "#a13e52",
+    "kml_fill": "80523ea1",
+    "kml_line": "ff523ea1",
+    "width": 1.0
+  },
+  "Antarctica": {
+    "hex": "#1f2d4a",
+    "kml_fill": "804a2d1f",
+    "kml_line": "ff4a2d1f",
+    "width": 1.0
+  },
+  "Kazakhstan": {
+    "hex": "#57bbe4",
+    "kml_fill": "80e4bb57",
+    "kml_line": "ffe4bb57",
+    "width": 1.0
+  },
+  "Kyrgyzstan": {
+    "hex": "#c1a23e",
+    "kml_fill": "803ea2c1",
+    "kml_line": "ff3ea2c1",
+    "width": 1.0
+  },
+  "Tajikistan": {
+    "hex": "#4f744b",
+    "kml_fill": "804b744f",
+    "kml_line": "ff4b744f",
+    "width": 1.0
+  },
+  "Turkmenistan": {
+    "hex": "#f2a35a",
+    "kml_fill": "805aa3f2",
+    "kml_line": "ff5aa3f2",
+    "width": 1.0
+  },
+  "Uzbekistan": {
+    "hex": "#724ba9",
+    "kml_fill": "80a94b72",
+    "kml_line": "ffa94b72",
+    "width": 1.0
+  },
+  "China": {
+    "hex": "#ca361e",
+    "kml_fill": "801e36ca",
+    "kml_line": "ff1e36ca",
+    "width": 1.0
+  },
+  "Taiwan": {
+    "hex": "#ca361e",
+    "kml_fill": "801e36ca",
+    "kml_line": "ff1e36ca",
+    "width": 1.0
+  },
+  "Japan": {
+    "hex": "#ef8784",
+    "kml_fill": "808487ef",
+    "kml_line": "ff8487ef",
+    "width": 1.0
+  },
+  "Mongolia": {
+    "hex": "#f2d146",
+    "kml_fill": "8046d1f2",
+    "kml_line": "ff46d1f2",
+    "width": 1.0
+  },
+  "North Korea": {
+    "hex": "#971d13",
+    "kml_fill": "80131d97",
+    "kml_line": "ff131d97",
+    "width": 1.0
+  },
+  "South Korea": {
+    "hex": "#123374",
+    "kml_fill": "80743312",
+    "kml_line": "ff743312",
+    "width": 1.0
+  },
+  "Belarus": {
+    "hex": "#a13a22",
+    "kml_fill": "80223aa1",
+    "kml_line": "ff223aa1",
+    "width": 1.0
+  },
+  "Bulgaria": {
+    "hex": "#429471",
+    "kml_fill": "80719442",
+    "kml_line": "ff719442",
+    "width": 1.0
+  },
+  "Czechia": {
+    "hex": "#6c639e",
+    "kml_fill": "809e636c",
+    "kml_line": "ff9e636c",
+    "width": 1.0
+  },
+  "Hungary": {
+    "hex": "#d2433b",
+    "kml_fill": "803b43d2",
+    "kml_line": "ff3b43d2",
+    "width": 1.0
+  },
+  "Moldova": {
+    "hex": "#ad7326",
+    "kml_fill": "802673ad",
+    "kml_line": "ff2673ad",
+    "width": 1.0
+  },
+  "Poland": {
+    "hex": "#ee7f8b",
+    "kml_fill": "808b7fee",
+    "kml_line": "ff8b7fee",
+    "width": 1.0
+  },
+  "Romania": {
+    "hex": "#d4c45d",
+    "kml_fill": "805dc4d4",
+    "kml_line": "ff5dc4d4",
+    "width": 1.0
+  },
+  "Russia": {
+    "hex": "#559731",
+    "kml_fill": "80319755",
+    "kml_line": "ff319755",
+    "width": 1.0
+  },
+  "Slovakia": {
+    "hex": "#db3832",
+    "kml_fill": "803238db",
+    "kml_line": "ff3238db",
+    "width": 1.0
+  },
+  "Ukraine": {
+    "hex": "#2458b3",
+    "kml_fill": "80b35824",
+    "kml_line": "ffb35824",
+    "width": 1.0
+  },
+  "Denmark": {
+    "hex": "#a62522",
+    "kml_fill": "802225a6",
+    "kml_line": "ff2225a6",
+    "width": 1.0
+  },
+  "Estonia": {
+    "hex": "#97cbf6",
+    "kml_fill": "80f6cb97",
+    "kml_line": "fff6cb97",
+    "width": 1.0
+  },
+  "Finland": {
+    "hex": "#dcebe7",
+    "kml_fill": "80e7ebdc",
+    "kml_line": "ffe7ebdc",
+    "width": 1.0
+  },
+  "Iceland": {
+    "hex": "#6681b2",
+    "kml_fill": "80b28166",
+    "kml_line": "ffb28166",
+    "width": 1.0
+  },
+  "Ireland": {
+    "hex": "#469b65",
+    "kml_fill": "80659b46",
+    "kml_line": "ff659b46",
+    "width": 1.0
+  },
+  "Latvia": {
+    "hex": "#a4312a",
+    "kml_fill": "802a31a4",
+    "kml_line": "ff2a31a4",
+    "width": 1.0
+  },
+  "Lithuania": {
+    "hex": "#2c6847",
+    "kml_fill": "8047682c",
+    "kml_line": "ff47682c",
+    "width": 1.0
+  },
+  "Norway": {
+    "hex": "#bea3b7",
+    "kml_fill": "80b7a3be",
+    "kml_line": "ffb7a3be",
+    "width": 1.0
+  },
+  "Sweden": {
+    "hex": "#2533a0",
+    "kml_fill": "80a03325",
+    "kml_line": "ffa03325",
+    "width": 1.0
+  },
+  "United Kingdom": {
+    "hex": "#a92216",
+    "kml_fill": "801622a9",
+    "kml_line": "ff1622a9",
+    "width": 1.0
+  },
+  "Brunei": {
+    "hex": "#f5d34b",
+    "kml_fill": "804bd3f5",
+    "kml_line": "ff4bd3f5",
+    "width": 1.0
+  },
+  "Cambodia": {
+    "hex": "#a3203d",
+    "kml_fill": "803d20a3",
+    "kml_line": "ff3d20a3",
+    "width": 1.0
+  },
+  "East Timor": {
+    "hex": "#524366",
+    "kml_fill": "80664352",
+    "kml_line": "ff664352",
+    "width": 1.0
+  },
+  "Indonesia": {
+    "hex": "#be2c2b",
+    "kml_fill": "802b2cbe",
+    "kml_line": "ff2b2cbe",
+    "width": 1.0
+  },
+  "Laos": {
+    "hex": "#9e8ac5",
+    "kml_fill": "80c58a9e",
+    "kml_line": "ffc58a9e",
+    "width": 1.0
+  },
+  "Malaysia": {
+    "hex": "#ea5073",
+    "kml_fill": "807350ea",
+    "kml_line": "ff7350ea",
+    "width": 1.0
+  },
+  "Myanmar": {
+    "hex": "#84733b",
+    "kml_fill": "803b7384",
+    "kml_line": "ff3b7384",
+    "width": 1.0
+  },
+  "Philippines": {
+    "hex": "#1436a1",
+    "kml_fill": "80a13614",
+    "kml_line": "ffa13614",
+    "width": 1.0
+  },
+  "Singapore": {
+    "hex": "#9948a9",
+    "kml_fill": "80a94899",
+    "kml_line": "ffa94899",
+    "width": 1.0
+  },
+  "Thailand": {
+    "hex": "#709672",
+    "kml_fill": "80729670",
+    "kml_line": "ff729670",
+    "width": 1.0
+  },
+  "Vietnam": {
+    "hex": "#f5c044",
+    "kml_fill": "8044c0f5",
+    "kml_line": "ff44c0f5",
+    "width": 1.0
+  },
+  "Afghanistan": {
+    "hex": "#f0f0f0",
+    "kml_fill": "80f0f0f0",
+    "kml_line": "fff0f0f0",
+    "width": 1.0
+  },
+  "Bangladesh": {
+    "hex": "#2c684f",
+    "kml_fill": "804f682c",
+    "kml_line": "ff4f682c",
+    "width": 1.0
+  },
+  "Bhutan": {
+    "hex": "#caa04a",
+    "kml_fill": "804aa0ca",
+    "kml_line": "ff4aa0ca",
+    "width": 1.0
+  },
+  "India": {
+    "hex": "#ee7e3b",
+    "kml_fill": "803b7eee",
+    "kml_line": "ff3b7eee",
+    "width": 1.0
+  },
+  "Iran": {
+    "hex": "#4e9d4c",
+    "kml_fill": "804c9d4e",
+    "kml_line": "ff4c9d4e",
+    "width": 1.0
+  },
+  "Maldives": {
+    "hex": "#e9897d",
+    "kml_fill": "807d89e9",
+    "kml_line": "ff7d89e9",
+    "width": 1.0
+  },
+  "Nepal": {
+    "hex": "#baaaec",
+    "kml_fill": "80ecaaba",
+    "kml_line": "ffecaaba",
+    "width": 1.0
+  },
+  "Pakistan": {
+    "hex": "#296218",
+    "kml_fill": "80186229",
+    "kml_line": "ff186229",
+    "width": 1.0
+  },
+  "Sri Lanka": {
+    "hex": "#e6ad3c",
+    "kml_fill": "803cade6",
+    "kml_line": "ff3cade6",
+    "width": 1.0
+  },
+  "Albania": {
+    "hex": "#b34583",
+    "kml_fill": "808345b3",
+    "kml_line": "ff8345b3",
+    "width": 1.0
+  },
+  "Bosnia and Herzegovina": {
+    "hex": "#6eec75",
+    "kml_fill": "8075ec6e",
+    "kml_line": "ff75ec6e",
+    "width": 1.0
+  },
+  "Croatia": {
+    "hex": "#ffff8c",
+    "kml_fill": "808cffff",
+    "kml_line": "ff8cffff",
+    "width": 1.0
+  },
+  "Greece": {
+    "hex": "#96e8fc",
+    "kml_fill": "80fce896",
+    "kml_line": "fffce896",
+    "width": 1.0
+  },
+  "Italy": {
+    "hex": "#40904e",
+    "kml_fill": "804e9040",
+    "kml_line": "ff4e9040",
+    "width": 1.0
+  },
+  "Kosovo": {
+    "hex": "#3974D3",
+    "kml_fill": "80d37439",
+    "kml_line": "ffd37439",
+    "width": 1.0
+  },
+  "Malta": {
+    "hex": "#921c12",
+    "kml_fill": "80121c92",
+    "kml_line": "ff121c92",
+    "width": 1.0
+  },
+  "Montenegro": {
+    "hex": "#fa515a",
+    "kml_fill": "805a51fa",
+    "kml_line": "ff5a51fa",
+    "width": 1.0
+  },
+  "North Macedonia": {
+    "hex": "#cb4921",
+    "kml_fill": "802149cb",
+    "kml_line": "ff2149cb",
+    "width": 1.0
+  },
+  "Portugal": {
+    "hex": "#2a6419",
+    "kml_fill": "8019642a",
+    "kml_line": "ff19642a",
+    "width": 1.0
+  },
+  "Serbia": {
+    "hex": "#57506c",
+    "kml_fill": "806c5057",
+    "kml_line": "ff6c5057",
+    "width": 1.0
+  },
+  "Slovenia": {
+    "hex": "#50b1ea",
+    "kml_fill": "80eab150",
+    "kml_line": "ffeab150",
+    "width": 1.0
+  },
+  "Spain": {
+    "hex": "#f6c644",
+    "kml_fill": "8044c6f6",
+    "kml_line": "ff44c6f6",
+    "width": 1.0
+  },
+  "Bahrain": {
+    "hex": "#49513b",
+    "kml_fill": "803b5149",
+    "kml_line": "ff3b5149",
+    "width": 1.0
+  },
+  "Cyprus": {
+    "hex": "#e6e6e6",
+    "kml_fill": "80e6e6e6",
+    "kml_line": "ffe6e6e6",
+    "width": 1.0
+  },
+  "Iraq": {
+    "hex": "#77ad8d",
+    "kml_fill": "808dad77",
+    "kml_line": "ff8dad77",
+    "width": 1.0
+  },
+  "Israel": {
+    "hex": "#182660",
+    "kml_fill": "80602618",
+    "kml_line": "ff602618",
+    "width": 1.0
+  },
+  "Jordan": {
+    "hex": "#acfcb7",
+    "kml_fill": "80b7fcac",
+    "kml_line": "ffb7fcac",
+    "width": 1.0
+  },
+  "Kuwait": {
+    "hex": "#afc75b",
+    "kml_fill": "805bc7af",
+    "kml_line": "ff5bc7af",
+    "width": 1.0
+  },
+  "Lebanon": {
+    "hex": "#FFE402",
+    "kml_fill": "8002e4ff",
+    "kml_line": "ff02e4ff",
+    "width": 1.0
+  },
+  "Oman": {
+    "hex": "#ac5551",
+    "kml_fill": "805155ac",
+    "kml_line": "ff5155ac",
+    "width": 1.0
+  },
+  "Palestine": {
+    "hex": "#377e22",
+    "kml_fill": "80227e37",
+    "kml_line": "ff227e37",
+    "width": 1.0
+  },
+  "Qatar": {
+    "hex": "#81253e",
+    "kml_fill": "803e2581",
+    "kml_line": "ff3e2581",
+    "width": 1.0
+  },
+  "Saudi Arabia": {
+    "hex": "#3f8e27",
+    "kml_fill": "80278e3f",
+    "kml_line": "ff278e3f",
+    "width": 1.0
+  },
+  "Syria": {
+    "hex": "#ed6e5d",
+    "kml_fill": "805d6eed",
+    "kml_line": "ff5d6eed",
+    "width": 1.0
+  },
+  "Turkey": {
+    "hex": "#c0281b",
+    "kml_fill": "801b28c0",
+    "kml_line": "ff1b28c0",
+    "width": 1.0
+  },
+  "Yemen": {
+    "hex": "#899966",
+    "kml_fill": "80669989",
+    "kml_line": "ff669989",
+    "width": 1.0
+  },
+  "Austria": {
+    "hex": "#afb1c1",
+    "kml_fill": "80c1b1af",
+    "kml_line": "ffc1b1af",
+    "width": 1.0
+  },
+  "Belgium": {
+    "hex": "#bdac39",
+    "kml_fill": "8039acbd",
+    "kml_line": "ff39acbd",
+    "width": 1.0
+  },
+  "France": {
+    "hex": "#4770dc",
+    "kml_fill": "80dc7047",
+    "kml_line": "ffdc7047",
+    "width": 1.0
+  },
+  "Germany": {
+    "hex": "#949494",
+    "kml_fill": "80949494",
+    "kml_line": "ff949494",
+    "width": 1.0
+  },
+  "Luxembourg": {
+    "hex": "#479fd9",
+    "kml_fill": "80d99f47",
+    "kml_line": "ffd99f47",
+    "width": 1.0
+  },
+  "Netherlands": {
+    "hex": "#d7772c",
+    "kml_fill": "802c77d7",
+    "kml_line": "ff2c77d7",
+    "width": 1.0
+  },
+  "Switzerland": {
+    "hex": "#cb2c20",
+    "kml_fill": "80202ccb",
+    "kml_line": "ff202ccb",
+    "width": 1.0
+  },
+  "Australia": {
+    "hex": "#69b883",
+    "kml_fill": "8083b869",
+    "kml_line": "ff83b869",
+    "width": 1.0
+  },
+  "New Zealand": {
+    "hex": "#5581b0",
+    "kml_fill": "80b08155",
+    "kml_line": "ffb08155",
+    "width": 1.0
+  },
+  "Fiji": {
+    "hex": "#6ea7ce",
+    "kml_fill": "80cea76e",
+    "kml_line": "ffcea76e",
+    "width": 1.0
+  },
+  "New Caledonia": {
+    "hex": "#524366",
+    "kml_fill": "80664352",
+    "kml_line": "ff664352",
+    "width": 1.0
+  },
+  "Papua New Guinea": {
+    "hex": "#3e4574",
+    "kml_fill": "8074453e",
+    "kml_line": "ff74453e",
+    "width": 1.0
+  },
+  "Solomon Is.": {
+    "hex": "#a8551f",
+    "kml_fill": "801f55a8",
+    "kml_line": "ff1f55a8",
+    "width": 1.0
+  },
+  "Vanuatu": {
+    "hex": "#a590bd",
+    "kml_fill": "80bd90a5",
+    "kml_line": "ffbd90a5",
+    "width": 1.0
+  },
+  "Guam": {
+    "hex": "#ffffff",
+    "kml_fill": "80ffffff",
+    "kml_line": "ff2dc0fb",
+    "width": 1.0
+  },
+  "Kiribati": {
+    "hex": "#ca8fbc",
+    "kml_fill": "80bc8fca",
+    "kml_line": "ffbc8fca",
+    "width": 1.0
+  },
+  "Marshall Is.": {
+    "hex": "#c0434a",
+    "kml_fill": "804a43c0",
+    "kml_line": "ff4a43c0",
+    "width": 1.0
+  },
+  "Micronesia": {
+    "hex": "#5abb76",
+    "kml_fill": "8076bb5a",
+    "kml_line": "ff76bb5a",
+    "width": 1.0
+  },
+  "Nauru": {
+    "hex": "#3e341a",
+    "kml_fill": "801a343e",
+    "kml_line": "ff1a343e",
+    "width": 1.0
+  },
+  "Palau": {
+    "hex": "#765823",
+    "kml_fill": "80235876",
+    "kml_line": "ff235876",
+    "width": 1.0
+  },
+  "Cook Is.": {
+    "hex": "#5581b0",
+    "kml_fill": "80b08155",
+    "kml_line": "ffb08155",
+    "width": 1.0
+  },
+  "Samoa": {
+    "hex": "#bf722e",
+    "kml_fill": "802e72bf",
+    "kml_line": "ff2e72bf",
+    "width": 1.0
+  },
+  "Niue": {
+    "hex": "#5581b0",
+    "kml_fill": "80b08155",
+    "kml_line": "ffb08155",
+    "width": 1.0
+  },
+  "Tonga": {
+    "hex": "#9483bb",
+    "kml_fill": "80bb8394",
+    "kml_line": "ffbb8394",
+    "width": 1.0
+  },
+  "Tuvalu": {
+    "hex": "#346b58",
+    "kml_fill": "80586b34",
+    "kml_line": "ff586b34",
+    "width": 1.0
+  },
+  "Federation of Sahel States": {
+    "hex": "#c4e373",
+    "kml_fill": "8073e3c4",
+    "kml_line": "ff73e3c4",
+    "width": 1.0
+  },
+  "Navajoland": {
+    "hex": "#eead68",
+    "kml_fill": "8068adee",
+    "kml_line": "ff68adee",
+    "width": 1.0
+  },
+  "Hawaii": {
+    "hex": "#ffee58",
+    "kml_fill": "8058eeff",
+    "kml_line": "ff58eeff",
+    "width": 1.0
+  },
+  "Oceti Sakowin": {
+    "hex": "#9f2120",
+    "kml_fill": "8020219f",
+    "kml_line": "ff20219f",
+    "width": 1.0
+  },
+  "Ethiopia": {
+    "hex": "#c1aaf3",
+    "kml_fill": "80f3aac1",
+    "kml_line": "fff3aac1",
+    "width": 1.0
+  },
+  "Tigray": {
+    "hex": "#c4604a",
+    "kml_fill": "804a60c4",
+    "kml_line": "ff4a60c4",
+    "width": 1.0
+  },
+  "Eritrea": {
+    "hex": "#d72f3e",
+    "kml_fill": "803e2fd7",
+    "kml_line": "ff3e2fd7",
+    "width": 1.0
+  },
+  "Djibouti": {
+    "hex": "#4faa40",
+    "kml_fill": "8040aa4f",
+    "kml_line": "ff40aa4f",
+    "width": 1.0
+  },
+  "Great Lakes People's Republic": {
+    "hex": "#6788b6",
+    "kml_fill": "80b68867",
+    "kml_line": "ffb68867",
+    "width": 1.0
+  },
+  "Pacific People's Republic": {
+    "hex": "#71180c",
+    "kml_fill": "800c1871",
+    "kml_line": "ff0c1871",
+    "width": 1.0
+  },
+  "Maohi Nui": {
+    "hex": "#4770dc",
+    "kml_fill": "80dc7047",
+    "kml_line": "ffdc7047",
+    "width": 1.0
+  },
+  "United Arab Emirates": {
+    "hex": "#6b8e23",
+    "kml_fill": "80238e6b",
+    "kml_line": "ff238e6b",
+    "width": 1.0
+  },
+  "Mauritius": {
+    "hex": "#0a0a69",
+    "kml_fill": "80690a0a",
+    "kml_line": "ff690a0a",
+    "width": 1.0
+  },
+  "Seychelles": {
+    "hex": "#72f6b0",
+    "kml_fill": "80b0f672",
+    "kml_line": "ffb0f672",
+    "width": 1.0
+  },
+  "Mano River Union": {
+    "hex": "#7C3AED",
+    "kml_fill": "80ed3a7c",
+    "kml_line": "ffed3a7c",
+    "width": 1.0
+  },
+  "Nigeria": {
+    "hex": "#d15e27",
+    "kml_fill": "80275ed1",
+    "kml_line": "ff275ed1",
+    "width": 1.0
+  },
+  "Benin": {
+    "hex": "#C44D34",
+    "kml_fill": "80344dc4",
+    "kml_line": "ff344dc4",
+    "width": 1.0
+  },
+  "Guinea": {
+    "hex": "#4D7C22",
+    "kml_fill": "80227c4d",
+    "kml_line": "ff227c4d",
+    "width": 1.0
+  },
+  "Guinea-Bissau": {
+    "hex": "#7B8C4D",
+    "kml_fill": "804d8c7b",
+    "kml_line": "ff4d8c7b",
+    "width": 1.0
+  },
+  "Anguilla": {
+    "hex": "#B8A9A4",
+    "kml_fill": "80a4a9b8",
+    "kml_line": "ffa4a9b8",
+    "width": 1.0
+  },
+  "Bonaire": {
+    "hex": "#F1C40F",
+    "kml_fill": "800fc4f1",
+    "kml_line": "ff0fc4f1",
+    "width": 1.0
+  },
+  "British Virgin Is.": {
+    "hex": "#6BA3A0",
+    "kml_fill": "80a0a36b",
+    "kml_line": "ffa0a36b",
+    "width": 1.0
+  },
+  "Cayman Islands": {
+    "hex": "#2ECC71",
+    "kml_fill": "8071cc2e",
+    "kml_line": "ff71cc2e",
+    "width": 1.0
+  },
+  "Curaçao": {
+    "hex": "#3498DB",
+    "kml_fill": "80db9834",
+    "kml_line": "ffdb9834",
+    "width": 1.0
+  },
+  "Guadeloupe": {
+    "hex": "#E91E63",
+    "kml_fill": "80631ee9",
+    "kml_line": "ff631ee9",
+    "width": 1.0
+  },
+  "Martinique": {
+    "hex": "#00BCD4",
+    "kml_fill": "80d4bc00",
+    "kml_line": "ffd4bc00",
+    "width": 1.0
+  },
+  "Montserrat": {
+    "hex": "#95A5A6",
+    "kml_fill": "80a6a595",
+    "kml_line": "ffa6a595",
+    "width": 1.0
+  },
+  "Saba": {
+    "hex": "#FF9800",
+    "kml_fill": "800098ff",
+    "kml_line": "ff0098ff",
+    "width": 1.0
+  },
+  "Saint Martin": {
+    "hex": "#9B59B6",
+    "kml_fill": "80b6599b",
+    "kml_line": "ffb6599b",
+    "width": 1.0
+  },
+  "St. Barthélemy": {
+    "hex": "#4CAF50",
+    "kml_fill": "8050af4c",
+    "kml_line": "ff50af4c",
+    "width": 1.0
+  },
+  "St. Eustatius": {
+    "hex": "#FF5722",
+    "kml_fill": "802257ff",
+    "kml_line": "ff2257ff",
+    "width": 1.0
+  },
+  "Turks and Caicos Is.": {
+    "hex": "#D35400",
+    "kml_fill": "800054d3",
+    "kml_line": "ff0054d3",
+    "width": 1.0
+  },
+  "Bermuda": {
+    "hex": "#1ABC9C",
+    "kml_fill": "809cbc1a",
+    "kml_line": "ff9cbc1a",
+    "width": 1.0
+  },
+  "St. Pierre and Miquelon": {
+    "hex": "#7F8C8D",
+    "kml_fill": "808d8c7f",
+    "kml_line": "ff8d8c7f",
+    "width": 1.0
+  }
+}

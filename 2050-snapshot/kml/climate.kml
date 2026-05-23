@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-  <Document xmlns:ns0="http://www.opengis.net/kml/2.2">
+  <Document>
     <name>2050 Climate</name>
     <visibility>0</visibility>
-    <gx:CascadingStyle ns0:id="__managed_style_0000000000000010">
+    <gx:CascadingStyle id="__managed_style_0000000000000295">
       <Style>
         <IconStyle>
           <Icon>
@@ -24,7 +24,7 @@
         </BalloonStyle>
       </Style>
     </gx:CascadingStyle>
-    <gx:CascadingStyle ns0:id="__managed_style_0000000000000011">
+    <gx:CascadingStyle id="__managed_style_0000000000000296">
       <Style>
         <IconStyle>
           <Icon>
@@ -45,21 +45,20 @@
         </BalloonStyle>
       </Style>
     </gx:CascadingStyle>
-    <StyleMap ns0:id="__managed_style_0000000000000012">
+    <StyleMap id="__managed_style_0000000000000297">
       <Pair>
         <key>normal</key>
-        <styleUrl>#__managed_style_0000000000000010</styleUrl>
+        <styleUrl>#__managed_style_0000000000000295</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#__managed_style_0000000000000011</styleUrl>
+        <styleUrl>#__managed_style_0000000000000296</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>
       <name>Climate</name>
       <Placemark>
         <name>Arctic Permafrost Degradation Zone</name>
-        <styleUrl>#__managed_style_0000000000000012</styleUrl>
         <description>See: 2050-snapshot/domains/climate.md#arctic</description>
         <Polygon>
           <altitudeMode>clampToGround</altitudeMode>
@@ -72,7 +71,6 @@
       </Placemark>
       <Placemark>
         <name>Greenland Ice Sheet Retreat Zone</name>
-        <styleUrl>#__managed_style_0000000000000012</styleUrl>
         <description>See: 2050-snapshot/domains/climate.md#greenland</description>
         <Polygon>
           <altitudeMode>clampToGround</altitudeMode>
@@ -85,7 +83,6 @@
       </Placemark>
       <Placemark>
         <name>Glacier Mass Loss Extent</name>
-        <styleUrl>#__managed_style_0000000000000012</styleUrl>
         <description>See: 2050-snapshot/domains/climate.md#glaciers</description>
         <Polygon>
           <altitudeMode>clampToGround</altitudeMode>
@@ -98,7 +95,6 @@
       </Placemark>
       <Placemark>
         <name>Sea Level Impact Zones</name>
-        <styleUrl>#__managed_style_0000000000000012</styleUrl>
         <description>See: 2050-snapshot/domains/climate.md#sea-level</description>
         <Polygon>
           <altitudeMode>clampToGround</altitudeMode>
@@ -111,7 +107,6 @@
       </Placemark>
       <Placemark>
         <name>Extreme Heat Zones</name>
-        <styleUrl>#__managed_style_0000000000000012</styleUrl>
         <description>See: 2050-snapshot/domains/climate.md#heatwaves</description>
         <Polygon>
           <altitudeMode>clampToGround</altitudeMode>
@@ -124,7 +119,6 @@
       </Placemark>
       <Placemark>
         <name>Fire Regime Shift</name>
-        <styleUrl>#__managed_style_0000000000000012</styleUrl>
         <description>See: 2050-snapshot/domains/climate.md#wildfire</description>
         <Polygon>
           <altitudeMode>clampToGround</altitudeMode>
@@ -137,7 +131,6 @@
       </Placemark>
       <Placemark>
         <name>Sahel Degradation Zone</name>
-        <styleUrl>#__managed_style_0000000000000012</styleUrl>
         <description>See: 2050-snapshot/domains/climate.md#africa</description>
         <Polygon>
           <altitudeMode>clampToGround</altitudeMode>
@@ -150,7 +143,6 @@
       </Placemark>
       <Placemark>
         <name>Extreme Heat — Persian Gulf</name>
-        <styleUrl>#__managed_style_0000000000000012</styleUrl>
         <description>See: 2050-snapshot/domains/climate.md#west-asia--middle-east</description>
         <Polygon>
           <altitudeMode>clampToGround</altitudeMode>
@@ -163,7 +155,6 @@
       </Placemark>
       <Placemark>
         <name>Transboundary Water Conflict Basins</name>
-        <styleUrl>#__managed_style_0000000000000012</styleUrl>
         <description>See: 2050-snapshot/domains/climate.md#water-scarcity</description>
         <Polygon>
           <altitudeMode>clampToGround</altitudeMode>
@@ -176,7 +167,6 @@
       </Placemark>
       <Placemark>
         <name>Arctic Resource Zones</name>
-        <styleUrl>#__managed_style_0000000000000012</styleUrl>
         <description>See: 2050-snapshot/domains/climate.md#arctic-resource-competition</description>
         <Polygon>
           <altitudeMode>clampToGround</altitudeMode>
@@ -189,7 +179,6 @@
       </Placemark>
       <Placemark>
         <name>Desalination and Adaptation Infrastructure</name>
-        <styleUrl>#__managed_style_0000000000000012</styleUrl>
         <description>See: 2050-snapshot/domains/climate.md#to-technology</description>
         <Polygon>
           <altitudeMode>clampToGround</altitudeMode>

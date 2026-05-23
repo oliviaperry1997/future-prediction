@@ -17,7 +17,7 @@ milestone: 2050
 ## Key Changes From Previous Milestone
 
 - American national identity dissolved; successor states developed distinct national, regional, and ideological identities organized along a revolutionary/reactionary axis with indigenous sovereignty as a cross-cutting dimension
-- Post-capitalist ideology achieved state-level expression in revolutionary successor states (PPR, NEC, GLPR, FRSR, CSR) and influenced global political discourse — the discrediting of American capitalism made it the default ideological framework for successor state formation
+- Post-capitalist ideology achieved state-level expression in revolutionary successor states (PPR, NEC, GLPR, FRSR, Aztlán) and influenced global political discourse — the discrediting of American capitalism made it the default ideological framework for successor state formation
 - Information ecosystem fragmented into mutually incomprehensible regional/national information spheres; no single global media ecosystem persists, and AI-generated content now constitutes the majority of online information
 - English declined from dominant global lingua franca to primary language in a multipolar linguistic landscape; Mandarin Chinese emerged as the leading second language globally
 - Religious landscapes reorganized along successor state lines, with secularization advancing in revolutionary states and religious identity sharpening in reactionary states; indigenous spiritual traditions experienced a major revitalization through Landback sovereignty
@@ -31,14 +31,14 @@ The 2050 ideological landscape is organized around three poles: revolutionary po
 
 #### Post-Capitalist Ideology
 
-The central ideological development of the transition period is the emergence of post-capitalist belief systems from academic critique to practical governance. By 2050, revolutionary successor states (PPR, NEC, GLPR, FRSR, CSR) operate under explicit post-capitalist constitutions that:
+The central ideological development of the transition period is the emergence of post-capitalist belief systems from academic critique to practical governance. By 2050, revolutionary successor states (PPR, NEC, GLPR, FRSR, Aztlán) operate under explicit post-capitalist constitutions that:
 
 - Deprivatize major industries (energy, transportation, healthcare, finance, core manufacturing)
 - Establish worker/community governance structures in key economic sectors
 - Guarantee economic rights (housing, healthcare, education, meaningful work) as constitutional rights
 - Reject consumer capitalism as the organizing logic of social life
 
-The PPR's variant is democratic-socialist — a technology-enabled post-scarcity vision that emphasizes individual freedom within collective economic governance. The GLPR's variant is rooted in industrial unionism and worker cooperative traditions — the "right to a productive role" is central to its social contract. The CSR's variant is the most distinctive — Aztlán nationalism fused with socialist economics and indigenous sovereignty creates a post-colonial liberation ideology unlike any other successor state's framework.
+The PPR's variant is democratic-socialist — a technology-enabled post-scarcity vision that emphasizes individual freedom within collective economic governance. The GLPR's variant is rooted in industrial unionism and worker cooperative traditions — the "right to a productive role" is central to its social contract. Aztlán's variant is the most distinctive — Aztlán nationalism fused with socialist economics and indigenous sovereignty creates a post-colonial liberation ideology unlike any other successor state's framework.
 
 Outside revolutionary states, social-democratic mixed economies (EU Core, Brazil, Australia/NZ) have incorporated elements of post-capitalist thought — expanded public ownership, UBI experiments, worker co-determination — without fully abandoning market mechanisms. China operates a state-directed model that is nominally socialist but practically authoritarian-capitalist in its consumer goods and services sectors, with heavy state control over strategic industries.
 
@@ -52,7 +52,7 @@ For each successor state and key global power, the religious/ideological landsca
 - **PPR:** Secular majority; growing post-Christian spiritual ecology; Buddhist and New Age communities prominent on West Coast. Indigenous spiritual traditions (Coast Salish, Puyallup, California tribes) integrated into autonomous zone governance.
 - **NEC:** Secular majority; traditional religious institutions (Catholic, Jewish, Protestant) maintain cultural role but low active participation. The NEC's elite educational institutions remain disproportionately influenced by secular-humanist values.
 - **GLPR:** Secular with strong labor movement cultural identity. Protestant and Catholic minorities concentrated in rural agricultural zones. Growing Muslim diaspora communities in industrial cities.
-- **CSR:** Catholic majority with Indigenous spirituality synthesis; liberation theology revival. The fusion of Aztlán nationalism with Catholic social teaching and Indigenous ceremonial cycles creates a distinctive religious landscape.
+- **Aztlán:** Catholic majority with Indigenous spirituality synthesis; liberation theology revival. The fusion of Aztlán nationalism with Catholic social teaching and Indigenous ceremonial cycles creates a distinctive religious landscape.
 - **FRSR:** Mixed secular/Indigenous spirituality. The Front Range's libertarian-individualist legacy evolved into a distinctive secular-ecological value system among the urban population.
 - **HFS:** Native Hawaiian spirituality (aloha ʻāina) as state philosophy; Christian minority (Catholic, Protestant, Mormon); Buddhist minority from Asian diaspora. Religious diversity is constitutionally protected but Hawaiian spiritual traditions hold primacy in public ritual.
 
@@ -159,7 +159,7 @@ The 2050 linguistic landscape reflects the end of US hegemony and the multipolar
 
 - **Regional lingua franca shifts:**
   - **Swahili:** Emerged as the East African Federation's working language and trade language across East Africa. Growing influence in the African Union — Swahili is now an AU working language alongside Arabic, English, French, and Portuguese. The EAF's demographic and economic weight makes Swahili a rising global language.
-  - **Spanish:** Acts as Americas bridge language — used in the PPR, CSR, Mexico, and South America. De facto second language across many US successor states (FRSR, Gulf Compact, Atlantic South have significant Spanish-speaking populations). The CSR's Spanish-dominant governance reinforces Spanish as the primary language of political discourse in the Southwest.
+  - **Spanish:** Acts as Americas bridge language — used in the PPR, Aztlán, Mexico, and South America. De facto second language across many US successor states (FRSR, Gulf Compact, Atlantic South have significant Spanish-speaking populations). Aztlán's Spanish-dominant governance reinforces Spanish as the primary language of political discourse in the Southwest.
   - **Mandarin across Asia:** Dominant second language in Southeast Asia, Central Asia, and parts of the Pacific. In ASEAN, Mandarin competence is now a requirement for senior civil service positions.
   - **Portuguese:** Growing influence in South America (Brazil's economic weight) and Africa (Angola, Mozambique, PALOP — Portuguese-speaking African countries). Brazil's BRICS+ role has elevated Portuguese as a diplomatic language.
   - **Russian:** Regional language in Central Asia and parts of Eastern Europe; declining globally. Russia's economic contraction and technological isolation have reduced the incentive to learn Russian.
@@ -183,7 +183,7 @@ The 2050 linguistic landscape reflects the end of US hegemony and the multipolar
 
 **Front Range Socialist Republic (FRSR):** Frontier socialism, indigenous partnerships, ecological stewardship. The FRSR's cultural identity is shaped by its position as a revolutionary island — defensive, self-reliant, and pragmatic. The Front Range urban corridor (Denver/Boulder/Fort Collins/Colorado Springs) combines outdoor recreation culture with technology and aerospace professionalism. High defense spending relative to GDP shapes public life. → See KML: Front Range Socialist Republic
 
-**Chicano Socialist Republic (CSR):** Chicano/Latino cultural renaissance, Indigenous solidarity, liberation theology influence. The CSR's cultural identity is the most distinctive in the former US — a fusion of Aztlán nationalism, socialist economics, indigenous sovereignty, and Latinx cultural traditions. Spanish is the primary language of governance and daily life. The CSR's cultural production — music, literature, film, visual art — draws on centuries of Mexicano/Indigenous heritage while looking toward a post-capitalist future. Semiconductor manufacturing and solar energy export provide the economic base for cultural confidence. → See KML: Chicano Socialist Republic
+**Aztlán:** Chicano/Latino cultural renaissance, Indigenous solidarity, liberation theology influence. Aztlán's cultural identity is the most distinctive in the former US — a fusion of Aztlán nationalism, socialist economics, indigenous sovereignty, and Latinx cultural traditions. Spanish is the primary language of governance and daily life. Aztlán's cultural production — music, literature, film, visual art — draws on centuries of Mexicano/Indigenous heritage while looking toward a post-capitalist future. Semiconductor manufacturing and solar energy export provide the economic base for cultural confidence. → See KML: Aztlán
 
 **Hawaiian Free State (HFS):** Polynesian cultural revival, aloha spirit as governance philosophy, Asian-Pacific hybrid identity. Native Hawaiian sovereignty forms the constitutional foundation; the Office of Hawaiian Affairs evolved into a governing body. Aloha ʻāina (land stewardship) structures both governance and daily life. The HFS positions itself as a Pacific diplomatic bridge — between East Asia, Oceania, and the revolutionary states. Military base conversion and renewable energy development have reshaped the economy without destroying the cultural fabric. → See KML: Hawaiian Free State
 

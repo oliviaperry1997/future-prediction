@@ -17,11 +17,11 @@ parent_doc: index.md
 
 ## Key Events
 
-Technology in the 2026-2049 period is defined by three transformative forces — artificial intelligence reshaping governance and labor, energy system transformation driving both climate outcomes and economic shifts, and biological technologies redefining health, agriculture, and human capability. The fragmentation of US federal authority fragments the world's largest R&D ecosystem, with divergent technology policy paths across successor states:
+Technology in the 2026-2049 period is defined by three transformative forces — artificial intelligence reshaping governance and labor, energy system transformation driving both climate outcomes and economic shifts, and biological technologies redefining health, agriculture, and human capability. The fragmentation of US federal authority fragments the world's largest R&D ecosystem, with divergent technology policy paths across successor states. The 2026 AI bubble burst (T-02) is the technology domain's first inflection event — it destroys the speculative financial structure around AI while paradoxically accelerating the technology's real economic deployment as companies pivot from growth narratives to cost-reduction automation.
 
-- **(T-03) Mar 2029 — First Binding AI Governance Treaty** (MEDIUM): The EU AI Act's cascading effect creates a global regulatory patchwork. At least 30 nations adopt formal AI-impact assessment requirements for government decisions. Different jurisdictions pursue radically different AI governance models — from China's state-driven integration to the EU's precautionary framework — with implications for innovation velocity and safety.
-
-- **(T-10) May 2041 — BRICS+ Alternative Financial System Launch** (MEDIUM): The new financial infrastructure is built on digital currency and blockchain technologies, representing the first large-scale technological displacement of the dollar-centric financial system. The settlement system, development bank, and reserve currency basket demonstrate that technology can enable institutional alternatives that were previously politically impossible.
+- **(T-02) Q3-Q4 2026 — AI Financial Bubble Burst** (HIGH): The 10:1 capex-to-revenue ratio triggers a 30-60% correction in AI-weighted equities and the collapse of circular financing structures. Post-bubble, AI investment shifts from speculative infrastructure ($660B+ annually) to efficiency-driven deployment — the hype deflates but the technology's real economic impact accelerates as cash-strapped companies automate to survive.
+- **(T-05) Mar 2029 — First Binding AI Governance Treaty** (MEDIUM): The EU AI Act's cascading effect creates a global regulatory patchwork. At least 30 nations adopt formal AI-impact assessment requirements for government decisions. Different jurisdictions pursue radically different AI governance models — from China's state-driven integration to the EU's precautionary framework — with implications for innovation velocity and safety.
+- **(T-12) May 2041 — BRICS+ Alternative Financial System Launch** (MEDIUM): The new financial infrastructure is built on digital currency and blockchain technologies, representing the first large-scale technological displacement of the dollar-centric financial system. The settlement system, development bank, and reserve currency basket demonstrate that technology can enable institutional alternatives that were previously politically impossible.
 
 ## Driver Analysis
 
@@ -29,15 +29,15 @@ Technology in the 2026-2049 period is defined by three transformative forces —
 
 **Confidence:** (MEDIUM)
 
-**Description:** AI capabilities continue improving at a transformative pace, moving from narrow task assistance to broad system-level optimization across logistics, resource allocation, infrastructure management, and governance. The divergence between AI governance regimes — EU precautionary, US fragmented (and later divergent across successor states), China state-driven — creates a globally fragmented AI landscape. The pace and distribution of AI capability determine which regions gain competitive advantage.
+**Description:** AI capabilities continue improving at a transformative pace, moving from narrow task assistance to broad system-level optimization across logistics, resource allocation, infrastructure management, and governance. The 2026 AI bubble burst (T-02) resets the financial structure around AI — speculative capex collapses but efficiency-driven deployment accelerates as cash-strapped companies and successor states automate to survive economic collapse. The divergence between AI governance regimes — EU precautionary, fragmented US successor states with different approaches, China state-driven — creates a globally fragmented AI landscape. The pace and distribution of AI capability determine which regions gain competitive advantage, and the post-bubble environment favors practical deployment over moonshot R&D.
 
 **Timeline (2026-2049):**
-- 2026-2029: AI regulation waves sweep across major economies in response to rapid capability advances
-- 2030-2035: AI systems achieve reliable autonomous decision-making in constrained domains — logistics, resource allocation, infrastructure optimization
+- 2026-2029: Post-bubble, AI investment pivots from speculative infrastructure to cost-reduction deployment. White-collar displacement accelerates as automation economics improve without speculative capital distortions. AI regulation waves sweep across major economies.
+- 2030-2035: AI systems achieve reliable autonomous decision-making in constrained domains — logistics, resource allocation, infrastructure optimization. Post-crisis successor states adopt AI for governance efficiency as a fiscal necessity.
 - 2036-2042: Government AI integration becomes binding in specific domains; AI-assisted impact assessment becomes standard in planning and regulation
 - 2043-2049: AI capability divergence between well-regulated and lightly-regulated jurisdictions creates systemic competitive advantages and vulnerabilities
 
-**Linked Events:** T-03
+**Linked Events:** T-02, T-05
 
 **Cross-Domain Effects:**
 - **Economy:** Labor automation cascade transforms employment structures; AI-driven optimization increases productivity in adopting regions
@@ -56,7 +56,7 @@ Technology in the 2026-2049 period is defined by three transformative forces —
 - 2039-2045: Fossil fuel infrastructure becomes stranded assets in transitioning regions; extraction regions face economic crisis
 - 2046-2049: Post-carbon energy systems become dominant in wealthy and ideologically committed regions; fossil-dependent regions lag
 
-**Linked Events:** T-02, T-09, T-13
+**Linked Events:** T-04, T-11, T-15
 
 **Cross-Domain Effects:**
 - **Climate:** Energy transformation is the primary mitigation lever; its pace determines whether 2°C is overshot
@@ -75,7 +75,7 @@ Technology in the 2026-2049 period is defined by three transformative forces —
 - 2039-2045: National and regional information sovereignty becomes standard; cross-entity information flows are regulated and filtered
 - 2046-2049: Cross-entity information warfare becomes the primary domain of conflict between successor states
 
-**Linked Events:** T-01, T-05, T-08
+**Linked Events:** T-03, T-07, T-10
 
 **Cross-Domain Effects:**
 - **Culture:** Identity formation shifts to regional information ecosystems; shared national narrative becomes impossible
@@ -93,7 +93,7 @@ Technology in the 2026-2049 period is defined by three transformative forces —
 - 2033-2040: Gene therapies for non-therapeutic enhancement become available in permissive jurisdictions; ethical controversy intensifies globally
 - 2041-2049: Lifespan extension, cognitive enhancement, and biological computation create new class divides between enhanced and unenhanced populations
 
-**Linked Events:** T-03 (governance models extend to biotech regulation)
+**Linked Events:** T-05 (governance models extend to biotech regulation)
 
 **Cross-Domain Effects:**
 - **Demographics:** Longevity divergence between regions that permit enhancement and those that restrict it

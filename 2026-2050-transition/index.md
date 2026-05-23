@@ -2,7 +2,7 @@
 title: "2026-2050 Transition: Collapse & Realignment"
 status: draft
 created: 2026-05-20
-updated: 2026-05-20
+updated: 2026-05-21
 tags: [transition, collapse, realignment]
 type: transition
 ---
@@ -18,7 +18,7 @@ This document traces the causal arc from the present day through the end of 2049
 
 This document uses a two-part hybrid structure:
 
-- **Timeline:** A chronological table of 14 inflection events (T-01 through T-14) that define the causal arc. Each event has a machine-readable ID used for cross-referencing by all downstream sections.
+- **Timeline:** A chronological table of 20 inflection events (T-01 through T-20) that define the causal arc. Each event has a machine-readable ID used for cross-referencing by all downstream sections.
 - **Domains:** Six domain sections analyzing drivers and trajectories within each STEEP domain, with each key event linked back to the timeline by its T-ID.
 - **Cross-Domain Synthesis:** A dedicated section mapping feedback loops across domain pairs, placed after all six domain sections.
 
@@ -26,14 +26,16 @@ This document uses a two-part hybrid structure:
 
 | Section | File | Description |
 |---------|------|-------------|
-| Timeline | [timeline.md](timeline.md) | 14 inflection events from 2026-2049 |
+| Timeline | [timeline.md](timeline.md) | 20 inflection events from 2026-2049 |
 | Borders & Geopolitics | [borders.md](borders.md) | US fragmentation, successor states, international order |
+| Successor States Reference | [successor-states.md](successor-states.md) | Complete 19-entity reference map with revolutionary/reactionary axis |
 | Climate | [climate.md](climate.md) | Warming trajectory, extreme events, migration, adaptation |
 | Technology | [technology.md](technology.md) | AI, energy transition, biotech, disruption |
 | Economy | [economy.md](economy.md) | Dollar decline, socialist transitions, supply chains |
 | Demographics | [demographics.md](demographics.md) | Population peak, migration, aging, urbanization |
 | Culture | [culture.md](culture.md) | Ideological realignment, media, belief systems |
 | Cross-Domain Synthesis | [cross-domain-synthesis.md](cross-domain-synthesis.md) | Feedback loops across domain pairs |
+| Regional Analysis | [regions/index.md](regions/index.md) | 9 regional reference docs — every continent + orbital space + Moon |
 
 ## Usage Notes
 
@@ -49,7 +51,7 @@ This document uses a two-part hybrid structure:
 
 ## Status
 
-**Phase 2 complete.** This transition document set covers 14 inflection events from 2026-2049, 6 STEEP domain analyses, a cross-domain synthesis mapping 5 domain pair feedback loops, and 5 prediction register entries with doc_ref links to domain sections. Ready for Phase 3 (2050 Structural Snapshot) consumption.
+**Phase 2 complete.** This transition document set covers 20 inflection events from 2026-2049, 6 STEEP domain analyses, a cross-domain synthesis mapping 7 domain pair feedback loops (including indigenous sovereignty as a cross-cutting dimension), a complete successor states reference map of 19 entities organized along revolutionary/reactionary and indigenous sovereignty axes, and 5 prediction register entries with doc_ref links to domain sections. Ready for Phase 3 (2050 Structural Snapshot) consumption.
 
 ---
 

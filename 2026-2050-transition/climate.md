@@ -19,11 +19,11 @@ parent_doc: index.md
 
 The climate trajectory from 2026-2049 is one of acceleration — warming crosses critical thresholds, extreme events become the new normal, and the human consequences (migration, resource conflict, adaptation costs) become unavoidable drivers of geopolitical and economic change. The key inflection events mark moments when climate change shifts from a future threat to a present reality:
 
-- **(T-02) Jun 2028 — Arctic Sea-Ice-Free Summer (First)** (HIGH): The first functionally ice-free Arctic summer marks a global climate milestone. Beyond the symbolic threshold of an open Arctic Ocean, it triggers accelerated warming via the albedo feedback loop and opens Arctic resource competition among circumpolar states.
+- **(T-04) Jun 2028 — Arctic Sea-Ice-Free Summer (First)** (HIGH): The first functionally ice-free Arctic summer marks a global climate milestone. Beyond the symbolic threshold of an open Arctic Ocean, it triggers accelerated warming via the albedo feedback loop and opens Arctic resource competition among circumpolar states.
 
-- **(T-07) Sep 2036 — Climate Migration Exceeds 20 Million** (HIGH): Cumulative cross-border climate migration surpasses 20 million, becoming a first-order geopolitical force. South Asia and Sub-Saharan Africa are the primary source regions. Reception infrastructure buckles across Europe, Southeast Asia, and North America, reshaping labor markets, social cohesion, and international relations.
+- **(T-09) Sep 2036 — Climate Migration Exceeds 20 Million** (HIGH): Cumulative cross-border climate migration surpasses 20 million, becoming a first-order geopolitical force. South Asia and Sub-Saharan Africa are the primary source regions. Reception infrastructure buckles across Europe, Southeast Asia, and North America, reshaping labor markets, social cohesion, and international relations.
 
-- **(T-13) Aug 2047 — Amazon Dieback Threshold** (MEDIUM): The Amazon's transition from carbon sink to carbon source represents a major planetary tipping point with global atmospheric consequences. Basin-wide ecological collapse accelerates global warming and triggers cascading agricultural disruption across South America.
+- **(T-15) Aug 2047 — Amazon Dieback Threshold** (MEDIUM): The Amazon's transition from carbon sink to carbon source represents a major planetary tipping point with global atmospheric consequences. Basin-wide ecological collapse accelerates global warming and triggers cascading agricultural disruption across South America.
 
 ## Driver Analysis
 
@@ -39,7 +39,7 @@ The climate trajectory from 2026-2049 is one of acceleration — warming crosses
 - 2036-2042: Push toward 2.0°C as feedback loops amplify warming
 - 2043-2049: Transient overshoot of 2.0°C possible; climate system enters uncharted territory
 
-**Linked Events:** T-02, T-13
+**Linked Events:** T-04, T-15
 
 **Cross-Domain Effects:**
 - **Borders:** Resource conflicts intensify over water, arable land, and habitable zones
@@ -57,7 +57,7 @@ The climate trajectory from 2026-2049 is one of acceleration — warming crosses
 - 2031-2038: Multiple "once-in-a-century" extreme events occur annually across different regions
 - 2039-2049: Infrastructure systems begin cascading failures under compound extremes — heat + drought + fire, or storm surge + sea level rise
 
-**Linked Events:** T-02, T-07
+**Linked Events:** T-04, T-09
 
 **Cross-Domain Effects:**
 - **Economy:** Insurance collapse creates uninsurable assets; infrastructure repair costs become unsustainable
@@ -75,7 +75,7 @@ The climate trajectory from 2026-2049 is one of acceleration — warming crosses
 - 2033-2040: Major coastal cities begin managed retreat programs; seawall construction accelerates
 - 2041-2049: Critical infrastructure in low-lying areas is abandoned; port relocation begins
 
-**Linked Events:** T-07
+**Linked Events:** T-09
 
 **Cross-Domain Effects:**
 - **Borders:** Maritime boundaries shift as coastlines change; exclusive economic zones become contested
@@ -94,7 +94,7 @@ The climate trajectory from 2026-2049 is one of acceleration — warming crosses
 - 2039-2045: Desalination and long-distance water transport infrastructure become strategic national assets
 - 2046-2049: Water pricing restructures global agriculture; water-intensive crops shift to water-rich regions
 
-**Linked Events:** T-07, T-13
+**Linked Events:** T-09, T-15
 
 **Cross-Domain Effects:**
 - **Borders:** Transboundary water disputes accelerate border changes in water-stressed regions
@@ -112,7 +112,7 @@ The climate trajectory from 2026-2049 is one of acceleration — warming crosses
 - 2033-2039: Wealthy regions adapt (seawalls, desalination, climate-controlled agriculture) while vulnerable regions degrade
 - 2040-2049: Mass migration from unadapted regions to adapted ones becomes the dominant demographic pattern
 
-**Linked Events:** T-07, T-13
+**Linked Events:** T-09, T-15
 
 **Cross-Domain Effects:**
 - **Economy:** Adaptation costs create debt burdens that constrain other investments; unadapted regions face economic collapse
@@ -130,6 +130,6 @@ The climate domain is the forcing function that accelerates and amplifies change
 ## Known Uncertainties
 
 - **Warming trajectory:** Paris Agreement emissions cuts could slow warming significantly, or feedback loops (permafrost methane, forest dieback, ice-albedo) could accelerate it faster than current models project. The range of possible 2049 temperatures is wide — from approximately 1.6°C to 2.8°C above pre-industrial. **(MEDIUM)**
-- **Tipping point timing:** The Amazon dieback threshold (T-13), ice sheet collapse (Greenland, West Antarctica), and permafrost melt have wide date ranges in current climate models. Some tipping points may not be reached until later in the century; others may arrive earlier. **(LOW)**
+- **Tipping point timing:** The Amazon dieback threshold (T-15), ice sheet collapse (Greenland, West Antarctica), and permafrost melt have wide date ranges in current climate models. Some tipping points may not be reached until later in the century; others may arrive earlier. **(LOW)**
 - **Migration response:** Whether climate migration stays primarily internal or becomes predominantly cross-border is a major uncertainty that cascades into the borders and demographics domains. The distinction itself may blur as climate impacts intensify. **(MEDIUM)**
 - **Adaptation effectiveness:** Technological solutions — direct air capture, solar geoengineering, advanced desalination, climate-resilient crop engineering — could significantly alter the adaptation gap. Large-scale geoengineering would introduce entirely new uncertainties. **(LOW)**
