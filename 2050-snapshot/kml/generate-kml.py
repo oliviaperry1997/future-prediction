@@ -154,11 +154,83 @@ def parse_coordinates_to_polygon(coords_text):
     return Polygon(points)
 
 
+def read_admin1_kml(path):
+    """
+    Read NE admin-1 KML, return {(iso_code, name): geometry} mapping.
+    
+    Natural Earth admin-1 KML has:
+    - <name>RegionName</name>
+    - ExtendedData > SchemaData > SimpleData with adm0_a3 (ISO country code)
+    
+    Returns dict keyed by (country_code, region_name).
+    """
+    tree = etree.parse(path)
+    root = tree.getroot()
+    
+    placemarks = root.findall(".//kml:Placemark", NSMAP)
+    
+    admin1_data = {}
+    for pm in placemarks:
+        name_el = pm.find("kml:name", NSMAP)
+        if name_el is None or not name_el.text:
+            continue
+        
+        region_name = name_el.text.strip()
+        
+        # Extract country code
+        country_code = None
+        ext_data = pm.find("kml:ExtendedData", NSMAP)
+        if ext_data is not None:
+            schema_data = ext_data.find("kml:SchemaData", NSMAP)
+            if schema_data is not None:
+                for sd in schema_data.findall("kml:SimpleData", NSMAP):
+                    field_name = sd.get("name", "")
+                    if field_name in ("adm0_a3", "ADM0_A3", "gu_a3"):
+                        if sd.text and sd.text.strip():
+                            country_code = sd.text.strip()
+                            break
+                if country_code is None:
+                    for sd in schema_data.findall("kml:SimpleData", NSMAP):
+                        field_name = sd.get("name", "")
+                        if field_name == "iso_a2":
+                            if sd.text and sd.text.strip():
+                                country_code = sd.text.strip()
+                                break
+        
+        if not country_code:
+            continue
+        
+        # Get polygon geometry
+        geom = None
+        multi_geom = pm.find(".//kml:MultiGeometry", NSMAP)
+        if multi_geom is not None:
+            polygons = []
+            for poly_el in multi_geom.findall("kml:Polygon", NSMAP):
+                g = parse_kml_polygon(poly_el)
+                if g is not None:
+                    polygons.append(g)
+            if polygons:
+                geom = MultiPolygon(polygons) if len(polygons) > 1 else polygons[0]
+        else:
+            polygon_el = pm.find("kml:Polygon", NSMAP)
+            if polygon_el is not None:
+                geom = parse_kml_polygon(polygon_el)
+        
+        if geom is None:
+            continue
+        
+        key = (country_code, region_name)
+        admin1_data[key] = geom
+    
+    return admin1_data
+
+
 def read_global_kml(path):
     """
-    Read global country KML, return two mappings:
+    Read global country KML, return three mappings:
       - by_name: {country_name: shapely.geometry}
       - by_code: {iso_a3_code: shapely.geometry}
+      - code_to_name: {iso_a3_code: country_name}
     
     Natural Earth KML has:
     - <name>CountryName</name>
@@ -172,6 +244,7 @@ def read_global_kml(path):
     
     by_name = {}
     by_code = {}
+    code_to_name = {}
     
     for pm in placemarks:
         name_el = pm.find("kml:name", NSMAP)
@@ -219,8 +292,9 @@ def read_global_kml(path):
         by_name[name] = geom
         if iso_code:
             by_code[iso_code] = geom
+            code_to_name[iso_code] = name
     
-    return by_name, by_code
+    return by_name, by_code, code_to_name
 
 
 def match_counties(county_data, config_entries):
@@ -292,6 +366,31 @@ def simplify_polygon(geom, tolerance=0.01):
         return geom
 
 
+def remove_slivers(geom, min_area_ratio=0.005):
+    """
+    Remove sliver polygons from a MultiPolygon result (e.g. after difference).
+    Keeps only polygons whose area is at least min_area_ratio of the largest polygon.
+    For a single Polygon, returns it as-is.
+    """
+    if geom is None or geom.is_empty:
+        return geom
+    if geom.geom_type == "Polygon":
+        return geom
+    if geom.geom_type == "MultiPolygon":
+        polys = list(geom.geoms)
+        if len(polys) <= 1:
+            return geom
+        areas = [p.area for p in polys]
+        max_area = max(areas)
+        keep = [p for p, a in zip(polys, areas) if a >= max_area * min_area_ratio]
+        if len(keep) == 0:
+            return None
+        if len(keep) == 1:
+            return keep[0]
+        return MultiPolygon(keep)
+    return geom
+
+
 def geom_to_coords(geom):
     """
     Convert a shapely geometry to KML coordinates string.
@@ -338,7 +437,7 @@ def make_cascading_style(kml_id, line_color, line_width, poly_color):
     style = etree.Element(
         f"{{{NS_GX}}}CascadingStyle",
         nsmap=NSMAP,
-        attrib={f"{{{NS}}}id": kml_id}
+        attrib={"id": kml_id}
     )
     
     inner_style = etree.SubElement(style, f"{{{NS}}}Style")
@@ -379,7 +478,7 @@ def make_cascading_style(kml_id, line_color, line_width, poly_color):
 
 def make_style_map(kml_id, normal_style_id, highlight_style_id):
     """Create a StyleMap element."""
-    style_map = etree.Element(f"{{{NS}}}StyleMap", attrib={f"{{{NS}}}id": kml_id})
+    style_map = etree.Element(f"{{{NS}}}StyleMap", attrib={"id": kml_id})
     
     # Normal pair
     pair_normal = etree.SubElement(style_map, f"{{{NS}}}Pair")
@@ -398,39 +497,68 @@ def make_style_map(kml_id, normal_style_id, highlight_style_id):
     return style_map
 
 
-def make_placemark(name, coords_list, description=None, style_url=None):
+def make_polygon_element(coords_text):
+    """Create a single KML Polygon element with the given coordinates."""
+    polygon = etree.Element(f"{{{NS}}}Polygon")
+    alt_mode = etree.SubElement(polygon, f"{{{NS}}}altitudeMode")
+    alt_mode.text = "clampToGround"
+    outer_boundary = etree.SubElement(polygon, f"{{{NS}}}outerBoundaryIs")
+    linear_ring = etree.SubElement(outer_boundary, f"{{{NS}}}LinearRing")
+    coords_el = etree.SubElement(linear_ring, f"{{{NS}}}coordinates")
+    coords_el.text = coords_text
+    return polygon
+
+
+def make_placemark(name, coords_text, description=None, style_url=None):
     """
-    Create a KML Placemark element with polygon.
-    coords_list is a list of coordinate strings (one per polygon ring).
+    Create a KML Placemark element with a single polygon.
+    coords_text is a single KML coordinates string (e.g. "lon,lat,0 lon,lat,0...").
+    Pass empty string for placemarks without geometry (no_polygon type).
     """
     placemark = etree.Element(f"{{{NS}}}Placemark")
     
-    # Name
     name_el = etree.SubElement(placemark, f"{{{NS}}}name")
     name_el.text = name
     
-    # Style URL
     if style_url:
         style_url_el = etree.SubElement(placemark, f"{{{NS}}}styleUrl")
         style_url_el.text = f"#{style_url}"
     
-    # Description
     if description:
         desc_el = etree.SubElement(placemark, f"{{{NS}}}description")
         desc_el.text = description
     
-    # Polygon geometry
-    for i, coords_text in enumerate(coords_list):
-        polygon = etree.SubElement(placemark, f"{{{NS}}}Polygon")
-        
-        # Altitude mode (clamp to ground)
-        alt_mode = etree.SubElement(polygon, f"{{{NS}}}altitudeMode")
-        alt_mode.text = "clampToGround"
-        
-        outer_boundary = etree.SubElement(polygon, f"{{{NS}}}outerBoundaryIs")
-        linear_ring = etree.SubElement(outer_boundary, f"{{{NS}}}LinearRing")
-        coords_el = etree.SubElement(linear_ring, f"{{{NS}}}coordinates")
-        coords_el.text = coords_text
+    if coords_text:
+        placemark.append(make_polygon_element(coords_text))
+    
+    return placemark
+
+
+def make_placemark_multi(name, coords_list, description=None, style_url=None):
+    """
+    Create a KML Placemark with multiple polygons wrapped in MultiGeometry.
+    Used by domain overlay KMLs where individual polygon styling isn't needed.
+    coords_list is a list of KML coordinate strings.
+    """
+    placemark = etree.Element(f"{{{NS}}}Placemark")
+    
+    name_el = etree.SubElement(placemark, f"{{{NS}}}name")
+    name_el.text = name
+    
+    if style_url:
+        style_url_el = etree.SubElement(placemark, f"{{{NS}}}styleUrl")
+        style_url_el.text = f"#{style_url}"
+    
+    if description:
+        desc_el = etree.SubElement(placemark, f"{{{NS}}}description")
+        desc_el.text = description
+    
+    if len(coords_list) == 1:
+        placemark.append(make_polygon_element(coords_list[0]))
+    elif len(coords_list) > 1:
+        multi = etree.SubElement(placemark, f"{{{NS}}}MultiGeometry")
+        for ct in coords_list:
+            multi.append(make_polygon_element(ct))
     
     return placemark
 
@@ -533,62 +661,82 @@ def generate_style_id(prefix="__managed_style_"):
     return f"{prefix}{_style_counter:016X}"
 
 
-def generate_borders_kml(config, county_data, global_by_name, global_by_code):
+def generate_borders_kml(config, county_data, global_by_name, global_by_code, code_to_name, admin1_data):
     """
     Generate borders.kml — authoritative entity polygon layer.
-    Per D-03: borders.kml contains ALL entity polygons.
-    Per D-07: All 19 US successor states + indigenous nations + global powers.
-    Per D-09: Fragmented entities as sub-polygon collections.
-    Per D-10: 2050-specific modifications applied.
-    Per D-15: Folder hierarchy serves as verification checklist.
     """
     print("Generating borders.kml...")
+    
+    # Load user's per-entity colors from manual KML styling
+    script_dir = os.path.dirname(__file__)
+    colors_path = os.path.join(script_dir, "user_colors.json")
+    user_colors = {}
+    if os.path.exists(colors_path):
+        with open(colors_path) as f:
+            user_colors = json.load(f)
+        print(f"  Loaded {len(user_colors)} per-entity color assignments")
+    else:
+        user_colors = {}
     
     styles_list = []
     style_maps_list = []
     top_folders = []
     
-    # Generate style definitions
-    style_configs = {
-        "default-polygon": config["styles"]["default-polygon"],
-        "indigenous-polygon": config["styles"]["indigenous-polygon"],
-        "reactionary-polygon": config["styles"]["reactionary-polygon"],
-        "fragmented-entity": config["styles"]["fragmented-entity"],
-        "modification-2050": config["styles"]["modification-2050"],
-    }
+    # Default fallback style (gray) for entities without user colors
+    _fallback_color_count = [0]
     
-    style_ids = {}
-    for style_name, style_cfg in style_configs.items():
+    def get_entity_style(entity_name, geometry_present=True):
+        """
+        Get or create a style for an entity.
+        Uses the user's color if available; otherwise generates a fallback.
+        Returns (normal_style_id, highlight_style_id, style_map_id)
+        """
+        nonlocal styles_list, style_maps_list
+        
+        color_info = user_colors.get(entity_name)
+        
+        if color_info:
+            kml_fill = color_info.get("kml_fill", "80586b34")
+            kml_line = color_info.get("kml_line", "ff" + kml_fill[2:])
+            line_width = color_info.get("width", 1.0)
+            highlight_width = min(line_width + 0.5, 3.0)
+        else:
+            _fallback_color_count[0] += 1
+            # Generate a deterministic color from entity name hash
+            import hashlib
+            h = hashlib.md5(entity_name.encode()).hexdigest()
+            r = int(h[0:2], 16)
+            g = int(h[2:4], 16)
+            b = int(h[4:6], 16)
+            kml_fill = f"80{b:02x}{g:02x}{r:02x}"
+            kml_line = f"ff{b:02x}{g:02x}{r:02x}"
+            line_width = 1.0
+            highlight_width = 1.5
+        
         normal_id = generate_style_id()
         highlight_id = generate_style_id()
+        style_map_id = generate_style_id()
         
-        style_normal = make_cascading_style(
-            normal_id,
-            style_cfg["lineColor"],
-            style_cfg["lineWidth"],
-            style_cfg["polyColor"],
-        )
-        style_highlight = make_cascading_style(
-            highlight_id,
-            style_cfg["lineColor"],
-            min(style_cfg["lineWidth"] + 0.5, 3.0),
-            style_cfg["polyColor"],
-        )
-        style_map = make_style_map(generate_style_id(), normal_id, highlight_id)
+        style_normal = make_cascading_style(normal_id, kml_line, line_width, kml_fill)
+        style_highlight = make_cascading_style(highlight_id, kml_line, highlight_width, kml_fill)
+        style_map = make_style_map(style_map_id, normal_id, highlight_id)
         
-        styles_list.extend([style_normal, style_highlight])
+        styles_list.append(style_normal)
+        styles_list.append(style_highlight)
         style_maps_list.append(style_map)
-        style_ids[style_name] = style_map.get(f"{{{NS}}}id")
+        
+        return normal_id, highlight_id, style_map_id
     
     # Build entity polygons
-    entity_polygons = {}  # entity_name -> [coord_strings]
-    entity_errors = []    # track warnings
+    entity_polygons = {}
+    entity_errors = []
+    groups_expanded = {}
+    entity_styles = {}
     
     for entity_name, entity_cfg in config["entities"].items():
         source_type = entity_cfg.get("source", "none")
         
         if source_type == "county":
-            # Process county-based entities (US successor states)
             matches, warnings = match_counties(
                 county_data,
                 entity_cfg.get("counties", [])
@@ -608,15 +756,27 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code):
                         "type": "county",
                         "cfg": entity_cfg,
                     }
+                    _, _, style_id = get_entity_style(entity_name)
+                    entity_styles[entity_name] = style_id
             else:
                 entity_errors.append(f"  [{entity_name}] No polygons merged (county data missing)")
         
         elif source_type == "country":
-            # Single country entity
             country_code = entity_cfg.get("country_code")
             geom = global_by_code.get(country_code)
             
             if geom is not None:
+                # Subtract admin-1 regions from country polygon
+                subtract_admin1 = entity_cfg.get("subtract_admin1", [])
+                if subtract_admin1 and admin1_data:
+                    for region_name in subtract_admin1:
+                        admin1_geom = admin1_data.get((country_code, region_name))
+                        if admin1_geom is not None:
+                            geom = geom.difference(admin1_geom)
+                        else:
+                            entity_errors.append(f"  [{entity_name}] Subtract admin1 '{region_name}' not found")
+                    geom = remove_slivers(geom)
+                
                 simplified = simplify_polygon(geom, tolerance=0.01)
                 coords = geom_to_coords(simplified)
                 if coords:
@@ -625,35 +785,140 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code):
                         "type": "country",
                         "cfg": entity_cfg,
                     }
+                    _, _, style_id = get_entity_style(entity_name)
+                    entity_styles[entity_name] = style_id
             else:
                 entity_errors.append(f"  [{entity_name}] Country code {country_code} not found in global data")
         
-        elif source_type == "group":
-            # Group of countries merged into one entity
-            country_codes = entity_cfg.get("country_codes", [])
-            geoms = []
-            for code in country_codes:
-                g = global_by_code.get(code)
-                if g is not None:
-                    geoms.append(g)
-                else:
-                    entity_errors.append(f"  [{entity_name}] Country code {code} not found")
+        elif source_type == "admin1":
+            country_code = entity_cfg.get("country_code")
+            admin1_name = entity_cfg.get("admin1_name")
+            geom = admin1_data.get((country_code, admin1_name))
             
-            merged = merge_polygons(geoms)
-            if merged is not None:
-                simplified = simplify_polygon(merged, tolerance=0.01)
+            if geom is not None:
+                simplified = simplify_polygon(geom, tolerance=0.01)
                 coords = geom_to_coords(simplified)
                 if coords:
                     entity_polygons[entity_name] = {
                         "coords": coords,
-                        "type": "group",
+                        "type": "admin1",
                         "cfg": entity_cfg,
                     }
+                    _, _, style_id = get_entity_style(entity_name)
+                    entity_styles[entity_name] = style_id
             else:
-                entity_errors.append(f"  [{entity_name}] No polygon data for any country in group")
+                entity_errors.append(f"  [{entity_name}] Admin1 '{admin1_name}' in {country_code} not found")
+        
+        elif source_type == "group":
+            country_codes = entity_cfg.get("country_codes", [])
+            keep_unified = entity_cfg.get("keep_unified", False)
+            
+            if keep_unified:
+                geoms = []
+                for code in country_codes:
+                    g = global_by_code.get(code)
+                    if g is not None:
+                        geoms.append(g)
+                    else:
+                        entity_errors.append(f"  [{entity_name}] Country code {code} not found")
+                
+                # Add admin-1 regions to merged polygon
+                for admin1_ref in entity_cfg.get("admin1_regions", []):
+                    cc = admin1_ref.get("country_code")
+                    rn = admin1_ref.get("admin1_name")
+                    admin1_geom = admin1_data.get((cc, rn))
+                    if admin1_geom is not None:
+                        geoms.append(admin1_geom)
+                    else:
+                        entity_errors.append(f"  [{entity_name}] Admin1 region '{rn}' in {cc} not found")
+                
+                merged = merge_polygons(geoms)
+                if merged is not None:
+                    simplified = simplify_polygon(merged, tolerance=0.01)
+                    coords = geom_to_coords(simplified)
+                    if coords:
+                        entity_polygons[entity_name] = {
+                            "coords": coords,
+                            "type": "group",
+                            "cfg": entity_cfg,
+                        }
+                        _, _, style_id = get_entity_style(entity_name)
+                        entity_styles[entity_name] = style_id
+                else:
+                    entity_errors.append(f"  [{entity_name}] No polygon data for any country in group")
+            else:
+                geoms = []
+                expanded_names = []
+                subtract_per_code = entity_cfg.get("subtract_admin1_per_code", {})
+                for code in country_codes:
+                    g = global_by_code.get(code)
+                    if g is not None:
+                        # Apply per-code admin1 subtraction
+                        code_subtract = subtract_per_code.get(code, [])
+                        if code_subtract and admin1_data:
+                            for region_name in code_subtract:
+                                admin1_geom = admin1_data.get((code, region_name))
+                                if admin1_geom is not None:
+                                    g = g.difference(admin1_geom)
+                                else:
+                                    entity_errors.append(f"  [{entity_name}] Subtract admin1 '{region_name}' for {code} not found")
+                            g = remove_slivers(g)
+                        geoms.append(g)
+                        country_name = code_to_name.get(code, f"{entity_name} - {code}")
+                        simplified = simplify_polygon(g, tolerance=0.01)
+                        coords = geom_to_coords(simplified)
+                        if coords:
+                            entity_polygons[country_name] = {
+                                "coords": coords,
+                                "type": "country",
+                                "cfg": entity_cfg,
+                            }
+                            expanded_names.append(country_name)
+                            _, _, style_id = get_entity_style(country_name)
+                            entity_styles[country_name] = style_id
+                    else:
+                        entity_errors.append(f"  [{entity_name}] Country code {code} not found")
+                
+                if expanded_names:
+                    groups_expanded[entity_name] = expanded_names
+                    merged = merge_polygons(geoms)
+                    if merged is not None:
+                        simplified = simplify_polygon(merged, tolerance=0.01)
+                        coords = geom_to_coords(simplified)
+                        if coords:
+                            entity_polygons[entity_name] = {
+                                "coords": coords,
+                                "type": "group",
+                                "cfg": entity_cfg,
+                            }
+                else:
+                    entity_errors.append(f"  [{entity_name}] No polygon data for any country in group")
+        
+        elif source_type == "manual":
+            manual_path = entity_cfg.get("manual_path", "")
+            if manual_path:
+                full_path = os.path.join(os.path.dirname(__file__), manual_path)
+                if os.path.exists(full_path):
+                    manual_tree = etree.parse(full_path)
+                    manual_root = manual_tree.getroot()
+                    coords = manual_root.findall(".//kml:coordinates", NSMAP)
+                    if coords:
+                        coord_strings = [c.text.strip() for c in coords if c.text]
+                        entity_polygons[entity_name] = {
+                            "coords": coord_strings,
+                            "type": "manual",
+                            "cfg": entity_cfg,
+                        }
+                        _, _, style_id = get_entity_style(entity_name)
+                        entity_styles[entity_name] = style_id
+                    else:
+                        entity_errors.append(f"  [{entity_name}] No coordinates found in manual KML")
+                else:
+                    entity_errors.append(f"  [{entity_name}] Manual KML not found: {manual_path}")
+            else:
+                entity_errors.append(f"  [{entity_name}] Manual source requires manual_path")
         
         elif source_type == "rough_polygon":
-            # Entity defined by approximate coordinates
             approx_coords = entity_cfg.get("approximate_coords", [])
             if approx_coords and len(approx_coords) >= 6:
                 coords_parts = []
@@ -661,7 +926,6 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code):
                     lon = approx_coords[i]
                     lat = approx_coords[i + 1]
                     coords_parts.append(f"{lon:.6f},{lat:.6f},0")
-                # Close the ring
                 first_lon = approx_coords[0]
                 first_lat = approx_coords[1]
                 coords_parts.append(f"{first_lon:.6f},{first_lat:.6f},0")
@@ -671,88 +935,57 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code):
                     "type": "rough_polygon",
                     "cfg": entity_cfg,
                 }
+                _, _, style_id = get_entity_style(entity_name)
+                entity_styles[entity_name] = style_id
         
         elif source_type == "no_polygon":
-            # Entity with no terrestrial polygon (orbital, lunar, etc.)
             entity_errors.append(f"  [{entity_name}] No terrestrial polygon (informational only)")
             continue
         
         elif source_type == "none":
-            # Entity with no polygon (e.g., Haudenosaunee — within NEC territory)
             entity_errors.append(f"  [{entity_name}] No polygon (within another entity's territory)")
             continue
     
-    # Build folder hierarchy from config - handles arbitrary nesting depth
+    if _fallback_color_count[0] > 0:
+        print(f"  {_fallback_color_count[0]} entities used fallback (auto-generated) colors")
+    
+    # Build folder hierarchy from config
     hierarchy = config["folder_hierarchy"]
     
-    def build_entity_folder(entity_name, poly_dict, style_ids_dict, cfg):
-        """Create a KML Folder for a single entity, containing its placemark(s)."""
+    def build_entity_folder(entity_name, poly_dict, cfg):
+        """Create a KML Folder for a single entity with per-polygon Placemarks."""
         if entity_name not in poly_dict:
             return None
         
         poly_data = poly_dict[entity_name]
-        style_key = "default-polygon"
-        category = poly_data["cfg"].get("category", "")
-        
-        if category == "indigenous":
-            style_key = "indigenous-polygon"
-        elif category == "reactionary":
-            style_key = "reactionary-polygon"
-        elif category == "fragmented":
-            style_key = "fragmented-entity"
-        
-        style_id = style_ids_dict.get(style_key)
+        style_id = entity_styles.get(entity_name)
         see_path = poly_data["cfg"].get("see_path", "")
         is_fragmented = poly_data["cfg"].get("fragmented", False)
         
+        placemarks = []
+        coords_list = poly_data["coords"]
+        
         if is_fragmented:
-            # Fragmentd entity: folder with parent placemark + sub-polygon placemarks
-            # Parent placemark allows → See KML: markers to resolve to this entity
             sub_polygons_config = cfg.get("fragmented_entities", {}).get(entity_name, {})
             sub_names = sub_polygons_config.get("sub_polygons", [])
-            
-            sub_placemarks = []
-            # Add parent placemark with entity name for cross-reference matching
-            parent_pm = make_placemark(
-                entity_name,
-                poly_data["coords"],
-                description=see_path,
-                style_url=style_id,
-            )
-            sub_placemarks.append(parent_pm)
+            for ct in coords_list:
+                parent_pm = make_placemark(entity_name, ct, description=see_path, style_url=style_id)
+                placemarks.append(parent_pm)
             for sub_name in sub_names:
-                pm = make_placemark(
-                    sub_name,
-                    poly_data["coords"],
-                    description=see_path,
-                    style_url=style_id,
-                )
-                sub_placemarks.append(pm)
-            
-            return make_folder(entity_name, sub_placemarks)
+                for ct in coords_list:
+                    pm = make_placemark(sub_name, ct, description=see_path, style_url=style_id)
+                    placemarks.append(pm)
         else:
-            # Standard entity: single polygon placemark
-            pm = make_placemark(
-                entity_name,
-                poly_data["coords"],
-                description=see_path,
-                style_url=style_id,
-            )
-            return make_folder(entity_name, [pm])
+            for ct in coords_list:
+                pm = make_placemark(entity_name, ct, description=see_path, style_url=style_id)
+                placemarks.append(pm)
+        
+        return make_folder(entity_name, placemarks)
     
     def build_hierarchy_folders(node, name):
-        """
-        Recursively build KML Folder elements from the hierarchy tree.
-        - If node is a dict: intermediate level with sub-categories
-        - If node is a (non-empty) list of strings: leaf level containing entity names
-        - If node is an empty list []: check if name matches an entity key
-          (for cases like "Canada": [] where the key IS the entity name)
-        - If node is None or not recognized: empty folder
-        """
         children = []
         
         if isinstance(node, dict):
-            # Intermediate level: sub-categories
             for key, value in node.items():
                 child_folder = build_hierarchy_folders(value, key)
                 if child_folder is not None:
@@ -760,21 +993,33 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code):
         
         elif isinstance(node, list):
             if len(node) > 0:
-                # Leaf level with entity names
                 for entity_name in node:
-                    if entity_name not in entity_polygons:
-                        continue
-                    
-                    entity_folder = build_entity_folder(entity_name, entity_polygons, style_ids, config)
-                    if entity_folder is not None:
-                        children.append(entity_folder)
+                    if entity_name in groups_expanded:
+                        sub_children = []
+                        for cname in groups_expanded[entity_name]:
+                            if cname in entity_polygons:
+                                ef = build_entity_folder(cname, entity_polygons, config)
+                                if ef is not None:
+                                    sub_children.append(ef)
+                        if sub_children:
+                            children.append(make_folder(entity_name, sub_children))
+                    elif entity_name in entity_polygons:
+                        entity_folder = build_entity_folder(entity_name, entity_polygons, config)
+                        if entity_folder is not None:
+                            children.append(entity_folder)
             else:
-                # Empty list: try to interpret the key name as an entity name
-                if name in entity_polygons:
-                    entity_folder = build_entity_folder(name, entity_polygons, style_ids, config)
+                if name in groups_expanded:
+                    sub_children = []
+                    for cname in groups_expanded[name]:
+                        if cname in entity_polygons:
+                            ef = build_entity_folder(cname, entity_polygons, config)
+                            if ef is not None:
+                                sub_children.append(ef)
+                    return make_folder(name, sub_children) if sub_children else make_folder(name, [])
+                elif name in entity_polygons:
+                    entity_folder = build_entity_folder(name, entity_polygons, config)
                     if entity_folder is not None:
                         return entity_folder
-                # If not an entity, create empty folder
                 return make_folder(name, [])
         
         return make_folder(name, children)
@@ -783,42 +1028,16 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code):
         continent_folder = build_hierarchy_folders(subregions, continent)
         top_folders.append(continent_folder)
     
-    # Add 2050 modifications as a special folder
-    mod_children = []
-    for mod_name, mod_cfg in config.get("modifications_2050", {}).items():
-        approx_coords = mod_cfg.get("approximate_coords", [])
-        if approx_coords and len(approx_coords) >= 6:
-            coords_parts = []
-            for i in range(0, len(approx_coords), 2):
-                lon = approx_coords[i]
-                lat = approx_coords[i + 1]
-                coords_parts.append(f"{lon:.6f},{lat:.6f},0")
-            first_lon = approx_coords[0]
-            first_lat = approx_coords[1]
-            coords_parts.append(f"{first_lon:.6f},{first_lat:.6f},0")
-            
-            mod_pm = make_placemark(
-                mod_name,
-                [" ".join(coords_parts)],
-                description=mod_cfg.get("see_path", mod_cfg.get("description", "")),
-                style_url=style_ids.get("modification-2050"),
-            )
-            mod_children.append(mod_pm)
-    
-    if mod_children:
-        mod_folder = make_folder("2050 Modifications", mod_children)
-        top_folders.append(mod_folder)
-    
-    # Print warnings for entities without polygons
     for err in entity_errors:
         print(err)
     
-    # Build document
     doc = make_document("2050 Borders", top_folders, styles_list, style_maps_list)
     kml = build_kml_tree(doc)
     write_kml_file(kml, os.path.join(OUTPUT_DIR, "borders.kml"))
     
-    return entity_polygons, style_ids
+    print(f"  Generated {len(entity_polygons)} entity polygons")
+    
+    return entity_polygons, entity_styles
 
 
 def generate_domain_kml(domain_name, config, entity_polygons, style_ids):
@@ -885,11 +1104,11 @@ def generate_domain_kml(domain_name, config, entity_polygons, style_ids):
         description = overlay.get("description", "")
         
         if overlay_type == "entity_copy":
-            # Copy polygon from entity borders data
+            # Copy polygon from entity borders data (use MultiGeometry for overlays)
             source_entity = overlay.get("source_entity", "")
             if source_entity in entity_polygons:
                 poly_data = entity_polygons[source_entity]
-                pm = make_placemark(
+                pm = make_placemark_multi(
                     name,
                     poly_data["coords"],
                     description=description,
@@ -914,7 +1133,7 @@ def generate_domain_kml(domain_name, config, entity_polygons, style_ids):
                 
                 pm = make_placemark(
                     name,
-                    [" ".join(coords_parts)],
+                    " ".join(coords_parts),
                     description=description,
                     style_url=overlay_style_id,
                 )
@@ -924,7 +1143,7 @@ def generate_domain_kml(domain_name, config, entity_polygons, style_ids):
             # Placemark without polygon (informational only)
             pm = make_placemark(
                 name,
-                [],
+                "",
                 description=description,
             )
             placemarks.append(pm)
@@ -981,6 +1200,7 @@ def main():
     script_dir = os.path.dirname(__file__)
     county_path = os.path.join(script_dir, SOURCE_DIR, "us-counties-500k.kml")
     global_path = os.path.join(script_dir, SOURCE_DIR, "global-countries-10m.kml")
+    admin1_path = os.path.join(script_dir, SOURCE_DIR, "ne-admin1-10m.kml")
     
     if not os.path.exists(county_path):
         print(f"ERROR: County source not found: {county_path}")
@@ -998,21 +1218,27 @@ def main():
     print()
     
     print("Reading global country KML...")
-    global_by_name, global_by_code = read_global_kml(global_path)
+    global_by_name, global_by_code, global_code_to_name = read_global_kml(global_path)
     print(f"  Loaded {len(global_by_name)} countries by name, {len(global_by_code)} by code")
     print()
     
+    admin1_data = {}
+    if os.path.exists(admin1_path):
+        print("Reading admin-1 KML...")
+        admin1_data = read_admin1_kml(admin1_path)
+        print(f"  Loaded {len(admin1_data)} admin-1 regions")
+        print()
+    
     # Generate borders.kml (entity polygons)
-    entity_polygons, style_ids = generate_borders_kml(
-        config, county_data, global_by_name, global_by_code
+    entity_polygons, entity_styles = generate_borders_kml(
+        config, county_data, global_by_name, global_by_code, global_code_to_name, admin1_data
     )
-    print(f"  Generated {len(entity_polygons)} entity polygons")
     print()
     
     # Generate domain overlay KMLs
     domains = ["climate", "technology", "economy", "demographics", "culture"]
     for domain in domains:
-        generate_domain_kml(domain, config, entity_polygons, style_ids)
+        generate_domain_kml(domain, config, entity_polygons, entity_styles)
         print()
     
     # Verify outputs
