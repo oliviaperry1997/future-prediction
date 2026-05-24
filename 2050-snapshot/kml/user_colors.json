@@ -383,16 +383,28 @@
     "kml_line": "ff16a8e6",
     "width": 1.0
   },
-  "Mountain Tapestry": {
-    "hex": "#ffffff",
-    "kml_fill": "80ffffff",
-    "kml_line": "ff2dc0fb",
+  "Colorado": {
+    "hex": "#6e3a7a",
+    "kml_fill": "807a3a6e",
+    "kml_line": "ff7a3a6e",
     "width": 1.0
   },
-  "Nevada Rural": {
-    "hex": "#ffffff",
-    "kml_fill": "80ffffff",
-    "kml_line": "ff2dc0fb",
+  "Columbia": {
+    "hex": "#2d8c4a",
+    "kml_fill": "804a8c2d",
+    "kml_line": "ff4a8c2d",
+    "width": 1.0
+  },
+  "Absaroka": {
+    "hex": "#8b6914",
+    "kml_fill": "8014698b",
+    "kml_line": "ff14698b",
+    "width": 1.0
+  },
+  "Montana-Wyoming": {
+    "hex": "#7a5c2e",
+    "kml_fill": "802e5c7a",
+    "kml_line": "ff2e5c7a",
     "width": 1.0
   },
   "Northeast Corridor": {
@@ -407,7 +419,7 @@
     "kml_line": "ffe3cccc",
     "width": 1.0
   },
-  "Mormon Corridor": {
+  "Deseret": {
     "hex": "#b7642a",
     "kml_fill": "802a64b7",
     "kml_line": "ff2a64b7",
@@ -1175,7 +1187,7 @@
     "kml_line": "ffb68867",
     "width": 1.0
   },
-  "Pacific People's Republic": {
+  "Pacifica": {
     "hex": "#71180c",
     "kml_fill": "800c1871",
     "kml_line": "ff0c1871",

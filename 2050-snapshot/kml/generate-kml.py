@@ -878,6 +878,7 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
             
             merged = merge_polygons(matches)
             if merged is not None:
+                merged = remove_slivers(merged)
                 simplified = simplify_polygon(merged, tolerance=0.01)
                 coords = geom_to_coords(simplified)
                 if coords:

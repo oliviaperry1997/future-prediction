@@ -157,7 +157,9 @@
         "Atlantic South",
         "Bermuda",
         "Canada",
-        "Columbia Plateau Republic",
+        "Colorado",
+        "Columbia",
+        "Absaroka",
         "Dena'ina Nenn'",
         "Eastern Kentucky Revolutionary",
         "Front Range Socialist Republic",
@@ -169,18 +171,15 @@
         "Haudenosaunee Confederacy",
         "Hawaii",
         "Heartland Plains",
-        "Idaho Central",
         "Interior Florida",
         "Iñupiat Nunaat",
         "Kentucky Rump",
-        "Montana Remnant",
-        "Mormon Corridor",
-        "Mountain Tapestry",
+        "Montana-Wyoming",
+        "Deseret",
         "Navajoland",
-        "Nevada Rural",
         "Northeast Corridor",
         "Oceti Sakowin",
-        "Pacific People's Republic",
+        "Pacifica",
         "Research Triangle Area",
         "Sequoyah",
         "South Carolina Rural",
@@ -189,7 +188,6 @@
         "St. Pierre and Miquelon",
         "Tennessee Rump",
         "Tlingit Aaní",
-        "Wyoming Remnant",
         "Yup'it-Alutiiq Confederacy"
       ],
       "South America (wip)": [
@@ -348,31 +346,14 @@
     }
   },
   "entities": {
-    "Pacific People's Republic": {
+    "Pacifica": {
       "type": "entity",
       "category": "revolutionary",
-      "source": "county",
-      "counties": [
-        {
-          "state": "CA",
-          "county": ".*"
-        },
-        {
-          "state": "OR",
-          "county": ".*"
-        },
-        {
-          "state": "WA",
-          "county": ".*"
-        },
-        {
-          "state": "NV",
-          "county": "Clark"
-        }
-      ],
+      "source": "manual",
+      "manual_path": "source/manual/Pacifica.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "pacific-peoples-republic",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#pacific-peoples-republic"
+      "section_anchor": "pacifica",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#pacifica"
     },
     "Northeast Corridor": {
       "type": "entity",
@@ -477,13 +458,8 @@
     "Front Range Socialist Republic": {
       "type": "entity",
       "category": "revolutionary",
-      "source": "county",
-      "counties": [
-        {
-          "state": "CO",
-          "county": "^(Denver|Adams|Arapahoe|Jefferson|Boulder|Larimer|Weld|Broomfield|Douglas|Elbert|El Paso).*"
-        }
-      ],
+      "source": "manual",
+      "manual_path": "source/manual/Front Range Socialist Republic.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "front-range-socialist-republic",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#front-range-socialist-republic"
@@ -607,79 +583,65 @@
         {
           "state": "KS",
           "county": ".*"
+        },
+        {
+          "state": "CO",
+          "county": "^(Morgan|Washington|Yuma|Kit Carson|Cheyenne|Kiowa|Prowers|Baca|Bent|Otero|Crowley|Lincoln|Sedgwick|Phillips|Logan).*"
         }
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "heartland-plains",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#heartland-plains"
     },
-    "Mormon Corridor": {
+    "Deseret": {
       "type": "entity",
       "category": "reactionary",
-      "source": "county",
-      "counties": [
-        {
-          "state": "UT",
-          "county": ".*"
-        },
-        {
-          "state": "ID",
-          "county": "^(Ada|Canyon|Gem|Payette|Washington|Owyhee|Elmore|Gooding|Jerome|Twin Falls|Cassia|Minidoka|Oneida|Power|Bannock|Caribou|Bear Lake|Franklin).*"
-        },
-        {
-          "state": "NV",
-          "county": "^(White Pine|Lincoln|Nye|Esmeralda|Mineral|Lyon|Storey|Churchill|Pershing|Humboldt|Washoe).*"
-        }
-      ],
+      "source": "manual",
+      "manual_path": "source/manual/Deseret.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "mormon-corridor",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#mormon-corridor"
+      "section_anchor": "deseret",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#deseret"
     },
-    "Mountain Tapestry": {
+    "Columbia": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "manual",
+      "manual_path": "source/manual/Columbia.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "columbia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#columbia"
+    },
+    "Absaroka": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "manual",
+      "manual_path": "source/manual/Absaroka.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "absaroka",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#absaroka"
+    },
+    "Montana-Wyoming": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "manual",
+      "manual_path": "source/manual/Montana-Wyoming.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "montana-wyoming",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#montana-wyoming"
+    },
+    "Colorado": {
       "type": "entity",
       "category": "fragmented",
       "source": "county",
-      "fragmented": true,
-      "sub_polygons": [
-        "Columbia Plateau Republic",
-        "Idaho Central",
-        "Montana Remnant",
-        "Wyoming Remnant",
-        "Nevada Rural"
-      ],
       "counties": [
         {
-          "state": "WA",
-          "county": "^(Adams|Asotin|Benton|Chelan|Columbia|Douglas|Ferry|Franklin|Garfield|Grant|Kittitas|Klickitat|Lincoln|Okanogan|Pend Oreille|Spokane|Stevens|Walla Walla|Whitman|Yakima).*"
-        },
-        {
-          "state": "OR",
-          "county": "^(Baker|Crook|Deschutes|Gilliam|Grant|Harney|Hood River|Jefferson|Klamath|Lake|Malheur|Morrow|Sherman|Umatilla|Union|Wallowa|Wasco|Wheeler).*"
-        },
-        {
-          "state": "ID",
-          "county": "^(?!Ada|Canyon|Gem|Payette|Washington|Owyhee|Elmore|Gooding|Jerome|Twin Falls|Cassia|Minidoka|Oneida|Power|Bannock|Caribou|Bear Lake|Franklin).*"
-        },
-        {
-          "state": "MT",
-          "county": ".*"
-        },
-        {
-          "state": "WY",
-          "county": ".*"
-        },
-        {
           "state": "CO",
-          "county": "^(?!Denver|Adams|Arapahoe|Jefferson|Boulder|Larimer|Weld|Broomfield|Douglas|Elbert|El Paso).*"
-        },
-        {
-          "state": "NV",
-          "county": "^(?!Clark|White Pine|Lincoln|Nye|Esmeralda|Mineral|Lyon|Storey|Churchill|Pershing|Humboldt|Washoe).*"
+          "county": "^(?!Denver|Adams|Arapahoe|Jefferson|Boulder|Larimer|Weld|Broomfield|Douglas|Elbert|El Paso|Pueblo|Huerfano|Las Animas|Clear Creek|Gilpin|Park|Teller|Fremont|Custer|Costilla|Morgan|Washington|Yuma|Kit Carson|Cheyenne|Kiowa|Prowers|Baca|Bent|Otero|Crowley|Lincoln|Sedgwick|Phillips|Logan).*"
         }
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "mountain-tapestry",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#mountain-tapestry"
+      "section_anchor": "colorado",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#colorado"
     },
     "Alaska": {
       "type": "entity",
@@ -2561,16 +2523,6 @@
         "Kentucky Rump"
       ],
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#appalachian-zone"
-    },
-    "Mountain Tapestry": {
-      "sub_polygons": [
-        "Columbia Plateau Republic",
-        "Idaho Central",
-        "Montana Remnant",
-        "Wyoming Remnant",
-        "Nevada Rural"
-      ],
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#mountain-tapestry"
     }
   },
   "domain_overlays": {
@@ -2745,7 +2697,7 @@
       {
         "name": "PPR AI Regulation Zone",
         "type": "entity_copy",
-        "source_entity": "Pacific People's Republic",
+        "source_entity": "Pacifica",
         "description": "See: 2050-snapshot/domains/technology.md#ai-governance-regimes"
       },
       {
@@ -2802,7 +2754,7 @@
       {
         "name": "Revolutionary State Energy Systems",
         "type": "entity_copy",
-        "source_entity": "Pacific People's Republic",
+        "source_entity": "Pacifica",
         "description": "See: 2050-snapshot/domains/technology.md#energy-systems"
       },
       {
@@ -3005,12 +2957,6 @@
         "description": "See: 2050-snapshot/domains/economy.md#appalachian-zone"
       },
       {
-        "name": "Mountain Tapestry",
-        "type": "entity_copy",
-        "source_entity": "Mountain Tapestry",
-        "description": "See: 2050-snapshot/domains/economy.md#mountain-tapestry"
-      },
-      {
         "name": "European Core Federation",
         "type": "entity_copy",
         "source_entity": "European Core Federation",
@@ -3021,7 +2967,7 @@
       {
         "name": "Demographic Profile Reference \u2014 PPR",
         "type": "entity_copy",
-        "source_entity": "Pacific People's Republic",
+        "source_entity": "Pacifica",
         "description": "See: 2050-snapshot/domains/demographics.md#pacific-peoples-republic"
       },
       {
@@ -3037,12 +2983,6 @@
         "description": "See: 2050-snapshot/domains/demographics.md#appalachian-zone"
       },
       {
-        "name": "Mountain Tapestry",
-        "type": "entity_copy",
-        "source_entity": "Mountain Tapestry",
-        "description": "See: 2050-snapshot/domains/demographics.md#mountain-tapestry"
-      },
-      {
         "name": "European Core Federation",
         "type": "entity_copy",
         "source_entity": "European Core Federation",
@@ -3051,9 +2991,9 @@
     ],
     "culture": [
       {
-        "name": "Cultural Profile Reference \u2014 PPR",
+        "name": "Cultural Profile Reference \u2014 Pacifica",
         "type": "entity_copy",
-        "source_entity": "Pacific People's Republic",
+        "source_entity": "Pacifica",
         "description": "See: 2050-snapshot/domains/culture.md#pacific-peoples-republic"
       },
       {
@@ -3067,12 +3007,6 @@
         "type": "entity_copy",
         "source_entity": "Appalachian Zone",
         "description": "See: 2050-snapshot/domains/culture.md#appalachian-zone"
-      },
-      {
-        "name": "Mountain Tapestry",
-        "type": "entity_copy",
-        "source_entity": "Mountain Tapestry",
-        "description": "See: 2050-snapshot/domains/culture.md#mountain-tapestry"
       },
       {
         "name": "European Core Federation",
