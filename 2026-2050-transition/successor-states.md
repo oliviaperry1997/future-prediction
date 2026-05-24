@@ -143,12 +143,12 @@ The successor state landscape is organized around two key axes:
 - **Breakaway sequence:** ~2038-2040: Cherokee Nation asserts de facto sovereignty as Oklahoma's governing institutions dissolve following the federal rump's collapse (T-20). May form alliances with other Oklahoma tribes (Choctaw, Chickasaw, Creek, Seminole — the Five Tribes).
 - **2050 state:** Sovereign indigenous nation within fragmented Oklahoma/southern Plains. Strong economy, professional governance. Relations with neighboring reactionary states are tense. Treaty with Aztlán possible.
 
-#### 10. Alaska Indigenous Confederated Socialist Republic (AICSR)
+#### 10. Tlingit Aaní
 - **Orientation:** Indigenous revolutionary (MEDIUM)
 - **Core territory:** Southeast Alaska (panhandle — Juneau, Sitka, Ketchikan, Inside Passage). Potentially expands with coastal indigenous territories.
 - **Population:** ~75K (mixed indigenous — Tlingit, Haida, Tsimshian — and settler populations)
 - **Economic base:** Fishing (salmon, halibut), timber, tourism (reorganized), hydroelectricity (abundant), small-scale mining. ANCSA corporations (Sealaska Corp.) have governance capacity.
-- **Geopolitical position:** Independent but friendly with PPR. Geographically isolated — western Canada holds together under the Canada cohesion thesis, so no contiguous land link through BC/YK materializes. AICSR remains a coastal archipelago state reliant on maritime connections.
+- **Geopolitical position:** Independent but friendly with PPR. Geographically isolated — western Canada holds together under the Canada cohesion thesis, so no contiguous land link through BC/YK materializes. Tlingit Aaní remains a coastal archipelago state reliant on maritime connections.
 - **Governance:** Alaska Native tribal governments + ANCSA corporation structures + municipal governments. Confederated socialist republic — decentralized, indigenous-led.
 - **Energy profile:** Excellent hydroelectric potential (Southeast Alaska). Can be energy-independent.
 - **Breakaway sequence:** ~2037-2040: As Alaska's oil economy collapses and federal presence withdraws following the mainland fragmentation, Southeast indigenous nations coordinate to declare confederated republic.
@@ -159,7 +159,7 @@ The successor state landscape is organized around two key axes:
 - **Structure:** Each of the 12 ANCSA regional corporations + 200+ village corporations + 229 federally recognized tribes provide governance backbone. Not a unified nation — a tapestry of indigenous sovereign entities with different languages, cultures, and economic bases.
 - **Economic base:** Oil revenue (North Slope — ASRC region), fishing (Bristol Bay, Gulf Coast), mining (gold, zinc, lead — Red Dog mine, various), timber, tourism. ANCSA corporations are sophisticated business entities with billions in assets.
 - **Breakaway sequence:** Fragment from Anchorage reactionary rump between ~2039-2048 as oil revenue collapses and federal funding disappears after T-20. Some declare sovereignty; others just de facto become independent as nobody governs them.
-- **2050 state:** A mosaic of indigenous-led territories with varying sizes and capacities. Some highly functional (ASRC with oil wealth), some struggling. All outside the Anchorage rump's effective control.
+- **2050 state:** A mosaic of indigenous-led territories with varying sizes and capacities. Some highly functional (ASRC with oil wealth), some struggling. All outside the Alaska's effective control.
 
 ### Indigenous Sovereign Nation (Contingent)
 
@@ -241,7 +241,7 @@ The successor state landscape is organized around two key axes:
 - **Fragmentation sequence:** Many small entities, some absorbed by neighbors. Columbia Plateau consolidates into one reactionary republic (~2036-2039). The rest: mountain counties coordinate loosely, then fragment into irrelevance as federal funding stops by ~2037.
 - **2050 state:** Columbia Plateau Republic (maybe flipping revolutionary) + scattered small entities being absorbed or dissolving.
 
-#### 19. Anchorage Rump
+#### 19. Alaska
 - **Orientation:** Reactionary, rapidly degrading (LOW confidence)
 - **Core territory:** Anchorage/Mat-Su, Fairbanks, Kenai Peninsula (the urban/suburban corridor of Alaska)
 - **Population:** ~450K. Main urban population center but tiny by Lower 48 standards.
@@ -250,7 +250,7 @@ The successor state landscape is organized around two key axes:
 - **Strategic position:** Arctic is strategically important (Russian competition, shipping routes, resources), but the Rump lacks the population, economy, and military capacity to project power.
 - **Indigenous nations:** The entire state is indigenous territory outside the Anchorage urban corridor. ANCSA corporations and tribal governments fill the governance vacuum everywhere else.
 - **Degradation pattern:** Oil revenue collapses → Permanent Fund depletes → mainland supply lines severed by T-20 (~2038-2039) → government services stop → population exodus to indigenous territories or what remains of the Lower 48.
-- **2050 state:** A shrunken, impoverished rump around Anchorage. Indigenous territories have separated. Some residual military infrastructure but no capacity to use it. Alaska is effectively balkanized into the Rump + AICSR (SE) + indigenous regional territories (North Slope, Western, Interior).
+- **2050 state:** A shrunken, impoverished rump around Anchorage. Indigenous territories have separated. Some residual military infrastructure but no capacity to use it. Alaska is effectively balkanized into the Rump + Tlingit Aaní (SE) + indigenous regional territories (North Slope, Western, Interior).
 
 ## Summary Table
 
@@ -274,7 +274,7 @@ The successor state landscape is organized around two key axes:
 | 16 | Heartland Plains | Reactionary/degrading | Export agriculture | ~12M | ~2036-2045 | Shrinking, surrounded |
 | 17 | Mormon Corridor | Reactionary/degrading | Tech, mining, agriculture | ~6M | ~2036-2045 | Culturally intact, economically hollow |
 | 18 | Mountain Tapestry | Reactionary/fragmenting | Extraction, tourism, energy | ~5M | ~2036-2045 | Mostly absorbed or dissolved |
-| 19 | Anchorage Rump | Reactionary/degrading | Oil, Permanent Fund, military | ~450K | ~2038-2048 | Shrunken, impoverished |
+| 19 | Alaska | Reactionary/degrading | Oil, Permanent Fund, military | ~450K | ~2038-2048 | Shrunken, impoverished |
 
 ## Key Dynamics
 

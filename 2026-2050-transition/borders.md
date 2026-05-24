@@ -160,7 +160,7 @@ The borders/geopolitics domain's central arc is the fragmentation of US federal 
 - 2026-2033: Federal collapse removes the enforcement mechanism for indigenous dispossession. Hawaiian Revolution (T-17, ~2032-2033) demonstrates that sovereignty assertions are viable. Treaty rights become meaningful as no entity exists to oppose them
 - 2034-2037: First mainland indigenous sovereignty declarations (T-18, ~2036-2037 — Navajo or Dakota/Lakota). Indigenous nations begin territorial consolidation as the federal rump proves powerless
 - 2038-2043: Revolutionary states (PPR, CSR) negotiate autonomous indigenous zones. Reactionary states (Heartland, Gulf Compact) resist, triggering indigenous insurgencies
-- 2044-2049: At least five indigenous sovereign entities are de facto independent — Navajo Nation, Dakota/Lakota Nation, Sequoyan/Cherokee Nation, Alaska Indigenous Confederated Socialist Republic, Haudenosaunee Confederacy — plus a mosaic of Alaska indigenous territories outside Anchorage control
+- 2044-2049: At least five indigenous sovereign entities are de facto independent — Navajo Nation, Dakota/Lakota Nation, Sequoyan/Cherokee Nation, Tlingit Aaní, Haudenosaunee Confederacy — plus a mosaic of Alaska indigenous territories outside Anchorage control
 
 **Linked Events:** T-17, T-18, T-19
 

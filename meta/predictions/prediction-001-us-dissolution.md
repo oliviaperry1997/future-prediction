@@ -61,9 +61,9 @@ Historical parallels are instructive but imprecise. The USSR collapsed in roughl
 The earlier estimate of 4-6 successor states has been replaced by a far more detailed landscape of up to 19 successor-state-level entities organized along a revolutionary/reactionary axis with a cross-cutting indigenous sovereignty dimension. See [the successor states reference map](../../2026-2050-transition/successor-states.md) for the complete listing. The key entities are:
 
 - **6 revolutionary states** — Pacific People's Republic (PPR, ~55M pop), Hawaiian Free State (~1.4M, independent but allied), Northeast Corridor (NEC, ~55M), Great Lakes People's Republic (GLPR, ~50M), Front Range Socialist Republic (~5M, revolutionary island), Chicano Socialist Republic (CSR, ~12M, forms ~2042)
-- **5 indigenous sovereign nations** — Navajo Nation (~500K), Dakota/Lakota/Oceti Sakowin (~100K+), Sequoyan/Cherokee Nation (~470K, $4.4B net position), Alaska Indigenous Confederated Socialist Republic (~75K), Haudenosaunee Confederacy (autonomous within NEC) — plus a mosaic of Alaska indigenous territories
+- **5 indigenous sovereign nations** — Navajo Nation (~500K), Dakota/Lakota/Oceti Sakowin (~100K+), Sequoyan/Cherokee Nation (~470K, $4.4B net position), Tlingit Aaní (~75K), Haudenosaunee Confederacy (autonomous within NEC) — plus a mosaic of Alaska indigenous territories
 - **6 reactionary states** — Gulf Compact (~35M, tipping revolutionary by late 2040s), Atlantic South (~35M, fragments further), Appalachian Zone (~12M, revolutionary breakaways), Heartland Plains (~12M, further fragmented by Dakota sovereignty), Mormon Corridor (~6M, culturally intact but economically hollow), Mountain Tapestry (~5M, mostly absorbed or dissolved)
-- **2 degrading rumps** — Anchorage Rump (~450K), Alaska Indigenous Territories mosaic
+- **2 degrading rumps** — Alaska (~450K), Tlingit Aaní mosaic
 
 Revolutionary states collectively control ~58% of former US population and ~65% of former US GDP. The 2050 world is not a simple set of "US successor states" but a North American continent with multiple revolutionary republics, indigenous sovereign nations, reactionary rumps in various stages of collapse, and extensive territories whose effective sovereignty is uncertain.
 

@@ -47,7 +47,7 @@ Africa still growing — Asia declining. Sub-Saharan Africa continues growing (t
 #### Aging & Dependency Ratios
 
 - **Global median age:** ~36 (up from ~31 in 2025). The world's population is older than at any point in human history, and aging continues.
-- **Aged societies (median >40):** Japan/Unified Korea (~45), EU Core (~44), China (~42), Appalachian Zone (~42), Mountain Tapestry (~41), NEC (~40), HFS (~40), Anchorage Rump (~40), Atlantic South (~40), GLPR (~39)
+- **Aged societies (median >40):** Japan/Unified Korea (~45), EU Core (~44), China (~42), Appalachian Zone (~42), Mountain Tapestry (~41), NEC (~40), HFS (~40), Alaska (~40), Atlantic South (~40), GLPR (~39)
 - **Young societies (median <25):** Sub-Saharan Africa, parts of South Asia. The East African Federation has a median age of ~22 — the youngest major population cluster in the world outside conflict zones.
 - **Dependency ratio pressures:** The working-age population (25-64) is shrinking relative to the 65+ population in all developed and most middle-income regions. Old-age dependency ratios (65+/25-64) exceed 40% in Unified Korea, Japan, EU Core, and China. The ratio exceeds 30% in all revolutionary successor states.
 - **Automation offset:** Automation partially offsets labor force decline in automated economies — humanoid robots and AI-driven systems substitute for a significant share of working-age tasks in the PPR, NEC, GLPR, EU Core, China, and Unified Korea. Labor-intensive economies (EAF, India's informal sector, reactionary states) face growth constraints from both aging and emigration without automation substitution.
@@ -66,7 +66,7 @@ The fragmentation of the United States produced 19 successor entities with sharp
 
 - **Revolutionary states (PPR, NEC, GLPR, Aztlán, FRSR, HFS):** Attract domestic and international migrants, maintain higher urbanization rates, and sustain younger age structures through managed immigration. The PPR and Aztlán have the highest net migration rates among successor states. These states' socialist economic models — with UBI (PPR), guaranteed employment (NEC, GLPR), and universal basic services (Aztlán) — function as demographic attractors in a world of economic precarity.
 - **Reactionary states (Gulf Compact, Atlantic South, Heartland Plains, Appalachian Zone rumps, Mormon Corridor, Mountain Tapestry):** Experience population decline, brain drain, aging, and rural depopulation. Young, educated workers leave for revolutionary states and BRICS+ economies. The Mormon Corridor's youth exodus is demographically significant — young adults raised in the church leave for revolutionary states where educational and economic opportunities are better. These states lack both the economic opportunity and the social safety nets to retain population.
-- **Indigenous nations (Navajo, Dakota/Lakota, Sequoyan, AICSR, Haudenosaunee):** Population recovery underway — improved healthcare access after Landback, birth rates above replacement (TFR 2.2-2.5), and return migration enabled by indigenous sovereignty and land restoration. The Navajo Nation's return migration from diaspora communities is a measurable demographic trend.
+- **Indigenous nations (Navajo, Dakota/Lakota, Sequoyan, Tlingit Aaní, Haudenosaunee):** Population recovery underway — improved healthcare access after Landback, birth rates above replacement (TFR 2.2-2.5), and return migration enabled by indigenous sovereignty and land restoration. The Navajo Nation's return migration from diaspora communities is a measurable demographic trend.
 - **Internal migration between successor states:** Ideological sorting is the dominant migration pattern — progressive populations move to revolutionary states, conservative populations to reactionary states. This self-selection reinforces each entity's political character. The sorting is not absolute — significant conservative minorities remain in revolutionary states and vice versa — but the directional flow is clear and accelerating.
 - → See borders analysis: [Former United States Territory](../../2050-snapshot/domains/borders-geopolitics.md#former-united-states-territory) for entity-level political context
 
@@ -210,7 +210,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Primary languages:** Cherokee (ᏣᎳᎩ ᎦᏬᏂᎯᏍᏗ), English
 - **→ See KML: Sequoyan Nation**
 
-**Alaska Indigenous Confederated Socialist Republic (AICSR):**
+**Tlingit Aaní:**
 - **Population:** 180K
 - **Age structure:** Median age 34, dependency ratio 55%
 - **TFR:** 2.4 (above replacement)
@@ -220,7 +220,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Ethnic/religious composition:** 80% Alaska Native (Tlingit, Haida, Tsimshian), 20% other. Religious landscape: Alaska Native spirituality, Russian Orthodox legacy, Christian minority.
 - **Labor force participation:** 48% (fishing, renewable energy, tourism, cooperative enterprises; subsistence economy supplements formal sector)
 - **Primary languages:** Tlingit, Haida, English, Russian (residual)
-- **→ See KML: Alaska Indigenous Confederated Socialist Republic**
+- **→ See KML: Tlingit Aaní**
 
 **Haudenosaunee Confederacy:**
 - **Population:** 150K
@@ -310,7 +310,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 
 #### Degrading Rumps
 
-**Anchorage Rump:**
+**Alaska:**
 - **Population:** 300K (declining rapidly — out-migration and aging)
 - **Age structure:** Median age 40, dependency ratio 60%
 - **TFR:** 1.7
@@ -320,7 +320,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Ethnic/religious composition:** 60% white, 20% Alaska Native, 15% other, 5% Hispanic. Religious landscape: Protestant and Catholic minorities, Alaska Native spirituality, secular majority.
 - **Labor force participation:** 50% (residual extraction, fishing, logistics — declining; subsistence economy supplements formal sector)
 - **Primary languages:** English, Alaska Native languages
-- **→ See KML: Anchorage Rump**
+- **→ See KML: Alaska**
 
 ### Demographic Profiles — Key Global Powers
 

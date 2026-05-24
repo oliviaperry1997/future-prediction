@@ -305,16 +305,34 @@
     "kml_line": "ff8e5121",
     "width": 1.0
   },
-  "Anchorage Rump": {
+  "Alaska": {
     "hex": "#100853",
     "kml_fill": "80530810",
     "kml_line": "ff530810",
     "width": 1.0
   },
-  "Alaska Indigenous Territories": {
+  "Tlingit Aaní": {
     "hex": "#eb5f2f",
     "kml_fill": "802f5feb",
     "kml_line": "ff2f5feb",
+    "width": 1.0
+  },
+  "Iñupiat Nunaat": {
+    "hex": "#9CD3AE",
+    "kml_fill": "80AED39C",
+    "kml_line": "ffAED39C",
+    "width": 1.0
+  },
+  "Yup'it-Alutiiq Confederacy": {
+    "hex": "#A0B4DE",
+    "kml_fill": "80DEB4A0",
+    "kml_line": "ffDEB4A0",
+    "width": 1.0
+  },
+  "Dena'ina Nenn'": {
+    "hex": "#F4B943",
+    "kml_fill": "8043B9F4",
+    "kml_line": "ff43B9F4",
     "width": 1.0
   },
   "Appalachian Zone": {

@@ -17,7 +17,7 @@ milestone: 2050
 ## Key Changes From Previous Milestone
 
 - US federal dissolution and emergence of ~19 successor-state-level entities across former US territory, organized along a revolutionary/reactionary axis with a cross-cutting indigenous sovereignty dimension
-- Indigenous sovereignty achieved by at least 5 nations within former US borders — Navajo, Dakota/Lakota, Sequoyan/Cherokee, Alaska Indigenous Confederated Socialist Republic, and Haudenosaunee Confederacy — each with varying degrees of de facto independence
+- Indigenous sovereignty achieved by at least 5 nations within former US borders — Navajo, Dakota/Lakota, Sequoyan/Cherokee, Tlingit Aaní, and Haudenosaunee Confederacy — each with varying degrees of de facto independence
 - BRICS+ alternative financial system fully operational, multicurrency reserve standard replacing dollar dominance, and the post-American international order consolidated around multipolar institutional frameworks
 - At least 4 US successor states and/or indigenous sovereign nations recognized by a majority of UN member states, with revolutionary states (PPR, NEC, GLPR, Aztlán) forming the stable core of the post-American system
 - West Asia reconfigured around the Iran-Turkey-Saudi Arabia-Pakistan Quartet security framework, with Israel territorially contracted to a nuclear-armed coastal rump state and Palestine established as a contiguous sovereign entity
@@ -31,7 +31,7 @@ The territory of the former United States is occupied by ~19 successor-state-lev
 
 #### Revolutionary States
 
-**Pacific People's Republic (PPR):** Governs ~55M citizens across the former West Coast states of California, Oregon, Washington, and the annexed Las Vegas/Clark County corridor. The PPR is the most stable and economically viable successor state, with a democratic-socialist economy generating ~$2.5T in GDP. Strong technology, green energy, and entertainment sectors. Autonomous indigenous zones established for Coast Salish, Puyallup, and other nations within its territory. The PPR maintains friendly relations with the Hawaiian Free State, Alaska Indigenous Confederated Socialist Republic, and the Front Range Socialist Republic. **→ See KML: Pacific People's Republic** **→ See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#1-pacific-peoples-republic-ppr)**
+**Pacific People's Republic (PPR):** Governs ~55M citizens across the former West Coast states of California, Oregon, Washington, and the annexed Las Vegas/Clark County corridor. The PPR is the most stable and economically viable successor state, with a democratic-socialist economy generating ~$2.5T in GDP. Strong technology, green energy, and entertainment sectors. Autonomous indigenous zones established for Coast Salish, Puyallup, and other nations within its territory. The PPR maintains friendly relations with the Hawaiian Free State, Tlingit Aaní, and the Front Range Socialist Republic. **→ See KML: Pacific People's Republic** **→ See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#1-pacific-peoples-republic-ppr)**
 
 **Hawaiian Free State (HFS):** Independent sovereign nation with ~1.4M citizens across the full Hawaiian Islands. Democratic-socialist economy built on converted military infrastructure, renewable energy (geothermal, solar, wind), and Pacific trade hub functions. Native Hawaiian sovereignty forms the constitutional foundation, with Aloha ʻāina as the governing principle. Major Pacific diplomatic actor — maintains close alliance with the PPR but did not merge. **→ See KML: Hawaiian Free State**
 
@@ -51,7 +51,7 @@ The territory of the former United States is occupied by ~19 successor-state-lev
 
 **Sequoyan Nation (Cherokee):** Sovereign indigenous nation within the fragmented territory of eastern Oklahoma. Population ~470K citizens, $4.4B net position. Strong diversified economy — gaming, manufacturing, healthcare. Professional tripartite government. Relations with neighboring reactionary states tense; treaty relations with Aztlán established. **→ See KML: Sequoyan Nation**
 
-**Alaska Indigenous Confederated Socialist Republic (AICSR):** Independent indigenous confederation governing southeast Alaska (panhandle — Juneau, Sitka, Ketchikan, Inside Passage). Population ~75K. Strong fishing, hydroelectricity, and timber economy. Socialist governance model — decentralized, indigenous-led. PPR-friendly but independent. No contiguous land connection to the Lower 48. **→ See KML: Alaska Indigenous Confederated Socialist Republic**
+**Tlingit Aaní:** Independent indigenous confederation governing southeast Alaska (panhandle — Juneau, Sitka, Ketchikan, Inside Passage). Population ~75K. Strong fishing, hydroelectricity, and timber economy. Socialist governance model — decentralized, indigenous-led. PPR-friendly but independent. No contiguous land connection to the Lower 48. **→ See KML: Tlingit Aaní**
 
 **Haudenosaunee Confederacy:** Autonomous indigenous zone within the Northeast Corridor. The oldest living democracy in North America — founded ~1142 CE. Operates its own passports, courts, and diplomatic relationships. NEC's revolutionary ideology accommodates Haudenosaunee sovereignty within its territory.
 
@@ -73,9 +73,9 @@ The territory of the former United States is occupied by ~19 successor-state-lev
 
 #### Degrading Rumps
 
-**Anchorage Rump:** A shrunken, impoverished rump around Anchorage with ~450K population. Oil revenue collapsed, the Permanent Fund depleted, and supply lines from the mainland severed after the federal rump collapse. Indigenous territories (North Slope, Western Alaska, Interior) effectively separated. Some residual military infrastructure but no capacity to use it. **→ See KML: Anchorage Rump**
+**Alaska:** A shrunken, impoverished rump around Anchorage with ~450K population. Oil revenue collapsed, the Permanent Fund depleted, and supply lines from the mainland severed after the federal rump collapse. Indigenous territories (North Slope, Western Alaska, Interior) effectively separated. Some residual military infrastructure but no capacity to use it. **→ See KML: Alaska**
 
-**Other Alaska Indigenous Territories:** A mosaic of indigenous-led territories (North Slope Iñupiat, Western Yupik, Interior Athabascan, Aleut/Unangax̂, Alutiiq/Sugpiaq) outside Anchorage control. Varying sizes and capacities — some highly functional (North Slope with oil wealth), some struggling. Governed through ANCSA corporation structures and tribal governments. **→ See KML: Alaska Indigenous Territories**
+**Alaska Indigenous Mosaic:** A mosaic of indigenous-led territories (North Slope Iñupiat, Western Yupik, Interior Athabascan, Aleut/Unangax̂, Alutiiq/Sugpiaq) outside Anchorage control. Varying sizes and capacities — some highly functional (North Slope with oil wealth), some struggling. Governed through ANCSA corporation structures and tribal governments. **→ See KML: Tlingit Aaní**
 
 ### North America (Beyond Former US)
 

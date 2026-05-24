@@ -351,6 +351,8 @@ def merge_polygons(geometries):
     
     try:
         merged = unary_union(valid)
+        if merged.geom_type == 'MultiPolygon' and len(merged.geoms) > 1:
+            merged = merged.buffer(0.0001).buffer(-0.0001)
         return merged
     except Exception:
         # Fallback: return the first valid geometry

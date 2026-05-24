@@ -247,14 +247,14 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **→ See KML: Sequoyan Nation**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#9-sequoyan-nation-cherokee)
 
-**Alaska Indigenous Confederated Socialist Republic (AICSR):**
+**Tlingit Aaní:**
 - **GDP:** ~$8B
 - **Dominant sectors:** Fishing (salmon, halibut — Southeast Alaska's primary industry), renewable energy (hydroelectricity — abundant, energy independent), timber (sustainable forestry — limited by terrain), tourism (reorganized — Inside Passage cruise industry, indigenous cultural tourism), small-scale mining
 - **Trade partners and bloc alignment:** PPR (primary — maritime trade through Inside Passage), Canada (British Columbia), East Asian markets (Japan, Korea — seafood exports). BRICS+ observer through PPR relationship.
 - **Economic model:** Indigenous cooperative / socialist confederation. Decentralized — member communities retain significant economic autonomy. Fishing and energy managed collectively. Squaxin and other traditional governance structures integrated.
 - **Currency:** Digital basket (BCU) / barter. No independent currency. PPR financial system provides banking services.
 - **Labor market character:** Labor-intensive. Fishing, tourism, and forestry are the primary employment sectors. Some automation in fish processing and timber milling. ~75K population.
-- **→ See KML: Alaska Indigenous Confederated Socialist Republic**
+- **→ See KML: Tlingit Aaní**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#10-alaska-indigenous-confederated-socialist-republic-aicsr)
 
 **Haudenosaunee Confederacy:**
@@ -331,24 +331,24 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 
 #### Degrading Rumps
 
-**Anchorage Rump:**
+**Alaska:**
 - **GDP:** ~$30B
 - **Dominant sectors:** Oil and gas (severely declining — production <500K bpd, global demand declining, infrastructure degrading), fishing (Bristol Bay, Gulf of Alaska — residual), logistics (Anchorage as air cargo hub — significantly reduced volume), military (residual infrastructure, no capacity to project power)
 - **Trade partners and bloc alignment:** Minimal — trade primarily with Canada (residual), residual East Asian markets (seafood, energy). No bloc alignment — effectively isolated.
 - **Economic model:** Nationalist-capitalist / extractive (failing). Oil revenue collapsed, Permanent Fund depleted, federal transfers gone. Government services largely stopped. De facto control shrinking.
 - **Currency:** Dollarized / barter. US dollar legacy — severe liquidity shortage.
 - **Labor market character:** Labor-intensive. Fishing and residual logistics provide primary employment. Extraction declining. High unemployment, out-migration. ~450K population (declining rapidly).
-- **→ See KML: Anchorage Rump**
+- **→ See KML: Alaska**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#19-anchorage-rump)
 
-**Other Alaska Indigenous Territories:**
-- **Covered under Alaska Indigenous Confederated Socialist Republic (AICSR)** for the Southeast Alaska indigenous state. The remaining Alaska indigenous territories — North Slope (Iñupiat), Western Alaska (Yupik), Interior (Athabascan), Aleutian (Unangax̂), Kodiak/Prince William Sound (Alutiiq/Sugpiaq) — form a mosaic of indigenous-led territories outside Anchorage control:
+**Alaska Indigenous Mosaic:**
+- **Covered under Tlingit Aaní** for the Southeast Alaska indigenous state. The remaining Alaska indigenous territories — North Slope (Iñupiat), Western Alaska (Yupik), Interior (Athabascan), Aleutian (Unangax̂), Kodiak/Prince William Sound (Alutiiq/Sugpiaq) — form a mosaic of indigenous-led territories outside Anchorage control:
 - **GDP:** ~$5B combined (variable across territories)
 - **Dominant sectors:** North Slope: oil/gas revenue (declining but still significant — ASRC region managed through indigenous corporations). Western/Interior: fishing, subsistence, small-scale mining, tourism. Aleutian: fishing (Bristol Bay — world's largest sockeye salmon fishery), geothermal.
 - **Economic model:** Indigenous corporate governance through ANCSA structures + tribal governments. Some highly functional (North Slope ASRC with significant investment portfolio), some struggling with loss of federal funding.
 - **Currency:** Digital basket / barter. ANCSA corporations maintain financial relationships with PPR institutions.
 - **Labor market character:** Labor-intensive. Fishing, subsistence, and seasonal tourism. Some automation in fish processing.
-- **→ See KML: Alaska Indigenous Territories**
+- **→ See KML: Tlingit Aaní**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#11-other-alaska-indigenous-nations)
 
 ### Economic Profiles — Key Global Powers

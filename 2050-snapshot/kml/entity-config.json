@@ -150,15 +150,15 @@
         "Panama",
         "Mexico"
       ],
-      "Northern America": [
-        "Alaska Indigenous Territories",
-        "Anchorage Rump",
+      "Northern America (wip)": [
+        "Alaska",
         "Appalachian Zone",
         "Atlanta Metro",
         "Atlantic South",
         "Bermuda",
         "Canada",
         "Columbia Plateau Republic",
+        "Dena'ina Nenn'",
         "Eastern Kentucky Revolutionary",
         "Front Range Socialist Republic",
         "Georgia Rural",
@@ -171,6 +171,7 @@
         "Heartland Plains",
         "Idaho Central",
         "Interior Florida",
+        "Iñupiat Nunaat",
         "Kentucky Rump",
         "Montana Remnant",
         "Mormon Corridor",
@@ -187,9 +188,11 @@
         "Southern West Virginia Revolutionary",
         "St. Pierre and Miquelon",
         "Tennessee Rump",
-        "Wyoming Remnant"
+        "Tlingit Aaní",
+        "Wyoming Remnant",
+        "Yup'it-Alutiiq Confederacy"
       ],
-      "South America": [
+      "South America (wip)": [
         "Argentina",
         "Bolivia",
         "Brazil",
@@ -210,7 +213,7 @@
       "Antarctica"
     ],
     "Eurasia (wip)": {
-      "Central Asia": [
+      "Central Asia (wip)": [
         "Afghanistan",
         "Kazakhstan",
         "Kyrgyzstan",
@@ -218,14 +221,14 @@
         "Turkmenistan",
         "Uzbekistan"
       ],
-      "Eastern Asia": [
+      "Eastern Asia (wip)": [
         "China",
         "Japan",
         "Mongolia",
         "North Korea",
         "South Korea"
       ],
-      "Eastern Europe": [
+      "Eastern Europe (wip)": [
         "Belarus",
         "Bulgaria",
         "Czechia",
@@ -237,7 +240,7 @@
         "Slovakia",
         "Ukraine"
       ],
-      "Northern Europe": [
+      "Northern Europe (wip)": [
         "Denmark",
         "Estonia",
         "Finland",
@@ -249,7 +252,7 @@
         "Sweden",
         "United Kingdom"
       ],
-      "Southeast Asia": [
+      "Southeast Asia (wip)": [
         "Brunei",
         "Cambodia",
         "East Timor",
@@ -262,7 +265,7 @@
         "Thailand",
         "Vietnam"
       ],
-      "Southern Asia": [
+      "Southern Asia (wip)": [
         "Bangladesh",
         "Bhutan",
         "India",
@@ -271,7 +274,7 @@
         "Pakistan",
         "Sri Lanka"
       ],
-      "Southern Europe": [
+      "Southern Europe (wip)": [
         "Albania",
         "Bosnia and Herzegovina",
         "Croatia",
@@ -288,7 +291,7 @@
         "Spain",
         "Turkey"
       ],
-      "Western Asia": [
+      "Western Asia (wip)": [
         "Bahrain",
         "Iran",
         "Iraq",
@@ -304,7 +307,7 @@
         "United Arab Emirates",
         "Yemen"
       ],
-      "Western Europe": [
+      "Western Europe (wip)": [
         "Austria",
         "Belgium",
         "France",
@@ -315,18 +318,18 @@
       ]
     },
     "Oceania (wip)": {
-      "Australasia": [
+      "Australasia (wip)": [
         "Australia",
         "New Zealand"
       ],
-      "Melanesia": [
+      "Melanesia (wip)": [
         "Fiji",
         "New Caledonia",
         "Papua New Guinea",
         "Solomon Is.",
         "Vanuatu"
       ],
-      "Micronesia": [
+      "Micronesia (wip)": [
         "Guam",
         "Kiribati",
         "Marshall Is.",
@@ -334,7 +337,7 @@
         "Nauru",
         "Palau"
       ],
-      "Polynesia": [
+      "Polynesia (wip)": [
         "Cook Is.",
         "Maohi Nui",
         "Niue",
@@ -678,33 +681,70 @@
       "section_anchor": "mountain-tapestry",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#mountain-tapestry"
     },
-    "Anchorage Rump": {
+    "Alaska": {
       "type": "entity",
       "category": "degrading",
       "source": "county",
       "counties": [
         {
           "state": "AK",
-          "county": "^(Anchorage|Matanuska-Susitna|Kenai Peninsula|Valdez-Cordova).*"
+          "county": "^(Anchorage|Matanuska-Susitna|Kenai Peninsula|Copper River|Chugach).*"
         }
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "anchorage-rump",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#anchorage-rump"
+      "section_anchor": "alaska",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#alaska"
     },
-    "Alaska Indigenous Territories": {
+    "Tlingit Aaní": {
+      "type": "entity",
+      "category": "indigenous",
+      "source": "manual",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "tlingit-aani",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#tlingit-aani",
+      "manual_path": "source/manual/Tlingit Aaní.kml"
+    },
+    "Iñupiat Nunaat": {
       "type": "entity",
       "category": "indigenous",
       "source": "county",
       "counties": [
         {
           "state": "AK",
-          "county": "^(Juneau|Skagway|Haines|Sitka|Petersburg|Wrangell|Ketchikan|Prince of Wales-Hyder|Hoonah-Angoon|Yakutat|Bristol Bay|Lake and Peninsula|Kodiak Island|Kenai Peninsula).*"
+          "county": "^(North Slope|Northwest Arctic|Nome).*"
         }
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "alaska-indigenous-territories",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#alaska-indigenous-confederated-socialist-republic"
+      "section_anchor": "inupiat-nunaat",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#inupiat-nunaat"
+    },
+    "Yup'it-Alutiiq Confederacy": {
+      "type": "entity",
+      "category": "indigenous",
+      "source": "county",
+      "counties": [
+        {
+          "state": "AK",
+          "county": "^(Bethel|Kusilvak|Dillingham|Bristol Bay|Lake and Peninsula|Aleutians East|Aleutians West|Kodiak Island).*"
+        }
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "yupit-alutiiq-confederacy",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#yupit-alutiiq-confederacy"
+    },
+    "Dena'ina Nenn'": {
+      "type": "entity",
+      "category": "indigenous",
+      "source": "county",
+      "counties": [
+        {
+          "state": "AK",
+          "county": "^(Yukon-Koyukuk|Fairbanks North Star|Denali|Southeast Fairbanks).*"
+        }
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "denaina-nenn",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#denaina-nenn"
     },
     "Canada": {
       "type": "entity",
@@ -3053,10 +3093,10 @@
         "description": "See: 2050-snapshot/domains/culture.md#sequoyan-nation"
       },
       {
-        "name": "Alaska Indigenous Territories",
+        "name": "Tlingit Aaní",
         "type": "entity_copy",
-        "source_entity": "Alaska Indigenous Territories",
-        "description": "See: 2050-snapshot/domains/culture.md#alaska-indigenous-csr"
+        "source_entity": "Tlingit Aaní",
+        "description": "See: 2050-snapshot/domains/culture.md#tlingit-aani"
       }
     ]
   }
