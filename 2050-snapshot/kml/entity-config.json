@@ -1,5 +1,5 @@
 {
-  "description": "2050 World Map — Entity and overlay configuration for KML generation. Per D-19 (programmatic generation) and D-04 (rough polygon overlays).",
+  "description": "2050 World Map \u2014 Entity and overlay configuration for KML generation. Per D-19 (programmatic generation) and D-04 (rough polygon overlays).",
   "styles": {
     "default-polygon": {
       "lineColor": "ffb08155",
@@ -81,7 +81,7 @@
         "Congo",
         "Equatorial Guinea",
         "Gabon",
-        "São Tomé and Príncipe"
+        "S\u00e3o Tom\u00e9 and Pr\u00edncipe"
       ],
       "Northern Africa": [
         "Algeria",
@@ -101,7 +101,7 @@
         "Benin",
         "Cabo Verde",
         "Nigeria",
-        "Côte d'Ivoire",
+        "C\u00f4te d'Ivoire",
         "Federation of Sahel States",
         "Ghana",
         "Guinea",
@@ -120,7 +120,7 @@
         "British Virgin Is.",
         "Cayman Islands",
         "Cuba",
-        "Curaçao",
+        "Cura\u00e7ao",
         "Dominica",
         "Dominican Rep.",
         "Grenada",
@@ -133,24 +133,24 @@
         "Saba",
         "Saint Lucia",
         "Saint Martin",
-        "St. Barthélemy",
+        "St. Barth\u00e9lemy",
         "St. Eustatius",
         "St. Kitts and Nevis",
         "St. Vin. and Gren.",
         "Trinidad and Tobago",
         "Turks and Caicos Is."
       ],
-      "Central America (wip)": [
+      "Central America": [
         "Belize",
-        "Chicano Socialist Republic",
         "Costa Rica",
         "El Salvador",
         "Guatemala",
         "Honduras",
         "Nicaragua",
-        "Panama"
+        "Panama",
+        "Mexico"
       ],
-      "Northern America (wip)": [
+      "Northern America": [
         "Alaska Indigenous Territories",
         "Anchorage Rump",
         "Appalachian Zone",
@@ -164,6 +164,7 @@
         "Georgia Rural",
         "Great Lakes People's Republic",
         "Greenland",
+        "Texas",
         "Gulf Compact",
         "Haudenosaunee Confederacy",
         "Hawaii",
@@ -171,7 +172,6 @@
         "Idaho Central",
         "Interior Florida",
         "Kentucky Rump",
-        "Mexico",
         "Montana Remnant",
         "Mormon Corridor",
         "Mountain Tapestry",
@@ -189,7 +189,7 @@
         "Tennessee Rump",
         "Wyoming Remnant"
       ],
-      "South America (wip)": [
+      "South America": [
         "Argentina",
         "Bolivia",
         "Brazil",
@@ -210,7 +210,7 @@
       "Antarctica"
     ],
     "Eurasia (wip)": {
-      "Central Asia (wip)": [
+      "Central Asia": [
         "Afghanistan",
         "Kazakhstan",
         "Kyrgyzstan",
@@ -218,14 +218,14 @@
         "Turkmenistan",
         "Uzbekistan"
       ],
-      "Eastern Asia (wip)": [
+      "Eastern Asia": [
         "China",
         "Japan",
         "Mongolia",
         "North Korea",
         "South Korea"
       ],
-      "Eastern Europe (wip)": [
+      "Eastern Europe": [
         "Belarus",
         "Bulgaria",
         "Czechia",
@@ -237,7 +237,7 @@
         "Slovakia",
         "Ukraine"
       ],
-      "Northern Europe (wip)": [
+      "Northern Europe": [
         "Denmark",
         "Estonia",
         "Finland",
@@ -249,7 +249,7 @@
         "Sweden",
         "United Kingdom"
       ],
-      "Southeast Asia (wip)": [
+      "Southeast Asia": [
         "Brunei",
         "Cambodia",
         "East Timor",
@@ -262,7 +262,7 @@
         "Thailand",
         "Vietnam"
       ],
-      "Southern Asia (wip)": [
+      "Southern Asia": [
         "Bangladesh",
         "Bhutan",
         "India",
@@ -271,7 +271,7 @@
         "Pakistan",
         "Sri Lanka"
       ],
-      "Southern Europe (wip)": [
+      "Southern Europe": [
         "Albania",
         "Bosnia and Herzegovina",
         "Croatia",
@@ -288,7 +288,7 @@
         "Spain",
         "Turkey"
       ],
-      "Western Asia (wip)": [
+      "Western Asia": [
         "Bahrain",
         "Iran",
         "Iraq",
@@ -304,7 +304,7 @@
         "United Arab Emirates",
         "Yemen"
       ],
-      "Western Europe (wip)": [
+      "Western Europe": [
         "Austria",
         "Belgium",
         "France",
@@ -315,18 +315,18 @@
       ]
     },
     "Oceania (wip)": {
-      "Australasia (wip)": [
+      "Australasia": [
         "Australia",
         "New Zealand"
       ],
-      "Melanesia (wip)": [
+      "Melanesia": [
         "Fiji",
         "New Caledonia",
         "Papua New Guinea",
         "Solomon Is.",
         "Vanuatu"
       ],
-      "Micronesia (wip)": [
+      "Micronesia": [
         "Guam",
         "Kiribati",
         "Marshall Is.",
@@ -334,7 +334,7 @@
         "Nauru",
         "Palau"
       ],
-      "Polynesia (wip)": [
+      "Polynesia": [
         "Cook Is.",
         "Maohi Nui",
         "Niue",
@@ -485,33 +485,11 @@
       "section_anchor": "front-range-socialist-republic",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#front-range-socialist-republic"
     },
-    "Chicano Socialist Republic": {
-      "type": "entity",
-      "category": "revolutionary",
-      "source": "county",
-      "counties": [
-        {
-          "state": "AZ",
-          "county": ".*"
-        },
-        {
-          "state": "NM",
-          "county": ".*"
-        },
-        {
-          "state": "TX",
-          "county": "^(El Paso|Hudspeth|Culberson|Jeff Davis|Presidio|Brewster|Terrell).*"
-        }
-      ],
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "chicano-socialist-republic",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#chicano-socialist-republic"
-    },
     "Haudenosaunee Confederacy": {
       "type": "entity",
       "category": "indigenous",
       "source": "none",
-      "description": "Autonomous indigenous zone within NEC territory. No separate polygon — represented by a point marker within NEC territory.",
+      "description": "Autonomous indigenous zone within NEC territory. No separate polygon \u2014 represented by a point marker within NEC territory.",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "haudenosaunee-confederacy",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#haudenosaunee-confederacy"
@@ -521,10 +499,6 @@
       "category": "reactionary",
       "source": "county",
       "counties": [
-        {
-          "state": "TX",
-          "county": "^(?!El Paso|Hudspeth|Culberson|Jeff Davis|Presidio|Brewster|Terrell|Hidalgo|Cameron|Willacy|Starr|Zapata|Jim Hogg|Brooks|Kenedy|Kleberg|Nueces|San Patricio|Aransas|Refugio|Bee|Live Oak|McMullen|Duval|Jim Wells|Goliad|Victoria|Calhoun|Jackson|Matagorda|Wharton|Fort Bend|Brazoria|Galveston|Chambers|Jefferson|Orange|Hardin|Liberty|Tyler|Jasper|Newton|Polk).*"
-        },
         {
           "state": "LA",
           "county": ".*"
@@ -744,11 +718,11 @@
     "Mexico": {
       "type": "entity",
       "category": "global",
-      "source": "country",
-      "country_code": "MEX",
+      "source": "manual",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "mexico",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#mexico"
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#mexico",
+      "manual_path": "source/manual/Mexico.kml"
     },
     "Brazil": {
       "type": "entity",
@@ -1877,7 +1851,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Côte d'Ivoire": {
+    "C\u00f4te d'Ivoire": {
       "type": "entity",
       "category": "global",
       "source": "country",
@@ -1971,7 +1945,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "São Tomé and Príncipe": {
+    "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
       "type": "entity",
       "category": "global",
       "source": "country",
@@ -2100,24 +2074,11 @@
     "Navajoland": {
       "type": "entity",
       "category": "indigenous",
-      "source": "county",
-      "counties": [
-        {
-          "state": "AZ",
-          "county": "^(Apache|Navajo|Coconino).*"
-        },
-        {
-          "state": "NM",
-          "county": "^(McKinley|San Juan|Cibola).*"
-        },
-        {
-          "state": "UT",
-          "county": "^(San Juan|Kane|Garfield).*"
-        }
-      ],
+      "source": "manual",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "navajoland",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#navajo-nation"
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#navajo-nation",
+      "manual_path": "source/manual/Navajoland.kml"
     },
     "Oceti Sakowin": {
       "type": "entity",
@@ -2306,7 +2267,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Curaçao": {
+    "Cura\u00e7ao": {
       "type": "entity",
       "category": "global",
       "source": "group",
@@ -2413,7 +2374,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "St. Barthélemy": {
+    "St. Barth\u00e9lemy": {
       "type": "entity",
       "category": "global",
       "source": "country",
@@ -2520,6 +2481,24 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+    },
+    "Aztl\u00e1n": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "none",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "aztlan",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#aztlan",
+      "description": "Northern autonomous revolutionary socialist region of unified Mexico. Territory absorbed into Mexico's polygon."
+    },
+    "Texas": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "manual",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "texas",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#texas",
+      "manual_path": "source/manual/Texas.kml"
     }
   },
   "fragmented_entities": {
@@ -2662,7 +2641,7 @@
         ]
       },
       {
-        "name": "Extreme Heat — Persian Gulf",
+        "name": "Extreme Heat \u2014 Persian Gulf",
         "type": "rough_polygon",
         "description": "See: 2050-snapshot/domains/climate.md#west-asia--middle-east",
         "approximate_coords": [
@@ -3000,7 +2979,7 @@
     ],
     "demographics": [
       {
-        "name": "Demographic Profile Reference — PPR",
+        "name": "Demographic Profile Reference \u2014 PPR",
         "type": "entity_copy",
         "source_entity": "Pacific People's Republic",
         "description": "See: 2050-snapshot/domains/demographics.md#pacific-peoples-republic"
@@ -3032,7 +3011,7 @@
     ],
     "culture": [
       {
-        "name": "Cultural Profile Reference — PPR",
+        "name": "Cultural Profile Reference \u2014 PPR",
         "type": "entity_copy",
         "source_entity": "Pacific People's Republic",
         "description": "See: 2050-snapshot/domains/culture.md#pacific-peoples-republic"

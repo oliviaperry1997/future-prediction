@@ -82,7 +82,85 @@ Central America enters the transition period as the geopolitical hinge between N
 - **Chinese influence in the isthmus:** Whether Chinese investment in infrastructure (Nicaragua canal, port facilities, energy projects) creates a dependency relationship that fragments rather than unifies Central America — the classic "divide and invest" pattern of great-power competition in small-state regions. **(MEDIUM)**
 - **Dry Corridor migration magnitude:** Whether climate-driven migration from the Dry Corridor reaches thresholds that overwhelm the CAF's institutional capacity and trigger internal border closures, breaking the free-movement pillar of confederal integration. **(MEDIUM)**
 
-## Links to US Successor State System
+## Unification Plausibility Assessment
+
+This section assesses, in descending order of plausibility, whether the revolutionary states and confederations of Central America could unify — in whole or in part — by 2050 and beyond. Unification is defined as formal political union (shared sovereignty, common institutions, single international personality), not merely ideological alignment or economic integration.
+
+### Already Unified: Mexico + Aztlán (Confidence: HIGH, achieved by ~2048)
+
+The unification of Mexico and Aztlán is the region's gravitational anchor — the one unification that has already occurred by the 2050 snapshot. The trajectory was not inevitable but was overdetermined by structural factors:
+
+- **Ideological compatibility:** Both Mexico (under continued left governance trending toward developmental socialism) and the CSR/Aztlán (revolutionary socialism fused with Aztlán nationalism) converged on a shared economic model — state-directed investment, resource nationalism, BRICS+ alignment — making unification a consolidation of compatible systems rather than a hostile absorption.
+- **Economic complementarity:** Aztlán brought semiconductor manufacturing (Phoenix TSMC/Intel fabs, nationalized and expanded) and the best solar resource in the former US (200+ GW potential). Mexico brought manufacturing scale (maquiladora corridor, reoriented toward Latin American supply chains), population base (~130M), and Gulf/Caribbean port access. Aztlán alone was landlocked; unification resolved its vulnerability.
+- **Narrative resolution:** Aztlán's founding ideology — recovery of territory lost in 1848 — was always framed as reunification with Mexico rather than permanent separatism. The CSR's separatist phase (~2039-2045) gave way to integration as the revolutionary state matured. The Aztlán dream faded into practical cross-border cooperation as the benefits of unification became undeniable.
+- **No external veto:** The Monroe Doctrine's death removed the primary obstacle. Had the US survived, it would have intervened to prevent Mexico from absorbing US territory in Arizona and New Mexico. The collapse eliminated that veto — the unification occurred because no external power could stop it and both parties wanted it.
+
+**Assessment:** This unification is narrative-established fact by 2050. It is not revisited as a variable. The question is now whether the Mexico-Aztlán pole can attract the rest of the isthmus.
+
+### Deepening Toward Federation: CAF (Confidence: MEDIUM-HIGH for federation by ~2065)
+
+The Central American Federation's trajectory from Northern Triangle confederation (Guatemala, El Salvador, Honduras, ~35M population) to full federation is the region's most plausible partial unification:
+
+**Forces pushing toward federation:**
+- **Existential necessity:** No Northern Triangle state can manage the compound pressures of Dry Corridor climate migration (~5M directly affected), organized crime networks, and post-remittance economic restructuring alone. Pooling sovereignty is a survival strategy, not idealism. The free movement pillar (Schengen-style internal borders) creates irreversible interdependence — closing borders would collapse labor markets and remittance flows.
+- **Historical precedent:** The Federal Republic of Central America (1823-1841) functioned for 18 years. Its collapse was driven by caudillo rivalries, not structural impossibility. The modern CAF has stronger institutional foundations (a revived Central American Court of Justice with compulsory jurisdiction, common external tariff enforcement mechanisms, coordinated security policy) than the 19th-century federation ever did.
+- **Institutional lock-in:** Each deepening step (common external tariff → free movement → joint trade negotiation → revived court) increases the cost of exit. By 2049, the Northern Triangle core is integrated beyond the point of easy reversal — the confederation has created facts on the ground that no single member can undo unilaterally.
+- **External demonstration effects:** CARICOM's deepening (free movement operational since 2025, CCJ as final appellate authority, collective security coordination) and the Union of South American Nations' (USAN) institutional evolution provide models. The Northern Triangle is not pioneering confederation in a vacuum — it is learning from Caribbean and South American precedents.
+- **Mexico-Aztlán gravitational pull:** The CAF's primary external relationship is Mexico-Aztlán — the regional revolutionary power with semiconductor manufacturing, solar export capacity, and a population base of ~142M. A CAF that deepens into a federation can negotiate with Mexico as a bloc rather than as three small states. Collective bargaining power is the integration's economic logic.
+
+**Forces inhibiting federation:**
+- **Institutional capacity gap:** The CAF's confederal institutions are young (~15 years old by 2050) and depend on member-state compliance. The "shallow integration" trap — paper commitments without enforcement — killed every prior Central American integration attempt. The current CAF's track record is insufficient to guarantee that this time is different.
+- **Caudillo fragmentation legacy:** The 19th-century Federal Republic was destroyed by regional strongmen who preferred personal rule to shared governance. This political culture — caudillismo — has deep roots and is not erased by a generation of left governance. The return of a charismatic nationalist leader in any member state could unravel the confederation.
+- **Asymmetric development:** Guatemala (~18M) is more than twice the population of Honduras (~10.5M) and nearly three times El Salvador (~6.5M). Economic asymmetry (Guatemala's larger economy, El Salvador's higher development indicators) creates tension over fiscal transfers and institutional weighting. The "big state problem" that killed the West Indies Federation (Jamaica's 1961 withdrawal) has a Central American analogue in Guatemala.
+
+**Likely trajectory:** Federation by ~2065. The confederation's deepening logic outpaces fragmentation risk because the costs of non-integration are higher than the costs of integration. Dry Corridor migration cannot be managed by individual states; organized crime cannot be contained by national police forces; BRICS+ trade partners will not negotiate bilateral deals with microstates. The CAF federates because the alternative is worse.
+
+### Full Central American Reunification (CA-6): Confidence LOW by 2050, MEDIUM by 2075
+
+Full reunification of the six historical Central American republics (Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica, Panama — plus Belize as a permanent associate) is the maximalist scenario:
+
+**By 2050:** LOW confidence. Costa Rica and Panama remain outside the CAF's political structures. Costa Rica's institutional exceptionalism (stable democracy since 1948, no army, highest HDI in the isthmus) makes it the "Norway to the EU" — deep economic integration, permanent political autonomy. Panama's canal-state identity is structurally incompatible with pooled sovereignty: no Panamanian government will cede canal revenue or operational control to a supranational body. The 2050 CAF is a Northern Triangle confederation with Nicaragua as a prospective member, Costa Rica as an observer, and Panama as an economic partner.
+
+**By 2075:** MEDIUM confidence. Two developments could shift the calculus:
+1. **Costa Rica's demonstration-effect conversion:** If the CAF federates successfully and demonstrates that pooled sovereignty improves (rather than degrades) governance quality, Costa Rica's "contagion fear" reverses. The Northern Triangle's governance deficits — the reason Costa Rica stayed out — would have been resolved through integration. Costa Rica joins not because it must but because membership is a net positive: lower security costs (CAF defense umbrella replaces the need for border militarization), larger market access (197M-person combined market with Mexico-Aztlán trade agreements), and climate resilience (Dry Corridor management is collective, not national).
+2. **Panama's multilateral canal governance:** The canal's security transition from US guarantee to multilateral arrangement (BRICS+ guarantors, CAF observer role, IMO jurisdiction) creates a governance template. If Panama's canal sovereignty can coexist with CAF economic integration — a dual-sovereignty model where canal operations remain Panamanian but trade, migration, and external tariff policy are pooled — Panama could join as a sui generis member. The "triangle game" (Panama's multi-vector foreign policy balancing CAF, Colombia, and BRICS+) becomes easier, not harder, inside a larger bloc.
+
+**Belize** remains a permanent bridge state — dual CARICOM-CAF membership, sovereignty guaranteed by both blocs. Belize's unique profile (English-speaking, common-law, Afro-Caribbean) makes full CAF absorption neither desired nor plausible, but its role as the isthmus's institutional connector is valuable to all parties.
+
+### Revolutionary Corridor (Ideological Alignment, Not Formal Union)
+
+The ideological alignment from Aztlán through Mexico, the CAF, Colombia (post-conflict left government), and into South America's left-governed states creates a continuous revolutionary belt — but this is not a unification scenario. The corridor represents:
+- **Cross-border investment facilitation:** State-owned enterprises and worker cooperatives invest across aligned jurisdictions.
+- **Labor mobility agreements:** Bilateral and multilateral migration compacts among aligned states.
+- **Diplomatic coordination:** Shared positions in BRICS+ forums, coordinated UN voting, joint climate and trade negotiation.
+- **No shared institutions:** No common currency, no supranational court, no pooled defense. The corridor is compatibility, not confederation.
+
+### Failure Modes
+
+**1. Dry Corridor overwhelms CAF capacity (MEDIUM risk):** If climate-driven migration exceeds the CAF's absorption threshold, member states may close internal borders — breaking the free-movement pillar that is the confederation's deepest integration. Internal border closures would unwind the CAF's primary achievement and return the Northern Triangle to competitive crisis management.
+
+**2. China's "divide and invest" fragments the isthmus (MEDIUM risk):** Chinese infrastructure investment (Nicaragua canal, port facilities in Honduras and Guatemala, energy projects in Costa Rica) could create bilateral dependency relationships that pit CAF members against each other. A Nicaragua indebted to Chinese canal financing has different incentives than a Guatemala oriented toward Mexico-Aztlán trade. Great-power competition in small-state regions historically fragments rather than unifies.
+
+**3. Reactionary reversal in a CAF member state (MEDIUM-LOW risk):** The left-governments that founded the CAF are not permanent. A right-nationalist reversal in any Northern Triangle state — particularly Guatemala, the largest member — could trigger a withdrawal crisis. The CAF has no expulsion mechanism; a reactionary member could paralyze confederal institutions while remaining inside.
+
+**4. Mexico-Aztlán overabsorbs the CAF (LOW risk):** Full CAF absorption into Mexico-Aztlán — making the isthmus a Greater Mexican federation — is unlikely. The CAF states have distinct national identities, separate revolutionary traditions, and no interest in trading Guatemala City's sovereignty for Mexico City's. The model is EU-style deepening, not 19th-century annexation. Mexico is the CAF's partner, not its metropole.
+
+**5. Costa Rica stays out permanently (MEDIUM risk):** If the "Norway model" solidifies — Costa Rica enjoys all economic benefits of CAF association without political costs — it may never join. This is not a failure mode for Central America (the region can succeed without Costa Rican membership) but it caps the maximalist reunification scenario. A CA-5 federation (Northern Triangle + Nicaragua + Panama) plus Costa Rican association is a stable equilibrium.
+
+### Probability Table
+
+| Unification Scenario | By 2050 | By 2075 | By 2100 | Key Dependency |
+|---|---|---|---|---|
+| Mexico + Aztlán | **Achieved** (~2048) | — | — | Narrative-established |
+| CAF Northern Triangle federation | LOW (confederation only) | MEDIUM-HIGH | HIGH | CAF institutional depth outpaces fragmentation |
+| CAF + Nicaragua | MEDIUM | HIGH | HIGH | Post-Ortega left transition |
+| CAF + Costa Rica | LOW (observer) | MEDIUM | MEDIUM-HIGH | CAF demonstration effect on governance quality |
+| CAF + Panama | LOW (economic partner) | LOW-MEDIUM | MEDIUM | Dual-sovereignty canal model |
+| CA-6 full reunification | LOW | MEDIUM | MEDIUM-HIGH | Costa Rica + Panama accession paths |
+| CA-6 + Mexico-Aztlán (Greater Central America) | LOW | LOW | LOW-MEDIUM | CAF avoids absorption into Mexico's sphere |
+| Revolutionary corridor (ideological alignment) | MEDIUM-HIGH | HIGH | HIGH | Colombia and South American left trajectory |
+
+---
 
 - Mexico-Aztlán borders three US successor states (PPR, Gulf Compact, FRSR), creating the world's most complex border network
 - Aztlán's semiconductor manufacturing and solar energy are integrated into BRICS+ supply chains, with US successor states (PPR, NEC, GLPR) as trade partners

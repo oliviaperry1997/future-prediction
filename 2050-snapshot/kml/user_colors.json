@@ -257,7 +257,7 @@
     "kml_line": "ff2f2dbd",
     "width": 1.0
   },
-  "Chicano Socialist Republic": {
+  "Aztlán": {
     "hex": "#beca6c",
     "kml_fill": "806ccabe",
     "kml_line": "ff6ccabe",
@@ -345,6 +345,12 @@
     "hex": "#5eb357",
     "kml_fill": "8057b35e",
     "kml_line": "ff57b35e",
+    "width": 1.0
+  },
+  "Texas": {
+    "hex": "#0005CE",
+    "kml_fill": "80CE0500",
+    "kml_line": "ffCE0500",
     "width": 1.0
   },
   "Gulf Compact": {

@@ -25,7 +25,7 @@ import os
 import re
 import sys
 from lxml import etree
-from shapely.geometry import shape, MultiPolygon, Polygon, Point
+from shapely.geometry import shape, MultiPolygon, Polygon, Point, LineString
 from shapely.ops import unary_union
 
 # Config
@@ -95,12 +95,22 @@ def read_county_kml(path):
         if not state_usps or not state_fips:
             continue
         
-        # Get polygon geometry
-        polygon_el = pm.find(".//kml:Polygon", NSMAP)
-        if polygon_el is None:
-            continue
+        # Get polygon geometry — handle MultiGeometry (counties with islands, exclaves, etc.)
+        geom = None
+        multi_geom = pm.find(".//kml:MultiGeometry", NSMAP)
+        if multi_geom is not None:
+            polygons = []
+            for poly_el in multi_geom.findall("kml:Polygon", NSMAP):
+                g = parse_kml_polygon(poly_el)
+                if g is not None:
+                    polygons.append(g)
+            if polygons:
+                geom = MultiPolygon(polygons) if len(polygons) > 1 else polygons[0]
+        else:
+            polygon_el = pm.find("kml:Polygon", NSMAP)
+            if polygon_el is not None:
+                geom = parse_kml_polygon(polygon_el)
         
-        geom = parse_kml_polygon(polygon_el)
         if geom is None:
             continue
         
@@ -366,7 +376,7 @@ def simplify_polygon(geom, tolerance=0.01):
         return geom
 
 
-def remove_slivers(geom, min_area_ratio=0.005):
+def remove_slivers(geom, min_area_ratio=0.00001):
     """
     Remove sliver polygons from a MultiPolygon result (e.g. after difference).
     Keeps only polygons whose area is at least min_area_ratio of the largest polygon.
@@ -389,6 +399,124 @@ def remove_slivers(geom, min_area_ratio=0.005):
             return keep[0]
         return MultiPolygon(keep)
     return geom
+
+
+def load_border_line(path):
+    """
+    Load a border LineString from a KML file.
+    Returns a shapely LineString with consecutive duplicate points removed.
+    """
+    tree = etree.parse(path)
+    root = tree.getroot()
+    coords_el = root.find('.//kml:coordinates', NSMAP)
+    if coords_el is None or not coords_el.text:
+        raise ValueError(f"No coordinates found in border KML: {path}")
+    pts = []
+    for pt in coords_el.text.strip().split():
+        p = pt.split(',')
+        if len(p) >= 2:
+            pts.append((float(p[0]), float(p[1])))
+    if len(pts) < 2:
+        raise ValueError(f"Border KML has fewer than 2 points: {path}")
+    # Remove consecutive duplicate points (within 1e-7 tolerance)
+    clean = [pts[0]]
+    for pt in pts[1:]:
+        d = ((pt[0] - clean[-1][0])**2 + (pt[1] - clean[-1][1])**2)**0.5
+        if d > 1e-7:
+            clean.append(pt)
+    return LineString(clean)
+
+
+def extend_border_line(line):
+    """
+    Extend the border line at both ends to fully bisect the combined polygon.
+    West extension: from the northern endpoint west into the Pacific (-115°W).
+    East extension: from the southern endpoint east into the Gulf / toward Atlantic.
+    Returns a continuous LineString.
+    """
+    coords = list(line.coords)
+    if len(coords) < 2:
+        return line
+
+    north_pt = coords[0]
+    south_pt = coords[-1]
+
+    # Western extension: go west from north_pt into the Pacific to bisect Baja/Mexico
+    west_ext = [(-115.0, north_pt[1])]
+
+    # Eastern extension: go east from south_pt to bisect the Gulf
+    east_ext = [(-90.0, south_pt[1])]
+
+    # Assemble: west_ext → coords → east_ext
+    extended_coords = west_ext + coords + east_ext
+    clean = [extended_coords[0]]
+    for pt in extended_coords[1:]:
+        d = ((pt[0] - clean[-1][0])**2 + (pt[1] - clean[-1][1])**2)**0.5
+        if d > 1e-7:
+            clean.append(pt)
+    return LineString(clean)
+
+
+def split_along_border(geom, line, keep_side):
+    """
+    Split a geometry along an extended border line and keep fragments
+    on the specified side ('southwest' or 'northeast').
+    Uses shapely.ops.split() — no polygon clipping, no straight edges.
+    """
+    from shapely.ops import split
+    
+    # Ensure clean inputs
+    geom = geom.buffer(0)
+    line = line.buffer(0.00001).simplify(0.0001)
+    
+    try:
+        fragments = split(geom, line)
+    except Exception:
+        return geom  # split failed, return original
+    
+    if fragments.geom_type == 'GeometryCollection':
+        pieces = list(fragments.geoms)
+    else:
+        pieces = [fragments]
+    
+    kept = []
+    for piece in pieces:
+        if piece.is_empty:
+            continue
+        # Determine which side the piece is on
+        centroid = piece.centroid
+        # Project centroid onto line, compare
+        proj_dist = line.project(centroid)
+        proj_pt = line.interpolate(proj_dist)
+        
+        # Cross product to determine side
+        # Get the line direction at the projected point
+        if proj_dist < line.length - 0.0001:
+            next_pt = line.interpolate(proj_dist + 0.0001)
+        else:
+            next_pt = line.interpolate(proj_dist - 0.0001)
+        
+        dx = next_pt.x - proj_pt.x
+        dy = next_pt.y - proj_pt.y
+        cx = centroid.x - proj_pt.x
+        cy = centroid.y - proj_pt.y
+        
+        # Cross product: positive = left of line (SW), negative = right (NE)
+        # Line goes NW→SE, so left = SW, right = NE
+        cross = dx * cy - dy * cx
+        
+        if keep_side == 'southwest':
+            if cross >= -1e-10:
+                kept.append(piece)
+        elif keep_side == 'northeast':
+            if cross <= 1e-10:
+                kept.append(piece)
+    
+    if not kept:
+        return geom  # nothing kept, return original
+    
+    merged = unary_union(kept)
+    return merged
 
 
 def geom_to_coords(geom):
@@ -777,6 +905,29 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                             entity_errors.append(f"  [{entity_name}] Subtract admin1 '{region_name}' not found")
                     geom = remove_slivers(geom)
                 
+                # Add additional county territory to country polygon (e.g., Mexico + Aztlán)
+                add_counties = entity_cfg.get("add_counties", [])
+                if add_counties:
+                    county_matches, cw = match_counties(county_data, add_counties)
+                    if cw:
+                        for w in cw:
+                            entity_errors.append(f"  [{entity_name}] add_counties: {w}")
+                    if county_matches:
+                        cm = merge_polygons(county_matches)
+                        if cm is not None:
+                            cm = remove_slivers(cm)
+                            geom = geom.union(cm)
+                
+                # Add additional country territories (e.g., France + Fr. S. Antarctic Lands)
+                add_country_codes = entity_cfg.get("add_country_codes", [])
+                if add_country_codes:
+                    for cc in add_country_codes:
+                        g = global_by_code.get(cc)
+                        if g is not None:
+                            geom = geom.union(g)
+                        else:
+                            entity_errors.append(f"  [{entity_name}] add_country_codes: '{cc}' not found")
+                
                 simplified = simplify_polygon(geom, tolerance=0.01)
                 coords = geom_to_coords(simplified)
                 if coords:
@@ -948,6 +1099,141 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
     
     if _fallback_color_count[0] > 0:
         print(f"  {_fallback_color_count[0]} entities used fallback (auto-generated) colors")
+    
+    # Post-processing: if Mexico and Texas both specify clip_line to the same file,
+    # combine their polygons, split along the border line, and reassign fragments.
+    clip_pairs = []
+    for ename, ecfg in config["entities"].items():
+        cl = ecfg.get("clip_line")
+        if cl:
+            clip_pairs.append((ename, cl))
+    
+    # Group entities by clip_line path
+    from collections import defaultdict
+    clip_groups = defaultdict(list)
+    for ename, cl in clip_pairs:
+        clip_groups[cl["path"]].append((ename, cl["side"]))
+    
+    for path, group in clip_groups.items():
+        if len(group) != 2:
+            continue  # need exactly 2 entities sharing one border line
+        
+        (ename_a, side_a), (ename_b, side_b) = group
+        if side_a == side_b:
+            continue  # need opposite sides
+        
+        if ename_a not in entity_polygons or ename_b not in entity_polygons:
+            continue
+        
+        print(f"  Combined split: {'/'.join(f'{en} ({sd})' for en, sd in group)} along {path}")
+        
+        try:
+            border_line = load_border_line(os.path.join(script_dir, path))
+            
+            # Reconstruct both geometries from their coords
+            poly_a = entity_polygons[ename_a]
+            poly_b = entity_polygons[ename_b]
+            
+            a_geoms = []
+            for ct in poly_a["coords"]:
+                pts = [(float(p.split(",")[0]), float(p.split(",")[1])) for p in ct.strip().split() if "," in p]
+                if len(pts) >= 3:
+                    if pts[0] != pts[-1]: pts.append(pts[0])
+                    try: a_geoms.append(Polygon(pts))
+                    except: pass
+            
+            b_geoms = []
+            for ct in poly_b["coords"]:
+                pts = [(float(p.split(",")[0]), float(p.split(",")[1])) for p in ct.strip().split() if "," in p]
+                if len(pts) >= 3:
+                    if pts[0] != pts[-1]: pts.append(pts[0])
+                    try: b_geoms.append(Polygon(pts))
+                    except: pass
+            
+            if not a_geoms or not b_geoms:
+                continue
+            
+            # Combine both into one blob
+            combined = unary_union(a_geoms + b_geoms)
+            combined = combined.buffer(0)
+            
+            # Split along the border line
+            from shapely.ops import split
+            try:
+                fragments = split(combined, border_line)
+            except Exception:
+                try:
+                    fragments = split(combined, border_line.buffer(1e-7))
+                except Exception as e2:
+                    raise e2
+            
+            if fragments.geom_type == 'GeometryCollection':
+                pieces = list(fragments.geoms)
+            else:
+                pieces = [fragments]
+            
+            # Assign each piece to the correct side
+            sw_pieces = []
+            ne_pieces = []
+            for piece in pieces:
+                if piece.is_empty or piece.area < 1e-8:
+                    continue
+                centroid = piece.centroid
+                proj_dist = border_line.project(centroid)
+                proj_pt = border_line.interpolate(min(proj_dist, border_line.length - 0.00001))
+                next_pt = border_line.interpolate(min(proj_dist + 0.00001, border_line.length))
+                
+                dx = next_pt.x - proj_pt.x
+                dy = next_pt.y - proj_pt.y
+                cx = centroid.x - proj_pt.x
+                cy = centroid.y - proj_pt.y
+                cross = dx * cy - dy * cx
+                
+                # cross > 0 = NE of line (for N→S line), cross < 0 = SW
+                # Our line goes N→S (north extension → border → south extension)
+                if cross >= -1e-10:
+                    ne_pieces.append(piece)
+                else:
+                    sw_pieces.append(piece)
+            
+            # Map sides to entity names and their poly data
+            ename_sw = next(en for en, sd in group if sd == "southwest")
+            ename_ne = next(en for en, sd in group if sd == "northeast")
+            poly_sw = entity_polygons.get(ename_sw, {})
+            poly_ne = entity_polygons.get(ename_ne, {})
+            
+            # Regenerate entity polygons
+            if sw_pieces:
+                sw_merged = unary_union(sw_pieces)
+                sw_merged = remove_slivers(sw_merged)
+                sw_simple = simplify_polygon(sw_merged, 0.01)
+                sw_coords = geom_to_coords(sw_simple)
+                if sw_coords:
+                    entity_polygons[ename_sw] = {
+                        "coords": sw_coords,
+                        "type": poly_sw.get("type", "country"),
+                        "cfg": poly_sw.get("cfg", {}),
+                    }
+                else:
+                    entity_errors.append(f"  Combined split [{ename_sw}]: geom_to_coords returned empty")
+            
+            if ne_pieces:
+                ne_merged = unary_union(ne_pieces)
+                ne_merged = remove_slivers(ne_merged)
+                ne_simple = simplify_polygon(ne_merged, 0.01)
+                ne_coords = geom_to_coords(ne_simple)
+                if ne_coords:
+                    entity_polygons[ename_ne] = {
+                        "coords": ne_coords,
+                        "type": poly_ne.get("type", "county"),
+                        "cfg": poly_ne.get("cfg", {}),
+                    }
+                else:
+                    entity_errors.append(f"  Combined split [{ename_ne}]: geom_to_coords returned empty")
+            
+            print(f"    Split into {len(sw_pieces)} SW + {len(ne_pieces)} NE fragments")
+        except Exception as e:
+            entity_errors.append(f"  Combined split [{ename_a}/{ename_b}]: {e}")
     
     # Build folder hierarchy from config
     hierarchy = config["folder_hierarchy"]
