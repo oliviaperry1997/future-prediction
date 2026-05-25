@@ -19,7 +19,7 @@ milestone: 2050
 - Global population peaked at approximately 9.7 billion (~2043, consistent with prediction-008) and has begun gradual decline — the world entered the first sustained population contraction in modern history, with every major region except Sub-Saharan Africa below replacement fertility
 - Cross-border climate migration exceeded 50 million cumulative (consistent with prediction-003), becoming a first-order geopolitical variable that reshapes citizenship, border enforcement, and labor markets across every continent
 - East Asia and Europe entered sustained population decline; Sub-Saharan Africa continues growing though slowing rapidly — the demographic asymmetry that began in the early 21st century has become the defining structural feature of global population dynamics, driving migration pressure from the still-growing South to the shrinking North
-- US successor states established radically divergent migration regimes and citizenship frameworks — revolutionary states (Pacifica, NEC, GLPR, Aztlán) attract migrants and maintain population stability through managed immigration; reactionary states (Gulf Compact, Atlantic South, Heartland Plains) experience population decline, brain drain, and rural depopulation
+- US successor states established radically divergent migration regimes and citizenship frameworks — revolutionary states (Pacifica, NEC, GLPR, Aztlán) attract migrants and maintain population stability through managed immigration; reactionary states (Gulf Compact, Atlantic South, Heartland) experience population decline, brain drain, and rural depopulation
 - Global median age rose from ~31 (2025) to ~36 (2050); dependency ratios increased across all developed and middle-income regions, with automation partially offsetting the economic impact of a shrinking working-age population
 
 ## Analysis
@@ -65,7 +65,7 @@ Africa still growing — Asia declining. Sub-Saharan Africa continues growing (t
 The fragmentation of the United States produced 19 successor entities with sharply divergent demographic trajectories. Post-2050 migration patterns within former US territory are shaped primarily by political alignment:
 
 - **Revolutionary states (Pacifica, NEC, GLPR, Aztlán, FRSR, HFS):** Attract domestic and international migrants, maintain higher urbanization rates, and sustain younger age structures through managed immigration. The Pacifica and Aztlán have the highest net migration rates among successor states. These states' socialist economic models — with UBI (Pacifica), guaranteed employment (NEC, GLPR), and universal basic services (Aztlán) — function as demographic attractors in a world of economic precarity.
-- **Reactionary states (Gulf Compact, Atlantic South, Heartland Plains, Appalachian Zone rumps, Deseret, Mountain Tapestry):** Experience population decline, brain drain, aging, and rural depopulation. Young, educated workers leave for revolutionary states and BRICS+ economies. The Deseret's youth exodus is demographically significant — young adults raised in the church leave for revolutionary states where educational and economic opportunities are better. These states lack both the economic opportunity and the social safety nets to retain population.
+- **Reactionary states (Gulf Compact, Atlantic South, Heartland, Appalachian Zone rumps, Deseret, Mountain Tapestry):** Experience population decline, brain drain, aging, and rural depopulation. Young, educated workers leave for revolutionary states and BRICS+ economies. The Deseret's youth exodus is demographically significant — young adults raised in the church leave for revolutionary states where educational and economic opportunities are better. These states lack both the economic opportunity and the social safety nets to retain population.
 - **Indigenous nations (Navajo, Dakota/Lakota, Sequoyan, Tlingit Aaní, Haudenosaunee):** Population recovery underway — improved healthcare access after Landback, birth rates above replacement (TFR 2.2-2.5), and return migration enabled by indigenous sovereignty and land restoration. The Navajo Nation's return migration from diaspora communities is a measurable demographic trend.
 - **Internal migration between successor states:** Ideological sorting is the dominant migration pattern — progressive populations move to revolutionary states, conservative populations to reactionary states. This self-selection reinforces each entity's political character. The sorting is not absolute — significant conservative minorities remain in revolutionary states and vice versa — but the directional flow is clear and accelerating.
 - → See borders analysis: [Former United States Territory](../../2050-snapshot/domains/borders-geopolitics.md#former-united-states-territory) for entity-level political context
@@ -128,7 +128,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Population:** 30M
 - **Age structure:** Median age 39, dependency ratio 56%
 - **TFR:** 1.6
-- **Net migration:** +0.3%/yr (moderate inflow from Appalachian Zone, Heartland Plains, and reactionary Midwest)
+- **Net migration:** +0.3%/yr (moderate inflow from Appalachian Zone, Heartland, and reactionary Midwest)
 - **Urbanization:** 78% (Rust Belt cities reindustrialized; significant rural areas in agricultural zones)
 - **Life expectancy:** 80 (improved from early-2020s baseline — environmental cleanup and universal healthcare offset industrial legacy)
 - **Ethnic/religious composition:** 60% white, 20% Black, 10% Hispanic, 5% Asian, 5% other. Religious landscape: Protestant and Catholic minorities, significant secular/unchurched population, growing diaspora communities.
@@ -272,7 +272,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Primary languages:** English
 - **→ See KML: Appalachian Zone**
 
-**Heartland Plains:**
+**Heartland:**
 - **Population:** 10M (shrinking rump — NE, KS, residual)
 - **Age structure:** Median age 39, dependency ratio 56%
 - **TFR:** 1.7
@@ -282,7 +282,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Ethnic/religious composition:** 75% white, 10% Hispanic, 8% Black, 7% other. Religious landscape: Evangelical Protestant dominant.
 - **Labor force participation:** 60% (industrial agriculture automated; food processing labor-intensive; no social safety net)
 - **Primary languages:** English, Spanish
-- **→ See KML: Heartland Plains**
+- **→ See KML: Heartland**
 
 **Deseret:**
 - **Population:** 6M
@@ -455,7 +455,7 @@ Briefly — key demographic drivers from the 2026-2049 transition period:
 
 ## Interactions With Other Domains
 
-- **To Borders:** Migration regimes and citizenship policies defined by successor state borders — revolutionary states maintain managed immigration, reactionary states lose population. Population distributions shape territorial claims and entity viability — the Heartland Plains' shrinking population undermines its claim to sovereignty, while the GLPR's population stability reinforces its interior anchor. Indigenous sovereignty recognized within revolutionary state borders but contested in reactionary territories. Climate migration creates cross-border pressures that existing border regimes cannot fully contain. **→ See also: [borders-geopolitics.md](../../2050-snapshot/domains/borders-geopolitics.md)**
+- **To Borders:** Migration regimes and citizenship policies defined by successor state borders — revolutionary states maintain managed immigration, reactionary states lose population. Population distributions shape territorial claims and entity viability — the Heartland's shrinking population undermines its claim to sovereignty, while the GLPR's population stability reinforces its interior anchor. Indigenous sovereignty recognized within revolutionary state borders but contested in reactionary territories. Climate migration creates cross-border pressures that existing border regimes cannot fully contain. **→ See also: [borders-geopolitics.md](../../2050-snapshot/domains/borders-geopolitics.md)**
 - **To Economy:** Labor force size and age structure determine economic growth potential. Automation partially offsets demographic decline in revolutionary states and advanced economies — humanoid robots and AI substitute for shrinking working-age populations. UBI and guaranteed employment programs (Pacifica, NEC, GLPR, Aztlán, EU Core) are direct policy responses to demographic + automation pressure. Reactionary states face a demographic-economic doom loop — population decline reduces economic activity, which accelerates out-migration, which further reduces population. **→ See also: [economy.md](../../2050-snapshot/domains/economy.md)**
 - **To Climate:** Climate migration is the primary demographic disruptor of the mid-century — 50-80 million cumulative climate migrants globally. Source regions (Sahel, Bangladesh delta, Mekong Delta, Pacific Islands, Amazon basin) experience population loss and structural aging as working-age adults leave. Destination regions (Pacifica, EU Core, East Africa, Australia/NZ) gain population but face integration challenges and infrastructure strain. Mortality from extreme events (heatwaves, floods, fires) becomes a measurable demographic factor — heatwave-related deaths are estimated at 500K+ annually in South Asia, the Middle East, and West Africa. Fertility decisions influenced by climate anxiety and economic precarity in affected regions. **→ See also: [climate.md](../../2050-snapshot/domains/climate.md)**
 - **To Technology:** Healthcare technology affects life expectancy and age structure — longevity breakthroughs could upend demographic projections. Automation substitutes for declining labor supply — humanoid robots in China, the GLPR, and the Pacifica offset working-age population decline. AI-driven economic planning in revolutionary states depends on computational infrastructure that shapes labor demand and migration incentives. Reproductive technology (IVF, artificial wombs) could partially offset fertility decline but has not done so at scale by 2050. **→ See also: [technology.md](../../2050-snapshot/domains/technology.md)**

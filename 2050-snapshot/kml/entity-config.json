@@ -153,6 +153,7 @@
       "Northern America (wip)": [
         "Alaska",
         "Appalachian Zone",
+        "Arkansas",
         "Atlanta Metro",
         "Atlantic South",
         "Bermuda",
@@ -170,7 +171,7 @@
         "Gulf Compact",
         "Haudenosaunee Confederacy",
         "Hawaii",
-        "Heartland Plains",
+        "Heartland",
         "Interior Florida",
         "Iñupiat Nunaat",
         "Kentucky Rump",
@@ -179,6 +180,7 @@
         "Navajoland",
         "Northeast Corridor",
         "Oceti Sakowin",
+        "Oklahoma",
         "Pacifica",
         "Research Triangle Area",
         "Sequoyah",
@@ -449,6 +451,14 @@
         {
           "state": "PA",
           "county": "^(Erie|Crawford|Mercer|Lawrence|Beaver|Washington|Greene|Fayette|Westmoreland|Indiana|Jefferson|Clearfield|Elk|McKean|Potter|Tioga|Bradford|Susquehanna|Wayne|Pike).*"
+        },
+        {
+          "state": "IA",
+          "county": ".*"
+        },
+        {
+          "state": "MO",
+          "county": ".*"
         }
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
@@ -571,14 +581,14 @@
       "section_anchor": "appalachian-zone",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#appalachian-zone"
     },
-    "Heartland Plains": {
+    "Heartland": {
       "type": "entity",
       "category": "reactionary",
       "source": "county",
       "counties": [
         {
           "state": "NE",
-          "county": ".*"
+          "county": "^(?!Thurston|Dakota|Dixon|Cedar|Wayne).*"
         },
         {
           "state": "KS",
@@ -590,8 +600,22 @@
         }
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "heartland-plains",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#heartland-plains"
+      "section_anchor": "heartland",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#heartland"
+    },
+    "Arkansas": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "county",
+      "counties": [
+        {
+          "state": "AR",
+          "county": ".*"
+        }
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "arkansas",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#arkansas"
     },
     "Deseret": {
       "type": "entity",
@@ -2088,12 +2112,12 @@
       "source": "county",
       "counties": [
         {
-          "state": "SD",
-          "county": "^(Todd|Jackson|Bennett|Shannon|Oglala|Pine Ridge|Rosebud|Mellette|Tripp|Gregory|Lyman|Brule|Aurora|Charles Mix|Bon Homme|Yankton|Lake|Moody|Minnehaha|Lincoln|Turner|Hutchinson|Douglas|Hanson|McCook|Miner|Sanborn|Jerauld|Hand|Hyde|Buffalo|Stanley|Haakon|Jackson|Pennington|Custer|Fall River|Shannon|Bennett).*"
+          "state": "ND",
+          "county": ".*"
         },
         {
-          "state": "ND",
-          "county": "^(Sioux|Grant|Morton|Mercer|Oliver|Burleigh|Kidder|Stutsman|Barnes|Cass|Traill|Grand Forks).*"
+          "state": "SD",
+          "county": ".*"
         },
         {
           "state": "NE",
@@ -2111,12 +2135,26 @@
       "counties": [
         {
           "state": "OK",
-          "county": "^(Adair|Cherokee|Delaware|Mayes|Rogers|Wagoner|Muskogee|Sequoyah).*"
+          "county": "^(Adair|Atoka|Bryan|Carter|Cherokee|Choctaw|Coal|Craig|Creek|Delaware|Garvin|Grady|Haskell|Hughes|Jefferson|Johnston|Latimer|Le Flore|Love|Marshall|Mayes|McClain|McCurtain|McIntosh|Murray|Muskogee|Nowata|Okfuskee|Okmulgee|Ottawa|Pittsburg|Pontotoc|Pushmataha|Rogers|Seminole|Sequoyah|Stephens|Tulsa|Wagoner|Washington).*"
         }
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "sequoyah",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#sequoyan-nation"
+    },
+    "Oklahoma": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "county",
+      "counties": [
+        {
+          "state": "OK",
+          "county": "^(Alfalfa|Beaver|Beckham|Blaine|Caddo|Canadian|Cimarron|Cleveland|Comanche|Cotton|Custer|Dewey|Ellis|Garfield|Grant|Greer|Harmon|Harper|Jackson|Kay|Kingfisher|Kiowa|Lincoln|Logan|Major|Noble|Oklahoma|Osage|Pawnee|Payne|Pottawatomie|Roger Mills|Texas|Tillman|Washita|Woods|Woodward).*"
+        }
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "oklahoma",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#oklahoma"
     },
     "Maohi Nui": {
       "type": "entity",

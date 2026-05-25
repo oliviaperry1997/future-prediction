@@ -377,7 +377,7 @@
     "kml_line": "ff1a34b0",
     "width": 1.0
   },
-  "Heartland Plains": {
+  "Heartland": {
     "hex": "#e6a816",
     "kml_fill": "8016a8e6",
     "kml_line": "ff16a8e6",
@@ -1335,6 +1335,12 @@
     "hex": "#7F8C8D",
     "kml_fill": "808d8c7f",
     "kml_line": "ff8d8c7f",
+    "width": 1.0
+  },
+  "Oklahoma": {
+    "hex": "#bfa05c",
+    "kml_fill": "805ca0bf",
+    "kml_line": "ff5ca0bf",
     "width": 1.0
   }
 }

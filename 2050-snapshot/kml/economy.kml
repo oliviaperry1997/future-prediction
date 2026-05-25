@@ -3,7 +3,7 @@
   <Document>
     <name>2050 Economy</name>
     <visibility>0</visibility>
-    <gx:CascadingStyle id="__managed_style_00000000000002AD">
+    <gx:CascadingStyle id="__managed_style_00000000000002B3">
       <Style>
         <IconStyle>
           <Icon>
@@ -24,7 +24,7 @@
         </BalloonStyle>
       </Style>
     </gx:CascadingStyle>
-    <gx:CascadingStyle id="__managed_style_00000000000002AE">
+    <gx:CascadingStyle id="__managed_style_00000000000002B4">
       <Style>
         <IconStyle>
           <Icon>
@@ -45,14 +45,14 @@
         </BalloonStyle>
       </Style>
     </gx:CascadingStyle>
-    <StyleMap id="__managed_style_00000000000002AF">
+    <StyleMap id="__managed_style_00000000000002B5">
       <Pair>
         <key>normal</key>
-        <styleUrl>#__managed_style_00000000000002AD</styleUrl>
+        <styleUrl>#__managed_style_00000000000002B3</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#__managed_style_00000000000002AE</styleUrl>
+        <styleUrl>#__managed_style_00000000000002B4</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>

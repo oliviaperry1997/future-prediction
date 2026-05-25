@@ -92,9 +92,9 @@ The global trading system has regionalized along political and currency lines. F
 - → See transition doc: [economy.md Driver 4](../../2026-2050-transition/economy.md#driver-4-global-supply-chain-reconfiguration)
 
 **Americas Trade:** Residual dollar zone in the Americas, declining in importance.
-- **Participants:** Canada (decentralized federation), Mexico (unified, BRICS+ affiliated), Caribbean states, residual reactionary successor states (Gulf Compact — in revolutionary transition, Atlantic South fragments, Heartland Plains — shrinking), plus revolutionary successor states (Pacifica, Aztlán) that now trade more with BRICS+ and Asia than with Americas neighbors
+- **Participants:** Canada (decentralized federation), Mexico (unified, BRICS+ affiliated), Caribbean states, residual reactionary successor states (Gulf Compact — in revolutionary transition, Atlantic South fragments, Heartland — shrinking), plus revolutionary successor states (Pacifica, Aztlán) that now trade more with BRICS+ and Asia than with Americas neighbors
 - **Currencies:** Canadian dollar, Mexican peso, successor state currencies (Pacific Dollar, Northeast Dollar, Great Lakes Dollar, Aztlán Peso, Deseret Dollar), residual USD in reactionary territories
-- **Key trade flows:** Energy (Canadian oil/gas — declining, but continues to EU and NEC), manufactured goods (GLPR, NEC), agricultural (Heartland Plains, Canada, Mexico), semiconductor components (CSR to BRICS+)
+- **Key trade flows:** Energy (Canadian oil/gas — declining, but continues to EU and NEC), manufactured goods (GLPR, NEC), agricultural (Heartland, Canada, Mexico), semiconductor components (CSR to BRICS+)
 - **Integration depth:** USMCA frameworks collapsed with US dissolution. Successor states maintain bilateral trade agreements — Pacifica-NEC trade compact, Aztlán-Mexico energy agreement, GLPR-Canada Great Lakes shipping treaty. There is no single Americas trade framework.
 - → See borders analysis: [North America Beyond Former US](../../2050-snapshot/domains/borders-geopolitics.md#north-america-beyond-former-us)
 
@@ -230,7 +230,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Dakota/Lakota Nation (Oceti Sakowin):**
 - **GDP:** ~$10B
 - **Dominant sectors:** Renewable energy (wind — Great Plains, one of the best wind resources globally), bison-based agriculture and land restoration, tourism (Black Hills — contested, Badlands), traditional crafts and food systems
-- **Trade partners and bloc alignment:** GLPR (trade corridor eastward), Pacifica. Limited trade with Heartland Plains (tense relations).
+- **Trade partners and bloc alignment:** GLPR (trade corridor eastward), Pacifica. Limited trade with Heartland (tense relations).
 - **Economic model:** Indigenous cooperative. Land restoration and stewardship economy. Bison reintroduction as economic and cultural foundation. Renewable energy cooperatives.
 - **Currency:** Digital basket (BCU) / barter trade for local exchange. No independent currency issued.
 - **Labor market character:** Labor-intensive. Agriculture, tourism, and renewable energy installation provide primary employment. ~100K+ population on-reservation.
@@ -299,14 +299,14 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **→ See KML: Appalachian Zone**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#15-appalachian-zone)
 
-**Heartland Plains:**
+**Heartland:**
 - **GDP:** ~$250B (shrinking rump)
 - **Dominant sectors:** Industrial agriculture (corn, soybeans, wheat, cattle — export-oriented, large-scale agribusiness), food processing (meatpacking, grain milling), logistics (rail and highway corridors — GLPR controls access)
 - **Trade partners and bloc alignment:** Limited — export-dependent agriculture, landlocked. Must route through GLPR-controlled transport corridors, creating dependency. Residual dollar zone.
 - **Economic model:** Nationalist-capitalist with large agribusiness dominance. Minimal regulation, low taxation. Agribusiness conglomerates hold political as well as economic power.
 - **Currency:** Dollarized (US dollar legacy — declining purchasing power). Some local scrip emerging as dollar liquidity declines.
 - **Labor market character:** Mixed. Industrial agriculture highly automated (autonomous tractors, drone monitoring, automated harvesting). Food processing labor-intensive (low-wage, high-turnover). No social safety net. ~12M population (declining — out-migration).
-- **→ See KML: Heartland Plains**
+- **→ See KML: Heartland**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#16-heartland-plains)
 
 **Deseret:**
@@ -468,7 +468,7 @@ The 2050 economic landscape is the end-state of trajectories whose key drivers a
 - **To Borders:** Economic blocs align with political boundaries — BRICS+ member states share financial infrastructure, tariff frameworks, and currency arrangements that reinforce bloc cohesion. Successor state economic divergence (revolutionary vs reactionary) drives territorial dynamics and hardens borders. The GLPR's manufacturing anchor, the Aztlán's semiconductor and solar energy base, and the Pacifica's technology sector create economic gravity that pulls border alignments. **→ See also: [borders-geopolitics.md](../../2050-snapshot/domains/borders-geopolitics.md)**
 - **To Technology:** Automation penetration determines labor market character — the technology snapshot's AI governance models (regulatory, precautionary, permissive) directly shape which economic sectors automate and how fast. Energy systems (renewable penetration, grid architecture) determine economic model viability for successor states — the Aztlán's solar export economy would be impossible without the HVDC infrastructure and storage technology described in the technology snapshot. AI-driven economic planning in revolutionary states depends on the computational infrastructure described in the technology domain. **→ See also: [technology.md](../../2050-snapshot/domains/technology.md)**
 - **To Demographics:** Labor migration responds to economic opportunity — revolutionary states with UBI, guaranteed employment, and automated economies attract skilled labor from reactionary states and the Global South. Aging populations strain public finances in all advanced economies (EU Core, China, Japan, Unified Korea), while automation offsets labor force decline in revolutionary states. The demographic dividend in Africa (EAF, Nigeria) and parts of Asia (India, ASEAN) interacts with their labor-intensive economic structures. **→ See also: demographics.md**
-- **To Climate:** Economic damages from climate change vary dramatically by region — Amazon dieback (T-15) reduced Brazil's agricultural output by 30-60%; water crises constrain economic growth in Aztlán, the American West, and the Heartland Plains; agricultural zone shifts restructure rural economies globally. Adaptation costs strain fiscal capacity in reactionary states while revolutionary states invest in climate-resilient infrastructure. The green energy transition is both an economic opportunity (renewable manufacturing, EV production) and a disruption (stranded fossil fuel assets, declining extraction employment). **→ See also: [climate.md](../../2050-snapshot/domains/climate.md)**
+- **To Climate:** Economic damages from climate change vary dramatically by region — Amazon dieback (T-15) reduced Brazil's agricultural output by 30-60%; water crises constrain economic growth in Aztlán, the American West, and the Heartland; agricultural zone shifts restructure rural economies globally. Adaptation costs strain fiscal capacity in reactionary states while revolutionary states invest in climate-resilient infrastructure. The green energy transition is both an economic opportunity (renewable manufacturing, EV production) and a disruption (stranded fossil fuel assets, declining extraction employment). **→ See also: [climate.md](../../2050-snapshot/domains/climate.md)**
 - **To Culture:** Post-capitalist ideology shapes economic model choice — revolutionary states' socialist economic systems are expressions of the ideological shift described in the culture snapshot. Consumer culture fragments along bloc lines — revolutionary state citizens participate in regulated, sustainability-oriented consumer economies; reactionary state citizens experience degraded, scarcity-constrained consumption. Work/leisure norms diverge — the four-day workweek and post-work debates in revolutionary states contrast with survival-driven labor in reactionary entities. Economic anxiety and precarity in reactionary states fuel right-wing cultural radicalization. **→ See also: culture.md**
 
 ## Key Uncertainties
