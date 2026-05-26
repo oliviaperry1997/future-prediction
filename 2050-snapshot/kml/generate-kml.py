@@ -603,7 +603,7 @@ def prepare_for_output(geom, entity_cfg):
     Simplify and manage interior rings based on entity config.
     Call before geom_to_coords.
     """
-    simplified = simplify_polygon(geom, tolerance=0.01)
+    simplified = simplify_polygon(geom, tolerance=0.15)
     if entity_cfg.get("preserve_holes"):
         min_area = entity_cfg.get("min_hole_area", 0.001)
         simplified = filter_interior_rings(simplified, min_area)
@@ -1534,14 +1534,23 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                 if os.path.exists(full_path):
                     manual_tree = etree.parse(full_path)
                     manual_root = manual_tree.getroot()
-                    coords = manual_root.findall(".//kml:coordinates", NSMAP)
-                    if coords:
-                        coord_strings = [c.text.strip() for c in coords if c.text]
-                        entity_polygons[entity_name] = {
-                            "coords": coord_strings,
-                            "type": "manual",
-                            "cfg": entity_cfg,
-                        }
+                    coords_els = manual_root.findall(".//kml:coordinates", NSMAP)
+                    if coords_els:
+                        simplified_coords = []
+                        for c in coords_els:
+                            if c.text:
+                                poly = parse_coordinates_to_polygon(c.text.strip())
+                                if poly is not None:
+                                    simplified = simplify_polygon(poly, tolerance=0.15)
+                                    ct = geom_to_coords(simplified)
+                                    if ct:
+                                        simplified_coords.append(ct[0])
+                        if simplified_coords:
+                            entity_polygons[entity_name] = {
+                                "coords": simplified_coords,
+                                "type": "manual",
+                                "cfg": entity_cfg,
+                            }
                         _, _, style_id = get_entity_style(entity_name)
                         entity_styles[entity_name] = style_id
                     else:
@@ -1960,7 +1969,16 @@ def verify_outputs():
             try:
                 tree = etree.parse(path)
                 placemarks = tree.findall(".//kml:Placemark", NSMAP)
-                print(f"  {domain}.kml: {len(placemarks)} placemarks, {os.path.getsize(path)} bytes")
+                # Count total vertices from all polygon coordinates elements
+                total_vertices = 0
+                for coords_el in tree.findall(".//kml:coordinates", NSMAP):
+                    if coords_el.text:
+                        # Count space-separated coordinate tuples; each is a vertex
+                        total_vertices += len(coords_el.text.strip().split())
+                status = "OK" if total_vertices < 250000 else "OVER LIMIT"
+                print(f"  {domain}.kml: {len(placemarks)} placemarks, {total_vertices} vertices, {os.path.getsize(path)} bytes [{status}]")
+                if total_vertices >= 250000:
+                    all_ok = False
             except Exception as e:
                 print(f"  {domain}.kml: PARSE ERROR — {e}")
                 all_ok = False
@@ -2038,14 +2056,14 @@ def main():
     print("Verifying outputs...")
     if verify_outputs():
         print()
-        print("SUCCESS: All 6 KML files generated.")
+        print("SUCCESS: All 6 KML files generated (all within 250K vertex limit).")
     else:
         print()
-        print("WARNING: Some output files may have issues.")
+        print("WARNING: Some output files exceeded 250K vertex limit or had errors.")
     
     print()
     print("Per D-19: Open generated KMLs in Google Earth Pro for refinement.")
-    print("Polygons use Douglas-Peucker simplification at ~2km vertex spacing.")
+    print("Polygons use Douglas-Peucker simplification at ~16km vertex spacing (tolerance=0.15 deg).")
     print("Approximate overlay polygons will need manual adjustment in Google Earth Pro.")
 
 
