@@ -538,20 +538,15 @@ def merge_polygons(geometries):
         return valid[0]
 
 
-def simplify_polygon(geom, tolerance=0.01):
-    """
-    Douglas-Peucker simplification.
-    tolerance=0.01 degrees ≈ ~1.1km at mid-latitudes.
-    Per D-16: target 5-20km vertex spacing.
-    With 1:10m/1:500k source data, 0.01 preserves sufficient detail
-    while keeping KML files at manageable size (~5-20km effective spacing).
-    """
+def simplify_polygon(geom, tolerance=0.02):
+    """Douglas-Peucker simplification at mild tolerance (~2.2km).
+    Enough to remove redundant vertices from 1:10m Natural Earth data
+    while preserving visual fidelity. Vertex count kept under GEP's
+    250K limit by combining simplification with overlap removal."""
     if geom is None:
         return None
-    
     try:
-        simplified = geom.simplify(tolerance, preserve_topology=True)
-        return simplified
+        return geom.simplify(tolerance, preserve_topology=True)
     except Exception as e:
         print(f"  Warning: simplification failed ({e}), using unsimplified geometry")
         return geom
@@ -599,18 +594,15 @@ def filter_interior_rings(geom, min_area=0.001):
 
 
 def prepare_for_output(geom, entity_cfg):
-    """
-    Simplify and manage interior rings based on entity config.
-    Call before geom_to_coords.
-    """
-    simplified = simplify_polygon(geom, tolerance=0.04)
+    """Simplify and manage interior rings based on entity config. Call before geom_to_coords."""
+    geom = simplify_polygon(geom, tolerance=0.02)
     if entity_cfg.get("preserve_holes"):
         min_area = entity_cfg.get("min_hole_area", 0.001)
-        simplified = filter_interior_rings(simplified, min_area)
-        simplified = remove_z_spikes(simplified)
+        geom = filter_interior_rings(geom, min_area)
+        geom = remove_z_spikes(geom)
     else:
-        simplified = strip_all_holes(simplified)
-    return simplified
+        geom = strip_all_holes(geom)
+    return geom
 
 
 def remove_z_spikes(geom):
@@ -1387,6 +1379,36 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                             entity_errors.append(f"  [{entity_name}] Subtract admin1 '{region_name}' not found")
                     geom = remove_slivers(geom)
                 
+                # Subtract manual KML geometries from country polygon (e.g., Canada fragmentation)
+                subtract_manual_paths = entity_cfg.get("subtract_manual_paths", [])
+                if subtract_manual_paths:
+                    for manual_path in subtract_manual_paths:
+                        full_path = os.path.join(os.path.dirname(__file__), manual_path)
+                        if os.path.exists(full_path):
+                            manual_tree = etree.parse(full_path)
+                            polygons = []
+                            for coords_el in manual_tree.findall(f".//{{{NS}}}coordinates"):
+                                if coords_el.text:
+                                    poly = parse_coordinates_to_polygon(coords_el.text.strip())
+                                    if poly is not None:
+                                        if not poly.is_valid:
+                                            poly = poly.buffer(0)
+                                        if poly is not None and not poly.is_empty and poly.is_valid:
+                                            polygons.append(poly)
+                            if polygons:
+                                from shapely.ops import unary_union
+                                sub_geom = unary_union(polygons) if len(polygons) > 1 else polygons[0]
+                                if not sub_geom.is_valid:
+                                    sub_geom = sub_geom.buffer(0)
+                                # Tiny buffer (~330m) to absorb minor boundary
+                                # misalignment between manual KMLs and Natural
+                                # Earth country polygons from different dataset scales
+                                sub_buffered = sub_geom.buffer(0.003, join_style=2)
+                                geom = geom.difference(sub_buffered)
+                                geom = remove_slivers(geom)
+                        else:
+                            entity_errors.append(f"  [{entity_name}] Subtract manual path not found: {manual_path}")
+                
                 # Add additional county territory to country polygon (e.g., Mexico + Aztlán)
                 add_counties = entity_cfg.get("add_counties", [])
                 if add_counties:
@@ -1541,7 +1563,7 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                             if c.text:
                                 poly = parse_coordinates_to_polygon(c.text.strip())
                                 if poly is not None:
-                                    simplified = simplify_polygon(poly, tolerance=0.04)
+                                    simplified = simplify_polygon(poly, tolerance=0.02)
                                     ct = geom_to_coords(simplified)
                                     if ct:
                                         simplified_coords.append(ct[0])
@@ -2063,7 +2085,7 @@ def main():
     
     print()
     print("Per D-19: Open generated KMLs in Google Earth Pro for refinement.")
-    print("Polygons use Douglas-Peucker simplification at ~4km vertex spacing (tolerance=0.04 deg).")
+    print("Douglas-Peucker simplification at 0.02 deg (~2.2km) + overlap removal.")
     print("Approximate overlay polygons will need manual adjustment in Google Earth Pro.")
 
 

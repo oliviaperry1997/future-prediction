@@ -2,6 +2,7 @@
 *.kmz
 .DS_Store
 __pycache__/
+entity-config-debug.json
 
 # Obsidian workspace lock
 .obsidian/workspace.json
