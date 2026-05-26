@@ -603,7 +603,7 @@ def prepare_for_output(geom, entity_cfg):
     Simplify and manage interior rings based on entity config.
     Call before geom_to_coords.
     """
-    simplified = simplify_polygon(geom, tolerance=0.15)
+    simplified = simplify_polygon(geom, tolerance=0.04)
     if entity_cfg.get("preserve_holes"):
         min_area = entity_cfg.get("min_hole_area", 0.001)
         simplified = filter_interior_rings(simplified, min_area)
@@ -1541,7 +1541,7 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                             if c.text:
                                 poly = parse_coordinates_to_polygon(c.text.strip())
                                 if poly is not None:
-                                    simplified = simplify_polygon(poly, tolerance=0.15)
+                                    simplified = simplify_polygon(poly, tolerance=0.04)
                                     ct = geom_to_coords(simplified)
                                     if ct:
                                         simplified_coords.append(ct[0])
@@ -2063,7 +2063,7 @@ def main():
     
     print()
     print("Per D-19: Open generated KMLs in Google Earth Pro for refinement.")
-    print("Polygons use Douglas-Peucker simplification at ~16km vertex spacing (tolerance=0.15 deg).")
+    print("Polygons use Douglas-Peucker simplification at ~4km vertex spacing (tolerance=0.04 deg).")
     print("Approximate overlay polygons will need manual adjustment in Google Earth Pro.")
 
 
