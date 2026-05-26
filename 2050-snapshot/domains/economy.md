@@ -60,7 +60,7 @@ The dollar's share continues its slow decline as legacy contracts expire and rem
 
 The BCU is not used for domestic transactions in any member state — it functions purely as an international settlement and reserve instrument. Its value stability is maintained through the basket composition algorithm, which adjusts weights quarterly based on trade volumes, GDP shares, and commodity price indices.
 
-**Capital flows:** Global capital markets are fragmented along bloc lines by 2050. Revolutionary successor states attract BRICS+ investment and development finance — the Pacifica, NEC, and GLPR have received significant BRICS+ MDB infrastructure lending. Reactionary states face capital flight and higher borrowing costs; their bonds trade at distressed levels, and international investment is limited to extractive sectors with high risk premiums. Texas and New Afrika, despite residual energy assets, face rapidly rising borrowing costs as global demand for fossil fuels declines. Cross-bloc capital flows are substantially reduced from pre-2026 levels — portfolio investment across blocs is minimal, foreign direct investment flows primarily within blocs, and sovereign wealth funds increasingly align reserve management with political alignment.
+**Capital flows:** Global capital markets are fragmented along bloc lines by 2050. Revolutionary successor states attract BRICS+ investment and development finance — the Pacifica, Atlantica, and Great Lakes have received significant BRICS+ MDB infrastructure lending. Reactionary states face capital flight and higher borrowing costs; their bonds trade at distressed levels, and international investment is limited to extractive sectors with high risk premiums. Texas and New Afrika, despite residual energy assets, face rapidly rising borrowing costs as global demand for fossil fuels declines. Cross-bloc capital flows are substantially reduced from pre-2026 levels — portfolio investment across blocs is minimal, foreign direct investment flows primarily within blocs, and sovereign wealth funds increasingly align reserve management with political alignment.
 
 → See KML: BRICS+ Financial Infrastructure
 
@@ -69,9 +69,9 @@ The BCU is not used for domestic transactions in any member state — it functio
 The global trading system has regionalized along political and currency lines. Five major trade blocs/systems operate in parallel, with limited cross-bloc trade.
 
 **BRICS+ (Expanded):** The largest and most dynamic trade bloc by 2050.
-- **Participants:** China, India, Brazil, Russia, South Africa (founding members); expanded membership includes Pacifica, Aztlán, Northeast Corridor, Great Lakes People's Republic, Indonesia, Turkey, Saudi Arabia, Iran, Ethiopia, Nigeria, East African Federation, and 30+ observer states
+- **Participants:** China, India, Brazil, Russia, South Africa (founding members); expanded membership includes Pacifica, Aztlán, Atlantica, Great Lakes, Indonesia, Turkey, Saudi Arabia, Iran, Ethiopia, Nigeria, East African Federation, and 30+ observer states
 - **Currencies:** Yuan, digital basket (BCU), local currency pairs. Member countries conduct ~60% of inter-member trade through the BRICS+ clearing house.
-- **Key trade flows:** Manufactured goods (China, GLPR, NEC), energy and minerals (Russia, Saudi Arabia, Brazil, Aztlán), agricultural commodities (Brazil, India, EAF), technology and services (India, China, Pacifica, NEC), semiconductor components (Aztlán)
+- **Key trade flows:** Manufactured goods (China, Great Lakes, Atlantica), energy and minerals (Russia, Saudi Arabia, Brazil, Aztlán), agricultural commodities (Brazil, India, EAF), technology and services (India, China, Pacifica, Atlantica), semiconductor components (Aztlán)
 - **Integration depth:** The BRICS+ bloc is formally institutionalized — shared financial infrastructure (clearing house, MDB, reserve pool), a dispute resolution mechanism at the BRICS+ Trade Court (established 2043), and partial tariff harmonization across 50+ members and observers. Integration does not approach EU-level single-market depth, but it is operationally functional and deepening.
 - → See borders analysis: [BRICS+ trade bloc affiliations](../../2050-snapshot/domains/borders-geopolitics.md)
 - → See transition doc: [economy.md Driver 4](../../2026-2050-transition/economy.md#driver-4-global-supply-chain-reconfiguration), event T-12
@@ -93,9 +93,9 @@ The global trading system has regionalized along political and currency lines. F
 
 **Americas Trade:** Residual dollar zone in the Americas, declining in importance.
 - **Participants:** Canada (decentralized federation), Mexico (unified, BRICS+ affiliated), Caribbean states, residual reactionary successor states (Texas, Florida, Heartland — shrinking), plus revolutionary successor states (New Afrika, Pacifica, Aztlán) that now trade more with BRICS+ and Asia than with Americas neighbors
-- **Currencies:** Canadian dollar, Mexican peso, successor state currencies (Pacific Dollar, Northeast Dollar, Great Lakes Dollar, Aztlán Peso, Deseret Dollar), residual USD in reactionary territories
-- **Key trade flows:** Energy (Canadian oil/gas — declining, but continues to EU and NEC), manufactured goods (GLPR, NEC), agricultural (Heartland, Canada, Mexico), semiconductor components (CSR to BRICS+)
-- **Integration depth:** USMCA frameworks collapsed with US dissolution. Successor states maintain bilateral trade agreements — Pacifica-NEC trade compact, Aztlán-Mexico energy agreement, GLPR-Canada Great Lakes shipping treaty. There is no single Americas trade framework.
+- **Currencies:** Canadian dollar, Mexican peso, successor state currencies (Pacific Dollar, Atlantic Dollar, Great Lakes Dollar, Aztlán Peso, Deseret Dollar), residual USD in reactionary territories
+- **Key trade flows:** Energy (Canadian oil/gas — declining, but continues to EU and Atlantica), manufactured goods (Great Lakes, Atlantica), agricultural (Heartland, Canada, Mexico), semiconductor components (CSR to BRICS+)
+- **Integration depth:** USMCA frameworks collapsed with US dissolution. Successor states maintain bilateral trade agreements — Pacifica-Atlantica trade compact, Aztlán-Mexico energy agreement, Great Lakes-Canada Great Lakes shipping treaty. There is no single Americas trade framework.
 - → See borders analysis: [North America Beyond Former US](../../2050-snapshot/domains/borders-geopolitics.md#north-america-beyond-former-us)
 
 **African Blocs:** The African Continental Free Trade Area (AfCFTA) is operational but unevenly implemented.
@@ -111,7 +111,7 @@ The global trading system has regionalized along political and currency lines. F
 The 2050 employment landscape is defined by the uneven penetration of automation, divergent policy responses, and the first generation of "post-work" economic experiments.
 
 **Automation penetration by sector (advanced economies — revolutionary states, EU Core, China, Japan, Unified Korea):**
-- Manufacturing: 40-60% of tasks automated. The GLPR's manufacturing anchor operates at ~50% automation (by task count), with human workers concentrated in supervision, maintenance, quality assurance, and specialized fabrication. China's manufacturing sector leads globally at ~65-70% automation.
+- Manufacturing: 40-60% of tasks automated. The Great Lakes' manufacturing anchor operates at ~50% automation (by task count), with human workers concentrated in supervision, maintenance, quality assurance, and specialized fabrication. China's manufacturing sector leads globally at ~65-70% automation.
 - Logistics and transportation: 50-70% automated. Autonomous trucking and last-mile delivery are standard in revolutionary states and the EU Core. Port operations are near-fully automated. Human roles persist in oversight, exception handling, and local delivery in areas with degraded infrastructure.
 - Retail: 30-40% automated. Automated checkout, inventory management, and warehouse operations. Human roles persist in customer service, specialized retail, and community markets.
 - Financial services: 40-50% automated. Algorithmic trading, automated underwriting, AI-driven financial advice, and fraud detection. Human roles in relationship management, regulatory compliance, and strategic decision-making.
@@ -124,8 +124,8 @@ The 2050 employment landscape is defined by the uneven penetration of automation
 
 **UBI / workfare programs:** The successor state landscape is divided between revolutionary states that have implemented forms of universal basic income or guaranteed employment and reactionary states that largely lack social safety nets:
 - **Pacifica:** Universal Basic Income established 2039 (the Pacific Dividend), funded by a combination of automation taxes, carbon pricing revenue, and public enterprise dividends. Provides ~$12K/year equivalent per adult citizen, indexed to productivity growth. Supplemented by universal healthcare (Pacifica Unified Health Service, 2039) and free higher education.
-- **Northeast Corridor:** Guaranteed employment program (Northeast Works, established 2041) — the state guarantees a job at a living wage for any citizen willing to work. Supplemented by unemployment insurance and retraining benefits. The jobs program functions as an automatic stabilizer and maintains labor force attachment.
-- **Great Lakes People's Republic:** Hybrid — universal basic income for citizens unable to work (disability, elderly, caregivers) plus guaranteed employment in manufacturing and infrastructure sectors for able-bodied adults. The GLPR's reindustrialization program intentionally maintains high employment; the "right to a productive role" is part of the republic's founding social contract.
+- **Atlantica:** Guaranteed employment program (Atlantic Works, established 2041) — the state guarantees a job at a living wage for any citizen willing to work. Supplemented by unemployment insurance and retraining benefits. The jobs program functions as an automatic stabilizer and maintains labor force attachment.
+- **Great Lakes:** Hybrid — universal basic income for citizens unable to work (disability, elderly, caregivers) plus guaranteed employment in manufacturing and infrastructure sectors for able-bodied adults. The Great Lakes' reindustrialization program intentionally maintains high employment; the "right to a productive role" is part of the republic's founding social contract.
 - **Aztlán:** Universal basic services (healthcare, education, housing, water, internet) rather than cash payments. Employment guarantee in renewable energy, semiconductor, and indigenous cooperative sectors. Aztlán's model emphasizes collective provision over individual cash transfers.
 - **European Core:** Universal basic income implemented in Finland (pilot expanded nationally, 2034), Netherlands (2038), and Denmark (2040). Other core states maintain strong social-democratic welfare states with automation-adjusted unemployment insurance.
 - **China:** Social credit system extended to include employment guarantees and automation dividends. State-directed job placement and retraining for displaced workers. The demographic decline provides some structural offset — fewer workers entering the labor force reduces the scale of the automation-displacement problem.
@@ -133,15 +133,15 @@ The 2050 employment landscape is defined by the uneven penetration of automation
 - → See transition doc: [economy.md Driver 5](../../2026-2050-transition/economy.md#driver-5-automation-driven-labor-restructuring)
 
 **Labor migration between entities:** Post-2050 migration patterns are shaped by economic opportunity, climate drivers, and political alignment:
-- Skilled labor flows toward revolutionary states and BRICS+ economies — the Pacifica, NEC, and EU Core are net recipients of educated professionals from reactionary states, India (talent flight from electoral authoritarian conditions), and climate-affected regions
+- Skilled labor flows toward revolutionary states and BRICS+ economies — the Pacifica, Atlantica, and EU Core are net recipients of educated professionals from reactionary states, India (talent flight from electoral authoritarian conditions), and climate-affected regions
 - Reactionary states experience brain drain — young, educated workers leave for revolutionary states and BRICS+ economies; the Deseret's youth exodus is demographically significant
-- Climate migrants fill labor gaps in some destination regions — the Pacifica and NEC absorb climate migrants from Central America and the Caribbean into expanding care, construction, and service sectors
+- Climate migrants fill labor gaps in some destination regions — the Pacifica and Atlantica absorb climate migrants from Central America and the Caribbean into expanding care, construction, and service sectors
 - Cross-bloc labor mobility is limited — revolutionary states impose immigration controls, reactionary states lose population but do not attract in-migration
 - → See demographics snapshot for detailed migration analysis
 - → See transition doc: [economy.md Driver 5](../../2026-2050-transition/economy.md#driver-5-automation-driven-labor-restructuring)
 
-**Post-work question:** In highly automated economies (Pacifica, NEC, EU Core, China), the relationship between employment and livelihood is being renegotiated:
-- Four-day workweeks are standard in the Pacifica (legislated 2023 pilot expanded and codified, 32-hour workweek by 2038). The NEC and EU Core have implemented 35-hour workweek standards. The GLPR maintains a 36-hour workweek with flexibility.
+**Post-work question:** In highly automated economies (Pacifica, Atlantica, EU Core, China), the relationship between employment and livelihood is being renegotiated:
+- Four-day workweeks are standard in the Pacifica (legislated 2023 pilot expanded and codified, 32-hour workweek by 2038). Atlantica and EU Core have implemented 35-hour workweek standards. Great Lakes maintains a 36-hour workweek with flexibility.
 - Reduced working hours and expanded leisure time are emerging norms in automated sectors — the Pacifica's cultural shift from productivity-oriented to well-being-oriented work culture is most advanced.
 - "Post-work" debates are active but not resolved — the Pacifica and European Core frame universal basic income as a citizenship right rather than a welfare program; reactionary states frame work as a moral obligation and reject income guarantees.
 - The challenge of purpose and meaning in a highly automated society is a defining cultural question in revolutionary states — see culture snapshot for ideological dimensions.
@@ -158,39 +158,39 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Pacifica:**
 - **GDP:** ~$2.5T
 - **Dominant sectors:** Technology (Silicon Valley legacy, AI, software, cloud), green energy (solar, wind, geothermal — best renewable endowment in former US), entertainment (Hollywood and streaming), specialty agriculture (Central Valley, wine country), manufacturing (semiconductor design, aerospace, advanced materials), gaming/tourism (Las Vegas/Clark County)
-- **Trade partners and bloc alignment:** BRICS+ (primary), NEC, Aztlán, EU Core, Canada, East Asia. The Pacifica is a BRICS+ member and a founding participant in the BRICS+ clearing house and MDB.
+- **Trade partners and bloc alignment:** BRICS+ (primary), Atlantica, Aztlán, EU Core, Canada, East Asia. The Pacifica is a BRICS+ member and a founding participant in the BRICS+ clearing house and MDB.
 - **Economic model:** Socialist-state-directed with strong market elements in small and medium enterprise. Major industries (energy, transportation, healthcare, housing) are publicly owned or regulated as public utilities. Strategic industries operate under state coordination; SME sector operates with market competition within a regulatory framework.
 - **Currency:** Pacific Dollar (PAD) — floated, managed by the Pacific Reserve Bank. PAD is convertible to digital basket (BCU) and yuan. Trade-weighted exchange rate policy.
 - **Labor market character:** Highly automated (technology, manufacturing, logistics) with UBI floor. Service sector mixed (automated + human). Education and healthcare remain labor-intensive. ~55M population.
 - **→ See KML: Pacifica**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#1-pacific-peoples-republic-ppr), event T-14
 
-**Northeast Corridor (NEC):**
+**Atlantica:**
 - **GDP:** ~$1.8T
 - **Dominant sectors:** Finance (domestic — transformed post-dollar-collapse, retained institutional asset management and corporate banking), higher education (Ivy League, research universities), healthcare and pharmaceuticals (major hospital systems, biotech research), advanced manufacturing (aerospace, defense conversion, medical devices), technology (NYC tech sector, Cambridge/Boston R&D)
-- **Trade partners and bloc alignment:** EU Core (primary), Pacifica, Canada, UK. NEC has observer status with BRICS+ but maintains closer trade integration with Europe. Strong financial ties to the City of London (transformed post-dollar-clearing).
-- **Economic model:** Social-democratic mixed economy. Strong public sector in healthcare, education, transportation, and housing. Market-based private sector with robust regulation, progressive taxation, and strong labor protections. Finance sector regulated under the Northeast Financial Stability Act (2040).
-- **Currency:** Northeast Dollar (NED) — managed float, partially backed by a diversified reserve portfolio (euro, BCU, yuan, gold). Issued by the Northeast Reserve System.
-- **Labor market character:** Mixed automated/labor-intensive services. Finance and professional services are highly automated; healthcare and education remain labor-intensive. Guaranteed employment program (Northeast Works) maintains near-full employment. ~55M population.
-- **→ See KML: Northeast Corridor**
-- → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#3-northeast-corridor-nec), event T-10
+- **Trade partners and bloc alignment:** EU Core (primary), Pacifica, Canada, UK. Atlantica has observer status with BRICS+ but maintains closer trade integration with Europe. Strong financial ties to the City of London (transformed post-dollar-clearing).
+- **Economic model:** Social-democratic mixed economy. Strong public sector in healthcare, education, transportation, and housing. Market-based private sector with robust regulation, progressive taxation, and strong labor protections. Finance sector regulated under the Atlantic Financial Stability Act (2040).
+- **Currency:** Atlantic Dollar (ATD) — managed float, partially backed by a diversified reserve portfolio (euro, BCU, yuan, gold). Issued by the Atlantic Reserve System.
+- **Labor market character:** Mixed automated/labor-intensive services. Finance and professional services are highly automated; healthcare and education remain labor-intensive. Guaranteed employment program (Atlantic Works) maintains near-full employment. ~55M population.
+- **→ See KML: Atlantica**
+- → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#3-atlantica), event T-10
 
-**Great Lakes People's Republic (GLPR):**
+**Great Lakes:**
 - **GDP:** ~$1.2T
 - **Dominant sectors:** Manufacturing (reindustrialized — automotive, machinery, steel, chemicals, food processing — ~$440B+ combined industrial base), green energy (Great Lakes offshore wind, solar on industrial rooftops), agriculture (Corn Belt — corn, soybeans, livestock), logistics (Great Lakes shipping, rail and highway corridors), advanced nuclear (small modular reactors, 2038-2045 buildout)
-- **Trade partners and bloc alignment:** NEC (primary), Pacifica, Canada, EU Core, Aztlán. GLPR is a BRICS+ member — its manufactured goods flow into BRICS+ supply chains. Joint energy market with Pacifica (Pacific-Great Lakes Power Compact, established 2042).
+- **Trade partners and bloc alignment:** Atlantica (primary), Pacifica, Canada, EU Core, Aztlán. Great Lakes is a BRICS+ member — its manufactured goods flow into BRICS+ supply chains. Joint energy market with Pacifica (Pacific-Great Lakes Power Compact, established 2042).
 - **Economic model:** Socialist-state-directed with worker cooperative sector. Strategic industries (automotive, steel, energy, rail) publicly owned. Manufacturing operates through a mix of state enterprises, worker cooperatives, and private SMEs. Reindustrialization directed by the Great Lakes Industrial Planning Authority.
-- **Currency:** Great Lakes Dollar (GLD) — tied to a trade-weighted basket reflecting industrial export composition. Managed by the GLPR Central Bank.
+- **Currency:** Great Lakes Dollar (GLD) — tied to a trade-weighted basket reflecting industrial export composition. Managed by the Great Lakes Central Bank.
 - **Labor market character:** Mixed. Manufacturing highly automated (~50% by task). Construction, agriculture, and logistics mixed. Employment guarantee for able-bodied adults in manufacturing, infrastructure, or cooperative sectors. ~50M population.
-- **→ See KML: Great Lakes People's Republic**
-- → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#4-great-lakes-peoples-republic-glpr)
+- **→ See KML: Great Lakes**
+- → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#4-great-lakes)
 
 **Alleghenia:**
 - **GDP:** ~$350B
 - **Dominant sectors:** Manufacturing (steel, advanced materials, industrial equipment — Pittsburgh legacy revitalized), robotics and AI (CMU spin-offs, automation R&D, industrial robotics), energy (Marcellus/Utica shale gas, growing renewables), healthcare (UPMC — one of the largest hospital systems in the successor states), higher education and research (University of Pittsburgh, Carnegie Mellon, Penn State regional campuses)
-- **Trade partners and bloc alignment:** NEC (primary — economic and transport corridor via Pittsburgh-Philadelphia link), GLPR (growing — manufacturing supply chains, Great Lakes shipping via Erie), EU Core (specialty manufacturing exports). BRICS+ observer.
+- **Trade partners and bloc alignment:** Atlantica (primary — economic and transport corridor via Pittsburgh-Philadelphia link), Great Lakes (growing — manufacturing supply chains, Great Lakes shipping via Erie), EU Core (specialty manufacturing exports). BRICS+ observer.
 - **Economic model:** Social-democratic mixed economy. Strategic industries (energy, healthcare, transportation) publicly owned or regulated as public utilities. Manufacturing operates through a mix of worker cooperatives, state enterprises, and private SMEs. The Pittsburgh Anchor industrial policy coordinates regional reindustrialization.
-- **Currency:** Allegheny Dollar (ALD) — trade-weighted managed float, partially convertible to BCU and Northeast Dollar. Issued by the Allegheny Monetary Authority.
+- **Currency:** Allegheny Dollar (ALD) — trade-weighted managed float, partially convertible to BCU and Atlantic Dollar. Issued by the Allegheny Monetary Authority.
 - **Labor market character:** Mixed. Manufacturing and energy moderately automated (~35-45%). Healthcare and education labor-intensive. Robotics/AI R&D sector highly skilled. Guaranteed employment program under development. ~5M population.
 - **→ See KML: Alleghenia**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#alleghenia)
@@ -198,7 +198,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Front Range Socialist Republic (FRSR):**
 - **GDP:** ~$400B
 - **Dominant sectors:** Renewable energy (wind — Eastern Plains, solar — entire region, geothermal — Western Slope), aerospace (Space Command/NORAD legacy — defense conversion underway), technology services (Denver tech hub, Boulder research corridor), agriculture (Eastern Plains — limited by water), defense conversion industries
-- **Trade partners and bloc alignment:** Pacifica (primary — trade corridor via I-70/I-80), Aztlán, GLPR. The FRSR is a BRICS+ observer, reliant on Pacifica and GLPR for trade access due to landlocked position.
+- **Trade partners and bloc alignment:** Pacifica (primary — trade corridor via I-70/I-80), Aztlán, Great Lakes. The FRSR is a BRICS+ observer, reliant on Pacifica and Great Lakes for trade access due to landlocked position.
 - **Economic model:** Socialist-state-directed with indigenous cooperative sector. Renewable energy infrastructure publicly owned. Indigenous cooperative enterprises in agriculture and tourism. High defense spending relative to GDP (~15%) — a constraint of being a revolutionary island surrounded by reactionary territory.
 - **Currency:** Front Range Dollar (FRD) — managed float, partially convertible to PAD and BCU. Issued by the Front Range Monetary Authority.
 - **Labor market character:** Mixed. Technology and renewable energy sectors highly automated. Agriculture and defense sectors mixed. Labor force constrained by population size (~5M) and water-limited growth potential.
@@ -208,7 +208,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Aztlán:**
 - **GDP:** ~$600B
 - **Dominant sectors:** Semiconductor manufacturing (Phoenix — TSMC and Intel legacy fabs, expanded and nationalized), solar energy (Sonoran and Chihuahuan deserts — best solar resource in the former US, generating 3x domestic demand), mining (copper — Arizona, New Mexico), cross-border trade with Mexico, renewable energy technology manufacturing
-- **Trade partners and bloc alignment:** Pacifica (primary — HVDC transmission corridors for electricity export), Mexico, BRICS+ (member), NEC. The Aztlán is a renewable energy superpower and semiconductor anchor within BRICS+ supply chains.
+- **Trade partners and bloc alignment:** Pacifica (primary — HVDC transmission corridors for electricity export), Mexico, BRICS+ (member), Atlantica. The Aztlán is a renewable energy superpower and semiconductor anchor within BRICS+ supply chains.
 - **Economic model:** Socialist-state-directed with autonomous indigenous economic zones. Semiconductor fabs and energy infrastructure publicly owned. Indigenous nations (Navajo, Hopi, Pueblo) operate autonomous economic zones with resource governance authority. Aztlán nationalism fused with socialist economics.
 - **Currency:** Aztlán Peso (CSP) — managed relative to the Mexican peso and BCU. Issued by the Aztlán Central Bank. The Aztlán Peso is also used by the Navajo Nation as its primary currency.
 - **Labor market character:** Mixed. Semiconductor manufacturing highly automated; solar installation and maintenance labor-intensive; agriculture water-constrained and mechanized. Education and healthcare expanding with universal basic services model. ~12M population.
@@ -227,10 +227,10 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 
 **New Afrika:**
 - **GDP:** ~$400B (post-revolutionary reconstruction underway — down significantly from pre-CSA baseline)
-- **Dominant sectors:** Gulf shipping (New Orleans, Mobile, Savannah, Charleston — trade volume recovering as revolutionary ties strengthen with GLPR and NEC), agriculture (cotton, rice, soybeans — reorganizing under cooperatives), manufacturing (reconstituting under public ownership — GA $69B, AL $35B, SC $35B, LA $45B legacy output, most disrupted)
-- **Trade partners and bloc alignment:** GLPR (primary — Mississippi River corridor), NEC (growing trade ties), BRICS+ (seeking membership — relationships developing through NEC and GLPR). CSA-era trade relationships severed.
+- **Dominant sectors:** Gulf shipping (New Orleans, Mobile, Savannah, Charleston — trade volume recovering as revolutionary ties strengthen with Great Lakes and Atlantica), agriculture (cotton, rice, soybeans — reorganizing under cooperatives), manufacturing (reconstituting under public ownership — GA $69B, AL $35B, SC $35B, LA $45B legacy output, most disrupted)
+- **Trade partners and bloc alignment:** Great Lakes (primary — Mississippi River corridor), Atlantica (growing trade ties), BRICS+ (seeking membership — relationships developing through Atlantica and Great Lakes). CSA-era trade relationships severed.
 - **Economic model:** Revolutionary socialist. Strategic industries under public ownership. Worker cooperatives in smaller enterprises. Land reform underway. Trade unions, illegal under the CSA, are the backbone of the new economic governance.
-- **Currency:** New Afrika Dollar (NAD) — transitional. Pegged to trade-weighted basket (BCU, GLPR's Great Lakes Dollar, NEC's Northeast Dollar). Legacy US dollar holdings minimal.
+- **Currency:** New Afrika Dollar (NAD) — transitional. Pegged to trade-weighted basket (BCU, Great Lakes's Great Lakes Dollar, Atlantica's Atlantic Dollar). Legacy US dollar holdings minimal.
 - **Labor market character:** Reconstructing. Gulf shipping and logistics mixed automation. Agriculture and manufacturing reorganizing under cooperative models. High unemployment (CSA collapse + revolutionary transition) being addressed through public employment programs. ~23M population.
 - **→ See KML: New Afrika**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#7-new-afrika), event T-21
@@ -238,9 +238,9 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Appalachia:**
 - **GDP:** ~$45B
 - **Dominant sectors:** Coal (declining rapidly — remaining mines in southern WV and eastern KY operating at reduced capacity), timber (hardwood forestry — sustainable management expanding), natural gas (Marcellus/Utica shale — pipeline infrastructure, processing), small manufacturing (furniture, wood products, specialty chemicals), growing renewables (wind — Allegheny Highlands, solar — reclaimed mine lands, small hydro)
-- **Trade partners and bloc alignment:** NEC (primary — energy exports via pipeline and rail), GLPR (growing — timber and manufactured goods), Alleghenia (emerging — energy and transport corridor). BRICS+ observer through NEC and GLPR relationships.
+- **Trade partners and bloc alignment:** Atlantica (primary — energy exports via pipeline and rail), Great Lakes (growing — timber and manufactured goods), Alleghenia (emerging — energy and transport corridor). BRICS+ observer through Atlantica and Great Lakes relationships.
 - **Economic model:** Socialist-state-directed. Extractive industries (coal, gas, timber) nationalized and managed by the Appalachian Resource Authority. Economic diversification and transition away from coal directed by the Appalachian Transition Commission (established ~2035). Worker cooperatives in manufacturing and forestry.
-- **Currency:** Appalachian Dollar (APD) — pegged to a basket of NEC's Northeast Dollar and GLPR's Great Lakes Dollar. Issued by the Appalachian Monetary Authority.
+- **Currency:** Appalachian Dollar (APD) — pegged to a basket of Atlantica's Atlantic Dollar and Great Lakes' Great Lakes Dollar. Issued by the Appalachian Monetary Authority.
 - **Labor market character:** Mixed. Coal and gas extraction moderately automated. Timber and manufacturing labor-intensive. Renewable energy installation growing as employment sector. High unemployment and out-migration legacy being addressed through public employment and retraining programs. ~2M population.
 - **→ See KML: Appalachia**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#appalachia)
@@ -260,7 +260,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Dakota/Lakota Nation (Oceti Sakowin):**
 - **GDP:** ~$10B
 - **Dominant sectors:** Renewable energy (wind — Great Plains, one of the best wind resources globally), bison-based agriculture and land restoration, tourism (Black Hills — contested, Badlands), traditional crafts and food systems
-- **Trade partners and bloc alignment:** GLPR (trade corridor eastward), Pacifica. Limited trade with Heartland (tense relations).
+- **Trade partners and bloc alignment:** Great Lakes (trade corridor eastward), Pacifica. Limited trade with Heartland (tense relations).
 - **Economic model:** Indigenous cooperative. Land restoration and stewardship economy. Bison reintroduction as economic and cultural foundation. Renewable energy cooperatives.
 - **Currency:** Digital basket (BCU) / barter trade for local exchange. No independent currency issued.
 - **Labor market character:** Labor-intensive. Agriculture, tourism, and renewable energy installation provide primary employment. ~100K+ population on-reservation.
@@ -270,7 +270,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Sequoyan Nation (Cherokee):**
 - **GDP:** ~$12B
 - **Dominant sectors:** Healthcare (Cherokee Nation health system — the most comprehensive indigenous healthcare system in the former US), education (higher education, language preservation programs), technology services (IT and business process outsourcing), agriculture (Oklahoma — cattle, soybeans, wheat), manufacturing (aerospace components, automotive parts), gaming (diversified — revenue declining as regional economies restructure)
-- **Trade partners and bloc alignment:** NEC (primary), Aztlán (treaty relations). Maintains pragmatic trade relations with neighboring reactionary entities.
+- **Trade partners and bloc alignment:** Atlantica (primary), Aztlán (treaty relations). Maintains pragmatic trade relations with neighboring reactionary entities.
 - **Economic model:** Mixed indigenous cooperative / social market. Cherokee Nation Businesses (CNB) operates diversified enterprises under tribal ownership. Sovereign tax authority and professional financial management ($4.4B net position, $1.75B annual revenue).
 - **Currency:** Digital basket (BCU) — used for external trade. No independent currency. US dollar legacy holdings fully converted.
 - **Labor market character:** Mixed. Healthcare, education, and government employment labor-intensive. Manufacturing and technology services automated. Professional workforce — 15,100+ employees under Cherokee Nation government.
@@ -288,11 +288,11 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#10-alaska-indigenous-confederated-socialist-republic-aicsr)
 
 **Haudenosaunee Confederacy:**
-- **GDP:** ~$8B (as autonomous zone within NEC)
+- **GDP:** ~$8B (as autonomous zone within Atlantica)
 - **Dominant sectors:** Renewable energy (hydroelectric — St. Lawrence River, wind — upstate NY), agriculture (traditional Three Sisters farming, organic produce), education (indigenous knowledge systems, language preservation), cultural tourism (gaming, heritage sites — Six Nations, NY)
-- **Trade partners and bloc alignment:** NEC (integrated autonomous zone — operates its own passports, courts, and trade relationships within NEC territory). Maintains independent diplomatic relationships with other indigenous nations and the UN.
+- **Trade partners and bloc alignment:** Atlantica (integrated autonomous zone — operates its own passports, courts, and trade relationships within Atlantica territory). Maintains independent diplomatic relationships with other indigenous nations and the UN.
 - **Economic model:** Indigenous cooperative. The oldest living democracy in North America — founded ~1142 CE. Confederacy governance structure integrated with economic management. Natural resources managed collectively under traditional governance.
-- **Currency:** Digital basket (BCU) and Northeast Dollar (NED) — dual use. No independent currency.
+- **Currency:** Digital basket (BCU) and Atlantic Dollar (ATD) — dual use. No independent currency.
 - **Labor market character:** Mixed. Tourism and agriculture labor-intensive. Energy sector automated. Gaming industry mixed. ~50K+ population.
 - **→ See KML: Haudenosaunee Confederacy**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#12-iroquoishaudenosaunee-confederacy)
@@ -302,7 +302,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Florida:**
 - **GDP:** ~$200B (down from ~$400B pre-collapse — tourism collapsed, agriculture declining, no federal transfers)
 - **Dominant sectors:** Tourism (severely diminished — hurricane damage and extreme heat reduced visitor numbers 60%+ from 2020s peak), agriculture (citrus, vegetables — declining from saltwater intrusion and heat stress), some residual military procurement (defense contracts ending)
-- **Trade partners and bloc alignment:** CARICOM (Miami — increasing trade with Caribbean states), New Afrika (tense but necessary), NEC (limited luxury goods). Increasingly oriented toward the Caribbean rather than the North American interior.
+- **Trade partners and bloc alignment:** CARICOM (Miami — increasing trade with Caribbean states), New Afrika (tense but necessary), Atlantica (limited luxury goods). Increasingly oriented toward the Caribbean rather than the North American interior.
 - **Economic model:** Degraded nationalist-capitalist. Minimal public services. Miami operates as a semi-independent free trade zone with its own commercial policies.
 - **Currency:** Dollarized (US dollar legacy — rapidly depleting). Miami uses a mix of local scrip, BCU, and Caribbean dollar (XCD).
 - **Labor market character:** Severe unemployment. Tourism labor-intensive but sector collapsed. Agriculture automated but shrinking. No social safety net. ~12M population (declining rapidly).
@@ -312,7 +312,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **North Carolina:**
 - **GDP:** ~$150B (down ~50% from pre-collapse — lost RTP's tech and pharma sectors)
 - **Dominant sectors:** Agriculture (tobacco, soybeans, hogs — export-oriented, declining), textiles and furniture (low-wage manufacturing in terminal decline), logistics (limited — RTP's logistics hub lost to the enclave)
-- **Trade partners and bloc alignment:** NEC (limited — small-scale agricultural exports), residual domestic (within reactionary state remnants). Revolutionary enclave (RTP) is the economically dynamic zone but sealed off from the rump.
+- **Trade partners and bloc alignment:** Atlantica (limited — small-scale agricultural exports), residual domestic (within reactionary state remnants). Revolutionary enclave (RTP) is the economically dynamic zone but sealed off from the rump.
 - **Economic model:** Nationalist-capitalist. Low regulation, minimal public services. Economic activity concentrated in declining sectors.
 - **Currency:** Dollarized (US dollar legacy — declining purchasing power).
 - **Labor market character:** Labor-intensive to automated. Agriculture increasingly automated. Manufacturing labor-intensive. High unemployment. No unemployment protection. ~8M population.
@@ -322,9 +322,9 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Virginia:**
 - **GDP:** ~$80B (down ~70% from pre-collapse — lost NOVA's federal and tech sectors)
 - **Dominant sectors:** Residual military infrastructure (Hampton Roads — Norfolk Naval Base legacy), agriculture (tobacco, soybeans), logistics (limited port activity)
-- **Trade partners and bloc alignment:** NEC (sells residual military services — port access, training ranges). Economically dependent on NEC for trade access.
-- **Economic model:** Degraded nationalist-capitalist. No fiscal capacity for public services. Survives on residual military contracts and NEC transfers.
-- **Currency:** Dollarized (declining). Some NEC trade credit as NEC Dollar becomes functional currency.
+- **Trade partners and bloc alignment:** Atlantica (sells residual military services — port access, training ranges). Economically dependent on Atlantica for trade access.
+- **Economic model:** Degraded nationalist-capitalist. No fiscal capacity for public services. Survives on residual military contracts and Atlantica transfers.
+- **Currency:** Dollarized (declining). Some Atlantica trade credit as Atlantica Dollar becomes functional currency.
 - **Labor market character:** High unemployment. Military base employment declining with federal funding end. Agriculture automated. ~4M population.
 - **→ See KML: Virginia**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#15-virginia)
@@ -351,8 +351,8 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 
 **Heartland:**
 - **GDP:** ~$250B (shrinking rump)
-- **Dominant sectors:** Industrial agriculture (corn, soybeans, wheat, cattle — export-oriented, large-scale agribusiness), food processing (meatpacking, grain milling), logistics (rail and highway corridors — GLPR controls access)
-- **Trade partners and bloc alignment:** Limited — export-dependent agriculture, landlocked. Must route through GLPR-controlled transport corridors, creating dependency. Residual dollar zone.
+- **Dominant sectors:** Industrial agriculture (corn, soybeans, wheat, cattle — export-oriented, large-scale agribusiness), food processing (meatpacking, grain milling), logistics (rail and highway corridors — Great Lakes controls access)
+- **Trade partners and bloc alignment:** Limited — export-dependent agriculture, landlocked. Must route through Great Lakes-controlled transport corridors, creating dependency. Residual dollar zone.
 - **Economic model:** Nationalist-capitalist with large agribusiness dominance. Minimal regulation, low taxation. Agribusiness conglomerates hold political as well as economic power.
 - **Currency:** Dollarized (US dollar legacy — declining purchasing power). Some local scrip emerging as dollar liquidity declines.
 - **Labor market character:** Mixed. Industrial agriculture highly automated (autonomous tractors, drone monitoring, automated harvesting). Food processing labor-intensive (low-wage, high-turnover). No social safety net. ~12M population (declining — out-migration).
@@ -362,7 +362,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Deseret:**
 - **GDP:** ~$200B
 - **Dominant sectors:** Finance (regional — LDS Church-owned financial institutions, Salt Lake City as regional financial center), technology services ("Silicon Slopes" — SLC/Provo — withered without global integration, residual local IT services), mining (copper — Bingham Canyon, potash, gold, beryllium — declining), agriculture (irrigated — water-constrained), education (Brigham Young University, LDS education network)
-- **Trade partners and bloc alignment:** NEC (limited trade), Pacifica (limited — via air corridors), domestic (within Deseret). LDS Church provides economic coordination and trade credit for member businesses. Increasingly isolated from global trade networks.
+- **Trade partners and bloc alignment:** Atlantica (limited trade), Pacifica (limited — via air corridors), domestic (within Deseret). LDS Church provides economic coordination and trade credit for member businesses. Increasingly isolated from global trade networks.
 - **Economic model:** Theocratic-nationalist-capitalist. LDS Church provides institutional backbone, credit coordination, social safety net, and economic planning in the absence of effective state institutions. Church-owned enterprises dominate finance, media, and real estate.
 - **Currency:** Deseret Dollar (DSD) — issued by LDS Church-affiliated financial institutions. Tied to a basket of commodities and real estate values. Limited convertibility — primarily circulates within the Corridor.
 - **Labor market character:** Mixed. Tech sector automated (residual). Mining and agriculture mixed. Services labor-intensive. Church provides social welfare through tithing-funded programs. ~6M population (declining — youth exodus to revolutionary states).
@@ -372,7 +372,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Mountain Tapestry:**
 - **GDP:** ~$80B (fragmented entities, mostly absorbed or dissolved)
 - **Dominant sectors:** Extraction (mining — copper, palladium, trona/helium, coal — declining), ranching, tourism (Yellowstone, Glacier, ski resorts — degraded infrastructure), logistics (limited transport corridors)
-- **Trade partners and bloc alignment:** Minimal — economically isolated entities. Columbia Plateau Republic (eastern WA/OR, southern ID — potentially flipping revolutionary) trades with Pacifica and GLPR.
+- **Trade partners and bloc alignment:** Minimal — economically isolated entities. Columbia Plateau Republic (eastern WA/OR, southern ID — potentially flipping revolutionary) trades with Pacifica and Great Lakes.
 - **Economic model:** Nationalist-capitalist / extractive (weak state capacity). Many entities lack functioning tax collection or public services. Ungoverned territory is common.
 - **Currency:** Dollarized / barter. US dollar legacy declining. Effective demonetization in many areas.
 - **Labor market character:** Labor-intensive. Extraction, ranching, and tourism provide primary employment. Seasonal. No social safety net. ~5M population (widely dispersed, declining). Columbia Plateau Republic ~2M (potentially revolutionary trajectory).
@@ -416,7 +416,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **EU Core (Nordic states, Benelux, post-Orbán Hungary, Slovenia, Baltic states):**
 - **GDP:** ~$18T combined
 - **Dominant sectors:** Advanced manufacturing (green tech, industrial automation, precision engineering — Germany's legacy absorbed selectively), green technology (wind turbines — Vestas/Siemens Gamesa, solar manufacturing, hydrogen infrastructure, carbon capture), finance and insurance (Amsterdam, Frankfurt, Luxembourg, Stockholm — euro-denominated markets), services and digital economy (Nordic digital public infrastructure, Benelux logistics), pharmaceuticals and biotech (Nordic and Dutch research clusters)
-- **Trade partners and bloc alignment:** Intra-EU Core (primary — single market, hard currency, defense federation), BRICS+ (substantial and growing — the Core maintains open trade relations with BRICS+ members despite geopolitical tensions), NEC and Pacifica (growing trade relationships), periphery euro states (reduced but maintained single market access)
+- **Trade partners and bloc alignment:** Intra-EU Core (primary — single market, hard currency, defense federation), BRICS+ (substantial and growing — the Core maintains open trade relations with BRICS+ members despite geopolitical tensions), Atlantica and Pacifica (growing trade relationships), periphery euro states (reduced but maintained single market access)
 - **Economic model:** Social-democratic / regulated market. Strong welfare states, high union density, coordinated wage bargaining, progressive taxation. The "Northern Euro" hard currency enforces fiscal discipline. Industrial policy is activist — the Core coordinates strategic investment in green tech, AI, and defense manufacturing through the European Industrial Coordination Agency.
 - **Currency:** Northern Euro (EUR-N) — hard currency with strict fiscal rules, inflation targeting, and pooled debt issuance. Trades at a premium to the periphery euro. Major reserve currency (~20% of global reserves — combined with periphery euro).
 - **Labor market character:** Mixed automated labor. Manufacturing highly automated (50-60%). Services mixed. UBI implemented in Finland, Netherlands, Denmark. Four-day workweek emerging norms. Strong labor protections, high minimum wages, robust retraining systems. ~120M population across core states.
@@ -515,7 +515,7 @@ The 2050 economic landscape is the end-state of trajectories whose key drivers a
 
 ## Interactions With Other Domains
 
-- **To Borders:** Economic blocs align with political boundaries — BRICS+ member states share financial infrastructure, tariff frameworks, and currency arrangements that reinforce bloc cohesion. Successor state economic divergence (revolutionary vs reactionary) drives territorial dynamics and hardens borders. The GLPR's manufacturing anchor, the Aztlán's semiconductor and solar energy base, and the Pacifica's technology sector create economic gravity that pulls border alignments. **→ See also: [borders-geopolitics.md](../../2050-snapshot/domains/borders-geopolitics.md)**
+- **To Borders:** Economic blocs align with political boundaries — BRICS+ member states share financial infrastructure, tariff frameworks, and currency arrangements that reinforce bloc cohesion. Successor state economic divergence (revolutionary vs reactionary) drives territorial dynamics and hardens borders. The Great Lakes' manufacturing anchor, the Aztlán's semiconductor and solar energy base, and the Pacifica's technology sector create economic gravity that pulls border alignments. **→ See also: [borders-geopolitics.md](../../2050-snapshot/domains/borders-geopolitics.md)**
 - **To Technology:** Automation penetration determines labor market character — the technology snapshot's AI governance models (regulatory, precautionary, permissive) directly shape which economic sectors automate and how fast. Energy systems (renewable penetration, grid architecture) determine economic model viability for successor states — the Aztlán's solar export economy would be impossible without the HVDC infrastructure and storage technology described in the technology snapshot. AI-driven economic planning in revolutionary states depends on the computational infrastructure described in the technology domain. **→ See also: [technology.md](../../2050-snapshot/domains/technology.md)**
 - **To Demographics:** Labor migration responds to economic opportunity — revolutionary states with UBI, guaranteed employment, and automated economies attract skilled labor from reactionary states and the Global South. Aging populations strain public finances in all advanced economies (EU Core, China, Japan, Unified Korea), while automation offsets labor force decline in revolutionary states. The demographic dividend in Africa (EAF, Nigeria) and parts of Asia (India, ASEAN) interacts with their labor-intensive economic structures. **→ See also: demographics.md**
 - **To Climate:** Economic damages from climate change vary dramatically by region — Amazon dieback (T-15) reduced Brazil's agricultural output by 30-60%; water crises constrain economic growth in Aztlán, the American West, and the Heartland; agricultural zone shifts restructure rural economies globally. Adaptation costs strain fiscal capacity in reactionary states while revolutionary states invest in climate-resilient infrastructure. The green energy transition is both an economic opportunity (renewable manufacturing, EV production) and a disruption (stranded fossil fuel assets, declining extraction employment). **→ See also: [climate.md](../../2050-snapshot/domains/climate.md)**
@@ -523,9 +523,9 @@ The 2050 economic landscape is the end-state of trajectories whose key drivers a
 
 ## Key Uncertainties
 
-- **Revolutionary state economic sustainability:** Whether socialist-state-directed economies in Pacifica, GLPR, Aztlán, FRSR, and HFS can sustain growth and productivity improvements over the long term, or whether state-directed allocation reproduces historic inefficiencies. The BRICS+ trade integration reduces autarky risk, but internal governance quality, innovation incentives, and capital allocation efficiency remain untested at scale. The Pacifica's hybrid model (state-directed strategic industries + market SME sector) is the key experiment — its success or failure will shape the trajectory for other revolutionary states.
+- **Revolutionary state economic sustainability:** Whether socialist-state-directed economies in Pacifica, Great Lakes, Aztlán, FRSR, and HFS can sustain growth and productivity improvements over the long term, or whether state-directed allocation reproduces historic inefficiencies. The BRICS+ trade integration reduces autarky risk, but internal governance quality, innovation incentives, and capital allocation efficiency remain untested at scale. The Pacifica's hybrid model (state-directed strategic industries + market SME sector) is the key experiment — its success or failure will shape the trajectory for other revolutionary states.
 - **Reactionary state economic transition:** Whether reactionary states can transition from extractive/nationalist-capitalist models before resource depletion and capital flight cause total economic collapse. New Afrika's post-revolutionary reconstruction (underway in 2050) will determine whether the Gulf stabilizes as a socialist economy or fragments further. Texas's energy-collapsed economy faces existential decline. The Deseret's theocratic-capitalist model is culturally intact but economically hollow — whether it degrades slowly or collapses is an open question.
 - **BRICS+ financial system stability:** The BRICS+ clearing house, MDB, reserve pool, and BCU are operational and processing real transactions, but internal tensions — China-India rivalry, competing currency interests, divergent economic governance models — could undermine system cohesion. A financial crisis in a major BRICS+ economy (China's real estate legacy, India's jobless growth, Brazil's climate shock) could test the reserve pool and solidarity mechanisms beyond their design capacity.
-- **Automation trajectory and distribution:** Faster automation adoption could exacerbate inequality or accelerate post-work transition depending on policy response. Revolutionary states have implemented UBI or guaranteed employment; if automation accelerates beyond what these programs can absorb (e.g., AI displacing creative and professional services that were assumed automation-resistant), even the Pacifica and NEC models could face fiscal and social strain. If automation slows (energy costs, regulatory barriers, social resistance), the labor-intensive economies of reactionary states may stabilize, reducing the economic divergence driving migration.
+- **Automation trajectory and distribution:** Faster automation adoption could exacerbate inequality or accelerate post-work transition depending on policy response. Revolutionary states have implemented UBI or guaranteed employment; if automation accelerates beyond what these programs can absorb (e.g., AI displacing creative and professional services that were assumed automation-resistant), even the Pacifica and Atlantica models could face fiscal and social strain. If automation slows (energy costs, regulatory barriers, social resistance), the labor-intensive economies of reactionary states may stabilize, reducing the economic divergence driving migration.
 - **Climate economic feedback:** Climate economic damages could accelerate beyond current projections — cascading crop failures, more frequent extreme weather events, or AMOC disruption would fundamentally reshape all economic assumptions. The green energy transition's pace (already complete in revolutionary states, lagging in reactionary territories) determines both remaining emissions and the competitiveness of renewable-powered economies relative to fossil-dependent ones. Aztlán's solar export model depends on continued technology cost declines and grid infrastructure maintenance that could be disrupted by climate events.
 - **Counter-scenario economic impact:** If the "clean revolution" path materialized (see [meta/counter-scenario.md](../../meta/counter-scenario.md)), a unified successor state with coordinated economic transition would have vastly stronger economic position than the fragmented scenario described here. Low probability but high impact — worth tracking as a diverging possibility space.

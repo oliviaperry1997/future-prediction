@@ -230,11 +230,11 @@ The euro does not formally break up (costs are too high — Dexit alone costs 5.
 
 ## Links to US Successor State System
 
-- The NEC (Northeast Corridor) and PPR (Pacific People's Republic) are the revolutionary core's primary US partners — shared ideology (social-democratic/socialist), Atlantic/Pacific trade, climate cooperation
-- The revolutionary EU core coordinates with the PPR, NEC, and GLPR on climate policy, AI governance, and post-capitalist economic models
+- Atlantica (Atlantica) and PPR (Pacific People's Republic) are the revolutionary core's primary US partners — shared ideology (social-democratic/socialist), Atlantic/Pacific trade, climate cooperation
+- The revolutionary EU core coordinates with the PPR, Atlantica, and Great Lakes on climate policy, AI governance, and post-capitalist economic models
 - The reactionary EU periphery (France under RN, Italy, Austria) has minimal engagement with US successor states — declining petro-states and nationalist autocracies hold no appeal
-- The UK special relationship is dead — London has more direct relationships with NEC and PPR than with any EU entity
-- European financial centers (Frankfurt, Paris, Zurich) must pivot from dollar-denominated to multi-currency operations. The NEC's transformed Wall Street is a competitor, not a partner
+- The UK special relationship is dead — London has more direct relationships with Atlantica and PPR than with any EU entity
+- European financial centers (Frankfurt, Paris, Zurich) must pivot from dollar-denominated to multi-currency operations. Atlantica's transformed Wall Street is a competitor, not a partner
 
 ---
 

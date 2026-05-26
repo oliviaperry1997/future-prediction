@@ -93,7 +93,7 @@ The overarching structural dynamic of the full period is China's assumption of t
 - **China accommodation:** ASEAN accepts Chinese dominance of the South China Sea and regional security architecture while maintaining sovereignty over member-state territory. This is not submission — it is the rational recognition that there is no alternative security guarantor with the US gone, and confrontation would be more costly than accommodation. ASEAN's strategy is to deepen economic integration with China while diversifying economic partnerships (India, Japan, EU, Australia) to avoid overdependence. The South China Sea is effectively conceded as a Chinese lake in exchange for unimpeded commercial access.
 - **Myanmar:** The post-2021 civil war continues at low intensity through the 2030s. China and Russia support the junta; ASEAN is divided and ineffective. Myanmar remains a failed-state zone — the one ASEAN member where the institutional model has failed entirely.
 - **Singapore:** The most successful adaptation. Already diversifying from US-centric finance before the collapse, Singapore becomes a key node in the BRICS+ financial system and a neutral trade hub for all successor state systems. Its model — financial flexibility, strategic neutrality, high human capital — is the revolutionary path in miniature.
-- **Indonesia:** The largest ASEAN state (~280M → ~325M by 2049). Nickel reserves (critical for EV batteries) are Indonesia's strategic trump card — supplying the GLPR, PPR, and Chinese EV industries. Democratic but with authoritarian undertones. Indonesia maintains the most independent posture in ASEAN — large enough to resist coercion, strategically placed to benefit from the shift.
+- **Indonesia:** The largest ASEAN state (~280M → ~325M by 2049). Nickel reserves (critical for EV batteries) are Indonesia's strategic trump card — supplying the Great Lakes, PPR, and Chinese EV industries. Democratic but with authoritarian undertones. Indonesia maintains the most independent posture in ASEAN — large enough to resist coercion, strategically placed to benefit from the shift.
 - **Links to US collapse:** US alliances in Southeast Asia (Philippines, Thailand, Singapore) become irrelevant. The US pivot to Asia (Obama-era) is dead. Southeast Asia becomes a Chinese sphere of influence in security terms, though economically diversified. The states that hedged best (Vietnam, Indonesia, Singapore) face the smoothest transition; those that aligned closest to the US (Philippines) face the most painful reorientation.
 
 ### 6. Central Asia — Reactionary (Low-Intensity Trap)
@@ -181,10 +181,10 @@ Asia's dynamics are shaped by the interaction of revolutionary and reactionary f
 
 ## Links to US Successor State System
 
-- China deals with US successor states individually but gives preference to revolutionary states (PPR, NEC, GLPR, CSR) that align with BRICS+ and the multipolar order. Reactionary states are irrelevant to Chinese strategy
+- China deals with US successor states individually but gives preference to revolutionary states (PPR, Atlantica, Great Lakes, CSR) that align with BRICS+ and the multipolar order. Reactionary states are irrelevant to Chinese strategy
 - The PPR is China's most important US successor state relationship — both are Pacific-facing, both are in the BRICS+ orbit, both need stable Pacific trade routes. The PPR-China relationship is cooperative but not alliance-level
-- India maintains relationships with all major US successor states but prioritizes the NEC (historical Commonwealth ties, diaspora connections) and the PPR (technology, climate, Pacific trade)
-- Japan and Korea have economic relationships with the PPR and NEC but their primary concern is security, which US successor states cannot provide
+- India maintains relationships with all major US successor states but prioritizes Atlantica (historical Commonwealth ties, diaspora connections) and the PPR (technology, climate, Pacific trade)
+- Japan and Korea have economic relationships with the PPR and Atlantica but their primary concern is security, which US successor states cannot provide
 - Southeast Asian states trade with all accessible US successor states but have no strategic dependence on any of them
 - The US successor state system as a whole is a minor factor in Asian geopolitics through the transition — Asia's order is determined by China, India, Japan, Korea, and ASEAN, with US successor states as peripheral actors
 

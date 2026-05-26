@@ -157,7 +157,7 @@ Oceania's dynamics are shaped by a region where the US collapse removes a securi
 
 - The PPR and the Hawaiian Free State are Oceania's primary US successor state partners — both are Pacific-facing, both need Pacific trade routes, both have cultural connections (PPR's Asian-American population, HFS's Polynesian identity)
 - The PPR's West Coast ports (LA/Long Beach, Oakland, Seattle/Tacoma) and HFS's Honolulu port are Oceania's primary North American trade gateways
-- Australia and NZ have strongest ties to the NEC (historical Commonwealth connections, financial links) but increasingly engage the PPR (technology, climate, Pacific trade)
+- Australia and NZ have strongest ties to Atlantica (historical Commonwealth connections, financial links) but increasingly engage the PPR (technology, climate, Pacific trade)
 - US successor states are not Pacific security providers — that role is vacated by the US collapse and filled by China, Australia, and regional actors
 - The Hawaiian Free State is uniquely positioned as a Pacific diplomatic actor — small enough to be non-threatening, independent enough to be credible, strategically located enough to be valuable
 - Reactionary US successor states (Gulf Compact, Heartland, Atlantic South) have no presence in or relevance to Oceania

@@ -71,7 +71,7 @@ Orbital space in the 2026-2049 period undergoes a crisis-driven transformation. 
 ### Absent / Limited — US Successor States
 - No successor has independent launch. PPR most likely by late 2040s.
 - US successors are **space consumers** — rely on China, India, Europe for satellite manufacturing and launch.
-- PPR maintains Earth observation (climate monitoring). NEC maintains communications.
+- PPR maintains Earth observation (climate monitoring). Atlantica maintains communications.
 - Reactionary successors have no space capabilities — rely on degraded GPS.
 - US orbital legacy (GPS, communications, science) degrades through 2030s-2040s.
 
@@ -183,7 +183,7 @@ SBSP feasibility in this period depends on who is building it and whether they c
 - **China ↔ India (competitive cooperation):** Competition for partnerships drives both to improve. Not zero-sum because launch demand grows.
 - **DPRK ↔ ROK (binary fork in space):** If ROK flips revolutionary and unifies with DPRK, Korean space program merges Nuri + DPRK launchers + Russian tech. If ROK stays non-revolutionary, DPRK is the sole Korean space power and ROK space capability degrades.
 - **Debris crisis → all space actors (universal vulnerability):** The one dynamic that forces cooperation regardless of terrestrial rivalries.
-- **US successor states → China (dependency generation):** PPR and NEC dependence on Chinese/Indian launch gives Beijing and New Delhi leverage.
+- **US successor states → China (dependency generation):** PPR and Atlantica dependence on Chinese/Indian launch gives Beijing and New Delhi leverage.
 - **Russia → China (junior partnership):** Talent migrates to Chinese programs.
 - **China → third-party states (infrastructural power):** Cislunar depot and Queqiao control gives China pricing power over all lunar-serviced traffic. States without independent cislunar capacity are structurally dependent on Chinese infrastructure.
 

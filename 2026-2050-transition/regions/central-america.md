@@ -163,7 +163,7 @@ The ideological alignment from Aztlán through Mexico, the CAF, Colombia (post-c
 ---
 
 - Mexico-Aztlán borders three US successor states (PPR, Gulf Compact, FRSR), creating the world's most complex border network
-- Aztlán's semiconductor manufacturing and solar energy are integrated into BRICS+ supply chains, with US successor states (PPR, NEC, GLPR) as trade partners
+- Aztlán's semiconductor manufacturing and solar energy are integrated into BRICS+ supply chains, with US successor states (PPR, Atlantica, Great Lakes) as trade partners
 - The Central American Federation's emergence is directly enabled by the US collapse — every prior integration attempt was suppressed by Washington
 - Costa Rica and Panama represent the "institutional stability" model within the broader post-American Americas — states that thrived not through revolution but through absence of US intervention
 - Dry Corridor migration flows north toward Aztlán-Mexico and the PPR, creating demographic pressure on successor states with managed immigration systems

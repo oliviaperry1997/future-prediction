@@ -94,12 +94,12 @@ The original case and the clearest example of the mechanism:
 | Successor State | Path | Outcome |
 |---|---|---|
 | Pacific Republic (PPR) | **Revolutionary** — democratic socialist, technology base, high human capital, strong civic institutions, internationalist foreign policy | Positive loop activated. Becomes a destination for talent and capital from reactionary successor states. |
-| Northeast Corridor (NEC) | **Revolutionary** — social democratic, dense population, union tradition, Atlantic-facing economy | Positive loop activated. Inherits US financial infrastructure, reorients to Europe. |
+| Atlantica | **Revolutionary** — social democratic, dense population, union tradition, Atlantic-facing economy | Positive loop activated. Inherits US financial infrastructure, reorients to Europe. |
 | California State Republic (CSR) | **Revolutionary** (delayed) — initially chaotic, stabilizes as cooperative mixed economy | Positive loop activates post-2040. Integrates with Mexico over time. |
-| Great Lakes Popular Republic (GLPR) | **Revolutionary** — cooperative economy, water resources, manufacturing remnant | Positive loop activated. Anchors North American heartland. |
+| Great Lakes Popular Republic (Great Lakes) | **Revolutionary** — cooperative economy, water resources, manufacturing remnant | Positive loop activated. Anchors North American heartland. |
 | Front Range | **Revolutionary** — liberal mixed economy, educated population, renewable energy base | Positive loop activated. Smaller scale but stable. |
-| Texas | **Reactionary** — nationalist-capitalist, petro-economy, strong repressive apparatus | Negative loop active. Talent outflow to PPR/NEC. Oil revenue delays fracture but does not prevent degradation. Fragments by late 2040s. |
-| Heartland | **Reactionary** (initially) → **Revolutionary** (by ~2045) | Flips as economic degradation makes reactionary model unsustainable. Grain-dependent economy aligns with GLPR cooperative system. |
+| Texas | **Reactionary** — nationalist-capitalist, petro-economy, strong repressive apparatus | Negative loop active. Talent outflow to PPR/Atlantica. Oil revenue delays fracture but does not prevent degradation. Fragments by late 2040s. |
+| Heartland | **Reactionary** (initially) → **Revolutionary** (by ~2045) | Flips as economic degradation makes reactionary model unsustainable. Grain-dependent economy aligns with Great Lakes cooperative system. |
 | Gulf | **Reactionary** — fossil fuel remnant, weak institutions, hurricane-battered | Severely degraded. Fragments into multiple smaller polities, some revolutionary. |
 
 **Net:** ~6 of 8 major successor states go revolutionary by 2050. Texas survives as a reactionary outlier but territorially reduced and economically weakened. The Heartland flips as the reactionary model fails its agricultural base.
@@ -306,7 +306,7 @@ The original case and the clearest example of the mechanism:
 | **South Korea (KASA, contingent)** | **Contingent on ROK revolution** — Nuri operational but vulnerable to fiscal cuts | If ROK flips revolutionary (~40%), KASA merges with DPRK's space infrastructure. If not (~60%), KASA degrades through budget cuts and loss of strategic direction. Canceled programs: Danuri follow-on, KPLO. |
 | **Russia (Roscosmos)** | **Reactionary (declining)** — junior partner, legacy capabilities | Negative loop: talent outflow, budget stagnation. Minor space power by 2049. |
 | **US (NASA/commercial)** | **Collapse** — funding gone, Artemis cancelled, Starlink bankrupt | Legacy orbital infrastructure degrades through 2030s-2040s. No replacement. |
-| **US successor states** | **Absent / limited** — space consumers, not producers | No independent launch. PPR/NEC dependent on Chinese/Indian/European providers. |
+| **US successor states** | **Absent / limited** — space consumers, not producers | No independent launch. PPR/Atlantica dependent on Chinese/Indian/European providers. |
 
 **Net:** Orbital space converges toward **Chinese-led multipolar governance** — but the multipolarity is constrained by China's infrastructural power over the cislunar layer. India and Europe check full Chinese hegemony in LEO/GEO, but China controls the propellant depots and cislunar PNT that every Earth-Moon user needs. A kinetic ASAT ban is negotiated post-collision (~2035-2040). The debris regime is enforced by mutual vulnerability. The cislunar logistics layer creates a new dependency class: **third-party payload customers** (South Korea, Brazil, ASEAN, South Africa, PPR) who benefit from lower orbital access costs but pay China's price for depot refueling.
 

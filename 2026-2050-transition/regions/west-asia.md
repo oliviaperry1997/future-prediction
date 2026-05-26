@@ -222,7 +222,7 @@ The revolutionary and reactionary loops are not independent — they interact ac
 
 - The PPR, as the most diplomatically active revolutionary successor state, develops relationships with the Quartet members (shared BRICS+ orientation) and Iran (shared anti-US/anti-Israel positions). The PPR's socialist model has limited relevance to West Asian monarchies but its multipolar foreign policy aligns with Quartet interests.
 
-- The NEC maintains trade and diplomatic ties with Israel and the UAE (historical relationships, financial sector connections) but these relationships weaken as Israel's trajectory declines and the NEC focuses on Atlantic/European engagement.
+- Atlantica maintains trade and diplomatic ties with Israel and the UAE (historical relationships, financial sector connections) but these relationships weaken as Israel's trajectory declines and Atlantica focuses on Atlantic/European engagement.
 
 - No US successor state has the capacity or interest to project military power into West Asia. The region is definitively post-American — the first major world region where the absence of US power is the defining structural feature rather than the presence of it.
 

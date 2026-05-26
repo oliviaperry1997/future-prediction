@@ -27,7 +27,7 @@ The borders/geopolitics domain's central arc is the fragmentation of US federal 
 
 - **(T-08) Apr 2034 — Pacific States De Facto Autonomy** (MEDIUM): The first de facto secession triggers a demonstration effect that cascades across the remaining US regions. California, Oregon, and Washington coordinate joint resource management, carbon pricing, and border control — proving that a successor state can function without federal authority.
 
-- **(T-10) ~2035 — Northeast Corridor Independence Declaration** (MEDIUM): The second major fragmentation event, accelerated by the Pacific precedent. New York through Maine declare joint sovereignty, and the paralyzed federal government lacks the capacity to respond. The demonstration effect of Pacific autonomy makes the Northeast secession thinkable and executable within two years.
+- **(T-10) ~2035 — Atlantica Independence Declaration** (MEDIUM): The second major fragmentation event, accelerated by the Pacific precedent. New York through Maine declare joint sovereignty, and the paralyzed federal government lacks the capacity to respond. The demonstration effect of Pacific autonomy makes the Northeast secession thinkable and executable within two years.
 
 - **(T-11) ~2036 — CSA (Confederate States) Revival** (MEDIUM): The intensely reactionary former Confederate states revive the Confederacy as an energy-centric regional bloc controlling critical oil and gas infrastructure across the Gulf South. The CSA accelerates its formation in response to the Pacific and Northeast precedents — southern states recognize that organizing quickly gives them negotiating leverage. The CSA prioritizes energy revenue retention, autonomous trade policy, and internal racial hierarchy.
 
@@ -81,7 +81,7 @@ The borders/geopolitics domain's central arc is the fragmentation of US federal 
 - 2026-2028: Post-dual-shock, federal tax revenue collapses 40-60%. Massive layoffs as agencies lose budgets. Treasury auctions fail; federal borrowing stops.
 - 2029-2032: Military units declare regional allegiance when federal payroll and logistics fail. National Guard forces are retained entirely by states.
 - 2033-2038: IRS collection fails in what are now effectively autonomous regions; federal budget becomes a shell funding only a shrinking rump around DC/MD/northern VA.
-- 2038-2039: Mid-Atlantic federal rump collapses (T-20). The US federal government functionally ceases to exist as a governing entity. Its remaining territory fragments between the Northeast Corridor, Appalachian zones, and local authorities.
+- 2038-2039: Mid-Atlantic federal rump collapses (T-20). The US federal government functionally ceases to exist as a governing entity. Its remaining territory fragments between Atlantica, Appalachian zones, and local authorities.
 
 **Linked Events:** T-01, T-02, T-07, T-08, T-10
 
@@ -98,8 +98,8 @@ The borders/geopolitics domain's central arc is the fragmentation of US federal 
 **Timeline (2026-2049):**
 - 2032-2033: Hawaiian Revolution (T-17) sets the earliest precedent — a sovereignty assertion succeeds against a US naval dictatorship, demonstrating that the empire is vulnerable
 - late 2033: Pacific autonomy (T-08) sets the mainland precedent and proves a successor state can function without federal authority
-- ~2035: Northeast Corridor follows (T-10), accelerating cascade
-- ~2036: CSA revives (T-11), industrial Midwest begins coordinating (GLPR)
+- ~2035: Atlantica follows (T-10), accelerating cascade
+- ~2036: CSA revives (T-11), industrial Midwest begins coordinating (Great Lakes)
 - ~2036-2037: First indigenous sovereignty declarations (T-18) — cascade expands beyond settler successor states
 - ~2038-2039: Federal rump collapses (T-20) — the last legal obstacle to successor state sovereignty is removed
 - ~2039-2040: Chicano Socialist Republic (T-19) forms
@@ -139,7 +139,7 @@ The borders/geopolitics domain's central arc is the fragmentation of US federal 
 
 **Timeline (2026-2049):**
 - 2026-2032: Pre-fragmentation, the economic collapse discredits the existing capitalist order universally, but progressive and conservative regions draw opposite conclusions about what should replace it
-- late 2033-2036: Early successor states choose trajectories — PPR and NEC go revolutionary, CSA goes reactionary. The divergence is evident from the first year of autonomy
+- late 2033-2036: Early successor states choose trajectories — PPR and Atlantica go revolutionary, CSA goes reactionary. The divergence is evident from the first year of autonomy
 - 2037-2043: Revolutionary states outperform reactionary states economically. Within the CSA, the core Black Belt territory (LA, MS, AL, GA, SC) begins organizing for revolution. Houston's petrochemical corridor and Atlanta's logistics hub become centers of labor organizing. CSR forms ~2039-2040 as a late revolutionary adopter
 - ~2044-2046: New Afrika Revolution — the CSA's Deep South core revolts, collapsing the Confederacy and forming the Republic of New Afrika. Texas breaks away independently. Peripheral CSA states become isolated reactionary rumps
 - 2044-2049: Revolutionary states collectively control ~58% of former US population and ~65% of former US GDP. Reactionary states are in various stages of collapse with active revolutionary movements in most

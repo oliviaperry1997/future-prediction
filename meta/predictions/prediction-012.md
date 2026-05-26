@@ -18,7 +18,7 @@ doc_ref: 2050-snapshot/domains/culture.md
 
 ## Falsifiable Statement
 
-By 2050, at least 3 of the 5 revolutionary US successor states (PPR, NEC, GLPR, FRSR, CSR) will have maintained stable post-capitalist governance — defined as operational socialist-state-directed or social-democratic mixed economies with public ownership of major industries, worker/community governance structures, and universal welfare guarantees — for at least 5 consecutive years without reverting to capitalist economic organization or experiencing counter-revolutionary regime change.
+By 2050, at least 3 of the 5 revolutionary US successor states (PPR, Atlantica, Great Lakes, FRSR, CSR) will have maintained stable post-capitalist governance — defined as operational socialist-state-directed or social-democratic mixed economies with public ownership of major industries, worker/community governance structures, and universal welfare guarantees — for at least 5 consecutive years without reverting to capitalist economic organization or experiencing counter-revolutionary regime change.
 
 ## Reasoning
 
@@ -26,13 +26,13 @@ The Pacific People's Republic declares a socialist economic system by approximat
 
 The revolutionary states have significant internal cohesion advantages that support stability:
 
-1. **Ideological commitment** — Post-capitalist ideology in revolutionary states is not an elite project but a popular movement with deep roots in labor organizing, environmental activism, racial justice, and indigenous sovereignty. The PPR's socialist constitution emerged from a decade of democratic deliberation; the GLPR's worker cooperative model reflects the region's union heritage; the CSR's Aztlán socialism fuses cultural nationalism with economic transformation.
+1. **Ideological commitment** — Post-capitalist ideology in revolutionary states is not an elite project but a popular movement with deep roots in labor organizing, environmental activism, racial justice, and indigenous sovereignty. The PPR's socialist constitution emerged from a decade of democratic deliberation; the Great Lakes' worker cooperative model reflects the region's union heritage; the CSR's Aztlán socialism fuses cultural nationalism with economic transformation.
 
 2. **Popular mandate** — Revolutionary state governments were elected or established through democratic processes during the fragmentation period. Their post-capitalist economic programs were central to their founding political platforms.
 
 3. **International validation** — BRICS+ membership, trade relationships, and alternative financial infrastructure provide external support that raises the cost of reversal. The BRICS+ clearing house and development bank make revolutionary states less dependent on capitalist financial markets.
 
-4. **Demonstration effects** — Early revolutionary successes (PPR's economic stabilization, GLPR's reindustrialization, CSR's renewable energy export revenue) create visible evidence that post-capitalist models work, reinforcing internal support and attracting talent.
+4. **Demonstration effects** — Early revolutionary successes (PPR's economic stabilization, Great Lakes's reindustrialization, CSR's renewable energy export revenue) create visible evidence that post-capitalist models work, reinforcing internal support and attracting talent.
 
 The MEDIUM confidence reflects the following uncertainty factors:
 

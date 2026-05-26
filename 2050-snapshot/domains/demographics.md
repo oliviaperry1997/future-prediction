@@ -19,7 +19,7 @@ milestone: 2050
 - Global population peaked at approximately 9.7 billion (~2043, consistent with prediction-008) and has begun gradual decline — the world entered the first sustained population contraction in modern history, with every major region except Sub-Saharan Africa below replacement fertility
 - Cross-border climate migration exceeded 50 million cumulative (consistent with prediction-003), becoming a first-order geopolitical variable that reshapes citizenship, border enforcement, and labor markets across every continent
 - East Asia and Europe entered sustained population decline; Sub-Saharan Africa continues growing though slowing rapidly — the demographic asymmetry that began in the early 21st century has become the defining structural feature of global population dynamics, driving migration pressure from the still-growing South to the shrinking North
-- US successor states established radically divergent migration regimes and citizenship frameworks — revolutionary states (Pacifica, NEC, GLPR, Aztlán, New Afrika) attract migrants and maintain population stability through managed immigration; reactionary states (Texas, Heartland, Florida, North Carolina) experience population decline, brain drain, and rural depopulation
+- US successor states established radically divergent migration regimes and citizenship frameworks — revolutionary states (Pacifica, Atlantica, Great Lakes, Aztlán, New Afrika) attract migrants and maintain population stability through managed immigration; reactionary states (Texas, Heartland, Florida, North Carolina) experience population decline, brain drain, and rural depopulation
 - Global median age rose from ~31 (2025) to ~36 (2050); dependency ratios increased across all developed and middle-income regions, with automation partially offsetting the economic impact of a shrinking working-age population
 
 ## Analysis
@@ -47,16 +47,16 @@ Africa still growing — Asia declining. Sub-Saharan Africa continues growing (t
 #### Aging & Dependency Ratios
 
 - **Global median age:** ~36 (up from ~31 in 2025). The world's population is older than at any point in human history, and aging continues.
-- **Aged societies (median >40):** Japan/Unified Korea (~45), EU Core (~44), China (~42), Mountain Tapestry (~41), NEC (~40), HFS (~40), Alaska (~40), Florida (~44), Kentucky (~42), Virginia (~43), GLPR (~39)
+- **Aged societies (median >40):** Japan/Unified Korea (~45), EU Core (~44), China (~42), Mountain Tapestry (~41), Atlantica (~40), HFS (~40), Alaska (~40), Florida (~44), Kentucky (~42), Virginia (~43), Great Lakes (~39)
 - **Young societies (median <25):** Sub-Saharan Africa, parts of South Asia. The East African Federation has a median age of ~22 — the youngest major population cluster in the world outside conflict zones.
 - **Dependency ratio pressures:** The working-age population (25-64) is shrinking relative to the 65+ population in all developed and most middle-income regions. Old-age dependency ratios (65+/25-64) exceed 40% in Unified Korea, Japan, EU Core, and China. The ratio exceeds 30% in all revolutionary successor states.
-- **Automation offset:** Automation partially offsets labor force decline in automated economies — humanoid robots and AI-driven systems substitute for a significant share of working-age tasks in the Pacifica, NEC, GLPR, EU Core, China, and Unified Korea. Labor-intensive economies (EAF, India's informal sector, reactionary states) face growth constraints from both aging and emigration without automation substitution.
+- **Automation offset:** Automation partially offsets labor force decline in automated economies — humanoid robots and AI-driven systems substitute for a significant share of working-age tasks in the Pacifica, Atlantica, Great Lakes, EU Core, China, and Unified Korea. Labor-intensive economies (EAF, India's informal sector, reactionary states) face growth constraints from both aging and emigration without automation substitution.
 
 #### Urbanization & Coastal Retreat
 
 - **Global urbanization rate:** ~70% (up from ~57% in 2025). The global population is now predominantly urban at a level that early-21st-century projections placed at mid-century.
 - **Coastal urban populations affected by sea level rise:** With 0.35m of sea level rise above 2020 baseline, coastal cities worldwide face chronic inundation, saltwater intrusion, and storm surge amplification. Managed retreat is underway in the Bangladesh delta (~10M relocated internally), the Mekong Delta (~5M), the US Gulf Coast (New Orleans abandoned), the South Pacific atolls, and coastal West Africa.
-- **Inland migration corridors:** Population movement away from coasts is reshaping interior urban centers. "Climate haven" cities — Detroit (GLPR), Buffalo (NEC), Minneapolis (GLPR), Denver (FRSR), and interior Chinese cities (Chengdu, Xi'an, Zhengzhou) — have experienced rapid population growth and infrastructure strain as coastal populations relocate inland.
+- **Inland migration corridors:** Population movement away from coasts is reshaping interior urban centers. "Climate haven" cities — Detroit (Great Lakes), Buffalo (Great Lakes), Minneapolis (Great Lakes), Denver (FRSR), and interior Chinese cities (Chengdu, Xi'an, Zhengzhou) — have experienced rapid population growth and infrastructure strain as coastal populations relocate inland.
 - **Successor state variation:** Pacifica coastal cities (San Francisco, Seattle, Los Angeles) invest heavily in seawalls, floating infrastructure, and managed retreat — only the wealthiest zones are fully protected. New Afrika faces severe coastal loss with limited adaptive capacity — New Orleans is abandoned, Mobile and Savannah partly protected with degraded infrastructure. Florida faces relentless hurricane intensification and saltwater intrusion.
 - → See climate snapshot: [Sea Level Rise](../../2050-snapshot/domains/climate.md#sea-level-rise) for regional impact details
 
@@ -64,7 +64,7 @@ Africa still growing — Asia declining. Sub-Saharan Africa continues growing (t
 
 The fragmentation of the United States produced 19 successor entities with sharply divergent demographic trajectories. Post-2050 migration patterns within former US territory are shaped primarily by political alignment:
 
-- **Revolutionary states (Pacifica, NEC, GLPR, Aztlán, FRSR, HFS):** Attract domestic and international migrants, maintain higher urbanization rates, and sustain younger age structures through managed immigration. The Pacifica and Aztlán have the highest net migration rates among successor states. These states' socialist economic models — with UBI (Pacifica), guaranteed employment (NEC, GLPR), and universal basic services (Aztlán) — function as demographic attractors in a world of economic precarity.
+- **Revolutionary states (Pacifica, Atlantica, Great Lakes, Aztlán, FRSR, HFS):** Attract domestic and international migrants, maintain higher urbanization rates, and sustain younger age structures through managed immigration. The Pacifica and Aztlán have the highest net migration rates among successor states. These states' socialist economic models — with UBI (Pacifica), guaranteed employment (Atlantica, Great Lakes), and universal basic services (Aztlán) — function as demographic attractors in a world of economic precarity.
 - **Reactionary states (Texas, Florida, North Carolina, Virginia, Tennessee, Kentucky, Arkansas, Heartland, Deseret, Mountain Tapestry):** Experience population decline, brain drain, aging, and rural depopulation. Young, educated workers leave for revolutionary states and BRICS+ economies. The Deseret's youth exodus is demographically significant — young adults raised in the church leave for revolutionary states where educational and economic opportunities are better. These states lack both the economic opportunity and the social safety nets to retain population.
 - **Indigenous nations (Navajo, Dakota/Lakota, Sequoyan, Tlingit Aaní, Haudenosaunee):** Population recovery underway — improved healthcare access after Landback, birth rates above replacement (TFR 2.2-2.5), and return migration enabled by indigenous sovereignty and land restoration. The Navajo Nation's return migration from diaspora communities is a measurable demographic trend.
 - **Internal migration between successor states:** Ideological sorting is the dominant migration pattern — progressive populations move to revolutionary states, conservative populations to reactionary states. This self-selection reinforces each entity's political character. The sorting is not absolute — significant conservative minorities remain in revolutionary states and vice versa — but the directional flow is clear and accelerating.
@@ -84,14 +84,14 @@ Climate-driven migration is one of the defining demographic forces shaping the 2
   - Central America's Dry Corridor: ~5M — drought and crop failure drive northward migration toward the CSR, Mexico, and the Pacifica.
   - Amazon basin post-dieback: ~5M — agricultural collapse in Brazil, Bolivia, and Peru following the 2047 Amazon dieback threshold (T-15).
 - **Destination regions:**
-  - North America (successor states): The Pacifica and NEC absorb climate migrants from Central America, the Caribbean, and the Pacific. Tightened borders have slowed but not stopped entry. Climate migrants constitute ~8-12% of population in high-receiving Pacifica urban zones (Los Angeles, San Francisco, Seattle).
+  - North America (successor states): The Pacifica and Atlantica absorb climate migrants from Central America, the Caribbean, and the Pacific. Tightened borders have slowed but not stopped entry. Climate migrants constitute ~8-12% of population in high-receiving Pacifica urban zones (Los Angeles, San Francisco, Seattle).
   - Europe: The EU Core maintains controlled migration; the reactionary periphery (France, Italy) has sealed borders, creating a humanitarian crisis at Mediterranean entry points.
   - Southeast Asia: Indonesia, Malaysia, and Thailand receive migrants from the Mekong Delta and Myanmar's cyclone-affected coastal zones.
   - East Africa: Uganda, Kenya, and Tanzania absorb Sahel and Horn of Africa migrants within the EAF's free movement zone.
   - Australia/NZ: Australia's Pacific Engagement Visa and NZ's Pacific Access Category expanded but insufficient — Pacific Island diaspora communities in both countries grow through family reunification and managed relocation programs.
 - **Internal vs cross-border:** ~60% internal displacement, ~40% cross-border. The distinction has blurred in practice — climate impacts degrade source-region livelihoods regardless of whether a political border is crossed, and many migration journeys involve multiple internal and cross-border stages.
 - **Legal status:** Mixed — no settled international framework for climate refugee status exists. Pacific Islanders from Tuvalu and Kiribati have obtained bilateral resettlement agreements with Australia and New Zealand that grant permanent residence. Most other climate migrants exist in legal limbo — temporary protected status, humanitarian parole, undocumented status. The 1951 Refugee Convention has not been amended to include climate displacement; ad hoc bilateral arrangements are the primary legal mechanism.
-- **Impact on destination demographics:** Climate migrants constitute 5-15% of population in high-receiving regions — Pacifica urban zones, EU Core cities (Amsterdam, Berlin, Copenhagen), East African cities (Nairobi, Kampala, Dar es Salaam), and Southeast Asian megacities (Jakarta, Bangkok, Ho Chi Minh City). In the Pacifica and NEC, climate migrants fill labor gaps in care work, construction, and services — functioning as a demographic complement to automation-driven labor restructuring.
+- **Impact on destination demographics:** Climate migrants constitute 5-15% of population in high-receiving regions — Pacifica urban zones, EU Core cities (Amsterdam, Berlin, Copenhagen), East African cities (Nairobi, Kampala, Dar es Salaam), and Southeast Asian megacities (Jakarta, Bangkok, Ho Chi Minh City). In the Pacifica and Atlantica, climate migrants fill labor gaps in care work, construction, and services — functioning as a demographic complement to automation-driven labor restructuring.
 - → See climate snapshot: [Climate-Driven Migration](../../2050-snapshot/domains/climate.md#climate-driven-migration) for climate drivers and regional impact details
 
 ### Demographic Profiles — US Successor States
@@ -112,19 +112,19 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Primary languages:** English, Spanish, Chinese, Tagalog
 - **→ See KML: Pacifica**
 
-**Northeast Corridor (NEC):**
-- **Population:** 45M
+**Atlantica:**
+- **Population:** 55M
 - **Age structure:** Median age 40, dependency ratio 58%
 - **TFR:** 1.5
 - **Net migration:** +0.5%/yr (attracts educated professionals from reactionary states, Europe, and Asia)
 - **Urbanization:** 92% (the Boston-to-Washington megalopolis is the most consistently urbanized corridor in the former US)
 - **Life expectancy:** 81 (strong healthcare system, though aging infrastructure in some cities creates variation)
 - **Ethnic/religious composition:** 55% white, 18% Black, 12% Hispanic, 8% Asian, 7% other. Religious landscape: Catholic and Jewish minorities prominent, significant secular majority.
-- **Labor force participation:** 60% (guaranteed employment program maintains near-full employment; some displacement from automation offset by Northeast Works program)
+- **Labor force participation:** 60% (guaranteed employment program maintains near-full employment; some displacement from automation offset by Atlantic Works program)
 - **Primary languages:** English, Spanish, French (Haitian diaspora)
-- **→ See KML: Northeast Corridor**
+- **→ See KML: Atlantica**
 
-**Great Lakes People's Republic (GLPR):**
+**Great Lakes:**
 - **Population:** 30M
 - **Age structure:** Median age 39, dependency ratio 56%
 - **TFR:** 1.6
@@ -134,7 +134,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Ethnic/religious composition:** 60% white, 20% Black, 10% Hispanic, 5% Asian, 5% other. Religious landscape: Protestant and Catholic minorities, significant secular/unchurched population, growing diaspora communities.
 - **Labor force participation:** 63% (employment guarantee for able-bodied adults in manufacturing, infrastructure, or cooperative sectors)
 - **Primary languages:** English, Spanish
-- **→ See KML: Great Lakes People's Republic**
+- **→ See KML: Great Lakes**
 
 **Front Range Socialist Republic (FRSR):**
 - **Population:** 8M
@@ -263,7 +263,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **TFR:** 2.2 (above replacement)
 - **Net migration:** +0.3%/yr (return migration from diaspora; cultural and linguistic revitalization attracts repatriation)
 - **Urbanization:** 50% (Six Nations territory in upstate NY; some dispersed communities across traditional homeland)
-- **Life expectancy:** 78 (strong community health systems integrated with NEC healthcare infrastructure)
+- **Life expectancy:** 78 (strong community health systems integrated with Atlantica healthcare infrastructure)
 - **Ethnic/religious composition:** 85% Haudenosaunee (Mohawk, Seneca, Cayuga, Onondaga, Oneida, Tuscarora), 15% other. Religious landscape: Longhouse religion (Gaiwiio), Christian minority, traditional ceremonial cycles.
 - **Labor force participation:** 52% (renewable energy, agriculture, cultural tourism, education, gaming)
 - **Primary languages:** Mohawk, Seneca, Cayuga, Onondaga, Oneida, Tuscarora, English
@@ -285,9 +285,9 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 
 **North Carolina:**
 - **Population:** 8M (excluding Research Triangle Area revolutionary enclave)
-- **Age structure:** Median age 41 (aging — young adults left for RTP enclave, NEC, or GLPR)
+- **Age structure:** Median age 41 (aging — young adults left for RTP enclave, Atlantica, or Great Lakes)
 - **TFR:** 1.5
-- **Net migration:** -0.5%/yr (brain drain — educated workers lost to RTP, NEC, and GLPR)
+- **Net migration:** -0.5%/yr (brain drain — educated workers lost to RTP, Atlantica, and Great Lakes)
 - **Urbanization:** 60% (Charlotte shrinking, Greensboro/Winston-Salem declining, rural areas hollowing)
 - **Life expectancy:** 76 (degraded healthcare, rural poverty, industrial legacy contamination)
 - **Ethnic/religious composition:** 60% white, 30% Black, 6% Hispanic, 4% other. Religious landscape: Evangelical Protestant dominant.
@@ -296,10 +296,10 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **→ See KML: North Carolina**
 
 **Virginia:**
-- **Population:** 4M (southern VA — NOVA is NEC territory)
-- **Age structure:** Median age 43 (aging — young adults relocated to NEC's NOVA territory)
+- **Population:** 4M (southern VA — NOVA is Atlantica territory)
+- **Age structure:** Median age 43 (aging — young adults relocated to Atlantica's NOVA territory)
 - **TFR:** 1.5
-- **Net migration:** -0.6%/yr (out-migration — population shifted north to NEC during and after the fragmentation)
+- **Net migration:** -0.6%/yr (out-migration — population shifted north to Atlantica during and after the fragmentation)
 - **Urbanization:** 55% (Hampton Roads, Richmond declining; rural southern Virginia hollowing)
 - **Life expectancy:** 76 (military hospital legacy provides some infrastructure; rural areas underserved)
 - **Ethnic/religious composition:** 55% white, 35% Black, 5% Hispanic, 5% other. Religious landscape: Evangelical Protestant dominant, Black Protestant significant.
@@ -311,7 +311,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Population:** 5M
 - **Age structure:** Median age 40
 - **TFR:** 1.6
-- **Net migration:** -0.4%/yr (out-migration — economic irrelevance drives young adults to GLPR and New Afrika)
+- **Net migration:** -0.4%/yr (out-migration — economic irrelevance drives young adults to Great Lakes and New Afrika)
 - **Urbanization:** 62% (Nashville shrinking, Memphis declining, Knoxville stable)
 - **Life expectancy:** 75 (degraded healthcare access, rural poverty, opioid crisis legacy)
 - **Ethnic/religious composition:** 70% white, 20% Black, 5% Hispanic, 5% other. Religious landscape: Evangelical Protestant dominant.
@@ -514,10 +514,10 @@ Briefly — key demographic drivers from the 2026-2049 transition period:
 
 ## Interactions With Other Domains
 
-- **To Borders:** Migration regimes and citizenship policies defined by successor state borders — revolutionary states maintain managed immigration, reactionary states lose population. Population distributions shape territorial claims and entity viability — the Heartland's shrinking population undermines its claim to sovereignty, while the GLPR's population stability reinforces its interior anchor. Indigenous sovereignty recognized within revolutionary state borders but contested in reactionary territories. Climate migration creates cross-border pressures that existing border regimes cannot fully contain. **→ See also: [borders-geopolitics.md](../../2050-snapshot/domains/borders-geopolitics.md)**
-- **To Economy:** Labor force size and age structure determine economic growth potential. Automation partially offsets demographic decline in revolutionary states and advanced economies — humanoid robots and AI substitute for shrinking working-age populations. UBI and guaranteed employment programs (Pacifica, NEC, GLPR, Aztlán, EU Core) are direct policy responses to demographic + automation pressure. Reactionary states face a demographic-economic doom loop — population decline reduces economic activity, which accelerates out-migration, which further reduces population. **→ See also: [economy.md](../../2050-snapshot/domains/economy.md)**
+- **To Borders:** Migration regimes and citizenship policies defined by successor state borders — revolutionary states maintain managed immigration, reactionary states lose population. Population distributions shape territorial claims and entity viability — the Heartland's shrinking population undermines its claim to sovereignty, while the Great Lakes' population stability reinforces its interior anchor. Indigenous sovereignty recognized within revolutionary state borders but contested in reactionary territories. Climate migration creates cross-border pressures that existing border regimes cannot fully contain. **→ See also: [borders-geopolitics.md](../../2050-snapshot/domains/borders-geopolitics.md)**
+- **To Economy:** Labor force size and age structure determine economic growth potential. Automation partially offsets demographic decline in revolutionary states and advanced economies — humanoid robots and AI substitute for shrinking working-age populations. UBI and guaranteed employment programs (Pacifica, Atlantica, Great Lakes, Aztlán, EU Core) are direct policy responses to demographic + automation pressure. Reactionary states face a demographic-economic doom loop — population decline reduces economic activity, which accelerates out-migration, which further reduces population. **→ See also: [economy.md](../../2050-snapshot/domains/economy.md)**
 - **To Climate:** Climate migration is the primary demographic disruptor of the mid-century — 50-80 million cumulative climate migrants globally. Source regions (Sahel, Bangladesh delta, Mekong Delta, Pacific Islands, Amazon basin) experience population loss and structural aging as working-age adults leave. Destination regions (Pacifica, EU Core, East Africa, Australia/NZ) gain population but face integration challenges and infrastructure strain. Mortality from extreme events (heatwaves, floods, fires) becomes a measurable demographic factor — heatwave-related deaths are estimated at 500K+ annually in South Asia, the Middle East, and West Africa. Fertility decisions influenced by climate anxiety and economic precarity in affected regions. **→ See also: [climate.md](../../2050-snapshot/domains/climate.md)**
-- **To Technology:** Healthcare technology affects life expectancy and age structure — longevity breakthroughs could upend demographic projections. Automation substitutes for declining labor supply — humanoid robots in China, the GLPR, and the Pacifica offset working-age population decline. AI-driven economic planning in revolutionary states depends on computational infrastructure that shapes labor demand and migration incentives. Reproductive technology (IVF, artificial wombs) could partially offset fertility decline but has not done so at scale by 2050. **→ See also: [technology.md](../../2050-snapshot/domains/technology.md)**
+- **To Technology:** Healthcare technology affects life expectancy and age structure — longevity breakthroughs could upend demographic projections. Automation substitutes for declining labor supply — humanoid robots in China, the Great Lakes, and the Pacifica offset working-age population decline. AI-driven economic planning in revolutionary states depends on computational infrastructure that shapes labor demand and migration incentives. Reproductive technology (IVF, artificial wombs) could partially offset fertility decline but has not done so at scale by 2050. **→ See also: [technology.md](../../2050-snapshot/domains/technology.md)**
 - **To Culture:** Age structure shapes cultural values and political ideology — aging societies (EU Core, Unified Korea, China) tilt toward conservatism and stability; young societies (EAF, indigenous nations) are more dynamic and open to transformation. Migration creates cultural change in destination regions — revolutionary states' cosmopolitan multiculturalism vs reactionary states' defensive nationalism. Demographic decline in reactionary states and Japan produces a cultural psychology of loss and nostalgia. **→ See also: culture.md**
 
 ## Key Uncertainties

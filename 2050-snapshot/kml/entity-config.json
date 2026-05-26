@@ -164,7 +164,7 @@
         "Deseret",
         "Florida",
         "Front Range Socialist Republic",
-        "Great Lakes People's Republic",
+        "Great Lakes",
         "Greenland",
         "Haudenosaunee Confederacy",
         "Hawaii",
@@ -175,7 +175,7 @@
         "Navajoland",
         "New Afrika",
         "North Carolina",
-        "Northeast Corridor",
+        "Atlantica",
         "Oceti Sakowin",
         "Oklahoma",
         "Pacifica",
@@ -353,16 +353,16 @@
       "section_anchor": "pacifica",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#pacifica"
     },
-    "Northeast Corridor": {
+    "Atlantica": {
       "type": "entity",
       "category": "revolutionary",
       "source": "manual",
-      "manual_path": "source/manual/Northeast Corridor.kml",
+      "manual_path": "source/manual/Atlantica.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "northeast-corridor",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#northeast-corridor"
+      "section_anchor": "atlantica",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#atlantica"
     },
-    "Great Lakes People's Republic": {
+    "Great Lakes": {
       "type": "entity",
       "category": "revolutionary",
       "source": "county",
@@ -405,8 +405,8 @@
         }
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "great-lakes-peoples-republic",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes-peoples-republic"
+      "section_anchor": "great-lakes",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes"
     },
     "Front Range Socialist Republic": {
       "type": "entity",
@@ -421,7 +421,7 @@
       "type": "entity",
       "category": "indigenous",
       "source": "none",
-      "description": "Autonomous indigenous zone within NEC territory. No separate polygon \u2014 represented by a point marker within NEC territory.",
+      "description": "Autonomous indigenous zone within Atlantica territory. No separate polygon \u2014 represented by a point marker within NEC territory.",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "haudenosaunee-confederacy",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#haudenosaunee-confederacy"

@@ -389,10 +389,10 @@
     "kml_line": "ff2e5c7a",
     "width": 1.0
   },
-  "Northeast Corridor": {
-    "hex": "#c67dac",
-    "kml_fill": "80ac7dc6",
-    "kml_line": "ffac7dc6",
+  "Atlantica": {
+    "hex": "#B41450",
+    "kml_fill": "805014b4",
+    "kml_line": "ffb41450",
     "width": 1.0
   },
   "Sequoyah": {
@@ -1163,7 +1163,7 @@
     "kml_line": "ff40aa4f",
     "width": 1.0
   },
-  "Great Lakes People's Republic": {
+  "Great Lakes": {
     "hex": "#6788b6",
     "kml_fill": "80b68867",
     "kml_line": "ffb68867",

@@ -66,9 +66,9 @@ The Antarctic Treaty does not "expire" in 2048. Article XII.2 allows any Consult
 ### Absent / Limited — US Successor States
 - **Post-US active gap:** The US was the ATS's largest funder ($500M+/year NSF Antarctic Program), logistics provider (McMurdo, South Pole Station, C-17 airlift from Christchurch), and diplomatic backing. No successor state inherits this role. The vacuum is **active** — China fills logistics and governance space that the US occupied.
 - **PPR (limited participation):** Most likely successor to maintain Antarctic science. Pacific orientation and environmental ideology align with conservationist goals. Could assume limited McMurdo operations or contribute to science programs. But budget constraints prevent large-scale commitment. PPR participates as a non-claimant science contributor.
-- **NEC (minimal):** Atlantic-facing research interest in Peninsula science. May fund limited academic programs. No logistics capacity.
+- **Atlantica (minimal):** Atlantic-facing research interest in Peninsula science. May fund limited academic programs. No logistics capacity.
 - **Reactionary successors (none):** Gulf Compact, Heartland, Mormon Corridor have no Antarctic capacity or interest.
-- **Key consequence:** Individual US successors may join Antarctic programs in limited, non-claimant capacities (PPR science collaboration, NEC funding instruments, commercial logistics leasing), but none engages at the scale of the former US Antarctic Program. China offers the primary alternative to former US logistics infrastructure by 2049, giving Beijing disproportionate influence over Antarctic governance.
+- **Key consequence:** Individual US successors may join Antarctic programs in limited, non-claimant capacities (PPR science collaboration, Atlantica funding instruments, commercial logistics leasing), but none engages at the scale of the former US Antarctic Program. China offers the primary alternative to former US logistics infrastructure by 2049, giving Beijing disproportionate influence over Antarctic governance.
 
 ## Revolutionary Feedback Loop
 

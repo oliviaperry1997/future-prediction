@@ -55,20 +55,20 @@ The successor state landscape is organized around two key axes:
 - **Breakaway sequence:** ~2030: US naval dictatorship established. ~2032-2033: Popular revolution overthrows it (T-17). 2033: Hawaiian Free State declared. 2034-2035: international recognition begins (early — the Hawaiian precedent is noticed by Pacific powers), PPR alliance treaty.
 - **2050 state:** Independent sovereign nation, population ~1.4M, stable democratic-socialist economy with strong indigenous governance. Major Pacific diplomatic actor.
 
-#### 3. Northeast Corridor (NEC)
+#### 3. Atlantica
 - **Orientation:** Revolutionary (HIGH)
-- **Core territory:** Boston to Washington DC megalopolis — Massachusetts, Rhode Island, Connecticut, New York (downstate/NYC), New Jersey (northern), Pennsylvania (eastern/Philly), Delaware, Maryland, DC, potentially upstate NY (contested)
-- **Boundary questions:** Upstate NY is more conservative — may split to Great Lakes Republic or attempt independence. Western PA (Pittsburgh) likely affiliates with Great Lakes. Northern New England (VT, NH, ME) may affiliate or stay independent.
+- **Core territory:** Boston to Washington DC megalopolis — Massachusetts, Rhode Island, Connecticut, New York (NYC metro, Hudson Valley, Capital District), New Jersey (northern), Pennsylvania (eastern/Philly), Delaware, Maryland, DC, Northern Virginia
+- **Boundary questions:** The NY-Great Lakes border was self-determined, not contested — after NYC flipped and NY state authority collapsed, each region chose its alignment through local referendums. Buffalo and Rochester (with western NY) chose Great Lakes. No ongoing border dispute.
 - **Economic base:** Finance (Wall Street — transformed post-dollar-collapse), education (Ivy League), healthcare/pharma, professional services, technology. Manufacturing: PA ($88B), NY ($74B), NJ ($58B), MA ($53B).
 - **Union density:** Highest in nation — NY 20.6%, CT 16.5%, RI 14.5%, MA 14.6%, NJ 16.2%, PA 11.7%
-- **Indigenous nations:** Iroquois/Haudenosaunee (NY/PA) — historically sovereign, strong treaty claims. Likely autonomous Haudenosaunee Confederacy zone within NEC.
+- **Indigenous nations:** Iroquois/Haudenosaunee (NY/PA) — historically sovereign, strong treaty claims. Autonomous Haudenosaunee Confederacy zone within Atlantica territory.
 - **Energy profile:** Lower renewables than PPR. Offshore wind potential (Atlantic). Nuclear (existing plants). Needs energy imports from Great Lakes or Canada.
 - **Port access:** Major — New York/New Jersey, Boston, Philadelphia, Baltimore.
 - **Vulnerability:** Dollar collapse hits finance sector hard. Economic transition from financialization to productive economy is painful but achievable given strong institutional infrastructure.
-- **Breakaway sequence:** T-10 (~2035, Northeast Corridor Independence Declaration). Accelerated by Pacific precedent — NY and MA lead coordination by ~2034, formal declaration ~2035. Social-democratic economic model adopted by ~2042.
-- **2050 state:** Population ~55M (fragmented — upstate NY/western PA losses partially offset). Social-democratic mixed economy. Strong ties to EU and UK. Some finance sector retained but transformed.
+- **Breakaway sequence:** Phased, not monolithic — New England core formed ~2032-2034; NYC flipped ~2034 (the catalytic event); formal Independence Declaration ~2035 after Hudson Valley/Central NY/NJ followed; western NY chose Great Lakes ~2036-2037; DC/MD/NoVA absorbed after federal rump collapse ~2038-2039; eastern PA (Philly) completed the Corridor. Social-democratic constitution adopted by ~2042, Atlantic Dollar (ATD) introduced.
+- **2050 state:** Population ~55M. Social-democratic mixed economy. Strong ties to EU and UK. Finance sector retained but transformed under the Atlantic Financial Stability Act. Atlantic Works guaranteed employment program maintains near-full employment.
 
-#### 4. Great Lakes People's Republic (GLPR)
+#### 4. Great Lakes
 - **Orientation:** Revolutionary (HIGH)
 - **Core territory:** Michigan, Ohio, Indiana, Illinois, Wisconsin, Minnesota, western Pennsylvania, potentially upstate New York
 - **Boundary questions:** Urban/rural divide is the internal risk. Detroit, Chicago, Cleveland, Minneapolis, Milwaukee are revolutionary anchor cities. Rural areas may resist but are economically bound to the manufacturing belt.
@@ -77,7 +77,7 @@ The successor state landscape is organized around two key axes:
 - **Indigenous nations:** Ojibwe/Chippewa (Great Lakes region, strong treaty rights, established tribal governance). Potawatomi, Ottawa, Ho-Chunk. Great Lakes are central to indigenous identity and economy.
 - **Energy profile:** Moderate renewables — wind (Great Lakes offshore, Plains), solar. Lake Erie/Natural gas (Marcellus/Utica shale). Geothermal potential (EGS). Needs energy transition but has industrial base to build it.
 - **Port access:** Great Lakes shipping (via St Lawrence Seaway — vulnerable but operable). Duluth/Superior, Chicago, Detroit, Cleveland, Buffalo.
-- **Key strength:** The manufacturing base is the most important strategic asset in the former US. GLPR can rebuild production capacity that reactionary states cannot.
+- **Key strength:** The manufacturing base is the most important strategic asset in the former US. Great Lakes can rebuild production capacity that reactionary states cannot.
 - **Breakaway sequence:** No single T-ID — gradual consolidation 2036-2039 as autonomous regions coordinate industrial policy out of necessity following the Pacific and Northeast precedents, then formal federation by ~2040. The manufacturing belt organizes faster than other regions because its industrial infrastructure requires coordinated management.
 - **2050 state:** Population ~50M, manufacturing-driven economy. Reindustrialization through public ownership of strategic industries. Worker cooperatives in smaller enterprises. Anchor of the revolutionary bloc in the interior.
 
@@ -90,9 +90,9 @@ The successor state landscape is organized around two key axes:
 - **Indigenous nations:** Within claimed territory: Southern Ute, Ute Mountain Ute. Adjacent: Navajo Nation (southwest CO/NM/AZ). Front Range ideology likely accommodates Landback.
 - **Energy profile:** Strong — wind (Eastern Plains), solar (entire region), geothermal (Western slope). Colorado is 39% renewable in electricity generation. Energy costs below national average.
 - **Water:** Critical constraint — Colorado River headwaters, South Platte River. Population growth limited by water availability. Conflict with downstream reactionary states over water rights.
-- **Strategic vulnerability:** Landlocked and surrounded by reactionary territory. Under "fire" from multiple sides. Defense is a major budget item. Relies on PPR and GLPR for trade access.
-- **Breakaway sequence:** ~2037-2039: As federal collapse accelerates and PPR/NEC precedents are set, Front Range coordinates independently. By ~2040 declares itself a revolutionary republic.
-- **2050 state:** Population ~5M. Viable but strained — high defense spending, water constraints, landlocked logistics. Strong tech/green energy economy. Allies with PPR and GLPR via air/trade corridors.
+- **Strategic vulnerability:** Landlocked and surrounded by reactionary territory. Under "fire" from multiple sides. Defense is a major budget item. Relies on PPR and Great Lakes for trade access.
+- **Breakaway sequence:** ~2037-2039: As federal collapse accelerates and PPR/Atlantica precedents are set, Front Range coordinates independently. By ~2040 declares itself a revolutionary republic.
+- **2050 state:** Population ~5M. Viable but strained — high defense spending, water constraints, landlocked logistics. Strong tech/green energy economy. Allies with PPR and Great Lakes via air/trade corridors.
 
 #### 6. Aztlán (formerly CSR)
 - **Orientation:** Revolutionary (starts reactionary, tips by ~2042) (MEDIUM)
@@ -120,7 +120,7 @@ The successor state landscape is organized around two key axes:
 - **Energy profile:** Offshore wind (Gulf, Atlantic), solar, some remaining oil/gas. Stranded fossil fuel assets from the CSA era are being repurposed.
 - **Port access:** Major — New Orleans, Mobile, Savannah, Charleston, Jacksonville. Mississippi River shipping access.
 - **Transition arc:** Ex-CSA territory. Briefly part of the revived CSA (~2036-2044). Internal Black-led revolution ~2044-2046 (T-21) overthrows the CSA. Jackson falls to revolutionary forces first; Atlanta, New Orleans, Birmingham follow. Declared as the Republic of New Afrika (~2046).
-- **2050 state:** Black-led revolutionary socialist republic rebuilding from the brutal CSA period. Emerging as the revolutionary anchor of the Southeast. Strong ties to GLPR and NEC. Economy stabilizing after revolutionary consolidation.
+- **2050 state:** Black-led revolutionary socialist republic rebuilding from the brutal CSA period. Emerging as the revolutionary anchor of the Southeast. Strong ties to Great Lakes and Atlantica. Economy stabilizing after revolutionary consolidation.
 
 ### Indigenous Sovereign Nations (5 entities)
 
@@ -181,7 +181,7 @@ The successor state landscape is organized around two key axes:
 - **Orientation:** Indigenous revolutionary (MEDIUM — contingent on internal cohesion)
 - **Core territory:** Existing reservations in NY (Seneca, Tuscarora, Onondaga, Mohawk, Cayuga, Oneida) + Six Nations territory in Ontario (Canada). Potential expansion to traditional homeland claims (NY, PA, OH).
 - **Notable:** The Haudenosaunee already operate as a de facto sovereign confederacy with their own passports, courts, and diplomatic relationships (oldest living democracy in North America — founded ~1142 CE). They have UN recognition and relationships with other indigenous nations globally.
-- **Breakaway:** NY is within NEC territory. Haudenosaunee likely negotiate autonomous status within the Northeast Corridor rather than full independence. NEC's revolutionary ideology accommodates this.
+- **Breakaway:** NY is within Atlantica territory. Haudenosaunee likely negotiate autonomous status within Atlantica rather than full independence. Atlantica's revolutionary ideology accommodates this.
 
 ### Reactionary States (9 entities)
 
@@ -205,7 +205,7 @@ The successor state landscape is organized around two key axes:
 - **Economic base:** Agriculture (tobacco, soybeans, hogs), furniture, textiles — all in decline. Charlotte's finance sector collapsed with the dollar. RTP's tech and pharma industries are lost to the enclave.
 - **Union density:** ~2% (lowest in former US)
 - **Indigenous nations:** Lumbee, Eastern Band of Cherokee — territorial claims contested
-- **Revolutionary enclave:** The Research Triangle Area exists as a besieged revolutionary city-state, tenuously linked to New Afrika and the NEC. RTP's independence is a constant political humiliation.
+- **Revolutionary enclave:** The Research Triangle Area exists as a besieged revolutionary city-state, tenuously linked to New Afrika and Atlantica. RTP's independence is a constant political humiliation.
 - **Transition arc:** CSA member ~2036-2044. RTP declared independence during the New Afrika revolution and the state never regained control.
 - **2050 state:** Hollowed reactionary rump defined by what it lost — RTP, economic relevance, and any coherent identity.
 
@@ -213,9 +213,9 @@ The successor state landscape is organized around two key axes:
 - **Orientation:** Reactionary, degrading (LOW confidence — very small)
 - **Core territory:** Virginia minus the ~15 western-most counties (Lee through Highland) that broke away to Appalachia, plus the WV eastern panhandle (Berkeley, Jefferson, Morgan).
 - **Population:** ~5M
-- **Economic base:** Agriculture, residual military infrastructure (Hampton Roads — Norfolk Naval Base legacy), declining without federal funding. No NOVA (lost to NEC) and no western mountain counties.
-- **Transition arc:** Split between NEC (northern VA) and CSA (southern VA) during the initial fragmentation. Joined the CSA ~2036-2044, then collapsed into a weak reactionary remnant after the New Afrika revolution. The eastern panhandle of WV was absorbed during the chaos, providing a land link to NEC Maryland.
-- **2050 state:** A reactionary rump defined by what it lost — NOVA to NEC, western counties to Appalachia, and any institutional capacity. The WV eastern panhandle addition provides negligible benefit.
+- **Economic base:** Agriculture, residual military infrastructure (Hampton Roads — Norfolk Naval Base legacy), declining without federal funding. No NOVA (lost to Atlantica) and no western mountain counties.
+- **Transition arc:** Split between Atlantica (northern VA) and CSA (southern VA) during the initial fragmentation. Joined the CSA ~2036-2044, then collapsed into a weak reactionary remnant after the New Afrika revolution. The eastern panhandle of WV was absorbed during the chaos, providing a land link to Atlantica Maryland.
+- **2050 state:** A reactionary rump defined by what it lost — NOVA to Atlantica, western counties to Appalachia, and any institutional capacity. The WV eastern panhandle addition provides negligible benefit.
 
 #### 16. Tennessee
 - **Orientation:** Reactionary, degrading (MEDIUM)
@@ -257,10 +257,10 @@ The successor state landscape is organized around two key axes:
 - **Union density:** Low — IA 6.4%, NE 6.8%, KS 6.3%, MO 8.6%
 - **Energy profile:** Excellent wind (Great Plains — best in US), good solar, some oil/gas (KS, OK). Can be an energy exporter if transmission infrastructure built.
 - **Water:** Ogallala Aquifer depletion is a slow-moving crisis — some areas will run out of irrigation water within decades.
-- **Strategic vulnerability:** Export-dependent agriculture + no ports = hostage to whoever controls the Mississippi River and rail corridors. GLPR controls Great Lakes shipping; New Afrika controls eastern Gulf ports.
+- **Strategic vulnerability:** Export-dependent agriculture + no ports = hostage to whoever controls the Mississippi River and rail corridors. Great Lakes controls Great Lakes shipping; New Afrika controls eastern Gulf ports.
 - **Indigenous nations:** Dakota/Lakota treaty lands (ND, SD, NE) — sovereignty declaration (see #8) would carve the heart out of this region.
-- **Fragmentation sequence:** Dakota sovereignty (T-18, ~2036-2037) separates the Dakotas. Remaining territory (IA, NE, KS, MO) attempts reactionary governance but is economically hollow. GLPR may absorb eastern parts (IA, northern MO) by ~2038-2040.
-- **2050 state:** A shrinking reactionary rump (NE/KS) surrounded by revolutionary states (GLPR to east, Dakota to north) — economically dependent and politically unstable.
+- **Fragmentation sequence:** Dakota sovereignty (T-18, ~2036-2037) separates the Dakotas. Remaining territory (IA, NE, KS, MO) attempts reactionary governance but is economically hollow. Great Lakes may absorb eastern parts (IA, northern MO) by ~2038-2040.
+- **2050 state:** A shrinking reactionary rump (NE/KS) surrounded by revolutionary states (Great Lakes to east, Dakota to north) — economically dependent and politically unstable.
 
 #### 21. Mormon Corridor (Deseret)
 - **Orientation:** Reactionary, culturally unified, severely degraded (MEDIUM)
@@ -304,9 +304,9 @@ The successor state landscape is organized around two key axes:
 - **Capital:** Pittsburgh
 - **Population:** ~5M
 - **Economic base:** Legacy industrial infrastructure (steel, manufacturing, robotics, AI), Marcellus/Utica shale gas, healthcare (UPMC), higher education (University of Pittsburgh, CMU). Pittsburgh's robotics and AI sectors are significant.
-- **Political character:** Revolutionary breakaway from the US remnant government (~2038-2040). Pittsburgh's strong labor history, multiracial working-class coalition, and post-industrial innovation economy create a distinct revolutionary identity — neither NEC nor GLPR, but allied with both.
-- **Transition arc:** Remained under US remnant control after NEC and GLPR declared independence (~2036-2039). The remnant proved unable to maintain governance; Pittsburgh-area labor unions and municipal governments coordinated a People's Assembly by ~2039, declaring independence as Alleghenia ~2040. The WV northern panhandle (Pittsburgh's southern suburbs) joined naturally.
-- **2050 state:** Small but strategically positioned revolutionary republic controlling critical infrastructure (Marcellus/Utica gas, Pittsburgh manufacturing) and key river corridors (Ohio River, Allegheny, Monongahela). Allied with both GLPR and NEC. Bridges the two larger revolutionary states geographically and economically.
+- **Political character:** Revolutionary breakaway from the US remnant government (~2038-2040). Pittsburgh's strong labor history, multiracial working-class coalition, and post-industrial innovation economy create a distinct revolutionary identity — neither Atlantica nor Great Lakes, but allied with both.
+- **Transition arc:** Remained under US remnant control after Atlantica and Great Lakes declared independence (~2036-2039). The remnant proved unable to maintain governance; Pittsburgh-area labor unions and municipal governments coordinated a People's Assembly by ~2039, declaring independence as Alleghenia ~2040. The WV northern panhandle (Pittsburgh's southern suburbs) joined naturally.
+- **2050 state:** Small but strategically positioned revolutionary republic controlling critical infrastructure (Marcellus/Utica gas, Pittsburgh manufacturing) and key river corridors (Ohio River, Allegheny, Monongahela). Allied with both Great Lakes and Atlantica. Bridges the two larger revolutionary states geographically and economically.
 
 #### 25. Appalachia
 - **Orientation:** Revolutionary
@@ -315,8 +315,8 @@ The successor state landscape is organized around two key axes:
 - **Population:** ~2M
 - **Economic base:** Coal (declining), timber, natural gas (Marcellus/Utica), small-scale manufacturing, growing renewable energy (wind, solar in mountain ridges). Limited but defensible.
 - **Political character:** Explicitly anti-CSA — West Virginia was never Confederate (born from the anti-secessionist Restored Government of Virginia). Eastern Kentucky had divided loyalties. The dormant UMW organizing tradition was powerfully reactivated during the CSA period. Appalachia subsumes the former state identity of West Virginia; the state as a political unit no longer exists.
-- **Transition arc:** Part of the revived CSA ~2036-2044. Appalachia was the first region in the South to revolt against CSA rule, using mountainous terrain and dormant labor-organizing infrastructure (UMW). By ~2044, it had expelled CSA forces and declared itself a revolutionary zone allied with the GLPR. The WV identity was absorbed during this process; the state government of WV dissolved by ~2041, and its territory was partitioned between Appalachia, Virginia, and Alleghenia.
-- **2050 state:** Small but tenacious revolutionary corridor allied with the GLPR, Alleghenia, and New Afrika. Contested, mountainous terrain makes it highly defensible. Not self-sufficient in food or energy but strategically positioned astride the Appalachian spine.
+- **Transition arc:** Part of the revived CSA ~2036-2044. Appalachia was the first region in the South to revolt against CSA rule, using mountainous terrain and dormant labor-organizing infrastructure (UMW). By ~2044, it had expelled CSA forces and declared itself a revolutionary zone allied with the Great Lakes. The WV identity was absorbed during this process; the state government of WV dissolved by ~2041, and its territory was partitioned between Appalachia, Virginia, and Alleghenia.
+- **2050 state:** Small but tenacious revolutionary corridor allied with the Great Lakes, Alleghenia, and New Afrika. Contested, mountainous terrain makes it highly defensible. Not self-sufficient in food or energy but strategically positioned astride the Appalachian spine.
 
 ## Summary Table
 
@@ -324,8 +324,8 @@ The successor state landscape is organized around two key axes:
 |--|--------|------------|--------------------|------------------|--------------|------------|
 | 1 | Pacific People's Republic | Revolutionary | Tech, green energy, manufacturing, entertainment | ~55M | late 2033-2043 | Most stable successor |
 | 2 | Hawaiian Free State | Revolutionary/Indigenous | Tourism conversion, renewables, Pacific hub | ~1.4M | 2032-2034 | Sovereign, PPR-allied |
-| 3 | Northeast Corridor | Revolutionary | Finance, education, pharma, manufacturing | ~55M | 2035-2042 | Social-democratic mixed economy |
-| 4 | Great Lakes People's Republic | Revolutionary | Manufacturing ($440B+), agriculture, shipping | ~50M | 2036-2040 | Reindustrializing anchor |
+| 3 | Atlantica | Revolutionary | Finance, education, pharma, manufacturing | ~55M | 2035-2042 | Social-democratic mixed economy |
+| 4 | Great Lakes | Revolutionary | Manufacturing ($440B+), agriculture, shipping | ~50M | 2036-2040 | Reindustrializing anchor |
 | 5 | Front Range Socialist Republic | Revolutionary island | Tech, aerospace, green energy | ~5M | 2037-2040 | Viable but strained |
 | 6 | Aztlán | Revolutionary (late) | Semiconductors, solar, mining | ~12M | ~2039-2040 | Renewable superpower, water-constrained |
 | 7 | New Afrika | Revolutionary | Gulf shipping, manufacturing, agriculture | ~23M | ~2044-2046 | Black-led socialist republic rebuilding from CSA |
@@ -334,7 +334,7 @@ The successor state landscape is organized around two key axes:
 | 10 | Sequoyan Nation | Indigenous revolutionary | Gaming, manufacturing, services | ~470K | ~2038-2040 | Sovereign, strong economy |
 | 11 | Tlingit Aaní | Indigenous revolutionary | Fishing, hydro, timber | ~75K | ~2037-2040 | Independent, PPR-allied |
 | 12 | Other AK Indigenous | Indigenous sovereign | Various (oil, fishing, mining) | ~100K | ~2039-2048 | Mosaic of territories |
-| 13 | Haudenosaunee Confederacy | Indigenous revolutionary | Gaming, agriculture, governance | ~50K+ | ~2036-2040 | Autonomous within NEC |
+| 13 | Haudenosaunee Confederacy | Indigenous revolutionary | Gaming, agriculture, governance | ~50K+ | ~2036-2040 | Autonomous within Atlantica |
 | 14 | Florida | Reactionary/degrading | Tourism, agriculture, military legacy | ~12M | ~2036-2044 | Degraded rump, Miami semi-independent |
 | 15 | North Carolina | Reactionary/degrading | Agriculture, textiles, manufacturing | ~8M | ~2036-2044 | Hollowed, lost RTP enclave |
 | 16 | Virginia | Reactionary/degrading | Agriculture, military infrastructure | ~5M | ~2036-2044 | Rump, lost NOVA + western counties to Appalachia |
@@ -346,7 +346,7 @@ The successor state landscape is organized around two key axes:
 | 22 | Mormon Corridor | Reactionary/degrading | Tech, mining, agriculture | ~6M | ~2036-2045 | Culturally intact, economically hollow |
 | 23 | Mountain Tapestry | Reactionary/fragmenting | Extraction, tourism, energy | ~5M | ~2036-2045 | Mostly absorbed or dissolved |
 | 24 | Alaska | Reactionary/degrading | Oil, Permanent Fund, military | ~450K | ~2038-2048 | Shrunken, impoverished |
-| 24 | Alleghenia | Revolutionary | Manufacturing, robotics, shale gas, healthcare | ~5M | ~2039-2040 | Pittsburgh-anchored bridge between NEC and GLPR |
+| 24 | Alleghenia | Revolutionary | Manufacturing, robotics, shale gas, healthcare | ~5M | ~2039-2040 | Pittsburgh-anchored bridge between Atlantica and Great Lakes |
 | 25 | Appalachia | Revolutionary | Coal, timber, natural gas, renewables | ~2M | ~2044 | Anti-CSA corridor, absorbed WV identity |
 
 ## Key Dynamics

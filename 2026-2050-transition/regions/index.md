@@ -39,7 +39,7 @@ Each regional document includes a **Links to US Successor State System** section
 - **Dollar decline (T-06, T-12):** Every region's financial system, trade relationships, and reserve holdings are affected
 - **BRICS+ reconfiguration (T-12):** Provides an alternative institutional framework that regions join at different speeds
 - **Climate acceleration (T-04, T-09, T-15):** Primary forcing function for migration, resource competition, and agricultural disruption in every region
-- **US successor state foreign policy:** Revolutionary states (PPR, NEC, GLPR, CSR) pursue active diplomatic and trade relationships globally; reactionary states are largely irrelevant internationally
+- **US successor state foreign policy:** Revolutionary states (PPR, Atlantica, Great Lakes, CSR) pursue active diplomatic and trade relationships globally; reactionary states are largely irrelevant internationally
 - **Technology disruption (T-05):** AI governance and automation affect labor markets and information ecosystems globally
 
 ---
