@@ -151,45 +151,41 @@
         "Mexico"
       ],
       "Northern America (wip)": [
+        "Absaroka",
         "Alaska",
-        "Appalachian Zone",
+        "Alleghenia",
+        "Appalachia",
         "Arkansas",
-        "Atlanta Metro",
-        "Atlantic South",
         "Bermuda",
         "Canada",
         "Colorado",
         "Columbia",
-        "Absaroka",
         "Dena'ina Nenn'",
-        "Eastern Kentucky Revolutionary",
+        "Deseret",
+        "Florida",
         "Front Range Socialist Republic",
-        "Georgia Rural",
         "Great Lakes People's Republic",
         "Greenland",
-        "Texas",
-        "Gulf Compact",
         "Haudenosaunee Confederacy",
         "Hawaii",
         "Heartland",
-        "Interior Florida",
-        "Iñupiat Nunaat",
-        "Kentucky Rump",
+        "I\u00f1upiat Nunaat",
+        "Kentucky",
         "Montana-Wyoming",
-        "Deseret",
         "Navajoland",
+        "New Afrika",
+        "North Carolina",
         "Northeast Corridor",
         "Oceti Sakowin",
         "Oklahoma",
         "Pacifica",
-        "Research Triangle Area",
+        "Neuse",
         "Sequoyah",
-        "South Carolina Rural",
-        "Southern Virginia",
-        "Southern West Virginia Revolutionary",
         "St. Pierre and Miquelon",
-        "Tennessee Rump",
-        "Tlingit Aaní",
+        "Tennessee",
+        "Texas",
+        "Tlingit Aan\u00ed",
+        "Virginia",
         "Yup'it-Alutiiq Confederacy"
       ],
       "South America (wip)": [
@@ -360,61 +356,8 @@
     "Northeast Corridor": {
       "type": "entity",
       "category": "revolutionary",
-      "source": "county",
-      "counties": [
-        {
-          "state": "MA",
-          "county": ".*"
-        },
-        {
-          "state": "RI",
-          "county": ".*"
-        },
-        {
-          "state": "CT",
-          "county": ".*"
-        },
-        {
-          "state": "NY",
-          "county": ".*"
-        },
-        {
-          "state": "NJ",
-          "county": ".*"
-        },
-        {
-          "state": "DE",
-          "county": ".*"
-        },
-        {
-          "state": "MD",
-          "county": ".*"
-        },
-        {
-          "state": "DC",
-          "county": ".*"
-        },
-        {
-          "state": "NH",
-          "county": ".*"
-        },
-        {
-          "state": "VT",
-          "county": ".*"
-        },
-        {
-          "state": "ME",
-          "county": ".*"
-        },
-        {
-          "state": "PA",
-          "county": "^(?!Erie|Crawford|Mercer|Lawrence|Beaver|Washington|Greene|Fayette|Westmoreland|Indiana|Jefferson|Clearfield|Elk|McKean|Potter|Tioga|Bradford|Susquehanna|Wayne|Pike).*"
-        },
-        {
-          "state": "VA",
-          "county": "^(Arlington|Fairfax|Loudoun|Prince William|Stafford|Spotsylvania|Fredericksburg|Alexandria|Falls Church|Manassas).*"
-        }
-      ],
+      "source": "manual",
+      "manual_path": "source/manual/Northeast Corridor.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "northeast-corridor",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#northeast-corridor"
@@ -450,7 +393,7 @@
         },
         {
           "state": "PA",
-          "county": "^(Erie|Crawford|Mercer|Lawrence|Beaver|Washington|Greene|Fayette|Westmoreland|Indiana|Jefferson|Clearfield|Elk|McKean|Potter|Tioga|Bradford|Susquehanna|Wayne|Pike).*"
+          "county": "^(Beaver|Lawrence|Mercer|Crawford|Erie).*"
         },
         {
           "state": "IA",
@@ -483,122 +426,11 @@
       "section_anchor": "haudenosaunee-confederacy",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#haudenosaunee-confederacy"
     },
-    "Gulf Compact": {
-      "type": "entity",
-      "category": "reactionary",
-      "source": "county",
-      "counties": [
-        {
-          "state": "LA",
-          "county": ".*"
-        },
-        {
-          "state": "MS",
-          "county": ".*"
-        },
-        {
-          "state": "AL",
-          "county": ".*"
-        },
-        {
-          "state": "FL",
-          "county": "^(Escambia|Santa Rosa|Okaloosa|Walton|Holmes|Washington|Bay|Jackson|Calhoun|Gulf|Franklin|Gadsden|Liberty|Wakulla|Leon|Jefferson|Madison|Taylor|Lafayette|Suwannee|Hamilton|Columbia|Baker|Union|Bradford|Clay|Duval|Nassau).*"
-        }
-      ],
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "gulf-compact",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#gulf-compact"
-    },
-    "Atlantic South": {
-      "type": "entity",
-      "category": "fragmented",
-      "source": "county",
-      "fragmented": true,
-      "sub_polygons": [
-        "Research Triangle Area",
-        "Atlanta Metro",
-        "South Carolina Rural",
-        "Georgia Rural",
-        "Southern Virginia",
-        "Interior Florida"
-      ],
-      "counties": [
-        {
-          "state": "SC",
-          "county": ".*"
-        },
-        {
-          "state": "GA",
-          "county": ".*"
-        },
-        {
-          "state": "VA",
-          "county": "^(?!Arlington|Fairfax|Loudoun|Prince William|Stafford|Spotsylvania|Fredericksburg|Alexandria|Falls Church|Manassas).*"
-        },
-        {
-          "state": "FL",
-          "county": "^(Miami-Dade|Broward|Palm Beach|Orange|Seminole|Osceola|Lake|Volusia|Flagler|St. Johns|Putnam|Alachua|Marion|Citrus|Hernando|Pasco|Hillsborough|Pinellas|Manatee|Sarasota|Charlotte|Lee|Collier|Monroe).*"
-        },
-        {
-          "state": "NC",
-          "county": ".*"
-        }
-      ],
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "atlantic-south",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#atlantic-south"
-    },
-    "Appalachian Zone": {
-      "type": "entity",
-      "category": "fragmented",
-      "source": "county",
-      "fragmented": true,
-      "sub_polygons": [
-        "Southern West Virginia Revolutionary",
-        "Eastern Kentucky Revolutionary",
-        "Tennessee Rump",
-        "Kentucky Rump"
-      ],
-      "counties": [
-        {
-          "state": "WV",
-          "county": ".*"
-        },
-        {
-          "state": "KY",
-          "county": ".*"
-        },
-        {
-          "state": "TN",
-          "county": ".*"
-        },
-        {
-          "state": "VA",
-          "county": "^(Buchanan|Wise|Dickenson|Lee|Scott|Washington|Russell|Tazewell|Smyth|Wythe|Bland|Carroll|Grayson|Galax|Bristol|Norton).*"
-        }
-      ],
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "appalachian-zone",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#appalachian-zone"
-    },
     "Heartland": {
       "type": "entity",
       "category": "reactionary",
-      "source": "county",
-      "counties": [
-        {
-          "state": "NE",
-          "county": "^(?!Thurston|Dakota|Dixon|Cedar|Wayne).*"
-        },
-        {
-          "state": "KS",
-          "county": ".*"
-        },
-        {
-          "state": "CO",
-          "county": "^(Morgan|Washington|Yuma|Kit Carson|Cheyenne|Kiowa|Prowers|Baca|Bent|Otero|Crowley|Lincoln|Sedgwick|Phillips|Logan).*"
-        }
-      ],
+      "source": "manual",
+      "manual_path": "source/manual/Heartland.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "heartland",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#heartland"
@@ -606,13 +438,8 @@
     "Arkansas": {
       "type": "entity",
       "category": "reactionary",
-      "source": "county",
-      "counties": [
-        {
-          "state": "AR",
-          "county": ".*"
-        }
-      ],
+      "source": "manual",
+      "manual_path": "source/manual/Arkansas.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "arkansas",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#arkansas"
@@ -681,16 +508,16 @@
       "section_anchor": "alaska",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#alaska"
     },
-    "Tlingit Aaní": {
+    "Tlingit Aan\u00ed": {
       "type": "entity",
       "category": "indigenous",
       "source": "manual",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "tlingit-aani",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#tlingit-aani",
-      "manual_path": "source/manual/Tlingit Aaní.kml"
+      "manual_path": "source/manual/Tlingit Aan\u00ed.kml"
     },
-    "Iñupiat Nunaat": {
+    "I\u00f1upiat Nunaat": {
       "type": "entity",
       "category": "indigenous",
       "source": "county",
@@ -2145,13 +1972,8 @@
     "Oklahoma": {
       "type": "entity",
       "category": "reactionary",
-      "source": "county",
-      "counties": [
-        {
-          "state": "OK",
-          "county": "^(Alfalfa|Beaver|Beckham|Blaine|Caddo|Canadian|Cimarron|Cleveland|Comanche|Cotton|Custer|Dewey|Ellis|Garfield|Grant|Greer|Harmon|Harper|Jackson|Kay|Kingfisher|Kiowa|Lincoln|Logan|Major|Noble|Oklahoma|Osage|Pawnee|Payne|Pottawatomie|Roger Mills|Texas|Tillman|Washita|Woods|Woodward).*"
-        }
-      ],
+      "source": "manual",
+      "manual_path": "source/manual/Oklahoma.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "oklahoma",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#oklahoma"
@@ -2539,30 +2361,112 @@
       "section_anchor": "texas",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#texas",
       "manual_path": "source/manual/Texas.kml"
-    }
-  },
-  "fragmented_entities": {
-    "Atlantic South": {
-      "sub_polygons": [
-        "Research Triangle Area",
-        "Atlanta Metro",
-        "South Carolina Rural",
-        "Georgia Rural",
-        "Southern Virginia",
-        "Interior Florida"
-      ],
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#atlantic-south"
     },
-    "Appalachian Zone": {
-      "sub_polygons": [
-        "Southern West Virginia Revolutionary",
-        "Eastern Kentucky Revolutionary",
-        "Tennessee Rump",
-        "Kentucky Rump"
+    "New Afrika": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "manual",
+      "manual_path": "source/manual/New Afrika.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "new-afrika",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#new-afrika"
+    },
+    "Florida": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "county",
+      "counties": [
+        {
+          "state": "FL",
+          "county": "^(?!Escambia|Santa Rosa|Okaloosa|Walton|Holmes|Washington|Bay|Jackson|Calhoun|Gulf|Franklin|Gadsden|Liberty|Wakulla|Leon|Jefferson|Madison|Taylor|Lafayette|Suwannee|Hamilton|Columbia|Baker|Union|Bradford|Clay|Duval|Nassau).*"
+        }
       ],
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#appalachian-zone"
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "florida",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#florida"
+    },
+    "North Carolina": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "county",
+      "counties": [
+        {
+          "state": "NC",
+          "county": "^(?!Wake|Durham|Orange|Chatham).*"
+        }
+      ],
+      "preserve_holes": true,
+      "min_hole_area": 0.001,
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "north-carolina",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#north-carolina"
+    },
+    "Neuse": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "county",
+      "counties": [
+        {
+          "state": "NC",
+          "county": "^(Wake|Durham|Orange|Chatham).*"
+        }
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "neuse",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#neuse"
+    },
+    "Virginia": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "county",
+      "counties": [
+        {
+          "state": "VA",
+          "county": "^(?!Lee\\b|Scott\\b|Wise\\b|Dickenson\\b|Buchanan\\b|Tazewell\\b|Russell\\b|Washington\\b|Smyth\\b|Wythe\\b|Bland\\b|Giles\\b|Pulaski\\b|Craig\\b|Alleghany\\b|Bath\\b|Highland\\b|Montgomery\\b|Radford\\b|Roanoke\\b|Salem\\b|Covington\\b|Bristol\\b|Norton\\b|Botetourt\\b|Rockbridge\\b|Augusta\\b|Rockingham\\b|Shenandoah\\b|Page\\b|Warren\\b|Clarke\\b|Frederick\\b|Fredericksburg\\b|Buena Vista\\b|Lexington\\b|Waynesboro\\b|Staunton\\b|Harrisonburg\\b|Winchester\\b).*"
+        }
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "virginia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#virginia"
+    },
+    "Tennessee": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "manual",
+      "manual_path": "source/manual/Tennessee.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "tennessee",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#tennessee"
+    },
+    "Kentucky": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "manual",
+      "manual_path": "source/manual/Kentucky.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "kentucky",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#kentucky"
+    },
+    "Alleghenia": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "manual",
+      "manual_path": "source/manual/Alleghenia.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "alleghenia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#alleghenia"
+    },
+    "Appalachia": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "manual",
+      "manual_path": "source/manual/Appalachia.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "appalachia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#appalachia"
     }
   },
+  "fragmented_entities": {},
   "domain_overlays": {
     "climate": [
       {
@@ -2983,18 +2887,6 @@
         ]
       },
       {
-        "name": "Atlantic South",
-        "type": "entity_copy",
-        "source_entity": "Atlantic South",
-        "description": "See: 2050-snapshot/domains/economy.md#atlantic-south"
-      },
-      {
-        "name": "Appalachian Zone",
-        "type": "entity_copy",
-        "source_entity": "Appalachian Zone",
-        "description": "See: 2050-snapshot/domains/economy.md#appalachian-zone"
-      },
-      {
         "name": "European Core Federation",
         "type": "entity_copy",
         "source_entity": "European Core Federation",
@@ -3009,18 +2901,6 @@
         "description": "See: 2050-snapshot/domains/demographics.md#pacific-peoples-republic"
       },
       {
-        "name": "Atlantic South",
-        "type": "entity_copy",
-        "source_entity": "Atlantic South",
-        "description": "See: 2050-snapshot/domains/demographics.md#atlantic-south"
-      },
-      {
-        "name": "Appalachian Zone",
-        "type": "entity_copy",
-        "source_entity": "Appalachian Zone",
-        "description": "See: 2050-snapshot/domains/demographics.md#appalachian-zone"
-      },
-      {
         "name": "European Core Federation",
         "type": "entity_copy",
         "source_entity": "European Core Federation",
@@ -3033,18 +2913,6 @@
         "type": "entity_copy",
         "source_entity": "Pacifica",
         "description": "See: 2050-snapshot/domains/culture.md#pacific-peoples-republic"
-      },
-      {
-        "name": "Atlantic South",
-        "type": "entity_copy",
-        "source_entity": "Atlantic South",
-        "description": "See: 2050-snapshot/domains/culture.md#atlantic-south"
-      },
-      {
-        "name": "Appalachian Zone",
-        "type": "entity_copy",
-        "source_entity": "Appalachian Zone",
-        "description": "See: 2050-snapshot/domains/culture.md#appalachian-zone"
       },
       {
         "name": "European Core Federation",
@@ -3065,9 +2933,9 @@
         "description": "See: 2050-snapshot/domains/culture.md#sequoyan-nation"
       },
       {
-        "name": "Tlingit Aaní",
+        "name": "Tlingit Aan\u00ed",
         "type": "entity_copy",
-        "source_entity": "Tlingit Aaní",
+        "source_entity": "Tlingit Aan\u00ed",
         "description": "See: 2050-snapshot/domains/culture.md#tlingit-aani"
       }
     ]

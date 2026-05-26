@@ -29,7 +29,7 @@ The borders/geopolitics domain's central arc is the fragmentation of US federal 
 
 - **(T-10) ~2035 — Northeast Corridor Independence Declaration** (MEDIUM): The second major fragmentation event, accelerated by the Pacific precedent. New York through Maine declare joint sovereignty, and the paralyzed federal government lacks the capacity to respond. The demonstration effect of Pacific autonomy makes the Northeast secession thinkable and executable within two years.
 
-- **(T-11) ~2036 — Gulf Compact Formation** (MEDIUM): Energy-centric successor polity forms around Texas and Gulf states, controlling critical oil and gas infrastructure. The Compact accelerates its formation in response to the Pacific and Northeast precedents — energy states recognize that organizing quickly gives them negotiating leverage. The Compact prioritizes energy revenue retention and autonomous trade policy.
+- **(T-11) ~2036 — CSA (Confederate States) Revival** (MEDIUM): The intensely reactionary former Confederate states revive the Confederacy as an energy-centric regional bloc controlling critical oil and gas infrastructure across the Gulf South. The CSA accelerates its formation in response to the Pacific and Northeast precedents — southern states recognize that organizing quickly gives them negotiating leverage. The CSA prioritizes energy revenue retention, autonomous trade policy, and internal racial hierarchy.
 
 - **(T-16) phased ~2035-2045 — International Recognition of US Successor States** (MEDIUM): Recognition is phased — early bilateral recognition begins ~2035-2037 for Pacific and Northeast authorities as foreign powers hedge their bets, even while the federal rump still nominally exists. Recognition accelerates after the federal rump collapses (T-20, ~2038-2039). By ~2043-2045, a majority of UN member states formally recognize at least four successor states and/or indigenous sovereign nations, consolidating the post-American international order.
 
@@ -99,7 +99,7 @@ The borders/geopolitics domain's central arc is the fragmentation of US federal 
 - 2032-2033: Hawaiian Revolution (T-17) sets the earliest precedent — a sovereignty assertion succeeds against a US naval dictatorship, demonstrating that the empire is vulnerable
 - late 2033: Pacific autonomy (T-08) sets the mainland precedent and proves a successor state can function without federal authority
 - ~2035: Northeast Corridor follows (T-10), accelerating cascade
-- ~2036: Gulf Compact forms (T-11), industrial Midwest begins coordinating (GLPR)
+- ~2036: CSA revives (T-11), industrial Midwest begins coordinating (GLPR)
 - ~2036-2037: First indigenous sovereignty declarations (T-18) — cascade expands beyond settler successor states
 - ~2038-2039: Federal rump collapses (T-20) — the last legal obstacle to successor state sovereignty is removed
 - ~2039-2040: Chicano Socialist Republic (T-19) forms
@@ -135,12 +135,13 @@ The borders/geopolitics domain's central arc is the fragmentation of US federal 
 
 **Confidence:** (MEDIUM)
 
-**Description:** The fragmentation of US federal authority does not produce a uniform set of successor states but a polarized landscape. Revolutionary states deprivatize major industries, reindustrialize through state-directed investment, reintegrate with global trade through BRICS+ and multipolar frameworks, and incorporate Landback into founding ideology — these states stabilize and rebuild. Reactionary states cling to nationalist-capitalist/extractive economic models, exclude indigenous populations, fragment further under economic pressure, and grow susceptible to revolution as the collapse of the US economic model discredits their governing ideology. The divergence is self-reinforcing: revolutionary states attract capital, talent, and international recognition while reactionary states repel them. See the canonical reference map at [successor-states.md](successor-states.md) for the full 19-entity landscape organized along this axis.
+**Description:** The fragmentation of US federal authority does not produce a uniform set of successor states but a polarized landscape. Revolutionary states deprivatize major industries, reindustrialize through state-directed investment, reintegrate with global trade through BRICS+ and multipolar frameworks, and incorporate Landback into founding ideology — these states stabilize and rebuild. Reactionary states cling to nationalist-capitalist/extractive economic models, exclude indigenous populations, fragment further under economic pressure, and grow susceptible to revolution as the collapse of the US economic model discredits their governing ideology. The divergence is self-reinforcing: revolutionary states attract capital, talent, and international recognition while reactionary states repel them. See the canonical reference map at [successor-states.md](successor-states.md) for the full 26-entity landscape organized along this axis.
 
 **Timeline (2026-2049):**
 - 2026-2032: Pre-fragmentation, the economic collapse discredits the existing capitalist order universally, but progressive and conservative regions draw opposite conclusions about what should replace it
-- late 2033-2036: Early successor states choose trajectories — PPR and NEC go revolutionary, Gulf Compact goes reactionary. The divergence is evident from the first year of autonomy
-- 2037-2043: Revolutionary states outperform reactionary states economically, creating a demonstration effect that accelerates revolutionary organizing within reactionary territory (Gulf, Appalachian, Heartland). CSR forms ~2039-2040 as a late revolutionary adopter
+- late 2033-2036: Early successor states choose trajectories — PPR and NEC go revolutionary, CSA goes reactionary. The divergence is evident from the first year of autonomy
+- 2037-2043: Revolutionary states outperform reactionary states economically. Within the CSA, the core Black Belt territory (LA, MS, AL, GA, SC) begins organizing for revolution. Houston's petrochemical corridor and Atlanta's logistics hub become centers of labor organizing. CSR forms ~2039-2040 as a late revolutionary adopter
+- ~2044-2046: New Afrika Revolution — the CSA's Deep South core revolts, collapsing the Confederacy and forming the Republic of New Afrika. Texas breaks away independently. Peripheral CSA states become isolated reactionary rumps
 - 2044-2049: Revolutionary states collectively control ~58% of former US population and ~65% of former US GDP. Reactionary states are in various stages of collapse with active revolutionary movements in most
 
 **Linked Events:** T-08, T-10, T-11, T-19
@@ -159,7 +160,7 @@ The borders/geopolitics domain's central arc is the fragmentation of US federal 
 **Timeline (2026-2049):**
 - 2026-2033: Federal collapse removes the enforcement mechanism for indigenous dispossession. Hawaiian Revolution (T-17, ~2032-2033) demonstrates that sovereignty assertions are viable. Treaty rights become meaningful as no entity exists to oppose them
 - 2034-2037: First mainland indigenous sovereignty declarations (T-18, ~2036-2037 — Navajo or Dakota/Lakota). Indigenous nations begin territorial consolidation as the federal rump proves powerless
-- 2038-2043: Revolutionary states (PPR, CSR) negotiate autonomous indigenous zones. Reactionary states (Heartland, Gulf Compact) resist, triggering indigenous insurgencies
+- 2038-2043: Revolutionary states (PPR, CSR) negotiate autonomous indigenous zones. Reactionary states (Heartland, Texas) resist, triggering indigenous insurgencies
 - 2044-2049: At least five indigenous sovereign entities are de facto independent — Navajo Nation, Dakota/Lakota Nation, Sequoyan/Cherokee Nation, Tlingit Aaní, Haudenosaunee Confederacy — plus a mosaic of Alaska indigenous territories outside Anchorage control
 
 **Linked Events:** T-17, T-18, T-19
@@ -174,12 +175,12 @@ The borders/geopolitics domain's central arc is the fragmentation of US federal 
 The borders domain is the structural container for all other domains — its changes propagate everywhere:
 
 - **To Climate:** Fragmentation hampers coordinated climate adaptation; border disputes arise over water resources (Colorado River, Great Lakes). Successor states pursue divergent environmental policies.
-- **To Economy:** Successor states pursue divergent economic models — from the Pacific Republic's democratic socialism to the Gulf Compact's energy-centered capitalism. Internal trade barriers emerge between states.
+- **To Economy:** Successor states pursue divergent economic models — from the Pacific Republic's democratic socialism to Texas's energy-centered capitalism. Internal trade barriers emerge between states.
 - **To Demographics:** Border changes alter migration patterns and citizenship status. Populations may be trapped in successor states they did not choose, or may move to align with ideological preference.
 
 ## Known Uncertainties
 
-- **Number of successor-state-level entities:** Up to 19 recognized entities in the expanded landscape (see [successor-states.md](successor-states.md)), substantially more than the earlier 4-6 estimate. The higher count reflects the addition of indigenous sovereign nations (at least 5) and the recognition that the fragmentation cascade produces many small, unstable entities in the interior (Mountain Tapestry, Appalachian Zone, Alaska mosaic). The effective number of *viable* states is probably 4-6 revolutionary + 2-3 reactionary that survive to 2050. The rest fragment, degrade, or are absorbed. **(MEDIUM)**
+- **Number of successor-state-level entities:** Up to 26 recognized entities in the expanded landscape (see [successor-states.md](successor-states.md)), substantially more than the earlier 4-6 estimate. The higher count reflects the addition of indigenous sovereign nations (at least 5), the fragmentation of the Gulf Compact/Atlantic South/Appalachian Zone into individual state-level rumps and revolutionary breakaways, and the recognition that the fragmentation cascade produces many small, unstable entities in the interior (Mountain Tapestry, Alaska mosaic). The effective number of *viable* states is probably 4-6 revolutionary + 2-3 reactionary that survive to 2050. The rest fragment, degrade, or are absorbed. **(MEDIUM)**
 - **Revolutionary vs reactionary trajectory:** Whether revolutionary states can actually outperform reactionary states is the central uncertainty of the divergence thesis. Revolutionary deprivatization could improve economic coordination and industrial investment — or could reproduce the inefficiencies that historically plagued socialist economies. The existence of a multipolar trading system (BRICS+) reduces the risk of autarkic collapse that destroyed earlier socialist experiments. **(MEDIUM)**
 - **Indigenous sovereignty outcome:** Indigenous nations could achieve genuine sovereignty (full territorial control, international recognition) or could end up as autonomous regions within larger successor states — a wide spectrum of outcomes with different implications for the successor state map. **(MEDIUM)**
 - **Violence level:** The transition could be relatively managed (as in the USSR collapse) or involve significant conflict (as in Yugoslavia). The existence of nuclear weapons under fragmented command-and-control creates a strong incentive for negotiated dissolution. Most historical imperial collapses fell somewhere between these extremes. **(MEDIUM)**

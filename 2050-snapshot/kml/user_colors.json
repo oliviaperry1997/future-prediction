@@ -77,7 +77,7 @@
     "kml_line": "ff4bd3f5",
     "width": 1.0
   },
-  "São Tomé and Príncipe": {
+  "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
     "hex": "#da3251",
     "kml_fill": "805132da",
     "kml_line": "ff5132da",
@@ -161,7 +161,7 @@
     "kml_line": "ff99d244",
     "width": 1.0
   },
-  "Côte d'Ivoire": {
+  "C\u00f4te d'Ivoire": {
     "hex": "#e78531",
     "kml_fill": "803185e7",
     "kml_line": "ff3185e7",
@@ -257,7 +257,7 @@
     "kml_line": "ff2f2dbd",
     "width": 1.0
   },
-  "Aztlán": {
+  "Aztl\u00e1n": {
     "hex": "#beca6c",
     "kml_fill": "806ccabe",
     "kml_line": "ff6ccabe",
@@ -311,13 +311,13 @@
     "kml_line": "ff530810",
     "width": 1.0
   },
-  "Tlingit Aaní": {
+  "Tlingit Aan\u00ed": {
     "hex": "#eb5f2f",
     "kml_fill": "802f5feb",
     "kml_line": "ff2f5feb",
     "width": 1.0
   },
-  "Iñupiat Nunaat": {
+  "I\u00f1upiat Nunaat": {
     "hex": "#9CD3AE",
     "kml_fill": "80AED39C",
     "kml_line": "ffAED39C",
@@ -333,18 +333,6 @@
     "hex": "#F4B943",
     "kml_fill": "8043B9F4",
     "kml_line": "ff43B9F4",
-    "width": 1.0
-  },
-  "Appalachian Zone": {
-    "hex": "#ffffff",
-    "kml_fill": "80ffffff",
-    "kml_line": "ff2dc0fb",
-    "width": 1.0
-  },
-  "Atlantic South": {
-    "hex": "#ffffff",
-    "kml_fill": "80ffffff",
-    "kml_line": "ff2dc0fb",
     "width": 1.0
   },
   "Canada": {
@@ -369,12 +357,6 @@
     "hex": "#0005CE",
     "kml_fill": "80CE0500",
     "kml_line": "ffCE0500",
-    "width": 1.0
-  },
-  "Gulf Compact": {
-    "hex": "#b0341a",
-    "kml_fill": "801a34b0",
-    "kml_line": "ff1a34b0",
     "width": 1.0
   },
   "Heartland": {
@@ -1271,7 +1253,7 @@
     "kml_line": "ff71cc2e",
     "width": 1.0
   },
-  "Curaçao": {
+  "Cura\u00e7ao": {
     "hex": "#3498DB",
     "kml_fill": "80db9834",
     "kml_line": "ffdb9834",
@@ -1307,7 +1289,7 @@
     "kml_line": "ffb6599b",
     "width": 1.0
   },
-  "St. Barthélemy": {
+  "St. Barth\u00e9lemy": {
     "hex": "#4CAF50",
     "kml_fill": "8050af4c",
     "kml_line": "ff50af4c",
@@ -1341,6 +1323,66 @@
     "hex": "#bfa05c",
     "kml_fill": "805ca0bf",
     "kml_line": "ff5ca0bf",
+    "width": 1.0
+  },
+  "New Afrika": {
+    "hex": "#b0341a",
+    "kml_fill": "801a34b0",
+    "kml_line": "ff1a34b0",
+    "width": 1.0
+  },
+  "Florida": {
+    "hex": "#E8D048",
+    "kml_fill": "8048d0e8",
+    "kml_line": "ff48d0e8",
+    "width": 1.0
+  },
+  "North Carolina": {
+    "hex": "#262F3F",
+    "kml_fill": "803F2F26",
+    "kml_line": "ff3F2F26",
+    "width": 1.0
+  },
+  "Virginia": {
+    "hex": "#E7CC9D",
+    "kml_fill": "809DCCE7",
+    "kml_line": "ff9DCCE7",
+    "width": 1.0
+  },
+  "Tennessee": {
+    "hex": "#872620",
+    "kml_fill": "80202687",
+    "kml_line": "ff202687",
+    "width": 1.0
+  },
+  "Kentucky": {
+    "hex": "#377A51",
+    "kml_fill": "80517a37",
+    "kml_line": "ff517a37",
+    "width": 1.0
+  },
+  "Appalachia": {
+    "hex": "#757575",
+    "kml_fill": "80757575",
+    "kml_line": "ff757575",
+    "width": 1.0
+  },
+  "Alleghenia": {
+    "hex": "#F7CB47",
+    "kml_fill": "8047cbf7",
+    "kml_line": "ff47cbf7",
+    "width": 1.0
+  },
+  "Neuse": {
+    "hex": "#6A5ACD",
+    "kml_fill": "80cd5a6a",
+    "kml_line": "ffcd5a6a",
+    "width": 1.0
+  },
+  "Arkansas": {
+    "hex": "#55943A",
+    "kml_fill": "803a9455",
+    "kml_line": "ff3a9455",
     "width": 1.0
   }
 }

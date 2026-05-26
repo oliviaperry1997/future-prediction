@@ -19,7 +19,7 @@ milestone: 2050
 - Global population peaked at approximately 9.7 billion (~2043, consistent with prediction-008) and has begun gradual decline — the world entered the first sustained population contraction in modern history, with every major region except Sub-Saharan Africa below replacement fertility
 - Cross-border climate migration exceeded 50 million cumulative (consistent with prediction-003), becoming a first-order geopolitical variable that reshapes citizenship, border enforcement, and labor markets across every continent
 - East Asia and Europe entered sustained population decline; Sub-Saharan Africa continues growing though slowing rapidly — the demographic asymmetry that began in the early 21st century has become the defining structural feature of global population dynamics, driving migration pressure from the still-growing South to the shrinking North
-- US successor states established radically divergent migration regimes and citizenship frameworks — revolutionary states (Pacifica, NEC, GLPR, Aztlán) attract migrants and maintain population stability through managed immigration; reactionary states (Gulf Compact, Atlantic South, Heartland) experience population decline, brain drain, and rural depopulation
+- US successor states established radically divergent migration regimes and citizenship frameworks — revolutionary states (Pacifica, NEC, GLPR, Aztlán, New Afrika) attract migrants and maintain population stability through managed immigration; reactionary states (Texas, Heartland, Florida, North Carolina) experience population decline, brain drain, and rural depopulation
 - Global median age rose from ~31 (2025) to ~36 (2050); dependency ratios increased across all developed and middle-income regions, with automation partially offsetting the economic impact of a shrinking working-age population
 
 ## Analysis
@@ -47,7 +47,7 @@ Africa still growing — Asia declining. Sub-Saharan Africa continues growing (t
 #### Aging & Dependency Ratios
 
 - **Global median age:** ~36 (up from ~31 in 2025). The world's population is older than at any point in human history, and aging continues.
-- **Aged societies (median >40):** Japan/Unified Korea (~45), EU Core (~44), China (~42), Appalachian Zone (~42), Mountain Tapestry (~41), NEC (~40), HFS (~40), Alaska (~40), Atlantic South (~40), GLPR (~39)
+- **Aged societies (median >40):** Japan/Unified Korea (~45), EU Core (~44), China (~42), Mountain Tapestry (~41), NEC (~40), HFS (~40), Alaska (~40), Florida (~44), Kentucky (~42), Virginia (~43), GLPR (~39)
 - **Young societies (median <25):** Sub-Saharan Africa, parts of South Asia. The East African Federation has a median age of ~22 — the youngest major population cluster in the world outside conflict zones.
 - **Dependency ratio pressures:** The working-age population (25-64) is shrinking relative to the 65+ population in all developed and most middle-income regions. Old-age dependency ratios (65+/25-64) exceed 40% in Unified Korea, Japan, EU Core, and China. The ratio exceeds 30% in all revolutionary successor states.
 - **Automation offset:** Automation partially offsets labor force decline in automated economies — humanoid robots and AI-driven systems substitute for a significant share of working-age tasks in the Pacifica, NEC, GLPR, EU Core, China, and Unified Korea. Labor-intensive economies (EAF, India's informal sector, reactionary states) face growth constraints from both aging and emigration without automation substitution.
@@ -57,7 +57,7 @@ Africa still growing — Asia declining. Sub-Saharan Africa continues growing (t
 - **Global urbanization rate:** ~70% (up from ~57% in 2025). The global population is now predominantly urban at a level that early-21st-century projections placed at mid-century.
 - **Coastal urban populations affected by sea level rise:** With 0.35m of sea level rise above 2020 baseline, coastal cities worldwide face chronic inundation, saltwater intrusion, and storm surge amplification. Managed retreat is underway in the Bangladesh delta (~10M relocated internally), the Mekong Delta (~5M), the US Gulf Coast (New Orleans abandoned), the South Pacific atolls, and coastal West Africa.
 - **Inland migration corridors:** Population movement away from coasts is reshaping interior urban centers. "Climate haven" cities — Detroit (GLPR), Buffalo (NEC), Minneapolis (GLPR), Denver (FRSR), and interior Chinese cities (Chengdu, Xi'an, Zhengzhou) — have experienced rapid population growth and infrastructure strain as coastal populations relocate inland.
-- **Successor state variation:** Pacifica coastal cities (San Francisco, Seattle, Los Angeles) invest heavily in seawalls, floating infrastructure, and managed retreat — only the wealthiest zones are fully protected. The Gulf Compact faces the most severe coastal loss with the least adaptive capacity — New Orleans is abandoned, Mobile and Houston partly protected with degraded infrastructure.
+- **Successor state variation:** Pacifica coastal cities (San Francisco, Seattle, Los Angeles) invest heavily in seawalls, floating infrastructure, and managed retreat — only the wealthiest zones are fully protected. New Afrika faces severe coastal loss with limited adaptive capacity — New Orleans is abandoned, Mobile and Savannah partly protected with degraded infrastructure. Florida faces relentless hurricane intensification and saltwater intrusion.
 - → See climate snapshot: [Sea Level Rise](../../2050-snapshot/domains/climate.md#sea-level-rise) for regional impact details
 
 #### Successor State Demographic Divergence
@@ -65,7 +65,7 @@ Africa still growing — Asia declining. Sub-Saharan Africa continues growing (t
 The fragmentation of the United States produced 19 successor entities with sharply divergent demographic trajectories. Post-2050 migration patterns within former US territory are shaped primarily by political alignment:
 
 - **Revolutionary states (Pacifica, NEC, GLPR, Aztlán, FRSR, HFS):** Attract domestic and international migrants, maintain higher urbanization rates, and sustain younger age structures through managed immigration. The Pacifica and Aztlán have the highest net migration rates among successor states. These states' socialist economic models — with UBI (Pacifica), guaranteed employment (NEC, GLPR), and universal basic services (Aztlán) — function as demographic attractors in a world of economic precarity.
-- **Reactionary states (Gulf Compact, Atlantic South, Heartland, Appalachian Zone rumps, Deseret, Mountain Tapestry):** Experience population decline, brain drain, aging, and rural depopulation. Young, educated workers leave for revolutionary states and BRICS+ economies. The Deseret's youth exodus is demographically significant — young adults raised in the church leave for revolutionary states where educational and economic opportunities are better. These states lack both the economic opportunity and the social safety nets to retain population.
+- **Reactionary states (Texas, Florida, North Carolina, Virginia, Tennessee, Kentucky, Arkansas, Heartland, Deseret, Mountain Tapestry):** Experience population decline, brain drain, aging, and rural depopulation. Young, educated workers leave for revolutionary states and BRICS+ economies. The Deseret's youth exodus is demographically significant — young adults raised in the church leave for revolutionary states where educational and economic opportunities are better. These states lack both the economic opportunity and the social safety nets to retain population.
 - **Indigenous nations (Navajo, Dakota/Lakota, Sequoyan, Tlingit Aaní, Haudenosaunee):** Population recovery underway — improved healthcare access after Landback, birth rates above replacement (TFR 2.2-2.5), and return migration enabled by indigenous sovereignty and land restoration. The Navajo Nation's return migration from diaspora communities is a measurable demographic trend.
 - **Internal migration between successor states:** Ideological sorting is the dominant migration pattern — progressive populations move to revolutionary states, conservative populations to reactionary states. This self-selection reinforces each entity's political character. The sorting is not absolute — significant conservative minorities remain in revolutionary states and vice versa — but the directional flow is clear and accelerating.
 - → See borders analysis: [Former United States Territory](../../2050-snapshot/domains/borders-geopolitics.md#former-united-states-territory) for entity-level political context
@@ -128,7 +128,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Population:** 30M
 - **Age structure:** Median age 39, dependency ratio 56%
 - **TFR:** 1.6
-- **Net migration:** +0.3%/yr (moderate inflow from Appalachian Zone, Heartland, and reactionary Midwest)
+- **Net migration:** +0.3%/yr (moderate inflow from Appalachia, Heartland, and reactionary Midwest)
 - **Urbanization:** 78% (Rust Belt cities reindustrialized; significant rural areas in agricultural zones)
 - **Life expectancy:** 80 (improved from early-2020s baseline — environmental cleanup and universal healthcare offset industrial legacy)
 - **Ethnic/religious composition:** 60% white, 20% Black, 10% Hispanic, 5% Asian, 5% other. Religious landscape: Protestant and Catholic minorities, significant secular/unchurched population, growing diaspora communities.
@@ -171,6 +171,41 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Labor force participation:** 58% (tourism, renewable energy, and indigenous cooperative enterprises; UBI from geothermal revenue supplements)
 - **Primary languages:** Hawaiian, English, Japanese, Tagalog
 - **→ See KML: Hawaiian Free State**
+
+**New Afrika:**
+- **Population:** 23M
+- **Age structure:** Median age 36 (younger than US average — post-revolutionary baby bump, high birth rates among rural Black population)
+- **TFR:** 1.9
+- **Net migration:** +0.4%/yr (return migration from Black diaspora, political refugees from neighboring reactionary states)
+- **Urbanization:** 72% (Atlanta — largest city, New Orleans — damaged but rebuilding, Jackson — capital, Birmingham, Mobile, Savannah, Charleston)
+- **Life expectancy:** 78 (improving — healthcare system rebuilding after CSA period, strong community health networks)
+- **Ethnic/religious composition:** 60% Black/African American, 30% white, 5% Hispanic, 5% other/Indigenous. Religious landscape: Black Protestant (AME, Baptist) dominant, significant Muslim minority, secular growth.
+- **Labor force participation:** 55% (post-revolutionary reorganization underway; Gulf shipping, agriculture, and manufacturing sectors being reconstituted under public ownership)
+- **Primary languages:** English, Gullah/Geechee (revival), Spanish
+- **→ See KML: New Afrika**
+
+**Appalachia:**
+- **Population:** 2M (all WV minus panhandles, ~15 western VA counties, ~24 eastern KY coal counties)
+- **Age structure:** Median age 38 (coal country aging but revolutionary project retains working-age adults)
+- **TFR:** 1.7
+- **Net migration:** +0.2%/yr (modest inflow from surrounding reactionary states, diaspora return)
+- **Urbanization:** 30% (highly rural and mountainous; Charleston WV, Huntington as largest centers)
+- **Life expectancy:** 75 (coal legacy health impacts partially offset by healthcare improvements under revolutionary governance)
+- **Ethnic/religious composition:** 88% white, 8% Black, 2% Hispanic, 2% other. Religious landscape: Evangelical Protestant dominant, strong labor/secular identity from UMWA organizing tradition.
+- **Labor force participation:** 52% (coal transition, renewable energy, manufacturing remnants)
+- **Primary languages:** English
+- **→ See KML: Appalachia**
+
+**Alleghenia:**
+- **Population:** 5M (Greater Pittsburgh region — 37 PA counties + WV northern panhandle)
+- **Age structure:** Median age 38 (Pittsburgh's stable demographic)
+- **TFR:** 1.7
+- **Net migration:** +0.1%/yr (slight inflow from PA rural areas, stable)
+- **Urbanization:** 72% (Pittsburgh metro dominant)
+- **Life expectancy:** 78 (healthcare access via UPMC)
+- **Ethnic/religious composition:** 78% white, 13% Black, 4% Hispanic, 5% other. Religious: Catholic and Protestant mix, secular Pittsburgh
+- **Labor force participation:** 58% (manufacturing, robotics, healthcare, gas extraction)
+- **Primary languages:** English
 
 #### Indigenous Sovereign Nations
 
@@ -236,41 +271,65 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 
 #### Reactionary States
 
-**Gulf Compact:**
-- **Population:** 18M
-- **Age structure:** Median age 38, dependency ratio 55%
-- **TFR:** 1.7
-- **Net migration:** -0.3%/yr (net out-migration — brain drain and climate-driven coastal retreat)
-- **Urbanization:** 82% (Houston, Dallas-Fort Worth, San Antonio, Austin, New Orleans — though New Orleans largely abandoned)
-- **Life expectancy:** 77 (lower than revolutionary states — degraded healthcare infrastructure, extreme heat exposure, fossil fuel pollution legacy)
-- **Ethnic/religious composition:** 55% white, 25% Black, 15% Hispanic, 5% other. Religious landscape: Evangelical Protestant majority, significant Catholic minority.
-- **Labor force participation:** 58% (energy sector declining, petrochemical organizing underway, logistics and agriculture mixed; no social safety net)
-- **Primary languages:** English, Spanish
-- **→ See KML: Gulf Compact**
+**Florida:**
+- **Population:** 12M (down from ~22M peak — climate-driven out-migration, post-CSA collapse disruption)
+- **Age structure:** Median age 44 (aged — retirees stayed, young families left for revolutionary states)
+- **TFR:** 1.4
+- **Net migration:** -0.8%/yr (severe out-migration — sea-level rise, hurricane intensification, economic collapse)
+- **Urbanization:** 85% (Miami, Orlando, Tampa, Jacksonville — coastal cities densifying as interior hollows)
+- **Life expectancy:** 77 (degraded healthcare infrastructure, extreme heat, hurricane trauma effects)
+- **Ethnic/religious composition:** 45% white, 25% Hispanic, 20% Black, 10% other. Religious landscape: Catholic largest, Evangelical Protestant significant, Jewish minority in Miami.
+- **Labor force participation:** 50% (tourism collapsed, agriculture declining, no unemployment protection)
+- **Primary languages:** English, Spanish, Haitian Creole
+- **→ See KML: Florida**
 
-**Atlantic South:**
-- **Population:** 15M (across multiple fragmented entities)
-- **Age structure:** Median age 40, dependency ratio 58%
-- **TFR:** 1.6
-- **Net migration:** -0.4%/yr (brain drain — young educated leave for NEC and revolutionary city-states; climate migration from coastal zones)
-- **Urbanization:** 70% (revolutionary city-states — Atlanta, Research Triangle — are highly urbanized; reactionary rumps are more rural)
-- **Life expectancy:** 76 (degraded — fragmented healthcare, rural poverty, climate heat exposure)
-- **Ethnic/religious composition:** 55% white, 35% Black, 8% Hispanic, 2% other. Religious landscape: Evangelical Protestant dominant in reactionary rumps; secular and progressive in revolutionary city-states.
-- **Labor force participation:** 55% (low-wage manufacturing, agriculture, logistics; no unemployment protection)
+**North Carolina:**
+- **Population:** 8M (excluding Research Triangle Area revolutionary enclave)
+- **Age structure:** Median age 41 (aging — young adults left for RTP enclave, NEC, or GLPR)
+- **TFR:** 1.5
+- **Net migration:** -0.5%/yr (brain drain — educated workers lost to RTP, NEC, and GLPR)
+- **Urbanization:** 60% (Charlotte shrinking, Greensboro/Winston-Salem declining, rural areas hollowing)
+- **Life expectancy:** 76 (degraded healthcare, rural poverty, industrial legacy contamination)
+- **Ethnic/religious composition:** 60% white, 30% Black, 6% Hispanic, 4% other. Religious landscape: Evangelical Protestant dominant.
+- **Labor force participation:** 52% (agriculture, textiles, and low-wage manufacturing in terminal decline)
 - **Primary languages:** English
-- **→ See KML: Atlantic South**
+- **→ See KML: North Carolina**
 
-**Appalachian Zone:**
-- **Population:** 8M (patchwork of revolutionary breakaway republics and reactionary rumps)
-- **Age structure:** Median age 42, dependency ratio 60%
-- **TFR:** 1.6
-- **Net migration:** -0.5%/yr (out-migration — young adults leave for GLPR, NEC, and Pacifica)
-- **Urbanization:** 55% (revolutionary republics more urbanized — Charleston WV, Huntington; reactionary rumps more rural)
-- **Life expectancy:** 74 (lowest in former US — coal legacy health impacts, degraded healthcare access, opioid crisis legacy)
-- **Ethnic/religious composition:** 85% white, 8% Black, 5% Hispanic, 2% other. Religious landscape: Evangelical Protestant dominant.
-- **Labor force participation:** 52% (revolutionary republics pursue renewable energy and land restoration employment; reactionary rumps have high unemployment and out-migration)
+**Virginia:**
+- **Population:** 4M (southern VA — NOVA is NEC territory)
+- **Age structure:** Median age 43 (aging — young adults relocated to NEC's NOVA territory)
+- **TFR:** 1.5
+- **Net migration:** -0.6%/yr (out-migration — population shifted north to NEC during and after the fragmentation)
+- **Urbanization:** 55% (Hampton Roads, Richmond declining; rural southern Virginia hollowing)
+- **Life expectancy:** 76 (military hospital legacy provides some infrastructure; rural areas underserved)
+- **Ethnic/religious composition:** 55% white, 35% Black, 5% Hispanic, 5% other. Religious landscape: Evangelical Protestant dominant, Black Protestant significant.
+- **Labor force participation:** 50% (residual military infrastructure employment; agriculture declining)
 - **Primary languages:** English
-- **→ See KML: Appalachian Zone**
+- **→ See KML: Virginia**
+
+**Tennessee:**
+- **Population:** 5M
+- **Age structure:** Median age 40
+- **TFR:** 1.6
+- **Net migration:** -0.4%/yr (out-migration — economic irrelevance drives young adults to GLPR and New Afrika)
+- **Urbanization:** 62% (Nashville shrinking, Memphis declining, Knoxville stable)
+- **Life expectancy:** 75 (degraded healthcare access, rural poverty, opioid crisis legacy)
+- **Ethnic/religious composition:** 70% white, 20% Black, 5% Hispanic, 5% other. Religious landscape: Evangelical Protestant dominant.
+- **Labor force participation:** 53% (agriculture, declining healthcare sector, no safety net)
+- **Primary languages:** English
+- **→ See KML: Tennessee**
+
+**Kentucky:**
+- **Population:** 3M (minus eastern KY coal counties — joined Appalachia)
+- **Age structure:** Median age 42
+- **TFR:** 1.6
+- **Net migration:** -0.5%/yr (out-migration — Appalachia breakaway cost population and territory)
+- **Urbanization:** 50% (Louisville, Lexington declining; rural areas severely hollowed)
+- **Life expectancy:** 74 (low — coal legacy health impacts, degraded healthcare, Appalachian poverty)
+- **Ethnic/religious composition:** 82% white, 10% Black, 4% Hispanic, 4% other. Religious landscape: Evangelical Protestant dominant.
+- **Labor force participation:** 50% (agriculture, bourbon/horses — luxury sectors collapsed with national market)
+- **Primary languages:** English
+- **→ See KML: Kentucky**
 
 **Heartland:**
 - **Population:** 10M (shrinking rump — NE, KS, residual)

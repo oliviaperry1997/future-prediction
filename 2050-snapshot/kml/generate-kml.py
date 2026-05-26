@@ -51,18 +51,28 @@ def load_config():
         return json.load(f)
 
 
-def read_county_kml(path):
+def read_county_kml(path, fallback_path=None, prefer_low_res=None):
     """
     Read US county KML, return {county_identifier: dict} mapping.
     
-    The Census TIGER/Line KML has:
-    - <name>CountyName</name> (short name, e.g., "Brooks")
-    - ExtendedData > SchemaData > SimpleData with fields:
+    Supports two KML formats:
+    - Census TIGER/Line (500k): uses GEOID for unique county+city keys
+    - Census TIGER/Line (full): same fields, GEOID disambiguates city/county pairs
+    
+    ExtendedData > SchemaData > SimpleData fields:
       - STATEFP (2-digit FIPS code, e.g., "13")
       - STUSPS (state abbreviation, e.g., "GA")
       - NAMELSAD (full name, e.g., "Brooks County")
+      - GEOID (unique identifier, e.g., "13019")
     
-    Returns dict keyed by "STUSPS|county_name" with geometry, state FIPS, and county name.
+    When a fallback_path is provided, entries from the primary file that collide
+    on the same "STUSPS|county_name" key (due to missing GEOID in 500k data)
+    are replaced with properly-disambiguated entries from the fallback file.
+    
+    prefer_low_res: dict mapping "STUSPS" -> [county_name, ...]; these counties
+                    use the lower-resolution (20m) data for cleaner boundaries.
+    
+    Returns dict keyed by GEOID (or "STUSPS|county_name" fallback).
     """
     tree = etree.parse(path)
     root = tree.getroot()
@@ -70,6 +80,8 @@ def read_county_kml(path):
     placemarks = root.findall(".//kml:Placemark", NSMAP)
     
     county_data = {}
+    seen_base_keys = {}
+    collision_base_keys = set()
     for pm in placemarks:
         name_el = pm.find("kml:name", NSMAP)
         if name_el is None or not name_el.text:
@@ -80,6 +92,8 @@ def read_county_kml(path):
         # Extract ExtendedData fields
         state_fips = None
         state_usps = None
+        geo_id = None
+        full_name = None
         
         ext_data = pm.find("kml:ExtendedData", NSMAP)
         if ext_data is not None:
@@ -91,6 +105,10 @@ def read_county_kml(path):
                         state_fips = sd.text.strip()
                     elif field_name == "STUSPS" and sd.text:
                         state_usps = sd.text.strip()
+                    elif field_name == "GEOID" and sd.text:
+                        geo_id = sd.text.strip()
+                    elif field_name == "NAMELSAD" and sd.text:
+                        full_name = sd.text.strip()
         
         if not state_usps or not state_fips:
             continue
@@ -114,13 +132,167 @@ def read_county_kml(path):
         if geom is None:
             continue
         
-        key = f"{state_usps}|{county_name}"
+        # Use GEOID as key for uniqueness (handles city/county same-name pairs)
+        if geo_id:
+            key = geo_id
+        else:
+            base_key = f"{state_usps}|{county_name}"
+            if base_key in seen_base_keys:
+                collision_base_keys.add(base_key)
+            seen_base_keys[base_key] = True
+            key = base_key
+        
         county_data[key] = {
             "geometry": geom,
             "state_fips": state_fips,
             "state_usps": state_usps,
             "county_name": county_name,
+            "full_name": full_name or county_name,
         }
+    
+    # Phase 2: Replace collided entries with properly-disambiguated fallback data
+    if collision_base_keys and fallback_path and os.path.exists(fallback_path):
+        fb_tree = etree.parse(fallback_path)
+        fb_root = fb_tree.getroot()
+        fb_placemarks = fb_root.findall(".//kml:Placemark", NSMAP)
+        
+        fb_by_name = {}
+        for pm in fb_placemarks:
+            name_el = pm.find("kml:name", NSMAP)
+            if name_el is None or not name_el.text:
+                continue
+            fb_county_name = name_el.text.strip()
+            
+            fb_state_usps = None
+            fb_geo_id = None
+            fb_full_name = None
+            ext_data = pm.find("kml:ExtendedData", NSMAP)
+            if ext_data is not None:
+                schema_data = ext_data.find("kml:SchemaData", NSMAP)
+                if schema_data is not None:
+                    for sd in schema_data.findall("kml:SimpleData", NSMAP):
+                        field_name = sd.get("name", "")
+                        if field_name == "STUSPS" and sd.text:
+                            fb_state_usps = sd.text.strip()
+                        elif field_name == "GEOID" and sd.text:
+                            fb_geo_id = sd.text.strip()
+                        elif field_name == "NAMELSAD" and sd.text:
+                            fb_full_name = sd.text.strip()
+            if not fb_state_usps or not fb_geo_id:
+                continue
+            
+            fb_base_key = f"{fb_state_usps}|{fb_county_name}"
+            if fb_base_key not in collision_base_keys:
+                continue
+            
+            # Parse geometry
+            fb_geom = None
+            fb_mg = pm.find(".//kml:MultiGeometry", NSMAP)
+            if fb_mg is not None:
+                fb_polys = []
+                for pe in fb_mg.findall("kml:Polygon", NSMAP):
+                    g = parse_kml_polygon(pe)
+                    if g is not None:
+                        fb_polys.append(g)
+                if fb_polys:
+                    fb_geom = MultiPolygon(fb_polys) if len(fb_polys) > 1 else fb_polys[0]
+            else:
+                fb_pe = pm.find("kml:Polygon", NSMAP)
+                if fb_pe is not None:
+                    fb_geom = parse_kml_polygon(fb_pe)
+            if fb_geom is None:
+                continue
+            
+            fb_by_name.setdefault(fb_base_key, []).append({
+                "geometry": fb_geom,
+                "state_fips": None,
+                "state_usps": fb_state_usps,
+                "county_name": fb_county_name,
+                "full_name": fb_full_name or fb_county_name,
+                "geo_id": fb_geo_id,
+            })
+        
+        # Replace collided entries with disambiguated fallback entries
+        for base_key in list(collision_base_keys):
+            disambig_entries = fb_by_name.get(base_key, [])
+            if not disambig_entries:
+                continue
+            if base_key in county_data:
+                del county_data[base_key]
+            for entry in disambig_entries:
+                disp_key = f"{base_key}|{entry['full_name']}"
+                county_data[disp_key] = entry
+        
+        # Log summary
+        for base_key in sorted(collision_base_keys):
+            fb_entries = fb_by_name.get(base_key, [])
+            fb_names = [e['full_name'] for e in fb_entries]
+            print(f"  [fallback] {base_key} → {fb_names}")
+    
+    # Phase 3: Override specific counties with low-res (20m) data for cleaner boundaries
+    if prefer_low_res and fallback_path and os.path.exists(fallback_path):
+        lr_tree = etree.parse(fallback_path)
+        lr_root = lr_tree.getroot()
+        lr_placemarks = lr_root.findall(".//kml:Placemark", NSMAP)
+        
+        # Build reverse lookup: (STUSPS, county_name) -> key in county_data
+        reverse_lookup = {}
+        for key, entry in county_data.items():
+            stusps = entry.get("state_usps")
+            cname = entry.get("county_name")
+            if stusps and cname:
+                reverse_lookup[(stusps, cname)] = key
+        
+        for pm in lr_placemarks:
+            name_el = pm.find("kml:name", NSMAP)
+            if name_el is None or not name_el.text:
+                continue
+            lr_name = name_el.text.strip()
+            
+            lr_stusps = None
+            ext_data = pm.find("kml:ExtendedData", NSMAP)
+            if ext_data is not None:
+                schema_data = ext_data.find("kml:SchemaData", NSMAP)
+                if schema_data is not None:
+                    for sd in schema_data.findall("kml:SimpleData", NSMAP):
+                        if sd.get("name", "") == "STUSPS" and sd.text:
+                            lr_stusps = sd.text.strip()
+            
+            if not lr_stusps:
+                continue
+            
+            # Check if this (STUSPS, county_name) is in the override list
+            override_names = prefer_low_res.get(lr_stusps, [])
+            if lr_name not in override_names:
+                continue
+            
+            # Find existing key
+            existing_key = reverse_lookup.get((lr_stusps, lr_name))
+            if existing_key is None:
+                continue
+            
+            # Parse geometry from low-res file
+            lr_geom = None
+            lr_mg = pm.find(".//kml:MultiGeometry", NSMAP)
+            if lr_mg is not None:
+                lr_polys = []
+                for pe in lr_mg.findall("kml:Polygon", NSMAP):
+                    g = parse_kml_polygon(pe)
+                    if g is not None:
+                        lr_polys.append(g)
+                if lr_polys:
+                    lr_geom = MultiPolygon(lr_polys) if len(lr_polys) > 1 else lr_polys[0]
+            else:
+                lr_pe = pm.find("kml:Polygon", NSMAP)
+                if lr_pe is not None:
+                    lr_geom = parse_kml_polygon(lr_pe)
+            
+            if lr_geom is None:
+                print(f"  Warning: no geometry for low-res override '{lr_stusps}|{lr_name}'")
+                continue
+            
+            county_data[existing_key]["geometry"] = lr_geom
+            print(f"  [low-res] {lr_stusps}|{lr_name} overridden with 20m data")
     
     return county_data
 
@@ -340,8 +512,17 @@ def merge_polygons(geometries):
     if not geometries:
         return None
     
-    # Filter out None and invalid geometries
-    valid = [g for g in geometries if g is not None and g.is_valid]
+    # Repair and collect valid geometries
+    valid = []
+    for g in geometries:
+        if g is None:
+            continue
+        if not g.is_valid:
+            repaired = g.buffer(0)
+            if repaired is not None and not repaired.is_empty and repaired.is_valid:
+                valid.append(repaired)
+        else:
+            valid.append(g)
     
     if not valid:
         return None
@@ -351,8 +532,6 @@ def merge_polygons(geometries):
     
     try:
         merged = unary_union(valid)
-        if merged.geom_type == 'MultiPolygon' and len(merged.geoms) > 1:
-            merged = merged.buffer(0.0001).buffer(-0.0001)
         return merged
     except Exception:
         # Fallback: return the first valid geometry
@@ -376,6 +555,204 @@ def simplify_polygon(geom, tolerance=0.01):
     except Exception as e:
         print(f"  Warning: simplification failed ({e}), using unsimplified geometry")
         return geom
+
+
+def filter_interior_rings(geom, min_area=0.001):
+    """
+    Remove interior rings (holes) smaller than min_area (in sq degrees).
+    For Polygons: drops holes below threshold.
+    For MultiPolygons: applies to each sub-polygon individually.
+    Returns modified geometry. If no holes to filter, returns original.
+    """
+    if geom is None or geom.is_empty:
+        return geom
+    
+    if geom.geom_type == "Polygon":
+        if not geom.interiors:
+            return geom
+        kept_rings = [
+            ring for ring in geom.interiors
+            if Polygon(ring).area >= min_area
+        ]
+        if len(kept_rings) == len(geom.interiors):
+            return geom
+        if not kept_rings:
+            return Polygon(geom.exterior.coords)
+        return Polygon(geom.exterior.coords, kept_rings)
+    
+    if geom.geom_type == "MultiPolygon":
+        new_geoms = []
+        for poly in geom.geoms:
+            filtered = filter_interior_rings(poly, min_area)
+            if filtered is not None and not filtered.is_empty:
+                new_geoms.append(filtered)
+        if len(new_geoms) == 1:
+            return new_geoms[0]
+        if new_geoms:
+            return MultiPolygon(new_geoms)
+        return geom
+    
+    return geom
+
+
+
+
+
+def prepare_for_output(geom, entity_cfg):
+    """
+    Simplify and manage interior rings based on entity config.
+    Call before geom_to_coords.
+    """
+    simplified = simplify_polygon(geom, tolerance=0.01)
+    if entity_cfg.get("preserve_holes"):
+        min_area = entity_cfg.get("min_hole_area", 0.001)
+        simplified = filter_interior_rings(simplified, min_area)
+        simplified = remove_z_spikes(simplified)
+    else:
+        simplified = strip_all_holes(simplified)
+    return simplified
+
+
+def remove_z_spikes(geom):
+    """
+    Remove Z-shaped spikes from polygon exterior rings only.
+    Detects vertices where the path through the vertex is much longer
+    than the direct path (detour ratio > 2.5 AND angle < 60°).
+    Catches both short Z-spikes and long V-spikes like the Caswell dip.
+    Only applies to Polygons/MultiPolygons. Preserves holes.
+    Falls back to original if removal makes the geometry invalid.
+    """
+    if geom is None or geom.is_empty:
+        return geom
+
+    if geom.geom_type == "Polygon":
+        orig = list(geom.exterior.coords)
+        cleaned = _remove_z_vertices(orig)
+        if len(cleaned) < 4:
+            return geom
+        if len(cleaned) == len(orig) and all(a == b for a, b in zip(cleaned, orig)):
+            return geom
+
+        ext_only = Polygon(cleaned)
+        if not ext_only.is_valid or ext_only.geom_type != "Polygon":
+            ext_only = ext_only.buffer(0)
+        if ext_only.geom_type == "MultiPolygon":
+            parts = sorted(ext_only.geoms, key=lambda p: p.area, reverse=True)
+            ext_only = parts[0]
+        if not ext_only.is_valid or ext_only.geom_type != "Polygon":
+            return geom
+
+        result = Polygon(list(ext_only.exterior.coords),
+                         [list(r.coords) for r in geom.interiors])
+        if result.is_valid and result.geom_type == "Polygon":
+            return result
+
+        repaired = result.buffer(0)
+        if repaired.is_valid and repaired.geom_type == "Polygon":
+            return repaired
+        return geom
+
+    if geom.geom_type == "MultiPolygon":
+        parts = []
+        for g in geom.geoms:
+            p = remove_z_spikes(g)
+            if p is not None and not p.is_empty:
+                parts.append(p)
+        if not parts:
+            return geom
+        if len(parts) == 1:
+            return parts[0]
+        return MultiPolygon(parts)
+
+    return geom
+
+
+def _remove_z_vertices(ring):
+    """
+    Remove Z/V-spike vertices — ones where passing through the vertex
+    is a detour > 2.5x the direct path and the turn angle < 60°.
+    Also removes degenerate zero-length segments left behind after spike removal.
+    """
+    if len(ring) < 4:
+        return ring
+
+    result = list(ring)
+    changed = True
+    passes = 0
+    while changed and passes < 20:
+        passes += 1
+        changed = False
+        new_ring = [result[0]]
+        for i in range(1, len(result) - 1):
+            prev = new_ring[-1]
+            curr = result[i]
+            nxt = result[i + 1]
+
+            d1 = _rough_km(prev, curr)
+            d2 = _rough_km(curr, nxt)
+            dd = _rough_km(prev, nxt)
+            angle = _interior_angle(prev, curr, nxt)
+
+            path_ratio = (d1 + d2) / max(dd, 0.001)
+
+            # Remove spike (detour ratio > 2.5, angle < 60°)
+            if path_ratio > 2.5 and angle < 60:
+                changed = True
+                continue
+
+            # Remove degenerate near-zero segment left by spike removal
+            if d1 < 0.01 or d2 < 0.01:
+                changed = True
+                continue
+
+            new_ring.append(curr)
+
+        new_ring.append(result[-1])
+        result = new_ring
+
+    if result[0] != result[-1]:
+        result.append(result[0])
+
+    return result
+
+
+def _rough_km(p1, p2):
+    """Quick approximate km for short distances (lat in ~36° band)."""
+    dlat = (p2[1] - p1[1]) * 111.0
+    dlon = (p2[0] - p1[0]) * 111.0 * 0.8
+    return (dlat * dlat + dlon * dlon) ** 0.5
+
+
+def _interior_angle(p1, p2, p3):
+    """Angle at p2 in degrees formed by p1-p2-p3."""
+    import math
+    v1 = (p1[0] - p2[0], p1[1] - p2[1])
+    v2 = (p3[0] - p2[0], p3[1] - p2[1])
+    dot = v1[0] * v2[0] + v1[1] * v2[1]
+    n1 = (v1[0]**2 + v1[1]**2) ** 0.5
+    n2 = (v2[0]**2 + v2[1]**2) ** 0.5
+    if n1 < 1e-10 or n2 < 1e-10:
+        return 0
+    cos_a = max(-1, min(1, dot / (n1 * n2)))
+    return math.degrees(math.acos(cos_a))
+
+
+def strip_all_holes(geom):
+    """
+    Remove ALL interior rings from a geometry.
+    For Polygon: returns Polygon(geom.exterior.coords).
+    For MultiPolygon: strips holes from all sub-polygons.
+    """
+    if geom is None or geom.is_empty:
+        return geom
+    
+    if geom.geom_type == "Polygon":
+        return Polygon(geom.exterior.coords)
+    
+    if geom.geom_type == "MultiPolygon":
+        return unary_union([Polygon(p.exterior.coords) for p in geom.geoms])
+    
+    return geom
 
 
 def remove_slivers(geom, min_area_ratio=0.00001):
@@ -521,17 +898,73 @@ def split_along_border(geom, line, keep_side):
     return merged
 
 
+def split_into_sides(geom, line):
+    """
+    Split a geometry along a line and return (sw_union, ne_union).
+    Extends the line in both directions to ensure full bisection.
+    """
+    from shapely.ops import split
+    geom = geom.buffer(0)
+
+    # Extend the line in both directions to ensure it fully bisects the geometry
+    coords = list(line.coords)
+    first = coords[0]
+    last = coords[-1]
+    # Extend south and north (the Blue Ridge runs roughly N-S through PA)
+    south_ext = (first[0], min(first[1] - 0.5, geom.bounds[1] - 0.1))
+    north_ext = (last[0], max(last[1] + 0.5, geom.bounds[3] + 0.1))
+    extended = LineString([south_ext] + coords + [north_ext])
+
+    try:
+        fragments = split(geom, extended)
+    except Exception:
+        try:
+            fragments = split(geom, line.buffer(1e-7))
+        except Exception:
+            return geom, None
+
+    if fragments.geom_type == 'GeometryCollection':
+        pieces = list(fragments.geoms)
+    else:
+        pieces = [fragments]
+
+    sw_pieces = []
+    ne_pieces = []
+    for piece in pieces:
+        if piece.is_empty:
+            continue
+        centroid = piece.centroid
+        proj_dist = line.project(centroid)
+        proj_pt = line.interpolate(min(proj_dist, line.length - 0.00001))
+        next_pt = line.interpolate(min(proj_dist + 0.00001, line.length))
+
+        dx = next_pt.x - proj_pt.x
+        dy = next_pt.y - proj_pt.y
+        cx = centroid.x - proj_pt.x
+        cy = centroid.y - proj_pt.y
+        cross = dx * cy - dy * cx
+
+        if cross >= -1e-10:
+            sw_pieces.append(piece)
+        else:
+            ne_pieces.append(piece)
+
+    sw_union = unary_union(sw_pieces) if sw_pieces else None
+    ne_union = unary_union(ne_pieces) if ne_pieces else None
+    return sw_union, ne_union
+
+
 def geom_to_coords(geom):
     """
     Convert a shapely geometry to KML coordinates string.
-    For MultiPolygon, returns list of coordinate strings (one per polygon).
+    Returns list of dicts with exterior and optional interior rings:
+    [{"exterior": str, "interiors": [str, ...]}, ...]
     """
     if geom is None:
         return []
     
     def ring_to_coords(ring):
         coords = []
-        # ring is a linear ring (sequence of (x, y) tuples)
         for x, y in ring.coords:
             coords.append(f"{x:.6f},{y:.6f},0")
         return " ".join(coords)
@@ -539,14 +972,16 @@ def geom_to_coords(geom):
     result = []
     
     if geom.geom_type == "Polygon":
-        coords_str = ring_to_coords(geom.exterior)
-        if coords_str:
-            result.append(coords_str)
+        exterior = ring_to_coords(geom.exterior)
+        if exterior:
+            interiors = [ring_to_coords(r) for r in geom.interiors]
+            result.append({"exterior": exterior, "interiors": interiors})
     elif geom.geom_type == "MultiPolygon":
         for poly in geom.geoms:
-            coords_str = ring_to_coords(poly.exterior)
-            if coords_str:
-                result.append(coords_str)
+            exterior = ring_to_coords(poly.exterior)
+            if exterior:
+                interiors = [ring_to_coords(r) for r in poly.interiors]
+                result.append({"exterior": exterior, "interiors": interiors})
     else:
         print(f"  Warning: unexpected geometry type: {geom.geom_type}")
     
@@ -627,23 +1062,31 @@ def make_style_map(kml_id, normal_style_id, highlight_style_id):
     return style_map
 
 
-def make_polygon_element(coords_text):
-    """Create a single KML Polygon element with the given coordinates."""
+def make_polygon_element(coords_info):
+    """
+    Create a single KML Polygon element with optional interior rings (holes).
+    coords_info: {"exterior": str, "interiors": [str, ...]}
+    """
     polygon = etree.Element(f"{{{NS}}}Polygon")
     alt_mode = etree.SubElement(polygon, f"{{{NS}}}altitudeMode")
     alt_mode.text = "clampToGround"
     outer_boundary = etree.SubElement(polygon, f"{{{NS}}}outerBoundaryIs")
     linear_ring = etree.SubElement(outer_boundary, f"{{{NS}}}LinearRing")
     coords_el = etree.SubElement(linear_ring, f"{{{NS}}}coordinates")
-    coords_el.text = coords_text
+    coords_el.text = coords_info["exterior"]
+    for interior in coords_info.get("interiors", []):
+        inner_boundary = etree.SubElement(polygon, f"{{{NS}}}innerBoundaryIs")
+        inner_ring = etree.SubElement(inner_boundary, f"{{{NS}}}LinearRing")
+        inner_coords = etree.SubElement(inner_ring, f"{{{NS}}}coordinates")
+        inner_coords.text = interior
     return polygon
 
 
-def make_placemark(name, coords_text, description=None, style_url=None):
+def make_placemark(name, coords_info, description=None, style_url=None):
     """
     Create a KML Placemark element with a single polygon.
-    coords_text is a single KML coordinates string (e.g. "lon,lat,0 lon,lat,0...").
-    Pass empty string for placemarks without geometry (no_polygon type).
+    coords_info is {"exterior": str, "interiors": [str, ...]} or a plain str (backward compat).
+    Pass {} or "" for placemarks without geometry (no_polygon type).
     """
     placemark = etree.Element(f"{{{NS}}}Placemark")
     
@@ -658,17 +1101,20 @@ def make_placemark(name, coords_text, description=None, style_url=None):
         desc_el = etree.SubElement(placemark, f"{{{NS}}}description")
         desc_el.text = description
     
-    if coords_text:
-        placemark.append(make_polygon_element(coords_text))
+    if coords_info:
+        if isinstance(coords_info, str):
+            placemark.append(make_polygon_element({"exterior": coords_info, "interiors": []}))
+        elif coords_info.get("exterior"):
+            placemark.append(make_polygon_element(coords_info))
     
     return placemark
 
 
-def make_placemark_multi(name, coords_list, description=None, style_url=None):
+def make_placemark_multi(name, coords_info_list, description=None, style_url=None):
     """
     Create a KML Placemark with multiple polygons wrapped in MultiGeometry.
     Used by domain overlay KMLs where individual polygon styling isn't needed.
-    coords_list is a list of KML coordinate strings.
+    coords_info_list is a list of {"exterior": str, "interiors": [str, ...]} or flat str (backward compat).
     """
     placemark = etree.Element(f"{{{NS}}}Placemark")
     
@@ -683,12 +1129,17 @@ def make_placemark_multi(name, coords_list, description=None, style_url=None):
         desc_el = etree.SubElement(placemark, f"{{{NS}}}description")
         desc_el.text = description
     
-    if len(coords_list) == 1:
-        placemark.append(make_polygon_element(coords_list[0]))
-    elif len(coords_list) > 1:
+    def wrap(ct):
+        if isinstance(ct, str):
+            return {"exterior": ct, "interiors": []}
+        return ct
+    
+    if len(coords_info_list) == 1:
+        placemark.append(make_polygon_element(wrap(coords_info_list[0])))
+    elif len(coords_info_list) > 1:
         multi = etree.SubElement(placemark, f"{{{NS}}}MultiGeometry")
-        for ct in coords_list:
-            multi.append(make_polygon_element(ct))
+        for ct in coords_info_list:
+            multi.append(make_polygon_element(wrap(ct)))
     
     return placemark
 
@@ -862,11 +1313,14 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
     entity_errors = []
     groups_expanded = {}
     entity_styles = {}
+    remainder_fragments = {}
     
     for entity_name, entity_cfg in config["entities"].items():
         source_type = entity_cfg.get("source", "none")
         
         if source_type == "county":
+            clip_cfg = entity_cfg.get("clip_entity")
+            
             matches, warnings = match_counties(
                 county_data,
                 entity_cfg.get("counties", [])
@@ -878,12 +1332,37 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
             
             merged = merge_polygons(matches)
             if merged is not None:
-                merged = remove_slivers(merged)
-                simplified = simplify_polygon(merged, tolerance=0.01)
-                coords = geom_to_coords(simplified)
+
+                # clip_entity: split merged polygon along a border line
+                if clip_cfg:
+                    try:
+                        border_line = load_border_line(os.path.join(script_dir, clip_cfg["line"]))
+                        sw, ne = split_into_sides(merged, border_line)
+                        if clip_cfg["keep_side"] == "southwest":
+                            kept = sw if sw is not None else merged
+                            discard = ne
+                        else:
+                            kept = ne if ne is not None else merged
+                            discard = sw
+                        kept = remove_slivers(kept)
+                        merged = kept
+                        # Store discard geometry for remainder donation
+                        remainder_target = clip_cfg.get("remainder_entity")
+                        if remainder_target and discard is not None and not discard.is_empty:
+                            discard = remove_slivers(discard)
+                            remainder_fragments.setdefault(remainder_target, []).append(discard)
+                    except Exception as e:
+                        entity_errors.append(f"  [{entity_name}] clip_entity failed: {e}")
+
+                prepared = prepare_for_output(merged, entity_cfg)
+
+                coords = geom_to_coords(prepared)
+
+
                 if coords:
                     entity_polygons[entity_name] = {
                         "coords": coords,
+                        "geom": merged,
                         "type": "county",
                         "cfg": entity_cfg,
                     }
@@ -931,7 +1410,7 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                         else:
                             entity_errors.append(f"  [{entity_name}] add_country_codes: '{cc}' not found")
                 
-                simplified = simplify_polygon(geom, tolerance=0.01)
+                simplified = prepare_for_output(geom, entity_cfg)
                 coords = geom_to_coords(simplified)
                 if coords:
                     entity_polygons[entity_name] = {
@@ -950,8 +1429,8 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
             geom = admin1_data.get((country_code, admin1_name))
             
             if geom is not None:
-                simplified = simplify_polygon(geom, tolerance=0.01)
-                coords = geom_to_coords(simplified)
+                prepared = prepare_for_output(geom, entity_cfg)
+                coords = geom_to_coords(prepared)
                 if coords:
                     entity_polygons[entity_name] = {
                         "coords": coords,
@@ -988,8 +1467,8 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                 
                 merged = merge_polygons(geoms)
                 if merged is not None:
-                    simplified = simplify_polygon(merged, tolerance=0.01)
-                    coords = geom_to_coords(simplified)
+                    prepared = prepare_for_output(merged, entity_cfg)
+                    coords = geom_to_coords(prepared)
                     if coords:
                         entity_polygons[entity_name] = {
                             "coords": coords,
@@ -1019,8 +1498,8 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                             g = remove_slivers(g)
                         geoms.append(g)
                         country_name = code_to_name.get(code, f"{entity_name} - {code}")
-                        simplified = simplify_polygon(g, tolerance=0.01)
-                        coords = geom_to_coords(simplified)
+                        prepared = prepare_for_output(g, entity_cfg)
+                        coords = geom_to_coords(prepared)
                         if coords:
                             entity_polygons[country_name] = {
                                 "coords": coords,
@@ -1037,8 +1516,8 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                     groups_expanded[entity_name] = expanded_names
                     merged = merge_polygons(geoms)
                     if merged is not None:
-                        simplified = simplify_polygon(merged, tolerance=0.01)
-                        coords = geom_to_coords(simplified)
+                        prepared = prepare_for_output(merged, entity_cfg)
+                        coords = geom_to_coords(prepared)
                         if coords:
                             entity_polygons[entity_name] = {
                                 "coords": coords,
@@ -1103,6 +1582,25 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
     if _fallback_color_count[0] > 0:
         print(f"  {_fallback_color_count[0]} entities used fallback (auto-generated) colors")
     
+    # Merge remainder fragments from clip_entity donations into target entities
+    for ename, extra_geoms in remainder_fragments.items():
+        if ename in entity_polygons:
+            target_geom = entity_polygons[ename].get("geom")
+            if target_geom is not None:
+                merged_geom = unary_union([target_geom] + extra_geoms)
+                merged_prepared = prepare_for_output(merged_geom, entity_polygons[ename]["cfg"])
+                merged_coords = geom_to_coords(merged_prepared)
+                if merged_coords:
+                    entity_polygons[ename]["coords"] = merged_coords
+                    entity_polygons[ename]["geom"] = merged_geom
+                    print(f"  Merged donated fragment into {ename} ({len(extra_geoms)} geom(s))")
+                else:
+                    entity_errors.append(f"  Remainder merge for '{ename}' produced no output")
+            else:
+                entity_errors.append(f"  Remainder target '{ename}' has no stored geometry")
+        else:
+            entity_errors.append(f"  Remainder target '{ename}' not found")
+
     # Post-processing: if Mexico and Texas both specify clip_line to the same file,
     # combine their polygons, split along the border line, and reassign fragments.
     clip_pairs = []
@@ -1139,7 +1637,8 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
             
             a_geoms = []
             for ct in poly_a["coords"]:
-                pts = [(float(p.split(",")[0]), float(p.split(",")[1])) for p in ct.strip().split() if "," in p]
+                coord_str = ct["exterior"] if isinstance(ct, dict) else ct
+                pts = [(float(p.split(",")[0]), float(p.split(",")[1])) for p in coord_str.strip().split() if "," in p]
                 if len(pts) >= 3:
                     if pts[0] != pts[-1]: pts.append(pts[0])
                     try: a_geoms.append(Polygon(pts))
@@ -1147,7 +1646,8 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
             
             b_geoms = []
             for ct in poly_b["coords"]:
-                pts = [(float(p.split(",")[0]), float(p.split(",")[1])) for p in ct.strip().split() if "," in p]
+                coord_str = ct["exterior"] if isinstance(ct, dict) else ct
+                pts = [(float(p.split(",")[0]), float(p.split(",")[1])) for p in coord_str.strip().split() if "," in p]
                 if len(pts) >= 3:
                     if pts[0] != pts[-1]: pts.append(pts[0])
                     try: b_geoms.append(Polygon(pts))
@@ -1209,8 +1709,8 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
             if sw_pieces:
                 sw_merged = unary_union(sw_pieces)
                 sw_merged = remove_slivers(sw_merged)
-                sw_simple = simplify_polygon(sw_merged, 0.01)
-                sw_coords = geom_to_coords(sw_simple)
+                sw_prepared = prepare_for_output(sw_merged, poly_sw.get("cfg", {}))
+                sw_coords = geom_to_coords(sw_prepared)
                 if sw_coords:
                     entity_polygons[ename_sw] = {
                         "coords": sw_coords,
@@ -1223,8 +1723,8 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
             if ne_pieces:
                 ne_merged = unary_union(ne_pieces)
                 ne_merged = remove_slivers(ne_merged)
-                ne_simple = simplify_polygon(ne_merged, 0.01)
-                ne_coords = geom_to_coords(ne_simple)
+                ne_prepared = prepare_for_output(ne_merged, poly_ne.get("cfg", {}))
+                ne_coords = geom_to_coords(ne_prepared)
                 if ne_coords:
                     entity_polygons[ename_ne] = {
                         "coords": ne_coords,
@@ -1502,7 +2002,11 @@ def main():
         sys.exit(1)
     
     print("Reading US county KML...")
-    county_data = read_county_kml(county_path)
+    fallback_path = os.path.join(script_dir, SOURCE_DIR, "us-counties.kml")
+    low_res_counties = {
+        "NC": ["Randolph", "Moore"],
+    }
+    county_data = read_county_kml(county_path, fallback_path, prefer_low_res=low_res_counties)
     print(f"  Loaded {len(county_data)} counties")
     print()
     

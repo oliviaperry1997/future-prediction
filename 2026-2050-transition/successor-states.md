@@ -2,7 +2,7 @@
 title: "US Successor States: Complete Landscape"
 status: draft
 created: 2026-05-20
-updated: 2026-05-21
+updated: 2026-05-25
 tags: [successor-states, reference, borders, transition]
 type: reference
 milestone: transition
@@ -15,7 +15,7 @@ parent_doc: index.md
 **Milestone:** `= this.milestone`
 **Status:** `= this.status`
 
-This document provides the complete reference map of successor states, indigenous sovereign nations, and contested territories that emerge from the fragmentation of the United States during the 2026-2049 transition period. It replaces the earlier vague 4-6 state estimate with a detailed 19-entity landscape.
+This document provides the complete reference map of successor states, indigenous sovereign nations, and contested territories that emerge from the fragmentation of the United States during the 2026-2049 transition period. It replaces the earlier vague 4-6 state estimate with a detailed 26-entity landscape.
 
 ## Governing Axis
 
@@ -30,7 +30,7 @@ The successor state landscape is organized around two key axes:
 
 ## Complete Entity Map
 
-### Revolutionary States (6 entities)
+### Revolutionary States (8 entities)
 
 #### 1. Pacific People's Republic (PPR)
 - **Orientation:** Revolutionary (HIGH)
@@ -108,6 +108,20 @@ The successor state landscape is organized around two key axes:
 - **Transition arc:** Starts as reactionary territory (2026-2037). Water crisis + energy transition + Hispanic organizing drives revolutionary movement. Aztlán declared ~2039-2040 (T-19).
 - **2050 state:** Population ~12M. Renewable energy superpower. Semiconductor manufacturing anchor. Water-constrained but managed via desalination partnerships with Mexico and aggressive conservation. Socialist economic model with strong indigenous autonomy.
 
+#### 7. New Afrika
+- **Orientation:** Revolutionary (MEDIUM)
+- **Core territory:** Louisiana, Mississippi, Alabama, Georgia, South Carolina, Florida Panhandle
+- **Capital:** Jackson, MS
+- **Population:** ~23M
+- **Economic base:** Gulf shipping (New Orleans, Mobile, Savannah, Charleston), petrochemicals (stranded CSA-era assets under revolutionary reorganization), agriculture (cotton, rice, soybeans), logistics (Atlanta), manufacturing (GA $69B, AL $35B, SC $35B, LA $45B legacy output — most disrupted by the transition)
+- **Union density:** Very low pre-revolution — LA 3.9%, MS 5.2%, AL 6.6%, GA 3.8%, SC 2.8%. Explosive post-revolution labor organizing under new revolutionary government. Trade unions were illegal under the CSA.
+- **Political/ideological foundation:** Black-led socialist republic rooted in the Republic of New Afrika tradition (founded 1968). Capital established at Jackson, MS.
+- **Indigenous nations:** Choctaw (MS), Coushatta (LA), Poarch Creek (AL), Catawba (SC), Eastern Band of Cherokee (border). New Afrika respects indigenous sovereignty and establishes nation-to-nation relationships.
+- **Energy profile:** Offshore wind (Gulf, Atlantic), solar, some remaining oil/gas. Stranded fossil fuel assets from the CSA era are being repurposed.
+- **Port access:** Major — New Orleans, Mobile, Savannah, Charleston, Jacksonville. Mississippi River shipping access.
+- **Transition arc:** Ex-CSA territory. Briefly part of the revived CSA (~2036-2044). Internal Black-led revolution ~2044-2046 (T-21) overthrows the CSA. Jackson falls to revolutionary forces first; Atlanta, New Orleans, Birmingham follow. Declared as the Republic of New Afrika (~2046).
+- **2050 state:** Black-led revolutionary socialist republic rebuilding from the brutal CSA period. Emerging as the revolutionary anchor of the Southeast. Strong ties to GLPR and NEC. Economy stabilizing after revolutionary consolidation.
+
 ### Indigenous Sovereign Nations (5 entities)
 
 #### 7. Navajo Nation (Diné Bikéyah)
@@ -169,54 +183,86 @@ The successor state landscape is organized around two key axes:
 - **Notable:** The Haudenosaunee already operate as a de facto sovereign confederacy with their own passports, courts, and diplomatic relationships (oldest living democracy in North America — founded ~1142 CE). They have UN recognition and relationships with other indigenous nations globally.
 - **Breakaway:** NY is within NEC territory. Haudenosaunee likely negotiate autonomous status within the Northeast Corridor rather than full independence. NEC's revolutionary ideology accommodates this.
 
-### Reactionary States (6 entities)
+### Reactionary States (9 entities)
 
-#### 13. Gulf Compact
-- **Orientation:** Reactionary → tips revolutionary late 2040s (MEDIUM)
-- **Core territory:** Texas (except west TX/El Paso region), Louisiana, Mississippi, Alabama, Florida Panhandle. Does not follow state lines — TX may fragment further.
-- **Economic base:** Energy (oil/gas — nation's largest producing region), petrochemicals, Gulf shipping, agriculture (cotton, rice, cattle). Manufacturing: TX ($239B), LA ($45B).
-- **Union density:** Very low — TX 4.5%, LA 3.9%, MS 5.2%, AL 6.6%. Key exception: petrochemical workers have latent organizing potential.
-- **Energy profile:** Fossil fuel dominant. Excellent offshore wind potential (Gulf). Solar (good-to-excellent). Enhanced geothermal potential (Gulf Coast). But stranded asset risk is extreme — oil/gas infrastructure loses value as global demand peaks.
-- **Strategic position:** Controls critical energy infrastructure and Gulf shipping. Major port access (Houston, New Orleans, Mobile).
-- **Indigenous nations:** Choctaw (MS/OK), Chickasaw (OK), Coushatta (LA), Alabama-Coushatta (TX), Kickapoo (TX). Compact's ethnonationalist tendency → exclusion → indigenous resistance.
-- **Transition arc:** Reactionary nationalist-capitalist from formation (~2036) through mid-2040s. Energy industry collapse accelerates with global demand decline. Petrochemical workforce organizes by ~2043-2045. By ~2047-2049, revolutionary movement reaches critical mass — Gulf socialist revolution likely in early 2050s (Phase 3 territory).
-- **2050 state:** In the midst of revolutionary transition. The Gulf Compact of 2039 has been overthrown or transformed. Socialist successor emerging. Messy and contested.
+#### 13. Florida
+- **Orientation:** Reactionary, degrading (MEDIUM)
+- **Core territory:** Florida mainland excluding the Panhandle (Panhandle counties joined New Afrika)
+- **Population:** ~12M (down from ~22M peak — climate-driven out-migration, CSA collapse disruption)
+- **Economic base:** Tourism (severely diminished — hurricane risk, heat), agriculture (citrus, vegetables — declining from saltwater intrusion and heat stress), some military legacy infrastructure
+- **Union density:** ~5%
+- **Indigenous nations:** Seminole, Miccosukee — tense relations with reactionary government
+- **Energy profile:** Solar (good), offshore wind (potential), some biomass
+- **Key metros:** Miami, Orlando, Tampa
+- **Strategic vulnerability:** Sea-level rise, hurricane intensification, saltwater intrusion of aquifers. The Panhandle's loss to New Afrika and the CSA's collapse shattered Florida's identity as a coherent state.
+- **Transition arc:** CSA member ~2036-2044. The Panhandle's loss in the New Afrika revolution split the state. Miami increasingly functions independently, oriented toward CARICOM and Caribbean trade.
+- **2050 state:** Degraded reactionary rump. Miami operates as a semi-independent city-state. Interior Florida is hollowing. The state's institutional capacity is minimal.
 
-#### 14. Atlantic South
-- **Orientation:** Reactionary, fragments (MEDIUM)
-- **Core territory:** Virginia, North Carolina, South Carolina, Georgia, Florida (most of — excluding Panhandle)
-- **Boundary questions:** Does not stay unified. Revolutionary islands: Research Triangle (NC — RTP, Durham, Chapel Hill), Atlanta metro, some parts of VA (Northern VA). Reactionary heartland: rural SC, GA, southern VA, FL interior/exurban.
-- **Economic base:** Military/defense (VA — largest federal recipient per capita), finance (Charlotte), tech (RTP, Atlanta), manufacturing (NC $88B, GA $69B, FL $65B), agriculture, tourism.
-- **Union density:** Lowest in nation — NC 2.4%, SC 2.8%, GA 3.8%, VA 5.2%, FL 5.1%
-- **Energy profile:** Moderate solar (Southeast lagging), offshore wind potential (Atlantic). Nuclear (existing plants in VA, NC, SC). Some hydro.
-- **Indigenous nations:** Eastern Band of Cherokee (NC), Lumbee (NC), Seminole (FL), various state-recognized tribes. Revolutionary islands (RTP, Atlanta) more likely to accommodate indigenous claims than reactionary heartland.
-- **Fragmentation sequence:** The reactionary rump cannot hold the revolutionary islands. Research Triangle declares autonomous socialist republic by ~2037. Atlanta follows by ~2038. Rump reactionary state(s) control the rural/interior territory. Some coastal areas (FL) may fragment further.
-- **2050 state:** Multiple entities. 2-3 reactionary rumps (rural SC/GA, northern FL, southern VA) + 2 revolutionary city-states (RTP, Atlanta) + Florida as its own fragmented entity.
+#### 14. North Carolina
+- **Orientation:** Reactionary, degrading (MEDIUM)
+- **Core territory:** North Carolina minus the Research Triangle Area (Raleigh-Durham-Chapel Hill) revolutionary enclave
+- **Population:** ~8M
+- **Economic base:** Agriculture (tobacco, soybeans, hogs), furniture, textiles — all in decline. Charlotte's finance sector collapsed with the dollar. RTP's tech and pharma industries are lost to the enclave.
+- **Union density:** ~2% (lowest in former US)
+- **Indigenous nations:** Lumbee, Eastern Band of Cherokee — territorial claims contested
+- **Revolutionary enclave:** The Research Triangle Area exists as a besieged revolutionary city-state, tenuously linked to New Afrika and the NEC. RTP's independence is a constant political humiliation.
+- **Transition arc:** CSA member ~2036-2044. RTP declared independence during the New Afrika revolution and the state never regained control.
+- **2050 state:** Hollowed reactionary rump defined by what it lost — RTP, economic relevance, and any coherent identity.
 
-#### 15. Appalachian Zone
-- **Orientation:** Starts reactionary, fragments, revolutionary breakaways emerge (MEDIUM)
-- **Core territory:** West Virginia, Kentucky, eastern Tennessee, southwestern Virginia
-- **Economic base:** Coal (declining), natural gas (Marcellus/Utica), timber, some manufacturing (KY $40B). Historically one of the poorest regions in the US.
-- **Union density:** Moderate — WV 8.8%, KY 8.8%, TN 4.7%. Dormant union history (UMWA — United Mine Workers) is key — coal's decline activates organizing tradition.
-- **Energy profile:** Coal (declining), natural gas, some hydro. Enhanced geothermal potential (EGS — WV, PA, NY). Wind potential (mountain ridges).
-- **Strategic position:** Rugged terrain favors fragmentation. Transportation corridors (interstates, rivers) are limited.
-- **Indigenous nations:** None with major land base (Cherokee were removed). Some state-recognized groups. Landback less central here.
-- **Fragmentation sequence:** Starts reactionary (2026-2037). Deep economic depression as coal collapses. Dormant union tradition reactivates. By ~2039-2043, revolutionary breakaways emerge in coal country (southern WV, eastern KY). The rest remains reactionary but weak and fragmented.
-- **2050 state:** A patchwork. 2-3 revolutionary coal-country republics (small, resource-based) + 1-2 reactionary rumps (KY/TN) + extensive ungoverned territory.
+#### 15. Virginia
+- **Orientation:** Reactionary, degrading (LOW confidence — very small)
+- **Core territory:** Virginia minus the ~15 western-most counties (Lee through Highland) that broke away to Appalachia, plus the WV eastern panhandle (Berkeley, Jefferson, Morgan).
+- **Population:** ~5M
+- **Economic base:** Agriculture, residual military infrastructure (Hampton Roads — Norfolk Naval Base legacy), declining without federal funding. No NOVA (lost to NEC) and no western mountain counties.
+- **Transition arc:** Split between NEC (northern VA) and CSA (southern VA) during the initial fragmentation. Joined the CSA ~2036-2044, then collapsed into a weak reactionary remnant after the New Afrika revolution. The eastern panhandle of WV was absorbed during the chaos, providing a land link to NEC Maryland.
+- **2050 state:** A reactionary rump defined by what it lost — NOVA to NEC, western counties to Appalachia, and any institutional capacity. The WV eastern panhandle addition provides negligible benefit.
 
-#### 16. Heartland Plains
+#### 16. Tennessee
+- **Orientation:** Reactionary, degrading (MEDIUM)
+- **Core territory:** State of Tennessee
+- **Population:** ~5M
+- **Economic base:** Agriculture, healthcare (Nashville legacy), logistics — all declining without national economic integration. Nashville's music/entertainment industry collapsed with the national market.
+- **Transition arc:** CSA member ~2036-2044. Post-revolution, it attempted to stand alone but lacks the industrial base, port access, or institutional capacity to function as a viable state.
+- **2050 state:** Reactionary rump. Its position as a crossroads state became irrelevant when the roads led through hostile territory (New Afrika to the south, Appalachia to the east).
+
+#### 17. Kentucky
+- **Orientation:** Reactionary, degrading (MEDIUM)
+- **Core territory:** Kentucky minus the eastern coal counties that broke away to join Appalachia
+- **Population:** ~3M
+- **Economic base:** Bourbon, horses, tobacco, agriculture — all declining in a fragmented market without access to national distribution
+- **Transition arc:** CSA member ~2036-2044. Eastern Kentucky's coal country, with its strong UMW history, broke away during the New Afrika revolution to join the ARZ. The western rump is demoralized and hollow.
+- **2050 state:** Small reactionary rump. No significant urban centers, no ports, no strategic resources. One of the weakest reactionary entities.
+
+#### 18. Arkansas
+- **Orientation:** Reactionary, degrading (LOW confidence)
+- **Core territory:** State of Arkansas
+- **Population:** ~3M
+- **Economic base:** Agriculture (rice, soybeans, poultry), logistics (Mississippi River corridor) — all in decline without federal subsidies and national markets. The Walmart-Bentonville corridor functions as a semi-autonomous corporate zone.
+- **Transition arc:** CSA member ~2036-2044. Emerged as an independent reactionary rump after the New Afrika revolution. Too weak to rejoin anything.
+- **2050 state:** Weak reactionary rump sandwiched between New Afrika, Sequoyan Nation, and Missouri/Heartland.
+
+#### 19. Texas
+- **Orientation:** Reactionary, degrading (MEDIUM)
+- **Core territory:** Remainder of Texas east and north of the Aztlán corridor (west TX/El Paso joined Aztlán)
+- **Population:** ~30M
+- **Economic base:** Energy industry severely hollowed — loss of Permian Basin and coastal refinery strip to Aztlán and New Afrika shattered the state's traditional economy. Some remaining agriculture, tech (Austin — besieged), and scattered manufacturing.
+- **Note:** Texas joined the revived CSA briefly (~2036-2044) but broke away independently during the New Afrika Revolution, using the chaos to reassert its own distinct identity rather than being absorbed into the revolutionary tide. Texas nationalism was always in tension with CSA identity.
+- **Transition arc:** CSA member → broke away during New Afrika revolution (~2044-2046) → attempted independent reactionary state. Enormous internal contradictions: Houston/Galveston contested with New Afrika; west TX lost to Aztlán; Austin is a potential revolutionary island.
+- **2050 state:** The largest reactionary rump but deeply fractured. Internal fragmentation (Austin, Houston, Dallas-Fort Worth power centers pulling in different directions) is ongoing. Landlocked between Aztlán, New Afrika, Sequoyan Nation, and the Heartland.
+
+#### 20. Heartland Plains
 - **Orientation:** Reactionary (degrading, further fragmented by Dakota sovereignty) (MEDIUM)
 - **Core territory:** Iowa, Nebraska, Kansas, parts of Dakotas and Missouri, possibly northern Oklahoma
 - **Economic base:** Agriculture — corn, soybeans, wheat, cattle. Export-dependent. Crop values: IA ($32B), NE ($26B), KS ($20B), MO ($6B). Some manufacturing (IA $35B, KS $27B, NE $18B, MO $43B).
 - **Union density:** Low — IA 6.4%, NE 6.8%, KS 6.3%, MO 8.6%
 - **Energy profile:** Excellent wind (Great Plains — best in US), good solar, some oil/gas (KS, OK). Can be an energy exporter if transmission infrastructure built.
 - **Water:** Ogallala Aquifer depletion is a slow-moving crisis — some areas will run out of irrigation water within decades.
-- **Strategic vulnerability:** Export-dependent agriculture + no ports = hostage to whoever controls the Mississippi River and rail corridors. GLPR controls Great Lakes shipping; Gulf Compact controls Gulf ports.
+- **Strategic vulnerability:** Export-dependent agriculture + no ports = hostage to whoever controls the Mississippi River and rail corridors. GLPR controls Great Lakes shipping; New Afrika controls eastern Gulf ports.
 - **Indigenous nations:** Dakota/Lakota treaty lands (ND, SD, NE) — sovereignty declaration (see #8) would carve the heart out of this region.
 - **Fragmentation sequence:** Dakota sovereignty (T-18, ~2036-2037) separates the Dakotas. Remaining territory (IA, NE, KS, MO) attempts reactionary governance but is economically hollow. GLPR may absorb eastern parts (IA, northern MO) by ~2038-2040.
 - **2050 state:** A shrinking reactionary rump (NE/KS) surrounded by revolutionary states (GLPR to east, Dakota to north) — economically dependent and politically unstable.
 
-#### 17. Mormon Corridor (Deseret)
+#### 21. Mormon Corridor (Deseret)
 - **Orientation:** Reactionary, culturally unified, severely degraded (MEDIUM)
 - **Core territory:** Utah, southern Idaho, eastern Nevada, potentially parts of western Colorado and northern Arizona
 - **Population:** ~6-7M. Dense in Wasatch Front (SLC/Provo), sparse elsewhere.
@@ -228,7 +274,7 @@ The successor state landscape is organized around two key axes:
 - **Degradation pattern:** Without federal transfers and with the collapse of national markets, the Mormon Corridor survives through institutional cohesion (church) but its economy degrades from ~2035 onward. Tech sector withers without global integration. Mining/extraction declines with energy transition. The corridor is **culturally intact but economically hollow** by 2050.
 - **2050 state:** Still unified, still culturally Mormon, but significantly poorer. Population may decline as young people leave for revolutionary states. Social safety net provided by church rather than state. Indigenous sovereignty in southern UT.
 
-#### 18. Mountain Extraction Rump / Tapestry States
+#### 22. Mountain Extraction Rump / Tapestry States
 - **Orientation:** Reactionary, highly fragmented, absorbed or dissolved (LOW confidence)
 - **Core territory:** Montana, Wyoming, rural Colorado, rural Idaho, remaining NV outside Vegas/Reno
 - **Sub-structures:**
@@ -241,7 +287,7 @@ The successor state landscape is organized around two key axes:
 - **Fragmentation sequence:** Many small entities, some absorbed by neighbors. Columbia Plateau consolidates into one reactionary republic (~2036-2039). The rest: mountain counties coordinate loosely, then fragment into irrelevance as federal funding stops by ~2037.
 - **2050 state:** Columbia Plateau Republic (maybe flipping revolutionary) + scattered small entities being absorbed or dissolving.
 
-#### 19. Alaska
+#### 23. Alaska
 - **Orientation:** Reactionary, rapidly degrading (LOW confidence)
 - **Core territory:** Anchorage/Mat-Su, Fairbanks, Kenai Peninsula (the urban/suburban corridor of Alaska)
 - **Population:** ~450K. Main urban population center but tiny by Lower 48 standards.
@@ -251,6 +297,26 @@ The successor state landscape is organized around two key axes:
 - **Indigenous nations:** The entire state is indigenous territory outside the Anchorage urban corridor. ANCSA corporations and tribal governments fill the governance vacuum everywhere else.
 - **Degradation pattern:** Oil revenue collapses → Permanent Fund depletes → mainland supply lines severed by T-20 (~2038-2039) → government services stop → population exodus to indigenous territories or what remains of the Lower 48.
 - **2050 state:** A shrunken, impoverished rump around Anchorage. Indigenous territories have separated. Some residual military infrastructure but no capacity to use it. Alaska is effectively balkanized into the Rump + Tlingit Aaní (SE) + indigenous regional territories (North Slope, Western, Interior).
+
+#### 24. Alleghenia
+- **Orientation:** Revolutionary
+- **Core territory:** Greater Pittsburgh region — 37 counties in western Pennsylvania (Allegheny, Armstrong, Bedford, Blair, Bradford, Butler, Cambria, Cameron, Centre, Clarion, Clearfield, Clinton, Columbia, Elk, Fayette, Forest, Fulton, Greene, Huntingdon, Indiana, Jefferson, Juniata, Lycoming, McKean, Mifflin, Montour, Northumberland, Potter, Snyder, Somerset, Sullivan, Tioga, Union, Venango, Warren, Washington, Westmoreland) plus the WV northern panhandle (Hancock, Brooke, Ohio, Marshall).
+- **Capital:** Pittsburgh
+- **Population:** ~5M
+- **Economic base:** Legacy industrial infrastructure (steel, manufacturing, robotics, AI), Marcellus/Utica shale gas, healthcare (UPMC), higher education (University of Pittsburgh, CMU). Pittsburgh's robotics and AI sectors are significant.
+- **Political character:** Revolutionary breakaway from the US remnant government (~2038-2040). Pittsburgh's strong labor history, multiracial working-class coalition, and post-industrial innovation economy create a distinct revolutionary identity — neither NEC nor GLPR, but allied with both.
+- **Transition arc:** Remained under US remnant control after NEC and GLPR declared independence (~2036-2039). The remnant proved unable to maintain governance; Pittsburgh-area labor unions and municipal governments coordinated a People's Assembly by ~2039, declaring independence as Alleghenia ~2040. The WV northern panhandle (Pittsburgh's southern suburbs) joined naturally.
+- **2050 state:** Small but strategically positioned revolutionary republic controlling critical infrastructure (Marcellus/Utica gas, Pittsburgh manufacturing) and key river corridors (Ohio River, Allegheny, Monongahela). Allied with both GLPR and NEC. Bridges the two larger revolutionary states geographically and economically.
+
+#### 25. Appalachia
+- **Orientation:** Revolutionary
+- **Core territory:** All of West Virginia (minus eastern panhandle — Berkeley, Jefferson, Morgan to Virginia; northern panhandle — Hancock, Brooke, Ohio, Marshall to Alleghenia), ~15 western Virginia counties (Lee through Highland), and 24 eastern Kentucky coal counties.
+- **Capital:** Charleston, WV
+- **Population:** ~2M
+- **Economic base:** Coal (declining), timber, natural gas (Marcellus/Utica), small-scale manufacturing, growing renewable energy (wind, solar in mountain ridges). Limited but defensible.
+- **Political character:** Explicitly anti-CSA — West Virginia was never Confederate (born from the anti-secessionist Restored Government of Virginia). Eastern Kentucky had divided loyalties. The dormant UMW organizing tradition was powerfully reactivated during the CSA period. Appalachia subsumes the former state identity of West Virginia; the state as a political unit no longer exists.
+- **Transition arc:** Part of the revived CSA ~2036-2044. Appalachia was the first region in the South to revolt against CSA rule, using mountainous terrain and dormant labor-organizing infrastructure (UMW). By ~2044, it had expelled CSA forces and declared itself a revolutionary zone allied with the GLPR. The WV identity was absorbed during this process; the state government of WV dissolved by ~2041, and its territory was partitioned between Appalachia, Virginia, and Alleghenia.
+- **2050 state:** Small but tenacious revolutionary corridor allied with the GLPR, Alleghenia, and New Afrika. Contested, mountainous terrain makes it highly defensible. Not self-sufficient in food or energy but strategically positioned astride the Appalachian spine.
 
 ## Summary Table
 
@@ -262,19 +328,26 @@ The successor state landscape is organized around two key axes:
 | 4 | Great Lakes People's Republic | Revolutionary | Manufacturing ($440B+), agriculture, shipping | ~50M | 2036-2040 | Reindustrializing anchor |
 | 5 | Front Range Socialist Republic | Revolutionary island | Tech, aerospace, green energy | ~5M | 2037-2040 | Viable but strained |
 | 6 | Aztlán | Revolutionary (late) | Semiconductors, solar, mining | ~12M | ~2039-2040 | Renewable superpower, water-constrained |
-| 7 | Navajo Nation | Indigenous revolutionary | Energy, solar, governance | ~500K | ~2036-2037 | Autonomous within Aztlán |
-| 8 | Dakota/Lakota Nation | Indigenous revolutionary | Agriculture, wind, treaty lands | ~100K+ | ~2036-2037 | Independent, fragments Heartland |
-| 9 | Sequoyan Nation | Indigenous revolutionary | Gaming, manufacturing, services | ~470K | ~2038-2040 | Sovereign, strong economy |
-| 10 | AK Indigenous Socialist Republic | Indigenous revolutionary | Fishing, hydro, timber | ~75K | ~2037-2040 | Independent, PPR-allied |
-| 11 | Other AK Indigenous | Indigenous sovereign | Various (oil, fishing, mining) | ~100K | ~2039-2048 | Mosaic of territories |
-| 12 | Haudenosaunee Confederacy | Indigenous revolutionary | Gaming, agriculture, governance | ~50K+ | ~2036-2040 | Autonomous within NEC |
-| 13 | Gulf Compact | Reactionary→Revolutionary | Oil/gas, petrochemicals, shipping | ~35M | ~2036-2049 | In revolutionary transition |
-| 14 | Atlantic South | Reactionary/fragments | Military, finance, tech islands | ~35M | ~2035-2045 | Multiple entities |
-| 15 | Appalachian Zone | Reactionary→Revolutionary fragments | Coal, gas, timber | ~12M | ~2037-2045 | Patchwork, revolutionary breakaways |
-| 16 | Heartland Plains | Reactionary/degrading | Export agriculture | ~12M | ~2036-2045 | Shrinking, surrounded |
-| 17 | Mormon Corridor | Reactionary/degrading | Tech, mining, agriculture | ~6M | ~2036-2045 | Culturally intact, economically hollow |
-| 18 | Mountain Tapestry | Reactionary/fragmenting | Extraction, tourism, energy | ~5M | ~2036-2045 | Mostly absorbed or dissolved |
-| 19 | Alaska | Reactionary/degrading | Oil, Permanent Fund, military | ~450K | ~2038-2048 | Shrunken, impoverished |
+| 7 | New Afrika | Revolutionary | Gulf shipping, manufacturing, agriculture | ~23M | ~2044-2046 | Black-led socialist republic rebuilding from CSA |
+| 8 | Navajo Nation | Indigenous revolutionary | Energy, solar, governance | ~500K | ~2036-2037 | Autonomous within Aztlán |
+| 9 | Dakota/Lakota Nation | Indigenous revolutionary | Agriculture, wind, treaty lands | ~100K+ | ~2036-2037 | Independent, fragments Heartland |
+| 10 | Sequoyan Nation | Indigenous revolutionary | Gaming, manufacturing, services | ~470K | ~2038-2040 | Sovereign, strong economy |
+| 11 | Tlingit Aaní | Indigenous revolutionary | Fishing, hydro, timber | ~75K | ~2037-2040 | Independent, PPR-allied |
+| 12 | Other AK Indigenous | Indigenous sovereign | Various (oil, fishing, mining) | ~100K | ~2039-2048 | Mosaic of territories |
+| 13 | Haudenosaunee Confederacy | Indigenous revolutionary | Gaming, agriculture, governance | ~50K+ | ~2036-2040 | Autonomous within NEC |
+| 14 | Florida | Reactionary/degrading | Tourism, agriculture, military legacy | ~12M | ~2036-2044 | Degraded rump, Miami semi-independent |
+| 15 | North Carolina | Reactionary/degrading | Agriculture, textiles, manufacturing | ~8M | ~2036-2044 | Hollowed, lost RTP enclave |
+| 16 | Virginia | Reactionary/degrading | Agriculture, military infrastructure | ~5M | ~2036-2044 | Rump, lost NOVA + western counties to Appalachia |
+| 17 | Tennessee | Reactionary/degrading | Agriculture, healthcare, logistics | ~5M | ~2036-2044 | Crossroads state, irrelevant |
+| 18 | Kentucky | Reactionary/degrading | Bourbon, horses, tobacco | ~3M | ~2036-2044 | Weakest reactionary rump |
+| 19 | Arkansas | Reactionary/degrading | Agriculture, logistics | ~3M | ~2036-2044 | Weak, sandwiched |
+| 20 | Texas | Reactionary/degrading | Energy (collapsed), agriculture | ~30M | ~2036-2044 | Largest rump, deeply fractured |
+| 21 | Heartland Plains | Reactionary/degrading | Export agriculture | ~12M | ~2036-2045 | Shrinking, surrounded |
+| 22 | Mormon Corridor | Reactionary/degrading | Tech, mining, agriculture | ~6M | ~2036-2045 | Culturally intact, economically hollow |
+| 23 | Mountain Tapestry | Reactionary/fragmenting | Extraction, tourism, energy | ~5M | ~2036-2045 | Mostly absorbed or dissolved |
+| 24 | Alaska | Reactionary/degrading | Oil, Permanent Fund, military | ~450K | ~2038-2048 | Shrunken, impoverished |
+| 24 | Alleghenia | Revolutionary | Manufacturing, robotics, shale gas, healthcare | ~5M | ~2039-2040 | Pittsburgh-anchored bridge between NEC and GLPR |
+| 25 | Appalachia | Revolutionary | Coal, timber, natural gas, renewables | ~2M | ~2044 | Anti-CSA corridor, absorbed WV identity |
 
 ## Key Dynamics
 
@@ -288,4 +361,4 @@ The successor state landscape is organized around two key axes:
 
 ---
 
-*Reference document for the 2026-2050 Transition. This feeds borders.md Driver 6 (Revolutionary vs Reactionary Divergence) and Driver 7 (Indigenous Sovereignty & Landback). Last updated: 2026-05-20.*
+*Reference document for the 2026-2050 Transition. This feeds borders.md Driver 6 (Revolutionary vs Reactionary Divergence) and Driver 7 (Indigenous Sovereignty & Landback). Last updated: 2026-05-25.*
