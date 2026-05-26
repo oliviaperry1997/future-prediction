@@ -365,45 +365,8 @@
     "Great Lakes": {
       "type": "entity",
       "category": "revolutionary",
-      "source": "county",
-      "counties": [
-        {
-          "state": "MI",
-          "county": ".*"
-        },
-        {
-          "state": "OH",
-          "county": ".*"
-        },
-        {
-          "state": "IN",
-          "county": ".*"
-        },
-        {
-          "state": "IL",
-          "county": ".*"
-        },
-        {
-          "state": "WI",
-          "county": ".*"
-        },
-        {
-          "state": "MN",
-          "county": ".*"
-        },
-        {
-          "state": "PA",
-          "county": "^(Beaver|Lawrence|Mercer|Crawford|Erie).*"
-        },
-        {
-          "state": "IA",
-          "county": ".*"
-        },
-        {
-          "state": "MO",
-          "county": ".*"
-        }
-      ],
+      "source": "manual",
+      "manual_path": "source/manual/Great Lakes.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "great-lakes",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes"

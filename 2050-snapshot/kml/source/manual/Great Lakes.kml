@@ -1,0 +1,2230 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2">
+  <ns0:Document><ns0:name>Great Lakes</ns0:name><ns0:Placemark id="5C777F322400045C">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-87.983222,44.600167,0 -87.990505,44.604034,0 -87.981261,44.586669,0 -87.983222,44.600167,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400045D">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-88.00553600000001,44.61647,0 -88.000592,44.610748,0 -87.99126800000001,44.605919,0 -88.00336900000001,44.617111,0 -88.00553600000001,44.61647,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400045E">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-87.98191,44.65467,0 -87.980154,44.653961,0 -87.987915,44.67761,0 -87.98191,44.65467,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400045F">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-87.49715399999999,45.061136,0 -87.50507399999999,45.059804,0 -87.49283,45.05573199999999,0 -87.49715399999999,45.061136,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000460">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-87.45905399999999,46.637984,0 -87.45689400000001,46.638404,0 -87.45915100000001,46.639995,0 -87.45905399999999,46.637984,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000461">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-87.54045600000001,46.705129,0 -87.5425,46.704189,0 -87.541822,46.703555,0 -87.54045600000001,46.705129,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000462">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.784425,46.729375,0 -90.806883,46.729258,0 -90.766023,46.712851,0 -90.77366499999999,46.723,0 -90.784425,46.729375,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000463">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.791562,46.784983,0 -90.78789399999999,46.752773,0 -90.71645599999999,46.78541799999999,0 -90.65717899999999,46.78879999999999,0 -90.67384699999999,46.81967000000001,0 -90.56887399999999,46.847252,0 -90.61645199999998,46.874466,0 -90.733001,46.800219,0 -90.791562,46.784983,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000464">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.72663000000001,46.872355,0 -90.749481,46.862469,0 -90.763554,46.832363,0 -90.744044,46.837647,0 -90.72663000000001,46.872355,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000465">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.448949,46.896462,0 -90.51428900000001,46.874273,0 -90.484835,46.872623,0 -90.448949,46.896462,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000466">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.673194,46.883279,0 -90.667441,46.891355,0 -90.70270800000002,46.886971,0 -90.673194,46.883279,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000467">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.654809,46.919535,0 -90.63908699999999,46.90648700000001,0 -90.56853199999999,46.925134,0 -90.539734,46.910175,0 -90.54553300000001,46.931592,0 -90.50863,46.957688,0 -90.53296499999999,46.966588,0 -90.63712500000001,46.941939,0 -90.654809,46.919535,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000468">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.73669599999999,46.913442,0 -90.68898800000001,46.917461,0 -90.694489,46.93671,0 -90.74054700000001,46.96420699999999,0 -90.76528899999998,46.94702100000001,0 -90.73669599999999,46.913442,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000469">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-91.037277,46.945567,0 -91.03422399999999,46.945249,0 -91.035697,46.946229,0 -91.037277,46.945567,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400046A">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-87.956543,46.95160600000001,0 -87.959092,46.950504,0 -87.95755200000001,46.949246,0 -87.956543,46.95160600000001,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400046B">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-87.978258,46.95431399999999,0 -87.963634,46.951313,0 -87.96903500000001,46.95376,0 -87.978258,46.95431399999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400046C">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-88.00542299999999,46.965764,0 -87.99731300000001,46.959447,0 -87.997179,46.962815,0 -88.00542299999999,46.965764,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400046D">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.67158500000001,46.948975,0 -90.63695799999999,46.981136,0 -90.67844300000002,46.95642700000001,0 -90.67158500000001,46.948975,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400046E">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.795939,46.969106,0 -90.78991500000001,46.98090699999999,0 -90.80571700000002,46.971788,0 -90.795939,46.969106,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400046F">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.98031599999999,46.971577,0 -90.93195600000001,46.963117,0 -90.93089600000002,47.002097,0 -90.982101,46.985855,0 -90.98031599999999,46.971577,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000470">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.85968,46.976395,0 -90.85101999999999,46.983049,0 -90.878591,46.991318,0 -90.85968,46.976395,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000471">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.71202900000002,46.98526,0 -90.694778,46.98288,0 -90.66920500000001,47.00013,0 -90.69656399999998,47.008461,0 -90.71202900000002,46.98526,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000472">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.62721000000001,47.002614,0 -90.603172,46.99537299999999,0 -90.60597199999999,47.007042,0 -90.62721000000001,47.002614,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000473">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.56356999999998,46.997156,0 -90.546485,47.017712,0 -90.57037499999998,47.038298,0 -90.56356999999998,46.997156,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000474">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.77493099999998,47.024519,0 -90.76590800000001,47.002076,0 -90.73901099999999,47.013726,0 -90.75891,47.034719,0 -90.77493099999998,47.024519,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000475">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.64124700000002,47.025563,0 -90.63769600000001,47.038185,0 -90.64495599999998,47.04018200000001,0 -90.64124700000002,47.025563,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000476">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.692807,47.02337399999999,0 -90.68030200000001,47.018945,0 -90.65040999999999,47.050509,0 -90.68867899999999,47.043222,0 -90.692807,47.02337399999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000477">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.448278,47.06531199999999,0 -90.465239,46.997588,0 -90.41041499999999,47.01687800000001,0 -90.40145699999999,47.076778,0 -90.448278,47.06531199999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000478">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.58294700000002,47.069138,0 -90.590853,47.06523799999999,0 -90.589431,47.05894500000001,0 -90.58294700000002,47.069138,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000479">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-90.72197299999999,47.063209,0 -90.72077199999998,47.07328999999999,0 -90.72870900000001,47.080621,0 -90.73003899999999,47.06561399999999,0 -90.72197299999999,47.063209,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400047A">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-88.274086,47.074909,0 -88.276076,47.071631,0 -88.26930299999999,47.069486,0 -88.274086,47.074909,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400047B">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-91.55157899999999,47.087343,0 -91.55141999999999,47.088261,0 -91.55277,47.090783,0 -91.55319299999998,47.087631,0 -91.55157899999999,47.087343,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400047C">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-87.586224,47.418336,0 -87.652303,47.41621,0 -87.600342,47.407711,0 -87.586224,47.418336,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400047D">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-88.85126700000001,47.911493,0 -88.84505900000001,47.915241,0 -88.851677,47.913,0 -88.85126700000001,47.911493,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400047E">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-88.818355,47.928058,0 -88.797465,47.93496900000001,0 -88.78231,47.940723,0 -88.798982,47.935706,0 -88.818355,47.928058,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400047F">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-89.664537,47.95263,0 -89.65510500000001,47.95273700000001,0 -89.657082,47.954104,0 -89.664537,47.95263,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000480">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-89.59205799999999,47.966683,0 -89.586394,47.958782,0 -89.55348600000001,47.973339,0 -89.574896,47.980676,0 -89.59205799999999,47.966683,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000481">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-88.422601,48.190975,0 -88.501088,48.168181,0 -88.547033,48.174891,0 -88.632712,48.148584,0 -88.787556,48.063035,0 -89.095207,47.967922,0 -89.24712700000001,47.888503,0 -89.216987,47.89220400000001,0 -89.2628,47.86986399999999,0 -89.238259,47.87299600000001,0 -89.203796,47.886307,0 -89.234533,47.851718,0 -89.201812,47.850243,0 -89.162048,47.823564,0 -88.911665,47.891344,0 -88.899698,47.90244499999999,0 -88.950429,47.89053,0 -89.005095,47.898658,0 -88.89918400000001,47.95330000000001,0 -88.670073,48.01144600000001,0 -88.58588899999999,48.05426799999999,0 -88.56693799999999,48.093719,0 -88.418244,48.18037000000001,0 -88.422601,48.190975,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000482">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-88.723219,48.10414999999999,0 -88.734053,48.100655,0 -88.72121799999999,48.10394399999999,0 -88.705494,48.111175,0 -88.723219,48.10414999999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000483">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-88.336342,48.237138,0 -88.352504,48.235476,0 -88.367788,48.222952,0 -88.336342,48.237138,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000484">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-94.78151800000001,39.206146,0 -94.74193799999999,39.170203,0 -94.68033599999998,39.184303,0 -94.655787,39.15568,0 -94.588413,39.149869,0 -94.60829000000001,39.117944,0 -94.61865800000001,36.880064,0 -94.61791900000001,36.499414,0 -90.15248099999998,36.497952,0 -90.13851200000001,36.413952,0 -90.080426,36.400763,0 -90.064514,36.382085,0 -90.08196100000001,36.322097,0 -90.06398,36.303038,0 -90.083731,36.272332,0 -90.11492200000002,36.265595,0 -90.12636600000002,36.229367,0 -90.22042500000002,36.184764,0 -90.235585,36.139474,0 -90.319168,36.089976,0 -90.377864,35.995718,0 -89.70693199999999,36.000981,0 -89.678821,36.084636,0 -89.60193599999999,36.11947,0 -89.591605,36.144096,0 -89.607004,36.171179,0 -89.70351100000001,36.243412,0 -89.602374,36.238106,0 -89.534745,36.252576,0 -89.53948699999999,36.277368,0 -89.620255,36.323006,0 -89.60566799999999,36.342234,0 -89.53182200000001,36.339246,0 -89.509558,36.375065,0 -89.545255,36.427079,0 -89.51950100000001,36.475419,0 -89.560344,36.525436,0 -89.566817,36.564216,0 -89.54245899999999,36.580566,0 -89.47909300000001,36.568206,0 -89.46588800000001,36.529946,0 -89.494074,36.473225,0 -89.464153,36.457189,0 -89.41977,36.493896,0 -89.365548,36.625059,0 -89.326731,36.632186,0 -89.27171,36.571387,0 -89.236542,36.566824,0 -89.15908,36.666352,0 -89.199798,36.734217,0 -89.169106,36.759473,0 -89.119198,36.759802,0 -89.12353,36.785309,0 -89.171069,36.798119,0 -89.178888,36.831368,0 -89.137969,36.847349,0 -89.098843,36.95785,0 -89.16644700000001,37.003337,0 -89.181369,37.046305,0 -89.08652600000001,37.165602,0 -89.02998100000001,37.211144,0 -88.974711,37.229708,0 -88.91618,37.223991,0 -88.80571999999999,37.188595,0 -88.732105,37.143956,0 -88.625889,37.119458,0 -88.566839,37.0755,0 -88.460594,37.074298,0 -88.424403,37.152428,0 -88.515939,37.284043,0 -88.476592,37.386875,0 -88.41525900000001,37.423853,0 -88.365471,37.401663,0 -88.281667,37.452596,0 -88.085229,37.47154,0 -88.06784399999999,37.485867,0 -88.069018,37.525297,0 -88.140783,37.585217,0 -88.159372,37.661847,0 -88.122412,37.709685,0 -88.05958800000001,37.742608,0 -88.02803,37.799224,0 -87.95259,37.771742,0 -87.90680999999999,37.807624,0 -87.910276,37.843416,0 -87.94102100000001,37.879168,0 -87.898062,37.927514,0 -87.87254,37.920999,0 -87.829773,37.876425,0 -87.679131,37.902951,0 -87.664382,37.886736,0 -87.679188,37.836321,0 -87.645858,37.825899,0 -87.615399,37.831974,0 -87.58392499999999,37.872485,0 -87.627892,37.922253,0 -87.596171,37.97486,0 -87.575729,37.967778,0 -87.556567,37.928606,0 -87.511499,37.906426,0 -87.44778599999999,37.942427,0 -87.402238,37.942683,0 -87.220342,37.849081,0 -87.162319,37.840159,0 -87.12962899999999,37.786608,0 -87.111008,37.782354,0 -87.069675,37.801513,0 -87.034166,37.906265,0 -86.91794899999999,37.93724,0 -86.820071,37.999392,0 -86.79550999999999,37.989453,0 -86.73146,37.89434,0 -86.68092900000001,37.91501,0 -86.647081,37.908621,0 -86.661637,37.849714,0 -86.638265,37.842718,0 -86.598108,37.867382,0 -86.588581,37.921159,0 -86.534156,37.917007,0 -86.50662,37.930719,0 -86.52517400000001,37.968228,0 -86.52182500000001,38.038327,0 -86.452192,38.05049,0 -86.430091,38.078638,0 -86.463858,38.101177,0 -86.46324799999999,38.119278,0 -86.429541,38.125281,0 -86.40187899999999,38.104329,0 -86.379775,38.129274,0 -86.323847,38.138412,0 -86.323933,38.152374,0 -86.37743399999999,38.171379,0 -86.35771699999999,38.198807,0 -86.272847,38.140835,0 -86.26720299999999,38.056798,0 -86.176557,38.01023,0 -86.104167,38.012627,0 -86.03819,37.959588,0 -86.029509,37.99264,0 -85.947114,38.005085,0 -85.92565399999999,38.021784,0 -85.905266,38.088933,0 -85.903873,38.174142,0 -85.844381,38.231048,0 -85.829216,38.276508,0 -85.78102699999999,38.288476,0 -85.74507699999999,38.26719,0 -85.683561,38.295469,0 -85.655355,38.323849,0 -85.604457,38.44082,0 -85.49886600000001,38.468242,0 -85.466864,38.51084,0 -85.42244100000001,38.532931,0 -85.41582099999999,38.563558,0 -85.456481,38.685069,0 -85.43629900000001,38.728484,0 -85.268495,38.740165,0 -85.213257,38.695446,0 -85.201452,38.691052,0 -85.18864000000001,38.687583,0 -85.17304799999999,38.688022,0 -84.991927,38.778537,0 -84.943641,38.775427,0 -84.88728500000001,38.794776,0 -84.812877,38.786087,0 -84.829958,38.830632,0 -84.785234,38.880439,0 -84.87702899999999,38.909016,0 -84.829857,38.969385,0 -84.896911,39.057474,0 -84.75444899999999,39.146658,0 -84.62011200000001,39.073457,0 -84.449793,39.117754,0 -84.42573,39.053059,0 -84.346039,39.036963,0 -84.304698,39.006455,0 -84.28816399999999,38.955789,0 -84.234453,38.893226,0 -84.230181,38.826547,0 -84.21290399999999,38.805707,0 -84.07149099999999,38.770475,0 -83.96212300000001,38.787384,0 -83.86653,38.7602,0 -83.836696,38.717857,0 -83.78711300000001,38.699489,0 -83.762445,38.652103,0 -83.65714199999999,38.62791,0 -83.62692199999999,38.679387,0 -83.52095300000001,38.703045,0 -83.468059,38.67547,0 -83.36666099999999,38.658537,0 -83.29419300000001,38.596588,0 -83.245664,38.628564,0 -83.153783,38.618827,0 -83.11237199999999,38.671685,0 -83.053104,38.695831,0 -83.03070200000001,38.72572,0 -82.979395,38.725976,0 -82.88919300000001,38.756076,0 -82.871292,38.739376,0 -82.87759200000001,38.690177,0 -82.844306,38.590862,0 -82.800112,38.563183,0 -82.700045,38.544336,0 -82.61045799999999,38.471457,0 -82.578999,38.407783,0 -82.33033500000001,38.4445,0 -82.30422299999999,38.496308,0 -82.29127099999999,38.578983,0 -82.26206999999999,38.598183,0 -82.20517100000001,38.591719,0 -82.177267,38.603784,0 -82.182467,38.708782,0 -82.221566,38.787187,0 -82.144867,38.84048,0 -82.14316700000001,38.898079,0 -82.03774900000001,39.023865,0 -82.00599,39.029387,0 -81.979371,38.993193,0 -81.93318600000001,38.987659,0 -81.89847,38.929603,0 -81.928,38.893492,0 -81.89854099999999,38.874582,0 -81.855971,38.892734,0 -81.827354,38.945898,0 -81.759995,38.925828,0 -81.78182,38.964935,0 -81.764253,39.015279,0 -81.803355,39.047678,0 -81.813855,39.079278,0 -81.775554,39.078378,0 -81.745453,39.098078,0 -81.755815,39.180524,0 -81.725583,39.215835,0 -81.691339,39.227947,0 -81.69638,39.257035,0 -81.683627,39.270939,0 -81.57024699999999,39.267675,0 -81.557547,39.338774,0 -81.456143,39.409274,0 -81.412706,39.394618,0 -81.375961,39.341697,0 -81.27071599999999,39.385914,0 -81.217315,39.38759,0 -81.185946,39.430731,0 -81.13253400000001,39.446275,0 -81.070594,39.515991,0 -80.97043600000001,39.590127,0 -80.92584100000001,39.617396,0 -80.88036,39.620706,0 -80.863698,39.691724,0 -80.829764,39.711839,0 -80.869933,39.763555,0 -80.82607899999999,39.798584,0 -80.824276,39.847159,0 -80.790761,39.86728,0 -80.80601799999999,39.91713,0 -80.756432,39.91393,0 -80.76447899999999,39.95025,0 -80.740126,39.970793,0 -80.738604,40.075672,0 -80.709102,40.101472,0 -80.705994,40.151591,0 -80.652098,40.24497,0 -80.619297,40.26517,0 -80.599895,40.317669,0 -80.609695,40.374968,0 -80.633596,40.390467,0 -80.612195,40.402667,0 -80.595494,40.475266,0 -80.666917,40.573664,0 -80.662564,40.5916,0 -80.627171,40.619936,0 -80.576736,40.614224,0 -80.51900500000001,40.638792,0 -80.518995,40.477363,0 -80.360801,40.477591,0 -80.180755,40.609107,0 -80.14511,40.613447,0 -80.166472,41.000928,0 -80.098294,41.071054,0 -80.14730299999999,41.113917,0 -80.096861,41.069804,0 -79.999779,41.171861,0 -79.99848799999999,41.500948,0 -79.92334,41.537596,0 -79.892732,41.574138,0 -79.850054,41.587056,0 -79.829111,41.62207,0 -79.613173,41.616868,0 -79.61083600000001,41.998989,0 -77.749931,41.998782,0 -77.720617,42.535066,0 -77.661315,42.535067,0 -77.65991699999999,42.580409,0 -77.490889,42.577288,0 -77.486875,42.670279,0 -77.598815,42.671965,0 -77.61167,42.763169,0 -77.58037779380926,42.94396320975309,0 -77.482517,42.943164,0 -77.485418,43.034564,0 -77.13430700000001,43.039887,0 -77.133397,43.012463,0 -76.96392818150549,43.01315680704111,0 -76.71380600000001,43.024035,0 -76.702325,43.080393,0 -76.722493,43.343579,0 -76.784102,43.312348,0 -76.896207,43.295957,0 -76.950964,43.270522,0 -77.042559,43.270516,0 -77.10707499999999,43.289312,0 -77.341092,43.280661,0 -77.539548,43.235091,0 -77.760231,43.341161,0 -78.10450899999999,43.375628,0 -78.485857,43.374884,0 -78.63434599999999,43.357624,0 -79.070469,43.262454,0 -79.05606,43.254156,0 -79.042366,43.143655,0 -79.069091,43.119956,0 -79.05796100000001,43.106957,0 -79.074467,43.077855,0 -78.99943500000001,43.056057,0 -79.019964,42.994756,0 -78.918859,42.946857,0 -78.906075,42.899324,0 -78.857922,42.838781,0 -78.87180499999999,42.822679,0 -78.853455,42.783958,0 -78.91815699999999,42.737258,0 -79.04675400000001,42.691346,0 -79.06376,42.644758,0 -79.111361,42.613358,0 -79.148723,42.553672,0 -79.249667,42.531744,0 -79.331312,42.488918,0 -79.354483,42.494071,0 -79.45353299999999,42.411157,0 -79.645358,42.315631,0 -80.06108,42.144857,0 -80.07825800000001,42.151587,0 -80.066169,42.171882,0 -80.11753,42.164865,0 -80.16588400000001,42.105857,0 -80.330563,42.035604,0 -80.711339,41.921872,0 -80.79708100000001,41.910896,0 -80.900554,41.868553,0 -81.002191,41.853055,0 -81.241129,41.762386,0 -81.283818,41.76205,0 -81.738755,41.48855,0 -81.798106,41.49728,0 -81.876987,41.483176,0 -82.012398,41.515513,0 -82.187316,41.471109,0 -82.254653,41.434312,0 -82.363496,41.427001,0 -82.48121399999999,41.381342,0 -82.625488,41.423068,0 -82.620346,41.432928,0 -82.68693399999999,41.491398,0 -82.67378100000001,41.45347,0 -82.701605,41.462994,0 -82.734314,41.450519,0 -82.73114200000001,41.461203,0 -82.766317,41.445771,0 -82.81171399999999,41.475339,0 -82.830015,41.472846,0 -82.837751,41.449847,0 -82.901871,41.430509,0 -82.847706,41.430495,0 -82.94039100000001,41.418919,0 -82.976617,41.453612,0 -83.009432,41.428481,0 -83.039776,41.464058,0 -82.99306199999999,41.460531,0 -82.953467,41.489353,0 -82.844213,41.502094,0 -82.824073,41.490296,0 -82.806027,41.506566,0 -82.723574,41.51428,0 -82.715518,41.498819,0 -82.711584,41.536317,0 -82.78549599999999,41.540675,0 -82.833823,41.586989,0 -82.859531,41.576371,0 -82.85506100000001,41.54755,0 -82.88847,41.521803,0 -82.969679,41.523899,0 -83.086046,41.606425,0 -83.208187,41.635243,0 -83.30624899999999,41.676631,0 -83.335869,41.705491,0 -83.35173,41.686953,0 -83.423208,41.689448,0 -83.45569,41.698068,0 -83.48021300000001,41.682079,0 -83.47883400000001,41.702798,0 -83.45596999999999,41.727612,0 -83.45292000000001,41.740587,0 -83.479913,41.757419,0 -83.440414,41.758984,0 -83.427556,41.741965,0 -83.439612,41.813162,0 -83.41005800000001,41.827825,0 -83.383743,41.869638,0 -83.34276,41.879384,0 -83.319698,41.933463,0 -83.29152499999999,41.945071,0 -83.264535,41.930983,0 -83.250314,41.97382,0 -83.22325600000001,41.989191,0 -83.23412500000001,41.994504,0 -83.206238,41.992085,0 -83.20060700000001,42.018451,0 -83.18572899999999,42.008965,0 -83.185681,42.026618,0 -83.21773899999999,42.044686,0 -83.187602,42.044309,0 -83.18236400000001,42.08338,0 -83.170534,42.074824,0 -83.16823599999999,42.089015,0 -83.13202,42.090166,0 -83.11922800000001,42.125263,0 -83.134384,42.174621,0 -83.126361,42.238412,0 -83.099643,42.287136,0 -83.063637,42.316857,0 -82.959763,42.34003,0 -82.964455,42.355166,0 -82.92871599999999,42.35837,0 -82.894013,42.389437,0 -82.86815799999999,42.453342,0 -82.884371,42.476573,0 -82.874416,42.523535,0 -82.834216,42.567849,0 -82.782414,42.564834,0 -82.786823,42.592249,0 -82.771519,42.592744,0 -82.820667,42.615265,0 -82.805609,42.648765,0 -82.69622200000001,42.690278,0 -82.63085100000001,42.673341,0 -82.630922,42.64211,0 -82.65289,42.650577,0 -82.665487,42.624174,0 -82.689836,42.627148,0 -82.67653900000001,42.61298,0 -82.713042,42.597904,0 -82.70115199999999,42.585991,0 -82.65645499999999,42.592424,0 -82.694062,42.558562,0 -82.647899,42.559345,0 -82.679059,42.52221,0 -82.64306999999999,42.554321,0 -82.583996,42.554041,0 -82.518782,42.613888,0 -82.467776,42.761397,0 -82.482574,42.808644,0 -82.46991199999999,42.887459,0 -82.41347399999999,42.976887,0 -82.486042,43.102486,0 -82.52308600000001,43.225361,0 -82.539439,43.436766,0 -82.599039,43.593637,0 -82.614982,43.77925,0 -82.634091,43.831502,0 -82.757924,44.003242,0 -82.921538,44.067896,0 -82.96386099999999,44.068266,0 -83.027675,44.046204,0 -83.06602599999999,44.003366,0 -83.26247100000001,43.975315,0 -83.30924,43.920256,0 -83.404628,43.915292,0 -83.329382,43.903239,0 -83.325064,43.883999,0 -83.39039200000001,43.848386,0 -83.400235,43.811483,0 -83.428411,43.796891,0 -83.42389900000001,43.783911,0 -83.49049599999999,43.70259,0 -83.520123,43.697513,0 -83.51571800000001,43.718519,0 -83.539965,43.708366,0 -83.667845,43.590303,0 -83.701238,43.589117,0 -83.73503100000001,43.61732,0 -83.839642,43.654124,0 -83.84787300000001,43.641528,0 -83.905351,43.670039,0 -83.956463,43.760767,0 -83.928707,43.777135,0 -83.916,43.89904,0 -83.87549799999999,43.961945,0 -83.832292,43.997273,0 -83.762806,43.985767,0 -83.73842999999999,44.005199,0 -83.68056300000001,43.987646,0 -83.689153,44.026766,0 -83.671488,44.041842,0 -83.621078,44.056186,0 -83.579866,44.049439,0 -83.59136100000001,44.079237,0 -83.564446,44.105537,0 -83.567744,44.155899,0 -83.53771,44.248171,0 -83.47953099999999,44.28009,0 -83.441828,44.270467,0 -83.449184,44.251796,0 -83.37360700000001,44.327784,0 -83.333708,44.336579,0 -83.306985,44.542235,0 -83.314517,44.608725,0 -83.27028799999999,44.70878,0 -83.29730000000001,44.746134,0 -83.293739,44.808307,0 -83.321241,44.852962,0 -83.315803,44.881005,0 -83.366243,44.890496,0 -83.433032,44.93289,0 -83.463841,45.003138,0 -83.431254,45.00799799999999,0 -83.456484,45.017219,0 -83.437879,45.055014,0 -83.385003,45.07705300000001,0 -83.366856,45.076166,0 -83.34084,45.042323,0 -83.262416,45.025405,0 -83.278352,45.045785,0 -83.315324,45.052571,0 -83.31988,45.087043,0 -83.300932,45.09285,0 -83.319791,45.116088,0 -83.316118,45.141958,0 -83.364603,45.167742,0 -83.41255700000001,45.239215,0 -83.418223,45.255785,0 -83.39179,45.252587,0 -83.381632,45.269772,0 -83.46354599999999,45.33053799999999,0 -83.48569500000001,45.330028,0 -83.47725199999999,45.34512,0 -83.494878,45.360215,0 -83.494514,45.339366,0 -83.538166,45.358055,0 -83.584436,45.34785899999999,0 -83.716132,45.414455,0 -83.786856,45.41015,0 -83.90947199999999,45.485784,0 -84.09685500000001,45.497354,0 -84.12000500000001,45.51767599999999,0 -84.128846,45.561891,0 -84.215878,45.634817,0 -84.329537,45.66438,0 -84.376063,45.655432,0 -84.428394,45.668857,0 -84.415925,45.652985,0 -84.428624,45.644676,0 -84.47922199999999,45.656791,0 -84.557644,45.709023,0 -84.721273,45.76640099999999,0 -84.72886,45.788145,0 -84.79164299999999,45.78203800000001,0 -84.77893299999999,45.76611499999999,0 -84.807907,45.74491799999999,0 -85.008347,45.761669,0 -84.95794600000001,45.743385,0 -84.94375599999999,45.71029,0 -85.007026,45.65636,0 -85.06891400000001,45.635276,0 -85.11691399999999,45.57964900000001,0 -85.11547899999999,45.53940600000001,0 -85.09372500000001,45.481564,0 -85.06247,45.451289,0 -84.985131,45.41928699999999,0 -84.990865,45.42812,0 -84.922006,45.42191400000001,0 -84.91585000000001,45.393115,0 -85.04310099999999,45.361506,0 -85.137942,45.373488,0 -85.203616,45.361887,0 -85.262996,45.319507,0 -85.300693,45.321283,0 -85.371593,45.270834,0 -85.389916,45.217245,0 -85.36349,45.111624,0 -85.389256,44.948057,0 -85.46291600000001,44.825067,0 -85.507367,44.795363,0 -85.504775,44.768082,0 -85.527192,44.7475,0 -85.576566,44.760208,0 -85.555894,44.818256,0 -85.499745,44.856088,0 -85.487459,44.958939,0 -85.464944,44.961062,0 -85.474937,44.991721,0 -85.520034,44.973996,0 -85.533553,44.925762,0 -85.564509,44.895246,0 -85.52475099999999,44.896124,0 -85.59543600000001,44.767111,0 -85.638884,44.772335,0 -85.633263,44.800437,0 -85.652355,44.849092,0 -85.62464799999999,44.922139,0 -85.600982,44.92501,0 -85.599389,44.989175,0 -85.62950600000001,44.966719,0 -85.64947600000001,44.974589,0 -85.59965200000001,45.021749,0 -85.588994,45.054714,0 -85.56650500000001,45.04399100000001,0 -85.61431899999999,45.127562,0 -85.573893,45.155488,0 -85.558373,45.133209,0 -85.56168,45.15894,0 -85.526734,45.189316,0 -85.54074799999999,45.210906,0 -85.58598600000001,45.180381,0 -85.61836099999999,45.18701999999999,0 -85.681096,45.092693,0 -85.74457700000001,45.05339,0 -85.78004199999999,45.009625,0 -85.780439,44.977932,0 -85.80740299999999,44.949814,0 -85.86985199999999,44.939031,0 -85.9316,44.968788,0 -85.985218,44.902933,0 -86.066745,44.905685,0 -86.066514,44.819869,0 -86.089564,44.741984,0 -86.25499600000001,44.691935,0 -86.259029,44.663654,0 -86.220399,44.56817,0 -86.26871,44.345324,0 -86.41368,44.138476,0 -86.514702,44.058119,0 -86.46313600000001,43.970976,0 -86.43020199999999,43.827575,0 -86.45425400000001,43.756619,0 -86.529179,43.677889,0 -86.53849700000001,43.617501,0 -86.465144,43.484642,0 -86.427044,43.374941,0 -86.25464599999999,43.083409,0 -86.21620900000001,42.919007,0 -86.20639199999999,42.709525,0 -86.228854,42.637655,0 -86.225613,42.594765,0 -86.257272,42.453572,0 -86.328276,42.298022,0 -86.38517899999999,42.217279,0 -86.489023,42.116224,0 -86.597899,41.918291,0 -86.717037,41.819349,0 -86.922742,41.712723,0 -87.146956,41.646168,0 -87.15867299999999,41.631399,0 -87.29902300000001,41.619093,0 -87.420765,41.641011,0 -87.437033,41.655159,0 -87.408736,41.670285,0 -87.410873,41.683992,0 -87.439336,41.680131,0 -87.438033,41.664563,0 -87.446803,41.683212,0 -87.468013,41.672432,0 -87.504514,41.691569,0 -87.521308,41.710031,0 -87.528227,41.710878,0 -87.53106099999999,41.748068,0 -87.57286000000001,41.779343,0 -87.61625100000001,41.868933,0 -87.602369,41.896335,0 -87.62405200000001,41.904232,0 -87.640738,41.953851,0 -87.63148,41.963478,0 -87.649907,41.978518,0 -87.681465,42.078441,0 -87.73616199999999,42.120811,0 -87.828569,42.269922,0 -87.832004,42.328346,0 -87.80325999999999,42.390478,0 -87.79807099999999,42.471721,0 -87.817125,42.635452,0 -87.778018,42.71891,0 -87.77817400000001,42.762819,0 -87.757913,42.782136,0 -87.82448100000001,42.834744,0 -87.828446,42.845916,0 -87.843484,42.873289,0 -87.84649,42.884143,0 -87.845018,42.961132,0 -87.89748,43.020091,0 -87.895,43.042535,0 -87.863806,43.070622,0 -87.900485,43.12591,0 -87.881085,43.170609,0 -87.911787,43.250406,0 -87.86959899999999,43.387191,0 -87.79169,43.492244,0 -87.79013500000001,43.563054,0 -87.702685,43.687596,0 -87.71019699999999,43.737144,0 -87.696054,43.764588,0 -87.72640699999999,43.810445,0 -87.73621199999999,43.87305,0 -87.717895,43.941654,0 -87.656083,44.051794,0 -87.648059,44.103689,0 -87.563181,44.144195,0 -87.51290299999999,44.192808,0 -87.508419,44.229669,0 -87.545382,44.321385,0 -87.468093,44.551925,0 -87.35378900000001,44.701915,0 -87.318539,44.788504,0 -87.26744100000001,44.846851,0 -87.204545,44.875593,0 -87.215977,44.906597,0 -87.1717,44.931476,0 -87.189407,44.968632,0 -87.163529,45.00489,0 -87.13938400000001,45.012565,0 -87.123549,45.067077,0 -87.098249,45.069907,0 -87.087188,45.056055,0 -87.09385,45.093355,0 -87.065274,45.078214,0 -87.048027,45.087758,0 -87.05104900000001,45.11617200000001,0 -87.08501699999999,45.14495,0 -87.066052,45.157396,0 -87.05051,45.136653,0 -87.02989100000001,45.145364,0 -87.045788,45.158702,0 -87.03945400000001,45.227358,0 -86.985406,45.215792,0 -86.97246,45.284117,0 -86.994112,45.298061,0 -87.04389500000001,45.284767,0 -87.067443,45.29581999999999,0 -87.07751399999999,45.252669,0 -87.108743,45.25700299999999,0 -87.119972,45.191103,0 -87.167179,45.183594,0 -87.16977300000001,45.15286499999999,0 -87.237678,45.16817,0 -87.239448,45.128085,0 -87.25744899999999,45.121644,0 -87.284058,45.04649,0 -87.30164600000001,45.054214,0 -87.32135100000001,45.038215,0 -87.405005,44.911806,0 -87.38363099999999,44.885115,0 -87.385547,44.831137,0 -87.43855000000001,44.881009,0 -87.419106,44.885378,0 -87.433128,44.892741,0 -87.48560999999999,44.854562,0 -87.518944,44.872552,0 -87.503803,44.854669,0 -87.533637,44.857676,0 -87.553743,44.824498,0 -87.56614399999999,44.830359,0 -87.551987,44.852056,0 -87.610063,44.838384,0 -87.720889,44.724548,0 -87.717586,44.69799,0 -87.754229,44.650583,0 -87.863996,44.615485,0 -87.912864,44.578043,0 -87.898888,44.574135,0 -87.929001,44.535993,0 -87.970702,44.530292,0 -88.049802,44.564789,0 -88.014923,44.585531,0 -88.015126,44.634879,0 -87.99361,44.677202,0 -88.131182,44.676928,0 -87.987915,44.67761,0 -87.98262699999999,44.721755,0 -87.938866,44.759117,0 -87.90241899999999,44.827824,0 -87.866557,44.842656,0 -87.830968,44.892567,0 -87.844044,44.924251,0 -87.821465,44.949605,0 -87.62885799999999,44.986734,0 -87.625748,45.045157,0 -87.587389,45.087084,0 -87.612019,45.123377,0 -87.59981399999999,45.150474,0 -87.436508,45.294382,0 -87.392143,45.36939399999999,0 -87.327749,45.425307,0 -87.333147,45.447208,0 -87.197295,45.63870299999999,0 -87.06424800000001,45.707749,0 -87.084811,45.70916200000001,0 -87.037329,45.74358599999999,0 -87.064302,45.758828,0 -87.057439,45.812483,0 -86.998983,45.847744,0 -87.02203799999999,45.860077,0 -86.977941,45.90562300000001,0 -86.949895,45.89892499999999,0 -86.94823100000001,45.87675600000001,0 -87.005522,45.828798,0 -86.981624,45.79222099999999,0 -86.984588,45.705812,0 -86.967855,45.668261,0 -86.941458,45.702156,0 -86.918262,45.696101,0 -86.84267699999999,45.719684,0 -86.821523,45.770356,0 -86.789461,45.771829,0 -86.806455,45.78774299999999,0 -86.76937700000001,45.797437,0 -86.78810900000001,45.835608,0 -86.78207999999999,45.860195,0 -86.749638,45.867796,0 -86.719227,45.839429,0 -86.647567,45.83355,0 -86.624403,45.869782,0 -86.582323,45.896113,0 -86.535206,45.885805,0 -86.528014,45.85325399999999,0 -86.58175900000001,45.794797,0 -86.559625,45.77224399999999,0 -86.631096,45.782116,0 -86.623561,45.751019,0 -86.671553,45.720847,0 -86.67618400000001,45.691862,0 -86.717512,45.680291,0 -86.708082,45.64804899999999,0 -86.697598,45.65565900000001,0 -86.677491,45.62757500000001,0 -86.614266,45.600121,0 -86.60526,45.607756,0 -86.62744000000001,45.659876,0 -86.58752800000001,45.666456,0 -86.58093599999999,45.71192000000001,0 -86.53725799999999,45.708361,0 -86.521849,45.73330700000001,0 -86.532411,45.74662399999999,0 -86.436632,45.761697,0 -86.415971,45.79379300000001,0 -86.346903,45.797298,0 -86.32423199999999,45.90608,0 -86.275768,45.943551,0 -86.20825499999999,45.962978,0 -86.150576,45.95373600000001,0 -86.072067,45.96531300000001,0 -85.913769,45.919439,0 -85.923264,45.947592,0 -85.894391,45.966949,0 -85.840244,45.96516,0 -85.810115,45.980222,0 -85.74054599999999,45.963049,0 -85.65887600000001,45.965802,0 -85.592381,46.03787499999999,0 -85.50621,46.096393,0 -85.44699,46.08516399999999,0 -85.412064,46.101437,0 -85.37804,46.074921,0 -85.335911,46.092595,0 -85.19566500000001,46.045619,0 -85.18029900000001,46.061708,0 -85.01399000000001,46.010774,0 -84.913584,45.925868,0 -84.83937400000001,45.89758999999999,0 -84.831396,45.872038,0 -84.75241699999999,45.83973799999999,0 -84.702141,45.850725,0 -84.729921,45.86980000000001,0 -84.720395,45.874841,0 -84.736566,45.912833,0 -84.713598,45.91672,0 -84.740105,45.941839,0 -84.723039,45.96727899999999,0 -84.685254,45.973454,0 -84.690467,46.027947,0 -84.656567,46.05265399999999,0 -84.60906300000001,46.026418,0 -84.544405,46.02286,0 -84.532392,45.969448,0 -84.514071,45.971292,0 -84.50579,45.99798700000001,0 -84.463128,45.96892500000001,0 -84.465028,46.005499,0 -84.422721,46.002032,0 -84.392059,45.985444,0 -84.428895,45.993143,0 -84.41248899999999,45.979175,0 -84.420311,45.95778000000001,0 -84.434995,45.96108699999999,0 -84.38158900000001,45.933604,0 -84.39103900000001,45.949259,0 -84.35511200000001,45.939753,0 -84.345219,45.94534599999999,0 -84.355814,45.958594,0 -84.258425,45.957231,0 -84.267219,45.990763,0 -84.170323,45.965557,0 -84.182537,45.981152,0 -84.11700500000001,45.983348,0 -84.100748,45.967623,0 -83.99529200000001,45.94581,0 -83.996471,45.96146100000001,0 -83.978652,45.96867999999999,0 -83.913766,45.96645000000001,0 -83.91381699999999,45.955694,0 -83.895464,45.986436,0 -83.90858299999999,46.011471,0 -83.941931,46.032163,0 -83.977701,46.01937299999999,0 -84.071741,46.09244099999999,0 -84.029634,46.134539,0 -84.09581799999999,46.147733,0 -84.12282500000001,46.178881,0 -84.13278699999999,46.16919900000001,0 -84.179135,46.185656,0 -84.221001,46.163062,0 -84.27301799999999,46.201451,0 -84.21324199999999,46.231629,0 -84.212029,46.24663000000001,0 -84.18629199999999,46.234288,0 -84.175899,46.245952,0 -84.153012,46.215888,0 -84.09776599999999,46.256512,0 -84.11556299999999,46.26822500000001,0 -84.119629,46.315013,0 -84.106247,46.321963,0 -84.13890600000001,46.372221,0 -84.14617200000001,46.41851999999999,0 -84.111225,46.504119,0 -84.128925,46.53011899999999,0 -84.226131,46.53392,0 -84.275814,46.492821,0 -84.341427,46.50768899999999,0 -84.42027400000001,46.501077,0 -84.46332200000001,46.467435,0 -84.455527,46.45389699999999,0 -84.47184799999999,46.434289,0 -84.500281,46.44672199999999,0 -84.583309,46.413505,0 -84.60244299999999,46.437916,0 -84.573522,46.427895,0 -84.63102000000001,46.484868,0 -84.678423,46.487694,0 -84.817307,46.444319,0 -84.861448,46.46993000000001,0 -84.921931,46.469962,0 -84.935456,46.489067,0 -85.01521099999999,46.47971199999999,0 -85.049847,46.503963,0 -85.056133,46.52652,0 -85.025491,46.546397,0 -85.03705600000001,46.60099499999999,0 -85.027513,46.697451,0 -84.950287,46.768021,0 -85.15781699999999,46.76514699999999,0 -85.25686,46.75338,0 -85.50050899999999,46.676038,0 -85.87790800000001,46.69091399999999,0 -86.08793900000001,46.65532,0 -86.161681,46.669475,0 -86.34989,46.57803500000001,0 -86.443866,46.54730300000001,0 -86.46774499999999,46.55245599999999,0 -86.644706,46.410801,0 -86.662175,46.418667,0 -86.655306,46.44250199999999,0 -86.70323,46.439378,0 -86.750157,46.479109,0 -86.789224,46.478442,0 -86.81602599999999,46.437892,0 -86.875151,46.43727999999999,0 -86.90374199999999,46.466138,0 -86.94707699999999,46.472064,0 -86.964534,46.516549,0 -87.005308,46.533953,0 -87.116634,46.49480800000001,0 -87.166068,46.506163,0 -87.25873199999999,46.488255,0 -87.35941,46.503452,0 -87.393985,46.53318300000001,0 -87.374923,46.546607,0 -87.392974,46.572523,0 -87.37701,46.590337,0 -87.43442,46.591747,0 -87.464108,46.614811,0 -87.46254500000001,46.63570799999999,0 -87.50302499999999,46.647497,0 -87.520667,46.691069,0 -87.540605,46.696948,0 -87.582745,46.730527,0 -87.590389,46.782448,0 -87.667873,46.817095,0 -87.680668,46.842496,0 -87.69387,46.826965,0 -87.727329,46.825854,0 -87.74101400000001,46.865247,0 -87.771612,46.863171,0 -87.816794,46.891154,0 -87.84619499999999,46.883905,0 -87.901448,46.90981899999999,0 -87.998715,46.905351,0 -88.08187,46.920458,0 -88.215327,46.89133099999999,0 -88.283423,46.822987,0 -88.234104,46.894742,0 -88.129143,46.96267700000001,0 -88.142954,46.966903,0 -88.244437,46.92961199999999,0 -88.35194,46.85702800000001,0 -88.38972699999999,46.8671,0 -88.404044,46.847798,0 -88.38141,46.838466,0 -88.45060700000001,46.76317000000001,0 -88.49733000000001,46.75510700000001,0 -88.48209900000001,46.782622,0 -88.462926,46.78662099999999,0 -88.48429899999999,46.832503,0 -88.446455,46.970162,0 -88.373966,47.012262,0 -88.349952,47.076377,0 -88.297625,47.098505,0 -88.285855,47.134338,0 -88.232164,47.145975,0 -88.242006,47.174767,0 -88.228987,47.199042,0 -88.166355,47.215534,0 -88.06009,47.295796,0 -87.94336,47.335899,0 -87.965598,47.36864499999999,0 -87.957058,47.38726,0 -87.815371,47.38479,0 -87.710471,47.4062,0 -87.715942,47.439816,0 -87.756739,47.460717,0 -87.938305,47.47975300000001,0 -88.21576399999999,47.450153,0 -88.239161,47.42996899999999,0 -88.420141,47.37098,0 -88.577048,47.244003,0 -88.67239499999999,47.219137,0 -88.761313,47.15675,0 -88.88914,47.100575,0 -88.933302,47.031186,0 -88.972802,47.00209600000001,0 -89.128698,46.992599,0 -89.227914,46.91295400000001,0 -89.415154,46.843983,0 -89.61932899999999,46.81889000000001,0 -89.67337499999999,46.833229,0 -89.78875499999999,46.818103,0 -89.849141,46.795126,0 -90.02788600000001,46.673733,0 -90.30660899999999,46.602741,0 -90.33297,46.608729,0 -90.437596,46.56149200000001,0 -90.505909,46.589614,0 -90.55814100000002,46.58638400000001,0 -90.75794299999998,46.70480899999999,0 -90.693197,46.659989,0 -90.74808999999999,46.66981700000001,0 -90.760941,46.66038,0 -90.73764799999999,46.65532300000001,0 -90.794775,46.624941,0 -90.909882,46.582432,0 -90.94448499999999,46.587663,0 -90.951616,46.600952,0 -90.92182100000001,46.62779099999999,0 -90.911562,46.663394,0 -90.853829,46.693457,0 -90.88502099999999,46.756341,0 -90.79933300000002,46.82316099999999,0 -90.777083,46.885963,0 -90.751031,46.88796299999999,0 -90.792108,46.933783,0 -90.824876,46.93255,0 -90.83171900000001,46.953871,0 -90.855874,46.96223200000001,0 -90.92181100000002,46.931322,0 -90.968419,46.94391,0 -91.05299099999999,46.881325,0 -91.09091599999999,46.88267,0 -91.10549,46.85762,0 -91.13494799999999,46.858986,0 -91.140165,46.873201,0 -91.178292,46.84425899999999,0 -91.20443899999998,46.858816,0 -91.18656099999998,46.88573199999999,0 -91.256705,46.836887,0 -91.314815,46.826825,0 -91.37260000000001,46.792719,0 -91.40845899999999,46.794183,0 -91.511077,46.757453,0 -91.59068400000001,46.754331,0 -91.790132,46.694675,0 -91.96188899999999,46.682539,0 -92.02723400000001,46.710895,0 -92.09429,46.788416,0 -91.846142,46.92299500000001,0 -91.780665,46.943314,0 -91.70464899999999,47.005246,0 -91.63736,47.02726500000001,0 -91.64210199999999,47.03859899999999,0 -91.57381700000001,47.089917,0 -91.46148100000001,47.13517800000001,0 -91.24921300000001,47.284156,0 -91.15481200000001,47.380377,0 -91.045646,47.456525,0 -90.77700300000001,47.60622999999999,0 -90.52678,47.70647900000001,0 -90.18826100000001,47.777104,0 -89.974487,47.831137,0 -89.919051,47.86398499999999,0 -89.838767,47.876396,0 -89.681847,47.944968,0 -89.681371,47.963642,0 -89.638285,47.954275,0 -89.649591,47.97929,0 -89.624529,47.99466,0 -89.601029,47.9803,0 -89.493977,48.00471,0 -89.581007,47.995899,0 -89.61035099999999,48.01778,0 -89.651065,48.003625,0 -89.76396699999999,48.022969,0 -89.897414,47.987599,0 -89.934489,48.015628,0 -89.99305,48.02840400000001,0 -90.023595,48.084708,0 -90.13619099999998,48.11213599999999,0 -90.37454200000002,48.09094200000001,0 -90.46771200000001,48.10881800000001,0 -90.556838,48.096008,0 -90.56976299999999,48.106951,0 -90.55929,48.121683,0 -90.57989699999999,48.123922,0 -90.751608,48.090968,0 -90.78210799999999,48.135427,0 -90.79797000000001,48.136894,0 -90.777917,48.163801,0 -90.79659599999999,48.159373,0 -90.82111500000001,48.184709,0 -90.836313,48.17696299999999,0 -90.83917599999999,48.239511,0 -90.88548000000002,48.24578399999999,0 -91.08273099999998,48.180756,0 -91.26638000000001,48.078713,0 -91.42964200000002,48.048608,0 -91.45032999999999,48.068806,0 -91.488646,48.068065,0 -91.56725400000001,48.043719,0 -91.57547099999999,48.066294,0 -91.55927200000001,48.108268,0 -91.640175,48.09692600000001,0 -91.65326100000001,48.114137,0 -91.687623,48.111698,0 -91.682845,48.122118,0 -91.71198600000001,48.11471299999999,0 -91.69817399999999,48.141643,0 -91.70531800000001,48.170775,0 -91.72458400000001,48.170657,0 -91.71493100000001,48.19913,0 -91.86438200000001,48.207031,0 -91.89346999999999,48.23769899999999,0 -91.957798,48.232989,0 -91.954432,48.251678,0 -91.97690299999999,48.244626,0 -92.00657699999999,48.26542100000001,0 -92.01298,48.29739099999999,0 -92.00013300000001,48.321355,0 -92.04656199999999,48.33474,0 -92.055228,48.359213,0 -92.145049,48.365651,0 -92.21698300000001,48.345114,0 -92.26227999999999,48.354933,0 -92.30630900000001,48.316442,0 -92.294541,48.27156,0 -92.26974199999999,48.248241,0 -92.369174,48.220268,0 -92.469948,48.351836,0 -92.47675,48.37176,0 -92.45632500000002,48.414204,0 -92.507285,48.447875,0 -92.65602699999999,48.436709,0 -92.71256199999999,48.463013,0 -92.698824,48.494892,0 -92.62723699999999,48.503383,0 -92.63493100000001,48.542873,0 -92.72804600000002,48.53928999999999,0 -92.94983899999998,48.608269,0 -92.95487600000001,48.631493,0 -93.178095,48.62333900000001,0 -93.207398,48.642474,0 -93.25485399999999,48.642784,0 -93.464308,48.591792,0 -93.46750400000001,48.54566400000001,0 -93.610618,48.521661,0 -93.62886500000002,48.53121,0 -93.65665199999999,48.515731,0 -93.79445400000002,48.516021,0 -93.818253,48.53004600000001,0 -93.80676299999999,48.577616,0 -93.844351,48.630222,0 -94.224276,48.64952700000001,0 -94.250191,48.656323,0 -94.260541,48.696381,0 -94.29073699999999,48.707747,0 -94.41619099999998,48.710948,0 -94.452332,48.692444,0 -94.53332299999998,48.701232,0 -94.645387,48.744079,0 -94.69434699999999,48.782184,0 -94.704284,48.824284,0 -94.685681,48.840119,0 -94.684347,48.883958,0 -94.75027800000001,49.099273,0 -94.773223,49.120733,0 -94.79808300000001,49.197871,0 -94.82555499999999,49.294389,0 -94.816222,49.320987,0 -94.957465,49.370186,0 -95.058404,49.35317,0 -95.15331399999998,49.384358,0 -95.153711,48.998903,0 -97.22843900000001,49.000674,0 -97.234054,48.947611,0 -97.189751,48.894482,0 -97.19954500000001,48.88134599999999,0 -97.17778999999999,48.875312,0 -97.19044499999998,48.865292,0 -97.173811,48.838309,0 -97.190313,48.815714,0 -97.15876,48.810931,0 -97.18123000000001,48.79789,0 -97.162577,48.800116,0 -97.173556,48.793315,0 -97.14728100000001,48.78114,0 -97.15897099999999,48.77574599999999,0 -97.14591800000001,48.765603,0 -97.15299699999998,48.752844,0 -97.10999200000002,48.707776,0 -97.12007,48.70143400000001,0 -97.090328,48.684512,0 -97.109255,48.664142,0 -97.09873100000002,48.661284,0 -97.115714,48.64449,0 -97.10934899999999,48.632637,0 -97.130781,48.63210800000001,0 -97.12040800000001,48.618017,0 -97.14979800000002,48.61272400000001,0 -97.13448100000001,48.60784999999999,0 -97.15397900000001,48.595081,0 -97.14365399999998,48.582358,0 -97.160631,48.580936,0 -97.148098,48.57206599999999,0 -97.175329,48.562461,0 -97.13834500000002,48.554395,0 -97.166027,48.549185,0 -97.14097,48.534225,0 -97.15405800000001,48.52192600000001,0 -97.12686400000001,48.519758,0 -97.14994900000002,48.511986,0 -97.13224,48.488436,0 -97.162668,48.477783,0 -97.12811499999999,48.473596,0 -97.14613300000001,48.474052,0 -97.12933099999999,48.454048,0 -97.150542,48.441203,0 -97.12657199999998,48.443131,0 -97.14575100000002,48.43026999999999,0 -97.12245299999999,48.41827599999999,0 -97.15484499999999,48.41746300000001,0 -97.131479,48.406586,0 -97.16329,48.391987,0 -97.13337700000001,48.38202600000001,0 -97.15627600000002,48.366198,0 -97.12591999999999,48.34057899999999,0 -97.141715,48.32572900000001,0 -97.11558100000001,48.323928,0 -97.13798399999999,48.310117,0 -97.11223099999999,48.296472,0 -97.13809000000001,48.290846,0 -97.11657,48.27966099999999,0 -97.145112,48.267743,0 -97.12295399999999,48.261666,0 -97.144423,48.233187,0 -97.120749,48.225826,0 -97.151746,48.218932,0 -97.13505599999999,48.220648,0 -97.11783800000002,48.20976400000001,0 -97.138953,48.217075,0 -97.12921600000001,48.20960500000001,0 -97.146331,48.168583,0 -97.12102,48.159086,0 -97.14666699999998,48.143203,0 -97.12232600000002,48.138597,0 -97.13346799999999,48.137101,0 -97.123205,48.106648,0 -97.102249,48.096694,0 -97.10448299999999,48.072428,0 -97.07225699999999,48.04806800000001,0 -97.05455400000001,47.946279,0 -97.017754,47.919778,0 -97.023156,47.873978,0 -97.002456,47.86867699999999,0 -96.99829499999998,47.841724,0 -96.97418400000001,47.822978,0 -96.991007,47.807672,0 -96.935174,47.767466,0 -96.918556,47.72386300000001,0 -96.93085299999998,47.715387,0 -96.88511599999998,47.673808,0 -96.88857299999999,47.63845,0 -96.851051,47.59794000000001,0 -96.851698,47.56849799999999,0 -96.86837199999999,47.56576800000001,0 -96.847499,47.566226,0 -96.861746,47.559496,0 -96.845383,47.53956299999999,0 -96.871026,47.527867,0 -96.84228,47.508636,0 -96.86506800000001,47.491544,0 -96.85218500000001,47.48584600000001,0 -96.868415,47.47901,0 -96.851896,47.478696,0 -96.86355200000001,47.457294,0 -96.852818,47.43228199999999,0 -96.87166299999998,47.419392,0 -96.84230700000001,47.411883,0 -96.852739,47.405909,0 -96.83744400000002,47.389274,0 -96.85462200000001,47.37378,0 -96.837773,47.370808,0 -96.858211,47.367602,0 -96.830613,47.33864299999999,0 -96.846009,47.328403,0 -96.82879999999999,47.328138,0 -96.846976,47.315834,0 -96.830697,47.30542,0 -96.847517,47.27177600000001,0 -96.834591,47.26701199999999,0 -96.84731499999999,47.26275700000001,0 -96.82887800000002,47.234248,0 -96.845634,47.221107,0 -96.82723,47.20167200000001,0 -96.844711,47.192902,0 -96.821555,47.184314,0 -96.833383,47.176328,0 -96.82270599999998,47.156229,0 -96.84110099999999,47.151401,0 -96.81997200000002,47.130934,0 -96.83756400000001,47.12197999999999,0 -96.816823,47.10912,0 -96.830386,47.060823,0 -96.812726,47.038271,0 -96.83954799999999,47.006728,0 -96.82134399999998,47.00364500000001,0 -96.82185200000001,46.96937200000001,0 -96.79499300000001,46.965433,0 -96.80466199999999,46.947468,0 -96.79175799999999,46.928465,0 -96.75325699999999,46.92456299999999,0 -96.77655799999999,46.89566299999999,0 -96.768458,46.879563,0 -96.781358,46.879363,0 -96.77535899999998,46.838863,0 -96.79392499999999,46.833051,0 -96.780271,46.82576300000001,0 -96.802544,46.811521,0 -96.78756799999999,46.78617700000001,0 -96.796722,46.777464,0 -96.77568599999998,46.766043,0 -96.78951900000001,46.76602400000001,0 -96.77785,46.761588,0 -96.789389,46.757501,0 -96.779252,46.72742899999999,0 -96.79106600000001,46.71779799999999,0 -96.78433900000002,46.685054,0 -96.801344,46.668514,0 -96.785878,46.640249,0 -96.79794099999998,46.629113,0 -96.77841600000001,46.627047,0 -96.78702200000001,46.619205,0 -96.775532,46.621201,0 -96.74188700000001,46.56423,0 -96.75436999999999,46.556712,0 -96.73805200000001,46.53458,0 -96.73809199999999,46.477812,0 -96.71421800000002,46.470991,0 -96.721897,46.440077,0 -96.70460300000001,46.438178,0 -96.704679,46.4182,0 -96.68513400000001,46.413928,0 -96.64537199999999,46.350847,0 -96.599761,46.33038599999999,0 -96.600415,46.261852,0 -96.58385699999998,46.250152,0 -96.598645,46.241626,0 -96.583842,46.20837499999999,0 -96.592682,46.175211,0 -96.579926,46.177229,0 -96.554507,46.083978,0 -96.57794,46.026874,0 -96.56133399999999,45.945655,0 -96.583085,45.820024,0 -96.66259499999998,45.73868199999999,0 -96.83576899999998,45.64964800000001,0 -96.85775099999998,45.605962,0 -96.76528,45.521414,0 -96.69254100000002,45.417338,0 -96.521787,45.375645,0 -96.48906499999998,45.357071,0 -96.454094,45.30154600000001,0 -96.45277400000002,44.196895,0 -96.45326,43.50039,0 -96.598928,43.500457,0 -96.580997,43.481384,0 -96.60260800000002,43.449649,0 -96.59425400000001,43.434153,0 -96.52157200000001,43.38564,0 -96.53039200000002,43.300034,0 -96.58849199999999,43.296339,0 -96.58522000000001,43.268878,0 -96.55321700000002,43.259141,0 -96.57119400000001,43.238961,0 -96.56044,43.224219,0 -96.475571,43.221054,0 -96.466537,43.150281,0 -96.43658899999998,43.120842,0 -96.462855,43.091419,0 -96.46084999999999,43.064033,0 -96.51843100000001,43.042068,0 -96.49167,43.009707,0 -96.52077299999999,42.980385,0 -96.500308,42.959391,0 -96.54109800000001,42.924496,0 -96.54284699999999,42.903737,0 -96.526357,42.891852,0 -96.54965900000001,42.870281,0 -96.55128499999999,42.836606,0 -96.581604,42.837521,0 -96.59703599999999,42.791888,0 -96.634934,42.770735,0 -96.619494,42.754792,0 -96.638621,42.734921,0 -96.62470399999998,42.725497,0 -96.630617,42.70588,0 -96.575295,42.682823,0 -96.516338,42.630435,0 -96.531604,42.615148,0 -96.50946799999998,42.61273,0 -96.48579599999999,42.575001,0 -96.498544,42.558116,0 -96.476952,42.556079,0 -96.49297000000001,42.517282,0 -96.47718500000001,42.491046,0 -96.38600700000001,42.474495,0 -96.380707,42.446394,0 -96.41360899999999,42.407894,0 -96.41778599999999,42.351449,0 -96.32890500000001,42.254734,0 -96.323723,42.229887,0 -96.35987,42.210545,0 -96.349688,42.172043,0 -96.2689,42.11359,0 -96.275548,42.051976,0 -96.221901,42.029558,0 -96.242035,42.000911,0 -96.19455600000001,42.008662,0 -96.18626500000001,41.977417,0 -96.12950499999999,41.971673,0 -96.144583,41.941544,0 -96.136743,41.920826,0 -96.161756,41.90182,0 -96.110246,41.84885,0 -96.107592,41.820685,0 -96.064537,41.793002,0 -96.106425,41.73789,0 -96.07306300000002,41.705004,0 -96.12140099999999,41.688522,0 -96.095046,41.647365,0 -96.11755800000002,41.609999,0 -96.081152,41.577289,0 -96.09658599999999,41.545397,0 -96.04070100000001,41.507076,0 -96.026657,41.540366,0 -96.00511200000001,41.54325,0 -95.992833,41.512002,0 -96.01981699999999,41.48803,0 -96.01175699999999,41.476212,0 -95.922529,41.455766,0 -95.93749,41.393095,0 -95.92879000000001,41.370096,0 -95.95669100000001,41.345496,0 -95.92569,41.322197,0 -95.883089,41.316697,0 -95.87148900000001,41.295797,0 -95.90248999999999,41.273398,0 -95.90429,41.299597,0 -95.927491,41.298397,0 -95.91089100000001,41.233998,0 -95.92599,41.195698,0 -95.84128800000001,41.174998,0 -95.883475,41.15493,0 -95.862587,41.088399,0 -95.88241499999999,41.060411,0 -95.85965400000001,41.035695,0 -95.86728599999999,41.001599,0 -95.830297,40.978332,0 -95.83974300000001,40.93278,0 -95.80947399999999,40.891228,0 -95.84859,40.861061,0 -95.835232,40.779151,0 -95.888907,40.731855,0 -95.84280099999999,40.677496,0 -95.78656800000002,40.657253,0 -95.749685,40.606842,0 -95.77470399999999,40.573574,0 -95.76692000000001,40.531563,0 -95.708591,40.521551,0 -95.678718,40.56256,0 -95.65584799999999,40.546609,0 -95.661687,40.517309,0 -95.69996900000001,40.505275,0 -95.69465099999999,40.471452,0 -95.65819,40.44188,0 -95.65913399999999,40.40869,0 -95.62372799999999,40.346567,0 -95.65732800000001,40.310856,0 -95.56215700000001,40.297359,0 -95.55247300000001,40.261904,0 -95.47750099999999,40.24272,0 -95.47919300000001,40.185652,0 -95.39334700000001,40.119212,0 -95.42164,40.058952,0 -95.413588,40.038424,0 -95.31527099999998,40.01207,0 -95.30250700000001,39.984357,0 -95.250254,39.948644,0 -95.20442800000001,39.938949,0 -95.20193500000001,39.904053,0 -95.149657,39.905948,0 -95.134747,39.876852,0 -95.08500300000001,39.861883,0 -95.032053,39.868337,0 -95.01315200000002,39.899953,0 -94.929574,39.888754,0 -94.942567,39.856602,0 -94.886933,39.833098,0 -94.87594400000002,39.813294,0 -94.884084,39.794234,0 -94.925605,39.789754,0 -94.934262,39.773642,0 -94.91229300000001,39.759338,0 -94.867143,39.771694,0 -94.862943,39.742994,0 -94.90261199999999,39.724202,0 -94.96531800000001,39.739065,0 -94.971317,39.68641,0 -95.02764399999998,39.665454,0 -95.05336699999999,39.630347,0 -95.049277,39.589583,0 -95.103228,39.577783,0 -95.10930399999999,39.542285,0 -95.052177,39.499996,0 -95.03749999999999,39.463689,0 -94.98214400000001,39.440552,0 -94.94203899999999,39.389499,0 -94.885026,39.389801,0 -94.88135999999999,39.370383,0 -94.910017,39.352543,0 -94.90532900000001,39.311952,0 -94.83147099999999,39.256273,0 -94.823791,39.209874,0 -94.78151800000001,39.206146,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000485">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.570643,44.86452,0 -85.569891,44.872323,0 -85.58120700000001,44.869938,0 -85.570643,44.86452,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000486">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.097094,45.030128,0 -86.07781,45.03241,0 -86.13809500000001,45.043038,0 -86.155845,45.004918,0 -86.10679500000001,45.00217,0 -86.092235,45.010129,0 -86.097094,45.030128,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000487">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.568039,45.099781,0 -85.56586,45.099502,0 -85.567733,45.101413,0 -85.568039,45.099781,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000488">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.050473,45.158418,0 -86.064483,45.139601,0 -86.060396,45.10461699999999,0 -86.007527,45.05717199999999,0 -85.96087900000001,45.060508,0 -85.984095,45.087073,0 -85.97577200000001,45.133669,0 -85.993194,45.15280499999999,0 -86.050473,45.158418,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000489">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-87.26365199999999,45.157083,0 -87.262224,45.160801,0 -87.264726,45.161297,0 -87.26365199999999,45.157083,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400048A">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-87.207121,45.179995,0 -87.21303399999999,45.179143,0 -87.212057,45.17699100000001,0 -87.207121,45.179995,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400048B">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-87.37697,45.17817,0 -87.332633,45.160916,0 -87.335066,45.211254,0 -87.37600999999999,45.197352,0 -87.37697,45.17817,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400048C">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.94760100000001,45.312321,0 -86.957222,45.304756,0 -86.94416,45.300632,0 -86.94760100000001,45.312321,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400048D">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.90316900000001,45.333112,0 -86.869041,45.333223,0 -86.8642,45.365132,0 -86.83785399999999,45.393715,0 -86.87750200000001,45.413981,0 -86.926588,45.397969,0 -86.934276,45.421149,0 -86.95520399999999,45.383721,0 -86.956129,45.342267,0 -86.899891,45.295185,0 -86.90316900000001,45.333112,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400048E">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.88470700000001,45.44481400000001,0 -85.875108,45.42541,0 -85.83847799999999,45.38257999999999,0 -85.83196700000001,45.42048,0 -85.88470700000001,45.44481400000001,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400048F">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.817069,45.42696299999999,0 -86.8309,45.426023,0 -86.830353,45.410852,0 -86.805415,45.407324,0 -86.817069,45.42696299999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000490">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.76683800000001,45.47578800000001,0 -85.782646,45.491596,0 -85.79296100000001,45.481976,0 -85.777422,45.467412,0 -85.76683800000001,45.47578800000001,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000491">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.757548,45.504123,0 -86.781474,45.509685,0 -86.78280599999999,45.486782,0 -86.757564,45.485756,0 -86.757548,45.504123,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000492">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.716137,45.49777900000001,0 -86.713998,45.499195,0 -86.713894,45.499798,0 -86.716137,45.49777900000001,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000493">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.720653,45.511521,0 -86.722911,45.508523,0 -86.71669300000001,45.509483,0 -86.720653,45.511521,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000494">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.72623900000001,45.520598,0 -86.72309199999999,45.52052500000001,0 -86.72509100000001,45.52173400000001,0 -86.72623900000001,45.520598,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000495">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.659915,45.522491,0 -86.670204,45.52956,0 -86.667056,45.52168,0 -86.659915,45.522491,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000496">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.62208099999999,45.559472,0 -86.660639,45.57860399999999,0 -86.648909,45.544344,0 -86.62208099999999,45.559472,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000497">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.677269,45.613689,0 -86.701758,45.616604,0 -86.690169,45.595721,0 -86.677269,45.613689,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000498">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.708056,45.61153399999999,0 -86.712453,45.60887300000001,0 -86.71069,45.60824599999999,0 -86.708056,45.61153399999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F3224000499">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.491727,45.607527,0 -85.498777,45.726291,0 -85.521911,45.739419,0 -85.501267,45.754415,0 -85.566441,45.760222,0 -85.571781,45.711424,0 -85.60830199999999,45.66399400000001,0 -85.619877,45.582884,0 -85.541129,45.575045,0 -85.491727,45.607527,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400049A">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.84341499999999,45.692909,0 -85.83517999999999,45.709197,0 -85.83899599999999,45.71015400000001,0 -85.84341499999999,45.692909,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400049B">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.673027,45.698167,0 -85.644893,45.74270200000001,0 -85.70110099999999,45.737988,0 -85.68710299999999,45.71979,0 -85.69364,45.6961,0 -85.673027,45.698167,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400049C">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.65753599999999,45.736576,0 -86.65707399999999,45.742643,0 -86.658187,45.74078200000001,0 -86.65753599999999,45.736576,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400049D">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.763435,45.74355600000001,0 -86.759276,45.744302,0 -86.765456,45.74878,0 -86.763435,45.74355600000001,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400049E">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.693102,45.77088699999999,0 -85.68407500000001,45.770125,0 -85.694575,45.77559300000001,0 -85.693102,45.77088699999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F322400049F">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.37795800000001,45.81406700000001,0 -85.374652,45.79543600000001,0 -85.39476500000001,45.777136,0 -85.35763799999999,45.778529,0 -85.35068099999999,45.802976,0 -85.36308,45.81790700000001,0 -85.37795800000001,45.81406700000001,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32240004A0">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.75880100000001,45.796692,0 -86.761177,45.801497,0 -86.762722,45.800917,0 -86.75880100000001,45.796692,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32240004A1">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.51802499999999,45.803043,0 -85.530841,45.79904499999999,0 -85.493359,45.788814,0 -85.505752,45.778086,0 -85.455474,45.777831,0 -85.471346,45.806474,0 -85.52654800000001,45.824167,0 -85.51802499999999,45.803043,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32240004A2">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.61196700000001,45.814302,0 -85.617538,45.810776,0 -85.611124,45.807376,0 -85.61196700000001,45.814302,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32240004A3">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.299049,45.817526,0 -85.30071,45.817721,0 -85.301543,45.81543500000001,0 -85.299049,45.817526,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32240004A4">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.58375700000001,45.83949399999999,0 -85.594489,45.83768,0 -85.586921,45.833923,0 -85.58375700000001,45.83949399999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32240004A5">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.201427,46.043086,0 -85.201954,46.044859,0 -85.204774,46.044412,0 -85.201427,46.043086,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004A6">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.719323,46.479033,0 -86.716742,46.478599,0 -86.718797,46.482226,0 -86.719323,46.479033,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004A7">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.899098,46.484149,0 -86.89109500000001,46.47946000000001,0 -86.89052700000001,46.48622599999999,0 -86.899098,46.484149,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004A8">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.62307699999999,46.456504,0 -86.609596,46.493456,0 -86.62822300000001,46.47778099999999,0 -86.646798,46.487497,0 -86.626329,46.534903,0 -86.653355,46.56069800000001,0 -86.709463,46.541851,0 -86.68381100000001,46.497726,0 -86.687595,46.456228,0 -86.671682,46.45060899999999,0 -86.65991699999999,46.470256,0 -86.636625,46.472384,0 -86.647795,46.46256200000001,0 -86.62307699999999,46.456504,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004A9">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-86.73728699999999,46.51114800000001,0 -86.746421,46.507874,0 -86.73691599999999,46.50397000000001,0 -86.73728699999999,46.51114800000001,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004AA">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-87.40263299999999,46.59554499999999,0 -87.402109,46.593464,0 -87.399295,46.594726,0 -87.40263299999999,46.59554499999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004AB">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-87.410079,46.602718,0 -87.41336200000001,46.60539599999999,0 -87.420134,46.60297400000001,0 -87.410079,46.602718,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004AC">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.818592,43.665453,0 -83.81674599999999,43.672472,0 -83.83009800000001,43.671839,0 -83.818592,43.665453,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004AD">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.02387299999999,45.760744,0 -85.01958399999999,45.764219,0 -85.03905,45.764318,0 -85.02387299999999,45.760744,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004AE">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-85.055172,45.7644,0 -85.074442,45.76589000000001,0 -85.074943,45.764583,0 -85.055172,45.7644,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004AF">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.59023999999999,45.812801,0 -84.481421,45.730052,0 -84.405717,45.722259,0 -84.35594500000001,45.770691,0 -84.404335,45.78525,0 -84.420326,45.81131700000001,0 -84.433724,45.78671,0 -84.59023999999999,45.812801,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004B0">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.589501,45.826897,0 -84.61194,45.833944,0 -84.607343,45.825624,0 -84.589501,45.826897,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004B1">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.751396,45.836245,0 -84.75104899999999,45.83471,0 -84.748057,45.83438700000001,0 -84.751396,45.836245,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004B2">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.868987,45.854951,0 -84.861903,45.856643,0 -84.87384400000001,45.86671199999999,0 -84.868987,45.854951,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004B3">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.65091700000001,45.859798,0 -84.603171,45.85018600000001,0 -84.60883,45.86206200000001,0 -84.646221,45.885216,0 -84.65091700000001,45.859798,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004B4">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.42976,45.918838,0 -84.431196,45.926019,0 -84.43294899999999,45.926734,0 -84.42976,45.918838,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004B5">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.766296,45.93511599999999,0 -83.768068,45.937779,0 -83.768552,45.931753,0 -83.766296,45.93511599999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004B6">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.561909,45.963469,0 -84.577412,45.969795,0 -84.58085199999999,45.958792,0 -84.561909,45.963469,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004B7">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.20195,45.970356,0 -84.20313400000001,45.968473,0 -84.19994199999999,45.96716,0 -84.20195,45.970356,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004B8">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.640179,45.958369,0 -84.608783,45.967471,0 -84.635822,45.980875,0 -84.640179,45.958369,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004B9">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.43724400000001,45.980269,0 -84.42204099999999,45.974696,0 -84.437612,45.981351,0 -84.43724400000001,45.980269,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004BA">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.79040999999999,46.009222,0 -83.791955,46.008561,0 -83.791955,46.007241,0 -83.79040999999999,46.009222,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004BB">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.897128,46.017062,0 -83.898554,46.018713,0 -83.900931,46.016237,0 -83.897128,46.017062,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004BC">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.82285299999999,46.030843,0 -83.825468,46.028533,0 -83.82392299999999,46.0268,0 -83.82285299999999,46.030843,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004BD">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.792787,46.03752599999999,0 -83.79159799999999,46.034391,0 -83.790766,46.038433,0 -83.792787,46.03752599999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004BE">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.827607,46.03546299999999,0 -83.827725,46.03967,0 -83.829033,46.03752599999999,0 -83.827607,46.03546299999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004BF">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.835807,46.04561,0 -83.837352,46.045362,0 -83.83651999999999,46.04297,0 -83.835807,46.04561,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004C0">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.852563,46.058888,0 -83.85732899999999,46.057806,0 -83.847809,46.052208,0 -83.852563,46.058888,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004C1">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.878708,46.05798099999999,0 -83.881322,46.055919,0 -83.879183,46.054187,0 -83.878708,46.05798099999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004C2">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.827369,46.055095,0 -83.825824,46.058228,0 -83.827844,46.056579,0 -83.827369,46.055095,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004C3">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.79884699999999,46.05872299999999,0 -83.796233,46.056497,0 -83.797659,46.061032,0 -83.79884699999999,46.05872299999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004C4">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.792787,46.06375300000001,0 -83.793618,46.061032,0 -83.791836,46.06259899999999,0 -83.792787,46.06375300000001,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004C5">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.850543,46.065815,0 -83.842343,46.064166,0 -83.84186699999999,46.069443,0 -83.850543,46.065815,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004C6">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.885244,46.069278,0 -83.88583800000001,46.066887,0 -83.876806,46.064825,0 -83.885244,46.069278,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004C7">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.774248,46.066474,0 -83.77080100000001,46.06565,0 -83.77080100000001,46.06911300000001,0 -83.774248,46.066474,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004C8">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.813227,46.074554,0 -83.810613,46.07406,0 -83.80942400000001,46.078017,0 -83.813227,46.074554,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004C9">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.01263400000001,46.08728,0 -83.97345,46.065285,0 -83.976513,46.07537900000001,0 -84.01263400000001,46.08728,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004CA">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.85292,46.076533,0 -83.868369,46.07983,0 -83.86718,46.072905,0 -83.85292,46.076533,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004CB">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.851018,46.081726,0 -83.856247,46.084776,0 -83.85422699999999,46.079995,0 -83.851018,46.081726,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004CC">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.78422999999999,46.081314,0 -83.780665,46.083869,0 -83.78125900000001,46.085023,0 -83.78422999999999,46.081314,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004CD">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.984832,46.09219400000001,0 -83.98613899999999,46.089392,0 -83.983643,46.08865,0 -83.984832,46.09219400000001,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004CE">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.814891,46.108922,0 -83.82820100000001,46.10027,0 -83.77816900000001,46.089969,0 -83.814891,46.108922,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004CF">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.99113,46.100847,0 -83.987684,46.098292,0 -83.989704,46.103154,0 -83.99113,46.100847,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004D0">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.02072099999999,46.10982800000001,0 -84.023217,46.109334,0 -84.020365,46.107686,0 -84.02072099999999,46.10982800000001,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004D1">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.168412,46.215517,0 -84.169844,46.219355,0 -84.17151800000001,46.21879799999999,0 -84.168412,46.215517,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004D2">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.51672000000001,46.441905,0 -84.515384,46.44358,0 -84.516937,46.442696,0 -84.51672000000001,46.441905,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004D3">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-84.681416,46.492238,0 -84.679057,46.493421,0 -84.68376600000001,46.491751,0 -84.681416,46.492238,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004D4">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-82.730903,41.493857,0 -82.72733700000001,41.502115,0 -82.741669,41.496657,0 -82.730903,41.493857,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004D5">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-82.83085199999999,41.592134,0 -82.834767,41.591171,0 -82.834135,41.590248,0 -82.83085199999999,41.592134,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004D6">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-82.688695,41.586538,0 -82.673579,41.62322,0 -82.696967,41.610782,0 -82.718025,41.619418,0 -82.734525,41.601131,0 -82.688695,41.586538,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004D7">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-82.86358799999999,41.646893,0 -82.86516899999999,41.644674,0 -82.862832,41.64554,0 -82.86358799999999,41.646893,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004D8">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-82.84152,41.62904,0 -82.793708,41.664798,0 -82.814387,41.65423,0 -82.834092,41.657121,0 -82.84152,41.62904,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004D9">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-82.822281,41.657208,0 -82.81952699999999,41.658545,0 -82.821533,41.659324,0 -82.822281,41.657208,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004DA">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-82.78551299999999,41.677017,0 -82.78386999999999,41.678605,0 -82.785454,41.679015,0 -82.78551299999999,41.677017,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004DB">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-82.854679,41.682179,0 -82.84881900000001,41.677115,0 -82.84447299999999,41.678829,0 -82.854679,41.682179,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004DC">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-82.826206,41.684597,0 -82.813661,41.67135,0 -82.805511,41.672337,0 -82.803337,41.689244,0 -82.826206,41.684597,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004DD">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-82.82972100000001,41.69088,0 -82.822779,41.691863,0 -82.826111,41.693487,0 -82.82972100000001,41.69088,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004DE">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-82.780404,41.696776,0 -82.783958,41.697292,0 -82.800573,41.694393,0 -82.78984699999999,41.693116,0 -82.780404,41.696776,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004DF">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.44686799999999,41.706991,0 -83.46118199999999,41.705705,0 -83.46078799999999,41.701259,0 -83.44686799999999,41.706991,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004E0">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.443366,41.704453,0 -83.42128,41.703376,0 -83.42760699999999,41.711745,0 -83.443366,41.704453,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004E1">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-82.809316,41.70884,0 -82.82572,41.72281,0 -82.83511799999999,41.708971,0 -82.809316,41.70884,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004E2">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.105569,41.74251,0 -83.11083499999999,41.737193,0 -83.106084,41.736861,0 -83.105569,41.74251,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004E3">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.190997,42.033428,0 -83.18921400000001,42.033339,0 -83.189927,42.035987,0 -83.190997,42.033428,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004E4">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.46825,43.757507,0 -83.46596099999999,43.760005,0 -83.481212,43.758229,0 -83.46825,43.757507,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004E5">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.45156799999999,43.812382,0 -83.453776,43.832433,0 -83.458932,43.810051,0 -83.45156799999999,43.812382,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004E6">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.445266,43.823907,0 -83.43299399999999,43.819419,0 -83.433069,43.820435,0 -83.445266,43.823907,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004E7">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.42115200000001,43.826979,0 -83.42720799999999,43.838982,0 -83.433818,43.83553,0 -83.42115200000001,43.826979,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004E8">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.434523,43.860728,0 -83.449414,43.858836,0 -83.440416,43.839388,0 -83.434523,43.860728,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004E9">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.41643000000001,43.874604,0 -83.41463400000001,43.87648,0 -83.43178399999999,43.881781,0 -83.41643000000001,43.874604,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004EA">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.466409,44.003698,0 -83.470271,44.001515,0 -83.463266,44.001372,0 -83.466409,44.003698,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004EB">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.441221,44.03805,0 -83.437089,44.023163,0 -83.42726500000001,44.028701,0 -83.441221,44.03805,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004EC">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.422528,44.988308,0 -83.412818,44.986207,0 -83.414241,44.990533,0 -83.422528,44.988308,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004ED">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.23045999999999,45.042692,0 -83.226983,45.040481,0 -83.216899,45.043798,0 -83.23045999999999,45.042692,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004EE">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.193451,45.03417499999999,0 -83.202015,45.046114,0 -83.210548,45.05257799999999,0 -83.20494600000001,45.040747,0 -83.193451,45.03417499999999,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004EF">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.23246399999999,45.056833,0 -83.233851,45.05497699999999,0 -83.22871000000001,45.056365,0 -83.23246399999999,45.056833,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004F0">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.299288,45.06504,0 -83.28894699999999,45.070389,0 -83.29169899999999,45.073274,0 -83.299288,45.06504,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004F1">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.324881,45.187083,0 -83.31986000000001,45.189457,0 -83.329886,45.197735,0 -83.324881,45.187083,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004F2">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.76581,46.026387,0 -83.80098700000001,45.984702,0 -83.82499199999999,45.992051,0 -83.817149,46.003031,0 -83.830102,45.996922,0 -83.83034000000001,46.02399399999999,0 -83.869676,46.000967,0 -83.881899,45.964104,0 -83.84911700000001,45.96281499999999,0 -83.82915199999999,45.94736499999999,0 -83.836524,45.938178,0 -83.81786200000001,45.954223,0 -83.786168,45.93292400000001,0 -83.75701599999999,45.954636,0 -83.71566799999999,45.930108,0 -83.699141,45.942325,0 -83.639364,45.939515,0 -83.630214,45.95703199999999,0 -83.630967,45.92900100000001,0 -83.60644600000001,45.940672,0 -83.608463,45.926076,0 -83.565084,45.912599,0 -83.543223,45.92868699999999,0 -83.51582399999999,45.923617,0 -83.473221,45.98442099999999,0 -83.534429,46.007654,0 -83.58131400000001,46.08961500000001,0 -83.634979,46.103954,0 -83.71978799999999,46.101032,0 -83.732178,46.086919,0 -83.677393,46.072988,0 -83.671689,46.05493,0 -83.690465,46.05361,0 -83.688802,46.035628,0 -83.76581,46.026387,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004F3">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.732416,46.036866,0 -83.732654,46.038268,0 -83.733485,46.03810299999999,0 -83.732416,46.036866,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004F4">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.725523,46.040578,0 -83.728375,46.03802100000001,0 -83.725167,46.037443,0 -83.725523,46.040578,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004F5">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.72267100000001,46.05080600000001,0 -83.72041299999999,46.04404199999999,0 -83.71863,46.046599,0 -83.72267100000001,46.05080600000001,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004F6">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.747226,46.034778,0 -83.734317,46.05072400000001,0 -83.752262,46.064166,0 -83.77401,46.051466,0 -83.747226,46.034778,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004F7">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.70793500000001,46.048909,0 -83.700923,46.049816,0 -83.702825,46.05352799999999,0 -83.70793500000001,46.048909,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004F8">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.693912,46.061939,0 -83.695694,46.05493,0 -83.691535,46.055589,0 -83.693912,46.061939,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004F9">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.700329,46.062269,0 -83.704132,46.066722,0 -83.703181,46.06144499999999,0 -83.700329,46.062269,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+					<ns0:Placemark id="5C777F32250004FA">
+						<ns0:name>Great Lakes</ns0:name>
+						<ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes</ns0:description>
+						<ns0:styleUrl>#__managed_style_700CBBECD03F8CDEB5E1</ns0:styleUrl>
+						<ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-83.769732,46.088568,0 -83.761651,46.088897,0 -83.771395,46.09095800000001,0 -83.769732,46.088568,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+				</ns0:Document>
+</ns0:kml>
