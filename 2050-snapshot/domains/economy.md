@@ -92,10 +92,10 @@ The global trading system has regionalized along political and currency lines. F
 - → See transition doc: [economy.md Driver 4](../../2026-2050-transition/economy.md#driver-4-global-supply-chain-reconfiguration)
 
 **Americas Trade:** Residual dollar zone in the Americas, declining in importance.
-- **Participants:** Canada (decentralized federation), Mexico (unified, BRICS+ affiliated), Caribbean states, residual reactionary successor states (Texas, Florida, Heartland — shrinking), plus revolutionary successor states (New Afrika, Pacifica, Aztlán) that now trade more with BRICS+ and Asia than with Americas neighbors
-- **Currencies:** Canadian dollar, Mexican peso, successor state currencies (Pacific Dollar, Atlantic Dollar, Great Lakes Dollar, Aztlán Peso, Deseret Dollar), residual USD in reactionary territories
-- **Key trade flows:** Energy (Canadian oil/gas — declining, but continues to EU and Atlantica), manufactured goods (Great Lakes, Atlantica), agricultural (Heartland, Canada, Mexico), semiconductor components (CSR to BRICS+)
-- **Integration depth:** USMCA frameworks collapsed with US dissolution. Successor states maintain bilateral trade agreements — Pacifica-Atlantica trade compact, Aztlán-Mexico energy agreement, Great Lakes-Canada Great Lakes shipping treaty. There is no single Americas trade framework.
+- **Participants:** Post-Canadian successor states (Canadian rump, Quebec Republic, Maritime Republic, Newfoundland, Manitoba, Inuit Nunangat, Denendeh), Mexico (unified, BRICS+ affiliated), Caribbean states, residual reactionary successor states (Texas, Florida, Heartland — shrinking), plus revolutionary successor states (New Afrika, Pacifica, Aztlán) that now trade more with BRICS+ and Asia than with Americas neighbors
+- **Currencies:** Canadian dollar (rump), Quebec Franc, Maritime Dollar, Newfoundland Dollar, Manitoba Dollar, Mexican peso, successor state currencies (Pacific Dollar, Atlantic Dollar, Great Lakes Dollar, Aztlán Peso, Deseret Dollar), residual USD in reactionary territories
+- **Key trade flows:** Energy (Canadian rump oil/gas — declining, but continues to EU and Atlantica), manufactured goods (Great Lakes, Atlantica), agricultural (Heartland, Canadian rump, Manitoba, Mexico), hydroelectric exports (Quebec Republic, Manitoba, Newfoundland to Atlantica), semiconductor components (CSR to BRICS+)
+- **Integration depth:** USMCA frameworks collapsed with US dissolution. Successor states maintain bilateral trade agreements — Pacifica-Atlantica trade compact, Aztlán-Mexico energy agreement, Great Lakes-Canadian rump Great Lakes shipping treaty (contested), Maritime Republic-Atlantica free movement zone, Quebec Republic-Newfoundland no-trade status (Labrador dispute). There is no single Americas trade framework.
 - → See borders analysis: [North America Beyond Former US](../../2050-snapshot/domains/borders-geopolitics.md#north-america-beyond-former-us)
 
 **African Blocs:** The African Continental Free Trade Area (AfCFTA) is operational but unevenly implemented.
@@ -158,7 +158,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Pacifica:**
 - **GDP:** ~$2.5T
 - **Dominant sectors:** Technology (Silicon Valley legacy, AI, software, cloud), green energy (solar, wind, geothermal — best renewable endowment in former US), entertainment (Hollywood and streaming), specialty agriculture (Central Valley, wine country), manufacturing (semiconductor design, aerospace, advanced materials), gaming/tourism (Las Vegas/Clark County)
-- **Trade partners and bloc alignment:** BRICS+ (primary), Atlantica, Aztlán, EU Core, Canada, East Asia. The Pacifica is a BRICS+ member and a founding participant in the BRICS+ clearing house and MDB.
+- **Trade partners and bloc alignment:** BRICS+ (primary), Atlantica, Aztlán, EU Core, Canadian rump, East Asia. The Pacifica is a BRICS+ member and a founding participant in the BRICS+ clearing house and MDB.
 - **Economic model:** Socialist-state-directed with strong market elements in small and medium enterprise. Major industries (energy, transportation, healthcare, housing) are publicly owned or regulated as public utilities. Strategic industries operate under state coordination; SME sector operates with market competition within a regulatory framework.
 - **Currency:** Pacific Dollar (PAD) — floated, managed by the Pacific Reserve Bank. PAD is convertible to digital basket (BCU) and yuan. Trade-weighted exchange rate policy.
 - **Labor market character:** Highly automated (technology, manufacturing, logistics) with UBI floor. Service sector mixed (automated + human). Education and healthcare remain labor-intensive. ~55M population.
@@ -168,7 +168,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Atlantica:**
 - **GDP:** ~$1.8T
 - **Dominant sectors:** Finance (domestic — transformed post-dollar-collapse, retained institutional asset management and corporate banking), higher education (Ivy League, research universities), healthcare and pharmaceuticals (major hospital systems, biotech research), advanced manufacturing (aerospace, defense conversion, medical devices), technology (NYC tech sector, Cambridge/Boston R&D)
-- **Trade partners and bloc alignment:** EU Core (primary), Pacifica, Canada, UK. Atlantica has observer status with BRICS+ but maintains closer trade integration with Europe. Strong financial ties to the City of London (transformed post-dollar-clearing).
+- **Trade partners and bloc alignment:** EU Core (primary), Pacifica, Maritime Republic, Canadian rump, UK. Atlantica has observer status with BRICS+ but maintains closer trade integration with Europe. Strong financial ties to the City of London (transformed post-dollar-clearing).
 - **Economic model:** Social-democratic mixed economy. Strong public sector in healthcare, education, transportation, and housing. Market-based private sector with robust regulation, progressive taxation, and strong labor protections. Finance sector regulated under the Atlantic Financial Stability Act (2040).
 - **Currency:** Atlantic Dollar (ATD) — managed float, partially backed by a diversified reserve portfolio (euro, BCU, yuan, gold). Issued by the Atlantic Reserve System.
 - **Labor market character:** Mixed automated/labor-intensive services. Finance and professional services are highly automated; healthcare and education remain labor-intensive. Guaranteed employment program (Atlantic Works) maintains near-full employment. ~55M population.
@@ -178,7 +178,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Great Lakes:**
 - **GDP:** ~$1.2T
 - **Dominant sectors:** Manufacturing (reindustrialized — automotive, machinery, steel, chemicals, food processing — ~$440B+ combined industrial base), green energy (Great Lakes offshore wind, solar on industrial rooftops), agriculture (Corn Belt — corn, soybeans, livestock), logistics (Great Lakes shipping, rail and highway corridors), advanced nuclear (small modular reactors, 2038-2045 buildout)
-- **Trade partners and bloc alignment:** Atlantica (primary), Pacifica, Canada, EU Core, Aztlán. Great Lakes is a BRICS+ member — its manufactured goods flow into BRICS+ supply chains. Joint energy market with Pacifica (Pacific-Great Lakes Power Compact, established 2042).
+- **Trade partners and bloc alignment:** Atlantica (primary), Pacifica, Canadian rump (reduced — constrained by Great Lakes shipping treaty disputes), Manitoba (cooperative agricultural trade), EU Core, Aztlán. Great Lakes is a BRICS+ member — its manufactured goods flow into BRICS+ supply chains. Joint energy market with Pacifica (Pacific-Great Lakes Power Compact, established 2042).
 - **Economic model:** Socialist-state-directed with worker cooperative sector. Strategic industries (automotive, steel, energy, rail) publicly owned. Manufacturing operates through a mix of state enterprises, worker cooperatives, and private SMEs. Reindustrialization directed by the Great Lakes Industrial Planning Authority.
 - **Currency:** Great Lakes Dollar (GLD) — tied to a trade-weighted basket reflecting industrial export composition. Managed by the Great Lakes Central Bank.
 - **Labor market character:** Mixed. Manufacturing highly automated (~50% by task). Construction, agriculture, and logistics mixed. Employment guarantee for able-bodied adults in manufacturing, infrastructure, or cooperative sectors. ~50M population.
@@ -280,7 +280,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Tlingit Aaní:**
 - **GDP:** ~$8B
 - **Dominant sectors:** Fishing (salmon, halibut — Southeast Alaska's primary industry), renewable energy (hydroelectricity — abundant, energy independent), timber (sustainable forestry — limited by terrain), tourism (reorganized — Inside Passage cruise industry, indigenous cultural tourism), small-scale mining
-- **Trade partners and bloc alignment:** Pacifica (primary — maritime trade through Inside Passage), Canada (British Columbia), East Asian markets (Japan, Korea — seafood exports). BRICS+ observer through Pacifica relationship.
+- **Trade partners and bloc alignment:** Pacifica (primary — maritime trade through Inside Passage, land corridor through Pacifica coastal territory), Canadian rump (BC interior — reduced), East Asian markets (Japan, Korea — seafood exports). BRICS+ observer through Pacifica relationship.
 - **Economic model:** Indigenous cooperative / socialist confederation. Decentralized — member communities retain significant economic autonomy. Fishing and energy managed collectively. Squaxin and other traditional governance structures integrated.
 - **Currency:** Digital basket (BCU) / barter. No independent currency. Pacifica financial system provides banking services.
 - **Labor market character:** Labor-intensive. Fishing, tourism, and forestry are the primary employment sectors. Some automation in fish processing and timber milling. ~75K population.
@@ -384,7 +384,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 **Alaska:**
 - **GDP:** ~$30B
 - **Dominant sectors:** Oil and gas (severely declining — production <500K bpd, global demand declining, infrastructure degrading), fishing (Bristol Bay, Gulf of Alaska — residual), logistics (Anchorage as air cargo hub — significantly reduced volume), military (residual infrastructure, no capacity to project power)
-- **Trade partners and bloc alignment:** Minimal — trade primarily with Canada (residual), residual East Asian markets (seafood, energy). No bloc alignment — effectively isolated.
+- **Trade partners and bloc alignment:** Minimal — trade primarily with Canadian rump (residual), residual East Asian markets (seafood, energy). No bloc alignment — effectively isolated.
 - **Economic model:** Nationalist-capitalist / extractive (failing). Oil revenue collapsed, Permanent Fund depleted, federal transfers gone. Government services largely stopped. De facto control shrinking.
 - **Currency:** Dollarized / barter. US dollar legacy — severe liquidity shortage.
 - **Labor market character:** Labor-intensive. Fishing and residual logistics provide primary employment. Extraction declining. High unemployment, out-migration. ~450K population (declining rapidly).

@@ -1,6 +1,7 @@
 # Generated/binary files
 *.kmz
 .DS_Store
+__pycache__/
 
 # Obsidian workspace lock
 .obsidian/workspace.json

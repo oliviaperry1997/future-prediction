@@ -150,7 +150,7 @@
         "Panama",
         "Mexico"
       ],
-      "Northern America (wip)": [
+    "Northern America (wip)": [
         "Absaroka",
         "Alaska",
         "Alleghenia",
@@ -161,6 +161,7 @@
         "Colorado",
         "Columbia",
         "Dena'ina Nenn'",
+        "Denendeh",
         "Deseret",
         "Florida",
         "Front Range Socialist Republic",
@@ -169,40 +170,29 @@
         "Haudenosaunee Confederacy",
         "Hawaii",
         "Heartland",
-        "I\u00f1upiat Nunaat",
+        "Inuit Nunangat",
+        "Iñupiat Nunaat",
         "Kentucky",
+        "Manitoba",
+        "Maritime Republic",
         "Montana-Wyoming",
         "Navajoland",
         "New Afrika",
+        "Newfoundland",
         "North Carolina",
         "Atlantica",
         "Oceti Sakowin",
         "Oklahoma",
         "Pacifica",
         "Neuse",
+        "Quebec Republic",
         "Sequoyah",
         "St. Pierre and Miquelon",
         "Tennessee",
         "Texas",
-        "Tlingit Aan\u00ed",
+        "Tlingit Aaní",
         "Virginia",
         "Yup'it-Alutiiq Confederacy"
-      ],
-      "South America (wip)": [
-        "Argentina",
-        "Bolivia",
-        "Brazil",
-        "Chile",
-        "Colombia",
-        "Ecuador",
-        "Falkland Islands",
-        "Guyana",
-        "Paraguay",
-        "Peru",
-        "South Georgia",
-        "Suriname",
-        "Uruguay",
-        "Venezuela"
       ]
     },
     "Antarctica (wip)": [
@@ -524,12 +514,66 @@
     },
     "Canada": {
       "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "CAN",
+      "category": "reactionary",
+      "source": "manual",
+      "manual_path": "source/manual/Canada.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "canada",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#canada"
+    },
+    "Quebec Republic": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "manual",
+      "manual_path": "source/manual/Quebec Republic.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "quebec-republic",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#quebec-republic"
+    },
+    "Maritime Republic": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "manual",
+      "manual_path": "source/manual/Maritime Republic.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "maritime-republic",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#maritime-republic"
+    },
+    "Newfoundland": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "manual",
+      "manual_path": "source/manual/Newfoundland.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "newfoundland",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#newfoundland"
+    },
+    "Manitoba": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "manual",
+      "manual_path": "source/manual/Manitoba.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "manitoba",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#manitoba"
+    },
+    "Denendeh": {
+      "type": "entity",
+      "category": "indigenous",
+      "source": "manual",
+      "manual_path": "source/manual/Denendeh.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "denendeh",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#denendeh"
+    },
+    "Inuit Nunangat": {
+      "type": "entity",
+      "category": "indigenous",
+      "source": "manual",
+      "manual_path": "source/manual/Inuit Nunangat.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "inuit-nunangat",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#inuit-nunangat"
     },
     "Mexico": {
       "type": "entity",

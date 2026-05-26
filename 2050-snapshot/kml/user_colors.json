@@ -1384,5 +1384,41 @@
     "kml_fill": "803a9455",
     "kml_line": "ff3a9455",
     "width": 1.0
+  },
+  "Quebec Republic": {
+    "hex": "#003399",
+    "kml_fill": "80993300",
+    "kml_line": "ff993300",
+    "width": 1.0
+  },
+  "Maritime Republic": {
+    "hex": "#CC3333",
+    "kml_fill": "803333cc",
+    "kml_line": "ff3333cc",
+    "width": 1.0
+  },
+  "Newfoundland": {
+    "hex": "#336699",
+    "kml_fill": "80996633",
+    "kml_line": "ff996633",
+    "width": 1.0
+  },
+  "Manitoba": {
+    "hex": "#66AA44",
+    "kml_fill": "8044aa66",
+    "kml_line": "ff44aa66",
+    "width": 1.0
+  },
+  "Denendeh": {
+    "hex": "#CC8844",
+    "kml_fill": "804488cc",
+    "kml_line": "ff4488cc",
+    "width": 1.0
+  },
+  "Inuit Nunangat": {
+    "hex": "#88CCEE",
+    "kml_fill": "80eecc88",
+    "kml_line": "ffeecc88",
+    "width": 1.0
   }
 }
