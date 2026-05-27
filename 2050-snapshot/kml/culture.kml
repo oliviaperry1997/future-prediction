@@ -3,7 +3,7 @@
   <Document>
     <name>2050 Culture</name>
     <visibility>0</visibility>
-    <gx:CascadingStyle id="__managed_style_00000000000002D7">
+    <gx:CascadingStyle id="__managed_style_00000000000002C8">
       <Style>
         <IconStyle>
           <Icon>
@@ -24,7 +24,7 @@
         </BalloonStyle>
       </Style>
     </gx:CascadingStyle>
-    <gx:CascadingStyle id="__managed_style_00000000000002D8">
+    <gx:CascadingStyle id="__managed_style_00000000000002C9">
       <Style>
         <IconStyle>
           <Icon>
@@ -45,14 +45,14 @@
         </BalloonStyle>
       </Style>
     </gx:CascadingStyle>
-    <StyleMap id="__managed_style_00000000000002D9">
+    <StyleMap id="__managed_style_00000000000002CA">
       <Pair>
         <key>normal</key>
-        <styleUrl>#__managed_style_00000000000002D7</styleUrl>
+        <styleUrl>#__managed_style_00000000000002C8</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#__managed_style_00000000000002D8</styleUrl>
+        <styleUrl>#__managed_style_00000000000002C9</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>

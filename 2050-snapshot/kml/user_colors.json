@@ -419,28 +419,16 @@
     "kml_line": "ff3b4acf",
     "width": 1.0
   },
-  "Colombia": {
+  "Gran Colombia": {
     "hex": "#f6c645",
     "kml_fill": "8045c6f6",
     "kml_line": "ff45c6f6",
     "width": 1.0
   },
-  "Ecuador": {
-    "hex": "#be923c",
-    "kml_fill": "803c92be",
-    "kml_line": "ff3c92be",
-    "width": 1.0
-  },
-  "Falkland Islands": {
-    "hex": "#ffffff",
-    "kml_fill": "80ffffff",
-    "kml_line": "ff2dc0fb",
-    "width": 1.0
-  },
   "Guyana": {
-    "hex": "#f5d34b",
-    "kml_fill": "804bd3f5",
-    "kml_line": "ff4bd3f5",
+    "hex": "#B49678",
+    "kml_fill": "807896B4",
+    "kml_line": "ff7896B4",
     "width": 1.0
   },
   "Paraguay": {
@@ -455,22 +443,10 @@
     "kml_line": "ff4c88c3",
     "width": 1.0
   },
-  "South Georgia": {
-    "hex": "#ffffff",
-    "kml_fill": "80ffffff",
-    "kml_line": "ff2dc0fb",
-    "width": 1.0
-  },
   "Suriname": {
     "hex": "#a52432",
     "kml_fill": "803224a5",
     "kml_line": "ff3224a5",
-    "width": 1.0
-  },
-  "Uruguay": {
-    "hex": "#2748f1",
-    "kml_fill": "80f14827",
-    "kml_line": "fff14827",
     "width": 1.0
   },
   "Venezuela": {
@@ -1239,6 +1215,12 @@
     "hex": "#2ECC71",
     "kml_fill": "8071cc2e",
     "kml_line": "ff71cc2e",
+    "width": 1.0
+  },
+  "Cayenne": {
+    "hex": "#A04B78",
+    "kml_fill": "80784ba0",
+    "kml_line": "ff784ba0",
     "width": 1.0
   },
   "Cura\u00e7ao": {

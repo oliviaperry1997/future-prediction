@@ -233,7 +233,21 @@ Bonaire, Saba, and Sint Eustatius were special municipalities of the Netherlands
 
 **Lithium Triangle (Chile, Bolivia):** A strategic choke point in the global green energy transition. Chile back under center-left governance after the Kast-era right-turn collapsed with US backing — lithium policy reoriented toward state control and BRICS+ partnerships. Bolivia's lithium reserves fully nationalized and developed with Chinese partnerships. **→ See KML: Lithium Triangle**
 
-**Andean States (Colombia, Peru, Ecuador, Venezuela):** Left-turn consolidation across the region. Colombia's peace process holds unevenly without US support (Plan Colombia ended). Ecuador de-dollarized after the dollar collapse. Venezuela post-Rodriguez-puppet-regime transition produced a left-nationalist government aligned with Brazil. The Monroe Doctrine is dead — US successor states have no appetite for military intervention in South America. **→ See KML: Andean States**
+### Gran Colombia
+
+**Gran Colombia (Colombia, Ecuador, Venezuela):** Formed in two phases — a confederal compact ~2038–42 deepened into full federation by ~2048. All three members were post-revolutionary left-nationalist states by the late 2030s, making the pan-nationalist unification the final stage of the revolutionary feedback loop. The revived Monroe Doctrine's absence removed the primary external obstacle: US successor states have no appetite for military intervention in South America. Capital: Bogotá. Population ~75M. Internal governance: constituent states retain domestic autonomy; indigenous autonomous zones preserved. **→ See KML: Gran Colombia**
+
+**Peru:** Chronically unstable — the only Andean state not to join Gran Colombia. Cycles through revolving-door presidencies, periodic constitutional crises, and a fragmented party system. Too internally fractured for the unification treaties that absorbed its neighbors. **→ See KML: Peru**
+
+**Cayenne (formerly French Guiana):** Independent former French overseas department. France's post-EU retrenchment and overseas-territory cost-cutting led to negotiated independence in the 2040s. Joined CARICOM. Capital: Cayenne. Population ~400,000. **→ See KML: Cayenne**
+
+**Uruguay:** Unified with Argentina as part of the broader Rioplatense post-flip revolutionary wave (~2048). Buenos Aires–Montevideo axis consolidated under a single sovereignty after a century of close cultural and economic integration. **→ See borders-geopolitics.md#argentina**
+
+**Falkland Islands, South Georgia & South Sandwich Islands:** Occupied by reactionary Milei-era Argentina (~2028–2032) during the UK's accelerated post-Brexit decline. After Argentina's revolutionary flip (~2034–2036), the military occupation was converted into an autonomous zone with special status under the unified Argentina-Uruguay state. **→ See borders-geopolitics.md#argentina**
+
+**Guianas Cooperation Council (Guyana, Suriname, Cayenne):** Economic coordination, climate resilience, and infrastructure integration body. Not a political unification — border disputes remain unresolved but managed. Guyana's oil wealth (Stabroek Block) anchors the council's development fund. **→ See KML: Guyana, Suriname, Cayenne**
+
+**Lithium Triangle (Chile, Bolivia):** The strategic choke point for global green energy. Chile's lithium policy reoriented toward state control and BRICS+ partnerships; Bolivia's reserves fully nationalized with Chinese partnerships. Argentina's lithium reserves are managed within the Argentina-Uruguay state. Policy coordination only — not a joint sovereignty zone. **→ See KML: Lithium Triangle**
 
 ### Central America
 

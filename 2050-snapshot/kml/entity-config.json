@@ -110,7 +110,7 @@
         "Senegambia"
       ]
     },
-    "America (wip)": {
+    "America": {
       "Caribbean": [
         "Anguilla",
         "Antigua and Barb.",
@@ -192,21 +192,17 @@
         "Virginia",
         "Yup'it-Alutiiq Confederacy"
       ],
-      "South America (wip)": [
+      "South America": [
         "Argentina",
         "Bolivia",
         "Brazil",
+        "Cayenne",
         "Chile",
-        "Colombia",
-        "Ecuador",
-        "Falkland Islands",
+        "Gran Colombia",
         "Guyana",
         "Paraguay",
         "Peru",
-        "South Georgia",
-        "Suriname",
-        "Uruguay",
-        "Venezuela"
+        "Suriname"
       ]
     },
     "Antarctica (wip)": [
@@ -623,6 +619,7 @@
       "category": "global",
       "source": "country",
       "country_code": "ARG",
+      "add_country_codes": ["URY", "FLK", "SGS"],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "argentina",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#argentina"
@@ -633,26 +630,20 @@
       "source": "group",
       "country_codes": [
         "CHL",
-        "BOL",
-        "ARG"
+        "BOL"
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "lithium-triangle",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#lithium-triangle"
     },
-    "Andean States": {
+    "Gran Colombia": {
       "type": "entity",
       "category": "global",
-      "source": "group",
-      "country_codes": [
-        "COL",
-        "PER",
-        "ECU",
-        "VEN"
-      ],
+      "source": "manual",
+      "manual_path": "source/manual/Gran Colombia.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "andean-states",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#andean-states"
+      "section_anchor": "gran-colombia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#gran-colombia"
     },
     "European Core Federation": {
       "type": "entity",
@@ -1210,15 +1201,6 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Uruguay": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "URY",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
     "Paraguay": {
       "type": "entity",
       "category": "global",
@@ -1228,20 +1210,11 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Falkland Islands": {
+    "Peru": {
       "type": "entity",
       "category": "global",
       "source": "country",
-      "country_code": "FLK",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "South Georgia": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "SGS",
+      "country_code": "PER",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
@@ -2041,13 +2014,15 @@
       "section_anchor": "guam",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#guam-hfs-compact"
     },
-    "French Guiana": {
+    "Cayenne": {
       "type": "entity",
       "category": "global",
-      "source": "no_polygon",
+      "source": "admin1",
+      "country_code": "FRA",
+      "admin1_name": "Guyane française",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "french-guiana",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#french-guiana"
+      "section_anchor": "cayenne",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#cayenne"
     },
     "France": {
       "type": "entity",
@@ -2057,7 +2032,8 @@
   "add_country_codes": ["ATF"],
   "subtract_admin1": [
         "Martinique",
-        "Guadeloupe"
+        "Guadeloupe",
+        "Guyane française"
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "france",

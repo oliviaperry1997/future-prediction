@@ -1892,7 +1892,7 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                             entity_polygons[country_name] = {
                                 "coords": coords,
                                 "type": "country",
-                                "cfg": entity_cfg,
+                                "cfg": {"source": "country", "country_code": code},
                             }
                             expanded_names.append(country_name)
                             _, _, style_id = get_entity_style(country_name)
@@ -1924,57 +1924,53 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                     manual_root = manual_tree.getroot()
                     full_geom_parts = parse_kml_coordinates_to_polygons(manual_root)
                     if full_geom_parts:
-                        simplified_coords = []
-                        for poly in full_geom_parts:
-                            simplified = simplify_polygon(poly, tolerance=0.02)
-                            ct = geom_to_coords(simplified)
-                            if ct:
-                                simplified_coords.append(ct[0])
-                        if simplified_coords:
-                            manual_geom = unary_union(full_geom_parts) if len(full_geom_parts) > 1 else full_geom_parts[0]
-                            # Add additional manual KMLs via add_manual_paths (e.g., Tlingit Aaní → Pacifica)
-                            add_manual_paths = entity_cfg.get("add_manual_paths", [])
-                            if add_manual_paths:
-                                for amp in add_manual_paths:
-                                    amp_full = os.path.join(os.path.dirname(__file__), amp)
-                                    if os.path.exists(amp_full):
-                                        amp_tree = etree.parse(amp_full)
-                                        amp_polys = []
-                                        for coord_el in amp_tree.findall(f".//{{{NS}}}coordinates"):
-                                            if coord_el.text:
-                                                p = parse_coordinates_to_polygon(coord_el.text.strip())
-                                                if p is not None:
-                                                    if not p.is_valid:
-                                                        p = p.buffer(0)
-                                                    if p is not None and not p.is_empty and p.is_valid:
-                                                        amp_polys.append(p)
-                                        if amp_polys:
-                                            amp_geom = unary_union(amp_polys) if len(amp_polys) > 1 else amp_polys[0]
-                                            manual_geom = manual_geom.union(amp_geom)
-                                    else:
-                                        entity_errors.append(f"  [{entity_name}] add_manual_paths not found: {amp}")
-                            # Subtract manual KMLs (e.g., Akimiski Island from Great Lakes)
-                            subtract_manual_paths = entity_cfg.get("subtract_manual_paths", [])
-                            subtract_buffer = entity_cfg.get("subtract_buffer", 0.003)
-                            if subtract_manual_paths:
-                                for smp in subtract_manual_paths:
-                                    smp_full = os.path.join(os.path.dirname(__file__), smp)
-                                    if os.path.exists(smp_full):
-                                        smp_tree = etree.parse(smp_full)
-                                        for coord_el in smp_tree.findall(f".//{{{NS}}}coordinates"):
-                                            if coord_el.text:
-                                                p = parse_coordinates_to_polygon(coord_el.text.strip())
-                                                if p is not None:
-                                                    if not p.is_valid:
-                                                        p = p.buffer(0)
-                                                    if p is not None and not p.is_empty and p.is_valid:
-                                                        sub_buffered = p.buffer(subtract_buffer, join_style=2)
-                                                        manual_geom = manual_geom.difference(sub_buffered)
-                                        manual_geom = remove_slivers(manual_geom)
-                                    else:
-                                        entity_errors.append(f"  [{entity_name}] subtract_manual_paths not found: {smp}")
+                        manual_geom = unary_union(full_geom_parts) if len(full_geom_parts) > 1 else full_geom_parts[0]
+                        # Add additional manual KMLs via add_manual_paths (e.g., Tlingit Aaní → Pacifica)
+                        add_manual_paths = entity_cfg.get("add_manual_paths", [])
+                        if add_manual_paths:
+                            for amp in add_manual_paths:
+                                amp_full = os.path.join(os.path.dirname(__file__), amp)
+                                if os.path.exists(amp_full):
+                                    amp_tree = etree.parse(amp_full)
+                                    amp_polys = []
+                                    for coord_el in amp_tree.findall(f".//{{{NS}}}coordinates"):
+                                        if coord_el.text:
+                                            p = parse_coordinates_to_polygon(coord_el.text.strip())
+                                            if p is not None:
+                                                if not p.is_valid:
+                                                    p = p.buffer(0)
+                                                if p is not None and not p.is_empty and p.is_valid:
+                                                    amp_polys.append(p)
+                                    if amp_polys:
+                                        amp_geom = unary_union(amp_polys) if len(amp_polys) > 1 else amp_polys[0]
+                                        manual_geom = manual_geom.union(amp_geom)
+                                else:
+                                    entity_errors.append(f"  [{entity_name}] add_manual_paths not found: {amp}")
+                        # Subtract manual KMLs (e.g., Akimiski Island from Great Lakes)
+                        subtract_manual_paths = entity_cfg.get("subtract_manual_paths", [])
+                        subtract_buffer = entity_cfg.get("subtract_buffer", 0.003)
+                        if subtract_manual_paths:
+                            for smp in subtract_manual_paths:
+                                smp_full = os.path.join(os.path.dirname(__file__), smp)
+                                if os.path.exists(smp_full):
+                                    smp_tree = etree.parse(smp_full)
+                                    for coord_el in smp_tree.findall(f".//{{{NS}}}coordinates"):
+                                        if coord_el.text:
+                                            p = parse_coordinates_to_polygon(coord_el.text.strip())
+                                            if p is not None:
+                                                if not p.is_valid:
+                                                    p = p.buffer(0)
+                                                if p is not None and not p.is_empty and p.is_valid:
+                                                    sub_buffered = p.buffer(subtract_buffer, join_style=2)
+                                                    manual_geom = manual_geom.difference(sub_buffered)
+                                    manual_geom = remove_slivers(manual_geom)
+                                else:
+                                    entity_errors.append(f"  [{entity_name}] subtract_manual_paths not found: {smp}")
+                        prepared = prepare_for_output(manual_geom, entity_cfg)
+                        coords = geom_to_coords(prepared)
+                        if coords:
                             entity_polygons[entity_name] = {
-                                "coords": simplified_coords,
+                                "coords": coords,
                                 "geom": manual_geom,
                                 "type": "manual",
                                 "cfg": entity_cfg,

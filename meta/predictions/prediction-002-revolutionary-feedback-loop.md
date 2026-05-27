@@ -200,12 +200,16 @@ The original case and the clearest example of the mechanism:
 
 | Polity | Path | Outcome |
 |---|---|---|
-| Argentina (post-Milei) | **Revolutionary (rebound)** — left rebound post-default, redistributive model | Positive loop activates after default and US collapse discredit neoliberal model. |
-| Chile (post-Kast) | **Revolutionary (rebound)** — left rebound as US-dependent far-right model collapses | Similar to Argentina. Constitutional convention reconvenes. |
-| Venezuela | **Revolutionary** — left-nationalist, post-Maduro consolidation | Revolutionary model consolidates as oil revenue stabilizes post-US-collapse. |
-| Brazil | **Revolutionary (mixed)** — BRICS+ anchor, multipolar, developmentalist | Positive loop: agricultural/mineral exports + BRICS+ integration + renewable energy. |
+| Gran Colombia (COL+ECU+VEN) | **Revolutionary (unification)** — Stage 5 of the revolutionary feedback loop | Three post-flip left-nationalist states unify in two phases: confederal compact (~2038–2042) → full federation (~2045–2048). Capital: Bogotá. ~75M population. The unification phase of the loop — discrete 3-country merger, not continental bloc. |
+| Argentina-Uruguay (ARG+URY) | **Revolutionary (unification)** — Stage 5 | Argentina's post-Milei left rebound enables Rioplatense unification with Uruguay by ~2048. Includes Falklands/Malvinas and South Georgia/Sandwich Islands as autonomous zone (occupied by Milei-era Argentina ~2028–2032, converted to autonomous zone after flip). Combined population ~50M. |
+| Brazil | **Revolutionary (mixed)** — BRICS+ anchor, multipolar, developmentalist | Positive loop: agricultural/mineral exports + BRICS+ integration + renewable energy. Amazon dieback (T-15, 2047) is existential challenge to agricultural economy. Remains independent regional hegemon, leads multilateral Amazon basin governance. |
+| Chile (post-Kast) | **Revolutionary (rebound)** — left rebound as US-dependent far-right model collapses | Constitutional convention reconvenes. Lithium policy reoriented toward state control and BRICS+ partnerships. Policy coordination with Bolivia and Argentina-Uruguay through Lithium Triangle framework. |
+| Peru | **Reactionary (degrading)** — chronically unstable, excluded from unification wave | Revolving-door presidencies, constitutional crises, fragmented party system. Too internally fractured for the unification treaties that absorbed its neighbors. The Andean state left behind by the Gran Colombia process. |
+| Cayenne (formerly French Guiana) | **Revolutionary (independent)** — former French overseas department | France's post-EU retrenchment leads to negotiated independence in 2040s. Independent republic, joined CARICOM. ~400K population. Guiana Space Centre becomes leased facility. |
+| Paraguay | **Reactionary (stable)** — authoritarian, in Brazil's orbit | Agricultural/energy economy in Brazil's economic orbit. No unification trajectory. |
+| Guianas Cooperation Council (GUY+SUR+CAY) | **Coordination only** — not political unification | Economic coordination, climate resilience, infrastructure. Guyana's oil wealth anchors development fund. Border disputes remain unresolved but managed. |
 
-**Net:** Regional Pink Tide 2.0. No strong reactionary poles survive the US collapse because all were US-dependent or resource-extractive models that failed structurally.
+**Net:** Regional Pink Tide 2.0 evolves into structural unification. South America consolidates from 12 to 8 sovereign entities by 2050 through two discrete mergers and one independence. No strong reactionary poles survive the US collapse because all were US-dependent or resource-extractive models that failed structurally. The unification phase of the revolutionary feedback loop manifests in two 2-3 country mergers — consistent with prediction-002's discrete-unification model.
 
 ### Africa
 
