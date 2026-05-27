@@ -221,8 +221,8 @@
         "China",
         "Japan",
         "Mongolia",
-        "North Korea",
-        "South Korea"
+        "DPRK",
+        "ROK"
       ],
       "Eastern Europe (wip)": [
         "Belarus",
@@ -963,11 +963,37 @@
     "China": {
       "type": "entity",
       "category": "global",
-      "source": "country",
-      "country_code": "CHN",
+      "source": "group",
+      "country_codes": [
+        "CHN",
+        "HKG",
+        "TWN"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "china",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#china"
+    },
+    "DPRK": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "country_codes": [
+        "PRK"
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "dprk",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#dprk"
+    },
+    "ROK": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "country_codes": [
+        "KOR"
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "rok",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#rok"
     },
     "India": {
       "type": "entity",
@@ -986,18 +1012,6 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "japan",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#japan"
-    },
-    "Unified Korea": {
-      "type": "entity",
-      "category": "global",
-      "source": "group",
-      "country_codes": [
-        "KOR",
-        "PRK"
-      ],
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "korea-unified",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#korea-unified"
     },
     "ASEAN": {
       "type": "entity",
@@ -1495,8 +1509,8 @@
       "source": "country",
       "country_code": "MNG",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "mongolia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#mongolia"
     },
     "Pakistan": {
       "type": "entity",
