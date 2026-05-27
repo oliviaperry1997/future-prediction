@@ -11,7 +11,7 @@ A markdown-based geopolitical forecasting and world-building project. This roadm
 - [x] **Phase 3: 2050 Structural Snapshot** - Document the geopolitical, climate, and technology landscape of the 2050 world (completed 2026-05-19)
 - [x] **Phase 4: 2050 Socioeconomic Snapshot** - Document the economy, demographics, and culture of the 2050 world with cross-references (completed 2026-05-21)
 - [ ] **Phase 5: 2050 KML Maps & Integration** - Produce KML map files for the 2050 world, cross-reference to markdown sections, and finalize 2050 index
-- [ ] **Phase 6: Central Asia Review** — Plausibility audit: Central Asia
+- [x] **Phase 6: Central Asia Review** — Plausibility audit: Central Asia (completed 2026-05-27)
 - [ ] **Phase 7: Eastern Asia Review** — Plausibility audit: Eastern Asia
 - [ ] **Phase 8: Eastern Europe Review** — Plausibility audit: Eastern Europe
 - [ ] **Phase 9: Northern Europe Review** — Plausibility audit: Northern Europe
@@ -132,13 +132,27 @@ Plans:
 
 ### Phase 6: Central Asia Review
 **Mode**: mvp
-**Goal**: Central Asia (Afghanistan, Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan) plausibility verified, KML issues fixed, documentation gaps filled
+**Goal**: Central Asia (Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan) plausibility verified, KML issues fixed, CAC documentation gaps filled
 **Depends on**: Phase 5
 **Requirements**: EURA-01
 **Success Criteria** (what must be TRUE):
-  1. All 6 Central Asian entities assessed against revolutionary feedback loop and established dynamics — no contradictions
-  2. KML entities for Central Asia open correctly in Google Earth Pro with correct boundaries
-  3. All documentation gaps for Central Asian entities identified and filled (See KML markers, entity descriptions, domain references)
+  1. All 5 Central Asian CAC constituent entities assessed against revolutionary feedback loop and established dynamics — no contradictions
+  2. KML entities for Central Asia open correctly in Google Earth Pro with correct boundaries (exclave holes, no wip, Afghanistan removed)
+  3. All documentation gaps for CAC entities identified and filled (See KML markers, economy/demographics/culture/climate profiles, borders doc entry)
+**Plans**: 4 plans
+
+Plans:
+- [x] 06-01-PLAN.md — KML Edits: exclave holes, (wip) removal, Afghanistan relocation (Wave 1)
+- [x] 06-02-PLAN.md — Borders-geopolitics CAC entity entry (Wave 1, parallel with 01)
+- [x] 06-03-PLAN.md — Economy & Demographics CAC profiles (Wave 2, blocked on 02)
+- [x] 06-04-PLAN.md — Culture & Climate CAC profiles (Wave 2, blocked on 02, parallel with 03)
+
+**Cross-cutting constraints:**
+- Afghanistan deferred to Phase 11 (Southern Asia Review) per D-13; KML entity removed from Central Asia folder
+- Ferghana Valley exclaves need interior polygon holes per D-11
+- All CAC constituent profiles follow standard format (matching Russia/Turkey/India depth) per D-07
+- (wip) tag removal from Eurasia/Central Asia KML folders signals region reviewed per D-10
+- D-15 framework gap (revolutionary feedback loop doc needs update) is out of scope for this phase
 
 ### Phase 7: Eastern Asia Review
 **Mode**: mvp
@@ -281,7 +295,7 @@ Plans:
 | 3. 2050 Structural Snapshot | 3/3 | Complete | 2026-05-19 |
 | 4. 2050 Socioeconomic Snapshot | 4/4 | Complete | 2026-05-21 |
 | 5. 2050 KML Maps & Integration | 2/3 | Paused | — |
-| 6. Central Asia Review | — | Not started | — |
+| 6. Central Asia Review | 4/4 | Complete   | 2026-05-27 |
 | 7. Eastern Asia Review | — | Not started | — |
 | 8. Eastern Europe Review | — | Not started | — |
 | 9. Northern Europe Review | — | Not started | — |

@@ -2,13 +2,14 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
-status: planning
-last_updated: "2026-05-27T14:04:49.581Z"
-last_activity: 2026-05-27
+status: executing
+stopped_at: Phase 6 context gathered
+last_updated: "2026-05-27T16:51:32.951Z"
+last_activity: 2026-05-27 -- Phase 06 execution started
 progress:
-  total_phases: 0
+  total_phases: 19
   completed_phases: 0
-  total_plans: 0
+  total_plans: 4
   completed_plans: 0
   percent: 0
 ---
@@ -20,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-05-19)
 
 **Core value:** A coherent, grounded, internally consistent vision of how the world transforms between now and 2100, detailed enough to draw accurate maps at each quarter-century checkpoint.
-**Current focus:** Phase 05 — 2050-kml-maps-integration
+**Current focus:** Phase 06 — central-asia-review
 
 ## Current Position
 
-Phase: Not started (defining requirements)
-Plan: —
-Status: Defining requirements
-Last activity: 2026-05-27 — Milestone v1.1 started
+Phase: 06 (central-asia-review) — EXECUTING
+Plan: 1 of 4
+Status: Executing Phase 06
+Last activity: 2026-05-27 -- Phase 06 execution started
 
 ## Performance Metrics
 
@@ -100,6 +101,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-21T22:00:02.430Z
-Stopped at: Phase 5 plans created
-Resume file: None
+Last session: 2026-05-27T16:11:36.505Z
+Stopped at: Phase 6 context gathered
+Resume file: .planning/phases/06-central-asia-review/06-CONTEXT.md
