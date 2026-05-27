@@ -23,6 +23,7 @@ milestone: 2050
 - West Asia reconfigured around the Iran-Turkey-Saudi Arabia-Pakistan Quartet security framework, with Israel territorially contracted to a nuclear-armed coastal rump state and Palestine established as a contiguous sovereign entity
 - Every British, Dutch, and French overseas territory in the Caribbean achieved full sovereignty and CARICOM membership — the European colonial presence in the Caribbean ended as the US collapse removed the Monroe Doctrine and dollar-denominated financial infrastructure that sustained the offshore territory model. CARICOM deepened from a trade bloc into a genuine regional governance framework with free movement, a supranational court, and collective security coordination. Full political unification assessed as a plausible trajectory by ~2075.
 - Canada fragmented into at least 7 successor entities (Canadian rump, Quebec Republic, Maritime Republic, Newfoundland, Manitoba, Denendeh, Inuit Nunangat) plus territorial absorption of BC coast by Pacifica and Northern Ontario by Great Lakes — driven by US-dependent export economy collapse and the distinct Canadian capitalist-entrenchment dynamic
+- Central Asian Confederation (CAC) formed ~2045-2050 — the five Central Asian republics (Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan) established a confederal union as an integration-as-transformation mechanism, escaping the reactionary deadlock through collective action on water crisis and energy transition management
 
 ## Analysis
 
@@ -381,6 +382,31 @@ The AES differs from the EAF's confederal model in its centralization — reflec
 
 **ASEAN:** The institutional model survived and thrived — collective neutrality, multipolar hedging, economic diversification without political alignment. Singapore became a BRICS+ financial node. Vietnam and Indonesia emerged strongest. The ASEAN bloc (~$4T combined GDP) is an indispensable middle in the Asian order. China dominates South China Sea security, but commercial access is maintained. **→ See KML: ASEAN**
 
+**Central Asian Confederation (CAC):** A confederal union of five Central Asian republics — Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan — formed ~2045-2050 as an integration-as-transformation mechanism. The CAC represents an escape from the reactionary deadlock that characterized Central Asia in the 2030s: water crisis (Amu Darya/Syr Darya glacier melt → -30-50% dry-season flow by 2050) and energy transition (oil/gas revenue decline from global de-fossilization) created existential pressure that no single Stan could resolve independently. The Organization of Turkic States provided the cultural/ideological vehicle, with Tajikistan accommodated as a Persian-speaking autonomous constituent republic.
+
+The CAC is not a superseding state but a confederal framework: the 5 existing sovereign states become constituent republics retaining internal borders, legal systems, and significant autonomy, while pooling sovereignty over water management, energy policy, external trade, defense, and diplomatic representation. The confederation is headquartered in Astana (Nur-Sultan), with a rotating council presidency. This model distinguishes the CAC from the revolutionary flip-and-unify pattern seen in other regions — Central Asia demonstrates that the revolutionary feedback loop's unification stage can operate on states that haven't individually flipped revolutionary.
+
+Note: The revolutionary feedback loop framework (prediction-002) has been updated to describe integration-as-revolution — see Stage 5 Path B (Integration-as-Revolution), which formalizes the CAC trajectory. D-15 is now resolved.
+
+Population: ~80M combined. Territory: 3.9M km² spanning from the Caspian Sea to the Tian Shan mountains. Dominant external relationships: China (primary economic partner — Belt and Road infrastructure, energy investment), Russia (security legacy — CSTO residual), Turkey (cultural bridge — Organization of Turkic States), Iran (Caspian Sea cooperation).
+
+**→ See KML: Kazakhstan**
+**→ See KML: Kyrgyzstan**
+**→ See KML: Tajikistan**
+**→ See KML: Turkmenistan**
+**→ See KML: Uzbekistan**
+→ See transition doc: [asia.md](../../2026-2050-transition/regions/asia.md#6-central-asia--reactionary-low-intensity-trap)
+
+**Kazakhstan:** The largest constituent republic by territory (2.7M km²) and economy (~60% of CAC GDP). Oil, gas, uranium, and steppe agriculture anchor the confederal economy. Astana functions as the CAC administrative center. Kazakh, Russian, and English are the primary working languages. The Nur-Sultan political establishment drives the confederal project as an institutional transition, not a revolutionary rupture. **→ See KML: Kazakhstan**
+
+**Uzbekistan:** The most populous constituent republic (~37M), second-largest economy. Cotton, natural gas, and gold form the economic base. Tashkent is the CAC's commercial and cultural center. Uzbekistan's agricultural water demand is the highest in the confederation — the Amu Darya decline creates the most acute adaptation pressure. **→ See KML: Uzbekistan**
+
+**Turkmenistan:** The most autarkic constituent republic, neutral by constitutional tradition. Natural gas exports (pipeline to China via Kazakhstan) form ~80% of state revenue. Ashgabat maintains the highest degree of autonomy within the confederal structure — the gas wealth insulates Turkmenistan from the integration pressures that drive the other members. **→ See KML: Turkmenistan**
+
+**Kyrgyzstan:** The smallest and most mountainous constituent republic. Hydroelectricity (headwaters of Syr Darya), gold (Kumtor mine), and remittances form the economic base. Bishkek hosts the CAC water management authority — Kyrgyz control of headwaters gives it disproportionate influence in confederal water policy. **→ See KML: Kyrgyzstan**
+
+**Tajikistan:** The Persian-speaking constituent republic in the Turkic-majority confederation. Hydropower (Nurek Dam, Rogun Dam), aluminum, and gold anchor the economy. Tajikistan controls the Amu Darya headwaters (Pamir glacier melt), giving it critical water leverage. Dushanbe maintains a distinct Persian cultural identity within the confederal framework — Tajik operates alongside Russian as a working language. **→ See KML: Tajikistan**
+
 ### West Asia / Middle East
 
 **Iran:** Nuclear-armed regional power. Tested a crude device in the mid-2030s, triggering a regional proliferation cascade. The IRGC consolidated power under Supreme Leader Mojtaba Khamenei. The Axis of Resistance reconstituted as a looser network — less Iran-directed, more locally autonomous — but ideologically aligned and capable of coordinated asymmetric action. Iran controls Hormuz chokepoint leverage, though global oil demand decline gradually reduces its relevance. **→ See KML: Iran**
@@ -429,7 +455,7 @@ The following table verifies that every terrestrial region on Earth is claimed b
 | South America | Multiple sovereign states (Brazil, Argentina, etc.) | §South America | All territory claimed by recognized states |
 | Europe | Multiple states + EU Core Federation | §Europe | Core/periphery two-tier but all territory claimed |
 | Africa | Multiple states + EAF + AES + Nigeria + Ghana + Côte d'Ivoire + Benin + Guinea + Guinea-Bissau + Mano River Union + Senegambia + Cabo Verde + Ethiopia (rump) + Tigray | §Africa | Nigeria fragmented: north→AES (19 states), south→Nigeria (17 states). Liberia+Sierra Leone unified as Mano Republic. AES = 5 members + Northern Nigeria (MLI, BFA, NER, MRT, TGO + NGA admin1). EAF = 10 members (DRC included as member state, not independent entity). Cameroon fragmented (north→AES, Ambazonia independent, rump→EAF). Congo (Brazzaville) and Equatorial Guinea absorbed by EAF. Benin, Guinea, Guinea-Bissau independent but AES-associated. Chad contested zone between AES and EAF (not absorbed by either). Somaliland reabsorbed into Somalia (EAF member). |
-| Asia | Multiple states (China, India, Japan, Unified Korea, ASEAN) | §Asia | All territory claimed by recognized states |
+| Asia | Multiple states (China, India, Japan, Unified Korea, ASEAN) + Central Asian Confederation (CAC) | §Asia | All territory claimed by recognized states; CAC is a confederal union of 5 constituent republics sharing pooled sovereignty |
 | West Asia / Middle East | Multiple states + Palestine | §West Asia | Palestine sovereign, Israel as coastal rump |
 | Oceania | Multiple states + PIF framework | §Oceania | Blue Pacific regionalism, all territories claimed |
 | Arctic | Pluralized governance (Canada, Russia, Nordic states, indigenous nations) | §Polar Regions — Arctic | Transnational governance, no unclaimed territory |
