@@ -76,6 +76,33 @@ Deferred to future release. Tracked but not in current roadmap.
 - **METH-01**: Prediction register review and calibration tracking
 - **METH-02**: Synthesis and retrospective across all milestones
 
+## v1.1 Requirements
+
+Region-by-region plausibility audit for the 2050 snapshot. Each requirement covers three axes: (1) assess plausibility against established dynamics and the revolutionary feedback loop, (2) fix KML creation issues, (3) fill documentation gaps.
+
+### Eurasia Review
+
+- [ ] **EURA-01**: Central Asia — review complete (plausibility, KML, docs)
+- [ ] **EURA-02**: Eastern Asia — review complete
+- [ ] **EURA-03**: Eastern Europe — review complete
+- [ ] **EURA-04**: Northern Europe — review complete
+- [ ] **EURA-05**: Southeast Asia — review complete
+- [ ] **EURA-06**: Southern Asia — review complete
+- [ ] **EURA-07**: Southern Europe — review complete
+- [ ] **EURA-08**: Western Asia — review complete
+- [ ] **EURA-09**: Western Europe — review complete
+
+### Oceania Review
+
+- [ ] **OCEA-01**: Australasia — review complete
+- [ ] **OCEA-02**: Melanesia — review complete
+- [ ] **OCEA-03**: Micronesia — review complete
+- [ ] **OCEA-04**: Polynesia — review complete
+
+### Antarctica Review
+
+- [ ] **ANTA-01**: Antarctica — review complete
+
 ## Out of Scope
 
 | Feature | Reason |
@@ -88,6 +115,8 @@ Deferred to future release. Tracked but not in current roadmap.
 | Web map framework (CesiumJS, Mapbox) | Unnecessary server/API dependency; KML files for Google Earth Pro only |
 
 ## Traceability
+
+### v1 (Phase 1-5)
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
@@ -117,7 +146,31 @@ Deferred to future release. Tracked but not in current roadmap.
 - Mapped to phases: 20
 - Unmapped: 0 ✓
 
+### v1.1 (Phase 6-19)
+
+| Requirement | Phase | Status |
+|-------------|-------|--------|
+| EURA-01 | Phase 6 | Pending |
+| EURA-02 | Phase 7 | Pending |
+| EURA-03 | Phase 8 | Pending |
+| EURA-04 | Phase 9 | Pending |
+| EURA-05 | Phase 10 | Pending |
+| EURA-06 | Phase 11 | Pending |
+| EURA-07 | Phase 12 | Pending |
+| EURA-08 | Phase 13 | Pending |
+| EURA-09 | Phase 14 | Pending |
+| OCEA-01 | Phase 15 | Pending |
+| OCEA-02 | Phase 16 | Pending |
+| OCEA-03 | Phase 17 | Pending |
+| OCEA-04 | Phase 18 | Pending |
+| ANTA-01 | Phase 19 | Pending |
+
+**Coverage:**
+- v1.1 requirements: 14 total
+- Mapped to phases: 14
+- Unmapped: 0 ✓
+
 ---
 
 *Requirements defined: 2026-05-19*
-*Last updated: 2026-05-19 after initial definition*
+*Last updated: 2026-05-27 — v1.1 milestone added*

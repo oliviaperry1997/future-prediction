@@ -4,6 +4,15 @@
 
 A personal collection of structured markdown files that attempts to predict the evolution of global geopolitics from the present through the end of the 21st century. The central thesis is the impending collapse of the United States' empire (and possibly the US itself), followed by a transition from a mostly capitalist world order to a mostly socialist one. The project produces three detailed milestone snapshots at 2050, 2075, and 2100 — each with complete world maps built as KML polygons in Google Earth — connected by shorter "big-picture trend" documents describing the transitions between them.
 
+## Current Milestone: v1.1 2050 Regional Review — Eurasia, Oceania, Antarctica
+
+**Goal:** Region-by-region plausibility audit of the Eurasia (9 regions), Oceania (4 regions), and Antarctica projections — verifying each region's entities against the revolutionary feedback loop and established dynamics, fixing KML creation issues, and filling documentation gaps.
+
+**Target features:**
+- 14 region-by-region plausibility reviews across Eurasia, Oceania, and Antarctica
+- KML fixes for all (wip)-tagged regions
+- Documentation gap-filling across all 6 STEEP domains for reviewed regions
+
 ## Core Value
 
 A coherent, grounded, internally consistent vision of how the world transforms between now and 2100, detailed enough to draw accurate maps at each quarter-century checkpoint.
@@ -59,6 +68,8 @@ The user has already built a modern-day KML basemap in Google Earth. This projec
 
 **Phase 4 (2050 Socioeconomic Snapshot) — Complete.** Steady-state snapshot of the 2050 world across three socioeconomic domains: economy (481 lines, global financial architecture, 29 entity profiles), demographics (475 lines, global thematic sections, climate migration, 28 entity profiles), and culture (269 lines, 4 content areas, 29 entity cultural profiles). 2 new predictions created (prediction-012, prediction-013). All six STEEP domains now documented and cross-referenced. Ready to begin KML maps & integration.
 
+**Phase 5 (2050 KML Maps & Integration) — Partially Complete.** KML generation script and source data pipeline established. All 6 KML files generated (borders, climate, technology, economy, demographics, culture). Verification and index finalization pending. KML pipeline created Eurasia, Oceania, and Antarctica with (wip) tags — these regions require manual plausibility review, which is now the focus of v1.1.
+
 ## Key Decisions
 
 | Decision | Rationale | Outcome |
@@ -68,6 +79,23 @@ The user has already built a modern-day KML basemap in Google Earth. This projec
 | Map format | KML polygons in Google Earth | — Pending |
 | Depth approach | Trends between milestones, detailed snapshots at each | — Pending |
 
+## Evolution
+
+This document evolves at phase transitions and milestone boundaries.
+
+**After each phase transition** (via `/gsd-transition`):
+1. Requirements invalidated? → Move to Out of Scope with reason
+2. Requirements validated? → Move to Validated with phase reference
+3. New requirements emerged? → Add to Active
+4. Decisions to log? → Add to Key Decisions
+5. "What This Is" still accurate? → Update if drifted
+
+**After each milestone** (via `/gsd-complete-milestone`):
+1. Full review of all sections
+2. Core Value check — still the right priority?
+3. Audit Out of Scope — reasons still valid?
+4. Update Context with current state
+
 ---
 
-*Last updated: 2026-05-21 — Phase 4 complete*
+*Last updated: 2026-05-27 — v1.1 milestone started*

@@ -2,15 +2,29 @@
 
 ## Overview
 
-A markdown-based geopolitical forecasting and world-building project. This roadmap covers v1 — establishing the Obsidian vault methodology, writing the 2026-2050 transition document, producing the full 2050 snapshot across six STEEP domains (borders, climate, technology, economy, demographics, culture), and creating KML map files for the 2050 world in Google Earth Pro. Each phase delivers a complete, usable layer of the project: foundation first, then causal arc, then structural snapshot, then socioeconomic snapshot, then geographic instantiation.
+A markdown-based geopolitical forecasting and world-building project. This roadmap covers v1 — establishing the Obsidian vault methodology, writing the 2026-2050 transition document, producing the full 2050 snapshot across six STEEP domains (borders, climate, technology, economy, demographics, culture), and creating KML map files for the 2050 world in Google Earth Pro — followed by v1.1, a region-by-region plausibility audit of the Eurasia, Oceania, and Antarctica regions. Each phase delivers a complete, usable layer of the project: foundation first, then causal arc, then structural snapshot, then socioeconomic snapshot, then geographic instantiation, then regional verification.
 
 ## Phases
 
 - [ ] **Phase 1: Foundation & Methodology** - Establish Obsidian vault, YAML templates, Dataview queries, counter-scenario document, prediction register, and cross-domain consistency mechanism
-- [ ] **Phase 2: 2026-2050 Transition** - Write the big-picture trends document with specific dates, driver analysis, and inflection points covering 2026-2050
-- [ ] **Phase 3: 2050 Structural Snapshot** - Document the geopolitical, climate, and technology landscape of the 2050 world
+- [x] **Phase 2: 2026-2050 Transition** - Write the big-picture trends document with specific dates, driver analysis, and inflection points covering 2026-2050 (completed 2026-05-19)
+- [x] **Phase 3: 2050 Structural Snapshot** - Document the geopolitical, climate, and technology landscape of the 2050 world (completed 2026-05-19)
 - [x] **Phase 4: 2050 Socioeconomic Snapshot** - Document the economy, demographics, and culture of the 2050 world with cross-references (completed 2026-05-21)
 - [ ] **Phase 5: 2050 KML Maps & Integration** - Produce KML map files for the 2050 world, cross-reference to markdown sections, and finalize 2050 index
+- [ ] **Phase 6: Central Asia Review** — Plausibility audit: Central Asia
+- [ ] **Phase 7: Eastern Asia Review** — Plausibility audit: Eastern Asia
+- [ ] **Phase 8: Eastern Europe Review** — Plausibility audit: Eastern Europe
+- [ ] **Phase 9: Northern Europe Review** — Plausibility audit: Northern Europe
+- [ ] **Phase 10: Southeast Asia Review** — Plausibility audit: Southeast Asia
+- [ ] **Phase 11: Southern Asia Review** — Plausibility audit: Southern Asia
+- [ ] **Phase 12: Southern Europe Review** — Plausibility audit: Southern Europe
+- [ ] **Phase 13: Western Asia Review** — Plausibility audit: Western Asia
+- [ ] **Phase 14: Western Europe Review** — Plausibility audit: Western Europe
+- [ ] **Phase 15: Australasia Review** — Plausibility audit: Australasia
+- [ ] **Phase 16: Melanesia Review** — Plausibility audit: Melanesia
+- [ ] **Phase 17: Micronesia Review** — Plausibility audit: Micronesia
+- [ ] **Phase 18: Polynesia Review** — Plausibility audit: Polynesia
+- [ ] **Phase 19: Antarctica Review** — Plausibility audit: Antarctica
 
 ## Phase Details
 
@@ -116,14 +130,168 @@ Plans:
 - Per D-06: 2050 KMLs are separate files loaded alongside Earth Current.kml, not modifications of it
 - Per D-19: Programmatic generation with user refinement — script generates, user adjusts in Google Earth Pro
 
+### Phase 6: Central Asia Review
+**Mode**: mvp
+**Goal**: Central Asia (Afghanistan, Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan) plausibility verified, KML issues fixed, documentation gaps filled
+**Depends on**: Phase 5
+**Requirements**: EURA-01
+**Success Criteria** (what must be TRUE):
+  1. All 6 Central Asian entities assessed against revolutionary feedback loop and established dynamics — no contradictions
+  2. KML entities for Central Asia open correctly in Google Earth Pro with correct boundaries
+  3. All documentation gaps for Central Asian entities identified and filled (See KML markers, entity descriptions, domain references)
+
+### Phase 7: Eastern Asia Review
+**Mode**: mvp
+**Goal**: Eastern Asia (China, Japan, Mongolia, North Korea, South Korea) plausibility verified, KML issues fixed, documentation gaps filled
+**Depends on**: Phase 6
+**Requirements**: EURA-02
+**Success Criteria** (what must be TRUE):
+  1. All 5 Eastern Asian entities assessed against revolutionary feedback loop and established dynamics — no contradictions
+  2. KML entities for Eastern Asia open correctly in Google Earth Pro with correct boundaries
+  3. All documentation gaps for Eastern Asian entities identified and filled
+
+### Phase 8: Eastern Europe Review
+**Mode**: mvp
+**Goal**: Eastern Europe (Belarus, Bulgaria, Czechia, Hungary, Moldova, Poland, Romania, Russia, Slovakia, Ukraine) plausibility verified, KML issues fixed, documentation gaps filled
+**Depends on**: Phase 7
+**Requirements**: EURA-03
+**Success Criteria** (what must be TRUE):
+  1. All 10 Eastern European entities assessed — no contradictions
+  2. KML entities for Eastern Europe correct in Google Earth Pro
+  3. All documentation gaps for Eastern European entities identified and filled
+
+### Phase 9: Northern Europe Review
+**Mode**: mvp
+**Goal**: Northern Europe (Denmark, Estonia, Finland, Iceland, Ireland, Latvia, Lithuania, Norway, Sweden, United Kingdom) plausibility verified, KML issues fixed, documentation gaps filled
+**Depends on**: Phase 8
+**Requirements**: EURA-04
+**Success Criteria** (what must be TRUE):
+  1. All 10 Northern European entities assessed — no contradictions
+  2. KML entities for Northern Europe correct in Google Earth Pro
+  3. All documentation gaps for Northern European entities identified and filled
+
+### Phase 10: Southeast Asia Review
+**Mode**: mvp
+**Goal**: Southeast Asia (Brunei, Cambodia, East Timor, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Vietnam) plausibility verified, KML issues fixed, documentation gaps filled
+**Depends on**: Phase 9
+**Requirements**: EURA-05
+**Success Criteria** (what must be TRUE):
+  1. All 11 Southeast Asian entities assessed — no contradictions
+  2. KML entities for Southeast Asia correct in Google Earth Pro
+  3. All documentation gaps for Southeast Asian entities identified and filled
+
+### Phase 11: Southern Asia Review
+**Mode**: mvp
+**Goal**: Southern Asia (Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, Sri Lanka) plausibility verified, KML issues fixed, documentation gaps filled
+**Depends on**: Phase 10
+**Requirements**: EURA-06
+**Success Criteria** (what must be TRUE):
+  1. All 7 Southern Asian entities assessed — no contradictions
+  2. KML entities for Southern Asia correct in Google Earth Pro
+  3. All documentation gaps for Southern Asian entities identified and filled
+
+### Phase 12: Southern Europe Review
+**Mode**: mvp
+**Goal**: Southern Europe (Albania, Bosnia, Croatia, Cyprus, Greece, Italy, Kosovo, Malta, Montenegro, North Macedonia, Portugal, Serbia, Slovenia, Spain, Turkey) plausibility verified, KML issues fixed, documentation gaps filled
+**Depends on**: Phase 11
+**Requirements**: EURA-07
+**Success Criteria** (what must be TRUE):
+  1. All 15 Southern European entities assessed — no contradictions
+  2. KML entities for Southern Europe correct in Google Earth Pro
+  3. All documentation gaps for Southern European entities identified and filled
+
+### Phase 13: Western Asia Review
+**Mode**: mvp
+**Goal**: Western Asia (Bahrain, Iran, Iraq, Israel, Jordan, Kuwait, Lebanon, Oman, Palestine, Qatar, Saudi Arabia, Syria, UAE, Yemen) plausibility verified, KML issues fixed, documentation gaps filled
+**Depends on**: Phase 12
+**Requirements**: EURA-08
+**Success Criteria** (what must be TRUE):
+  1. All 14 Western Asian entities assessed — no contradictions
+  2. KML entities for Western Asia correct in Google Earth Pro
+  3. All documentation gaps for Western Asian entities identified and filled
+
+### Phase 14: Western Europe Review
+**Mode**: mvp
+**Goal**: Western Europe (Austria, Belgium, France, Germany, Luxembourg, Netherlands, Switzerland, plus European Union-level entities) plausibility verified, KML issues fixed, documentation gaps filled
+**Depends on**: Phase 13
+**Requirements**: EURA-09
+**Success Criteria** (what must be TRUE):
+  1. All Western European entities assessed — no contradictions
+  2. KML entities for Western Europe correct in Google Earth Pro
+  3. All documentation gaps for Western European entities identified and filled
+
+### Phase 15: Australasia Review
+**Mode**: mvp
+**Goal**: Australasia (Australia, New Zealand) plausibility verified, KML issues fixed, documentation gaps filled
+**Depends on**: Phase 14
+**Requirements**: OCEA-01
+**Success Criteria** (what must be TRUE):
+  1. Both Australasian entities assessed — no contradictions
+  2. KML entities for Australasia correct in Google Earth Pro
+  3. All documentation gaps for Australasian entities identified and filled
+
+### Phase 16: Melanesia Review
+**Mode**: mvp
+**Goal**: Melanesia (Fiji, Kanaky, Papua New Guinea, Solomon Is., Vanuatu) plausibility verified, KML issues fixed, documentation gaps filled
+**Depends on**: Phase 15
+**Requirements**: OCEA-02
+**Success Criteria** (what must be TRUE):
+  1. All 5 Melanesian entities assessed — no contradictions
+  2. KML entities for Melanesia correct in Google Earth Pro
+  3. All documentation gaps for Melanesian entities identified and filled
+
+### Phase 17: Micronesia Review
+**Mode**: mvp
+**Goal**: Micronesia (Guam, Kiribati, Marshall Is., Micronesia, Nauru, Palau) plausibility verified, KML issues fixed, documentation gaps filled
+**Depends on**: Phase 16
+**Requirements**: OCEA-03
+**Success Criteria** (what must be TRUE):
+  1. All 6 Micronesian entities assessed — no contradictions
+  2. KML entities for Micronesia correct in Google Earth Pro
+  3. All documentation gaps for Micronesian entities identified and filled
+
+### Phase 18: Polynesia Review
+**Mode**: mvp
+**Goal**: Polynesia (Cook Is., Maohi Nui, Niue, Samoa, Tonga, Tuvalu) plausibility verified, KML issues fixed, documentation gaps filled
+**Depends on**: Phase 17
+**Requirements**: OCEA-04
+**Success Criteria** (what must be TRUE):
+  1. All 6 Polynesian entities assessed — no contradictions
+  2. KML entities for Polynesia correct in Google Earth Pro
+  3. All documentation gaps for Polynesian entities identified and filled
+
+### Phase 19: Antarctica Review
+**Mode**: mvp
+**Goal**: Antarctica plausibility verified, KML issues fixed, documentation gaps filled
+**Depends on**: Phase 18
+**Requirements**: ANTA-01
+**Success Criteria** (what must be TRUE):
+  1. Antarctica entity assessed against established dynamics — no contradictions
+  2. KML entity for Antarctica correct in Google Earth Pro
+  3. All documentation gaps for Antarctica identified and filled
+
 ## Progress
 
-**Execution Order:** Phases execute in numeric order: 1 → 2 → 3 → 4 → 5
+**Execution Order:** Phases execute in numeric order: 1 → 2 → ... → 19
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation & Methodology | 3/3 | Complete | 2026-05-19 |
-| 2. 2026-2050 Transition | 0/4 | Ready to execute | - |
-| 3. 2050 Structural Snapshot | 0/0 | Not started | - |
-| 4. 2050 Socioeconomic Snapshot | 4/4 | Complete   | 2026-05-21 |
-| 5. 2050 KML Maps & Integration | 1/3 | In Progress|  |
+| 2. 2026-2050 Transition | 4/4 | Complete | 2026-05-19 |
+| 3. 2050 Structural Snapshot | 3/3 | Complete | 2026-05-19 |
+| 4. 2050 Socioeconomic Snapshot | 4/4 | Complete | 2026-05-21 |
+| 5. 2050 KML Maps & Integration | 2/3 | Paused | — |
+| 6. Central Asia Review | — | Not started | — |
+| 7. Eastern Asia Review | — | Not started | — |
+| 8. Eastern Europe Review | — | Not started | — |
+| 9. Northern Europe Review | — | Not started | — |
+| 10. Southeast Asia Review | — | Not started | — |
+| 11. Southern Asia Review | — | Not started | — |
+| 12. Southern Europe Review | — | Not started | — |
+| 13. Western Asia Review | — | Not started | — |
+| 14. Western Europe Review | — | Not started | — |
+| 15. Australasia Review | — | Not started | — |
+| 16. Melanesia Review | — | Not started | — |
+| 17. Micronesia Review | — | Not started | — |
+| 18. Polynesia Review | — | Not started | — |
+| 19. Antarctica Review | — | Not started | — |

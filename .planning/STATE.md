@@ -1,17 +1,16 @@
 ---
 gsd_state_version: 1.0
-milestone: v1.0
-milestone_name: milestone
-status: executing
-stopped_at: Phase 5 plans created
-last_updated: "2026-05-21T22:00:08.953Z"
-last_activity: 2026-05-21
+milestone: v1.1
+milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
+status: planning
+last_updated: "2026-05-27T14:04:49.581Z"
+last_activity: 2026-05-27
 progress:
-  total_phases: 5
-  completed_phases: 4
-  total_plans: 17
-  completed_plans: 16
-  percent: 94
+  total_phases: 0
+  completed_phases: 0
+  total_plans: 0
+  completed_plans: 0
+  percent: 0
 ---
 
 # Project State
@@ -25,12 +24,10 @@ See: .planning/PROJECT.md (updated 2026-05-19)
 
 ## Current Position
 
-Phase: 05 (2050-kml-maps-integration) — EXECUTING
-Plan: 3 of 3
-Status: Ready to execute
-Last activity: 2026-05-21
-
-Progress: [█████████░] 94%
+Phase: Not started (defining requirements)
+Plan: —
+Status: Defining requirements
+Last activity: 2026-05-27 — Milestone v1.1 started
 
 ## Performance Metrics
 
