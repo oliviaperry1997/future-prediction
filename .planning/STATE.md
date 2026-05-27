@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
-status: executing
-stopped_at: Phase 7 context gathered
-last_updated: "2026-05-27T18:57:05.357Z"
+status: verifying
+stopped_at: "Completed 07-04-PLAN.md: Eastern Asia culture & climate profiles added, Unified Korea removed"
+last_updated: "2026-05-27T19:05:02.943Z"
 last_activity: 2026-05-27
 progress:
   total_phases: 19
-  completed_phases: 1
+  completed_phases: 2
   total_plans: 8
-  completed_plans: 7
-  percent: 88
+  completed_plans: 8
+  percent: 100
 ---
 
 # Project State
@@ -27,7 +27,7 @@ See: .planning/PROJECT.md (updated 2026-05-19)
 
 Phase: 07 (eastern-asia-review) — EXECUTING
 Plan: 4 of 4
-Status: Ready to execute
+Status: Phase complete — ready for verification
 Last activity: 2026-05-27
 
 ## Performance Metrics
@@ -57,6 +57,7 @@ Last activity: 2026-05-27
 | Phase 05-2050-kml-maps-integration P01 | 5m35s | 2 tasks | 10 files |
 | Phase 05-2050-kml-maps-integration PP02 | 8m30s | 2 tasks | 11 files |
 | Phase 07 P02 | 12m | 3 tasks | 1 files |
+| Phase 07 P04 | 240 | 3 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -88,6 +89,10 @@ Phase 1 locked decisions from discuss-phase (see `01-CONTEXT.md` for full detail
 - [Phase ?]: [Phase 07 Plan 02]: Two Koreas (ROK/DPRK) replacing Unified Korea in borders-geopolitics.md
 - [Phase ?]: [Phase 07 Plan 02]: Mongolia added as sovereign buffer state between China and Russia
 - [Phase ?]: [Phase 07 Plan 02]: China territorial reference expanded with Hong Kong (SAR) and Taiwan (SAR since ~2035-2038)
+- [Phase ?]: [Phase 07 Plan 04]: Cultural profiles for Japan, Mongolia, ROK, DPRK added to culture.md; China expanded with Core Socialist Values, social credit, Hong Kong/Taiwan SAR cultural scenes
+- [Phase ?]: [Phase 07 Plan 04]: Eastern Asia climate analysis expanded with typhoons (Category 6), heatwaves, sea level rise (40-60 cm), Tibetan Plateau warming (+3.0°C), Mongolia dzud/desertification
+- [Phase ?]: [Phase 07 Plan 04]: Eastern Asia added to climate migration (~2-4M) and water conflicts (Yellow River, Amur/Heilongjiang)
+- [Phase ?]: [Phase 07 Plan 04]: All Unified Korea references removed from culture.md and climate.md; separate ROK+DPRK entries in Religious Landscape and Cultural Entity Profiles
 
 ### Pending Todos
 
@@ -105,6 +110,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-27T18:57:05.352Z
-Stopped at: Phase 7 context gathered
+Last session: 2026-05-27T19:05:02.940Z
+Stopped at: Completed 07-04-PLAN.md: Eastern Asia culture & climate profiles added, Unified Korea removed
 Resume file: None

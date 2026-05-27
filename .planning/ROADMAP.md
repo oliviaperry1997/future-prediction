@@ -12,7 +12,7 @@ A markdown-based geopolitical forecasting and world-building project. This roadm
 - [x] **Phase 4: 2050 Socioeconomic Snapshot** - Document the economy, demographics, and culture of the 2050 world with cross-references (completed 2026-05-21)
 - [ ] **Phase 5: 2050 KML Maps & Integration** - Produce KML map files for the 2050 world, cross-reference to markdown sections, and finalize 2050 index
 - [x] **Phase 6: Central Asia Review** — Plausibility audit: Central Asia (completed 2026-05-27)
-- [ ] **Phase 7: Eastern Asia Review** — Plausibility audit: Eastern Asia
+- [x] **Phase 7: Eastern Asia Review** — Plausibility audit: Eastern Asia (completed 2026-05-27)
 - [ ] **Phase 8: Eastern Europe Review** — Plausibility audit: Eastern Europe
 - [ ] **Phase 9: Northern Europe Review** — Plausibility audit: Northern Europe
 - [ ] **Phase 10: Southeast Asia Review** — Plausibility audit: Southeast Asia
@@ -170,7 +170,7 @@ Plans:
 - [x] 07-01-PLAN.md — KML Edits: (wip) removal, entity-config ROK/DPRK, China HKG+TWN, Korea rename (Wave 1)
 - [x] 07-02-PLAN.md — Borders-geopolitics: Mongolia entry, ROK+DPRK replacement, China update, Territorial Integrity (Wave 1, parallel with 01)
 - [x] 07-03-PLAN.md — Economy & Demographics profiles: Japan, Mongolia, ROK, DPRK + expanded China (Wave 2, blocked on 02)
-- [ ] 07-04-PLAN.md — Culture & Climate: Japan, Mongolia, ROK, DPRK cultural profiles + expanded Eastern Asia climate (Wave 2, blocked on 02, parallel with 03)
+- [x] 07-04-PLAN.md — Culture & Climate: Japan, Mongolia, ROK, DPRK cultural profiles + expanded Eastern Asia climate (Wave 2, blocked on 02, parallel with 03)
 
 **Cross-cutting constraints:**
 - Plans 01 and 02 are parallel (Wave 1) — KML edits and borders-geopolitics don't conflict
@@ -311,7 +311,7 @@ Plans:
 | 4. 2050 Socioeconomic Snapshot | 4/4 | Complete | 2026-05-21 |
 | 5. 2050 KML Maps & Integration | 2/3 | Paused | — |
 | 6. Central Asia Review | 4/4 | Complete   | 2026-05-27 |
-| 7. Eastern Asia Review | 3/4 | In Progress|  |
+| 7. Eastern Asia Review | 4/4 | Complete   | 2026-05-27 |
 | 8. Eastern Europe Review | — | Not started | — |
 | 9. Northern Europe Review | — | Not started | — |
 | 10. Southeast Asia Review | — | Not started | — |
