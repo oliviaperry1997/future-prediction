@@ -384,16 +384,16 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 ### Demographic Profiles — Key Global Powers
 
 **China:**
-- **Population:** 1.35B (declining — peak was ~1.42B in the early 2020s)
-- **Age structure:** Median age 42, dependency ratio 60%
-- **TFR:** 1.1 (one of the lowest in the world)
-- **Net migration:** +0.05%/yr (near-zero — limited skilled in-migration offset by some out-migration)
-- **Urbanization:** 72% (coastal megacities — Shanghai, Beijing, Shenzhen, Guangzhou — dominate; interior urbanization projects expanding)
-- **Life expectancy:** 80 (universal healthcare maintained; environmental cleanup from severe pollution era improved health outcomes)
-- **Labor force participation:** 58% (declining — working-age population shrinking; humanoid robots offset ~60%+ of shortfall per technology snapshot)
-- **Primary languages:** Mandarin, regional languages (Cantonese, Shanghainese, Min, Hakka)
+- **Population:** 1.25B (declining — down from 1.41B 2020s peak; population decline of ~160M reflects the delayed impact of the one-child policy + urbanization fertility suppression; the population is projected to fall below 1B by 2075)
+- **Age structure:** Median age 48, dependency ratio 55% (the working-age population has declined by ~150M from its peak; the "4-2-1" family structure — four grandparents, two parents, one child — is the default for the millennial generation and creates extreme elder care pressure)
+- **TFR:** 1.1 (among the lowest in the world — the three-child policy and removal of all birth restrictions in the 2020s had minimal impact; urbanization, housing costs, women's career expectations, and the legacy of decades of birth restrictions have created a fertility culture that policy cannot reverse)
+- **Net migration:** +0.1%/yr (net recipient — skilled immigration from ASEAN, Central Asia, and Africa to fill automation-adjacent roles; the "brain gain" from the US collapse — Chinese STEM professionals returning from diaspora — has been absorbed; immigration policy is selective and controlled)
+- **Urbanization:** 75% (megacities — Shanghai ~30M, Beijing ~25M, Shenzhen ~22M, Guangzhou ~20M, Chengdu ~18M, Chongqing ~18M; the Pearl River Delta and Yangtze River Delta are continuous urban corridors with 150M+ combined population; western regions — Xinjiang, Tibet, Inner Mongolia — remain less urbanized; "ghost cities" of the 2010s-2020s have largely been absorbed by population concentration)
+- **Life expectancy:** 82 (improving — universal healthcare, pollution reduction from renewable energy transition, and advanced medical technology; the elderly population — 250M+ over 65 — is the largest in human history; healthcare spending is 12%+ of GDP and rising)
+- **Labor force participation:** 55% (declining working-age population partially offset by automation — humanoid robots perform 60%+ of manufacturing tasks; the retirement age has been raised to 67 for men and 65 for women; "silver workers" — 65-75 age cohort — are increasingly employed in service roles)
+- **Primary languages:** Mandarin (Putonghua — universal literacy, the primary language of government, education, and media), Cantonese (Guangdong, Hong Kong SAR), Uyghur, Tibetan, Mongolian (Inner Mongolia), English (growing — international business, academic publishing; Mandarin-first policy ensures English is a second language)
 - **→ See KML: China**
-- → See transition doc: [demographics.md Driver 1](../../2026-2050-transition/demographics.md#driver-1-global-fertility-decline-and-population-aging), event T-13
+- → See transition doc: [asia.md](../../2026-2050-transition/regions/asia.md#1-china--revolutionary-state-directed)
 
 **EU Core (Nordic Council, Benelux, post-Orbán Hungary, Slovenia, Baltic states):**
 - **Population:** 280M (declining slowly)
@@ -418,6 +418,54 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Primary languages:** Hindi, English, regional languages (Bengali, Telugu, Marathi, Tamil, Urdu, Gujarati, Kannada, Malayalam, Punjabi)
 - **→ See KML: India**
 - → See transition doc: [demographics.md Driver 1](../../2026-2050-transition/demographics.md#driver-1-global-fertility-decline-and-population-aging)
+
+**Japan:**
+- **Population:** 85M (declining rapidly — ~900K/year net loss; population has fallen ~35M from the 2020 peak of 128M)
+- **Age structure:** Median age 52 (oldest in the world), dependency ratio 72% (38% of population is 65+ — the highest old-age dependency ratio globally)
+- **TFR:** 1.3 (stabilized from a low of 1.26 in the 2020s — modest improvement from expanded family support policies, immigration, and cultural normalization of child-rearing support)
+- **Net migration:** +0.3%/yr (net recipient — immigration from ASEAN, India, and the Philippines partially offsets natural population decline; foreign-born population ~8% of total, up from ~2% in the 2020s)
+- **Urbanization:** 92% (Tokyo-Yokohama ~32M — still the world's largest metropolitan area but declining; Osaka-Kobe-Kyoto ~15M; Nagoya ~8M; Fukuoka ~5M). Rural depopulation is extreme — hundreds of "ghost towns" in mountainous and coastal regions, with the government managing "managed retreat" consolidation of services.
+- **Life expectancy:** 87 (highest globally, shared with the Pacifica and EU Core — universal healthcare, healthy diet, and active elderly lifestyle; the centenarian population exceeds 500K)
+- **Labor force participation:** 60% (elderly participation is high — ~35% of 65-74 year olds work, driven by pension inadequacy, social engagement, and labor shortages; the "silver workforce" is a structural feature of the economy)
+- **Primary languages:** Japanese, English (growing as business language — ASEAN and BRICS+ trade), Korean, Chinese (immigrant communities)
+- **→ See KML: Japan**
+- → See transition doc: [asia.md](../../2026-2050-transition/regions/asia.md#2-japan--reactionary-economic-trap)
+
+**Mongolia:**
+- **Population:** 3.4M (growing slowly — young age structure provides demographic momentum; net out-migration partially offsets natural increase)
+- **Age structure:** Median age 31, dependency ratio 48% (young population — demographic dividend window if employment growth can absorb new entrants)
+- **TFR:** 2.8 (above replacement — among the highest in East Asia; declining slowly from ~3.0 as urbanization and education increase)
+- **Net migration:** -0.2%/yr (net out-migration — skilled workers to China, the Pacifica, and Atlantica; Ulaanbaatar's ger district residents moving to provincial centers for renewable energy jobs)
+- **Urbanization:** 70% (Ulaanbaatar ~1.6M — nearly half the national population, with ~60% of the capital's residents in ger districts; Darkhan, Erdenet, and the South Gobi mining towns are secondary urban centers; Ulaanbaatar's ger district electrification and insulation program — completed 2035-2040 — substantially improved living conditions and eliminated coal-smoke pollution)
+- **Life expectancy:** 73 (improving — renewable energy transition improved air quality; healthcare system strengthened with Chinese and BRICS+ investment; traditional diet — meat, dairy — and high-altitude living contribute to cardiovascular health challenges)
+- **Labor force participation:** 58% (young workforce — 60% under 35; pastoralism employs ~25% of workforce and is declining; renewable energy and mining are capital-intensive and employ relatively few; youth unemployment ~12%)
+- **Primary languages:** Mongolian (Khalkha dialect — Cyrillic script transitioning to traditional Mongolian script since 2025, ~70% literacy in traditional script by 2050), Russian (declining — older generation and technical fields), English (growing — business, tourism, education), Mandarin (increasing — trade, education, cultural consumption)
+- **→ See KML: Mongolia**
+- → See transition doc: [asia.md](../../2026-2050-transition/regions/asia.md)
+
+**ROK (Republic of Korea, formerly South Korea):**
+- **Population:** 38M (declining rapidly — down from 52M in the 2020s peak; population decline is the fastest of any developed economy in relative terms)
+- **Age structure:** Median age 54 (oldest in the world, surpassing Japan), dependency ratio 78% (40% 65+ — the demographic pyramid is inverted; fewer than 1.5 workers per retiree)
+- **TFR:** 0.72 (world's lowest — the fertility collapse is the deepest and most persistent in human history; government spending on family support exceeds 3% of GDP with no measurable impact; cultural factors — workism, housing costs, gender inequality in domestic labor — have proven resistant to policy intervention)
+- **Net migration:** +0.4%/yr (net recipient — immigration from ASEAN, South Asia, and Central Asia partially offsets natural decline; foreign-born population ~12% of total, up from ~4% in the 2020s; immigration policy liberalized under the Lee Jae-myung engagement path)
+- **Urbanization:** 82% (Seoul-Incheon ~20M — declining from the 25M peak as satellite cities absorb overspill; Busan-Ulsan ~6M; the urban concentration is extreme: 50%+ of the population lives in the Seoul metropolitan area). Rural and small-city depopulation is advanced — dozens of counties have been administratively merged as populations collapsed.
+- **Life expectancy:** 86 (among the highest globally — universal healthcare, advanced medical technology, and excellent diet; the healthcare system is strained by the elderly population share — 40% 65+ consumes 65%+ of healthcare spending)
+- **Labor force participation:** 56% (working-age population has collapsed from ~37M to ~22M; elderly participation is high — ~40% of 65-74 year olds work, the highest elderly employment rate in the developed world; automation in manufacturing and services partially offsets labor shortage but care work — elder care, healthcare — cannot be fully automated)
+- **Primary languages:** Korean, English, Mandarin (growing — Chinese economic integration), Vietnamese, Tagalog (immigrant communities)
+- **→ See KML: ROK**
+- → See transition doc: [asia.md](../../2026-2050-transition/regions/asia.md#4-korea---reactionary-degradation-vs-revolutionary-ascendancy)
+
+**DPRK (Democratic People's Republic of Korea, formerly North Korea):**
+- **Population:** 27M (growing slowly — post-sanctions economic improvement has improved health outcomes; TFR is declining with urbanization but remains above replacement)
+- **Age structure:** Median age 34, dependency ratio 42% (younger profile than ROK — the DPRK avoided the fertility collapse that defines the ROK's demographic trap; working-age population is stable and growing)
+- **TFR:** 1.8 (declining — from ~2.0 in the 2020s; urbanization, women's education, and delayed marriage are reducing fertility; the state promotes childbirth through the "Mother Hero" program and housing allocation incentives, similar to Soviet-era pronatalism)
+- **Net migration:** -0.1%/yr (net stable — limited emigration due to travel restrictions; some labor export to Russia — logging, construction — under bilateral agreements; the "defector" flow to the ROK has reversed direction as the ROK's economic decline and the DPRK's improvement converge living standards)
+- **Urbanization:** 62% (Pyongyang ~3.5M — showcase capital with modernized infrastructure funded by Russian and Chinese investment; Hamhung, Chongjin, Nampo, Wonsan as secondary industrial cities; rural-to-urban migration is accelerating as industrial development concentrates in urban centers)
+- **Life expectancy:** 74 (improving significantly — up from ~71 in the 2020s; sanctions removal allowed medical imports and equipment; the healthcare system remains state-provided and basic but has improved from famine-era degradation; the rural-urban health gap is narrowing)
+- **Labor force participation:** 62% (state-mobilized workforce — ~15M labor force; military demobilization has released personnel into civilian economy; literacy rate ~99% — the DPRK's educated workforce is its primary economic asset; the labor force is young and disciplined; Special Economic Zones employ workers at market wages — the SEZ labor force is the most productive segment)
+- **Primary languages:** Korean (Munhwaŏ — the Pyongyang standard dialect; the North-South dialect divergence has partially converged as cultural exchange increased post-2030s; Hangul script universal), Russian (growing — CSPT alliance, education, technical training), Mandarin (increasing — trade, education), English (limited — SEZ business contexts)
+- **→ See KML: DPRK**
+- → See transition doc: [asia.md](../../2026-2050-transition/regions/asia.md#4-korea---reactionary-degradation-vs-revolutionary-ascendancy)
 
 **Brazil:**
 - **Population:** 190M (declining — peaked at ~218M in the early 2030s)
@@ -546,17 +594,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Primary languages:** Tajik (Persian), Russian, Uzbek
 - **→ See KML: Tajikistan**
 
-**Unified Korea:**
-- **Population:** 75M (declining — unified population is aging rapidly; DPRK's younger demographic profile provided only a modest offset)
-- **Age structure:** Median age 45, dependency ratio 65% (highest dependency ratio among all profiled entities)
-- **TFR:** 1.0 (lowest in the world — unified Korea's TFR is the lowest among all entities profiled)
-- **Net migration:** +0.1%/yr (limited skilled in-migration to Seoul; controlled immigration policy)
-- **Urbanization:** 85% (Seoul metropolitan area dominates; Pyongyang, Busan, Incheon as secondary centers)
-- **Life expectancy:** 84 (ROK's healthcare infrastructure extended northward; DPRK's baseline health improved through convergence investment)
-- **Labor force participation:** 55% (highly automated economy; unified labor force of ~45M; DPRK workers integrated into modern economy)
-- **Primary languages:** Korean
-- **→ See KML: Unified Korea**
-- → See transition doc: [demographics.md Driver 1](../../2026-2050-transition/demographics.md#driver-1-global-fertility-decline-and-population-aging), event T-13
+
 
 **Australia / New Zealand:**
 - **Population:** 35M (growing slowly — Australia ~28M, New Zealand ~7M)
