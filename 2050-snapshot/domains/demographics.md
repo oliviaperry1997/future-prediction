@@ -479,6 +479,73 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **→ See KML: Turkey**
 - → See transition doc: [demographics.md Driver 2](../../2026-2050-transition/demographics.md#driver-2-climate-driven-migration-acceleration)
 
+**Central Asian Confederation (CAC):**
+- **Population:** 80M (growing slowly — young age structure provides demographic momentum; aggregate TFR ~2.8 across constituent republics)
+- **Age structure:** Median age 30, dependency ratio 48% (youthful profile compared to aging East Asia and Europe)
+- **TFR:** 2.8 (range 2.2-3.4 across constituent republics — above replacement, declining slowly)
+- **Net migration:** -0.2%/yr (net out-migration to Russia, Kazakhstan oil regions, and Turkey — skilled labor emigration partially offset by return migration)
+- **Urbanization:** 48% (low by global standards — Tashkent, Almaty, Astana, Bishkek, Dushanbe, Ashgabat as primary urban centers; rural-to-urban migration is active)
+- **Life expectancy:** 72 (range 69-75 — improving from Soviet-era baseline but constrained by environmental health (Aral Sea region), water quality, and healthcare system legacy)
+- **Labor force participation:** 52% (young population provides labor surplus; high informal sector; labor migration to Russia and Kazakhstan common)
+- **Primary languages:** Kazakh, Uzbek, Turkmen, Kyrgyz, Tajik, Russian (lingua franca), English (growing — business and BRI engagement)
+- **→ See KML: Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan**
+
+**Kazakhstan:**
+- **Population:** 20M (stable — modest natural increase offset by emigration of ethnic Russians and Germans)
+- **Age structure:** Median age 32, dependency ratio 46%
+- **TFR:** 2.5 (declining — urbanization, women's education reducing fertility from ~3.0)
+- **Net migration:** -0.1%/yr (skilled emigration to Russia and EU; modest in-migration from other Central Asian republics)
+- **Urbanization:** 58% (Astana, Almaty, Shymkent, Aktobe — Almaty the largest city at ~2.2M)
+- **Life expectancy:** 73 (improving — oil revenue funds healthcare; environmental concerns in industrial/petrochemical zones)
+- **Labor force participation:** 55% (energy and extractive sectors male-dominated; services growing)
+- **Primary languages:** Kazakh, Russian
+- **→ See KML: Kazakhstan**
+- → See transition doc: [demographics.md Driver 3](../../2026-2050-transition/demographics.md#driver-3-us-successor-state-demographic-divergence)
+
+**Uzbekistan:**
+- **Population:** 37M (growing — highest TFR in CAC, approaching peak working-age demographic)
+- **Age structure:** Median age 29, dependency ratio 49%
+- **TFR:** 3.1 (declining slowly — urbanization, women's education reducing from ~3.5)
+- **Net migration:** -0.3%/yr (significant labor emigration to Russia and Kazakhstan; some remittance-supported emigration)
+- **Urbanization:** 45% (Tashkent — largest city in CAC at ~2.5M, Samarkand, Namangan, Andijan)
+- **Life expectancy:** 72 (improving — post-Soviet healthcare reform plus international health programs; Aral Sea health crisis region lagging)
+- **Labor force participation:** 50% (large informal sector; agriculture employs ~30% of workforce; youth unemployment ~15%)
+- **Primary languages:** Uzbek, Russian, Tajik
+- **→ See KML: Uzbekistan**
+
+**Turkmenistan:**
+- **Population:** 6.5M (stable — low natural increase below CAC average)
+- **Age structure:** Median age 31, dependency ratio 46%
+- **TFR:** 2.2 (lowest in CAC — approaching replacement; state family policy limited effect)
+- **Net migration:** -0.2%/yr (limited — Turkmenistan's closed visa regime restricts both emigration and immigration)
+- **Urbanization:** 52% (Ashgabat, Turkmenabat, Mary, Turkmenbashi)
+- **Life expectancy:** 70 (lowest in CAC — healthcare system degraded under autarkic governance; Aral Sea environmental health crisis affects northern regions)
+- **Labor force participation:** 48% (majority state-employed; official figures undercount informal activity)
+- **Primary languages:** Turkmen, Russian
+- **→ See KML: Turkmenistan**
+
+**Kyrgyzstan:**
+- **Population:** 7M (moderate growth — young age structure, declining but above-replacement fertility)
+- **Age structure:** Median age 28, dependency ratio 50%
+- **TFR:** 2.7 (declining — urbanization and out-migration reducing fertility)
+- **Net migration:** -0.5%/yr (highest out-migration rate in CAC — labor emigration to Russia and Kazakhstan)
+- **Urbanization:** 38% (lowest urbanization rate in CAC — Bishkek, Osh, Jalal-Abad)
+- **Life expectancy:** 71 (moderate — healthcare spending constrained by fiscal limitations; mountainous terrain creates access barriers)
+- **Labor force participation:** 50% (remittance-dependent — ~20% of GDP from worker remittances; agriculture employs ~35% of workforce)
+- **Primary languages:** Kyrgyz, Russian, Uzbek
+- **→ See KML: Kyrgyzstan**
+
+**Tajikistan:**
+- **Population:** 10M (growing — highest TFR in CAC, youngest median age)
+- **Age structure:** Median age 26 (youngest in CAC), dependency ratio 55%
+- **TFR:** 3.4 (highest in CAC — declining slowly from ~3.8; rural fertility remains high)
+- **Net migration:** -0.6%/yr (highest out-migration rate in CAC — ~25% of GDP from remittances, primarily Russia)
+- **Urbanization:** 30% (lowest in region — Dushanbe, Khujand, Bokhtar)
+- **Life expectancy:** 69 (lowest in region — healthcare infrastructure poorest in CAC; mountainous terrain extreme access barriers)
+- **Labor force participation:** 48% (remittance-dependent economy; large informal sector; agriculture employs ~40% of workforce)
+- **Primary languages:** Tajik (Persian), Russian, Uzbek
+- **→ See KML: Tajikistan**
+
 **Unified Korea:**
 - **Population:** 75M (declining — unified population is aging rapidly; DPRK's younger demographic profile provided only a modest offset)
 - **Age structure:** Median age 45, dependency ratio 65% (highest dependency ratio among all profiled entities)
