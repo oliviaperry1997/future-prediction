@@ -181,13 +181,28 @@ Plans:
 
 ### Phase 8: Eastern Europe Review
 **Mode**: mvp
-**Goal**: Eastern Europe (Belarus, Bulgaria, Czechia, Hungary, Moldova, Poland, Romania, Russia, Slovakia, Ukraine) plausibility verified, KML issues fixed, documentation gaps filled
+**Goal**: Eastern Europe plausibility verified, KML issues fixed, documentation gaps filled — EU federalizes as revolutionary project by 2050 (federations = single entities), Union State (Russia/Belarus/Ukraine) as confederation (constituent entities remain separate). Covers 10 entities across 4 plans.
 **Depends on**: Phase 7
 **Requirements**: EURA-03
 **Success Criteria** (what must be TRUE):
-  1. All 10 Eastern European entities assessed — no contradictions
-  2. KML entities for Eastern Europe correct in Google Earth Pro
-  3. All documentation gaps for Eastern European entities identified and filled
+  1. All 10 Eastern European entities assessed against revolutionary feedback loop and established dynamics — no contradictions
+  2. KML entities for Eastern Europe correct in Google Earth Pro: EU member polygons merged into single European Union entity, Russia/Belarus/Ukraine as separate Union State polygons, Moldova removed, Transnistria absorbed into Ukraine
+  3. All documentation gaps for Eastern European entities identified and filled: EU profile expanded to federal EU across all 5 domain docs, Belarus and Ukraine new standard-depth profiles, Russia light Union State update
+**Plans**: 4 plans
+
+Plans:
+- [ ] 08-01-PLAN.md — KML & Entity Config: (wip) removal, EU polygon merge, Moldova removal, Russia/Belarus/Ukraine entity updates (Wave 1)
+- [ ] 08-02-PLAN.md — Borders-Geopolitics: EU Core → European Union, Russia Union State update, Belarus + Ukraine entries, Key Changes bullet (Wave 1, parallel)
+- [ ] 08-03-PLAN.md — Economy & Demographics: EU profile expansion, Russia Union State update, Belarus + Ukraine standard-depth profiles (Wave 2, blocked on 02)
+- [ ] 08-04-PLAN.md — Culture & Climate: EU cultural profile, Russia/Belarus/Ukraine cultural profiles, Eastern Europe climate expansion (Wave 2, blocked on 02, parallel with 03)
+
+**Cross-cutting constraints:**
+- Plans 01 and 02 are parallel (Wave 1) — KML edits and borders-geopolitics don't conflict
+- Plans 03 and 04 are parallel (Wave 2) — different domain docs, no file conflicts
+- Plan 02 must complete first (defines entity names and narratives that 03/04 reference)
+- Per D-01/D-02: EU is single entity in all docs and KML — former member states are subdivisions
+- Per D-07: Union State is a confederation — Russia, Belarus, Ukraine depicted as separate KML entities
+- Per D-19: Profile writing priority follows Phase 6-7 pattern: borders-geopolitics → economy + demographics → culture + climate
 
 ### Phase 9: Northern Europe Review
 **Mode**: mvp
@@ -312,7 +327,7 @@ Plans:
 | 5. 2050 KML Maps & Integration | 2/3 | Paused | — |
 | 6. Central Asia Review | 4/4 | Complete   | 2026-05-27 |
 | 7. Eastern Asia Review | 4/4 | Complete   | 2026-05-27 |
-| 8. Eastern Europe Review | — | Not started | — |
+| 8. Eastern Europe Review | 0/4 | Planned | — |
 | 9. Northern Europe Review | — | Not started | — |
 | 10. Southeast Asia Review | — | Not started | — |
 | 11. Southern Asia Review | — | Not started | — |
