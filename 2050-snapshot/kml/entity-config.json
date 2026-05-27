@@ -208,8 +208,8 @@
     "Antarctica (wip)": [
       "Antarctica"
     ],
-    "Eurasia (wip)": {
-      "Central Asia (wip)": [
+    "Eurasia": {
+      "Central Asia": [
         "Afghanistan",
         "Kazakhstan",
         "Kyrgyzstan",
@@ -217,7 +217,7 @@
         "Turkmenistan",
         "Uzbekistan"
       ],
-      "Eastern Asia (wip)": [
+      "Eastern Asia": [
         "China",
         "Japan",
         "Mongolia",
