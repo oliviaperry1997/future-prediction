@@ -13,7 +13,7 @@ A markdown-based geopolitical forecasting and world-building project. This roadm
 - [ ] **Phase 5: 2050 KML Maps & Integration** - Produce KML map files for the 2050 world, cross-reference to markdown sections, and finalize 2050 index
 - [x] **Phase 6: Central Asia Review** — Plausibility audit: Central Asia (completed 2026-05-27)
 - [x] **Phase 7: Eastern Asia Review** — Plausibility audit: Eastern Asia (completed 2026-05-27)
-- [ ] **Phase 8: Eastern Europe Review** — Plausibility audit: Eastern Europe
+- [x] **Phase 8: Eastern Europe Review** — Plausibility audit: Eastern Europe (completed 2026-05-27)
 - [ ] **Phase 9: Northern Europe Review** — Plausibility audit: Northern Europe
 - [ ] **Phase 10: Southeast Asia Review** — Plausibility audit: Southeast Asia
 - [ ] **Phase 11: Southern Asia Review** — Plausibility audit: Southern Asia
@@ -188,13 +188,14 @@ Plans:
   1. All 10 Eastern European entities assessed against revolutionary feedback loop and established dynamics — no contradictions
   2. KML entities for Eastern Europe correct in Google Earth Pro: EU member polygons merged into single European Union entity, Russia/Belarus/Ukraine as separate Union State polygons, Moldova removed, Transnistria absorbed into Ukraine
   3. All documentation gaps for Eastern European entities identified and filled: EU profile expanded to federal EU across all 5 domain docs, Belarus and Ukraine new standard-depth profiles, Russia light Union State update
-**Plans**: 4 plans
+**Plans**: 5 plans
 
 Plans:
-- [ ] 08-01-PLAN.md — KML & Entity Config: (wip) removal, EU polygon merge, Moldova removal, Russia/Belarus/Ukraine entity updates (Wave 1)
-- [ ] 08-02-PLAN.md — Borders-Geopolitics: EU Core → European Union, Russia Union State update, Belarus + Ukraine entries, Key Changes bullet (Wave 1, parallel)
-- [ ] 08-03-PLAN.md — Economy & Demographics: EU profile expansion, Russia Union State update, Belarus + Ukraine standard-depth profiles (Wave 2, blocked on 02)
-- [ ] 08-04-PLAN.md — Culture & Climate: EU cultural profile, Russia/Belarus/Ukraine cultural profiles, Eastern Europe climate expansion (Wave 2, blocked on 02, parallel with 03)
+- [x] 08-01-PLAN.md — KML & Entity Config: (wip) removal, EU polygon merge, Moldova removal, Russia/Belarus/Ukraine entity updates (Wave 1)
+- [x] 08-02-PLAN.md — Borders-Geopolitics: EU Core → European Union, Russia Union State update, Belarus + Ukraine entries, Key Changes bullet (Wave 1, parallel)
+- [x] 08-03-PLAN.md — Economy & Demographics: EU profile expansion, Russia Union State update, Belarus + Ukraine standard-depth profiles (Wave 2, blocked on 02)
+- [x] 08-04-PLAN.md — Culture & Climate: EU cultural profile, Russia/Belarus/Ukraine cultural profiles, Eastern Europe climate expansion (Wave 2, blocked on 02, parallel with 03)
+- [x] 08-05-SUMMARY.md — KML EU Merge & Style Fix: all 27 EU member placemarks merged into single EU folder, unified EU #012F9A style, added Belarus #A19E77 style (post-review fix)
 
 **Cross-cutting constraints:**
 - Plans 01 and 02 are parallel (Wave 1) — KML edits and borders-geopolitics don't conflict
