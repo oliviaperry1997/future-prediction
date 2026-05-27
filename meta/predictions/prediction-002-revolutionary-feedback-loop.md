@@ -2,8 +2,8 @@
 title: The Revolutionary Feedback Loop
 status: draft
 created: 2026-05-21
-updated: 2026-05-21
-tags: [revolution, reaction, convergence, theory, transition]
+updated: 2026-05-27
+tags: [revolution, reaction, convergence, theory, transition, unification]
 confidence: MEDIUM
 target_milestone: 2050
 falsifiable_statement: By 2050, at least 60% of successor states and regional polities emerging from the 2026-2049 transition will have adopted revolutionary (progressive/redistributive/internationalist) rather than reactionary (authoritarian/extractive/nationalist) models, and no reactionary state will survive in its original form without severe degradation or fracture.
@@ -85,6 +85,67 @@ The two loops converge toward the revolutionary pole:
 
 **By 2050:** The global system converges toward revolutionary models as the dominant form. Not all states are revolutionary — but revolutionary states are the growing, consolidating, attracting ones. Reactionary states are the shrinking, fracturing, bleeding ones. This is a structural prediction, not a normative judgment: it describes which institutional forms are self-sustaining under post-American conditions.
 
+## Stage 5 — Unification & Integration Mechanisms
+
+The original framework described convergence at the state level — individual polities flipping revolutionary or degrading as reactionary traps. The regional applications revealed three distinct **supra-state pathways** that the original framework did not formalize:
+
+### Path A: Post-Flip Unification
+
+The simplest unification pattern: **neighboring revolutionary states merge after each has individually completed the positive feedback loop.** This is the culmination of Stage 2 for polities that share cultural, historical, or economic foundations:
+
+1. **Independent Flips** → each state goes revolutionary through its own positive feedback cycle (Stage 2)
+2. **Pan-Nationalist Sentiment Activation** → shared identity (Gran Colombian, Rioplatense, Swahili) becomes politically salient as each state's revolutionary model legitimizes the others
+3. **Confederal Compact** → loose union with pooled sovereignty in defense, currency, external trade; constituent states retain domestic autonomy
+4. **Deepening** → confederation evolves toward federation as integration demonstrates benefits and path-dependence locks in
+
+**Known examples:**
+- **Gran Colombia** (COL+ECU+VEN): Three post-flip left-nationalist states unify ~2038–2048 via confederal compact → full federation. Capital: Bogotá. ~75M population.
+- **Argentina-Uruguay** (ARG+URY): Rioplatense unification ~2048 after Argentina's post-Milei left rebound. Combined ~50M population.
+
+**Key constraint:** Path A requires *at least two* neighboring states to have completed the revolutionary flip. It cannot operate on states still in the reactionary trap.
+
+### Path B: Integration-as-Revolution
+
+The pattern identified by the Central Asian case: **states in a reactionary trap escape through collective integration, without individually flipping revolutionary first.** The unification itself is the escape mechanism — it breaks the reactionary deadlock by pooling sovereignty to solve structural problems that no single state could solve alone:
+
+1. **Shared Existential Threat** → water crisis, energy transition revenue decline, great-power squeeze — individual states have no viable unilateral response
+2. **Bilateral Cooperation Fails** → bilateral water-sharing and trade agreements prove insufficient; collective institutional framework becomes the only remaining option
+3. **Confederal Formation** → existing sovereign states pool sovereignty over a limited set of domains (water management, energy, external trade, defense, diplomatic representation) while retaining internal governance and borders
+4. **Escape from Trap** → pooled resources unlock investment, coordinated water management prevents crisis, collective bargaining restores external agency — the states are no longer "too small to act"
+5. **Gradual Deepening (optional)** → the confederation may deepen over time as integration proves its value, potentially toward federation in later decades
+
+**Known example:**
+- **Central Asian Confederation (CAC):** Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan unify as a confederal state ~2045–2050. None flips revolutionary individually — the confederation is the transformation. Water crisis (Amu Darya/Syr Darya glacier melt at 30-50% by 2050) and energy transition (hydrocarbon revenue decline) force collective action. Turkic identity (Organization of Turkic States) provides cultural foundation, with Tajikistan accommodated as Persian-speaking autonomous member. Capital: Astana (Nur-Sultan). Rotating council presidency. ~80M population.
+
+**Key distinction from Path A:** In Path A, unification is the *culmination* of revolution. In Path B, integration *is* the revolution — the confederation creates conditions (talent retention, investment, agency) that the constituent states could not achieve alone.
+
+### Path C: Integration Feedback Loop
+
+The pattern identified in Africa: **integration generates its own positive feedback dynamics at the supra-state level, independent of member states' internal trajectories:**
+
+1. **Integration Impulse Suppressed** → external hegemon (US) maintains divide-and-rule bilateral relationships that fracture regional solidarity
+2. **Hegemon Removal** → US collapse removes the suppression mechanism; suppressed integration accelerates (rubber-banding effect)
+3. **Integration Vehicle Activated** → existing frameworks (EAF, AES, AfCFTA, Blue Pacific) gain momentum as the external constraint vanishes
+4. **Demonstration Effect** → measurable integration benefits (trade growth, collective leverage, reduced conflict) attract non-members and deepen existing members' commitment
+5. **Self-Accelerating Loop** → integration → trade growth → political momentum → institutional deepening → more integration
+
+**Known examples:**
+- **East African Federation:** ~380M across 10 states. Political confederation targeted mid-2030s. Swahili cultural foundation, DRC/Somalia inclusion demonstrates strategic reach.
+- **Confederation of Sahel States (AES):** ~75M in 3 states. Joint military, common investment bank, anti-colonial solidarity as ideological driver. Internal authoritarianism is unresolved tension.
+- **AfCFTA:** 54-state continental framework shifting from treaty to operational system. Intra-African trade rising toward 25-30% by 2049.
+- **Blue Pacific (PIF):** 2050 Strategy driving deepened Pacific regionalism. Collective fisheries management (~$5B+/yr), joint diplomatic weight.
+
+**Key distinction from Paths A and B:** Path C operates at continental/subcontinental scale with many members, has no single unification target (members join at different depths), and is driven primarily by external-hegemon-removal rather than by internal revolutionary flips or shared existential threats.
+
+### Cross-Path Dynamics
+
+The three paths are not mutually exclusive and can interact:
+- **Path A → Path B:** A successful post-flip unification (Gran Colombia) demonstrates integration benefits to non-revolutionary neighbors, creating a Path B incentive.
+- **Path B → Path A:** States that collectively escape a reactionary trap through Path B may develop revolutionary internal dynamics over time, enabling future Path A deepening.
+- **Path C absorbs Paths A/B:** Regional integration vehicles (EAF, PIF) provide frameworks within which Path A or B unifications could occur as subgroups.
+
+**Implication for the falsifiable statement:** The 60% revolutionary-threshold claim must account for Path B and C states — entities that adopt revolutionary institutional forms without individually flipping. Including integration-as-revolution states, the effective revolutionary coverage by 2050 exceeds the per-state flip rate. The CAC, EAF, AES, and AfCFTA collectively represent ~700M people whose governance is transformed through integration even where member states did not individually flip.
+
 ## Applications by Region
 
 ### North America
@@ -160,7 +221,7 @@ The original case and the clearest example of the mechanism:
 |---|---|---|
 | **India** | Stage 3-4 (degradation potential) | Electoral autocracy (V-Dem), RSS structural dominance (21 of 28 states), 40% graduate youth unemployment. Growth (6.5-7.5%) is capital-intensive and jobless — "growth without employment" is the system's output, not a transition problem. Talent flight risk as secular/minority professionals emigrate. The democratic-revolutionary model is the fading alternative. |
 | **Japan** | Stage 3 (structural inertia) | Demographic death spiral (-900k/yr, 1.9 workers per retiree). 250%+ debt/GDP. Auto industry existential crisis from Chinese EVs. Non-nuclear norm eroding (41% support revising Three Non-Nuclear Principles, up from 20%) not from active choice but from exhaustion. Japan is not managing decline — it is being managed by decline. |
-| **Central Asia** | Stage 1-2 (low-intensity) | Resource dependence + water stress + between Russia and China = limited autonomy. Trap operates at low intensity — too small for dramatic dynamics but too constrained for revolutionary breakthrough. |
+| **Central Asia** | Stage 1-2 → Path B (integration-as-revolution) | Resource dependence + water stress + between Russia and China = limited autonomy. Trap operates at low intensity — but the CAC confederation (Path B) provides the escape mechanism. The Central Asian Confederation (~2045–2050) pools sovereignty over water, energy, trade, and defense — breaking the "too constrained to transform" deadlock through collective action rather than individual flips. See Stage 5 Path B for full mechanics. |
 | **Pakistan** | Stage 4-5 | Fully active reactionary trap: economic collapse, political instability, Islamist insurgency, climate vulnerability. Failed state in all but name. Too large and nuclear-armed to disappear. |
 | **Myanmar** | Stage 4 | Civil war trajectory locked in. Failed state. |
 | **Afghanistan** | Beyond loop | Insufficient state structure for either dynamic. |
@@ -180,7 +241,7 @@ The original case and the clearest example of the mechanism:
 - **China → ASEAN (gravity well):** China's economic gravity pulls ASEAN into its orbit without requiring political alignment.
 - **US coercion phase → all Asian allies (artificial distortion):** The spring effect is proportional to how far each state was pushed. Philippines faces most dramatic reorientation; Vietnam barely adjusts.
 
-**Convergent evolution:** China and DPRK as the revolutionary core of Asia. India and Japan as reactionary traps — neither collapses dramatically but both structurally degrade. Korea is the swing case deciding whether the Korean people ascend or decline. ASEAN's institutional model survives as the optimal middle-power strategy. Central Asia degrades slowly. Pakistan and Afghanistan remain failed states.
+**Convergent evolution:** China and DPRK as the revolutionary core of Asia. India and Japan as reactionary traps — neither collapses dramatically but both structurally degrade. Korea is the swing case deciding whether the Korean people ascend or decline. ASEAN's institutional model survives as the optimal middle-power strategy. Central Asia escapes the low-intensity trap through Path B integration-as-revolution — the CAC confederation breaks the deadlock that had appeared permanent. Pakistan and Afghanistan remain failed states.
 
 **Net:** Asia does not converge uniformly toward revolutionary models. The region's revolutionary core (China, DPRK) consolidates and attracts. Its reactionary traps (India, Japan) slowly degrade — not dramatic collapse but structural erosion. Korea's binary fork determines whether the Korean nation enters the revolutionary or reactionary column. Asia's defining feature is not two revolutionary models competing (the earlier framing) but a structural asymmetry between consolidating revolutionaries and degrading reactionaries, with one unresolved fork. The most consequential uncertainty is not the Korea nuclear decision but the Korea binary fork itself — whether ROK transforms or degrades.
 
@@ -200,8 +261,8 @@ The original case and the clearest example of the mechanism:
 
 | Polity | Path | Outcome |
 |---|---|---|
-| Gran Colombia (COL+ECU+VEN) | **Revolutionary (unification)** — Stage 5 of the revolutionary feedback loop | Three post-flip left-nationalist states unify in two phases: confederal compact (~2038–2042) → full federation (~2045–2048). Capital: Bogotá. ~75M population. The unification phase of the loop — discrete 3-country merger, not continental bloc. |
-| Argentina-Uruguay (ARG+URY) | **Revolutionary (unification)** — Stage 5 | Argentina's post-Milei left rebound enables Rioplatense unification with Uruguay by ~2048. Includes Falklands/Malvinas and South Georgia/Sandwich Islands as autonomous zone (occupied by Milei-era Argentina ~2028–2032, converted to autonomous zone after flip). Combined population ~50M. |
+| Gran Colombia (COL+ECU+VEN) | **Revolutionary (unification)** — Stage 5 Path A (post-flip unification) | Three post-flip left-nationalist states unify via Path A: independent flips → pan-nationalist sentiment → confederal compact (~2038–2042) → full federation (~2045–2048). Capital: Bogotá. ~75M population. Discrete 3-country merger, not continental bloc. |
+| Argentina-Uruguay (ARG+URY) | **Revolutionary (unification)** — Stage 5 Path A (post-flip unification) | Argentina's post-Milei left rebound enables Rioplatense unification with Uruguay by ~2048. Path A: Argentina flips revolutionary post-Milei → shared River Plate identity activates → union. Includes Falklands/Malvinas and South Georgia/Sandwich Islands as autonomous zone (occupied by Milei-era Argentina ~2028–2032, converted to autonomous zone after flip). Combined population ~50M. |
 | Brazil | **Revolutionary (mixed)** — BRICS+ anchor, multipolar, developmentalist | Positive loop: agricultural/mineral exports + BRICS+ integration + renewable energy. Amazon dieback (T-15, 2047) is existential challenge to agricultural economy. Remains independent regional hegemon, leads multilateral Amazon basin governance. |
 | Chile (post-Kast) | **Revolutionary (rebound)** — left rebound as US-dependent far-right model collapses | Constitutional convention reconvenes. Lithium policy reoriented toward state control and BRICS+ partnerships. Policy coordination with Bolivia and Argentina-Uruguay through Lithium Triangle framework. |
 | Peru | **Reactionary (degrading)** — chronically unstable, excluded from unification wave | Revolving-door presidencies, constitutional crises, fragmented party system. Too internally fractured for the unification treaties that absorbed its neighbors. The Andean state left behind by the Gran Colombia process. |
@@ -209,7 +270,7 @@ The original case and the clearest example of the mechanism:
 | Paraguay | **Reactionary (stable)** — authoritarian, in Brazil's orbit | Agricultural/energy economy in Brazil's economic orbit. No unification trajectory. |
 | Guianas Cooperation Council (GUY+SUR+CAY) | **Coordination only** — not political unification | Economic coordination, climate resilience, infrastructure. Guyana's oil wealth anchors development fund. Border disputes remain unresolved but managed. |
 
-**Net:** Regional Pink Tide 2.0 evolves into structural unification. South America consolidates from 12 to 8 sovereign entities by 2050 through two discrete mergers and one independence. No strong reactionary poles survive the US collapse because all were US-dependent or resource-extractive models that failed structurally. The unification phase of the revolutionary feedback loop manifests in two 2-3 country mergers — consistent with prediction-002's discrete-unification model.
+**Net:** Regional Pink Tide 2.0 evolves into structural unification. South America consolidates from 12 to 8 sovereign entities by 2050 through two discrete mergers and one independence. No strong reactionary poles survive the US collapse because all were US-dependent or resource-extractive models that failed structurally. The unification stage of the revolutionary feedback loop (Stage 5 Path A — post-flip unification) manifests in two 2-3 country mergers, both following the independent-flips → pan-nationalist sentiment → confederal compact → federation pattern.
 
 ### Africa
 
@@ -359,4 +420,4 @@ Current confidence: **MEDIUM** — the mechanism is grounded in observable dynam
 
 ---
 
-*This document replaces prediction-002-socialist-transition.md. The original US-specific content has been integrated into the North America applications section above. Last updated: 2026-05-21.*
+*This document replaces prediction-002-socialist-transition.md. The original US-specific content has been integrated into the North America applications section above. Stage 5 (Unification & Integration Mechanisms) added 2026-05-27 to formalize the three supra-state pathways identified by the Central Asia Review and the Africa/Blue Pacific integration patterns. Last updated: 2026-05-27.*
