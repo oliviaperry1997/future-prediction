@@ -224,16 +224,10 @@
         "DPRK",
         "ROK"
       ],
-      "Eastern Europe (wip)": [
-        "Belarus",
-        "Bulgaria",
-        "Czechia",
-        "Hungary",
-        "Moldova",
-        "Poland",
-        "Romania",
+      "Eastern Europe": [
+        "European Union",
         "Russia",
-        "Slovakia",
+        "Belarus",
         "Ukraine"
       ],
       "Northern Europe (wip)": [
@@ -696,6 +690,15 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "united-kingdom",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#united-kingdom"
+    },
+    "European Union": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "country_codes": ["POL", "CZE", "SVK", "HUN", "ROU", "BGR", "DNK", "EST", "FIN", "IRL", "LVA", "LTU", "SWE", "AUT", "BEL", "FRA", "DEU", "LUX", "NLD", "HRV", "CYP", "GRC", "ITA", "MLT", "PRT", "SVN", "ESP"],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "european-union",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#european-union"
     },
     "Russia": {
       "type": "entity",
@@ -1287,51 +1290,6 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Poland": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "POL",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Czechia": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "CZE",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Slovakia": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "SVK",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Romania": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "ROU",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Bulgaria": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "BGR",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
     "Greece": {
       "type": "entity",
       "category": "global",
@@ -1347,8 +1305,8 @@
       "source": "country",
       "country_code": "UKR",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "ukraine",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#ukraine"
     },
     "Belarus": {
       "type": "entity",
@@ -1356,17 +1314,8 @@
       "source": "country",
       "country_code": "BLR",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Moldova": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "MDA",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "belarus",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#belarus"
     },
     "Croatia": {
       "type": "entity",
