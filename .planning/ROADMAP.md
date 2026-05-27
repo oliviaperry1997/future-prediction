@@ -156,13 +156,28 @@ Plans:
 
 ### Phase 7: Eastern Asia Review
 **Mode**: mvp
-**Goal**: Eastern Asia (China, Japan, Mongolia, North Korea, South Korea) plausibility verified, KML issues fixed, documentation gaps filled
+**Goal**: Eastern Asia (China, Japan, Mongolia, ROK, DPRK) plausibility verified — Korea recalibrated from unified 40% scenario to two-Koreas 60% scenario — KML issues fixed, documentation gaps filled across all 6 STEEP domains
 **Depends on**: Phase 6
 **Requirements**: EURA-02
 **Success Criteria** (what must be TRUE):
   1. All 5 Eastern Asian entities assessed against revolutionary feedback loop and established dynamics — no contradictions
-  2. KML entities for Eastern Asia open correctly in Google Earth Pro with correct boundaries
-  3. All documentation gaps for Eastern Asian entities identified and filled
+  2. ROK (reactionary degradation) and DPRK (revolutionary ascendancy) replace Unified Korea across all domain docs, KML, and entity config
+  3. KML entities for Eastern Asia open correctly in Google Earth Pro with correct boundaries
+  4. All documentation gaps filled: Japan/Mongolia/ROK/DPRK profiles added to economy, demographics, culture, climate; China profiles expanded
+**Plans**: 4 plans
+
+Plans:
+- [x] 07-01-PLAN.md — KML Edits: (wip) removal, entity-config ROK/DPRK, China HKG+TWN, Korea rename (Wave 1)
+- [ ] 07-02-PLAN.md — Borders-geopolitics: Mongolia entry, ROK+DPRK replacement, China update, Territorial Integrity (Wave 1, parallel with 01)
+- [ ] 07-03-PLAN.md — Economy & Demographics profiles: Japan, Mongolia, ROK, DPRK + expanded China (Wave 2, blocked on 02)
+- [ ] 07-04-PLAN.md — Culture & Climate: Japan, Mongolia, ROK, DPRK cultural profiles + expanded Eastern Asia climate (Wave 2, blocked on 02, parallel with 03)
+
+**Cross-cutting constraints:**
+- Plans 01 and 02 are parallel (Wave 1) — KML edits and borders-geopolitics don't conflict
+- Plans 03 and 04 are parallel (Wave 2) — different domain docs, no file conflicts
+- Plan 02 must complete first (defines entity names and narratives that 03/04 reference)
+- All plans: Unified Korea removed everywhere, replaced with ROK (reactionary degradation) + DPRK (revolutionary ascendancy) per D-01
+- Korea recalibration (40% → 60% scenario) affects every domain document cross-reference
 
 ### Phase 8: Eastern Europe Review
 **Mode**: mvp
@@ -296,7 +311,7 @@ Plans:
 | 4. 2050 Socioeconomic Snapshot | 4/4 | Complete | 2026-05-21 |
 | 5. 2050 KML Maps & Integration | 2/3 | Paused | — |
 | 6. Central Asia Review | 4/4 | Complete   | 2026-05-27 |
-| 7. Eastern Asia Review | — | Not started | — |
+| 7. Eastern Asia Review | 0/4 | Planned | — |
 | 8. Eastern Europe Review | — | Not started | — |
 | 9. Northern Europe Review | — | Not started | — |
 | 10. Southeast Asia Review | — | Not started | — |
