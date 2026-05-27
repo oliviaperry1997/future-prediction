@@ -168,7 +168,7 @@ Plans:
 
 Plans:
 - [x] 07-01-PLAN.md — KML Edits: (wip) removal, entity-config ROK/DPRK, China HKG+TWN, Korea rename (Wave 1)
-- [ ] 07-02-PLAN.md — Borders-geopolitics: Mongolia entry, ROK+DPRK replacement, China update, Territorial Integrity (Wave 1, parallel with 01)
+- [x] 07-02-PLAN.md — Borders-geopolitics: Mongolia entry, ROK+DPRK replacement, China update, Territorial Integrity (Wave 1, parallel with 01)
 - [ ] 07-03-PLAN.md — Economy & Demographics profiles: Japan, Mongolia, ROK, DPRK + expanded China (Wave 2, blocked on 02)
 - [ ] 07-04-PLAN.md — Culture & Climate: Japan, Mongolia, ROK, DPRK cultural profiles + expanded Eastern Asia climate (Wave 2, blocked on 02, parallel with 03)
 

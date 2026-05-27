@@ -4,14 +4,14 @@ milestone: v1.1
 milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
 status: executing
 stopped_at: Phase 7 context gathered
-last_updated: "2026-05-27T18:44:52.144Z"
+last_updated: "2026-05-27T18:49:25.743Z"
 last_activity: 2026-05-27
 progress:
   total_phases: 19
   completed_phases: 1
   total_plans: 8
-  completed_plans: 5
-  percent: 63
+  completed_plans: 6
+  percent: 75
 ---
 
 # Project State
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-05-19)
 ## Current Position
 
 Phase: 07 (eastern-asia-review) — EXECUTING
-Plan: 2 of 4
+Plan: 3 of 4
 Status: Ready to execute
 Last activity: 2026-05-27
 
@@ -56,6 +56,7 @@ Last activity: 2026-05-27
 *Updated after each plan completion*
 | Phase 05-2050-kml-maps-integration P01 | 5m35s | 2 tasks | 10 files |
 | Phase 05-2050-kml-maps-integration PP02 | 8m30s | 2 tasks | 11 files |
+| Phase 07 P02 | 12m | 3 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -84,6 +85,9 @@ Phase 1 locked decisions from discuss-phase (see `01-CONTEXT.md` for full detail
 - [Phase 05]: Added parent entity placemark inside fragmented entity folders for See KML resolution
 - [Phase 05]: Added entity_copy overlays for fragmented entities in economy, demographics, culture domains
 - [Phase 05]: Reconciled domain doc See KML marker names with actual KML entity names (6 fixes)
+- [Phase ?]: [Phase 07 Plan 02]: Two Koreas (ROK/DPRK) replacing Unified Korea in borders-geopolitics.md
+- [Phase ?]: [Phase 07 Plan 02]: Mongolia added as sovereign buffer state between China and Russia
+- [Phase ?]: [Phase 07 Plan 02]: China territorial reference expanded with Hong Kong (SAR) and Taiwan (SAR since ~2035-2038)
 
 ### Pending Todos
 
@@ -101,6 +105,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-27T18:44:52.140Z
+Last session: 2026-05-27T18:49:25.739Z
 Stopped at: Phase 7 context gathered
 Resume file: None
