@@ -17,7 +17,7 @@ expected: Central Asia folder renders without (wip) tags, Afghanistan not presen
 result: [pending]
 
 ### 2. Exclave hole visual verification
-expected: Sokh, Shakhimardan, Vorukh appear as interior holes in Kyrgyzstan polygon; Barak appears as interior hole in Uzbekistan polygon — rectangular approximations acceptable
+expected: Sokh, Shakhimardan, Vorukh appear as interior holes in Kyrgyzstan polygon; Barak appears as interior hole in Uzbekistan polygon — rectangular approximations improved to ~8-10 vertex polygons
 result: [pending]
 
 ### 3. Narrative plausibility assessment
