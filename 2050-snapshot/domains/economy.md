@@ -483,6 +483,61 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **→ See KML: Turkey**
 - → See transition doc: events T-01c, T-01d
 
+**Central Asian Confederation (CAC):**
+- **GDP:** ~$750B combined
+- **Dominant sectors:** Energy (Kazakhstan oil/gas — ~1.8M bbl/day, Turkmenistan natural gas — pipeline to China, uranium — Kazakhstan #1 globally), mining and minerals (copper, rare earths, gold), agriculture (cotton — Uzbekistan #5 globally, wheat — Kazakhstan, Turkmenistan), logistics (Belt and Road infrastructure — trans-Caspian corridor, Middle Corridor), renewable energy (solar — Kyzylkum and Karakum deserts, hydro — Kyrgyzstan and Tajikistan)
+- **Trade partners and bloc alignment:** China (primary — energy exports, BRI infrastructure financing, manufactured goods imports), Russia (security legacy, trade), Turkey (Organization of Turkic States cultural/economic bridge), Iran (Caspian Sea cooperation), BRICS+ (observer — trade increasingly denominated in yuan and BCU). The CAC is not yet a BRICS+ member but its constituent economies trade primarily through BRICS+ financial infrastructure.
+- **Economic model:** Confederal coordination — constituent republics retain independent economic policy, tax systems, and trade relationships. Pooled sovereignty over water resource management, energy export coordination, and external trade negotiations. The CAC functions as a free trade zone with coordinated external tariffs. State-directed elements dominate in energy and extractive sectors; private sector operates in agriculture, services, and light manufacturing. Water allocation is the confederation's most contentious economic governance challenge — a proportional allocation formula based on historical usage (Soviet-era baseline) and population shares is negotiated but strained.
+- **Currency:** No common currency — constituent republics retain national currencies (Kazakhstani tenge, Uzbekistani sum, etc.), all convertible to yuan, BCU, and Russian ruble. CAC trade settlement increasingly denominated in yuan and BCU through BRICS+ clearing house.
+- **Labor market character:** Mixed. Energy and mining moderately automated. Agriculture labor-intensive (cotton picking, horticulture). Services growing but from a low base. Remittance-dependent (Kyrgyzstan, Tajikistan — workers in Russia and Kazakhstan). Youth unemployment is high across all republics — demographic dividend not fully captured. ~80M combined population, young median age (~30) provides labor surplus that automated economies lack.
+- **→ See KML: Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, Uzbekistan**
+
+**Kazakhstan:**
+- **GDP:** ~$450B
+- **Dominant sectors:** Oil and gas (~60% of export revenue, 1.8M bbl/day), uranium (#1 globally — 43% of world production), mining (copper, zinc, rare earths), agriculture (wheat — major global exporter, livestock — steppe pastoralism), logistics (Belt and Road Middle Corridor transit hub — Khorgos dry port, Aktau/Caspian port)
+- **Trade partners and bloc alignment:** China (primary — energy exports, BRI infrastructure), Russia (CSTO/Eurasian Economic Union legacy trade), EU (limited — oil exports via CPC pipeline), Turkey (growing — Turkic States Organization). Kazakhstan is the most externally oriented CAC economy.
+- **Economic model:** State-directed / nationalist-capitalist transitional. Samruk-Kazyna sovereign wealth fund controls strategic assets (oil, gas, uranium, transport, telecom). Private sector operates in agriculture, services, and SMEs. The Astana International Financial Centre (AIFC) provides a dollar/BCU trading platform. The National Fund (oil revenue stabilization) provides fiscal buffer.
+- **Currency:** Kazakhstani tenge (KZT) — managed float, convertible to yuan, BCU, and Russian ruble. Trade with China increasingly settled in yuan.
+- **Labor market character:** Mixed. Oil and gas extraction moderately automated. Agriculture mechanizing (wheat — large-scale, mechanized; livestock — traditional). Mining increasingly automated. Services growing (Almaty financial center, Astana administrative hub). ~20M population.
+- **→ See KML: Kazakhstan**
+- → See transition doc: [asia.md](../../2026-2050-transition/regions/asia.md#6-central-asia--reactionary-low-intensity-trap)
+
+**Uzbekistan:**
+- **GDP:** ~$120B
+- **Dominant sectors:** Cotton (#5 globally, ~3M bales/yr — water-intensive, declining as Aral Sea basin dries), natural gas (domestic consumption + export to China and Russia), gold (4th largest producer globally), light manufacturing (textiles, automotive assembly), agriculture (fruits, vegetables, silk)
+- **Trade partners and bloc alignment:** Russia (primary — remittances, trade), China (growing — BRI infrastructure, energy investment), Kazakhstan (CAC internal trade), Turkey (cultural — Turkic States Organization). Uzbekistan is the most inward-oriented CAC economy — its large domestic market (~37M population) enables import-substitution industrialization.
+- **Economic model:** State-directed transitional — post-Karimov liberalization (post-2016) partially reversed as water crisis and energy transition create economic stress. State controls strategic sectors (energy, cotton, gold). Banking sector reform incomplete. Private sector growing in services and light manufacturing.
+- **Currency:** Uzbekistani sum (UZS) — managed float, limited convertibility. FX reserves primarily yuan and BCU.
+- **Labor market character:** Labor-intensive. Cotton agriculture labor-intensive (state-mobilized seasonal labor — legacy of Soviet-era cotton monoculture). Manufacturing moderately automated. Growing informal service sector. High youth unemployment (~15%). ~37M population (largest in CAC).
+- **→ See KML: Uzbekistan**
+
+**Turkmenistan:**
+- **GDP:** ~$80B
+- **Dominant sectors:** Natural gas (4th largest reserves globally, ~70 Bcm/yr — pipeline to China via Kazakhstan, limited LNG export), petrochemicals (polyethylene, ammonia, urea), cotton (water-intensive, declining), construction (state-led infrastructure spending on the "white marble" capital)
+- **Trade partners and bloc alignment:** China (primary — gas exports via Central Asia–China pipeline), Russia (limited — gas sales to GAZPROM, reduced from Soviet-era levels), Iran (border trade, gas swap), Turkey (construction contracts). Turkmenistan is the most autarkic CAC economy — its gas wealth and neutral status buffer it from confederal integration pressure.
+- **Economic model:** State-directed autarkic — the most centralized economy in Central Asia. The state controls all significant economic activity. Gas revenue funds extensive subsidies (free gas, electricity, water, salt, bread). Private sector minimal. The "closure" strategy persists despite confederal membership, creating friction with CAC integration.
+- **Currency:** Turkmenistani manat (TMT) — artificial pegged rate, multiple exchange rates, limited convertibility.
+- **Labor market character:** Labor-intensive with state employment dominance. ~70% of workforce employed by the state. Gas extraction moderately automated. Agriculture (cotton) labor-intensive. Construction labor-intensive. Turkmenistan has the lowest labor productivity in the CAC. ~6.5M population.
+- **→ See KML: Turkmenistan**
+
+**Kyrgyzstan:**
+- **GDP:** ~$40B
+- **Dominant sectors:** Hydroelectricity (headwaters of Syr Darya — Naryn cascade, Toktogul reservoir — power export to Kazakhstan and Uzbekistan), gold (Kumtor mine — ~10% of GDP, declining reserves), remittances (~20% of GDP — workers in Russia and Kazakhstan), agriculture (livestock — sheep, horses; vegetables, fruits), tourism (Lake Issyk-Kul, Tien Shan trekking)
+- **Trade partners and bloc alignment:** Russia (primary — remittances, energy imports, EAEU trade), Kazakhstan (CAC internal trade, energy exports), China (BRI infrastructure, trade). Kyrgyzstan is the smallest CAC economy and most dependent on external income.
+- **Economic model:** Mixed — transitional post-Soviet market economy with large informal sector. Hydroelectricity publicly owned. Gold mining under investment agreement. Agriculture mostly private smallholder. Weak tax collection and rule of law constrain state capacity.
+- **Currency:** Kyrgyzstani som (KGS) — managed float, widely dollarized in real estate and large transactions.
+- **Labor market character:** Mixed with large informal sector. Agriculture labor-intensive. Hydroelectricity capital-intensive. Remittance-dependent. ~7M population.
+- **→ See KML: Kyrgyzstan**
+
+**Tajikistan:**
+- **GDP:** ~$60B
+- **Dominant sectors:** Hydropower (Nurek Dam — 3.2 GW, Rogun Dam — 3.6 GW — headwaters of Amu Darya, power export to Uzbekistan and Afghanistan), aluminum (Tajik Aluminum Company — TALCO, using hydropower for energy-intensive smelting), gold, cotton, remittances (~25% of GDP — workers in Russia), agriculture (fruits, vegetables, livestock)
+- **Trade partners and bloc alignment:** Russia (primary — remittances, security relationship), China (BRI infrastructure investment, mining), Kazakhstan/Uzbekistan (hydroelectric exports), Iran (cultural/linguistic ties — Persian-speaking member of Turkic-majority CAC).
+- **Economic model:** State-directed transitional. Hydropower and aluminum publicly owned. Cotton and agriculture mixed. Remittance-dependent. Weak state capacity outside Dushanbe.
+- **Currency:** Tajikistani somoni (TJS) — managed float, limited convertibility. FX reserves primarily held in yuan and BCU.
+- **Labor market character:** Labor-intensive with large remittance-dependent workforce. Agriculture (cotton) labor-intensive. Hydropower capital-intensive. ~10M population, young median age (~26 — youngest in CAC).
+- **→ See KML: Tajikistan**
+
 **Unified Korea:**
 - **GDP:** ~$2.8T
 - **Dominant sectors:** Advanced manufacturing (semiconductors — Samsung, SK Hynix; batteries — LG, SK On; electronics, shipbuilding — the unified state inherited the ROK's industrial structure), technology (AI, software, robotics — Seoul as a global tech hub), green energy (solar, wind, hydrogen — the DPRK inherited energy infrastructure was rebuilt with ROK investment), finance (Seoul as Northeast Asian financial hub)
