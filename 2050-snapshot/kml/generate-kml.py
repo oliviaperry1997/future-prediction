@@ -336,6 +336,38 @@ def parse_coordinates_to_polygon(coords_text):
     return Polygon(points)
 
 
+def parse_kml_polygon_element(poly_el):
+    """Parse a KML Polygon element (with outer + optional inner rings) into a shapely Polygon."""
+    outer = poly_el.find(f'{{{NS}}}outerBoundaryIs/{{{NS}}}LinearRing/{{{NS}}}coordinates')
+    if outer is None or not outer.text:
+        return None
+    outer_poly = parse_coordinates_to_polygon(outer.text.strip())
+    if outer_poly is None:
+        return None
+    inner_rings = []
+    for inner in poly_el.findall(f'{{{NS}}}innerBoundaryIs/{{{NS}}}LinearRing/{{{NS}}}coordinates'):
+        if inner.text:
+            inner_poly = parse_coordinates_to_polygon(inner.text.strip())
+            if inner_poly is not None:
+                inner_rings.append(inner_poly)
+    if inner_rings:
+        result = outer_poly
+        for ring in inner_rings:
+            result = result.difference(ring)
+        return result
+    return outer_poly
+
+
+def parse_kml_coordinates_to_polygons(tree_root):
+    """Extract all polygons from KML, respecting innerBoundaryIs holes."""
+    polys = []
+    for poly_el in tree_root.findall(f'.//{{{NS}}}Polygon'):
+        p = parse_kml_polygon_element(poly_el)
+        if p is not None:
+            polys.append(p)
+    return polys
+
+
 def read_admin1_kml(path):
     """
     Read NE admin-1 KML, return {(iso_code, name): geometry} mapping.
@@ -747,10 +779,47 @@ def strip_all_holes(geom):
     return geom
 
 
-def remove_slivers(geom, min_area_ratio=0.00001):
+def remove_thin_slivers(geom, thinness_threshold=100, min_area=0.0005):
+    """
+    Remove thin sliver polygons from a MultiPolygon.
+    A polygon is considered a sliver if:
+      - perimeter^2 / area > thinness_threshold (very elongated)
+      - area < min_area sq degrees (very small)
+    Returns cleaned geometry, or original if no slivers found.
+    """
+    if geom is None or geom.is_empty:
+        return geom
+    if geom.geom_type == "Polygon":
+        perim = geom.exterior.length
+        ratio = perim * perim / geom.area if geom.area > 0 else 1e9
+        if geom.area < min_area:
+            return None
+        if ratio > thinness_threshold:
+            return None
+        return geom
+    if geom.geom_type == "MultiPolygon":
+        kept = []
+        for p in geom.geoms:
+            if p.area < min_area:
+                continue
+            perim = p.exterior.length
+            ratio = perim * perim / p.area if p.area > 0 else 1e9
+            if ratio > thinness_threshold:
+                continue
+            kept.append(p)
+        if not kept:
+            return None
+        if len(kept) == 1:
+            return kept[0]
+        return MultiPolygon(kept)
+    return geom
+
+
+def remove_slivers(geom, min_area_ratio=0.00001, min_abs_area=0.00002):
     """
     Remove sliver polygons from a MultiPolygon result (e.g. after difference).
-    Keeps only polygons whose area is at least min_area_ratio of the largest polygon.
+    Keeps only polygons whose area is at least min_area_ratio of the largest polygon,
+    and whose absolute area is at least min_abs_area (deg², ~2 km² at 45°N).
     For a single Polygon, returns it as-is.
     """
     if geom is None or geom.is_empty:
@@ -763,7 +832,7 @@ def remove_slivers(geom, min_area_ratio=0.00001):
             return geom
         areas = [p.area for p in polys]
         max_area = max(areas)
-        keep = [p for p, a in zip(polys, areas) if a >= max_area * min_area_ratio]
+        keep = [p for p, a in zip(polys, areas) if a >= max_area * min_area_ratio and a >= min_abs_area]
         if len(keep) == 0:
             return None
         if len(keep) == 1:
@@ -1350,7 +1419,6 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
 
                 coords = geom_to_coords(prepared)
 
-
                 if coords:
                     entity_polygons[entity_name] = {
                         "coords": coords,
@@ -1396,7 +1464,6 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                                         if poly is not None and not poly.is_empty and poly.is_valid:
                                             polygons.append(poly)
                             if polygons:
-                                from shapely.ops import unary_union
                                 sub_geom = unary_union(polygons) if len(polygons) > 1 else polygons[0]
                                 if not sub_geom.is_valid:
                                     sub_geom = sub_geom.buffer(0)
@@ -1463,6 +1530,305 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                     entity_styles[entity_name] = style_id
             else:
                 entity_errors.append(f"  [{entity_name}] Admin1 '{admin1_name}' in {country_code} not found")
+        
+        elif source_type == "admin1_merge":
+            country_code = entity_cfg.get("country_code", "CAN")
+            provinces = entity_cfg.get("admin1_provinces", [])
+            
+            geoms = []
+            for pname in provinces:
+                g = admin1_data.get((country_code, pname))
+                if g is not None:
+                    geoms.append(g)
+                else:
+                    entity_errors.append(f"  [{entity_name}] Province '{pname}' in {country_code} not found")
+            
+            if geoms:
+                merged = merge_polygons(geoms)
+                
+                # Add counties (e.g., Dena'ina Nenn' AK counties → Denendeh)
+                add_counties = entity_cfg.get("add_counties", [])
+                if add_counties and merged is not None:
+                    cm, cw = match_counties(county_data, add_counties)
+                    if cw:
+                        for w in cw:
+                            entity_errors.append(f"  [{entity_name}] add_counties: {w}")
+                    if cm:
+                        county_merged = merge_polygons(cm)
+                        if county_merged is not None:
+                            county_merged = remove_slivers(county_merged)
+                            merged = merged.union(county_merged)
+                
+                # Add manual KMLs (e.g., Nunatsiavut/ISR → Inuit Nunangat)
+                add_manual_paths = entity_cfg.get("add_manual_paths", [])
+                clip_to_land = entity_cfg.get("clip_to_land", False)
+                if add_manual_paths and merged is not None:
+                    land_union = None
+                    if clip_to_land:
+                        land_geoms = []
+                        for (cc, pname), g in admin1_data.items():
+                            if cc == country_code:
+                                land_geoms.append(g)
+                        if land_geoms:
+                            land_union = unary_union(land_geoms)
+                            land_union = land_union.buffer(0)
+                    for manual_path in add_manual_paths:
+                        full_path = os.path.join(script_dir, manual_path)
+                        if os.path.exists(full_path):
+                            mt = etree.parse(full_path)
+                            manual_polys = []
+                            for coord_el in mt.findall(f".//{{{NS}}}coordinates"):
+                                if coord_el.text:
+                                    p = parse_coordinates_to_polygon(coord_el.text.strip())
+                                    if p is not None:
+                                        if not p.is_valid:
+                                            p = p.buffer(0)
+                                        if p is not None and not p.is_empty and p.is_valid:
+                                            if land_union is not None:
+                                                p = p.intersection(land_union)
+                                                if p is None or p.is_empty:
+                                                    continue
+                                                if not p.is_valid:
+                                                    p = p.buffer(0)
+                                            manual_polys.append(p)
+                            if manual_polys:
+                                add_geom = unary_union(manual_polys) if len(manual_polys) > 1 else manual_polys[0]
+                                merged = merged.union(add_geom)
+                        else:
+                            entity_errors.append(f"  [{entity_name}] add_manual_paths not found: {manual_path}")
+                
+                # Add country codes (e.g., Greenland → Inuit Nunangat)
+                add_country_codes = entity_cfg.get("add_country_codes", [])
+                if add_country_codes and merged is not None:
+                    for cc in add_country_codes:
+                        g = global_by_code.get(cc)
+                        if g is not None:
+                            merged = merged.union(g)
+                        else:
+                            entity_errors.append(f"  [{entity_name}] add_country_codes '{cc}' not found")
+                
+                # Merge additional admin1 provinces with clip options (e.g., Nunavik QC clip)
+                merge_admin1 = entity_cfg.get("merge_admin1", [])
+                if merge_admin1 and merged is not None:
+                    for mref in merge_admin1:
+                        mp = mref.get("province")
+                        mclip_lat = mref.get("clip_lat")
+                        mclip_side = mref.get("clip_side", "north")
+                        mg = admin1_data.get((country_code, mp))
+                        if mg is not None:
+                            if mclip_lat is not None:
+                                from shapely.ops import split as split_fn
+                                line = LineString([(-180, mclip_lat), (180, mclip_lat)])
+                                try:
+                                    mfrags = split_fn(mg, line)
+                                except Exception:
+                                    mfrags = mg
+                                if mfrags.geom_type == 'GeometryCollection':
+                                    mpieces = list(mfrags.geoms)
+                                else:
+                                    mpieces = [mfrags]
+                                mkept = [p for p in mpieces if not p.is_empty and (
+                                    (mclip_side == "north" and p.centroid.y >= mclip_lat) or
+                                    (mclip_side == "south" and p.centroid.y <= mclip_lat)
+                                )]
+                                if mkept:
+                                    mg = unary_union(mkept)
+                                else:
+                                    mg = None
+                            if mg is not None and not mg.is_empty:
+                                merged = merged.union(mg)
+                        else:
+                            entity_errors.append(f"  [{entity_name}] merge_admin1 province '{mp}' not found")
+                
+                # Subtract manual KMLs (e.g., ISR from NT for Denendeh)
+                subtract_manual_paths = entity_cfg.get("subtract_manual_paths", [])
+                subtract_buffer = entity_cfg.get("subtract_buffer", 0.003)
+                if subtract_manual_paths and merged is not None:
+                    for manual_path in subtract_manual_paths:
+                        full_path = os.path.join(script_dir, manual_path)
+                        if os.path.exists(full_path):
+                            mt = etree.parse(full_path)
+                            for coord_el in mt.findall(f".//{{{NS}}}coordinates"):
+                                if coord_el.text:
+                                    p = parse_coordinates_to_polygon(coord_el.text.strip())
+                                    if p is not None:
+                                        if not p.is_valid:
+                                            p = p.buffer(0)
+                                        if p is not None and not p.is_empty and p.is_valid:
+                                            sub_buffered = p.buffer(subtract_buffer, join_style=2)
+                                            merged = merged.difference(sub_buffered)
+                            merged = remove_slivers(merged)
+                        else:
+                            entity_errors.append(f"  [{entity_name}] subtract_manual_paths not found: {manual_path}")
+                
+                # Clip at latitude (e.g., Canada Rump = Ontario south of 46°N)
+                clip_lat = entity_cfg.get("clip_lat")
+                if clip_lat is not None and merged is not None:
+                    clip_side = entity_cfg.get("clip_side", "south")
+                    from shapely.ops import split as split_fn
+                    line = LineString([(-180, clip_lat), (180, clip_lat)])
+                    try:
+                        fragments = split_fn(merged, line)
+                    except Exception:
+                        fragments = merged
+                    if fragments.geom_type == 'GeometryCollection':
+                        pieces = list(fragments.geoms)
+                    else:
+                        pieces = [fragments]
+                    kept_pieces = []
+                    remainder_pieces = []
+                    for piece in pieces:
+                        if piece.is_empty:
+                            continue
+                        centroid = piece.centroid
+                        if clip_side == "south":
+                            if centroid.y <= clip_lat:
+                                kept_pieces.append(piece)
+                            else:
+                                remainder_pieces.append(piece)
+                        else:
+                            if centroid.y >= clip_lat:
+                                kept_pieces.append(piece)
+                            else:
+                                remainder_pieces.append(piece)
+                    merged = unary_union(kept_pieces) if kept_pieces else None
+                    remainder_target = entity_cfg.get("remainder_entity")
+                    if remainder_target and remainder_pieces:
+                        remainder_geom = unary_union(remainder_pieces)
+                        if remainder_geom is not None and not remainder_geom.is_empty:
+                            remainder_geom = remove_slivers(remainder_geom)
+                            remainder_fragments.setdefault(remainder_target, []).append(remainder_geom)
+                
+                # Clip along a line (e.g., New Caledonia = BC east of Coast Mountains crest)
+                clip_line_path = entity_cfg.get("clip_line")
+                if clip_line_path and merged is not None:
+                    try:
+                        border_line = load_border_line(os.path.join(script_dir, clip_line_path))
+                        sw, ne = split_into_sides(merged, border_line)
+                        clip_side = entity_cfg.get("clip_side", "east")
+                        if clip_side in ("east", "northeast"):
+                            kept = ne if ne is not None else merged
+                            discard = sw
+                        else:
+                            kept = sw if sw is not None else merged
+                            discard = ne
+                        kept = remove_slivers(kept)
+                        merged = kept
+                        remainder_target = entity_cfg.get("remainder_entity")
+                        if remainder_target and discard is not None and not discard.is_empty:
+                            discard = remove_slivers(discard)
+                            remainder_fragments.setdefault(remainder_target, []).append(discard)
+                    except Exception as e:
+                        entity_errors.append(f"  [{entity_name}] clip_line failed: {e}")
+                
+                # Filter by admin2 (e.g., Southern Ontario census divisions)
+                admin2_filter = entity_cfg.get("admin2_filter")
+                if admin2_filter and merged is not None:
+                    try:
+                        gadm_path = admin2_filter.get("gadm_path", "")
+                        full_gadm_path = os.path.join(script_dir, gadm_path) if not os.path.isabs(gadm_path) else gadm_path
+                        if not os.path.exists(full_gadm_path):
+                            alt_path = os.path.join(script_dir, "source", os.path.basename(gadm_path))
+                            if os.path.exists(alt_path):
+                                full_gadm_path = alt_path
+                        province = admin2_filter.get("province", "")
+                        division_names = set(admin2_filter.get("division_names", []))
+                        if os.path.exists(full_gadm_path) and province and division_names:
+                            import fiona
+                            from shapely.geometry import shape as shp_shape
+                            div_geoms = []
+                            with fiona.open(full_gadm_path, layer='ADM_ADM_2') as gadm_src:
+                                for feat in gadm_src:
+                                    props = feat['properties']
+                                    if props.get('NAME_1') == province and props.get('NAME_2') in division_names:
+                                        g = shp_shape(feat['geometry'])
+                                        if g is not None and not g.is_empty and g.is_valid:
+                                            div_geoms.append(g)
+                            if div_geoms:
+                                admin2_union = unary_union(div_geoms)
+                                merged = merged.intersection(admin2_union)
+                                merged = remove_slivers(merged)
+                                remainder_target = entity_cfg.get("remainder_entity")
+                                if remainder_target:
+                                    non_match_geoms = []
+                                    with fiona.open(full_gadm_path, layer='ADM_ADM_2') as gadm_src2:
+                                        for feat in gadm_src2:
+                                            props = feat['properties']
+                                            if props.get('NAME_1') == province and props.get('NAME_2') not in division_names:
+                                                # Skip Great Lakes water-body entries (Lake Erie, Hurron, Ontario, Superior)
+                                                if props.get('NAME_2', '').startswith('Lake '):
+                                                    continue
+                                                g = shp_shape(feat['geometry'])
+                                                if g is not None and not g.is_empty and g.is_valid:
+                                                    non_match_geoms.append(g)
+                                    if non_match_geoms:
+                                        remainder = unary_union(non_match_geoms)
+                                        # Keep lake water in remainder — GADM lake subtraction
+                                        # is handled later via subtract_gadm_water in the remainder
+                                        # merge section, which avoids double-subtraction slivers
+                                        # from misaligned GADM boundaries.
+                                        remainder = remove_slivers(remainder)
+                                        if remainder is not None and not remainder.is_empty:
+                                            remainder_fragments.setdefault(remainder_target, []).append(remainder)
+                    except Exception as e:
+                        entity_errors.append(f"  [{entity_name}] admin2_filter failed: {e}")
+                
+                # Subtract GADM water-body entries (e.g., GADM Lake Erie from Canada's Ontario divisions)
+                subtract_gadm_water = entity_cfg.get("subtract_gadm_water", {})
+                if subtract_gadm_water and merged is not None:
+                    try:
+                        sw_gadm_path = subtract_gadm_water.get("gadm_path", "")
+                        sw_full_path = os.path.join(script_dir, sw_gadm_path) if not os.path.isabs(sw_gadm_path) else sw_gadm_path
+                        if not os.path.exists(sw_full_path):
+                            sw_alt = os.path.join(script_dir, "source", os.path.basename(sw_gadm_path))
+                            if os.path.exists(sw_alt):
+                                sw_full_path = sw_alt
+                        sw_province = subtract_gadm_water.get("province", "")
+                        sw_filters = subtract_gadm_water.get("name_filters", [])
+                        if os.path.exists(sw_full_path) and sw_province and sw_filters:
+                            import fiona
+                            from shapely.geometry import shape as sw_shape
+                            sw_water_geoms = []
+                            with fiona.open(sw_full_path, layer='ADM_ADM_2') as sw_src:
+                                for feat in sw_src:
+                                    props = feat['properties']
+                                    if props.get('NAME_1') == sw_province:
+                                        n2 = props.get('NAME_2', '')
+                                        if any(fn in n2 for fn in sw_filters):
+                                            g = sw_shape(feat['geometry'])
+                                            if g is not None and not g.is_empty and g.is_valid:
+                                                sw_water_geoms.append(g)
+                            if sw_water_geoms:
+                                sw_water_union = unary_union(sw_water_geoms)
+                                sw_water_union = sw_water_union.buffer(0.005, join_style=2)
+                                merged = merged.difference(sw_water_union)
+                                merged = remove_slivers(merged)
+                    except Exception as e:
+                        entity_errors.append(f"  [{entity_name}] subtract_gadm_water failed: {e}")
+
+                # join_buffer: bridge sub-degree gaps between adjacent source polygons
+                join_buffer = entity_cfg.get("join_buffer", 0)
+                if join_buffer > 0 and merged is not None:
+                    merged = merged.buffer(join_buffer).buffer(-join_buffer)
+                    merged = remove_slivers(merged)
+
+                if merged is not None:
+                    merged = merged.buffer(0)
+                    prepared = prepare_for_output(merged, entity_cfg)
+                    coords = geom_to_coords(prepared)
+                    if coords:
+                        entity_polygons[entity_name] = {
+                            "coords": coords,
+                            "geom": merged,
+                            "type": "admin1_merge",
+                            "cfg": entity_cfg,
+                        }
+                        _, _, style_id = get_entity_style(entity_name)
+                        entity_styles[entity_name] = style_id
+                else:
+                    entity_errors.append(f"  [{entity_name}] No polygon data after merge/clip operations")
+            else:
+                entity_errors.append(f"  [{entity_name}] No admin1 provinces found for merge")
         
         elif source_type == "group":
             country_codes = entity_cfg.get("country_codes", [])
@@ -1556,20 +1922,60 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                 if os.path.exists(full_path):
                     manual_tree = etree.parse(full_path)
                     manual_root = manual_tree.getroot()
-                    coords_els = manual_root.findall(".//kml:coordinates", NSMAP)
-                    if coords_els:
+                    full_geom_parts = parse_kml_coordinates_to_polygons(manual_root)
+                    if full_geom_parts:
                         simplified_coords = []
-                        for c in coords_els:
-                            if c.text:
-                                poly = parse_coordinates_to_polygon(c.text.strip())
-                                if poly is not None:
-                                    simplified = simplify_polygon(poly, tolerance=0.02)
-                                    ct = geom_to_coords(simplified)
-                                    if ct:
-                                        simplified_coords.append(ct[0])
+                        for poly in full_geom_parts:
+                            simplified = simplify_polygon(poly, tolerance=0.02)
+                            ct = geom_to_coords(simplified)
+                            if ct:
+                                simplified_coords.append(ct[0])
                         if simplified_coords:
+                            manual_geom = unary_union(full_geom_parts) if len(full_geom_parts) > 1 else full_geom_parts[0]
+                            # Add additional manual KMLs via add_manual_paths (e.g., Tlingit Aaní → Pacifica)
+                            add_manual_paths = entity_cfg.get("add_manual_paths", [])
+                            if add_manual_paths:
+                                for amp in add_manual_paths:
+                                    amp_full = os.path.join(os.path.dirname(__file__), amp)
+                                    if os.path.exists(amp_full):
+                                        amp_tree = etree.parse(amp_full)
+                                        amp_polys = []
+                                        for coord_el in amp_tree.findall(f".//{{{NS}}}coordinates"):
+                                            if coord_el.text:
+                                                p = parse_coordinates_to_polygon(coord_el.text.strip())
+                                                if p is not None:
+                                                    if not p.is_valid:
+                                                        p = p.buffer(0)
+                                                    if p is not None and not p.is_empty and p.is_valid:
+                                                        amp_polys.append(p)
+                                        if amp_polys:
+                                            amp_geom = unary_union(amp_polys) if len(amp_polys) > 1 else amp_polys[0]
+                                            manual_geom = manual_geom.union(amp_geom)
+                                    else:
+                                        entity_errors.append(f"  [{entity_name}] add_manual_paths not found: {amp}")
+                            # Subtract manual KMLs (e.g., Akimiski Island from Great Lakes)
+                            subtract_manual_paths = entity_cfg.get("subtract_manual_paths", [])
+                            subtract_buffer = entity_cfg.get("subtract_buffer", 0.003)
+                            if subtract_manual_paths:
+                                for smp in subtract_manual_paths:
+                                    smp_full = os.path.join(os.path.dirname(__file__), smp)
+                                    if os.path.exists(smp_full):
+                                        smp_tree = etree.parse(smp_full)
+                                        for coord_el in smp_tree.findall(f".//{{{NS}}}coordinates"):
+                                            if coord_el.text:
+                                                p = parse_coordinates_to_polygon(coord_el.text.strip())
+                                                if p is not None:
+                                                    if not p.is_valid:
+                                                        p = p.buffer(0)
+                                                    if p is not None and not p.is_empty and p.is_valid:
+                                                        sub_buffered = p.buffer(subtract_buffer, join_style=2)
+                                                        manual_geom = manual_geom.difference(sub_buffered)
+                                        manual_geom = remove_slivers(manual_geom)
+                                    else:
+                                        entity_errors.append(f"  [{entity_name}] subtract_manual_paths not found: {smp}")
                             entity_polygons[entity_name] = {
                                 "coords": simplified_coords,
+                                "geom": manual_geom,
                                 "type": "manual",
                                 "cfg": entity_cfg,
                             }
@@ -1619,7 +2025,60 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
             target_geom = entity_polygons[ename].get("geom")
             if target_geom is not None:
                 merged_geom = unary_union([target_geom] + extra_geoms)
-                merged_prepared = prepare_for_output(merged_geom, entity_polygons[ename]["cfg"])
+                # Subtract GADM water bodies from merged remainder (e.g., Great Lakes entity)
+                entity_cfg = entity_polygons[ename]["cfg"]
+                sw = entity_cfg.get("subtract_gadm_water", {})
+                if sw and merged_geom is not None:
+                    try:
+                        sw_path = sw.get("gadm_path", "")
+                        sw_full = os.path.join(script_dir, sw_path) if not os.path.isabs(sw_path) else sw_path
+                        if not os.path.exists(sw_full):
+                            sw_alt = os.path.join(script_dir, "source", os.path.basename(sw_path))
+                            if os.path.exists(sw_alt):
+                                sw_full = sw_alt
+                        sw_prov = sw.get("province", "")
+                        sw_filters = sw.get("name_filters", [])
+                        if os.path.exists(sw_full) and sw_prov and sw_filters:
+                            import fiona
+                            from shapely.geometry import shape as _shp
+                            sw_water = []
+                            with fiona.open(sw_full, layer='ADM_ADM_2') as _src:
+                                for feat in _src:
+                                    props = feat['properties']
+                                    if props.get('NAME_1') == sw_prov:
+                                        n2 = props.get('NAME_2', '')
+                                        if any(fn in n2 for fn in sw_filters):
+                                            g = _shp(feat['geometry'])
+                                            if g is not None and not g.is_empty and g.is_valid:
+                                                sw_water.append(g)
+                            if sw_water:
+                                sw_union = unary_union(sw_water)
+                                sw_union = sw_union.buffer(0.005, join_style=2)
+                                merged_geom = merged_geom.difference(sw_union)
+                                merged_geom = remove_slivers(merged_geom)
+                    except Exception as e:
+                        entity_errors.append(f"  [{ename}] remainder subtract_gadm_water failed: {e}")
+                # Subtract manual KMLs from merged remainder (e.g., Akimiski Island from Great Lakes)
+                smp_list = entity_cfg.get("subtract_manual_paths", [])
+                subtract_buffer = entity_cfg.get("subtract_buffer", 0.003)
+                if smp_list and merged_geom is not None:
+                    for smp in smp_list:
+                        smp_full = os.path.join(script_dir, smp)
+                        if os.path.exists(smp_full):
+                            smp_tree = etree.parse(smp_full)
+                            for coord_el in smp_tree.findall(f".//{{{NS}}}coordinates"):
+                                if coord_el.text:
+                                    p = parse_coordinates_to_polygon(coord_el.text.strip())
+                                    if p is not None:
+                                        if not p.is_valid:
+                                            p = p.buffer(0)
+                                        if p is not None and not p.is_empty and p.is_valid:
+                                            sub_buf = p.buffer(subtract_buffer, join_style=2)
+                                            merged_geom = merged_geom.difference(sub_buf)
+                            merged_geom = remove_slivers(merged_geom)
+                        else:
+                            entity_errors.append(f"  [{ename}] remainder subtract_manual_paths not found: {smp}")
+                merged_prepared = prepare_for_output(merged_geom, entity_cfg)
                 merged_coords = geom_to_coords(merged_prepared)
                 if merged_coords:
                     entity_polygons[ename]["coords"] = merged_coords
@@ -1634,10 +2093,11 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
 
     # Post-processing: if Mexico and Texas both specify clip_line to the same file,
     # combine their polygons, split along the border line, and reassign fragments.
+    # Only processes dict-format clip_line (admin1_merge uses string path internally).
     clip_pairs = []
     for ename, ecfg in config["entities"].items():
         cl = ecfg.get("clip_line")
-        if cl:
+        if cl and isinstance(cl, dict):
             clip_pairs.append((ename, cl))
     
     # Group entities by clip_line path

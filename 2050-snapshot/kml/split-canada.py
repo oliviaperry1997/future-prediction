@@ -228,8 +228,8 @@ def main():
         maritime_path = os.path.join(OUTPUT_DIR, "Maritime Republic.kml")
         write_manual_kml("Maritime Republic", maritime_geom, maritime_path)
 
-    # Quebec Republic (Quebec minus Nunavik)
-    print("\nCreating Quebec Republic KML...")
+    # Quebec (Quebec minus Nunavik)
+    print("\nCreating Quebec KML...")
     if "Québec" in provinces:
         qc = provinces["Québec"]
         south_clip = Polygon([(-80, 44), (-50, 44), (-50, 55), (-80, 55), (-80, 44)])
@@ -239,8 +239,8 @@ def main():
         if qc_south.geom_type == "MultiPolygon":
             polys = [p for p in qc_south.geoms if p.area > 0.001]
             qc_south = MultiPolygon(polys) if len(polys) > 1 else polys[0]
-        qc_path = os.path.join(OUTPUT_DIR, "Quebec Republic.kml")
-        write_manual_kml("Quebec Republic", qc_south, qc_path)
+        qc_path = os.path.join(OUTPUT_DIR, "Quebec.kml")
+        write_manual_kml("Quebec", qc_south, qc_path)
 
     # Newfoundland (minus Nunatsiavut)
     print("\nCreating Newfoundland KML...")

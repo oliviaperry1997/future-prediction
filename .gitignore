@@ -7,3 +7,6 @@ entity-config-debug.json
 # Obsidian workspace lock
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+
+# Large data files
+*.gpkg

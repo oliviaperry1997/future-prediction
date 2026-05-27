@@ -150,7 +150,7 @@
         "Panama",
         "Mexico"
       ],
-    "Northern America (wip)": [
+    "Northern America": [
         "Absaroka",
         "Alaska",
         "Alleghenia",
@@ -160,37 +160,35 @@
         "Canada",
         "Colorado",
         "Columbia",
-        "Dena'ina Nenn'",
         "Denendeh",
         "Deseret",
         "Florida",
         "Front Range Socialist Republic",
         "Great Lakes",
-        "Greenland",
         "Haudenosaunee Confederacy",
         "Hawaii",
         "Heartland",
         "Inuit Nunangat",
-        "Iñupiat Nunaat",
         "Kentucky",
         "Manitoba",
-        "Maritime Republic",
+        "Maritimes",
         "Montana-Wyoming",
         "Navajoland",
         "New Afrika",
-        "Newfoundland",
+        "New Caledonia",
+        "Newfoundland-Labrador",
         "North Carolina",
         "Atlantica",
         "Oceti Sakowin",
         "Oklahoma",
         "Pacifica",
         "Neuse",
-        "Quebec Republic",
+        "Prairieland",
+        "Quebec",
         "Sequoyah",
         "St. Pierre and Miquelon",
         "Tennessee",
         "Texas",
-        "Tlingit Aaní",
         "Virginia",
         "Yup'it-Alutiiq Confederacy"
       ],
@@ -326,7 +324,7 @@
       ],
       "Melanesia (wip)": [
         "Fiji",
-        "New Caledonia",
+        "Kanaky",
         "Papua New Guinea",
         "Solomon Is.",
         "Vanuatu"
@@ -355,6 +353,7 @@
       "category": "revolutionary",
       "source": "manual",
       "manual_path": "source/manual/Pacifica.kml",
+      "add_manual_paths": ["source/manual/Tlingit Aaní.kml"],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "pacifica",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#pacifica"
@@ -373,6 +372,7 @@
       "category": "revolutionary",
       "source": "manual",
       "manual_path": "source/manual/Great Lakes.kml",
+      "preserve_holes": true,
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "great-lakes",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#great-lakes"
@@ -477,29 +477,6 @@
       "section_anchor": "alaska",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#alaska"
     },
-    "Tlingit Aan\u00ed": {
-      "type": "entity",
-      "category": "indigenous",
-      "source": "manual",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "tlingit-aani",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#tlingit-aani",
-      "manual_path": "source/manual/Tlingit Aan\u00ed.kml"
-    },
-    "I\u00f1upiat Nunaat": {
-      "type": "entity",
-      "category": "indigenous",
-      "source": "county",
-      "counties": [
-        {
-          "state": "AK",
-          "county": "^(North Slope|Northwest Arctic|Nome).*"
-        }
-      ],
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "inupiat-nunaat",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#inupiat-nunaat"
-    },
     "Yup'it-Alutiiq Confederacy": {
       "type": "entity",
       "category": "indigenous",
@@ -514,69 +491,53 @@
       "section_anchor": "yupit-alutiiq-confederacy",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#yupit-alutiiq-confederacy"
     },
-    "Dena'ina Nenn'": {
-      "type": "entity",
-      "category": "indigenous",
-      "source": "county",
-      "counties": [
-        {
-          "state": "AK",
-          "county": "^(Yukon-Koyukuk|Fairbanks North Star|Denali|Southeast Fairbanks).*"
-        }
-      ],
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "denaina-nenn",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#denaina-nenn"
-    },
     "Canada": {
       "type": "entity",
       "category": "reactionary",
-      "source": "country",
-      "country_code": "CAN",
-      "subtract_manual_paths": [
-        "source/manual/Quebec Republic.kml",
-        "source/manual/Maritime Republic.kml",
-        "source/manual/Newfoundland.kml",
-        "source/manual/Manitoba.kml",
-        "source/manual/Denendeh.kml",
-        "source/manual/Inuit Nunangat.kml"
-      ],
+      "source": "manual",
+      "manual_path": "source/manual/Canada.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "canada",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#canada"
     },
-    "Quebec Republic": {
+    "Quebec": {
       "type": "entity",
       "category": "reactionary",
-      "source": "manual",
-      "manual_path": "source/manual/Quebec Republic.kml",
+      "source": "admin1_merge",
+      "country_code": "CAN",
+      "admin1_provinces": ["Québec"],
+      "clip_lat": 55,
+      "clip_side": "south",
+      "remainder_entity": "Inuit Nunangat",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "quebec-republic",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#quebec-republic"
+  "section_anchor": "quebec",
+  "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#quebec"
     },
-    "Maritime Republic": {
+    "Maritimes": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "admin1_merge",
+      "country_code": "CAN",
+      "admin1_provinces": ["New Brunswick", "Nova Scotia", "Prince Edward Island"],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "maritimes",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#maritimes"
+    },
+    "Newfoundland-Labrador": {
       "type": "entity",
       "category": "revolutionary",
       "source": "manual",
-      "manual_path": "source/manual/Maritime Republic.kml",
+      "manual_path": "source/manual/Newfoundland-Labrador.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "maritime-republic",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#maritime-republic"
-    },
-    "Newfoundland": {
-      "type": "entity",
-      "category": "revolutionary",
-      "source": "manual",
-      "manual_path": "source/manual/Newfoundland.kml",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "newfoundland",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#newfoundland"
+      "section_anchor": "newfoundland-labrador",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#newfoundland-labrador"
     },
     "Manitoba": {
       "type": "entity",
       "category": "revolutionary",
-      "source": "manual",
-      "manual_path": "source/manual/Manitoba.kml",
+      "source": "admin1_merge",
+      "country_code": "CAN",
+      "admin1_provinces": ["Manitoba"],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "manitoba",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#manitoba"
@@ -593,11 +554,51 @@
     "Inuit Nunangat": {
       "type": "entity",
       "category": "indigenous",
-      "source": "manual",
-      "manual_path": "source/manual/Inuit Nunangat.kml",
+      "source": "admin1_merge",
+      "country_code": "CAN",
+      "admin1_provinces": ["Nunavut"],
+      "add_counties": [
+        {"state": "AK", "county": "^(North Slope|Northwest Arctic|Nome).*"}
+      ],
+      "add_manual_paths": [
+        "source/manual/Nunatsiavut.kml",
+        "source/manual/Inuvialuit.kml"
+      ],
+      "merge_admin1": [
+        {"province": "Québec", "clip_lat": 55, "clip_side": "north"}
+      ],
+      "add_country_codes": ["GRL"],
+      "clip_to_land": true,
+      "join_buffer": 0.01,
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "inuit-nunangat",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#inuit-nunangat"
+    },
+    "Prairieland": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "admin1_merge",
+      "country_code": "CAN",
+      "admin1_provinces": ["Alberta", "Saskatchewan"],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "prairieland",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#prairieland"
+    },
+    "New Caledonia": {
+      "type": "entity",
+      "category": "reactionary",
+      "source": "admin1_merge",
+      "country_code": "CAN",
+      "admin1_provinces": ["British Columbia"],
+      "admin2_filter": {
+        "gadm_path": "../../gadm41_CAN.gpkg",
+        "province": "British Columbia",
+        "division_names": ["Bulkley-Nechako", "Cariboo", "Central Kootenay", "Central Okanagan", "Columbia-Shuswap", "East Kootenay", "Fraser-Fort George", "Kootenay Boundary", "North Okanagan", "Northern Rockies", "Okanagan-Similkameen", "Peace River", "Stikine", "Thompson-Nicola"]
+      },
+      "remainder_entity": "Pacifica",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "new-caledonia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#new-caledonia"
     },
     "Mexico": {
       "type": "entity",
@@ -1086,6 +1087,15 @@
       "section_anchor": "australia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#australia"
     },
+    "Kanaky": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "NCL",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "kanaky",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#kanaky"
+    },
     "New Zealand": {
       "type": "entity",
       "category": "global",
@@ -1118,15 +1128,6 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "pacific-islands",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#pacific-islands"
-    },
-    "Greenland": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "GRL",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
     "Guatemala": {
       "type": "entity",
@@ -1923,15 +1924,6 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "New Caledonia": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "NCL",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
     "Antarctica": {
       "type": "entity",
       "category": "global",
@@ -2060,9 +2052,10 @@
     "France": {
       "type": "entity",
       "category": "global",
-      "source": "country",
-      "country_code": "FRA",
-      "subtract_admin1": [
+  "source": "country",
+  "country_code": "FRA",
+  "add_country_codes": ["ATF"],
+  "subtract_admin1": [
         "Martinique",
         "Guadeloupe"
       ],
@@ -2427,7 +2420,7 @@
         }
       ],
       "preserve_holes": true,
-      "min_hole_area": 0.001,
+      "min_hole_area": 0.002,
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "north-carolina",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#north-carolina"
@@ -2962,12 +2955,6 @@
         "type": "entity_copy",
         "source_entity": "Sequoyah",
         "description": "See: 2050-snapshot/domains/culture.md#sequoyan-nation"
-      },
-      {
-        "name": "Tlingit Aan\u00ed",
-        "type": "entity_copy",
-        "source_entity": "Tlingit Aan\u00ed",
-        "description": "See: 2050-snapshot/domains/culture.md#tlingit-aani"
       }
     ]
   }

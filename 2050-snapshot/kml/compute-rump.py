@@ -136,7 +136,7 @@ def main():
 
     # Load all carved-out entities
     subtract_entities = [
-        "Quebec Republic.kml",
+        "Quebec.kml",
         "Maritime Republic.kml",
         "Newfoundland.kml",
         "Manitoba.kml",

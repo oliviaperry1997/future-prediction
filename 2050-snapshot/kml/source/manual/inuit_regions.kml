@@ -1,0 +1,87 @@
+<html lang="en">
+
+<head>
+<title>Generate KML (Donnees_Ouvertes-Open_Data/Region_inuite_Inuit_Region)</title>
+<link href="/geomatics/rest/static/main.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+<table width="100%" class="userTable">
+ <tr>
+ <td class="titlecell">
+ ArcGIS REST Services Directory
+ </td>
+ <td align="right">
+   <a href="https://geo.sac-isc.gc.ca/geomatics/rest/login">Login</a>
+       
+            | <a href="https://geo.sac-isc.gc.ca/geomatics/tokens/">Get Token</a>
+       </td>
+ </tr>
+</table>
+<table width="100%" class="navTable">
+<tr valign="top">
+<td class="breadcrumbs">
+<a href="/geomatics/rest/services">Home</a>
+
+  &gt; <a href="/geomatics/rest/services">services</a>
+  
+  &gt; <a href="/geomatics/rest/services/Donnees_Ouvertes-Open_Data">Donnees_Ouvertes-Open_Data</a>
+  
+  &gt; <a href="/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Region_inuite_Inuit_Region/MapServer">Region_inuite_Inuit_Region (MapServer)</a>
+  
+  &gt; <a href="/geomatics/rest/services/Donnees_Ouvertes-Open_Data/Region_inuite_Inuit_Region/MapServer/GenerateKML"><i>GenerateKML</i></a>
+  </td>
+<td align="right">
+ <a href="https://geo.sac-isc.gc.ca/geomatics/help/en/rest/router.html?f=rest/services/Donnees_Ouvertes-Open_Data/Region_inuite_Inuit_Region/MapServer/GenerateKML" target="_blank">API Reference</a>
+</td>
+</tr>
+</table><h2>Generate KML (Donnees_Ouvertes-Open_Data/Region_inuite_Inuit_Region)</h2>
+
+<div class="rbody">
+
+<head>
+    <script type="text/javascript" src="/geomatics/rest/static/js/generateKml.js" defer></script>
+</head>
+
+<form id="layerForm">
+
+<table class = "formTable">
+  <tr valign="top">
+    <td><label for="docName">Document Name:</label></td>
+    <td><input type="text" id="docName" name="docName" value="" /></td>
+  </tr>
+  <tr valign="top">
+    <td>Layers:</td>
+    <td>
+    <ul>
+      <input type="checkbox" name="l:0" /> R&eacute;gion inuite / Inuit Region(0) <br/>
+</ul>
+    <input type="hidden" name="layers" value="" />
+    </td>
+  </tr>
+  <tr valign="top">
+    <td>Layer Options:</td>
+    <td>
+      <label><input type="radio" name="layerOptions" value="composite" checked="true" />
+      All layers as a single composite image (Layers can't be turned on and off in client) </label><br/>
+      <label><input type="radio" name="layerOptions" value="seperateImage"  />
+      Each layer as a separate image </label><br/>
+      <label><input type="radio" name="layerOptions" value="nonComposite"  />
+      Vector layers as vectors and raster layers as images </label><br/>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td colspan="2">
+      <input type="submit" value="Generate KML" />
+    </td>  
+  </tr>
+</table>
+
+</form></div>
+
+<br/><br/>
+
+</body>
+
+</html>

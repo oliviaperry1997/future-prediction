@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2">
+  <ns0:Document>
+    <ns0:name>Canada</ns0:name>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-82.622345,41.750475,0 -82.636573,41.818344,0 -82.675442,41.805653,0 -82.667033,41.730909,0 -82.622345,41.750475,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-81.870377,42.27552,0 -81.867811,42.250688,0 -81.84486699999999,42.258412,0 -81.84335900000001,42.309738,0 -81.870377,42.27552,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-80.146871,42.540433,0 -80.102144,42.547109,0 -80.12875699999999,42.562598,0 -80.193135,42.548538,0 -80.146871,42.540433,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-80.267944,42.557314,0 -80.22833300000001,42.552207,0 -80.224791,42.555771,0 -80.24808299999999,42.561639,0 -80.267944,42.557314,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-80.965301,44.827953,0 -80.976315,44.838937,0 -80.98031899999999,44.823592,0 -80.965301,44.827953,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-80.17326300000001,44.865973,0 -80.204222,44.848521,0 -80.230304,44.875351,0 -80.234134,44.835697,0 -80.186221,44.795692,0 -80.150037,44.826348,0 -80.17326300000001,44.865973,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-80.887959,44.829962,0 -80.88825799999999,44.84403,0 -80.901686,44.8508,0 -80.887959,44.829962,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-80.973394,44.893321,0 -80.96509500000001,44.870761,0 -80.95627899999999,44.88868,0 -80.973394,44.893321,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-80.16259700000001,44.904728,0 -80.174667,44.895683,0 -80.159645,44.899453,0 -80.16259700000001,44.904728,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-81.032246,44.954533,0 -80.99937,44.931955,0 -80.961118,44.95009,0 -81.032246,44.954533,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-81.727431,45.290336,0 -81.70662,45.288542,0 -81.713657,45.301374,0 -81.735248,45.315027,0 -81.727431,45.290336,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-76.88676,43.943684,0 -76.93184100000001,43.932829,0 -76.870366,43.941287,0 -76.88676,43.943684,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-77.307033,46.019827,0 -77.516116,46.13217900000001,0 -77.658407,46.1839,0 -78.223021,46.27084000000001,0 -78.312363,46.252369,0 -78.40358000000001,46.292744,0 -78.318642,46.10362199999999,0 -78.13325500000001,46.152882,0 -78.086838,46.066963,0 -77.91952499999999,46.11251399999999,0 -77.89041899999999,46.060196,0 -77.69203899999999,46.113247,0 -77.498268,45.764275,0 -77.841171,45.672546,0 -77.774506,45.55304,0 -77.909859,45.515778,0 -77.847588,45.395641,0 -78.178299,45.30988300000001,0 -78.314819,45.561077,0 -78.85942799999999,45.414486,0 -78.924896,45.533672,0 -79.672516,45.334396,0 -79.60629299999999,45.21489,0 -79.95193500000001,45.120504,0 -79.850818,45.089702,0 -79.972244,45.114917,0 -80.05776299999999,45.079933,0 -79.992705,45.059653,0 -79.999426,45.024898,0 -79.942927,45.003435,0 -79.90866200000001,44.934528,0 -79.86369000000001,44.960693,0 -79.816669,44.943886,0 -79.82556099999999,44.904067,0 -79.755939,44.869865,0 -79.808121,44.865567,0 -79.760952,44.845876,0 -79.774964,44.814396,0 -79.736481,44.793609,0 -79.67900299999999,44.821179,0 -79.734239,44.725651,0 -79.754147,44.761054,0 -79.79051800000001,44.724729,0 -79.804445,44.762281,0 -79.882769,44.746551,0 -79.87319100000001,44.804915,0 -79.944497,44.760601,0 -79.94284500000001,44.809664,0 -79.901465,44.837366,0 -79.94134699999999,44.858849,0 -80.018908,44.844049,0 -80.041254,44.796656,0 -80.111583,44.802586,0 -80.116215,44.749825,0 -80.025291,44.726879,0 -79.96392400000001,44.667797,0 -79.986614,44.544233,0 -80.097523,44.458105,0 -80.547242,44.582755,0 -80.61903,44.629609,0 -80.645132,44.713623,0 -80.743065,44.71691,0 -80.943011,44.570742,0 -80.888527,44.763024,0 -80.985096,44.799804,0 -81.134642,44.733891,0 -81.129901,44.774517,0 -81.005413,44.875086,0 -81.018944,44.912839,0 -81.060194,44.885372,0 -81.097466,44.886921,0 -81.092575,44.914313,0 -81.153211,44.893926,0 -81.11506300000001,44.951196,0 -81.206396,44.953002,0 -81.192139,44.995312,0 -81.26230700000001,44.997501,0 -81.263431,45.07509399999999,0 -81.33701499999999,45.162333,0 -81.28380900000001,45.235349,0 -81.45783,45.221506,0 -81.65213199999999,45.256435,0 -81.713311,45.221332,0 -81.570825,45.191982,0 -81.583657,45.150924,0 -81.45464800000001,45.045415,0 -81.428572,44.972371,0 -81.36014,44.997864,0 -81.36366099999999,44.907011,0 -81.335261,44.866738,0 -81.314628,44.87988,0 -81.321099,44.846787,0 -81.274343,44.797396,0 -81.26662399999999,44.693584,0 -81.29394600000001,44.688102,0 -81.26328700000001,44.635943,0 -81.39859800000001,44.424658,0 -81.49073799999999,44.398699,0 -81.589842,44.321132,0 -81.60940600000001,44.205819,0 -81.745073,44.067762,0 -81.710656,43.932687,0 -81.70100100000001,43.389707,0 -81.766025,43.299172,0 -81.89016700000001,43.225344,0 -82.01176,43.205411,0 -82.026461,43.155852,0 -82.173304,43.047055,0 -82.413808,42.995528,0 -82.462354,42.89103,0 -82.4674,42.755249,0 -82.539768,42.597608,0 -82.6265363135381,42.53395493929819,0 -82.59325993991371,42.51873247731277,0 -82.59862682879168,42.49223116948386,0 -82.42121784332828,42.48787692649908,0 -82.41922823340465,42.36069439328593,0 -82.47413416110845,42.30701415493481,0 -82.55654562377784,42.31674415347689,0 -82.64924999999999,42.297,0 -82.7741980162686,42.30187750771618,0 -82.927391,42.344791,0 -83.061218,42.313625,0 -83.122826,42.230137,0 -83.14414499999999,42.050711,0 -83.055143,42.046526,0 -82.915002,41.978116,0 -82.6056,42.030087,0 -82.504482,41.923288,0 -82.47152800000001,42.045901,0 -82.38460499999999,42.12199,0 -82.10428899999999,42.240175,0 -81.933485,42.259181,0 -81.779374,42.407778,0 -81.32915300000001,42.650001,0 -80.86439900000001,42.658832,0 -80.61320600000001,42.579992,0 -80.455866,42.574485,0 -80.418772,42.646044,0 -80.333288,42.652491,0 -80.317392,42.701352,0 -80.207409,42.784101,0 -79.976308,42.794652,0 -79.69779699999999,42.861234,0 -79.63006900000001,42.836505,0 -79.56768,42.864537,0 -79.47532200000001,42.843067,0 -79.439772,42.878437,0 -79.14694799999999,42.878241,0 -79.09039900000001,42.841724,0 -78.930055,42.887612,0 -78.917519,42.944344,0 -79.014381,42.989101,0 -79.02325999999999,43.058071,0 -79.07476,43.081329,0 -79.0587,43.253263,0 -79.31058,43.178008,0 -79.520242,43.188838,0 -79.742755,43.24086,0 -79.797719,43.308717,0 -79.58193900000001,43.550672,0 -79.467524,43.634649,0 -79.318665,43.64315,0 -79.09487799999999,43.824628,0 -79.013509,43.820916,0 -78.935513,43.86223,0 -77.92566600000001,43.974551,0 -77.66919799999999,44.041726,0 -77.680964,44.016903,0 -77.594943,44.036015,0 -77.52046300000001,44.003066,0 -77.558515,43.97918,0 -77.465418,43.961139,0 -77.47020999999999,43.93138,0 -77.238737,43.962689,0 -77.266572,43.896609,0 -77.204369,43.890602,0 -77.229721,43.860321,0 -77.12432,43.848531,0 -76.949866,43.922583,0 -77.0412,43.913818,0 -77.024636,43.987186,0 -76.906446,44.038355,0 -76.85021,44.106279,0 -77.13375600000001,44.000894,0 -77.066461,44.162673,0 -77.242819,44.119752,0 -77.279819,44.092329,0 -77.22258600000001,44.092424,0 -77.298542,44.069497,0 -77.340165,44.106109,0 -77.30941799999999,44.137473,0 -77.38104,44.134822,0 -77.57767200000001,44.046426,0 -77.59790599999999,44.199403,0 -77.574991,44.255579,0 -77.788865,44.210906,0 -77.812743,44.25114,0 -77.788324,44.305722,0 -77.777046,44.237643,0 -77.689425,44.271316,0 -77.561745,44.269646,0 -77.562877,44.103347,0 -77.32557799999999,44.168147,0 -77.177834,44.157456,0 -76.985411,44.208574,0 -77.05188,44.122791,0 -76.995003,44.139733,0 -77.006964,44.095537,0 -77.05914300000001,44.073577,0 -77.011994,44.074106,0 -77.012567,44.052308,0 -76.630561,44.249122,0 -76.617052,44.215788,0 -76.54870099999999,44.21009,0 -76.318461,44.301957,0 -75.95201400000001,44.383535,0 -75.81613,44.506361,0 -75.804564,44.485848,0 -75.270233,44.863774,0 -74.903744,45.005213,0 -74.699394,45.017895,0 -74.526275,45.09113199999999,0 -74.47305299999999,45.164374,0 -74.35486899999999,45.213525,0 -74.47800700000001,45.316872,0 -74.394379,45.570058,0 -74.633858,45.638088,0 -74.937539,45.63768,0 -75.11855300000001,45.577656,0 -75.256765,45.578895,0 -75.677567,45.46085,0 -75.817825,45.3727,0 -76.08987399999999,45.513851,0 -76.201004,45.51887900000001,0 -76.245087,45.468609,0 -76.365959,45.457832,0 -76.660011,45.56063499999999,0 -76.714192,45.720135,0 -76.767982,45.734604,0 -76.79725000000001,45.87545899999999,0 -76.92333499999999,45.883763,0 -76.91336800000001,45.803661,0 -76.987686,45.786636,0 -77.190331,45.86386100000001,0 -77.27189300000001,45.929238,0 -77.307033,46.019827,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-76.806725,44.129595,0 -76.699467,44.112305,0 -76.625443,44.18081,0 -76.726676,44.166003,0 -76.806725,44.129595,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-76.461631,44.121171,0 -76.43198,44.10846,0 -76.349824,44.177093,0 -76.463909,44.187198,0 -76.506405,44.144461,0 -76.45302599999999,44.152,0 -76.461631,44.121171,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-76.199392,44.227808,0 -76.412162,44.20678,0 -76.346379,44.204633,0 -76.199392,44.227808,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-76.311483,44.253449,0 -76.214276,44.300931,0 -76.28968,44.269102,0 -76.287334,44.293129,0 -76.334869,44.262804,0 -76.311483,44.253449,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-80.096638,44.857115,0 -80.117363,44.841037,0 -80.097705,44.843344,0 -80.096638,44.857115,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-79.862956,44.869418,0 -79.862112,44.834075,0 -79.851268,44.870426,0 -79.862956,44.869418,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-80.00311600000001,44.901309,0 -79.98781200000001,44.90043,0 -79.98752899999999,44.914451,0 -80.00311600000001,44.901309,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+    <ns0:Placemark><ns0:name>Canada</ns0:name><ns0:description>See: 2050-snapshot/domains/borders-geopolitics.md#canada</ns0:description><ns0:Polygon>
+							<ns0:outerBoundaryIs>
+								<ns0:LinearRing>
+									<ns0:coordinates>
+										-74.722863,44.999116,0 -74.691711,45.014614,0 -74.760542,45.000542,0 -74.722863,44.999116,0 
+									</ns0:coordinates>
+								</ns0:LinearRing>
+							</ns0:outerBoundaryIs>
+						</ns0:Polygon>
+					</ns0:Placemark>
+  </ns0:Document>
+</ns0:kml>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2"
+     xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Placemark>
+    <name>Lake St. Clair (Canadian portion)</name>
+    <Polygon>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+            -82.70,42.62,0
+            -82.55,42.60,0
+            -82.48,42.56,0
+            -82.45,42.53,0
+            -82.40,42.50,0
+            -82.50,42.38,0
+            -82.65,42.30,0
+            -82.85,42.30,0
+            -82.93,42.35,0
+            -82.95,42.38,0
+            -82.90,42.45,0
+            -82.85,42.50,0
+            -82.80,42.55,0
+            -82.73,42.60,0
+            -82.70,42.62,0
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+    </Polygon>
+  </Placemark>
+</kml>

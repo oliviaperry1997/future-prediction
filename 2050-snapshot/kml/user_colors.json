@@ -311,28 +311,10 @@
     "kml_line": "ff530810",
     "width": 1.0
   },
-  "Tlingit Aan\u00ed": {
-    "hex": "#eb5f2f",
-    "kml_fill": "802f5feb",
-    "kml_line": "ff2f5feb",
-    "width": 1.0
-  },
-  "I\u00f1upiat Nunaat": {
-    "hex": "#9CD3AE",
-    "kml_fill": "80AED39C",
-    "kml_line": "ffAED39C",
-    "width": 1.0
-  },
   "Yup'it-Alutiiq Confederacy": {
     "hex": "#A0B4DE",
     "kml_fill": "80DEB4A0",
     "kml_line": "ffDEB4A0",
-    "width": 1.0
-  },
-  "Dena'ina Nenn'": {
-    "hex": "#F4B943",
-    "kml_fill": "8043B9F4",
-    "kml_line": "ff43B9F4",
     "width": 1.0
   },
   "Canada": {
@@ -341,16 +323,22 @@
     "kml_line": "ff384490",
     "width": 1.0
   },
+  "Prairieland": {
+    "hex": "#D3C860",
+    "kml_fill": "8060c8d3",
+    "kml_line": "ff60c8d3",
+    "width": 1.0
+  },
+  "New Caledonia": {
+    "hex": "#3C7879",
+    "kml_fill": "8079783c",
+    "kml_line": "ff79783c",
+    "width": 1.0
+  },
   "Front Range Socialist Republic": {
     "hex": "#161e5b",
     "kml_fill": "805b1e16",
     "kml_line": "ff5b1e16",
-    "width": 1.0
-  },
-  "Greenland": {
-    "hex": "#5eb357",
-    "kml_fill": "8057b35e",
-    "kml_line": "ff57b35e",
     "width": 1.0
   },
   "Texas": {
@@ -1025,7 +1013,7 @@
     "kml_line": "ffcea76e",
     "width": 1.0
   },
-  "New Caledonia": {
+  "Kanaky": {
     "hex": "#524366",
     "kml_fill": "80664352",
     "kml_line": "ff664352",
@@ -1385,40 +1373,40 @@
     "kml_line": "ff3a9455",
     "width": 1.0
   },
-  "Quebec Republic": {
-    "hex": "#003399",
-    "kml_fill": "80993300",
-    "kml_line": "ff993300",
+  "Quebec": {
+    "hex": "#1E5AF0",
+    "kml_fill": "80f05a1e",
+    "kml_line": "fff05a1e",
     "width": 1.0
   },
-  "Maritime Republic": {
-    "hex": "#CC3333",
-    "kml_fill": "803333cc",
-    "kml_line": "ff3333cc",
+  "Maritimes": {
+    "hex": "#354581",
+    "kml_fill": "80814535",
+    "kml_line": "ff814535",
     "width": 1.0
   },
-  "Newfoundland": {
-    "hex": "#336699",
-    "kml_fill": "80996633",
-    "kml_line": "ff996633",
+  "Newfoundland-Labrador": {
+    "hex": "#E8659E",
+    "kml_fill": "809e65e8",
+    "kml_line": "ff9e65e8",
     "width": 1.0
   },
   "Manitoba": {
-    "hex": "#66AA44",
-    "kml_fill": "8044aa66",
-    "kml_line": "ff44aa66",
+    "hex": "#3B7680",
+    "kml_fill": "8080763b",
+    "kml_line": "ff80763b",
     "width": 1.0
   },
   "Denendeh": {
-    "hex": "#CC8844",
-    "kml_fill": "804488cc",
-    "kml_line": "ff4488cc",
+    "hex": "#C57348",
+    "kml_fill": "804873c5",
+    "kml_line": "ff4873c5",
     "width": 1.0
   },
   "Inuit Nunangat": {
-    "hex": "#88CCEE",
-    "kml_fill": "80eecc88",
-    "kml_line": "ffeecc88",
+    "hex": "#7e6da5",
+    "kml_fill": "80a56d7e",
+    "kml_line": "ffa56d7e",
     "width": 1.0
   }
 }
