@@ -47,10 +47,10 @@ Africa still growing — Asia declining. Sub-Saharan Africa continues growing (t
 #### Aging & Dependency Ratios
 
 - **Global median age:** ~36 (up from ~31 in 2025). The world's population is older than at any point in human history, and aging continues.
-- **Aged societies (median >40):** Japan (~52), ROK (~54), EU Core (~44), China (~42), Mountain Tapestry (~41), Atlantica (~40), HFS (~40), Alaska (~40), Florida (~44), Kentucky (~42), Virginia (~43), Great Lakes (~39)
+- **Aged societies (median >40):** Japan (~52), ROK (~54), European Union (~46), China (~42), Mountain Tapestry (~41), Atlantica (~40), HFS (~40), Alaska (~40), Florida (~44), Kentucky (~42), Virginia (~43), Great Lakes (~39)
 - **Young societies (median <25):** Sub-Saharan Africa, parts of South Asia. The East African Federation has a median age of ~22 — the youngest major population cluster in the world outside conflict zones.
-- **Dependency ratio pressures:** The working-age population (25-64) is shrinking relative to the 65+ population in all developed and most middle-income regions. Old-age dependency ratios (65+/25-64) exceed 40% in ROK, Japan, EU Core, and China. The ratio exceeds 30% in all revolutionary successor states.
-- **Automation offset:** Automation partially offsets labor force decline in automated economies — humanoid robots and AI-driven systems substitute for a significant share of working-age tasks in the Pacifica, Atlantica, Great Lakes, EU Core, China, and ROK. Labor-intensive economies (EAF, India's informal sector, reactionary states) face growth constraints from both aging and emigration without automation substitution.
+- **Dependency ratio pressures:** The working-age population (25-64) is shrinking relative to the 65+ population in all developed and most middle-income regions. Old-age dependency ratios (65+/25-64) exceed 40% in ROK, Japan, European Union, and China. The ratio exceeds 30% in all revolutionary successor states.
+- **Automation offset:** Automation partially offsets labor force decline in automated economies — humanoid robots and AI-driven systems substitute for a significant share of working-age tasks in the Pacifica, Atlantica, Great Lakes, European Union, China, and ROK. Labor-intensive economies (EAF, India's informal sector, reactionary states) face growth constraints from both aging and emigration without automation substitution.
 
 #### Urbanization & Coastal Retreat
 
@@ -85,13 +85,13 @@ Climate-driven migration is one of the defining demographic forces shaping the 2
   - Amazon basin post-dieback: ~5M — agricultural collapse in Brazil, Bolivia, and Peru following the 2047 Amazon dieback threshold (T-15).
 - **Destination regions:**
   - North America (successor states): The Pacifica and Atlantica absorb climate migrants from Central America, the Caribbean, and the Pacific. Tightened borders have slowed but not stopped entry. Climate migrants constitute ~8-12% of population in high-receiving Pacifica urban zones (Los Angeles, San Francisco, Seattle).
-  - Europe: The EU Core maintains controlled migration; the reactionary periphery (France, Italy) has sealed borders, creating a humanitarian crisis at Mediterranean entry points.
+  - Europe: The European Union maintains controlled migration; the reactionary periphery (France, Italy) has sealed borders, creating a humanitarian crisis at Mediterranean entry points.
   - Southeast Asia: Indonesia, Malaysia, and Thailand receive migrants from the Mekong Delta and Myanmar's cyclone-affected coastal zones.
   - East Africa: Uganda, Kenya, and Tanzania absorb Sahel and Horn of Africa migrants within the EAF's free movement zone.
   - Australia/NZ: Australia's Pacific Engagement Visa and NZ's Pacific Access Category expanded but insufficient — Pacific Island diaspora communities in both countries grow through family reunification and managed relocation programs.
 - **Internal vs cross-border:** ~60% internal displacement, ~40% cross-border. The distinction has blurred in practice — climate impacts degrade source-region livelihoods regardless of whether a political border is crossed, and many migration journeys involve multiple internal and cross-border stages.
 - **Legal status:** Mixed — no settled international framework for climate refugee status exists. Pacific Islanders from Tuvalu and Kiribati have obtained bilateral resettlement agreements with Australia and New Zealand that grant permanent residence. Most other climate migrants exist in legal limbo — temporary protected status, humanitarian parole, undocumented status. The 1951 Refugee Convention has not been amended to include climate displacement; ad hoc bilateral arrangements are the primary legal mechanism.
-- **Impact on destination demographics:** Climate migrants constitute 5-15% of population in high-receiving regions — Pacifica urban zones, EU Core cities (Amsterdam, Berlin, Copenhagen), East African cities (Nairobi, Kampala, Dar es Salaam), and Southeast Asian megacities (Jakarta, Bangkok, Ho Chi Minh City). In the Pacifica and Atlantica, climate migrants fill labor gaps in care work, construction, and services — functioning as a demographic complement to automation-driven labor restructuring.
+- **Impact on destination demographics:** Climate migrants constitute 5-15% of population in high-receiving regions — Pacifica urban zones, European Union cities (Amsterdam, Berlin, Copenhagen), East African cities (Nairobi, Kampala, Dar es Salaam), and Southeast Asian megacities (Jakarta, Bangkok, Ho Chi Minh City). In the Pacifica and Atlantica, climate migrants fill labor gaps in care work, construction, and services — functioning as a demographic complement to automation-driven labor restructuring.
 - → See climate snapshot: [Climate-Driven Migration](../../2050-snapshot/domains/climate.md#climate-driven-migration) for climate drivers and regional impact details
 
 ### Demographic Profiles — US Successor States
@@ -395,23 +395,23 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **→ See KML: China**
 - → See transition doc: [asia.md](../../2026-2050-transition/regions/asia.md#1-china--revolutionary-state-directed)
 
-**EU Core (Nordic Council, Benelux, post-Orbán Hungary, Slovenia, Baltic states):**
-- **Population:** 280M (declining slowly)
-- **Age structure:** Median age 44, dependency ratio 62%
-- **TFR:** 1.5 (Nordic states slightly higher at ~1.6; Baltic and Central European states lower)
-- **Net migration:** +0.3%/yr (managed migration from Africa, Middle East, and periphery — selective skilled migration and humanitarian quotas)
-- **Urbanization:** 78% (Amsterdam, Copenhagen, Stockholm, Helsinki, Oslo, Tallinn, Riga as primary urban centers)
-- **Life expectancy:** 83 (among the highest globally — universal healthcare, clean energy environment, strong public health infrastructure)
-- **Labor force participation:** 55% (UBI in Finland, Netherlands, Denmark; strong social safety nets; automation penetration high)
-- **Primary languages:** German, French, Dutch, English, Nordic languages (Swedish, Danish, Norwegian, Finnish, Icelandic)
-- **→ See KML: European Core Federation**
+**European Union:**
+- **Population:** ~450M (all 27 member-state subdivisions: Germany ~80M, France ~68M, Italy ~55M, Spain ~47M, Poland ~36M, Romania ~18M, Netherlands ~18M, Belgium ~12M, Czechia ~10.5M, Greece ~10M, Portugal ~9.5M, Sweden ~11M, Hungary ~9M, Austria ~9M, Bulgaria ~6M, Denmark ~6M, Finland ~5.5M, Slovakia ~5M, Ireland ~5.5M, Croatia ~3.5M, Lithuania ~2.5M, Slovenia ~2M, Latvia ~1.5M, Estonia ~1.2M, Cyprus ~1.2M, Luxembourg ~0.7M, Malta ~0.6M)
+- **Age structure:** 0-14: 15%, 15-64: 60%, 65+: 25% | Median age: ~46 (aged society — the Mediterranean and Eastern European subdivisions have older age profiles than the Nordic core)
+- **Total fertility rate (TFR):** ~1.45 (below replacement; varies from ~1.3 in Mediterranean subdivisions to ~1.7 in Nordic)
+- **Net migration:** +0.3%/yr (controlled — the EU maintains managed migration from climate-affected regions, BRICS+ countries, and former reactionary states. Migration partially offsets natural population decline. Integration policies vary by subdivision but are coordinated at federal level.)
+- **Urbanization:** 78% (highly urbanized core; Eastern European subdivisions somewhat less urbanized at 65-70%; the Paris, Rhine-Ruhr, Randstad, Milan-Turin, Madrid-Barcelona, and Warsaw-Kraków corridors are the primary urban concentrations)
+- **Life expectancy:** 84 (among the highest globally; universal healthcare, strong social safety nets. Variation: ~86 in Nordic subdivisions, ~82 in Eastern European subdivisions)
+- **Labor force:** ~210M (declining slowly — automation offsets some labor force contraction). High labor force participation in Nordic subdivisions (~78%); lower in Mediterranean (~62%). Internal EU labor mobility is unrestricted — workers from Eastern and Southern subdivisions fill labor gaps in the Nordic and Benelux core.
+- **Primary languages:** 24 official languages. English is the primary working language of federal institutions. German, French, Italian, Spanish, Polish are the largest native language groups. Multilingualism is high (average EU citizen speaks 2.5 languages). Minority/regional languages (Catalan, Basque, Welsh, Frisian, Sámi, etc.) have protected status.
+- **→ See KML: European Union**
 - → See transition doc: [demographics.md Driver 1](../../2026-2050-transition/demographics.md#driver-1-global-fertility-decline-and-population-aging)
 
 **India:**
 - **Population:** 1.5B (slowly growing — approaching population peak)
 - **Age structure:** Median age 33, dependency ratio 48%
 - **TFR:** 1.9 (below replacement — crossed ~2.1 threshold in the early 2020s)
-- **Net migration:** -0.1%/yr (talent flight — educated professionals leave for revolutionary states, EU Core, and BRICS+ economies)
+- **Net migration:** -0.1%/yr (talent flight — educated professionals leave for revolutionary states, European Union, and BRICS+ economies)
 - **Urbanization:** 45% (Mumbai, Delhi, Bangalore, Hyderabad, Chennai as megacities; urbanization accelerating)
 - **Life expectancy:** 73 (improving — universal healthcare expansion, but air pollution and water quality constraints persist)
 - **Labor force participation:** 55% (declining — 40%+ graduate youth unemployment; informal sector dominates at ~90% of workforce)
@@ -425,7 +425,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **TFR:** 1.3 (stabilized from a low of 1.26 in the 2020s — modest improvement from expanded family support policies, immigration, and cultural normalization of child-rearing support)
 - **Net migration:** +0.3%/yr (net recipient — immigration from ASEAN, India, and the Philippines partially offsets natural population decline; foreign-born population ~8% of total, up from ~2% in the 2020s)
 - **Urbanization:** 92% (Tokyo-Yokohama ~32M — still the world's largest metropolitan area but declining; Osaka-Kobe-Kyoto ~15M; Nagoya ~8M; Fukuoka ~5M). Rural depopulation is extreme — hundreds of "ghost towns" in mountainous and coastal regions, with the government managing "managed retreat" consolidation of services.
-- **Life expectancy:** 87 (highest globally, shared with the Pacifica and EU Core — universal healthcare, healthy diet, and active elderly lifestyle; the centenarian population exceeds 500K)
+- **Life expectancy:** 87 (highest globally, shared with the Pacifica and European Union — universal healthcare, healthy diet, and active elderly lifestyle; the centenarian population exceeds 500K)
 - **Labor force participation:** 60% (elderly participation is high — ~35% of 65-74 year olds work, driven by pension inadequacy, social engagement, and labor shortages; the "silver workforce" is a structural feature of the economy)
 - **Primary languages:** Japanese, English (growing as business language — ASEAN and BRICS+ trade), Korean, Chinese (immigrant communities)
 - **→ See KML: Japan**
@@ -513,7 +513,32 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Labor force participation:** 56% (declining — demographic decline, emigration (brain drain accelerated post-2026), and war economy labor absorption)
 - **Primary languages:** Russian, regional languages (Tatar, Chechen, Bashkir, Yakut)
 - **→ See KML: Russia**
+- **Union State context:** Anchor of the Union State confederation. Co-republics: Belarus (~9M, declining slowly) and Ukraine (~28M, sharply reduced). The combined Union State population is ~157-162M. Russia is the dominant demographic partner (77% of combined population). Labor mobility within the Union State is partially liberalized — Belarusian and Ukrainian workers migrate to Russia for higher wages (construction, services, agriculture), creating a dependency relationship.
 - → See transition doc: [demographics.md Driver 1](../../2026-2050-transition/demographics.md#driver-1-global-fertility-decline-and-population-aging)
+
+**Belarus:**
+- **Population:** ~9M (declining ~0.3%/yr — low TFR, emigration to Russia and EU)
+- **Age structure:** 0-14: 16%, 15-64: 63%, 65+: 21% | Median age: ~41
+- **Total fertility rate (TFR):** ~1.5 (below replacement; pro-natalist policies have limited effect)
+- **Net migration:** -0.2%/yr (net emigration — skilled workers and youth migrate to Russia for higher wages; political emigration to EU continues at reduced levels post-Lukashenko consolidation)
+- **Urbanization:** 78% (Minsk ~1.9M — the primate city dominating the urban hierarchy; regional centers: Gomel, Mogilev, Vitebsk, Grodno, Brest — all 300-500K)
+- **Life expectancy:** 74 (below EU average; male life expectancy ~69 — legacy of Soviet-era health patterns: high alcohol consumption, cardiovascular disease, occupational hazards in heavy industry)
+- **Labor force:** ~4.3M. Employment structure: industry 30% (oil refining, machinery, chemicals), agriculture 10%, services 60% (dominated by state sector and IT services). The IT sector (~5% of workforce) is the highest-productivity segment but faces brain drain. Labor participation rate ~63% — moderate.
+- **Primary languages:** Belarusian and Russian (both official; Russian is dominant in urban areas and public life — Belarusian is spoken as a primary language by ~30% and is stronger in rural areas and among the cultural intelligentsia). English (growing — IT sector and youth). The 1995 referendum made Russian a state language alongside Belarusian — Russian dominance has only deepened since.
+- **→ See KML: Belarus**
+- → See transition doc: [europe.md](../../2026-2050-transition/regions/europe.md)
+
+**Ukraine:**
+- **Population:** ~28M (sharply reduced from pre-war ~44M — war deaths estimated at 3-5M, emigration of 8-10M to EU and Russia, territorial transfer of 5 eastern oblasts with ~8M population to Russia)
+- **Age structure:** 0-14: 14%, 15-64: 63%, 65+: 23% | Median age: ~43 (aging — war casualties disproportionately affected working-age males; emigration skewed young and educated)
+- **Total fertility rate (TFR):** ~1.3 (very low — war disruption, economic uncertainty, and male population loss suppress fertility; below already-low pre-war levels)
+- **Net migration:** -0.1%/yr (net emigration continues at reduced levels — the post-war return migration was partial; many wartime emigrants settled permanently in the EU or Russia. Some return migration from Russia under Union State labor mobility provisions. Brain drain remains structural — educated professionals continue to leave for higher wages in the EU or Russia.)
+- **Urbanization:** 70% (Kyiv ~2.8M — the political and cultural capital, substantially reconstructed after war damage; Kharkiv ~1.2M — reduced from pre-war levels, eastern proximity to Russian border limits growth; Odesa ~900K — Black Sea port city, primary agricultural export hub; Lviv ~750K — western cultural center, closest to EU border; Dnipro ~800K — industrial center). The eastern oblast transfer removed Donetsk (~900K pre-war) and Luhansk (~400K) from Ukraine's urban network.
+- **Life expectancy:** 71 (reduced — war legacy, healthcare system damage, and economic stress. Male life expectancy ~66 — among the lowest in Europe. The healthcare system is partially reconstructed but under-resourced.)
+- **Labor force:** ~12M (sharply contracted from pre-war ~20M). Employment structure: agriculture 25% (grains, oilseeds — the primary employment sector post-deindustrialization), industry 20% (reduced — heavy industry concentrated in the transferred eastern oblasts), services 55% (IT services, retail, reconstruction-related construction). High informal employment (~30%). Labor participation rate ~56% — low due to emigration, war disability, and discouraged workers.
+- **Primary languages:** Ukrainian (state language — ~65% primary speakers, up from ~50% pre-war as the conflict accelerated linguistic Ukrainianization). Russian (~30% primary speakers — declining, but still widely understood; primarily in eastern and southern regions). The language shift toward Ukrainian accelerated during and after the conflict — Russian is increasingly a private rather than public language. English (growing among youth and IT professionals). The linguistic landscape is politically charged — language was a front in the pre-war cultural conflict; the post-war settlement under Union State terms has depoliticized the issue somewhat but Ukrainian linguistic identity remains strong.
+- **→ See KML: Ukraine**
+- → See transition doc: [europe.md](../../2026-2050-transition/regions/europe.md)
 
 **Turkey:**
 - **Population:** 90M (stable — approaching peak)
@@ -620,10 +645,10 @@ Briefly — key demographic drivers from the 2026-2049 transition period:
 ## Interactions With Other Domains
 
 - **To Borders:** Migration regimes and citizenship policies defined by successor state borders — revolutionary states maintain managed immigration, reactionary states lose population. Population distributions shape territorial claims and entity viability — the Heartland's shrinking population undermines its claim to sovereignty, while the Great Lakes' population stability reinforces its interior anchor. Indigenous sovereignty recognized within revolutionary state borders but contested in reactionary territories. Climate migration creates cross-border pressures that existing border regimes cannot fully contain. **→ See also: [borders-geopolitics.md](../../2050-snapshot/domains/borders-geopolitics.md)**
-- **To Economy:** Labor force size and age structure determine economic growth potential. Automation partially offsets demographic decline in revolutionary states and advanced economies — humanoid robots and AI substitute for shrinking working-age populations. UBI and guaranteed employment programs (Pacifica, Atlantica, Great Lakes, Aztlán, EU Core) are direct policy responses to demographic + automation pressure. Reactionary states face a demographic-economic doom loop — population decline reduces economic activity, which accelerates out-migration, which further reduces population. **→ See also: [economy.md](../../2050-snapshot/domains/economy.md)**
-- **To Climate:** Climate migration is the primary demographic disruptor of the mid-century — 50-80 million cumulative climate migrants globally. Source regions (Sahel, Bangladesh delta, Mekong Delta, Pacific Islands, Amazon basin) experience population loss and structural aging as working-age adults leave. Destination regions (Pacifica, EU Core, East Africa, Australia/NZ) gain population but face integration challenges and infrastructure strain. Mortality from extreme events (heatwaves, floods, fires) becomes a measurable demographic factor — heatwave-related deaths are estimated at 500K+ annually in South Asia, the Middle East, and West Africa. Fertility decisions influenced by climate anxiety and economic precarity in affected regions. **→ See also: [climate.md](../../2050-snapshot/domains/climate.md)**
+- **To Economy:** Labor force size and age structure determine economic growth potential. Automation partially offsets demographic decline in revolutionary states and advanced economies — humanoid robots and AI substitute for shrinking working-age populations. UBI and guaranteed employment programs (Pacifica, Atlantica, Great Lakes, Aztlán, European Union) are direct policy responses to demographic + automation pressure. Reactionary states face a demographic-economic doom loop — population decline reduces economic activity, which accelerates out-migration, which further reduces population. **→ See also: [economy.md](../../2050-snapshot/domains/economy.md)**
+- **To Climate:** Climate migration is the primary demographic disruptor of the mid-century — 50-80 million cumulative climate migrants globally. Source regions (Sahel, Bangladesh delta, Mekong Delta, Pacific Islands, Amazon basin) experience population loss and structural aging as working-age adults leave. Destination regions (Pacifica, European Union, East Africa, Australia/NZ) gain population but face integration challenges and infrastructure strain. Mortality from extreme events (heatwaves, floods, fires) becomes a measurable demographic factor — heatwave-related deaths are estimated at 500K+ annually in South Asia, the Middle East, and West Africa. Fertility decisions influenced by climate anxiety and economic precarity in affected regions. **→ See also: [climate.md](../../2050-snapshot/domains/climate.md)**
 - **To Technology:** Healthcare technology affects life expectancy and age structure — longevity breakthroughs could upend demographic projections. Automation substitutes for declining labor supply — humanoid robots in China, the Great Lakes, and the Pacifica offset working-age population decline. AI-driven economic planning in revolutionary states depends on computational infrastructure that shapes labor demand and migration incentives. Reproductive technology (IVF, artificial wombs) could partially offset fertility decline but has not done so at scale by 2050. **→ See also: [technology.md](../../2050-snapshot/domains/technology.md)**
-- **To Culture:** Age structure shapes cultural values and political ideology — aging societies (EU Core, ROK, DPRK, China) tilt toward conservatism and stability; young societies (EAF, indigenous nations) are more dynamic and open to transformation. Migration creates cultural change in destination regions — revolutionary states' cosmopolitan multiculturalism vs reactionary states' defensive nationalism. Demographic decline in reactionary states and Japan produces a cultural psychology of loss and nostalgia. **→ See also: culture.md**
+- **To Culture:** Age structure shapes cultural values and political ideology — aging societies (European Union, ROK, DPRK, China) tilt toward conservatism and stability; young societies (EAF, indigenous nations) are more dynamic and open to transformation. Migration creates cultural change in destination regions — revolutionary states' cosmopolitan multiculturalism vs reactionary states' defensive nationalism. Demographic decline in reactionary states and Japan produces a cultural psychology of loss and nostalgia. **→ See also: culture.md**
 
 ## Key Uncertainties
 
