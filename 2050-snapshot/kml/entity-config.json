@@ -639,36 +639,7 @@
       "section_anchor": "gran-colombia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#gran-colombia"
     },
-    "European Core Federation": {
-      "type": "entity",
-      "category": "global",
-      "source": "group",
-      "country_codes": [
-        "FIN",
-        "SWE",
-        "NOR",
-        "DNK",
-        "ISL",
-        "NLD",
-        "BEL",
-        "LUX",
-        "HUN",
-        "SVN",
-        "EST",
-        "LVA",
-        "LTU"
-      ],
-      "subtract_admin1_per_code": {
-        "NLD": [
-          "Bonaire",
-          "Saba",
-          "St. Eustatius"
-        ]
-      },
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "eu-core-federation",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#eu-core-federation"
-    },
+
     "Germany": {
       "type": "entity",
       "category": "global",
@@ -2608,7 +2579,7 @@
       {
         "name": "European AI Regulation Zone",
         "type": "entity_copy",
-        "source_entity": "European Core Federation",
+        "source_entity": "European Union",
         "description": "See: 2050-snapshot/domains/technology.md#ai-governance-regimes"
       },
       {
@@ -2850,10 +2821,10 @@
         ]
       },
       {
-        "name": "European Core Federation",
+        "name": "European Union",
         "type": "entity_copy",
-        "source_entity": "European Core Federation",
-        "description": "See: 2050-snapshot/domains/economy.md#eu-core"
+        "source_entity": "European Union",
+        "description": "See: 2050-snapshot/domains/economy.md#european-union"
       }
     ],
     "demographics": [
@@ -2864,10 +2835,10 @@
         "description": "See: 2050-snapshot/domains/demographics.md#pacific-peoples-republic"
       },
       {
-        "name": "European Core Federation",
+        "name": "European Union",
         "type": "entity_copy",
-        "source_entity": "European Core Federation",
-        "description": "See: 2050-snapshot/domains/demographics.md#eu-core"
+        "source_entity": "European Union",
+        "description": "See: 2050-snapshot/domains/demographics.md#european-union"
       }
     ],
     "culture": [
@@ -2878,10 +2849,10 @@
         "description": "See: 2050-snapshot/domains/culture.md#pacific-peoples-republic"
       },
       {
-        "name": "European Core Federation",
+        "name": "European Union",
         "type": "entity_copy",
-        "source_entity": "European Core Federation",
-        "description": "See: 2050-snapshot/domains/culture.md#eu-core"
+        "source_entity": "European Union",
+        "description": "See: 2050-snapshot/domains/culture.md#european-union"
       },
       {
         "name": "Oceti Sakowin",

@@ -504,7 +504,7 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - → See transition doc: [demographics.md Driver 1](../../2026-2050-transition/demographics.md#driver-1-global-fertility-decline-and-population-aging)
 
 **Russia:**
-- **Population:** 135M (declining — peaked at ~147M in the early 2020s)
+- **Population:** ~120-125M (declining — peaked at ~147M in the early 2020s)
 - **Age structure:** Median age 42, dependency ratio 58%
 - **TFR:** 1.6 (below replacement)
 - **Net migration:** +0.1%/yr (modest in-migration from Central Asia and post-Soviet states partially offsetting natural decline)
