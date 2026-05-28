@@ -2313,48 +2313,48 @@
         </BalloonStyle>
       </Style>
     </gx:CascadingStyle>
-    <gx:CascadingStyle id="__managed_style_00000000000000A6">
-      <Style>
-        <IconStyle>
-          <Icon>
-            <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-          </Icon>
-          <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-        </IconStyle>
-        <LabelStyle/>
-        <LineStyle>
-          <color>ff4bd3f5</color>
-          <width>1.0</width>
-        </LineStyle>
-        <PolyStyle>
-          <color>804bd3f5</color>
-        </PolyStyle>
-        <BalloonStyle>
-          <displayMode>hide</displayMode>
-        </BalloonStyle>
-      </Style>
-    </gx:CascadingStyle>
-    <gx:CascadingStyle id="__managed_style_00000000000000A7">
-      <Style>
-        <IconStyle>
-          <Icon>
-            <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
-          </Icon>
-          <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
-        </IconStyle>
-        <LabelStyle/>
-        <LineStyle>
-          <color>ff4bd3f5</color>
-          <width>1.5</width>
-        </LineStyle>
-        <PolyStyle>
-          <color>804bd3f5</color>
-        </PolyStyle>
-        <BalloonStyle>
-          <displayMode>hide</displayMode>
-        </BalloonStyle>
-      </Style>
-    </gx:CascadingStyle>
+     <gx:CascadingStyle id="__managed_style_00000000000000A6">
+       <Style>
+         <IconStyle>
+           <Icon>
+             <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+           </Icon>
+           <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+         </IconStyle>
+         <LabelStyle/>
+         <LineStyle>
+           <color>ffb399ec</color>
+           <width>1.0</width>
+         </LineStyle>
+         <PolyStyle>
+           <color>80b399ec</color>
+         </PolyStyle>
+         <BalloonStyle>
+           <displayMode>hide</displayMode>
+         </BalloonStyle>
+       </Style>
+     </gx:CascadingStyle>
+     <gx:CascadingStyle id="__managed_style_00000000000000A7">
+       <Style>
+         <IconStyle>
+           <Icon>
+             <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+           </Icon>
+           <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+         </IconStyle>
+         <LabelStyle/>
+         <LineStyle>
+           <color>ffb399ec</color>
+           <width>1.5</width>
+         </LineStyle>
+         <PolyStyle>
+           <color>80b399ec</color>
+         </PolyStyle>
+         <BalloonStyle>
+           <displayMode>hide</displayMode>
+         </BalloonStyle>
+       </Style>
+     </gx:CascadingStyle>
     <gx:CascadingStyle id="__managed_style_00000000000000A9">
       <Style>
         <IconStyle>
