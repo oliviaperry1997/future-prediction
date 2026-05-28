@@ -407,17 +407,97 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **→ See KML: European Federation**
 - → See transition doc: [demographics.md Driver 1](../../2026-2050-transition/demographics.md#driver-1-global-fertility-decline-and-population-aging)
 
+<!-- Southern Asia reviewed Phase 11 (2026-05-28) -->
 **India:**
-- **Population:** 1.5B (slowly growing — approaching population peak)
-- **Age structure:** Median age 33, dependency ratio 48%
-- **TFR:** 1.9 (below replacement — crossed ~2.1 threshold in the early 2020s)
-- **Net migration:** -0.1%/yr (talent flight — educated professionals leave for revolutionary states, European Federation, and BRICS+ economies)
-- **Urbanization:** 45% (Mumbai, Delhi, Bangalore, Hyderabad, Chennai as megacities; urbanization accelerating)
-- **Life expectancy:** 73 (improving — universal healthcare expansion, but air pollution and water quality constraints persist)
-- **Labor force participation:** 55% (declining — 40%+ graduate youth unemployment; informal sector dominates at ~90% of workforce)
-- **Primary languages:** Hindi, English, regional languages (Bengali, Telugu, Marathi, Tamil, Urdu, Gujarati, Kannada, Malayalam, Punjabi)
+- **Population:** 1.5B (slowly growing — approaching population peak; north-heavy distribution: UP, Bihar, Rajasthan collectively ~650M with higher TFR and lower HDI than the south)
+- **Age structure:** Median age 33, dependency ratio 48% — significant regional variation: southern states (Kerala, Tamil Nadu, Karnataka) median age ~37 and aging toward European patterns; northern states (UP, Bihar) median age ~27 with large youth bulge; the demographic dividend has become a demographic time bomb in the high-fertility north
+- **TFR:** 1.9 national average (below replacement — crossed ~2.1 threshold in the early 2020s); urban TFR ~1.5; rural north TFR ~2.5+; south TFR ~1.5
+- **Net migration:** -0.1%/yr (talent flight — educated professionals leave for Pacifica, Atlantica, European Federation, and Gulf; India loses ~300K high-skill workers/yr net); remittance inflow from Indian diaspora (~$100B/yr from 8M+ Gulf workers, ~5M in UK/US/Canada/Australia) partially offsets human capital loss
+- **Urbanization:** 45% (Mumbai ~23M, Delhi ~35M, Bangalore ~15M, Hyderabad ~12M, Chennai ~11M as megacities; urbanization accelerating — rural North India to Delhi-NCR and Mumbai corridors dominate internal migration flows)
+- **Life expectancy:** 73 (improving — universal healthcare expansion, but air pollution in Indo-Gangetic Plain and water quality constraints persist; south-north life expectancy gap ~7 years)
+- **Labor force participation:** 55% (declining — 40%+ graduate youth unemployment structural crisis; informal sector dominates at ~90% of workforce; female labor force participation ~25% nationally, higher in south and urban areas)
+- **Population distribution and diversity:** 22 official languages; Hindu majority (~80%) under RSS governance creates demographic politics (citizenship law, census religious tallying, disputed Muslim minority rights). 200M+ Muslims, 28M Christians, 24M Sikhs — minority demographics are politically contested under BJP governance.
+- **Diaspora:** Large Indian diaspora globally — 8M+ in Gulf (primary labor migration corridor), ~4M in UK/US/Canada/Australia (high-skill diaspora, tech and medical professionals). India is the world's #1 remittance recipient by 2050 (~$100B/yr).
+- **Internal migration:** Rural North India (UP, Bihar, Rajasthan) → Delhi-NCR, Mumbai, Surat, Bangalore, Hyderabad. Gulf labor corridor: Punjab, Kerala, Andhra Pradesh, Tamil Nadu sending states. Border pressure: India's 3,000km fence with Bangladesh is the frontline of climate migration pressure — 15M+ Bangladeshis displaced toward India's northeast (Assam, West Bengal), creating severe ethnic and political tensions in the border states.
 - **→ See KML: India**
 - → See transition doc: [demographics.md Driver 1](../../2026-2050-transition/demographics.md#driver-1-global-fertility-decline-and-population-aging)
+
+**Pakistan:**
+- **Population:** ~280M (continuing growth — TFR ~3.0 declining slowly; demographic dividend squandered by economic crisis and governance failure; Pakistan's population has more than doubled since 2000 despite deteriorating living conditions)
+- **Age structure:** Median age ~24, dependency ratio 65% — 40% of population under 18; extreme youth bulge that economic growth has not absorbed; this is a structural instability driver
+- **TFR:** ~3.0 national average (declining but slowly — urban TFR ~2.1, rural TFR ~4.0+; the demographic transition has not penetrated rural Punjab, Sindh, KP, or Balochistan at scale)
+- **Net migration:** -0.3%/yr (talent flight + Gulf labor migration; Pakistani diaspora in Gulf, UK, and US sends ~$30B/yr in remittances — the primary household income floor for most Pakistani families)
+- **Urbanization:** 42% (Lahore ~15M, Karachi ~20M — under severe stress from flooding, water shortage, heat mortality, and ethnic violence; Islamabad/Rawalpindi ~5M; Peshawar, Quetta as secondary centers)
+- **Internal displacement:** 5-8M internally displaced — Balochistan/KP conflict zones + recurrent catastrophic flooding (2022 pattern recurrent: 1/3 of country submerged in worst flood years); Sindhi coastal communities displaced by sea level rise and cyclone intensification
+- **Life expectancy:** 70 (stagnating — climate mortality from heat events, malnutrition in displacement camps, inadequate public health infrastructure in peripheral provinces)
+- **Primary languages:** Urdu (official), Punjabi (largest native speaker group), Sindhi, Pashto, Balochi, Saraiki
+- **→ See KML: Pakistan**
+
+**Bangladesh:**
+- **Population:** ~190M (approaching peak — TFR now ~1.7, below replacement; demographic transition accelerated by female garment labor force participation; Bangladesh has undergone one of the fastest demographic transitions in South Asian history)
+- **Age structure:** Median age ~30 (younger than India but aging rapidly — the garment-economy generation is middle-aged by 2050)
+- **TFR:** ~1.7 (below replacement — female factory employment broke traditional fertility patterns; urban TFR ~1.4, rural TFR ~2.0)
+- **Net migration:** -0.15%/yr (Gulf and Malaysia labor migration; India-Bangladesh bilateral climate-migration agreements by the 2040s absorb 2-3M Bangladeshis into northeast India under managed protocols — a partial regularization of what would otherwise be undocumented flows)
+- **Urbanization:** 52% (Dhaka ~25M — one of the world's most densely populated megacities; Chittagong, Sylhet, Rajshahi as secondary centers)
+- **Delta displacement — defining demographic dynamic:** ~15M internally displaced from delta zones to elevated urban centers (consistent with climate.md and demographics.md lines 79, 82 — Bangladesh delta is the single largest climate displacement source globally). The displacement is ongoing — coastal agricultural zones, fishing communities, and industrial areas in the delta are progressively abandoned as tidal flooding, saltwater intrusion, and cyclone intensity increase. The ~15M figure represents those already displaced; another 10-15M remain in at-risk zones.
+- **Life expectancy:** 76 (higher than Pakistan and near Indian levels — garment economy female empowerment has driven health and education improvements; universal primary healthcare expanding)
+- **Primary languages:** Bengali (Bangla) — near-universal first language; English in professional/export sectors
+- **→ See KML: Bangladesh**
+
+**Nepal:**
+- **Population:** ~35M (stable — TFR ~1.8, approaching replacement; large diaspora labor migration partially offsets natural increase; Nepal's population has stabilized faster than regional neighbors due to high out-migration rates)
+- **Age structure:** Median age ~29, dependency ratio 52%
+- **TFR:** ~1.8 (declining — urbanization and female education driving transition; Kathmandu Valley TFR ~1.5)
+- **Net migration:** -1.5%/yr (heavy Gulf and Malaysia labor migration — Nepal has one of the highest labor out-migration rates per capita in South Asia; ~4M Nepalis working abroad at any given time; Gulf remittances are the economic backbone of the majority of Nepali households)
+- **Urbanization:** 28% (Kathmandu Valley ~5M — extremely dense; Pokhara, Biratnagar, Birgunj as secondary centers; urbanization accelerating but constrained by the valley geography)
+- **Climate displacement:** 500K+ from high-altitude communities (above 3,000m) where glacier retreat has eliminated reliable water sources and agricultural viability; Mustang, Dolpo, and upper Khumbu communities have largely depopulated
+- **Life expectancy:** 73 (improving despite climate stress — remittance flows fund private healthcare and education)
+- **Primary languages:** Nepali (official), Maithili, Bhojpuri, Tharu, Tamang, Newari (Kathmandu Valley), Sherpa, Tibetan dialects
+- **→ See KML: Nepal**
+
+**Bhutan:**
+- **Population:** ~1M (small and stable — TFR ~1.7; GNH population ceiling — Bhutan has deliberately maintained a small, high-quality-of-life population model)
+- **Age structure:** Median age ~31, dependency ratio 46%
+- **TFR:** ~1.7 (below replacement — urbanization and GNH education policy; Thimphu TFR ~1.4)
+- **Net migration:** -0.5%/yr (educated youth to India and internationally — the "GNH happiness brain drain": Bhutan's investment in universal education produces graduates who leave for Indian and international opportunities, undermining the GNH model's demographic sustainability)
+- **Urbanization:** 55% (Thimphu ~150K — dominant urban center; Phuentsholing, Gelephu secondary)
+- **Climate displacement:** Glacial lake outburst flood (GLOF) displacement from high-altitude communities in the 2030s-2040s — several thousand internally displaced; Lunana, Laya, and other high-altitude settlements partially evacuated; GLOF risk is an existential threat to northern Bhutan's farming communities
+- **Life expectancy:** 76 (high by South Asian standards — GNH investment in universal healthcare and quality of life)
+- **Primary languages:** Dzongkha (official), Sharchop, Nepali (Lhotshampa community)
+- **→ See KML: Bhutan**
+
+**Sri Lanka:**
+- **Population:** ~22M (stable-to-declining — TFR ~1.6, below replacement; 2022 crisis emigration wave partially reversed by recovery)
+- **Age structure:** Median age ~35, dependency ratio 50% — aging faster than most South Asian neighbors; Sri Lanka has already passed through its demographic dividend window
+- **TFR:** ~1.6 (below replacement — urbanization, female education, economic disruption of the 2022 crisis suppressed fertility)
+- **Net migration:** -0.2%/yr (diaspora primarily in Gulf, UK, Australia, Italy; diaspora remittances ~$7B/yr; the 2022 economic collapse displaced ~200K internally and drove 500K+ emigration — a significant share returned as conditions improved by the 2030s)
+- **Urbanization:** 25% (Colombo metro ~4M; Kandy, Galle, Jaffna as secondary centers; Sri Lanka remains predominantly rural by South Asian standards)
+- **Post-crisis recovery:** Tamil minority (~11%) demographics stabilized after post-war reconciliation process — the northern and eastern provinces are recovering, though HDI remains below the national average. Sinhala majority (~74%) demographics follow national patterns. Muslim minority (~9%) concentrated in eastern province.
+- **Life expectancy:** 78 (high by South Asian standards — a legacy of the pre-crisis strong public health system; life expectancy survived the 2022 economic crisis despite healthcare system disruption)
+- **Primary languages:** Sinhala, Tamil (both official), English (professional/business)
+- **→ See KML: Sri Lanka**
+
+**Maldives:**
+- **Population:** ~600K peak (declining toward ~400K by 2050 due to climate relocation — Maldives has the highest net emigration rate of any Southern Asian state)
+- **Age structure:** Median age ~30, dependency ratio 48%
+- **TFR:** ~2.0 (near replacement — Maldives has not undergone the same fertility decline as wealthier South Asian states; population growth is overwhelmed by out-migration)
+- **Net migration:** -2.0%/yr (climate relocation — the defining demographic dynamic; higher net emigration rate than any other Southern Asian state)
+- **Urbanization (original atolls):** 40% resident (Malé historically extreme density ~65K/km² — partially relieved by Hulhumale reclaimed island relocation; Hulhumale now hosts ~200K residents)
+- **Climate relocation — defining demographic dynamic:** ~150-200K Maldivians relocated to Hulhumale reclaimed island or Indian climate-refuge settlements by 2050; ~400K remain on original atolls in elevated or engineered settlements. The Maldivian sovereign state is maintained legally and politically, but the population is physically dispersed — a diaspora nation with a residual territorial claim. Sea level rise of 0.35m+ has made the lowest-lying atolls functionally uninhabitable; managed retreat to Hulhumale and bilateral arrangements with India (climate-refuge settlement communities in Kerala and Tamil Nadu) are ongoing.
+- **Life expectancy:** 80 (high — the relocated population has access to Indian healthcare infrastructure; pre-relocation Maldivians had high life expectancy from tourism-sector wealth)
+- **Primary languages:** Dhivehi (official), English (tourism and government)
+- **→ See KML: Maldives**
+
+**Afghanistan:**
+- **Population:** ~50M (continuing growth despite conflict and displacement — TFR ~4.5, one of the world's highest; no demographic transition under Taliban because the primary driver of fertility decline — female education and labor force participation — has been actively reversed)
+- **Age structure:** Median age ~20, dependency ratio 80%+ — extreme youth bulge; 50%+ of population under 18; this is among the youngest population structures globally
+- **TFR:** ~4.5 (female labor force exclusion and ban on female secondary education removes the primary institutional drivers of fertility decline; TFR has stagnated or increased since Taliban takeover in 2021)
+- **Net migration:** -1.0%/yr (continued refugee outflows to Iran, Pakistan, Europe; 4-5M Afghan refugees abroad; the Taliban governance model does not produce the political stability required to reverse refugee flows; periodic surges during conflict events and drought years)
+- **Urbanization:** 30% (Kabul ~5M; Kandahar ~1M, Herat ~800K, Mazar-i-Sharif ~700K as secondary cities; rural Afghanistan remains tribal and subsistence-agricultural)
+- **Climate displacement:** 1-2M internally displaced from drought-affected northern and eastern provinces (Balkh, Baghlan, Kunduz, Nangarhar — climate-stressed agricultural zones experiencing multi-year drought); flooding in Helmand and Kandahar river systems also drives displacement
+- **Life expectancy:** 63 (lowest in Southern Asia — conflict mortality, maternal mortality (under Taliban women's healthcare restrictions), malnutrition, inadequate public health; life expectancy may have declined since 2021 from the pre-Taliban ~66)
+- **Primary languages:** Pashto, Dari (Persian) — both official; Uzbek, Turkmen, Hazaragi, Pashayi, Nuristani
+- **→ See KML: Afghanistan**
 
 **Japan:**
 - **Population:** 85M (declining rapidly — ~900K/year net loss; population has fallen ~35M from the 2020 peak of 128M)
