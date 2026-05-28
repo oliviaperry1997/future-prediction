@@ -491,16 +491,16 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **→ See KML: East African Federation**
 - → See transition doc: [demographics.md Driver 2](../../2026-2050-transition/demographics.md#driver-2-climate-driven-migration-acceleration), events T-09, T-15
 
-**ASEAN (collective):**
-- **Population:** 680M (slowly growing — approaching peak)
-- **Age structure:** Median age 34, dependency ratio 48%
-- **TFR:** 1.9 (below replacement — Vietnam, Thailand, Singapore below; Indonesia and Philippines at or near replacement)
-- **Net migration:** 0%/yr (mixed — Singapore and Malaysia attract skilled migrants; Indonesia and Philippines have net out-migration)
-- **Urbanization:** 55% (Jakarta, Bangkok, Ho Chi Minh City, Manila, Singapore, Kuala Lumpur, Hanoi as major urban centers)
-- **Life expectancy:** 76 (varying by country — Singapore at 85, Myanmar at 68; regional average ~76)
-- **Labor force participation:** 60% (manufacturing increasingly automated; services growing; agriculture labor-intensive; demographic dividend fading)
-- **Primary languages:** Multiple — Indonesian/Malay, Vietnamese, Thai, Tagalog, Burmese, Khmer, English (business lingua franca), Mandarin, Tamil
-- **→ See KML: ASEAN**
+**Southeast Asian Federation (SEAF, collective):**
+- **Population:** ~720M (Myanmar post-NUG integration adds population; approaching peak — fertility decline federation-wide; East Timor's young population adds modest growth)
+- **Age structure:** Median age 35, dependency ratio 50% (aging faster than ASEAN-era as fertility falls below replacement in most member states)
+- **TFR:** 1.8 (below replacement federation-wide — Vietnam at 1.4, Thailand at 1.5, Singapore at 1.1 among lowest; Indonesia at 2.1, Philippines at 2.3, East Timor at 2.8 near/above replacement; Myanmar at 2.0 post-conflict normalization; federation-wide average converging downward)
+- **Net migration:** +0.1%/yr (net recipient — intra-SEAF labor mobility replacing cross-border migration; Singapore and Malaysia attract skilled workers federation-wide; Brunei receives Indonesian and Filipino workers; Myanmar net out-migration within SEAF as economic integration proceeds)
+- **Urbanization:** 58% (Jakarta, Bangkok, Ho Chi Minh City, Manila, Singapore, Kuala Lumpur, Hanoi as SEAF megacities; Yangon recovering as Myanmar's urban center post-junta; SEAF-wide urbanization supported by internal migration and infrastructure investment)
+- **Life expectancy:** 77 (improving — Singapore at 86, Myanmar at 71 post-conflict (improving), East Timor at 72; SEAF-level health cooperation raising life expectancy in lower-income members)
+- **Labor force participation:** 61% (SEAF labor mobility replacing national labor market constraints; manufacturing automation at 30-50% in Vietnam, Thailand, Malaysia; Singapore near-full automation in services; agriculture labor-intensive but mechanizing; SEAF demographic dividend fading but Myanmar's younger cohort partially offsets)
+- **Primary languages:** Multiple — Indonesian/Malay (largest native base; SEAF working language), Vietnamese, Thai, Tagalog, Burmese, Khmer, English (SEAF lingua franca — business, government, federation institutions), Mandarin (required second language — SEAF educational policy), Tamil
+- **→ See KML: Southeast Asian Federation**
 - → See transition doc: [demographics.md Driver 1](../../2026-2050-transition/demographics.md#driver-1-global-fertility-decline-and-population-aging)
 
 **Russia:**
