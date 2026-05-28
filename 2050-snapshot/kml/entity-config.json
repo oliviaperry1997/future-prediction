@@ -1,5 +1,5 @@
 {
-  "description": "2050 World Map \u2014 Entity and overlay configuration for KML generation. Per D-19 (programmatic generation) and D-04 (rough polygon overlays).",
+  "description": "2050 World Map — Entity and overlay configuration for KML generation. Per D-19 (programmatic generation) and D-04 (rough polygon overlays).",
   "styles": {
     "default-polygon": {
       "lineColor": "ffb08155",
@@ -64,7 +64,7 @@
         "East African Federation",
         "Eritrea",
         "Ethiopia",
-        "La R\u00e9union",
+        "La Réunion",
         "Madagascar",
         "Malawi",
         "Mauritius",
@@ -83,7 +83,7 @@
         "Congo",
         "Equatorial Guinea",
         "Gabon",
-        "S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+        "São Tomé and Príncipe"
       ],
       "Northern Africa": [
         "Algeria",
@@ -103,7 +103,7 @@
         "Benin",
         "Cabo Verde",
         "Nigeria",
-        "C\u00f4te d'Ivoire",
+        "Côte d'Ivoire",
         "Federation of Sahel States",
         "Ghana",
         "Guinea",
@@ -122,7 +122,7 @@
         "British Virgin Is.",
         "Cayman Islands",
         "Cuba",
-        "Cura\u00e7ao",
+        "Curaçao",
         "Dominica",
         "Dominican Rep.",
         "Grenada",
@@ -135,7 +135,7 @@
         "Saba",
         "Saint Lucia",
         "Saint Martin",
-        "St. Barth\u00e9lemy",
+        "St. Barthélemy",
         "St. Eustatius",
         "St. Kitts and Nevis",
         "St. Vin. and Gren.",
@@ -266,10 +266,7 @@
         "Sri Lanka",
         "Afghanistan"
       ],
-      "Southern Europe": [
-        "Bosnia and Herzegovina",
-        "Serbia"
-      ]
+      "Southern Europe": []
     },
     "Oceania (wip)": {
       "Australasia (wip)": [
@@ -308,7 +305,7 @@
       "source": "manual",
       "manual_path": "source/manual/Pacifica.kml",
       "add_manual_paths": [
-        "source/manual/Tlingit Aan\u00ed.kml"
+        "source/manual/Tlingit Aaní.kml"
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "pacifica",
@@ -346,7 +343,7 @@
       "type": "entity",
       "category": "indigenous",
       "source": "none",
-      "description": "Autonomous indigenous zone within Atlantica territory. No separate polygon \u2014 represented by a point marker within NEC territory.",
+      "description": "Autonomous indigenous zone within Atlantica territory. No separate polygon — represented by a point marker within NEC territory.",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "haudenosaunee-confederacy",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#haudenosaunee-confederacy"
@@ -462,7 +459,7 @@
       "source": "admin1_merge",
       "country_code": "CAN",
       "admin1_provinces": [
-        "Qu\u00e9bec"
+        "Québec"
       ],
       "clip_lat": 55,
       "clip_side": "south",
@@ -535,7 +532,7 @@
       ],
       "merge_admin1": [
         {
-          "province": "Qu\u00e9bec",
+          "province": "Québec",
           "clip_lat": 55,
           "clip_side": "north"
         }
@@ -709,7 +706,9 @@
         "ALB",
         "KOS",
         "MNE",
-        "MKD"
+        "MKD",
+        "BIH",
+        "SRB"
       ],
       "preserve_holes": true,
       "min_hole_area": 0.01,
@@ -717,13 +716,13 @@
       "add_manual_paths": [
         "source/manual/Scotland.kml",
         "source/manual/NIreland.kml",
-        "source/manual/\u00c5land.kml"
+        "source/manual/Åland.kml"
       ],
       "subtract_admin1_per_code": {
         "FRA": [
           "Guadeloupe",
-          "Guyane fran\u00e7aise",
-          "La R\u00e9union",
+          "Guyane française",
+          "La Réunion",
           "Martinique",
           "Mayotte"
         ],
@@ -1340,24 +1339,6 @@
       "section_anchor": "belarus",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#belarus"
     },
-    "Bosnia and Herzegovina": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "BIH",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "bosnia-and-herzegovina",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#bosnia-and-herzegovina"
-    },
-    "Serbia": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "SRB",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "serbia",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#serbia"
-    },
     "Southeast Asian Federation": {
       "type": "entity",
       "category": "global",
@@ -1646,7 +1627,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "C\u00f4te d'Ivoire": {
+    "Côte d'Ivoire": {
       "type": "entity",
       "category": "global",
       "source": "country",
@@ -1740,7 +1721,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
+    "São Tomé and Príncipe": {
       "type": "entity",
       "category": "global",
       "source": "country",
@@ -1956,7 +1937,7 @@
       "category": "global",
       "source": "admin1",
       "country_code": "FRA",
-      "admin1_name": "Guyane fran\u00e7aise",
+      "admin1_name": "Guyane française",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "cayenne",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#cayenne"
@@ -2051,7 +2032,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Cura\u00e7ao": {
+    "Curaçao": {
       "type": "entity",
       "category": "global",
       "source": "group",
@@ -2148,12 +2129,12 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "La R\u00e9union": {
+    "La Réunion": {
       "type": "entity",
       "category": "global",
       "source": "admin1",
       "country_code": "FRA",
-      "admin1_name": "La R\u00e9union",
+      "admin1_name": "La Réunion",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
@@ -2178,7 +2159,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "St. Barth\u00e9lemy": {
+    "St. Barthélemy": {
       "type": "entity",
       "category": "global",
       "source": "country",
@@ -2286,7 +2267,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Aztl\u00e1n": {
+    "Aztlán": {
       "type": "entity",
       "category": "revolutionary",
       "source": "none",
@@ -2517,7 +2498,7 @@
         ]
       },
       {
-        "name": "Extreme Heat \u2014 Persian Gulf",
+        "name": "Extreme Heat — Persian Gulf",
         "type": "rough_polygon",
         "description": "See: 2050-snapshot/domains/climate.md#west-asia--middle-east",
         "approximate_coords": [
@@ -2837,7 +2818,7 @@
     ],
     "demographics": [
       {
-        "name": "Demographic Profile Reference \u2014 PPR",
+        "name": "Demographic Profile Reference — PPR",
         "type": "entity_copy",
         "source_entity": "Pacifica",
         "description": "See: 2050-snapshot/domains/demographics.md#pacific-peoples-republic"
@@ -2851,7 +2832,7 @@
     ],
     "culture": [
       {
-        "name": "Cultural Profile Reference \u2014 Pacifica",
+        "name": "Cultural Profile Reference — Pacifica",
         "type": "entity_copy",
         "source_entity": "Pacifica",
         "description": "See: 2050-snapshot/domains/culture.md#pacific-peoples-republic"
