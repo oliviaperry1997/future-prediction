@@ -88,7 +88,7 @@ Region-by-region plausibility audit for the 2050 snapshot. Each requirement cove
 - [ ] **EURA-04**: Northern Europe — review complete
 - [x] **EURA-05**: Southeast Asia — review complete
 - [ ] **EURA-06**: Southern Asia — review complete
-- [ ] **EURA-07**: Southern Europe — review complete
+- [x] **EURA-07**: Southern Europe — review complete
 - [ ] **EURA-08**: Western Asia — review complete
 - [ ] **EURA-09**: Western Europe — review complete
 
@@ -156,7 +156,7 @@ Region-by-region plausibility audit for the 2050 snapshot. Each requirement cove
 | EURA-04 | Phase 9 | Pending |
 | EURA-05 | Phase 10 | Complete |
 | EURA-06 | Phase 11 | Pending |
-| EURA-07 | Phase 12 | Pending |
+| EURA-07 | Phase 12 | Complete |
 | EURA-08 | Phase 13 | Pending |
 | EURA-09 | Phase 14 | Pending |
 | OCEA-01 | Phase 15 | Pending |

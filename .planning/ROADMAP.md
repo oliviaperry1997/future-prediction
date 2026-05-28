@@ -374,7 +374,7 @@ Plans:
 | 9. Northern Europe Review | 0/3 | Planned | — |
 | 10. Southeast Asia Review | 4/4 | Complete   | 2026-05-28 |
 | 11. Southern Asia Review | 3/4 | In Progress|  |
-| 12. Southern Europe Review | 4/4 | Complete   | 2026-05-28 |
+| 12. Southern Europe Review | 5/6 | In Progress|  |
 | 13. Western Asia Review | — | Not started | — |
 | 14. Western Europe Review | — | Not started | — |
 | 15. Australasia Review | — | Not started | — |
