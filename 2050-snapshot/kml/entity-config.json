@@ -250,6 +250,7 @@
         "Saudi Arabia",
         "Syria",
         "Turkey",
+        "Northern Cyprus",
         "United Arab Emirates",
         "Yemen"
       ],
@@ -779,6 +780,15 @@
       "category": "global",
       "source": "country",
       "country_code": "TUR",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "turkey",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#turkey"
+    },
+    "Northern Cyprus": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "CYN",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "turkey",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#turkey"
