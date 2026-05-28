@@ -60260,6 +60260,19 @@
               </outerBoundaryIs>
             </Polygon>
           </Placemark>
+          <Placemark>
+            <name>Pakistan</name>
+            <styleUrl>#__managed_style_0000000000000147</styleUrl>
+            <description>See: 2050-snapshot/domains/borders-geopolitics.md</description>
+            <Polygon>
+              <altitudeMode>clampToGround</altitudeMode>
+              <outerBoundaryIs>
+                <LinearRing>
+                  <coordinates>77.048971,35.110442,0 76.777351,35.646112,0 76.824592,35.647799,0 76.842989,35.641288,0 76.880506,35.600670,0 76.915026,35.583152,0 77.058169,35.580103,0 77.105298,35.537987,0 77.141265,35.525378,0 77.281102,35.528013,0 77.383731,35.471996,0 77.512199,35.478456,0 77.660613,35.458095,0 77.689655,35.462694,0 77.760349,35.498093,0 77.800346,35.495406,0 77.048971,35.110442,0</coordinates>
+                </LinearRing>
+              </outerBoundaryIs>
+            </Polygon>
+          </Placemark>
         </Folder>
         <Folder>
           <name>Sri Lanka</name>
