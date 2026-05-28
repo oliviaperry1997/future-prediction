@@ -1336,7 +1336,6 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
         nonlocal styles_list, style_maps_list
         
         color_info = user_colors.get(entity_name)
-        
         if color_info:
             kml_fill = color_info.get("kml_fill", "80586b34")
             kml_line = color_info.get("kml_line", "ff" + kml_fill[2:])
@@ -1438,13 +1437,31 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
             if geom is not None:
                 # Subtract admin-1 regions from country polygon
                 subtract_admin1 = entity_cfg.get("subtract_admin1", [])
+                subtract_buffer = entity_cfg.get("subtract_buffer", 0)
                 if subtract_admin1 and admin1_data:
                     for region_name in subtract_admin1:
                         admin1_geom = admin1_data.get((country_code, region_name))
                         if admin1_geom is not None:
+                            if subtract_buffer > 0:
+                                admin1_geom = admin1_geom.buffer(subtract_buffer)
                             geom = geom.difference(admin1_geom)
                         else:
                             entity_errors.append(f"  [{entity_name}] Subtract admin1 '{region_name}' not found")
+                    geom = remove_slivers(geom)
+                
+                # Subtract admin-1 regions with explicit country code (for regions like
+                # Crimea which are keyed under a different country in NE admin1 data)
+                subtract_admin1_per_code = entity_cfg.get("subtract_admin1_per_code", {})
+                if subtract_admin1_per_code and admin1_data:
+                    for code, region_names in subtract_admin1_per_code.items():
+                        for region_name in region_names:
+                            admin1_geom = admin1_data.get((code, region_name))
+                            if admin1_geom is not None:
+                                if subtract_buffer > 0:
+                                    admin1_geom = admin1_geom.buffer(subtract_buffer)
+                                geom = geom.difference(admin1_geom)
+                            else:
+                                entity_errors.append(f"  [{entity_name}] subtract_admin1_per_code admin1 '{region_name}' in {code} not found")
                     geom = remove_slivers(geom)
                 
                 # Subtract manual KML geometries from country polygon (e.g., Canada fragmentation)
@@ -1855,6 +1872,83 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                 
                 merged = merge_polygons(geoms)
                 if merged is not None:
+                    # Small buffer to fill tiny gaps between member country
+                    # boundaries before subtraction and simplification
+                    unify_buffer = entity_cfg.get("unify_buffer", 0)
+                    if unify_buffer > 0:
+                        merged = merged.buffer(unify_buffer).buffer(-unify_buffer)
+                    
+                    # Subtract admin-1 regions with explicit country code
+                    # (e.g., overseas territories from EU polygon)
+                    subtract_per_code = entity_cfg.get("subtract_admin1_per_code", {})
+                    if subtract_per_code and admin1_data:
+                        for code, region_names in subtract_per_code.items():
+                            for region_name in region_names:
+                                admin1_geom = admin1_data.get((code, region_name))
+                                if admin1_geom is not None:
+                                    merged = merged.difference(admin1_geom)
+                                else:
+                                    entity_errors.append(f"  [{entity_name}] subtract_admin1_per_code admin1 '{region_name}' in {code} not found")
+                        merged = remove_slivers(merged)
+                    
+                    # Subtract manual KML geometries from merged polygon
+                    subtract_manual_paths = entity_cfg.get("subtract_manual_paths", [])
+                    if subtract_manual_paths:
+                        for manual_path in subtract_manual_paths:
+                            full_path = os.path.join(os.path.dirname(__file__), manual_path)
+                            if os.path.exists(full_path):
+                                manual_tree = etree.parse(full_path)
+                                manual_polys = []
+                                for coord_el in manual_tree.findall(f".//{{{NS}}}coordinates"):
+                                    if coord_el.text:
+                                        p = parse_coordinates_to_polygon(coord_el.text.strip())
+                                        if p is not None:
+                                            if not p.is_valid:
+                                                p = p.buffer(0)
+                                            if p is not None and not p.is_empty and p.is_valid:
+                                                manual_polys.append(p)
+                                if manual_polys:
+                                    sub_geom = unary_union(manual_polys) if len(manual_polys) > 1 else manual_polys[0]
+                                    subtract_buffer = entity_cfg.get("subtract_buffer", 0.003)
+                                    sub_buffered = sub_geom.buffer(subtract_buffer, join_style=2)
+                                    merged = merged.difference(sub_buffered)
+                            else:
+                                entity_errors.append(f"  [{entity_name}] subtract_manual_paths not found: {manual_path}")
+                        merged = remove_slivers(merged)
+                    
+                    # Add manual KML geometries to merged polygon
+                    add_manual_paths = entity_cfg.get("add_manual_paths", [])
+                    if add_manual_paths:
+                        for manual_path in add_manual_paths:
+                            full_path = os.path.join(os.path.dirname(__file__), manual_path)
+                            if os.path.exists(full_path):
+                                manual_tree = etree.parse(full_path)
+                                manual_polys = []
+                                for coord_el in manual_tree.findall(f".//{{{NS}}}coordinates"):
+                                    if coord_el.text:
+                                        p = parse_coordinates_to_polygon(coord_el.text.strip())
+                                        if p is not None:
+                                            if not p.is_valid:
+                                                p = p.buffer(0)
+                                            if p is not None and not p.is_empty and p.is_valid:
+                                                manual_polys.append(p)
+                                if manual_polys:
+                                    add_geom = unary_union(manual_polys) if len(manual_polys) > 1 else manual_polys[0]
+                                    merged = merged.union(add_geom)
+                            else:
+                                entity_errors.append(f"  [{entity_name}] add_manual_paths not found: {manual_path}")
+                    
+                    # Add additional country codes (e.g., Faroe Islands → European Federation)
+                    add_country_codes = entity_cfg.get("add_country_codes", [])
+                    if add_country_codes:
+                        for cc in add_country_codes:
+                            g = global_by_code.get(cc)
+                            if g is not None:
+                                merged = merged.union(g)
+                            else:
+                                entity_errors.append(f"  [{entity_name}] add_country_codes '{cc}' not found")
+                        merged = remove_slivers(merged)
+                    
                     prepared = prepare_for_output(merged, entity_cfg)
                     coords = geom_to_coords(prepared)
                     if coords:

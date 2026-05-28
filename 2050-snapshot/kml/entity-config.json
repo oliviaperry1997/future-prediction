@@ -232,7 +232,7 @@
         "Ukraine"
       ],
       "Northern Europe": [
-        "United Kingdom"
+        "England"
       ],
       "Southeast Asia (wip)": [
         "Brunei",
@@ -619,30 +619,36 @@
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#gran-colombia"
     },
 
-    "United Kingdom": {
+    "England": {
       "type": "entity",
       "category": "global",
       "source": "group",
       "keep_unified": true,
       "country_codes": [
         "GBR",
-        "SHN"
+        "SHN",
+        "IMN",
+        "JEY",
+        "GGY"
       ],
-      "classification": "revolutionary (late flip ~2045-2048)",
-      "notes": "Scotland exited ~2035-2038 to join EU; Isle of Man, Channel Islands remain as Crown Dependencies",
+      "subtract_manual_paths": [
+        "source/manual/Scotland.kml",
+        "source/manual/NIreland.kml"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "united-kingdom",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#united-kingdom"
+      "section_anchor": "england",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#england"
     },
     "European Federation": {
       "type": "entity",
       "category": "global",
       "source": "group",
       "keep_unified": true,
-      "country_codes": ["POL", "CZE", "SVK", "HUN", "ROU", "BGR", "DNK", "EST", "FIN", "IRL", "ISL", "LVA", "LTU", "SWE", "AUT", "BEL", "FRA", "DEU", "LUX", "NLD", "NOR", "HRV", "CYP", "GRC", "ITA", "MLT", "PRT", "SVN", "ESP", "MDA", "ATF"],
+      "country_codes": ["POL", "CZE", "SVK", "HUN", "ROU", "BGR", "DNK", "EST", "FIN", "IRL", "ISL", "LVA", "LTU", "SWE", "AUT", "BEL", "FRA", "DEU", "LUX", "NLD", "NOR", "HRV", "CYP", "GRC", "ITA", "MLT", "PRT", "SVN", "ESP", "MDA", "ATF", "FRO"],
       "preserve_holes": true,
       "min_hole_area": 0.01,
       "unify_buffer": 0.002,
+      "add_manual_paths": ["source/manual/Scotland.kml", "source/manual/NIreland.kml", "source/manual/Åland.kml"],
       "subtract_admin1_per_code": {
         "FRA": ["Guadeloupe", "Guyane française", "La Réunion", "Martinique", "Mayotte"],
         "NLD": ["Bonaire", "Saba", "St. Eustatius"]
@@ -940,6 +946,7 @@
       "type": "entity",
       "category": "global",
       "source": "group",
+      "keep_unified": true,
       "country_codes": [
         "PRK"
       ],
@@ -951,6 +958,7 @@
       "type": "entity",
       "category": "global",
       "source": "group",
+      "keep_unified": true,
       "country_codes": [
         "KOR"
       ],
@@ -1335,16 +1343,6 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Åland Islands": {
-      "type": "entity",
-      "category": "subnational",
-      "source": "placemark",
-      "country_code": "ALA",
-      "parent_entity": "European Federation",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "european-union",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#european-union"
     },
     "Mongolia": {
       "type": "entity",

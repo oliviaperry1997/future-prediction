@@ -515,22 +515,28 @@
     "kml_line": "ff46d1f2",
     "width": 1.0
   },
-  "North Korea": {
+  "DPRK": {
     "hex": "#971d13",
     "kml_fill": "80131d97",
     "kml_line": "ff131d97",
     "width": 1.0
   },
-  "South Korea": {
+  "ROK": {
     "hex": "#123374",
     "kml_fill": "80743312",
     "kml_line": "ff743312",
     "width": 1.0
   },
+  "European Federation": {
+    "hex": "#012F9A",
+    "kml_fill": "809a2f01",
+    "kml_line": "ff9a2f01",
+    "width": 1.0
+  },
   "Belarus": {
-    "hex": "#a13a22",
-    "kml_fill": "80223aa1",
-    "kml_line": "ff223aa1",
+    "hex": "#A19E77",
+    "kml_fill": "80779ea1",
+    "kml_line": "ff779ea1",
     "width": 1.0
   },
   "Bulgaria": {
@@ -582,9 +588,9 @@
     "width": 1.0
   },
   "Ukraine": {
-    "hex": "#2458b3",
-    "kml_fill": "80b35824",
-    "kml_line": "ffb35824",
+    "hex": "#FFAD00",
+    "kml_fill": "8000adff",
+    "kml_line": "ff00adff",
     "width": 1.0
   },
   "Denmark": {
@@ -641,7 +647,7 @@
     "kml_line": "ffa03325",
     "width": 1.0
   },
-  "United Kingdom": {
+  "England": {
     "hex": "#a92216",
     "kml_fill": "801622a9",
     "kml_line": "ff1622a9",
@@ -939,12 +945,6 @@
     "hex": "#bdac39",
     "kml_fill": "8039acbd",
     "kml_line": "ff39acbd",
-    "width": 1.0
-  },
-  "France": {
-    "hex": "#4770dc",
-    "kml_fill": "80dc7047",
-    "kml_line": "ffdc7047",
     "width": 1.0
   },
   "Germany": {

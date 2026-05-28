@@ -211,9 +211,22 @@ Plans:
 **Depends on**: Phase 8
 **Requirements**: EURA-04
 **Success Criteria** (what must be TRUE):
-  1. All 10 Northern European entities assessed — no contradictions
-  2. KML entities for Northern Europe correct in Google Earth Pro
-  3. All documentation gaps for Northern European entities identified and filled
+   1. All 10 Northern European entities assessed — no contradictions
+   2. KML entities for Northern Europe correct in Google Earth Pro
+   3. All documentation gaps for Northern European entities identified and filled
+**Plans**: 3 plans
+
+Plans:
+- [x] 09-01-PLAN.md — KML & Entity Config: Northern Europe restructuring (Wave 1)
+- [x] 09-02-PLAN.md — Borders-Geopolitics: UK late-revolutionary update (Wave 1, parallel)
+- [x] 09-03-PLAN.md — Domain docs: verify EU collective covers Northern members (Wave 2)
+
+**Cross-cutting constraints:**
+- Plans 01 and 02 are parallel (Wave 1) — KML + entity-config edits and borders-geopolitics don't conflict
+- Plan 03 (Wave 2) depends on Plan 02 (needs borders-geopolitics UK entry for domain doc cross-references)
+- Per D-12/D-13: No individual domain profiles for Northern EU members — EU collective profile is sufficient
+- Per D-15: Northern Europe KML = UK-only folder; all others merged into European Federation
+- Per D-16: NOR+ISL added to European Federation country_codes; Phase 8 leftover EU member entries cleaned up
 
 ### Phase 10: Southeast Asia Review
 **Mode**: mvp
@@ -328,8 +341,8 @@ Plans:
 | 5. 2050 KML Maps & Integration | 2/3 | Paused | — |
 | 6. Central Asia Review | 4/4 | Complete   | 2026-05-27 |
 | 7. Eastern Asia Review | 4/4 | Complete   | 2026-05-27 |
-| 8. Eastern Europe Review | 0/4 | Planned | — |
-| 9. Northern Europe Review | — | Not started | — |
+| 8. Eastern Europe Review | 5/5 | Complete | 2026-05-27 |
+| 9. Northern Europe Review | 0/3 | Planned | — |
 | 10. Southeast Asia Review | — | Not started | — |
 | 11. Southern Asia Review | — | Not started | — |
 | 12. Southern Europe Review | — | Not started | — |
