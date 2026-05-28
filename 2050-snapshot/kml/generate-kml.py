@@ -2364,6 +2364,19 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
         elif isinstance(node, list):
             if len(node) > 0:
                 for entity_name in node:
+                    # Support dict items {"EntityName": ["Child1", "Child2"]} to nest
+                    # child entity folders inside a parent entity's folder
+                    if isinstance(entity_name, dict):
+                        for parent_name, child_names in entity_name.items():
+                            parent_folder = build_entity_folder(parent_name, entity_polygons, config)
+                            parent_placemarks = list(parent_folder) if parent_folder is not None else []
+                            sub_children = list(parent_placemarks)
+                            for cname in child_names:
+                                cf = build_entity_folder(cname, entity_polygons, config)
+                                if cf is not None:
+                                    sub_children.append(cf)
+                            children.append(make_folder(parent_name, sub_children))
+                        continue
                     if entity_name in groups_expanded:
                         sub_children = []
                         for cname in groups_expanded[entity_name]:

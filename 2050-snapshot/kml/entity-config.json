@@ -249,8 +249,7 @@
         "Qatar",
         "Saudi Arabia",
         "Syria",
-        "Turkey",
-        "Northern Cyprus",
+        {"Turkey": ["Northern Cyprus"]},
         "United Arab Emirates",
         "Yemen"
       ],

@@ -57528,6 +57528,7 @@
         </Folder>
         <Folder>
           <name>Turkey</name>
+          <name>Turkey</name>
           <Placemark>
             <name>Turkey</name>
             <styleUrl>#__managed_style_00000000000000BA</styleUrl>
@@ -57600,35 +57601,35 @@
               </outerBoundaryIs>
             </Polygon>
           </Placemark>
-        </Folder>
-        <Folder>
-          <name>Northern Cyprus</name>
-          <Placemark>
+          <Folder>
             <name>Northern Cyprus</name>
-            <styleUrl>#__managed_style_0000000000000063</styleUrl>
-            <description>See: 2050-snapshot/domains/borders-geopolitics.md#turkey</description>
-            <Polygon>
-              <altitudeMode>clampToGround</altitudeMode>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>32.626204,35.165090,0 32.602743,35.174340,0 32.640694,35.187077,0 32.626204,35.165090,0</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
-          <Placemark>
-            <name>Northern Cyprus</name>
-            <styleUrl>#__managed_style_0000000000000063</styleUrl>
-            <description>See: 2050-snapshot/domains/borders-geopolitics.md#turkey</description>
-            <Polygon>
-              <altitudeMode>clampToGround</altitudeMode>
-              <outerBoundaryIs>
-                <LinearRing>
-                  <coordinates>33.912896,35.065923,0 33.876206,35.118994,0 33.866904,35.066750,0 33.766135,35.031610,0 33.707585,35.029284,0 33.714717,35.066750,0 33.670999,35.030834,0 33.578963,35.035485,0 33.540671,35.073054,0 33.493852,35.056621,0 33.476799,35.002722,0 33.476799,35.094810,0 33.413547,35.199403,0 33.315258,35.161886,0 33.157490,35.185295,0 32.854924,35.079152,0 32.710592,35.175322,0 32.828380,35.148586,0 32.892589,35.175035,0 32.934744,35.270575,0 32.920421,35.397773,0 33.427501,35.328925,0 33.660330,35.359320,0 34.035622,35.471383,0 34.181651,35.554185,0 34.592540,35.691962,0 34.572765,35.643541,0 34.137706,35.415107,0 34.058930,35.324123,0 33.951671,35.311510,0 33.912120,35.259996,0 33.899913,35.164455,0 34.012289,35.063795,0 33.912896,35.065923,0</coordinates>
-                </LinearRing>
-              </outerBoundaryIs>
-            </Polygon>
-          </Placemark>
+            <Placemark>
+              <name>Northern Cyprus</name>
+              <styleUrl>#__managed_style_0000000000000063</styleUrl>
+              <description>See: 2050-snapshot/domains/borders-geopolitics.md#turkey</description>
+              <Polygon>
+                <altitudeMode>clampToGround</altitudeMode>
+                <outerBoundaryIs>
+                  <LinearRing>
+                    <coordinates>32.626204,35.165090,0 32.602743,35.174340,0 32.640694,35.187077,0 32.626204,35.165090,0</coordinates>
+                  </LinearRing>
+                </outerBoundaryIs>
+              </Polygon>
+            </Placemark>
+            <Placemark>
+              <name>Northern Cyprus</name>
+              <styleUrl>#__managed_style_0000000000000063</styleUrl>
+              <description>See: 2050-snapshot/domains/borders-geopolitics.md#turkey</description>
+              <Polygon>
+                <altitudeMode>clampToGround</altitudeMode>
+                <outerBoundaryIs>
+                  <LinearRing>
+                    <coordinates>33.912896,35.065923,0 33.876206,35.118994,0 33.866904,35.066750,0 33.766135,35.031610,0 33.707585,35.029284,0 33.714717,35.066750,0 33.670999,35.030834,0 33.578963,35.035485,0 33.540671,35.073054,0 33.493852,35.056621,0 33.476799,35.002722,0 33.476799,35.094810,0 33.413547,35.199403,0 33.315258,35.161886,0 33.157490,35.185295,0 32.854924,35.079152,0 32.710592,35.175322,0 32.828380,35.148586,0 32.892589,35.175035,0 32.934744,35.270575,0 32.920421,35.397773,0 33.427501,35.328925,0 33.660330,35.359320,0 34.035622,35.471383,0 34.181651,35.554185,0 34.592540,35.691962,0 34.572765,35.643541,0 34.137706,35.415107,0 34.058930,35.324123,0 33.951671,35.311510,0 33.912120,35.259996,0 33.899913,35.164455,0 34.012289,35.063795,0 33.912896,35.065923,0</coordinates>
+                  </LinearRing>
+                </outerBoundaryIs>
+              </Polygon>
+            </Placemark>
+          </Folder>
         </Folder>
         <Folder>
           <name>United Arab Emirates</name>
