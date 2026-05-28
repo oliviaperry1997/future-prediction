@@ -4,8 +4,8 @@ milestone: v1.1
 milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
 status: verifying
 stopped_at: Phase 12 context gathered
-last_updated: "2026-05-28T22:41:44.157Z"
-last_activity: 2026-05-28
+last_updated: "2026-05-29T00:00:00.000Z"
+last_activity: 2026-05-29
 progress:
   total_phases: 19
   completed_phases: 6
@@ -101,6 +101,18 @@ Phase 1 locked decisions from discuss-phase (see `01-CONTEXT.md` for full detail
 - [Phase 11 Plan 04]: India culture expanded (RSS project, Hindi wars, Bollywood $4B, 35M+ diaspora); 7 new Southern Asia cultural profiles added (Pakistan–Afghanistan) to culture.md; Southern Asia entity-level climate subsection added to climate.md (GLOF, delta flooding, Maldives existential, Afghanistan drought)
 
 - [Phase 11 post-execution]: Siachen Glacier polygon (formerly unclaimed in Natural Earth source, lon 76.8-77.8 lat 35.1-35.6) assigned to Pakistan and merged into Pakistan's main body via shapely unary_union. Pakistan in borders.kml now has 2 polygons (merged northern body 462 pts + small coastal exclave). Do NOT treat as a separate entity or revert to 3 polygons in future phases.
+
+- [Phase 12 gap-closure]: Western Balkans (Bosnia-Herzegovina BIH, Serbia SRB) removed as standalone entities; added to European Federation country_codes. Southern Europe folder in folder_hierarchy is now intentionally empty.
+
+- [Phase 12 gap-closure]: Andorra (AND), Monaco (MCO), Gibraltar (GIB) added to European Federation country_codes. All three are present in Natural Earth 10m source. Monaco (~2 km²) is absorbed into the mainland EF polygon after 0.02° simplification and will not appear as a distinct polygon — this is expected. Melilla is absent from Natural Earth source at all resolutions; skipped.
+
+- [Phase 12 gap-closure]: Turkey entity (TUR) added to Eurasia > Western Asia (wip) folder in folder_hierarchy. It was previously defined in entities but missing from the hierarchy.
+
+- [Phase 12 gap-closure]: Northern Cyprus merged into Turkey's polygon via `add_country_codes: ["CYN"]` on the Turkey entity. Northern Cyprus is NOT a standalone entity — do not add it back as a separate entry in entities or folder_hierarchy. The CYN polygons (bounds ~[32.6, 35.0, 34.6, 35.7]) appear as part of Turkey's 8-placemark folder alongside the Aegean islands and mainland.
+
+- [Phase 12 gap-closure]: generate-kml.py bug fixed — `source: "group"` processing was unconditionally overwriting entity_polygons for member country names (e.g., the Quartet group was overwriting Turkey's polygon with a plain TUR shape, discarding the CYN union). Fixed with a guard: group processing skips overwrite if entity_polygons already contains the country name.
+
+- [Phase 12 gap-closure]: generate-kml.py extended — folder_hierarchy list items now support dict format `{"ParentEntity": ["Child1", "Child2"]}` to nest child entity folders inside a parent entity's folder. This feature exists but is not currently used (Turkey/N.Cyprus uses the polygon-merge approach instead).
 
 ### Pending Todos
 
