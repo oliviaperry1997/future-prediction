@@ -60381,6 +60381,8 @@
           </Placemark>
         </Folder>
       </Folder>
+      <Folder>
+        <name>Western Asia (wip)</name>
         <Folder>
           <name>Turkey</name>
           <Placemark>
@@ -60463,45 +60465,43 @@
               <altitudeMode>clampToGround</altitudeMode>
               <outerBoundaryIs>
                 <LinearRing>
-                  <!-- Northern Cyprus approximate coordinates (Attila Line and north coast): -->
-                  <!-- Attila Line runs roughly E-W across Cyprus at ~35.11°N to ~35.18°N -->
-                  <!-- Northern Cyprus: northern portion of the island from Attila Line to north coast -->
-                  <!-- TODO: Replace with precise Northern Cyprus polygon from Cyprus boundary source -->
-                  <!-- Approximate bounding box for Northern Cyprus territory: -->
+                  <!-- Northern Cyprus (TRNC) — Attila Line boundary (Green Line ceasefire 1974, formalized 2035) -->
+                  <!-- Polygon traces: NW coast → Attila Line eastward → SE coast → Famagusta → NE cape → NW coast -->
                   <coordinates>
-                    32.280000,35.118000,0
-                    32.458000,35.185000,0
-                    32.681000,35.249000,0
-                    32.924000,35.297000,0
-                    33.148000,35.321000,0
-                    33.379000,35.337000,0
-                    33.613000,35.354000,0
-                    33.820000,35.395000,0
-                    33.973000,35.422000,0
-                    34.079000,35.353000,0
-                    34.111000,35.272000,0
-                    34.085000,35.186000,0
-                    33.950000,35.098000,0
-                    33.817000,35.051000,0
-                    33.680000,35.018000,0
-                    33.552000,35.017000,0
-                    33.402000,35.038000,0
-                    33.254000,35.063000,0
-                    33.085000,35.094000,0
-                    32.926000,35.110000,0
-                    32.739000,35.114000,0
-                    32.569000,35.108000,0
-                    32.421000,35.096000,0
-                    32.316000,35.092000,0
-                    32.280000,35.118000,0
+                    32.685000,35.175000,0
+                    32.920000,35.195000,0
+                    33.085000,35.172000,0
+                    33.198000,35.147000,0
+                    33.355000,35.098000,0
+                    33.516000,35.108000,0
+                    33.657000,35.118000,0
+                    33.782000,35.120000,0
+                    33.950000,35.122000,0
+                    34.085000,35.152000,0
+                    34.285000,35.298000,0
+                    34.422000,35.415000,0
+                    34.503000,35.485000,0
+                    34.598000,35.584000,0
+                    34.600000,35.640000,0
+                    34.420000,35.668000,0
+                    34.205000,35.625000,0
+                    33.985000,35.601000,0
+                    33.730000,35.580000,0
+                    33.480000,35.558000,0
+                    33.220000,35.530000,0
+                    33.000000,35.520000,0
+                    32.810000,35.488000,0
+                    32.620000,35.420000,0
+                    32.490000,35.340000,0
+                    32.380000,35.260000,0
+                    32.285000,35.195000,0
+                    32.685000,35.175000,0
                   </coordinates>
                 </LinearRing>
               </outerBoundaryIs>
             </Polygon>
           </Placemark>
         </Folder>
-      <Folder>
-        <name>Western Asia (wip)</name>
         <Folder>
           <name>Bahrain</name>
           <Placemark>
