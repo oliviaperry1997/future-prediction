@@ -19,6 +19,7 @@ decisions:
   - "(wip) removed from Southern Asia — region audit Phase 11 is now in progress"
   - "Afghanistan moved from Central Asia to Southern Asia in both entity-config and KML"
   - "All 7 non-India Southern Asia entities now have explicit section_anchor fields"
+  - "Siachen Glacier polygon (formerly unclaimed, lon 76.8-77.8 lat 35.1-35.6) assigned to Pakistan and merged into Pakistan main body via shapely unary_union — Pakistan now has 2 polygons (merged northern body 462 pts + small coastal exclave). Do NOT re-add Siachen as a separate entity or revert Pakistan to 3 polygons."
 metrics:
   duration: ~5m
   completed: 2026-05-28

@@ -100,6 +100,8 @@ Phase 1 locked decisions from discuss-phase (see `01-CONTEXT.md` for full detail
 
 - [Phase 11 Plan 04]: India culture expanded (RSS project, Hindi wars, Bollywood $4B, 35M+ diaspora); 7 new Southern Asia cultural profiles added (Pakistan–Afghanistan) to culture.md; Southern Asia entity-level climate subsection added to climate.md (GLOF, delta flooding, Maldives existential, Afghanistan drought)
 
+- [Phase 11 post-execution]: Siachen Glacier polygon (formerly unclaimed in Natural Earth source, lon 76.8-77.8 lat 35.1-35.6) assigned to Pakistan and merged into Pakistan's main body via shapely unary_union. Pakistan in borders.kml now has 2 polygons (merged northern body 462 pts + small coastal exclave). Do NOT treat as a separate entity or revert to 3 polygons in future phases.
+
 ### Pending Todos
 
 None yet.
