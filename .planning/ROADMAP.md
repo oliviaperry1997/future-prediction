@@ -277,6 +277,15 @@ Plans:
   1. All 15 Southern European entities assessed — no contradictions
   2. KML entities for Southern Europe correct in Google Earth Pro
   3. All documentation gaps for Southern European entities identified and filled
+**Plans**: 4 plans
+
+Plans:
+- [ ] 12-01-PLAN.md — KML restructure: Southern Europe (wip) → Southern Europe, Turkey extracted, Balkans resolved, Northern Cyprus sub-polygon added (Wave 1)
+- [ ] 12-02-PLAN.md — borders-geopolitics.md: 8 EU member sub-entries, Western Balkans entries, Greco-Turkish conflict, Cyprus partition, microstates (Wave 1)
+- [ ] 12-03-PLAN.md — economy.md + demographics.md: all Southern European entities (Wave 2, depends on 02)
+- [ ] 12-04-PLAN.md — culture.md + climate.md: all Southern European entities (Wave 2, depends on 02)
+
+**Wave 2** *(blocked on Wave 1 completion)*
 
 ### Phase 13: Western Asia Review
 **Mode**: mvp
