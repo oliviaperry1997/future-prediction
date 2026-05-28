@@ -235,7 +235,7 @@ Plans:
 **Requirements**: EURA-05
 **Plans**: 4 plans
 Plans:
-- [ ] 10-01-PLAN.md — entity-config.json SEAF entry + borders.kml Southeast Asia folder restructure
+- [x] 10-01-PLAN.md — entity-config.json SEAF entry + borders.kml Southeast Asia folder restructure
 - [ ] 10-02-PLAN.md — borders-geopolitics.md SEAF collective + 11 sub-entries
 - [ ] 10-03-PLAN.md — economy.md + demographics.md SEAF collective entries
 - [ ] 10-04-PLAN.md — culture.md ASEAN → SEAF entry; climate.md + technology.md verification
@@ -349,7 +349,7 @@ Plans:
 | 7. Eastern Asia Review | 4/4 | Complete   | 2026-05-27 |
 | 8. Eastern Europe Review | 5/5 | Complete | 2026-05-27 |
 | 9. Northern Europe Review | 0/3 | Planned | — |
-| 10. Southeast Asia Review | — | Not started | — |
+| 10. Southeast Asia Review | 1/4 | In Progress|  |
 | 11. Southern Asia Review | — | Not started | — |
 | 12. Southern Europe Review | — | Not started | — |
 | 13. Western Asia Review | — | Not started | — |
