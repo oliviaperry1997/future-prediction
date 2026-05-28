@@ -236,15 +236,6 @@
       "Southeast Asian Federation": [
         "Southeast Asian Federation"
       ],
-      "Southern Europe (wip)": [
-        "Albania",
-        "Bosnia and Herzegovina",
-        "Kosovo",
-        "Montenegro",
-        "North Macedonia",
-        "Serbia",
-        "Turkey"
-      ],
       "Western Asia (wip)": [
         "Bahrain",
         "Iran",
@@ -274,6 +265,10 @@
         "Pakistan",
         "Sri Lanka",
         "Afghanistan"
+      ],
+      "Southern Europe": [
+        "Bosnia and Herzegovina",
+        "Serbia"
       ]
     },
     "Oceania (wip)": {
@@ -710,7 +705,11 @@
         "ESP",
         "MDA",
         "ATF",
-        "FRO"
+        "FRO",
+        "ALB",
+        "KOS",
+        "MNE",
+        "MKD"
       ],
       "preserve_holes": true,
       "min_hole_area": 0.01,
@@ -1347,8 +1346,8 @@
       "source": "country",
       "country_code": "BIH",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "bosnia-and-herzegovina",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#bosnia-and-herzegovina"
     },
     "Serbia": {
       "type": "entity",
@@ -1356,8 +1355,8 @@
       "source": "country",
       "country_code": "SRB",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "serbia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#serbia"
     },
     "Southeast Asian Federation": {
       "type": "entity",
@@ -1381,42 +1380,6 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "southeast-asian-federation",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#southeast-asian-federation"
-    },
-    "Albania": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "ALB",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "North Macedonia": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "MKD",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Montenegro": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "MNE",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Kosovo": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "KOS",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
     "Kazakhstan": {
       "type": "entity",
