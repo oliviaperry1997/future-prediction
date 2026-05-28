@@ -212,7 +212,6 @@
     ],
     "Eurasia": {
       "Central Asia": [
-        "Afghanistan",
         "Kazakhstan",
         "Kyrgyzstan",
         "Tajikistan",
@@ -236,15 +235,6 @@
       ],
       "Southeast Asian Federation": [
         "Southeast Asian Federation"
-      ],
-      "Southern Asia (wip)": [
-        "Bangladesh",
-        "Bhutan",
-        "India",
-        "Maldives",
-        "Nepal",
-        "Pakistan",
-        "Sri Lanka"
       ],
       "Southern Europe (wip)": [
         "Albania",
@@ -274,6 +264,16 @@
       "Western Europe": [
         "European Federation",
         "Switzerland"
+      ],
+      "Southern Asia": [
+        "Bangladesh",
+        "Bhutan",
+        "India",
+        "Maldives",
+        "Nepal",
+        "Pakistan",
+        "Sri Lanka",
+        "Afghanistan"
       ]
     },
     "Oceania (wip)": {
@@ -1469,8 +1469,8 @@
       "source": "country",
       "country_code": "AFG",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "afghanistan",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#afghanistan"
     },
     "Mongolia": {
       "type": "entity",
@@ -1487,8 +1487,8 @@
       "source": "country",
       "country_code": "PAK",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "pakistan",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#pakistan"
     },
     "Bangladesh": {
       "type": "entity",
@@ -1496,8 +1496,8 @@
       "source": "country",
       "country_code": "BGD",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "bangladesh",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#bangladesh"
     },
     "Nepal": {
       "type": "entity",
@@ -1505,8 +1505,8 @@
       "source": "country",
       "country_code": "NPL",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "nepal",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#nepal"
     },
     "Bhutan": {
       "type": "entity",
@@ -1514,8 +1514,8 @@
       "source": "country",
       "country_code": "BTN",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "bhutan",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#bhutan"
     },
     "Sri Lanka": {
       "type": "entity",
@@ -1523,8 +1523,8 @@
       "source": "country",
       "country_code": "LKA",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "sri-lanka",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#sri-lanka"
     },
     "Maldives": {
       "type": "entity",
@@ -1532,8 +1532,8 @@
       "source": "country",
       "country_code": "MDV",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "maldives",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#maldives"
     },
     "Iraq": {
       "type": "entity",
