@@ -228,11 +228,17 @@ Plans:
 - Per D-15: Northern Europe KML = UK-only folder; all others merged into European Federation
 - Per D-16: NOR+ISL added to European Federation country_codes; Phase 8 leftover EU member entries cleaned up
 
-### Phase 10: Southeast Asia Review
+ ### Phase 10: Southeast Asia Review
 **Mode**: mvp
 **Goal**: Southeast Asia (Brunei, Cambodia, East Timor, Indonesia, Laos, Malaysia, Myanmar, Philippines, Singapore, Thailand, Vietnam) plausibility verified, KML issues fixed, documentation gaps filled
 **Depends on**: Phase 9
 **Requirements**: EURA-05
+**Plans**: 4 plans
+Plans:
+- [ ] 10-01-PLAN.md — entity-config.json SEAF entry + borders.kml Southeast Asia folder restructure
+- [ ] 10-02-PLAN.md — borders-geopolitics.md SEAF collective + 11 sub-entries
+- [ ] 10-03-PLAN.md — economy.md + demographics.md SEAF collective entries
+- [ ] 10-04-PLAN.md — culture.md ASEAN → SEAF entry; climate.md + technology.md verification
 **Success Criteria** (what must be TRUE):
   1. All 11 Southeast Asian entities assessed — no contradictions
   2. KML entities for Southeast Asia correct in Google Earth Pro
