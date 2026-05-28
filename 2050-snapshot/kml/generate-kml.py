@@ -1983,11 +1983,12 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                         prepared = prepare_for_output(g, entity_cfg)
                         coords = geom_to_coords(prepared)
                         if coords:
-                            entity_polygons[country_name] = {
-                                "coords": coords,
-                                "type": "country",
-                                "cfg": {"source": "country", "country_code": code},
-                            }
+                            if country_name not in entity_polygons:
+                                entity_polygons[country_name] = {
+                                    "coords": coords,
+                                    "type": "country",
+                                    "cfg": {"source": "country", "country_code": code},
+                                }
                             expanded_names.append(country_name)
                             _, _, style_id = get_entity_style(country_name)
                             entity_styles[country_name] = style_id
