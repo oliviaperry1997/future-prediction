@@ -246,13 +246,27 @@ Plans:
 
 ### Phase 11: Southern Asia Review
 **Mode**: mvp
-**Goal**: Southern Asia (Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, Sri Lanka) plausibility verified, KML issues fixed, documentation gaps filled
+**Goal**: Southern Asia (Bangladesh, Bhutan, India, Maldives, Nepal, Pakistan, Sri Lanka, Afghanistan) plausibility verified, KML issues fixed, documentation gaps filled across all 5 STEEP domains
 **Depends on**: Phase 10
 **Requirements**: EURA-06
 **Success Criteria** (what must be TRUE):
-  1. All 7 Southern Asian entities assessed — no contradictions
-  2. KML entities for Southern Asia correct in Google Earth Pro
-  3. All documentation gaps for Southern Asian entities identified and filled
+  1. All 8 Southern Asian entities (including Afghanistan, added from Central Asia) assessed against revolutionary feedback loop — no contradictions
+  2. KML entities for Southern Asia correct in Google Earth Pro: Southern Asia (wip) folder renamed, Afghanistan added
+  3. All documentation gaps filled: borders-geopolitics expanded (India), new entries for 7 entities; economy, demographics, culture, climate profiles for all 8
+**Plans**: 4 plans
+
+Plans:
+- [ ] 11-01-PLAN.md — KML & Entity Config: (wip) removal, Afghanistan added to Southern Asia, section anchors fixed (Wave 1)
+- [ ] 11-02-PLAN.md — Borders-Geopolitics & asia.md: India expanded, 7 new entries, loop stage table updated (Wave 1, parallel)
+- [ ] 11-03-PLAN.md — Economy & Demographics: India expanded, 7 new profiles each (Wave 2, blocked on 02)
+- [ ] 11-04-PLAN.md — Culture & Climate: India culture expanded, 7 new cultural profiles, Southern Asia climate subsection (Wave 2, blocked on 02, parallel with 03)
+
+**Cross-cutting constraints:**
+- Plans 01 and 02 are parallel (Wave 1) — KML edits and domain doc writing don't conflict
+- Plans 03 and 04 are parallel (Wave 2) — different domain docs, no file conflicts
+- Plan 02 must complete first (establishes entity names, loop stages, and narratives that Plans 03/04 reference)
+- All plans: no Southern Asian federation or regional bloc (D-11); all 8 entities remain sovereign
+- India, Pakistan, Bangladesh KML entries already existed — individual polygon treatment confirmed (not merged)
 
 ### Phase 12: Southern Europe Review
 **Mode**: mvp
