@@ -84,9 +84,9 @@ The global trading system has regionalized along political and currency lines. F
 - → See transition doc: events T-08b, T-09b
 
 **Asian Supply Chains:** China-centered manufacturing network adapting to post-globalization conditions.
-- **Participants:** China, Japan, ROK, DPRK, ASEAN states (Vietnam, Indonesia, Thailand, Malaysia, Philippines, Singapore), Australia (observer within BRICS+), Taiwan (as a special administrative region of China since ~2035-2038)
-- **Currencies:** Yuan, yen, won, ASEAN local currencies. RCEP framework governs cross-border trade terms.
-- **Key trade flows:** Advanced manufacturing and electronics (China, Korea, ASEAN), energy and resources (Australia, Indonesia, Malaysia — LNG, minerals), agricultural products (Thailand, Vietnam), financial services (Singapore as BRICS+ financial node)
+- **Participants:** China, Japan, ROK, DPRK, Southeast Asian Federation (SEAF — Vietnam, Indonesia, Thailand, Malaysia, Philippines, Singapore, plus Brunei, Cambodia, East Timor, Laos, Myanmar), Australia (observer within BRICS+), Taiwan (as a special administrative region of China since ~2035-2038)
+- **Currencies:** Yuan, yen, won, SEAF currencies (SGD as anchor, local currencies). RCEP framework governs cross-border trade terms.
+- **Key trade flows:** Advanced manufacturing and electronics (China, Korea, SEAF), energy and resources (Australia, Indonesia, Malaysia — LNG, minerals), agricultural products (Thailand, Vietnam), financial services (Singapore as SEAF BRICS+ financial node)
 - **Integration depth:** RCEP provides a tariff framework and rules of origin. Automation has reshaped the labor-cost advantage that drove pre-2026 Asian supply chains — China's humanoid robot production (~200K units/year) and Indonesia's automation investments mean that manufacturing location decisions are driven by energy costs, infrastructure quality, and proximity to end markets rather than labor costs.
 - → See transition doc: [economy.md Driver 4](../../2026-2050-transition/economy.md#driver-4-global-supply-chain-reconfiguration)
 
@@ -492,14 +492,14 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **→ See KML: East African Federation**
 - → See transition doc: event T-09 (climate migration impact on East Africa)
 
-**ASEAN (collective):**
-- **GDP:** ~$6T combined
-- **Dominant sectors:** Manufacturing (electronics, automotive, textiles — China-centered supply chains, Vietnam and Indonesia as primary manufacturing hubs), electronics and semiconductors (Malaysia, Philippines, Singapore — packaging and testing), energy (Indonesia, Malaysia — LNG and coal — declining; Vietnam — solar and wind expanding rapidly), services (Singapore — finance, BRICS+ financial node; tourism — recovering region-wide), agriculture (Thailand, Vietnam, Indonesia — rice, palm oil, rubber, seafood)
-- **Trade partners and bloc alignment:** China (primary — RCEP framework), Japan, ROK, DPRK, India, European Federation. ASEAN's institutional model (collective neutrality, multipolar hedging) has thrived. Singapore is a major BRICS+ financial node.
-- **Economic model:** Mixed economies across member states — Vietnam (state-directed socialist-market), Singapore (regulated capitalist/financial hub), Indonesia (resource-driven mixed), Thailand (export-oriented mixed). No single model dominates.
-- **Currencies:** Multiple — Singapore dollar (SGD — regional anchor), Vietnamese dong (VND), Indonesian rupiah (IDR), Thai baht (THB), Malaysian ringgit (MYR), Philippine peso (PHP). RCEP trade settled increasingly in local currency pairs and yuan. SGD fully convertible to BCU.
-- **Labor market character:** Mixed across countries. Manufacturing increasingly automated (Vietnam, Thailand, Malaysia at 30-50%). Services mixed (Singapore highly automated). Agriculture labor-intensive (Vietnam, Indonesia, Thailand). The demographic dividend is fading as fertility declines.
-- **→ See KML: ASEAN**
+**Southeast Asian Federation (SEAF, collective):**
+- **GDP:** ~$8T combined (growth from ~$6T ASEAN-era, driven by Myanmar integration, East Timor Timor Sea revenues, and post-US-collapse trade reorientation)
+- **Dominant sectors:** Manufacturing (electronics, automotive, textiles — Vietnam and Indonesia as SEAF-level export hubs, integrated via collective trade framework), semiconductors and electronics (Malaysia, Philippines, Singapore — SEAF-level cluster), energy (Indonesia and Malaysia managing LNG/coal decline; Vietnam solar and wind as federation's renewable backbone; Brunei transitioning), services (Singapore — SEAF BRICS+ financial node and currency clearing hub; tourism — regional megacities), agriculture (Thailand, Vietnam, Indonesia — rice, palm oil, rubber, seafood — SEAF collective export agreements)
+- **Trade partners and bloc alignment:** China (primary — RCEP framework, SEAF-China bilateral trade architecture), India, Japan, ROK, DPRK, European Federation. SEAF's collective bargaining position in trade negotiations exceeds what individual ASEAN members could achieve — the federation speaks with one voice on tariffs, investment, and supply chain terms. Singapore is the BRICS+ financial node for the entire federation.
+- **Economic model:** Federation of mixed economies with growing convergence — Vietnam (state-directed socialist-market, SEAF's manufacturing backbone), Singapore (regulated financial hub, SEAF's monetary anchor), Indonesia (resource-driven mixed, SEAF's strategic weight), Thailand and Malaysia (export-oriented mixed, transitioning). The SEAF is moving toward a common external trade framework; internal trade is tariff-free.
+- **Currencies:** SEAF currency union in formation — SGD (Singapore dollar) functions as the de facto regional anchor; full monetary union projected beyond 2050. RCEP trade settled in local currency pairs and yuan. SGD fully convertible to BCU. Individual currencies persist domestically through the transition period.
+- **Labor market character:** SEAF-wide labor mobility has increased intra-regional migration — Vietnamese workers in Singapore and Malaysia, Indonesian workers in Singapore and Brunei, Filipino workers across the federation. Manufacturing automation at 30-50% (Vietnam, Thailand, Malaysia); near-full automation in Singapore services. Agriculture labor-intensive (Vietnam, Indonesia, Thailand). Demographic dividend fading — TFR below replacement federation-wide, but Myanmar's younger population provides a partial offset.
+- **→ See KML: Southeast Asian Federation**
 - → See transition doc: [economy.md Driver 4](../../2026-2050-transition/economy.md#driver-4-global-supply-chain-reconfiguration)
 
 **Russia:**
