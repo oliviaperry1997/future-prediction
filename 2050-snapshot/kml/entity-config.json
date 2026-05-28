@@ -64,9 +64,11 @@
         "East African Federation",
         "Eritrea",
         "Ethiopia",
+        "La R\u00e9union",
         "Madagascar",
         "Malawi",
         "Mauritius",
+        "Mayotte",
         "Mozambique",
         "Seychelles",
         "Tigray",
@@ -225,21 +227,11 @@
         "ROK"
       ],
       "Eastern Europe": [
-        "European Union",
         "Russia",
         "Belarus",
         "Ukraine"
       ],
-      "Northern Europe (wip)": [
-        "Denmark",
-        "Estonia",
-        "Finland",
-        "Iceland",
-        "Ireland",
-        "Latvia",
-        "Lithuania",
-        "Norway",
-        "Sweden",
+      "Northern Europe": [
         "United Kingdom"
       ],
       "Southeast Asia (wip)": [
@@ -267,18 +259,10 @@
       "Southern Europe (wip)": [
         "Albania",
         "Bosnia and Herzegovina",
-        "Croatia",
-        "Cyprus",
-        "Greece",
-        "Italy",
         "Kosovo",
-        "Malta",
         "Montenegro",
         "North Macedonia",
-        "Portugal",
         "Serbia",
-        "Slovenia",
-        "Spain",
         "Turkey"
       ],
       "Western Asia (wip)": [
@@ -297,13 +281,8 @@
         "United Arab Emirates",
         "Yemen"
       ],
-      "Western Europe (wip)": [
-        "Austria",
-        "Belgium",
-        "France",
-        "Germany",
-        "Luxembourg",
-        "Netherlands",
+      "Western Europe": [
+        "European Federation",
         "Switzerland"
       ]
     },
@@ -640,15 +619,6 @@
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#gran-colombia"
     },
 
-    "Germany": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "DEU",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "germany",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#germany"
-    },
     "United Kingdom": {
       "type": "entity",
       "category": "global",
@@ -658,15 +628,25 @@
         "GBR",
         "SHN"
       ],
+      "classification": "revolutionary (late flip ~2045-2048)",
+      "notes": "Scotland exited ~2035-2038 to join EU; Isle of Man, Channel Islands remain as Crown Dependencies",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "united-kingdom",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#united-kingdom"
     },
-    "European Union": {
+    "European Federation": {
       "type": "entity",
       "category": "global",
       "source": "group",
-      "country_codes": ["POL", "CZE", "SVK", "HUN", "ROU", "BGR", "DNK", "EST", "FIN", "IRL", "LVA", "LTU", "SWE", "AUT", "BEL", "FRA", "DEU", "LUX", "NLD", "HRV", "CYP", "GRC", "ITA", "MLT", "PRT", "SVN", "ESP"],
+      "keep_unified": true,
+      "country_codes": ["POL", "CZE", "SVK", "HUN", "ROU", "BGR", "DNK", "EST", "FIN", "IRL", "ISL", "LVA", "LTU", "SWE", "AUT", "BEL", "FRA", "DEU", "LUX", "NLD", "NOR", "HRV", "CYP", "GRC", "ITA", "MLT", "PRT", "SVN", "ESP", "MDA", "ATF"],
+      "preserve_holes": true,
+      "min_hole_area": 0.01,
+      "unify_buffer": 0.002,
+      "subtract_admin1_per_code": {
+        "FRA": ["Guadeloupe", "Guyane française", "La Réunion", "Martinique", "Mayotte"],
+        "NLD": ["Bonaire", "Saba", "St. Eustatius"]
+      },
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "european-union",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#european-union"
@@ -674,8 +654,16 @@
     "Russia": {
       "type": "entity",
       "category": "global",
-      "source": "country",
-      "country_code": "RUS",
+      "source": "group",
+      "keep_unified": true,
+      "country_codes": ["RUS"],
+      "admin1_regions": [
+        {"country_code": "RUS", "admin1_name": "Crimea"},
+        {"country_code": "UKR", "admin1_name": "Donets'k"},
+        {"country_code": "UKR", "admin1_name": "Luhans'k"},
+        {"country_code": "UKR", "admin1_name": "Zaporizhzhya"},
+        {"country_code": "UKR", "admin1_name": "Kherson"}
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "russia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#russia"
@@ -938,6 +926,7 @@
       "type": "entity",
       "category": "global",
       "source": "group",
+      "keep_unified": true,
       "country_codes": [
         "CHN",
         "HKG",
@@ -1207,42 +1196,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Ireland": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "IRL",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Spain": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "ESP",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Portugal": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "PRT",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Italy": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "ITA",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
+
     "Switzerland": {
       "type": "entity",
       "category": "global",
@@ -1252,29 +1206,15 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Austria": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "AUT",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Greece": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "GRC",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
+
     "Ukraine": {
       "type": "entity",
       "category": "global",
       "source": "country",
       "country_code": "UKR",
+      "subtract_admin1": ["Donets'k", "Luhans'k", "Zaporizhzhya", "Kherson"],
+      "subtract_admin1_per_code": {"RUS": ["Crimea"]},
+      "subtract_buffer": 0.001,
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "ukraine",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#ukraine"
@@ -1287,15 +1227,6 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "belarus",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#belarus"
-    },
-    "Croatia": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "HRV",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
     "Bosnia and Herzegovina": {
       "type": "entity",
@@ -1347,24 +1278,6 @@
       "category": "global",
       "source": "country",
       "country_code": "KOS",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Malta": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "MLT",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Cyprus": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "CYP",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
@@ -1422,6 +1335,16 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+    },
+    "Åland Islands": {
+      "type": "entity",
+      "category": "subnational",
+      "source": "placemark",
+      "country_code": "ALA",
+      "parent_entity": "European Federation",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "european-union",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#european-union"
     },
     "Mongolia": {
       "type": "entity",
@@ -1958,21 +1881,6 @@
       "section_anchor": "cayenne",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#cayenne"
     },
-    "France": {
-      "type": "entity",
-      "category": "global",
-  "source": "country",
-  "country_code": "FRA",
-  "add_country_codes": ["ATF"],
-  "subtract_admin1": [
-        "Martinique",
-        "Guadeloupe",
-        "Guyane française"
-      ],
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "france",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#france"
-    },
     "Benin": {
       "type": "entity",
       "category": "global",
@@ -2156,6 +2064,26 @@
       "source": "admin1",
       "country_code": "FRA",
       "admin1_name": "Martinique",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+    },
+    "La Réunion": {
+      "type": "entity",
+      "category": "global",
+      "source": "admin1",
+      "country_code": "FRA",
+      "admin1_name": "La Réunion",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+    },
+    "Mayotte": {
+      "type": "entity",
+      "category": "global",
+      "source": "admin1",
+      "country_code": "FRA",
+      "admin1_name": "Mayotte",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
@@ -2579,7 +2507,7 @@
       {
         "name": "European AI Regulation Zone",
         "type": "entity_copy",
-        "source_entity": "European Union",
+        "source_entity": "European Federation",
         "description": "See: 2050-snapshot/domains/technology.md#ai-governance-regimes"
       },
       {
@@ -2821,9 +2749,9 @@
         ]
       },
       {
-        "name": "European Union",
+        "name": "European Federation",
         "type": "entity_copy",
-        "source_entity": "European Union",
+        "source_entity": "European Federation",
         "description": "See: 2050-snapshot/domains/economy.md#european-union"
       }
     ],
@@ -2835,9 +2763,9 @@
         "description": "See: 2050-snapshot/domains/demographics.md#pacific-peoples-republic"
       },
       {
-        "name": "European Union",
+        "name": "European Federation",
         "type": "entity_copy",
-        "source_entity": "European Union",
+        "source_entity": "European Federation",
         "description": "See: 2050-snapshot/domains/demographics.md#european-union"
       }
     ],
@@ -2849,9 +2777,9 @@
         "description": "See: 2050-snapshot/domains/culture.md#pacific-peoples-republic"
       },
       {
-        "name": "European Union",
+        "name": "European Federation",
         "type": "entity_copy",
-        "source_entity": "European Union",
+        "source_entity": "European Federation",
         "description": "See: 2050-snapshot/domains/culture.md#european-union"
       },
       {
