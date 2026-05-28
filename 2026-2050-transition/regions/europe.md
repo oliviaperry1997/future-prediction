@@ -64,7 +64,7 @@ The EU does not formally dissolve. It becomes an **empty shell** — handling ro
 | 2026 | Orbán ousted in Hungary — Magyar wins 138/199 seats | Reactionary capture CAN be reversed; took 16 years + centrist alternative |
 | 2026 | Saxony-Anhalt state election (Sept) — AfD at 41% | Bellwether for German firewall erosion |
 | 2027 | **Bardella wins French presidency** | EU's second-largest power turns reactionary — shifts Council balance fundamentally |
-| 2028 | Italian general election — Meloni weakened but FdI still largest | Italy remains in reactionary column but less stable |
+| 2028 | Italian general election — Meloni weakened but FdI still largest | Italy remains in reactionary column but less stable | → See 2050 snapshot: [borders-geopolitics.md#italy](../../2050-snapshot/domains/borders-geopolitics.md) |
 | 2029 | German federal election — AfD reaches 30%+ | Post-election coalition crisis; no viable government without AfD or grand coalition with weakened partners |
 | 2029 | EU Parliament election — far-right Commissioners appointed | Institutional capture begins |
 | 2030 | EU "Readiness 2030" defense targets partially met | Autonomous defense capacity still incomplete |
@@ -115,7 +115,7 @@ The following classification determines alignment with the revolutionary or reac
 | Country | Party | Strength | Status | 2050 Outcome |
 |---------|-------|----------|--------|-------------|
 | **France** | RN (Bardella) | 34-37% | Wins 2027 presidency | Degraded, seeks core re-entry by late 2040s. Internal separatism (Corsica, Brittany) |
-| **Italy** | FdI (Meloni) | 28-32% | In power; weakened by 2026 referendum defeat | Northern separatism reawakens. Left/northern rebound plausible by late 2040s |
+| **Italy** | FdI (Meloni) | 28-32% | In power; weakened by 2026 referendum defeat | Northern separatism reawakens. Left/northern rebound plausible by late 2040s. → See 2050 snapshot: [borders-geopolitics.md#italy](../../2050-snapshot/domains/borders-geopolitics.md) |
 | **Austria** | FPÖ (Kickl) | 29-35% | Won Sept 2024 election; failed to form government; stalemate | Reactionary but small — degrades without fragmenting |
 | **Sweden** | SD (Åkesson) | 19-21% | PM Kristersson opened door to SD joining govt after Sept 2026 | Ambiguous — strong Social Democratic counterweight. SD in government increases reactionary weight in Nordics |
 | **Poland** | PiS (Nawrocki) | ~30% | Presidency won June 2025; right-wing could retake parliament 2027 | Tug-of-war. Defense spender — may align with core for security despite reactionary domestic politics |
@@ -128,7 +128,7 @@ The following classification determines alignment with the revolutionary or reac
 | **Finland** | SDP (24.3%) + Left Alliance (11.0%) | 35%+ left bloc | Left Alliance at 30-year high. Government at record low | Core member. Defense-capable (1,300km Russia border), social-democratic |
 | **Denmark** | SDP (21.9%) + SF (11.6%) | Left bloc 84 seats | Largest party, left holds edge | Core member. Greenland reorientation |
 | **Slovenia** | GS (Golob) | Narrow win April 2026 | Fragile but liberal trajectory | Core member if sustained |
-| **Spain** | PSOE (Sanchez) | ~28% | In power but weakened; PP+Vox could win 2027 | Contested. If PP+Vox govern, Spain drifts toward periphery |
+| **Spain** | PSOE (Sanchez) | ~28% | In power but weakened; PP+Vox could win 2027 | Contested. If PP+Vox govern, Spain drifts toward periphery. → See 2050 snapshot: [borders-geopolitics.md#spain](../../2050-snapshot/domains/borders-geopolitics.md) |
 
 ### Contested (Decisive Battlegrounds)
 
