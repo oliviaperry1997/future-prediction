@@ -407,6 +407,91 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **→ See KML: European Federation**
 - → See transition doc: [demographics.md Driver 1](../../2026-2050-transition/demographics.md#driver-1-global-fertility-decline-and-population-aging)
 
+<!-- Southern Europe reviewed Phase 12 (2026-05-28) -->
+**Mediterranean migration (cross-cutting — Southern Europe):**
+- The Mediterranean migration corridor is structurally permanent through 2050. Three overlapping flows: (1) **North African economic/climate migration** — Morocco → Spain (Canary Islands, Ceuta/Melilla), Libya/Tunisia → Malta/Italy; (2) **Sub-Saharan African climate and conflict refugees** — driven north by Sahel desertification, Lake Chad collapse, crop failures in the Sahel belt; the population pressure feeds through Nigeria, Niger, Mali, Sudan into the Libyan/Tunisian/Moroccan transit routes; (3) **Middle Eastern and Afghan refugees** — channeled through Turkey into Greece and the Eastern Mediterranean route.
+- EU managed migration framework under the federation: common border management (Frontex successor), distributed asylum processing quotas, and integration infrastructure. Southern European member states receive EU fiscal compensation for being the primary entry points — a structural transfer toward Italy, Greece, Spain, and Malta.
+- Annual intake: ~800K-1M migrants/yr arriving via Mediterranean routes, partially offset against natural EU population decline (~400K/yr). Net: migration adds ~600K to EU population annually. Without this inflow, EU workforce decline would accelerate significantly.
+
+**Italy:** *(EU Federation subdivision)*
+- **Population:** ~55M (declining from 2024's ~60M — the largest demographic contraction of any major EU member state)
+- **Age structure:** Median age ~50 by 2050 — among Europe's oldest. 0-14: 12%, 15-64: 57%, 65+: 31%. Italy's demographic inversion is severe: for every 10 working-age adults, there are roughly 5 retirees and 2 children.
+- **TFR:** ~1.2 (the lowest sustainable TFR in the EU; Italian fertility has been below replacement since the 1970s; the Mediterranean subdivision average is ~1.3)
+- **Net migration:** +0.5%/yr (Italy's natural decline — ~250K deaths over births/yr — is partially offset by immigration; primarily North African and Sub-Saharan African inflows through Lampedusa, Sicily, and Calabrian landings; secondary Middle Eastern via the Balkan and Eastern Mediterranean routes)
+- **North/south demographic asymmetry:** Northern Italy (Lombardy, Veneto, Piedmont) has higher incomes, older native population, and immigration concentrated in urban-industrial labor market roles. Southern Italy (Mezzogiorno — Calabria, Sicily, Campania) has younger African migrant populations arriving via sea crossings but persistent youth emigration (southern Italians moving north within Italy or to Northern EU); southern Italian native populations continue to shrink.
+- **→ See KML: European Federation**
+
+**Spain:** *(EU Federation subdivision)*
+- **Population:** ~47M (declining from 2024's ~47M — broadly stable; immigration offsets low native TFR)
+- **Age structure:** Median age ~47. 65+: 23%. Aging but somewhat less severe than Italy.
+- **TFR:** ~1.3 (low but slightly above Italy; Spain benefits from younger Latin American immigrants who have higher birth rates)
+- **Net migration:** +0.6%/yr (Spain has the EU's most diverse immigration profile: Latin America — Colombia, Venezuela, Ecuador, Peru, Dominican Republic — and North Africa — Morocco as the single largest source country; Canary Islands and Ceuta/Melilla are primary entry points for the Atlantic Morocco/sub-Saharan crossing route; cultural and linguistic proximity to Latin America enables more rapid social integration than Italian or Greek migration dynamics)
+- **Basque and Catalan demographic contexts:** These high-income regional identities correlate with higher education, lower TFR, and higher integration success — the regions most economically productive are also the most demographically stable but have the strongest political identities.
+- **→ See KML: European Federation**
+
+**Greece:** *(EU Federation subdivision)*
+- **Population:** ~10M (declining — from 2024's ~10.5M; severe emigration of educated young Greeks during the 2010s-2020s austerity decade partially reversed post-EU federalization, but the emigration cohort is not fully returning)
+- **Age structure:** Median age ~48. One of the EU's most rapidly aging subdivisions.
+- **Post-Aegean crisis displacement:** The Turkish military operation and subsequent settlement displaced ~100-200K Greek residents of Eastern Aegean islands — Lesbos, Chios, Samos, and smaller islands. Most displaced Greeks relocated to mainland Greece (Athens-Attica, Thessaloniki) or other EU subdivisions. This internal displacement wave added demographic pressure to mainland urban centers during the 2035-2040 settlement period.
+- **Aegean migration route:** Despite Turkish control of some Eastern Aegean islands, the Turkey → Greece migration route remains operational — crossing from Bodrum to Kos, from Çeşme to Chios (now Turkish-administered) creates new dynamics where some crossings now transit Turkish-controlled Greek territory. EU-Turkey migration agreements govern the processing arrangements.
+- **→ See KML: European Federation**
+
+**Portugal:** *(EU Federation subdivision)*
+- **Population:** ~9.5M (declining from 2024's ~10.3M — Portugal was an emigration country through the 2020s; post-US collapse Lusophone diaspora returns have partially reversed the trend)
+- **Age structure:** Median age ~48. Among the EU's older subdivisions.
+- **TFR:** ~1.25 (consistently low — Portugal's declining native population has been partially offset by Brazilian and Angolan immigration)
+- **Lusophone migration bridge:** Portugal is demographically as well as economically linked to Brazil, Angola, Mozambique, and Cape Verde — Lusophone immigration is demographically integrative in ways other Southern European immigration flows are not (shared language, significant cultural overlap). Brazilian immigrants in Portugal (~300K) are one of the largest settled foreign communities relative to national population.
+- **→ See KML: European Federation**
+
+**Cyprus:** *(EU Federation subdivision)*
+- **Population:** ~1.2M (Republic of Cyprus side; ~350K in Turkish-administered north — Turkish Cypriots, mainland Turks settled post-1974, plus recent post-annexation arrivals)
+- **Partition demographics:** The 1974 partition created a divided island and the 2030s annexation of the north formalized TRNC into Turkey's administrative structure. Greek Cypriot and Armenian Cypriot populations are concentrated in the south. The north's demographics are complicated by post-1974 and post-annexation Turkish settler populations.
+- **Coastal vulnerability:** Sea-level rise of 0.3-0.5m by 2050 affects low-lying coastal zones — Limassol seafront, Famagusta coastal areas, Larnaca. Cyprus's geography means a significant fraction of economic infrastructure (port facilities, tourism hotels, coastal road networks) is within the vulnerable zone.
+- **→ See KML: European Federation**
+
+**Malta:** *(EU Federation subdivision)*
+- **Population:** ~580K (growing — Malta is an EU migration processing hub, with permanent settlement of a fraction of migrants processed through the island)
+- **Sea-level risk — highest EU exposure per capita:** Malta is Europe's most sea-level-exposed jurisdiction per land area. The island's elevation is low and coastal infrastructure — Valletta's Grand Harbour, Sliema waterfront, St. Julian's Bay, the airport coastal zone — is vulnerable to 0.3-0.5m sea-level rise by 2050. Coastal flooding events during storm surges are a recurring hazard. EU adaptation funding supports sea wall reinforcement and coastal infrastructure hardening.
+- **Migration dynamics:** Malta is the Southern EU's most concentrated migration processing point relative to its size — a small island receiving significant maritime arrivals from Libya. EU migration quotas distribute asylum seekers across EU member states, but Malta's geographic exposure means arrival management is a permanent state function.
+- **→ See KML: European Federation**
+
+**Slovenia:** *(EU Federation subdivision)*
+- **Population:** ~2M (stable — Slovenia has maintained moderate immigration, primarily from former Yugoslav states, offsetting below-replacement TFR; as a high-income EU member, it is a net migration destination from Western Balkans)
+- **Age structure:** Median age ~46. Among the more demographically stable Southern EU members.
+- **→ See KML: European Federation**
+
+**Croatia:** *(EU Federation subdivision)*
+- **Population:** ~3.5M (declining — Croatia experienced significant emigration to Western EU after accession in 2013; demographic stabilization has been slow; the Adriatic coastal economy draws some return migrants)
+- **→ See KML: European Federation**
+
+**Albania:** *(EU Federation subdivision — acceded ~2040)*
+- Pre-accession: significant diaspora in Italy, Greece, Germany. Post-accession: partial return of diaspora; EU single market mobility reduced push-migration pressure. Population ~2.5M.
+- **→ See KML: European Federation**
+
+**Kosovo:** *(EU Federation subdivision — acceded ~2046)*
+- Large diaspora in Germany, Switzerland, Austria (relative to 1.8M population). EU accession created formal labor mobility — the distinction between "diaspora" and "temporary worker" blurred. Population remains ~1.8M despite mobility; birth rate somewhat higher than EU average.
+- **→ See KML: European Federation**
+
+**Montenegro:** *(EU Federation subdivision — acceded ~2040)*
+- Small population (~650K). Adriatic tourism economy; pre-accession Russian and Chinese real estate investment (partially unwound post-accession). EU single market integration.
+- **→ See KML: European Federation**
+
+**North Macedonia:** *(EU Federation subdivision — acceded ~2042)*
+- Population ~2M. Significant emigration to Germany and other EU states (Macedonian community in Switzerland, Germany). EU integration partially reverses emigration pressure.
+- **→ See KML: European Federation**
+
+**Serbia:** *(Sovereign)*
+- **Population:** ~6.5M (declining — Serbia has been experiencing population decline since the 1990s; low TFR ~1.5, emigration of educated youth to EU, and aging demographic without offsetting immigration; Belgrade captures most remaining internal migration from the provinces)
+- **Age structure:** Median age ~47. Aging rapidly without immigration buffer.
+- **Emigration pressure:** Serbia as a sovereign non-EU state is a net emigration source — educated Serbs can access EU labor markets via bilateral agreements and language proximity to German; estimated 150-200K Serbs emigrate annually, primarily to Germany, Austria, Switzerland, and Sweden
+- **→ See KML: Serbia**
+
+**Bosnia and Herzegovina:** *(Sovereign)*
+- **Population:** ~3M (declining — Bosnia-Herzegovina has experienced persistent population decline since the 1990s war; pre-war population was ~4.5M; emigration of educated and young populations to Germany, Austria, Switzerland, Sweden is a structural constant; the Republika Srpska's political dysfunction accelerates emigration from that entity)
+- **Remittance dependency:** ~$2B/yr in remittances — equivalent to ~7% of GDP. The diaspora in Germany, Austria, Switzerland, Sweden, and Slovenia is the economic lifeline of Bosnian communities. Without remittances, the social stability of rural Bosnia-Herzegovina would collapse.
+- **Dayton demographic tensions:** The Bosniak/Croat/Serb ethnic entity structure creates differential demographic dynamics — Republika Srpska is declining faster (emigration to Serbia and EU is the primary flow); the Federation entity (Bosniak/Croat) has slightly higher retention due to Sarajevo's economic gravity.
+- **→ See KML: Bosnia and Herzegovina**
+
 <!-- Southern Asia reviewed Phase 11 (2026-05-28) -->
 **India:**
 - **Population:** 1.5B (slowly growing — approaching population peak; north-heavy distribution: UP, Bihar, Rajasthan collectively ~650M with higher TFR and lower HDI than the south)
