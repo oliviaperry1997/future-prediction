@@ -236,7 +236,7 @@ Plans:
 **Plans**: 4 plans
 Plans:
 - [x] 10-01-PLAN.md — entity-config.json SEAF entry + borders.kml Southeast Asia folder restructure
-- [ ] 10-02-PLAN.md — borders-geopolitics.md SEAF collective + 11 sub-entries
+- [x] 10-02-PLAN.md — borders-geopolitics.md SEAF collective + 11 sub-entries
 - [ ] 10-03-PLAN.md — economy.md + demographics.md SEAF collective entries
 - [ ] 10-04-PLAN.md — culture.md ASEAN → SEAF entry; climate.md + technology.md verification
 **Success Criteria** (what must be TRUE):
