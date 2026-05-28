@@ -1,5 +1,5 @@
 ---
-status: complete
+status: diagnosed
 phase: 12-southern-europe-review
 source: [12-01-SUMMARY.md, 12-02-SUMMARY.md, 12-03-SUMMARY.md, 12-04-SUMMARY.md]
 started: 2026-05-28T00:00:00Z
@@ -77,13 +77,93 @@ blocked: 0
 
 ## Gaps
 
-- truth: "Turkey should be placed in the Western Asia folder, not directly in Eurasia"
+- truth: "Turkey should be placed inside the Western Asia (wip) KML folder, not as a bare Eurasia-level sibling"
   status: failed
   reason: "User reported: Turkey is erroneously placed directly in the Eurasia folder instead of being in Western Asia where it belongs"
   severity: major
   test: 2
-  artifacts: []
-  missing: []
+  root_cause: "Turkey was extracted from Southern Europe but placed one KML level too high — as a bare sibling of Western Asia (wip) at Eurasia level rather than nested inside it"
+  artifacts:
+    - path: "2050-snapshot/kml/borders.kml"
+      issue: "Turkey <Folder> floats between Southern Europe and Western Asia (wip) at Eurasia level instead of being nested inside <Folder>Western Asia (wip)</Folder>"
+  missing:
+    - "Move Turkey <Folder>...</Folder> block to be first child inside <Folder><name>Western Asia (wip)</name>"
+
+- truth: "ALB, KOS, MNE, MKD removed as individual entities AND added to EU Federation country_codes; SRB and BIH also added to EU Federation country_codes"
+  status: failed
+  reason: "User reported: ALB, KOS, MNE, MKD are gone but not absorbed by Europe"
+  severity: major
+  test: 3
+  root_cause: "The executor removed ALB/KOS/MNE/MKD as individual entities but failed to add them (or SRB/BIH) to the European Federation country_codes array"
+  artifacts:
+    - path: "2050-snapshot/kml/entity-config.json"
+      issue: "European Federation country_codes missing ALB, KOS, MNE, MKD, SRB, BIH — currently ends at MKD with count 34 instead of 36"
+  missing:
+    - "Add BIH and SRB to European Federation country_codes (ALB/KOS/MNE/MKD may also be missing — verify count)"
+    - "Remove Bosnia and Herzegovina and Serbia as standalone entity entries"
+    - "Remove Bosnia and Herzegovina and Serbia from folder_hierarchy.Eurasia.Southern Europe list"
+
+- truth: "Northern Cyprus polygon uses precise Attila Line coordinates and is nested inside Türkiye's folder, not as a standalone entity"
+  status: failed
+  reason: "User reported: Northern Cyprus needs a precise polygon, and needs to be added as part of Türkiye instead of its own entity."
+  severity: major
+  test: 4
+  root_cause: "Northern Cyprus is already nested inside Turkey's folder structurally, but uses a rough 24-point bounding box approximation instead of the precise Attila Line polygon"
+  artifacts:
+    - path: "2050-snapshot/kml/borders.kml"
+      issue: "Northern Cyprus Placemark (inside Turkey folder) uses approximate coordinates ~35.0-35.4°N, 32.3-34.1°E bounding box instead of precise Attila Line trace"
+  missing:
+    - "Replace approximate 24-point bounding box with precise Attila Line polygon tracing the ~35.10-35.18°N boundary across the island"
+
+- truth: "Serbia and Bosnia-Herzegovina appear as EU member sub-entries in borders-geopolitics.md, not as sovereign standalones"
+  status: failed
+  reason: "User reported: Serbia and Bosnia aren't in the EU section"
+  severity: major
+  test: 5
+  root_cause: "Executor applied discretionary judgment to keep Serbia and Bosnia sovereign; user intent was EU membership (~2045/2047). Plan lacked a locked decision (D-xx) encoding this requirement."
+  artifacts:
+    - path: "2050-snapshot/domains/borders-geopolitics.md"
+      issue: "Serbia and Bosnia-Herzegovina have standalone sovereign entries with explicit non-EU framing"
+  missing:
+    - "Reframe Serbia as EU member (~2045 accession) as EU subdivision sub-entry"
+    - "Reframe Bosnia-Herzegovina as EU member (~2047 accession) as EU subdivision sub-entry"
+    - "Update territorial integrity table Europe row to reflect Serbia/BiH as EU members"
+
+- truth: "Serbia and Bosnia-Herzegovina entries in economy.md should be framed as EU subdivision members, not sovereign states"
+  status: failed
+  reason: "User reported: Serbia and Bosnia are described as sovereign when they shouldn't be"
+  severity: major
+  test: 7
+  root_cause: "Consistent with root cause in borders-geopolitics.md — sovereign framing propagated to all domain files"
+  artifacts:
+    - path: "2050-snapshot/domains/economy.md"
+      issue: "Serbia and Bosnia entries labelled *(Sovereign)* with independent-state economic framing"
+  missing:
+    - "Remove *(Sovereign)* label; reframe Serbia BRI footprint and Bosnia remittance dependency as EU accession legacy context"
+
+- truth: "Serbia and Bosnia-Herzegovina entries in culture.md should be framed as EU subdivision members, not independent states"
+  status: failed
+  reason: "User reported: Serbia and Bosnia are described as independent instead of European"
+  severity: major
+  test: 9
+  root_cause: "Same root cause — sovereign framing propagated consistently across all domain files"
+  artifacts:
+    - path: "2050-snapshot/domains/culture.md"
+      issue: "Serbia and Bosnia entries labelled *(Sovereign)* with independent-state cultural framing"
+  missing:
+    - "Remove *(Sovereign)* label; retain Orthodox/Muslim cultural descriptions but remove sovereign-state political framing"
+
+- truth: "Serbia and Bosnia-Herzegovina entries in climate.md should be framed as EU subdivision members, not sovereign states"
+  status: failed
+  reason: "User reported: Serbia and Bosnia wrongly being described as sovereign"
+  severity: major
+  test: 10
+  root_cause: "Same root cause — sovereign framing propagated consistently across all domain files"
+  artifacts:
+    - path: "2050-snapshot/domains/climate.md"
+      issue: "Serbia and Bosnia entries labelled *(Sovereign)* with independent-state framing"
+  missing:
+    - "Remove *(Sovereign)* label; climate descriptions (Danube flow, Vojvodina drought, Dinaric floods) are geographically valid — just update framing to EU subdivision context"
 
 - truth: "ALB, KOS, MNE, MKD removed as individual entities AND added to EU Federation country_codes (36 total)"
   status: failed
