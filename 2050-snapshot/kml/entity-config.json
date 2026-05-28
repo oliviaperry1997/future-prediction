@@ -234,18 +234,8 @@
       "Northern Europe": [
         "England"
       ],
-      "Southeast Asia (wip)": [
-        "Brunei",
-        "Cambodia",
-        "East Timor",
-        "Indonesia",
-        "Laos",
-        "Malaysia",
-        "Myanmar",
-        "Philippines",
-        "Singapore",
-        "Thailand",
-        "Vietnam"
+      "Southeast Asian Federation": [
+        "Southeast Asian Federation"
       ],
       "Southern Asia (wip)": [
         "Bangladesh",
@@ -1254,6 +1244,19 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
+    "Southeast Asian Federation": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "keep_unified": true,
+      "country_codes": ["BRN", "KHM", "TLS", "IDN", "LAO", "MYS", "MMR", "PHL", "SGP", "THA", "VNM"],
+      "preserve_holes": true,
+      "min_hole_area": 0.01,
+      "unify_buffer": 0.002,
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "southeast-asian-federation",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#southeast-asian-federation"
+    },
     "Albania": {
       "type": "entity",
       "category": "global",
@@ -1493,15 +1496,6 @@
       "category": "global",
       "source": "country",
       "country_code": "BHR",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "East Timor": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "TLS",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
