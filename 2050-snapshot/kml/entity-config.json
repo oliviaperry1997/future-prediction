@@ -249,6 +249,7 @@
         "Qatar",
         "Saudi Arabia",
         "Syria",
+        "Turkey",
         "United Arab Emirates",
         "Yemen"
       ],
@@ -708,7 +709,10 @@
         "MNE",
         "MKD",
         "BIH",
-        "SRB"
+        "SRB",
+        "AND",
+        "MCO",
+        "GIB"
       ],
       "preserve_holes": true,
       "min_hole_area": 0.01,
