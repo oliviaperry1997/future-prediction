@@ -258,7 +258,7 @@ Plans:
 Plans:
 - [x] 11-01-PLAN.md — KML & Entity Config: (wip) removal, Afghanistan added to Southern Asia, section anchors fixed (Wave 1)
 - [x] 11-02-PLAN.md — Borders-Geopolitics & asia.md: India expanded, 7 new entries, loop stage table updated (Wave 1, parallel)
-- [ ] 11-03-PLAN.md — Economy & Demographics: India expanded, 7 new profiles each (Wave 2, blocked on 02)
+- [x] 11-03-PLAN.md — Economy & Demographics: India expanded, 7 new profiles each (Wave 2, blocked on 02)
 - [ ] 11-04-PLAN.md — Culture & Climate: India culture expanded, 7 new cultural profiles, Southern Asia climate subsection (Wave 2, blocked on 02, parallel with 03)
 
 **Cross-cutting constraints:**
@@ -364,7 +364,7 @@ Plans:
 | 8. Eastern Europe Review | 5/5 | Complete | 2026-05-27 |
 | 9. Northern Europe Review | 0/3 | Planned | — |
 | 10. Southeast Asia Review | 4/4 | Complete   | 2026-05-28 |
-| 11. Southern Asia Review | — | Not started | — |
+| 11. Southern Asia Review | 3/4 | In Progress|  |
 | 12. Southern Europe Review | — | Not started | — |
 | 13. Western Asia Review | — | Not started | — |
 | 14. Western Europe Review | — | Not started | — |
