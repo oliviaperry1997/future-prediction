@@ -15,7 +15,7 @@ A markdown-based geopolitical forecasting and world-building project. This roadm
 - [x] **Phase 7: Eastern Asia Review** — Plausibility audit: Eastern Asia (completed 2026-05-27)
 - [x] **Phase 8: Eastern Europe Review** — Plausibility audit: Eastern Europe (completed 2026-05-27)
 - [ ] **Phase 9: Northern Europe Review** — Plausibility audit: Northern Europe
-- [ ] **Phase 10: Southeast Asia Review** — Plausibility audit: Southeast Asia
+- [x] **Phase 10: Southeast Asia Review** — Plausibility audit: Southeast Asia (completed 2026-05-28)
 - [ ] **Phase 11: Southern Asia Review** — Plausibility audit: Southern Asia
 - [ ] **Phase 12: Southern Europe Review** — Plausibility audit: Southern Europe
 - [ ] **Phase 13: Western Asia Review** — Plausibility audit: Western Asia
@@ -237,8 +237,8 @@ Plans:
 Plans:
 - [x] 10-01-PLAN.md — entity-config.json SEAF entry + borders.kml Southeast Asia folder restructure
 - [x] 10-02-PLAN.md — borders-geopolitics.md SEAF collective + 11 sub-entries
-- [ ] 10-03-PLAN.md — economy.md + demographics.md SEAF collective entries
-- [ ] 10-04-PLAN.md — culture.md ASEAN → SEAF entry; climate.md + technology.md verification
+- [x] 10-03-PLAN.md — economy.md + demographics.md SEAF collective entries
+- [x] 10-04-PLAN.md — culture.md ASEAN → SEAF entry; climate.md + technology.md verification
 **Success Criteria** (what must be TRUE):
   1. All 11 Southeast Asian entities assessed — no contradictions
   2. KML entities for Southeast Asia correct in Google Earth Pro
@@ -349,7 +349,7 @@ Plans:
 | 7. Eastern Asia Review | 4/4 | Complete   | 2026-05-27 |
 | 8. Eastern Europe Review | 5/5 | Complete | 2026-05-27 |
 | 9. Northern Europe Review | 0/3 | Planned | — |
-| 10. Southeast Asia Review | 1/4 | In Progress|  |
+| 10. Southeast Asia Review | 4/4 | Complete   | 2026-05-28 |
 | 11. Southern Asia Review | — | Not started | — |
 | 12. Southern Europe Review | — | Not started | — |
 | 13. Western Asia Review | — | Not started | — |
