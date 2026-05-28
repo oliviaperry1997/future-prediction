@@ -423,6 +423,74 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - → See transition doc: events T-08b, T-09b
 
 <!-- Southern Asia reviewed Phase 11 (2026-05-28) -->
+<!-- Southern Europe reviewed Phase 12 (2026-05-28) -->
+**Italy:** *(EU Federation subdivision — see European Federation above)*
+- **Dominant sectors:** Advanced manufacturing (Po Valley industrial corridor — Lombardy and Veneto produce ~30% of Italy's GDP: fashion, luxury goods, machinery, automotive components, specialty chemicals, pharmaceuticals), agriculture (Mediterranean — olives, wine, tomatoes, citrus; southern Italy's Mezzogiorno remains agriculturally productive but structurally underdeveloped), tourism (recovering from heat stress impacts on summer peak season), services (Milan as EU's third financial center behind Frankfurt and Amsterdam). Northern Italy is the EU's most productive southern industrial subdivision; southern Italy is the EU's most persistently underdeveloped zone.
+- **Economic model:** Revolutionary EU subdivision — the Meloni/FdI era's economic nationalism vs. EU fiscal rules was the defining tension of Italy's 2026-2042 transition period. The far-right government's economic failure (inability to escape the periphery euro dynamics, continued capital flight, northern resentment of fiscal transfers southward, failure to maintain Chinese investment interest) accelerated the revolutionary flip. Italy is now fully integrated into the EU federal fiscal framework.
+- **Northern Italy economic context:** The Lombardy-Veneto-Emilia-Romagna industrial corridor generates ~$1.2T of Italy's ~$3.5T GDP. The northern autonomy movement's economic rationale — that the north subsidizes the underdeveloped south — was real but resolved through EU federalization: fiscal transfers are now EU-wide rather than Italy-wide, distributing the burden across the 31-member federation. Northern Italy no longer faces the choice between northern secession and subsidizing Rome; it subsidizes Eastern European and Balkans EU subdivisions at scale but as part of a genuinely federal system it co-governs.
+- **→ See KML: European Federation**
+
+**Spain:** *(EU Federation subdivision — see European Federation above)*
+- **Dominant sectors:** Renewable energy (leading EU renewable exporter — solar from Andalusia/Extremadura/La Mancha, wind from Aragon/Galicia/Castile, green hydrogen parks in the south and Canary Islands; Spain supplies ~15% of EU renewable energy generation), automotive and battery manufacturing (**CATL battery gigafactory in Zaragoza** — €4.1B Chinese greenfield investment established ~2026-2027, producing EV batteries for the EU single market; the Zaragoza plant is the anchor of Spain's green industrial strategy and one of the largest Chinese direct investments in the EU), agriculture (olives, wine, citrus, almonds, vegetables — Spain is the EU's most climate-stressed major agricultural producer; Murcia and Almería are at the desertification frontier), tourism (Mediterranean and Canary Islands — climate stress affecting summer peak; winter/spring season growing), financial services (Madrid as Ibero-Atlantic financial hub).
+- **BRICS+ economic bridge:** Spain's combination of Chinese direct investment (CATL, Envision) and EU single market membership gives it a structural position as the EU's most China-integrated major economy. Chinese manufacturing investment in Spain serves the EU market — the Zaragoza plant is inside the EU customs union. Spain negotiates BRICS+ trade relationships on behalf of its Lusophone economic networks.
+- **Post-Gibraltar transfer:** Gibraltar's incorporation into Spain (~2030s-2040s) added a strategically located financial center and port to Spain's economic geography. The Rock's financial services sector was integrated into Madrid's Ibero-Atlantic hub.
+- **→ See KML: European Federation**
+
+**Greece:** *(EU Federation subdivision — see European Federation above)*
+- **Dominant sectors:** Shipping (Greek shipping industry is one of the world's largest — Greek families own ~20% of global commercial shipping tonnage; this is a structural economic asset unaffected by the Aegean conflict), tourism (severely disrupted by the mid-2030s Aegean crisis: Eastern Aegean islands — Lesbos, Chios — under Turkish control; Athens/Attica heat extremes; but Crete, Rhodes, Thessaloniki, and mainland destinations remain viable), fisheries and maritime, services (Athens' regional financial role reduced by Aegean tensions but maintained for Balkan sub-regional services), European Defense Federation military spending (Greece's EDF membership and its role as the EDF's most ardent advocate has increased Greece's defense budget to ~3.5% of GDP — the highest in the EU; this is an economic burden offsetting EDF structural fund transfers to Greece's post-crisis reconstruction).
+- **Post-Aegean crisis reconstruction:** The loss of Eastern Aegean islands and the mid-2030s conflict generated significant reconstruction costs — displaced island populations, disrupted tourism, fishing license disputes, and EEZ boundary uncertainty. EU solidarity funds and EDF investment partially offset these costs.
+- **→ See KML: European Federation**
+
+**Portugal:** *(EU Federation subdivision — see European Federation above)*
+- **Dominant sectors:** Renewable energy (wind along the Atlantic coast is Portugal's largest energy export; solar in the Alentejo and Algarve), tourism (Lisbon, Porto, Algarve — somewhat buffered from Mediterranean peak heat by Atlantic positioning), Lusophone trade networks (Portugal as EU gateway to Brazilian and Angolan markets), cork, wine, and specialty agriculture, financial services (Lisbon as a specialized fintech hub serving EU-Lusophone bridge function).
+- **Post-US-collapse Lusophone repositioning:** With the dollar's reserve status gone and the US network defunct, Portugal's Lusophone connections became strategic EU assets. Brazil (~$4T economy), Angola (major oil and mineral exporter), and Mozambique (LNG and mineral resources) are now primary BRICS+ partners — and Portugal is the EU's most natural diplomatic interlocutor for these markets.
+- **→ See KML: European Federation**
+
+**Cyprus:** *(EU Federation subdivision — see European Federation above)*
+- **Dominant sectors:** **EEZ gas revenue** (the primary economic fact of Cypriot 2050 — offshore gas fields in the Eastern Mediterranean are the island's largest single revenue source, but under the imposed Turkish revenue-sharing arrangement, Turkey extracts a significant share of Cypriot offshore gas proceeds as part of the 2035 settlement; the EEZ arrangement is contested and internationally criticized but enforced by Turkish leverage), financial services (offshore banking legacy — Cyprus's role as an offshore financial center was partially reformed post-2013 banking crisis and further transformed post-EDF, but Nicosia remains a specialized financial hub for Eastern Mediterranean and BRICS+-adjacent transactions), tourism (the partition limits the island's tourism geography — the north is Turkish-administered; the south's Republic of Cyprus tourism sector is smaller than a unified island's would be).
+- **→ See KML: European Federation**
+
+**Croatia:** *(EU Federation subdivision — see European Federation above)*
+- **Dominant sectors:** Tourism (Adriatic Dalmatian coast — Dubrovnik, Split, Istria; climate stress on summer heat peak but spring/autumn seasons growing), shipping and logistics (Adriatic ports as EU southern logistics corridor), agriculture (Slavonia grain production), construction and real estate (EU structural funds driving infrastructure investment). GDP ~$120B — a mid-tier EU subdivision.
+- **→ See KML: European Federation**
+
+**Malta:** *(EU Federation subdivision — see European Federation above)*
+- **Dominant sectors:** Financial services (offshore banking, fintech, Malta's EU-licensed remote gaming sector), tourism (Mediterranean Mediterranean hub but impacted by sea-level rise on coastal infrastructure), maritime services (ship registration — Malta flag is among the world's largest), EU migration management hub (Malta's role as Mediterranean migration transit point generates EU institutional infrastructure and employment). Population ~580K. GDP ~$25B — small island economy with per-capita income above EU median due to financial services.
+- **→ See KML: European Federation**
+
+**Slovenia:** *(EU Federation subdivision — see European Federation above)*
+- **Dominant sectors:** Advanced manufacturing (pharmaceutical manufacturing — Lek/Sandoz anchor; automotive components; electronics; precision engineering), services (Ljubljana financial services for the Balkans sub-region), Alpine tourism, agriculture (wine, dairy). GDP ~$85B — a high-income small EU economy. GDP/capita among the highest of former Eastern/Southern member states.
+- **→ See KML: European Federation**
+
+**Albania:** *(EU Federation subdivision — acceded ~2040)*
+- EU structural funds and single market integration drove rapid economic transformation post-accession. Energy (Albania's hydroelectric endowment — 98% of electricity from hydro — became a valuable EU renewable asset), tourism (Albanian Riviera), and export-oriented light manufacturing.
+- **→ See KML: European Federation**
+
+**Kosovo:** *(EU Federation subdivision — acceded ~2046)*
+- Youngest EU subdivision — the most recent Balkans accession. Pre-accession economy was heavily remittance-dependent (large diaspora in Germany, Switzerland, Austria). Post-accession: EU structural funds, single market access, and German manufacturing investment anchored a rapid transformation.
+- **→ See KML: European Federation**
+
+**Montenegro:** *(EU Federation subdivision — acceded ~2040)*
+- Adriatic-facing small economy; tourism and real estate were the pre-accession anchors. EU structural funds and Adriatic logistics corridor integration post-accession.
+- **→ See KML: European Federation**
+
+**North Macedonia:** *(EU Federation subdivision — acceded ~2042)*
+- Industrial zone development (Skopje economic zone; German automotive supplier presence pre-accession). EU accession accelerated value-chain integration into Central European manufacturing networks.
+- **→ See KML: European Federation**
+
+**Serbia:** *(Sovereign — see borders-geopolitics.md#serbia)*
+- **GDP:** ~$80B (declining in real terms post-2040 — talent outflow, reactive investment environment, aging population without in-migration offset; BRI infrastructure investment creates capacity but not productivity growth)
+- **Dominant sectors:** Automotive components (Fiat-Stellantis Kragujevac plant — declining as EV transition hits internal combustion component demand), agriculture (Vojvodina grain belt — one of Europe's most productive agricultural zones), copper mining (Bor — Chinese-owned RTB Bor; largest copper mine in Europe), steel (Smederevo — Chinese-owned HBIS), IT services (Belgrade tech scene — talent flight accelerating but some nearshore EU services remain), construction (BRI-funded infrastructure — Belgrade-Budapest railway, road corridors)
+- **China BRI footprint:** Serbia has the deepest Chinese infrastructure investment in the Western Balkans — the Bor copper mine, Smederevo steel plant, and Belgrade-Budapest railway represent ~$5B in Chinese-financed assets. This investment provides economic activity but entrenches a dependency relationship that substitutes for EU structural funds and reduces accession urgency.
+- **Economic model:** State-dominated market economy — Vučić regime's political economy is crony capitalist, using infrastructure contracts and state enterprise employment as political patronage. Formal private sector is constrained by regulatory capture.
+- **→ See KML: Serbia**
+
+**Bosnia and Herzegovina:** *(Sovereign — see borders-geopolitics.md#bosnia-and-herzegovina)*
+- **GDP:** ~$28B (small, stagnant — per-capita among the lowest in Europe at ~$8,500; remittance inflows from diaspora in Germany, Austria, Switzerland, Sweden are a critical income support)
+- **Dominant sectors:** Metal manufacturing (Zenica steel), energy (hydropower in Federation entity; coal in Republika Srpska — Elektroprivreda RS relies on coal for ~50% of RS electricity), tourism (Sarajevo, Mostar, Banja Luka), agriculture, remittances (~$2B/yr — equivalent to ~7% of GDP and the largest stabilizing income source)
+- **Structural dysfunction:** Bosnia-Herzegovina is economically trapped by the Dayton entity structure — the Federation entity (Bosniak/Croat) is EU-aspirant and market-oriented; Republika Srpska is state-capture-oriented and coal-dependent. Investment decisions require entity-level coordination that rarely occurs. EU trade is the primary economic relationship (70% of exports go to EU), but without accession, the structural funds that transformed other Balkans economies are unavailable.
+- **→ See KML: Bosnia and Herzegovina**
+
 **India:**
 - **GDP:** ~$12T (~3rd largest PPP economy by 2050, but severe internal inequality — Gini coefficient among the highest in Asia; top 10% hold ~60% of national wealth while rural North India remains subsistence-level)
 - **Dominant sectors:** IT services and BPO (~$350B export sector despite talent flight — India retains dominance in back-office, data center operations, and software maintenance for BRICS+ clients), pharmaceuticals (generic drug manufacturing backbone for BRICS+ supply chains — ~70% of WHO Essential Medicines generics produced in India), automotive (Japanese and Korean OEM partnerships declining as Chinese EVs compete; Indian-designed EVs for domestic and BRICS+ markets growing), agriculture (still ~40% of workforce for ~15% of GDP — highly climate-stressed; monsoon variability and groundwater depletion are structural constraints), aerospace and defense (ISRO, HAL, DRDO — state strategic investment maintains national capability)
