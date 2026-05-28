@@ -152,7 +152,7 @@
         "Panama",
         "Mexico"
       ],
-    "Northern America": [
+      "Northern America": [
         "Absaroka",
         "Alaska",
         "Alleghenia",
@@ -312,7 +312,9 @@
       "category": "revolutionary",
       "source": "manual",
       "manual_path": "source/manual/Pacifica.kml",
-      "add_manual_paths": ["source/manual/Tlingit Aaní.kml"],
+      "add_manual_paths": [
+        "source/manual/Tlingit Aan\u00ed.kml"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "pacifica",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#pacifica"
@@ -464,20 +466,26 @@
       "category": "reactionary",
       "source": "admin1_merge",
       "country_code": "CAN",
-      "admin1_provinces": ["Québec"],
+      "admin1_provinces": [
+        "Qu\u00e9bec"
+      ],
       "clip_lat": 55,
       "clip_side": "south",
       "remainder_entity": "Inuit Nunangat",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-  "section_anchor": "quebec",
-  "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#quebec"
+      "section_anchor": "quebec",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#quebec"
     },
     "Maritimes": {
       "type": "entity",
       "category": "revolutionary",
       "source": "admin1_merge",
       "country_code": "CAN",
-      "admin1_provinces": ["New Brunswick", "Nova Scotia", "Prince Edward Island"],
+      "admin1_provinces": [
+        "New Brunswick",
+        "Nova Scotia",
+        "Prince Edward Island"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "maritimes",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#maritimes"
@@ -496,7 +504,9 @@
       "category": "revolutionary",
       "source": "admin1_merge",
       "country_code": "CAN",
-      "admin1_provinces": ["Manitoba"],
+      "admin1_provinces": [
+        "Manitoba"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "manitoba",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#manitoba"
@@ -515,18 +525,29 @@
       "category": "indigenous",
       "source": "admin1_merge",
       "country_code": "CAN",
-      "admin1_provinces": ["Nunavut"],
+      "admin1_provinces": [
+        "Nunavut"
+      ],
       "add_counties": [
-        {"state": "AK", "county": "^(North Slope|Northwest Arctic|Nome).*"}
+        {
+          "state": "AK",
+          "county": "^(North Slope|Northwest Arctic|Nome).*"
+        }
       ],
       "add_manual_paths": [
         "source/manual/Nunatsiavut.kml",
         "source/manual/Inuvialuit.kml"
       ],
       "merge_admin1": [
-        {"province": "Québec", "clip_lat": 55, "clip_side": "north"}
+        {
+          "province": "Qu\u00e9bec",
+          "clip_lat": 55,
+          "clip_side": "north"
+        }
       ],
-      "add_country_codes": ["GRL"],
+      "add_country_codes": [
+        "GRL"
+      ],
       "clip_to_land": true,
       "join_buffer": 0.01,
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
@@ -538,7 +559,10 @@
       "category": "reactionary",
       "source": "admin1_merge",
       "country_code": "CAN",
-      "admin1_provinces": ["Alberta", "Saskatchewan"],
+      "admin1_provinces": [
+        "Alberta",
+        "Saskatchewan"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "prairieland",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#prairieland"
@@ -548,11 +572,28 @@
       "category": "reactionary",
       "source": "admin1_merge",
       "country_code": "CAN",
-      "admin1_provinces": ["British Columbia"],
+      "admin1_provinces": [
+        "British Columbia"
+      ],
       "admin2_filter": {
         "gadm_path": "../../gadm41_CAN.gpkg",
         "province": "British Columbia",
-        "division_names": ["Bulkley-Nechako", "Cariboo", "Central Kootenay", "Central Okanagan", "Columbia-Shuswap", "East Kootenay", "Fraser-Fort George", "Kootenay Boundary", "North Okanagan", "Northern Rockies", "Okanagan-Similkameen", "Peace River", "Stikine", "Thompson-Nicola"]
+        "division_names": [
+          "Bulkley-Nechako",
+          "Cariboo",
+          "Central Kootenay",
+          "Central Okanagan",
+          "Columbia-Shuswap",
+          "East Kootenay",
+          "Fraser-Fort George",
+          "Kootenay Boundary",
+          "North Okanagan",
+          "Northern Rockies",
+          "Okanagan-Similkameen",
+          "Peace River",
+          "Stikine",
+          "Thompson-Nicola"
+        ]
       },
       "remainder_entity": "Pacifica",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
@@ -582,7 +623,11 @@
       "category": "global",
       "source": "country",
       "country_code": "ARG",
-      "add_country_codes": ["URY", "FLK", "SGS"],
+      "add_country_codes": [
+        "URY",
+        "FLK",
+        "SGS"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "argentina",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#argentina"
@@ -608,7 +653,6 @@
       "section_anchor": "gran-colombia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#gran-colombia"
     },
-
     "England": {
       "type": "entity",
       "category": "global",
@@ -634,14 +678,61 @@
       "category": "global",
       "source": "group",
       "keep_unified": true,
-      "country_codes": ["POL", "CZE", "SVK", "HUN", "ROU", "BGR", "DNK", "EST", "FIN", "IRL", "ISL", "LVA", "LTU", "SWE", "AUT", "BEL", "FRA", "DEU", "LUX", "NLD", "NOR", "HRV", "CYP", "GRC", "ITA", "MLT", "PRT", "SVN", "ESP", "MDA", "ATF", "FRO"],
+      "country_codes": [
+        "POL",
+        "CZE",
+        "SVK",
+        "HUN",
+        "ROU",
+        "BGR",
+        "DNK",
+        "EST",
+        "FIN",
+        "IRL",
+        "ISL",
+        "LVA",
+        "LTU",
+        "SWE",
+        "AUT",
+        "BEL",
+        "FRA",
+        "DEU",
+        "LUX",
+        "NLD",
+        "NOR",
+        "HRV",
+        "CYP",
+        "GRC",
+        "ITA",
+        "MLT",
+        "PRT",
+        "SVN",
+        "ESP",
+        "MDA",
+        "ATF",
+        "FRO"
+      ],
       "preserve_holes": true,
       "min_hole_area": 0.01,
       "unify_buffer": 0.002,
-      "add_manual_paths": ["source/manual/Scotland.kml", "source/manual/NIreland.kml", "source/manual/Åland.kml"],
+      "add_manual_paths": [
+        "source/manual/Scotland.kml",
+        "source/manual/NIreland.kml",
+        "source/manual/\u00c5land.kml"
+      ],
       "subtract_admin1_per_code": {
-        "FRA": ["Guadeloupe", "Guyane française", "La Réunion", "Martinique", "Mayotte"],
-        "NLD": ["Bonaire", "Saba", "St. Eustatius"]
+        "FRA": [
+          "Guadeloupe",
+          "Guyane fran\u00e7aise",
+          "La R\u00e9union",
+          "Martinique",
+          "Mayotte"
+        ],
+        "NLD": [
+          "Bonaire",
+          "Saba",
+          "St. Eustatius"
+        ]
       },
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "european-union",
@@ -652,13 +743,30 @@
       "category": "global",
       "source": "group",
       "keep_unified": true,
-      "country_codes": ["RUS"],
+      "country_codes": [
+        "RUS"
+      ],
       "admin1_regions": [
-        {"country_code": "RUS", "admin1_name": "Crimea"},
-        {"country_code": "UKR", "admin1_name": "Donets'k"},
-        {"country_code": "UKR", "admin1_name": "Luhans'k"},
-        {"country_code": "UKR", "admin1_name": "Zaporizhzhya"},
-        {"country_code": "UKR", "admin1_name": "Kherson"}
+        {
+          "country_code": "RUS",
+          "admin1_name": "Crimea"
+        },
+        {
+          "country_code": "UKR",
+          "admin1_name": "Donets'k"
+        },
+        {
+          "country_code": "UKR",
+          "admin1_name": "Luhans'k"
+        },
+        {
+          "country_code": "UKR",
+          "admin1_name": "Zaporizhzhya"
+        },
+        {
+          "country_code": "UKR",
+          "admin1_name": "Kherson"
+        }
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "russia",
@@ -1194,7 +1302,6 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-
     "Switzerland": {
       "type": "entity",
       "category": "global",
@@ -1204,14 +1311,22 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-
     "Ukraine": {
       "type": "entity",
       "category": "global",
       "source": "country",
       "country_code": "UKR",
-      "subtract_admin1": ["Donets'k", "Luhans'k", "Zaporizhzhya", "Kherson"],
-      "subtract_admin1_per_code": {"RUS": ["Crimea"]},
+      "subtract_admin1": [
+        "Donets'k",
+        "Luhans'k",
+        "Zaporizhzhya",
+        "Kherson"
+      ],
+      "subtract_admin1_per_code": {
+        "RUS": [
+          "Crimea"
+        ]
+      },
       "subtract_buffer": 0.001,
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "ukraine",
@@ -1249,9 +1364,19 @@
       "category": "global",
       "source": "group",
       "keep_unified": true,
-      "country_codes": ["BRN", "KHM", "TLS", "IDN", "LAO", "MYS", "MMR", "PHL", "SGP", "THA", "VNM"],
-      "preserve_holes": true,
-      "min_hole_area": 0.01,
+      "country_codes": [
+        "BRN",
+        "KHM",
+        "TLS",
+        "IDN",
+        "LAO",
+        "MYS",
+        "MMR",
+        "PHL",
+        "SGP",
+        "THA",
+        "VNM"
+      ],
       "unify_buffer": 0.002,
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "southeast-asian-federation",
@@ -1868,7 +1993,7 @@
       "category": "global",
       "source": "admin1",
       "country_code": "FRA",
-      "admin1_name": "Guyane française",
+      "admin1_name": "Guyane fran\u00e7aise",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "cayenne",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#cayenne"
@@ -2060,12 +2185,12 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "La Réunion": {
+    "La R\u00e9union": {
       "type": "entity",
       "category": "global",
       "source": "admin1",
       "country_code": "FRA",
-      "admin1_name": "La Réunion",
+      "admin1_name": "La R\u00e9union",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
