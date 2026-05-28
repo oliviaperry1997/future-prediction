@@ -17,7 +17,7 @@ A markdown-based geopolitical forecasting and world-building project. This roadm
 - [ ] **Phase 9: Northern Europe Review** — Plausibility audit: Northern Europe
 - [x] **Phase 10: Southeast Asia Review** — Plausibility audit: Southeast Asia (completed 2026-05-28)
 - [ ] **Phase 11: Southern Asia Review** — Plausibility audit: Southern Asia
-- [ ] **Phase 12: Southern Europe Review** — Plausibility audit: Southern Europe
+- [x] **Phase 12: Southern Europe Review** — Plausibility audit: Southern Europe (completed 2026-05-28)
 - [ ] **Phase 13: Western Asia Review** — Plausibility audit: Western Asia
 - [ ] **Phase 14: Western Europe Review** — Plausibility audit: Western Europe
 - [ ] **Phase 15: Australasia Review** — Plausibility audit: Australasia
@@ -280,10 +280,10 @@ Plans:
 **Plans**: 4 plans
 
 Plans:
-- [ ] 12-01-PLAN.md — KML restructure: Southern Europe (wip) → Southern Europe, Turkey extracted, Balkans resolved, Northern Cyprus sub-polygon added (Wave 1)
-- [ ] 12-02-PLAN.md — borders-geopolitics.md: 8 EU member sub-entries, Western Balkans entries, Greco-Turkish conflict, Cyprus partition, microstates (Wave 1)
-- [ ] 12-03-PLAN.md — economy.md + demographics.md: all Southern European entities (Wave 2, depends on 02)
-- [ ] 12-04-PLAN.md — culture.md + climate.md: all Southern European entities (Wave 2, depends on 02)
+- [x] 12-01-PLAN.md — KML restructure: Southern Europe (wip) → Southern Europe, Turkey extracted, Balkans resolved, Northern Cyprus sub-polygon added (Wave 1)
+- [x] 12-02-PLAN.md — borders-geopolitics.md: 8 EU member sub-entries, Western Balkans entries, Greco-Turkish conflict, Cyprus partition, microstates (Wave 1)
+- [x] 12-03-PLAN.md — economy.md + demographics.md: all Southern European entities (Wave 2, depends on 02)
+- [x] 12-04-PLAN.md — culture.md + climate.md: all Southern European entities (Wave 2, depends on 02)
 
 **Wave 2** *(blocked on Wave 1 completion)*
 
@@ -374,7 +374,7 @@ Plans:
 | 9. Northern Europe Review | 0/3 | Planned | — |
 | 10. Southeast Asia Review | 4/4 | Complete   | 2026-05-28 |
 | 11. Southern Asia Review | 3/4 | In Progress|  |
-| 12. Southern Europe Review | — | Not started | — |
+| 12. Southern Europe Review | 4/4 | Complete   | 2026-05-28 |
 | 13. Western Asia Review | — | Not started | — |
 | 14. Western Europe Review | — | Not started | — |
 | 15. Australasia Review | — | Not started | — |
