@@ -125,13 +125,13 @@ The Mediterranean basin is experiencing warming at 1.5-2× the global average ra
 - **Alpine Slovenia:** Alpine glacier retreat in the Julian Alps and Karavanke range affects Slovenia's ski tourism (winter season shrinking) and summer hydropower. Flash flood risk from atmospheric rivers increases in the Alpine and pre-Alpine zones.
 - **→ See KML: European Federation**
 
-**Serbia:** *(Sovereign)*
+**Serbia:**
 - Continental climate — neither Mediterranean heat extremes nor Atlantic moderation. Serbia faces: increased summer heatwave frequency (Belgrade regularly 38-40°C in July-August); Danube flow reduction (reduced Alpine and Carpathian snowpack reduces summer flows, affecting navigation and the Smederevo steel plant's cooling water); agricultural stress in Vojvodina (increased drought frequency reduces maize and wheat yields in Serbia's most productive agricultural region). No significant sea-level exposure (landlocked).
-- **→ See KML: Serbia**
+- **→ See KML: European Federation**
 
-**Bosnia and Herzegovina:** *(Sovereign)*
-- Inland continental climate with Dinaric Alpine topography — flash flood risk from atmospheric rivers in the Dinaric range is Bosnia's primary acute climate hazard (Sarajevo's 2014 flood was a preview; comparable events are recurring). Wildfire risk on the Dalmatian-facing limestone karst. Agricultural stress from increased drought frequency. Coal dependency in Republika Srpska creates climate governance tension — the EU's carbon border adjustment mechanism penalizes Bosnian exports produced using coal energy.
-- **→ See KML: Bosnia and Herzegovina**
+**Bosnia and Herzegovina:**
+- Inland continental climate with Dinaric Alpine topography — flash flood risk from atmospheric rivers in the Dinaric range is Bosnia's primary acute climate hazard (Sarajevo's 2014 flood was a preview; comparable events are recurring). Wildfire risk on the Dalmatian-facing limestone karst. Agricultural stress from increased drought frequency. Coal dependency in the former Republika Srpska region created climate governance friction during EU accession; coal-fired plants now face mandatory phase-out under EU environmental law, with the transition funded through Just Transition Mechanism allocations.
+- **→ See KML: European Federation**
 
 <!-- Southern Asia reviewed Phase 11 (2026-05-28) --> — Eight individual sovereign states face distinct but interconnected climate stresses across the Himalayan watershed, the delta coast, and the low-lying atolls:
 

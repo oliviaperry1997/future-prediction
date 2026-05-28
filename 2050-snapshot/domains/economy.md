@@ -478,18 +478,18 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - Industrial zone development (Skopje economic zone; German automotive supplier presence pre-accession). EU accession accelerated value-chain integration into Central European manufacturing networks.
 - **→ See KML: European Federation**
 
-**Serbia:** *(Sovereign — see borders-geopolitics.md#serbia)*
+**Serbia:**
 - **GDP:** ~$80B (declining in real terms post-2040 — talent outflow, reactive investment environment, aging population without in-migration offset; BRI infrastructure investment creates capacity but not productivity growth)
 - **Dominant sectors:** Automotive components (Fiat-Stellantis Kragujevac plant — declining as EV transition hits internal combustion component demand), agriculture (Vojvodina grain belt — one of Europe's most productive agricultural zones), copper mining (Bor — Chinese-owned RTB Bor; largest copper mine in Europe), steel (Smederevo — Chinese-owned HBIS), IT services (Belgrade tech scene — talent flight accelerating but some nearshore EU services remain), construction (BRI-funded infrastructure — Belgrade-Budapest railway, road corridors)
-- **China BRI footprint:** Serbia has the deepest Chinese infrastructure investment in the Western Balkans — the Bor copper mine, Smederevo steel plant, and Belgrade-Budapest railway represent ~$5B in Chinese-financed assets. This investment provides economic activity but entrenches a dependency relationship that substitutes for EU structural funds and reduces accession urgency.
+- **China BRI footprint:** Serbia entered the EU with the deepest Chinese infrastructure footprint in the Western Balkans — the Bor copper mine, Smederevo steel plant, and Belgrade-Budapest railway represent ~$5B in pre-accession BRI assets. These assets are integrated into the EU single market but remain a legacy Chinese dependency that EU structural funds and competition policy are gradually rationalizing.
 - **Economic model:** State-dominated market economy — Vučić regime's political economy is crony capitalist, using infrastructure contracts and state enterprise employment as political patronage. Formal private sector is constrained by regulatory capture.
-- **→ See KML: Serbia**
+- **→ See KML: European Federation**
 
-**Bosnia and Herzegovina:** *(Sovereign — see borders-geopolitics.md#bosnia-and-herzegovina)*
+**Bosnia and Herzegovina:**
 - **GDP:** ~$28B (small, stagnant — per-capita among the lowest in Europe at ~$8,500; remittance inflows from diaspora in Germany, Austria, Switzerland, Sweden are a critical income support)
 - **Dominant sectors:** Metal manufacturing (Zenica steel), energy (hydropower in Federation entity; coal in Republika Srpska — Elektroprivreda RS relies on coal for ~50% of RS electricity), tourism (Sarajevo, Mostar, Banja Luka), agriculture, remittances (~$2B/yr — equivalent to ~7% of GDP and the largest stabilizing income source)
-- **Structural dysfunction:** Bosnia-Herzegovina is economically trapped by the Dayton entity structure — the Federation entity (Bosniak/Croat) is EU-aspirant and market-oriented; Republika Srpska is state-capture-oriented and coal-dependent. Investment decisions require entity-level coordination that rarely occurs. EU trade is the primary economic relationship (70% of exports go to EU), but without accession, the structural funds that transformed other Balkans economies are unavailable.
-- **→ See KML: Bosnia and Herzegovina**
+- **Structural dysfunction:** Bosnia-Herzegovina is economically trapped by the Dayton entity structure — the Federation entity (Bosniak/Croat) is EU-aspirant and market-oriented; Republika Srpska is state-capture-oriented and coal-dependent. Investment decisions require entity-level coordination that rarely occurs. EU trade is the primary economic relationship (70% of exports go to EU). EU accession (~2047) ended the structural funds drought — but the Dayton-era economic divergence between the Federation entity and Republika Srpska remains a legacy challenge for EU regional development policy.
+- **→ See KML: European Federation**
 
 **India:**
 - **GDP:** ~$12T (~3rd largest PPP economy by 2050, but severe internal inequality — Gini coefficient among the highest in Asia; top 10% hold ~60% of national wealth while rural North India remains subsistence-level)
