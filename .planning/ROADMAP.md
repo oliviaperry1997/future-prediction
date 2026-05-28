@@ -256,8 +256,8 @@ Plans:
 **Plans**: 4 plans
 
 Plans:
-- [ ] 11-01-PLAN.md — KML & Entity Config: (wip) removal, Afghanistan added to Southern Asia, section anchors fixed (Wave 1)
-- [ ] 11-02-PLAN.md — Borders-Geopolitics & asia.md: India expanded, 7 new entries, loop stage table updated (Wave 1, parallel)
+- [x] 11-01-PLAN.md — KML & Entity Config: (wip) removal, Afghanistan added to Southern Asia, section anchors fixed (Wave 1)
+- [x] 11-02-PLAN.md — Borders-Geopolitics & asia.md: India expanded, 7 new entries, loop stage table updated (Wave 1, parallel)
 - [ ] 11-03-PLAN.md — Economy & Demographics: India expanded, 7 new profiles each (Wave 2, blocked on 02)
 - [ ] 11-04-PLAN.md — Culture & Climate: India culture expanded, 7 new cultural profiles, Southern Asia climate subsection (Wave 2, blocked on 02, parallel with 03)
 

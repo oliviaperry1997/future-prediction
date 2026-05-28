@@ -3,8 +3,8 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
 status: executing
-stopped_at: Phase 11 Plan 01 complete
-last_updated: "2026-05-28T19:40:00Z"
+stopped_at: Phase 11 Plan 02 complete
+last_updated: "2026-05-28T20:42:00Z"
 last_activity: 2026-05-28
 progress:
   total_phases: 19
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-05-19)
 ## Current Position
 
 Phase: 11
-Plan: 1 of 1 (complete)
+Plan: 2 of 4 (complete)
 Status: Executing
 Last activity: 2026-05-28
 
@@ -96,6 +96,8 @@ Phase 1 locked decisions from discuss-phase (see `01-CONTEXT.md` for full detail
 - [Phase ?]: [Phase 07 Plan 04]: Eastern Asia added to climate migration (~2-4M) and water conflicts (Yellow River, Amur/Heilongjiang)
 - [Phase 11 Plan 01]: (wip) removed from Southern Asia; Afghanistan moved from Central Asia to Southern Asia in entity-config.json and borders.kml; section_anchors populated for all 7 non-India Southern Asia entities
 
+- [Phase 11 Plan 02]: India expanded to standard depth (Stage 3 Reactionary Degradation) in borders-geopolitics.md; 7 new Southern Asia entity paragraphs added (Pakistan, Bangladesh, Nepal, Bhutan, Sri Lanka, Maldives, Afghanistan); loop stage table in asia.md updated with all 8 entities; Pakistan 'failed state' and Afghanistan 'beyond the loop' framings superseded
+
 ### Pending Todos
 
 None yet.
@@ -112,6 +114,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-28T19:40:00Z
-Stopped at: Phase 11 Plan 01 complete
-Resume file: .planning/phases/11-southern-asia-review/11-01-SUMMARY.md
+Last session: 2026-05-28T20:42:00Z
+Stopped at: Phase 11 Plan 02 complete
+Resume file: .planning/phases/11-southern-asia-review/11-02-SUMMARY.md
