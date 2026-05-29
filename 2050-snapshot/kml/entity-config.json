@@ -268,8 +268,6 @@
         "Armenia",
         "Azerbaijan",
         "Georgia",
-        "Nagorno-Karabakh",
-        "Levant Republic",
         "Arab Popular Republic"
       ]
     },
@@ -2425,15 +2423,6 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "georgia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#georgia"
-    },
-    "Nagorno-Karabakh": {
-      "type": "entity",
-      "category": "regional",
-      "source": "manual",
-      "manual_path": "source/manual/Nagorno-Karabakh.kml",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "nagorno-karabakh",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#nagorno-karabakh"
     },
     "Levant Republic": {
       "type": "entity",
