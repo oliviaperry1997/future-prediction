@@ -253,6 +253,8 @@
         "Oman",
         "Qatar",
         "Saudi Arabia",
+        "Hejaz",
+        "Eastern Province",
         "Turkey",
         "United Arab Emirates",
         "Armenia",
@@ -1102,15 +1104,17 @@
     "Saudi Arabia": {
       "type": "entity",
       "category": "global",
-      "source": "admin1_merge",
-      "country_code": "SAU",
-      "merge_regions": [
-        "Ar Riyad",
-        "Al Quassim",
-        "Ha'il",
-        "Al Jawf",
-        "Al Hudud ash Shamaliyah"
-      ],
+      "source": "manual",
+      "manual_path": "source/manual/Saudi-Arabia.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "saudi-arabia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#saudi-arabia"
+    },
+    "Hejaz": {
+      "type": "entity",
+      "category": "global",
+      "source": "manual",
+      "manual_path": "source/manual/Hejaz.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "saudi-arabia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#saudi-arabia"
@@ -2335,9 +2339,8 @@
     "Eastern Province": {
       "type": "entity",
       "category": "global",
-      "source": "admin1",
-      "country_code": "SAU",
-      "admin1_name": "Ash Sharqiyah",
+      "source": "manual",
+      "manual_path": "source/manual/Eastern-Province.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "saudi-arabia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#saudi-arabia"
