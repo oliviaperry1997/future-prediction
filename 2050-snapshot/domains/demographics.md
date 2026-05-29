@@ -460,6 +460,58 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Age structure:** Median age ~46. Among the more demographically stable Southern EU members.
 - **→ See KML: European Federation**
 
+<!-- Western Europe reviewed Phase 14 (2026-05-29) -->
+**France:** *(EU Federation subdivision)*
+- **Population:** ~68M (declining from 2024's ~72M — natural decline partially offset by immigration; the loss of Corsica and Brittany as direct EU subdivisions reduced mainland France's population basis by ~4.5M, with Corsica ~350K and Brittany ~4.5M now direct EU subdivisions)
+- **Age structure:** Median age ~48, 65+: ~26%. France's age profile is moderately younger than Germany's and Italy's, sustained by higher immigration and slightly higher TFR among immigrant communities.
+- **TFR:** ~1.4 (marginally higher than the Mediterranean average; post-Bardella left reboot family policy expanded childcare and parental leave)
+- **Net migration:** +0.3%/yr (North and West African migration continues — the Francophone migration bridge from Maghreb and Francophone West Africa is structurally significant; post-Bardella left reboot's more open immigration policy partially reversed the Bardella-era emigration of educated French youth to other EU subdivisions)
+- **Post-territorial-fracture demographic impact:** The loss of Corsica and Brittany during the Bardella degradation window (2027-2043) reduced mainland France's population by ~4.5M. Corsica (~350K) and Brittany (~4.5M) are now direct EU subdivisions with their own demographic profiles. The rump French state's demographic trajectory post-left reboot is one of modest recovery from Bardella-era population losses.
+- **→ See KML: European Federation**
+
+**Germany:** *(EU Federation subdivision)*
+- **Population:** ~80M (declining slowly from 2024's ~84M — Germany experienced a population dip during the AfD era when emigration exceeded immigration; the post-AfD green-left recovery reversed this trend)
+- **Age structure:** Median age ~49, 65+: ~28%. Germany is among the EU's oldest subdivisions — the demographic legacy of decades of below-replacement TFR compounded by the AfD-era immigration pause.
+- **TFR:** ~1.45 (slightly above the EU average; post-AfD family policy improvements — expanded childcare, parental leave, housing subsidies — have stabilized but not reversed below-replacement fertility)
+- **Net migration:** +0.35%/yr (controlled but significant — Turkey, Middle East, and Eastern European migration continues; the post-AfD government restored immigration pathways that the AfD had restricted, particularly for skilled workers in green technology and healthcare)
+- **Post-AfD demographic impact:** The AfD era (~2029-2044) reduced immigration and accelerated emigration of skilled workers, creating a measurable population dip. The green-left recovery reversed this by ~2045, but Germany's demographic trajectory remains one of slow decline partially offset by managed immigration. Germany is the demographic anchor of the EU's core — its absolute size (~80M) gives it outsized weight in EU demographic data.
+- **→ See KML: European Federation**
+
+**Netherlands:** *(EU Federation subdivision)*
+- **Population:** ~18M (slowly growing — the Netherlands is one of the few Western EU subdivisions with population growth, driven by immigration and relatively higher TFR)
+- **Age structure:** Median age ~44 (younger than the EU Western average — sustained by immigration and higher fertility)
+- **TFR:** ~1.55 (among the EU's highest — generous family policy, UBI implementation 2038, four-day workweek norms, and strong childcare infrastructure support above-EU-average fertility)
+- **Net migration:** +0.4%/yr (attracts skilled migration to Rotterdam and Amsterdam tech/finance sectors; the Jetten-era progressive policies — UBI, four-day workweek, green industrial policy — functioned as demographic attractors)
+- **Post-PVV reversal demographic effect:** The early reversal of far-right governance (PVV collapse 2026, Jetten cabinet 2026-2028) meant the Netherlands did not experience the emigration-of-skilled-workers that degraded reactionary states experienced. The Jetten government's progressive policies became demographic attractors — talent from Brexit-displaced London, from AfD-era Germany, and from other reactionary-degrading EU states relocated to the Netherlands throughout the 2030s-2040s.
+- **Urbanization:** 90%+ — the Randstad (Amsterdam, Rotterdam, The Hague, Utrecht) is one of the most densely populated and economically productive urban corridors in Europe.
+- **→ See KML: European Federation**
+
+**Belgium:** *(EU Federation subdivision)*
+- **Population:** ~12M (slowly growing — Brussels-driven immigration offsets natural decline)
+- **Age structure:** Median age ~46 (slightly younger than the German/French average — Brussels' young international workforce and immigrant communities lower the median)
+- **TFR:** ~1.55 (moderate — Belgian family policy is solid but less generous than the Nordic/Netherlands model; immigrant communities have higher birth rates)
+- **Net migration:** +0.4%/yr (Brussels is the single largest migration attractor: EU institutions, diplomatic missions, lobbying firms, and international organizations generate permanent demand for skilled professionals from all EU subdivisions and beyond)
+- **Brussels diversity:** Brussels is the EU's most internationally diverse city — ~40% of Brussels' population is foreign-born, representing all 27 EU subdivisions plus significant extra-EU populations (Morocco, Turkey, Congo, India). The city's demographic profile is fundamentally different from the rest of Belgium: younger, more educated, more international, and more transient.
+- **Community dynamics:** Flemish (Dutch-speaking — ~57%), Walloon (French-speaking — ~40%), and German-speaking (~1%) communities maintain stable demographic proportions. The linguistic balance has been stabilized by EU federal governance — Brussels' international character dilutes the Flemish-Walloon tension that defined pre-federal Belgian politics.
+- **→ See KML: European Federation**
+
+**Austria:** *(EU Federation subdivision)*
+- **Population:** ~9M (declining slowly — natural decrease partially offset by immigration from Eastern Europe and Western Balkans)
+- **Age structure:** Median age ~47 (aging — Austria's native population is among the EU's older, but Vienna's migration inflow partially offsets the trend)
+- **TFR:** ~1.45 (moderate EU average — no distinctive departure from Central European patterns)
+- **Net migration:** +0.3%/yr (Vienna attracts migration from Eastern Europe and the Western Balkans — historic gravitational role as the EU's eastern capital; Hungarian, Czech, Slovak, and Western Balkan communities are well established)
+- **Vienna's demographic role:** Vienna is the EU's demographic hinge between Western and Eastern Europe — attracting educated professionals from Hungary, Czechia, Slovakia, Slovenia, Croatia, and the Western Balkans. This inflow partially offsets the aging of Austria's native population, making Vienna significantly younger than the Austrian countryside.
+- **FPOe-era impact:** The FPOe governance period (~2030s-2040s) slowed immigration relative to core EU states — restrictive policies reduced the inflow of non-EU migrants and created a less welcoming climate for EU immigrants — but EU single-market labor mobility and Vienna's structural role as an Eastern European hub maintained net positive migration.
+- **→ See KML: European Federation**
+
+**Luxembourg:** *(EU Federation subdivision)*
+- **Population:** ~700K (rapidly growing — the highest population growth rate of any Western EU subdivision, driven entirely by immigration)
+- **Age structure:** Median age ~40 (significantly younger than the EU average — the immigrant workforce skews young and working-age)
+- **TFR:** ~1.5 (moderate — below replacement but stable; the native Luxembourger population has below-EU-average TFR, offset by higher TFR among immigrant communities)
+- **Net migration:** +1.5%/yr (the highest net migration rate in the EU by far — EU institutional employment and the financial services sector attract highly skilled professionals from all EU subdivisions and beyond)
+- **Cross-border workers:** ~200K daily commuters from France, Belgium, and Germany — Luxembourg's workforce is one-quarter cross-border, creating a unique demographic dynamic where the daytime population significantly exceeds the residential population. This structural dependence on cross-border labor is a defining feature of Luxembourg's demography and economy.
+- **→ See KML: European Federation**
+
 **Croatia:** *(EU Federation subdivision)*
 - **Population:** ~3.5M (declining — Croatia experienced significant emigration to Western EU after accession in 2013; demographic stabilization has been slow; the Adriatic coastal economy draws some return migrants)
 - **→ See KML: European Federation**
