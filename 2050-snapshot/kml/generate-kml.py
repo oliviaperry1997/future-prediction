@@ -1516,6 +1516,18 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                         else:
                             entity_errors.append(f"  [{entity_name}] add_country_codes: '{cc}' not found")
                 
+                # Add admin-1 regions from another country (e.g., Yemen + SAU border zones)
+                add_admin1_per_code = entity_cfg.get("add_admin1_per_code", {})
+                if add_admin1_per_code and admin1_data:
+                    for code, region_names in add_admin1_per_code.items():
+                        for region_name in region_names:
+                            admin1_geom = admin1_data.get((code, region_name))
+                            if admin1_geom is not None:
+                                geom = geom.union(admin1_geom)
+                            else:
+                                entity_errors.append(f"  [{entity_name}] add_admin1_per_code admin1 '{region_name}' in {code} not found")
+                    geom = remove_slivers(geom)
+                
                 # Add manual KML geometries to country polygon (e.g., Pakistan + Siachen Glacier)
                 add_manual_paths = entity_cfg.get("add_manual_paths", [])
                 if add_manual_paths:

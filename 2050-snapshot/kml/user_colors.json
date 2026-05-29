@@ -1420,5 +1420,17 @@
     "kml_fill": "80409f23",
     "kml_line": "ff409f23",
     "width": 1.0
+  },
+  "Hejaz": {
+    "hex": "#325A4E",
+    "kml_fill": "804E5A32",
+    "kml_line": "ff4E5A32",
+    "width": 1.0
+  },
+  "Eastern Province": {
+    "hex": "#C8C103",
+    "kml_fill": "8003C1C8",
+    "kml_line": "ff03C1C8",
+    "width": 1.0
   }
 }

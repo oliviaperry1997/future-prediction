@@ -268,7 +268,9 @@
         "Armenia",
         "Azerbaijan",
         "Georgia",
-        "Arab Popular Republic"
+        "Arab Popular Republic",
+        "Eastern Province",
+        "Hejaz"
       ]
     },
     "Oceania (wip)": {
@@ -1139,8 +1141,15 @@
     "Saudi Arabia": {
       "type": "entity",
       "category": "global",
-      "source": "country",
+      "source": "admin1_merge",
       "country_code": "SAU",
+      "merge_regions": [
+        "Ar Riyad",
+        "Al Quassim",
+        "Ha'il",
+        "Al Jawf",
+        "Al Hudud ash Shamaliyah"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "saudi-arabia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#saudi-arabia"
@@ -1534,7 +1543,14 @@
       "country_code": "YEM",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "yemen",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#yemen"
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#yemen",
+      "add_admin1_per_code": {
+        "SAU": [
+          "Najran",
+          "`Asir",
+          "Jizan"
+        ]
+      }
     },
     "Oman": {
       "type": "entity",
@@ -2451,6 +2467,31 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "arab-united-front",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#arab-united-front"
+    },
+    "Hejaz": {
+      "type": "entity",
+      "category": "global",
+      "source": "admin1_merge",
+      "country_code": "SAU",
+      "merge_regions": [
+        "Makkah",
+        "Al Madinah",
+        "Tabuk",
+        "Al Bahah"
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "saudi-arabia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#saudi-arabia"
+    },
+    "Eastern Province": {
+      "type": "entity",
+      "category": "global",
+      "source": "admin1",
+      "country_code": "SAU",
+      "admin1_name": "Ash Sharqiyah",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "saudi-arabia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#saudi-arabia"
     }
   },
   "fragmented_entities": {},
