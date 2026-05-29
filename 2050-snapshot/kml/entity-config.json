@@ -253,8 +253,7 @@
         "Oman",
         "Qatar",
         "Saudi Arabia",
-        "Hejaz",
-        "Eastern Province",
+        "Ash-Sharqiyah",
         "Turkey",
         "United Arab Emirates",
         "Armenia",
@@ -1106,15 +1105,6 @@
       "category": "global",
       "source": "manual",
       "manual_path": "source/manual/Saudi-Arabia.kml",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "saudi-arabia",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#saudi-arabia"
-    },
-    "Hejaz": {
-      "type": "entity",
-      "category": "global",
-      "source": "manual",
-      "manual_path": "source/manual/Hejaz.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "saudi-arabia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#saudi-arabia"
@@ -2298,6 +2288,9 @@
       "category": "global",
       "source": "country",
       "country_code": "ARM",
+      "add_manual_paths": [
+        "source/manual/Nagorno-Karabakh.kml"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "armenia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#armenia"
@@ -2336,11 +2329,11 @@
       "section_anchor": "arab-united-front",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#arab-united-front"
     },
-    "Eastern Province": {
+    "Ash-Sharqiyah": {
       "type": "entity",
       "category": "global",
       "source": "manual",
-      "manual_path": "source/manual/Eastern-Province.kml",
+      "manual_path": "source/manual/Ash-Sharqiyah.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "saudi-arabia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#saudi-arabia"

@@ -3,7 +3,7 @@
   <Document>
     <name>2050 Technology</name>
     <visibility>0</visibility>
-    <gx:CascadingStyle id="__managed_style_0000000000000253">
+    <gx:CascadingStyle id="__managed_style_0000000000000250">
       <Style>
         <IconStyle>
           <Icon>
@@ -24,7 +24,7 @@
         </BalloonStyle>
       </Style>
     </gx:CascadingStyle>
-    <gx:CascadingStyle id="__managed_style_0000000000000254">
+    <gx:CascadingStyle id="__managed_style_0000000000000251">
       <Style>
         <IconStyle>
           <Icon>
@@ -45,14 +45,14 @@
         </BalloonStyle>
       </Style>
     </gx:CascadingStyle>
-    <StyleMap id="__managed_style_0000000000000255">
+    <StyleMap id="__managed_style_0000000000000252">
       <Pair>
         <key>normal</key>
-        <styleUrl>#__managed_style_0000000000000253</styleUrl>
+        <styleUrl>#__managed_style_0000000000000250</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#__managed_style_0000000000000254</styleUrl>
+        <styleUrl>#__managed_style_0000000000000251</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>
