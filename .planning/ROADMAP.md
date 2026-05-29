@@ -326,7 +326,7 @@ Plans:
 Plans:
 - [x] 14-01-PLAN.md — KML & Entity Config: Merge Switzerland/Liechtenstein into EU Federation (Wave 1)
 - [x] 14-02-PLAN.md — Borders-Geopolitics: Western EU sub-entries + Key Changes bullet (Wave 1, parallel)
-- [ ] 14-03-PLAN.md — Economy & Demographics: Western EU sub-entries (Wave 2, blocked on 02)
+- [x] 14-03-PLAN.md — Economy & Demographics: Western EU sub-entries (Wave 2, blocked on 02)
 - [ ] 14-04-PLAN.md — Culture, Climate & Technology: Western EU sub-entries (Wave 2, blocked on 02, parallel with 03)
 
 **Wave structure:**
@@ -409,7 +409,7 @@ Plans:
 | 11. Southern Asia Review | 4/4 | Complete | 2026-05-28 |
 | 12. Southern Europe Review | 6/6 | Complete | 2026-05-29 |
 | 13. Western Asia Review | 6/6 | Complete | 2026-05-29 |
-| 14. Western Europe Review | 2/4 | In Progress|  |
+| 14. Western Europe Review | 3/4 | In Progress|  |
 | 15. Australasia Review | — | Not started | — |
 | 16. Melanesia Review | — | Not started | — |
 | 17. Micronesia Review | — | Not started | — |
