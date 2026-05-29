@@ -496,7 +496,21 @@ Population: ~80M combined. Territory: 3.9M km² spanning from the Caspian Sea to
 
 ### West Asia / Middle East
 
-**Iran:** Nuclear-armed regional power. Tested a crude device in the mid-2030s, triggering a regional proliferation cascade. The IRGC consolidated power under Supreme Leader Mojtaba Khamenei. The Axis of Resistance reconstituted as a looser network — less Iran-directed, more locally autonomous — but ideologically aligned and capable of coordinated asymmetric action. Iran controls Hormuz chokepoint leverage, though global oil demand decline gradually reduces its relevance. **→ See KML: Iran**
+**Iran:** {#iran} Nuclear-armed regional power and eastern anchor of the EU-Iran-Armenia-Georgia anti-Quartet triangle.
+
+**Nuclear capability:** Tested a crude device mid-2030s and crossed into full nuclear-armed status by the late 2030s. The proliferation cascade is direct: Iran's test triggered Saudi threshold acceleration (with Pakistani technical assistance, ~2040s) and forced Israeli deterrent re-evaluation. Iran's nuclear capability serves a dual strategic function — deterrence against Israeli first-strike scenarios AND deterrence against Turkish military intervention in the South Caucasus (particularly the Nagorno-Karabakh reversal window ~2036-2045). Iranian nuclear cover is the structural guarantee that allows Armenia to exit CSTO and pursue EU association without falling into the Turkish-Azerbaijani OTS sphere.
+
+**IRGC consolidation:** Supreme Leader Mojtaba Khamenei (Ali Khamenei's son; succession completed in the early 2030s as Ali's health deteriorated) presides over an IRGC-dominated state. The IRGC manages Iran's external security architecture — regional proxy networks, nuclear program oversight, Hormuz contingency planning — while the civilian government manages the economy and diplomatic face. A hybrid revolutionary-institutional state: IRGC-dominant but not full Stage 5 democratic transformation; the revolutionary Islamic Republic framework is managed consolidation, not a system in crisis.
+
+**Axis of Resistance reconstitution:** Post-US-collapse, the Axis reconstitutes as a looser network — less Iran-directed, more locally autonomous. Hezbollah/Lebanon: subsumed into the Levant Republic (AUF founding structure). Ansarallah/Yemen: AUF founding member. PMF/Iraq: AUF-associated. The Axis of Resistance is the organizational precursor to the AUF — same actors, reorganized under Arab leadership. Iran provided four decades of infrastructure; the AUF operates it.
+
+**EU-Iran-Armenia-Georgia Triangle:** Iran is the security anchor for Armenia — providing the nuclear deterrence umbrella that enables Armenia's South Caucasus counter-alignment against Turkish-Azerbaijani OTS dominance. Iran's strategic interest: counter Turkish encirclement, maintain South Caucasus strategic depth, preserve the land corridor Armenia provides as a buffer against OTS expansion.
+
+**Hormuz leverage:** Decreasing relevance as global oil demand declines through the 2030s-2050s. Chokepoint control remains a coercive tool even in a declining market — Iran retains the ability to disrupt Gulf energy exports as a crisis escalation instrument, but the economic weight of this tool is lower than it was in 2026.
+
+**Stage:** Stage 4 — entrenched revolutionary institutional hybrid (IRGC-dominant, Islamic Republic framework, managed consolidation).
+
+**→ See KML: Iran** **→ See: #arab-united-front** **→ See: #armenia** **→ See: #quartet**
 
 **Israel:** {#israel} A nuclear-armed coastal rump state (~8,000-10,000 sq km) comprising the Haifa district, Central district, and Tel Aviv district — the coastal strip from Haifa to the Ashkelon area. Territorial contraction completed through the 2030s-2040s; West Bank settlers (700K+ by the time of final withdrawal) evacuated under the combined pressure of security deterioration and negotiated Palestinian sovereignty frameworks.
 
@@ -589,9 +603,95 @@ Population: ~80M combined. Territory: 3.9M km² spanning from the Caspian Sea to
 
 **→ See KML: Arab United Front** **→ See: #levant-republic** **→ See: #iran** **→ See: #yemen** **→ See: #egypt**
 
-**Saudi Arabia:** A wealthy but strategically constrained middle power past its oil peak. The GCC is split — the UAE chose the Israel axis (contracted with US collapse), Saudi Arabia aligned with the Quartet. Nuclear threshold state with latent capability achieved with Pakistani assistance. The absolute monarchy's legitimacy, dependent on distribution capacity, is under increasing strain as oil revenue declines. **→ See KML: Saudi Arabia**
+**Saudi Arabia:** {#saudi-arabia} Fragmentation trajectory — terminal stage of the oil-rentier absolute monarchy model.
 
-**Quartet (Turkey-Saudi Arabia-Egypt-Pakistan):** Formalized as the post-NATO security architecture for West Asia. Turkey is the military-industrial anchor, Saudi Arabia provides capital, Egypt provides demographic weight and Suez leverage, Pakistan provides the nuclear deterrent. The defining institutional framework of post-American West Asia — containing Iran's Axis, managing Israel's contraction, and excluding US influence. **→ See KML: Quartet**
+**Structural drivers of fragmentation:** Four converging pressures define Saudi Arabia's 2050 trajectory: (1) *Oil/gas fiscal crisis ~2037-2045* — Vision 2030 fell short of restructuring the rentier model; non-oil GDP development was insufficient to replace hydrocarbon revenue as demand declined globally; the fiscal shock is existential for a state whose legitimacy runs entirely through wealth distribution. (2) *MBS succession crisis* — Muhammad bin Salman's rule ends (death or forced abdication) triggering intra-royal succession conflict; the Al-Saud consolidated around MBS at the expense of rival branches, leaving no stable institutional succession mechanism; the post-MBS transition is the primary political crisis window. (3) *US patron removed* — the Saudi security guarantee evaporated with the US collapse (~2032); Saudi Arabia lost F-15 maintenance contracts, AWACS, and the Fifth Fleet umbrella simultaneously. (4) *Yemeni pressure on southern border* — Ansarallah's expanded Yemen (post-Saudi fragmentation) exerts territorial and political pressure on the Najran and Asir border zones.
+
+**Fragmentation scenarios:** *Hejaz separation* (most plausible, ~primary scenario) — the Mecca/Medina/Jeddah corridor separates as a cosmopolitan successor state with recoverable historical identity (independent Hejaz kingdom until 1925). The Hejaz Liberation Movement is the pre-AUF accession actor. *Eastern Province split* — oil infrastructure zone plus significant Shia population separates or falls into Iranian orbit. *Najdi rump* — deeply reactionary core state centered on Riyadh, the residual of the Al-Saud heartland. *Yemeni absorption* — Najran and Asir border zones absorbed by expanding Ansarallah Yemen (~post-2040), incorporating significant Zaydi Shia and Yemeni-affiliated populations.
+
+**Nuclear threshold state:** Threshold capability with Pakistani technical assistance (~2040s). Ambiguous deterrence — Saudi Arabia achieved the knowledge and material base without formal testing.
+
+**Quartet role degrades:** Saudi Arabia is the Quartet's capital provider — sovereign wealth, religious legitimacy, Sunni political network. As rentier capacity collapses and fragmentation progresses, Quartet coherence weakens proportionally. Saudi fragmentation is the Quartet's most structurally damaging internal dynamic.
+
+**GCC dissolution:** UAE broke from Saudi alignment (Israel axis legacy, Chinese economic patron); Saudi Arabia retained Quartet alignment. The GCC ceased to function as a coherent bloc.
+
+**Stage:** Stage 4-5 Reactionary — terminal trajectory; fragmentation is the primary 2050 scenario.
+
+**→ See KML: Saudi Arabia** **→ See: #quartet** **→ See: #yemen** **→ See: #arab-united-front**
+
+**Quartet (Turkey-Saudi Arabia-Egypt-Pakistan):** {#quartet} Formalized as the post-NATO security architecture for West Asia ~2030-2033 as US military presence collapsed.
+
+**Four-pillar structure:** (1) *Turkey — military-industrial anchor:* Baykar drone exports (TB2, Akıncı, Kızılelma), the domestically produced KAAN fifth-generation fighter, and Turkey's defense export network provide the Quartet's hard-power foundation. Turkey is the only Quartet member with credible conventional military projection capability. (2) *Saudi Arabia — capital provider:* Sovereign wealth funds, religious legitimacy (Custodian of the Two Holy Mosques), and Sunni political network provide the Quartet's financial and ideological soft power. Degrading as Saudi fragmentation progresses. (3) *Egypt — demographic weight:* Egypt's 100M+ population, Suez Canal leverage, and pan-Arab cultural centrality provide the Quartet's demographic anchor. Egypt is also the Quartet's most consequential internal risk — see below. (4) *Pakistan — nuclear pillar:* Pakistan's nuclear deterrent is the Quartet's existential deterrence layer against the Iran-AUF axis; regardless of Pakistan's domestic fragmentation trajectory, the nuclear role persists through every scenario short of complete state dissolution. Pakistan is the Islamic world link beyond the Arab core.
+
+**Defining purposes:** (1) Contain the Iran-AUF axis; (2) manage Israel's territorial contraction on terms acceptable to Sunni states; (3) exclude US influence from post-collapse West Asian order; (4) provide Sunni states an alternative framework to revolutionary AUF accession.
+
+**Internal tensions and stress points:** Turkey's Western economic exposure (EU trade dependency, legacy NATO industrial base) creates structural strain — the US collapse hurt Turkey harder than Iran, compounding Quartet consolidation stress. Saudi Arabia's fragmentation degrades the capital-provider pillar. Egypt's revolutionary trajectory (~2043-2048) is existentially threatening to the Quartet — Egypt's AUF accession would remove the Quartet's largest Arab member and transform the regional balance; the Quartet's most contested variable is Egypt's loyalty. Pakistan's own fragmentation dynamics and Kashmir pressures create chronic distraction from the West Asian theater.
+
+**2050 status:** Functional but stressed. Turkey and Pakistan remain anchor pillars; Saudi Arabia is degraded and fragmented; Egypt's trajectory is the Quartet's open question — the outcome of Egypt's internal dynamics will determine whether the Quartet survives as a coherent bloc into the 2060s.
+
+**→ See KML: Quartet** **→ See: #turkey** **→ See: #saudi-arabia** **→ See: #egypt**
+
+---
+
+**Yemen:** {#yemen} Revolutionary Zaydi Shia state under Ansarallah control — the AUF's military proof-of-concept and co-anchor of the Arab revolutionary nation alongside Palestine.
+
+**AUF founding member:** Yemen/Ansarallah contributed three essential elements to the Arab United Front's founding congress (~2031-2033): military proof-of-concept (drone and missile expertise, drone swarm tactics that accelerated Israeli interceptor depletion and demonstrated that a non-state actor could sustain asymmetric warfare against a technologically superior adversary); tribal incorporation model (mobilizing mass participation through tribal structures, providing the AUF an organizing template for non-urban populations); and organizational template for armed revolutionary movements. Yemen is co-anchor of the AUF alongside Palestine — Palestine provides the founding political legitimacy, Yemen provides the military credibility.
+
+**Axis-to-AUF evolution:** Ansarallah began as an Axis of Resistance affiliate under Iranian patronage. Post-US-collapse, Ansarallah repositions as an AUF founding actor under Arab leadership — the transition reflects the broader Axis-to-AUF organizational evolution: same actors, same material networks, reorganized under Arab nationalist rather than Iranian Shia leadership.
+
+**Expanded territory:** Post-Saudi fragmentation (~2040+), Yemen absorbs the Najran and Asir border zones — significant Zaydi Shia and Yemeni-affiliated populations historically contested between the two states. The absorption is the culmination of Ansarallah's decades-long assertion that these zones are historically Yemeni.
+
+**Catalytic role:** Yemen is the revolutionary catalyst for Saudi collapse, not an integration anchor. Economically devastated by decades of war, Yemen's role in the AUF is catalytic and military — providing organizational inspiration, military doctrine, and strategic pressure — not structural or economic. Yemen does not provide the solidarity fund or administrative infrastructure; it provides the proof that revolution is possible.
+
+**→ See KML: Yemen** **→ See: #arab-united-front** **→ See: #saudi-arabia** **→ See: #iran**
+
+---
+
+**United Arab Emirates (UAE):** {#uae} Stage 3 Reactionary "Gilded Fortress" — sovereign wealth fund survival as the defining strategic wildcard.
+
+**Dual patronage:** Following the Abraham Accords' collapse, the UAE navigated a dual patron arrangement: (1) *Saudi/Quartet normalization deal (~2040-2045)* — the UAE reconciled with the Saudi-aligned Quartet after Abraham Accords economic integration became incoherent; the normalization preserves UAE sovereign independence within a broader Sunni security framework. (2) *Chinese economic patron* — ADIA sovereign wealth fund investments in Chinese infrastructure and green technology create structural economic alignment; a Chinese security guarantee is implicit in the depth of the economic relationship, though not formal.
+
+**Abraham Accords legacy:** Suspended. Israel's territorial contraction and the UAE's Chinese reorientation made the Accords' economic integration model — the Dubai-Tel Aviv technology corridor, normalization dividend — incoherent. The Berbera Axis (Israel-UAE-Ethiopia-Somaliland) simultaneously collapsed as all three non-UAE members degraded.
+
+**ADIA wildcard:** The Abu Dhabi Investment Authority (~$800B+ in sovereign wealth at its peak) provides UAE a soft-landing that most Gulf states lack. ADIA's diversified global portfolio, Chinese partnership, and managed transition from oil rentierism give UAE a fiscal buffer extending well beyond 2050. UAE is the Gulf state most likely to survive the post-oil transition with sovereign integrity intact — not because of political innovation, but because it accumulated enough capital to buy time.
+
+**Population structure:** UAE remains ~88% expatriate; political stability is contingent on continued wealth distribution capacity. As oil revenue declines, the expatriate workforce rebalances toward BRICS+ origin workers (Chinese, Indian, Southeast Asian) rather than Western professionals.
+
+**→ See KML: United Arab Emirates** **→ See: #saudi-arabia** **→ See: #china** **→ See: #quartet**
+
+---
+
+**Kuwait:** {#kuwait} Rentier model terminal crisis — the smallest sovereign wealth fund runway among the Gulf states.
+
+Kuwait's oil revenue depletion and US patron removal hit simultaneously. The Kuwait Investment Authority (KIA, ~$750B) provides a soft-landing window analogous to the UAE's ADIA but smaller relative to Kuwait's structural fiscal dependency. By 2050, Kuwait maintains nominal sovereignty and constitutional monarchy under strain — the Al-Sabah ruling family manages decline through wealth distribution and controlled political reform, but the underlying economic model is not viable beyond the 2060s. Kuwait did not undergo a revolutionary flip — the combination of KIA wealth and Quartet security umbrella preserved the regime's capacity to manage dissent through patronage. The Shia minority (~30-40% of citizens) has not translated demographic weight into political disruption, in part because Iranian regional pressure incentivizes Kuwaiti Sunni-Shia elite accommodation rather than exploitation.
+
+**→ See KML: Kuwait** **→ See: #quartet**
+
+---
+
+**Qatar:** {#qatar} Strategic ambiguity as a long-term survival model — the natural gas fiscal runway outlasts oil.
+
+Natural gas (LNG) peak is later than oil — Qatar's fiscal cliff arrives in the 2040s rather than the 2030s, providing a longer managed transition runway than Saudi Arabia or Bahrain. The Qatar Investment Authority (QIA, ~$500B) enables the managed transition Qatar's LNG revenue permits. Al-Jazeera's pan-Arab media network was an early AUF-sympathetic outlet — Qatar's soft-power alignment with Arab revolutionary politics is a hedge against the Quartet's potential fragmentation while Qatar's physical security depends on the Quartet umbrella. By 2050, Qatar is sovereign, wealthy, and strategically ambiguous — not a Quartet anchor, not an AUF member. Qatar's balancing act between AUF cultural alignment and Quartet security dependence defines its regional position. This ambiguity is sustainable as long as Qatar's fiscal position remains strong; it becomes untenable if the Quartet-AUF confrontation forces a binary choice.
+
+**→ See KML: Qatar** **→ See: #quartet** **→ See: #arab-united-front**
+
+---
+
+**Bahrain:** {#bahrain} The most vulnerable Gulf micro-state — structural instability from demographic-political mismatch.
+
+Bahrain's instability triangle: Shia majority (~70% of citizens) governed by Sunni Al-Khalifa monarchy; no significant sovereign wealth fund (oil revenue minimal, among the smallest Gulf reserves); US Fifth Fleet homeport — with the US collapse, Bahrain's primary security patron and the economic multiplier of the base presence simultaneously disappeared. By 2050, the most plausible outcome is absorption into a Saudi successor state (the Najdi rump as a client relationship, or the Eastern Province successor if that fragmentation scenario materializes) or transition into an Iranian-influenced framework as the Shia majority asserts political power through the post-US-collapse governance vacuum. Nominal sovereignty may not survive to 2050 — the structural conditions for an independent Bahraini state ceased to exist when the US patron withdrew, and the Al-Khalifa's capacity to manage Shia demographic pressure through patronage alone is insufficient without external backing.
+
+**→ See KML: Bahrain** **→ See: #saudi-arabia** **→ See: #iran**
+
+---
+
+**Oman:** {#oman} Historically neutral diplomatic intermediary — sovereignty through strategic usefulness.
+
+Oman's Muscat channel — the traditional diplomatic back-channel between Iran and Gulf states, and between Gulf states and various non-state actors — is its primary strategic asset. Oman's sovereign value to all regional parties derives from its usefulness as a neutral interlocutor: Iran, Saudi Arabia, and the Quartet all benefit from having a trusted neutral intermediary. This structural utility is the source of Oman's durable independence — no regional actor gains from absorbing Oman; all gain from its continued neutrality. Oil revenue is declining (smaller reserves than core Gulf states), and the Oman Investment Fund (OIF, ~$50B) is modest relative to Kuwait's or Qatar's. By 2050, Oman is sovereign, pursuing managed decline of oil revenues, and leveraging its geographic position (Strait of Hormuz proximate), its Ibadi Islamic tradition (distinct from both Sunni and Shia, providing theological neutrality), and its historic diplomacy for economic survival. Not a candidate for absorption — too geographically peripheral and diplomatically valuable to all parties.
+
+**→ See KML: Oman** **→ See: #iran** **→ See: #quartet**
+
+---
 
 #### South Caucasus
 
