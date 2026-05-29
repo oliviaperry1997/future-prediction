@@ -249,7 +249,6 @@
       "Western Asia": [
         "Bahrain",
         "Iran",
-        "Israel",
         "Kuwait",
         "Oman",
         "Qatar",
@@ -1099,15 +1098,6 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "iran",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#iran"
-    },
-    "Israel": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "ISR",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "israel",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#israel"
     },
     "Saudi Arabia": {
       "type": "entity",
@@ -2357,6 +2347,9 @@
       "category": "revolutionary",
       "source": "manual",
       "manual_path": "source/manual/Arab Popular Republic.kml",
+      "add_manual_paths": [
+        "source/manual/Israel-absorbed.kml"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "arab-popular-republic",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#arab-popular-republic",
