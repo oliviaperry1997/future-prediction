@@ -61830,13 +61830,10 @@
               </outerBoundaryIs>
             </Polygon>
           </Placemark>
-        </Folder>
-        <Folder>
-          <name>Switzerland</name>
           <Placemark>
-            <name>Switzerland</name>
-            <styleUrl>#__managed_style_000000000000010E</styleUrl>
-            <description>See: 2050-snapshot/domains/borders-geopolitics.md</description>
+            <name>European Federation</name>
+            <styleUrl>#__managed_style_000000000000005A</styleUrl>
+            <description>See: 2050-snapshot/domains/borders-geopolitics.md#european-union</description>
             <Polygon>
               <altitudeMode>clampToGround</altitudeMode>
               <outerBoundaryIs>
