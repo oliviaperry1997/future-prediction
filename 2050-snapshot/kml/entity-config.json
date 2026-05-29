@@ -236,23 +236,6 @@
       "Southeast Asian Federation": [
         "Southeast Asian Federation"
       ],
-      "Western Asia (wip)": [
-        "Bahrain",
-        "Iran",
-        "Iraq",
-        "Israel",
-        "Jordan",
-        "Kuwait",
-        "Lebanon",
-        "Oman",
-        "Palestine",
-        "Qatar",
-        "Saudi Arabia",
-        "Syria",
-        "Turkey",
-        "United Arab Emirates",
-        "Yemen"
-      ],
       "Western Europe": [
         "European Federation",
         "Switzerland"
@@ -267,7 +250,28 @@
         "Sri Lanka",
         "Afghanistan"
       ],
-      "Southern Europe": []
+      "Southern Europe": [],
+      "Western Asia": [
+        "Bahrain",
+        "Iran",
+        "Iraq",
+        "Israel",
+        "Kuwait",
+        "Oman",
+        "Palestine",
+        "Qatar",
+        "Saudi Arabia",
+        "Syria",
+        "Turkey",
+        "United Arab Emirates",
+        "Yemen",
+        "Armenia",
+        "Azerbaijan",
+        "Georgia",
+        "Nagorno-Karabakh",
+        "Levant Republic",
+        "Arab United Front"
+      ]
     },
     "Oceania (wip)": {
       "Australasia (wip)": [
@@ -779,7 +783,9 @@
       "category": "global",
       "source": "country",
       "country_code": "TUR",
-      "add_country_codes": ["CYN"],
+      "add_country_codes": [
+        "CYN"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "turkey",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#turkey"
@@ -1490,8 +1496,8 @@
       "source": "country",
       "country_code": "IRQ",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "iraq",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#iraq"
     },
     "Jordan": {
       "type": "entity",
@@ -1499,8 +1505,8 @@
       "source": "country",
       "country_code": "JOR",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "levant-republic",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#levant-republic"
     },
     "Lebanon": {
       "type": "entity",
@@ -1508,8 +1514,8 @@
       "source": "country",
       "country_code": "LBN",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "levant-republic",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#levant-republic"
     },
     "Syria": {
       "type": "entity",
@@ -1517,8 +1523,8 @@
       "source": "country",
       "country_code": "SYR",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "syria",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#syria"
     },
     "Yemen": {
       "type": "entity",
@@ -1526,8 +1532,8 @@
       "source": "country",
       "country_code": "YEM",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "yemen",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#yemen"
     },
     "Oman": {
       "type": "entity",
@@ -1535,8 +1541,8 @@
       "source": "country",
       "country_code": "OMN",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "oman",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#oman"
     },
     "United Arab Emirates": {
       "type": "entity",
@@ -1544,8 +1550,8 @@
       "source": "country",
       "country_code": "ARE",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "uae",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#uae"
     },
     "Qatar": {
       "type": "entity",
@@ -1553,8 +1559,8 @@
       "source": "country",
       "country_code": "QAT",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "qatar",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#qatar"
     },
     "Kuwait": {
       "type": "entity",
@@ -1562,8 +1568,8 @@
       "source": "country",
       "country_code": "KWT",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "kuwait",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#kuwait"
     },
     "Bahrain": {
       "type": "entity",
@@ -1571,8 +1577,8 @@
       "source": "country",
       "country_code": "BHR",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "section_anchor": "bahrain",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#bahrain"
     },
     "Morocco": {
       "type": "entity",
@@ -2392,6 +2398,64 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "appalachia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#appalachia"
+    },
+    "Armenia": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "ARM",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "armenia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#armenia"
+    },
+    "Azerbaijan": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "AZE",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "azerbaijan",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#azerbaijan"
+    },
+    "Georgia": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "GEO",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "georgia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#georgia"
+    },
+    "Nagorno-Karabakh": {
+      "type": "entity",
+      "category": "regional",
+      "source": "manual",
+      "manual_path": "source/manual/Nagorno-Karabakh.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "nagorno-karabakh",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#nagorno-karabakh"
+    },
+    "Levant Republic": {
+      "type": "entity",
+      "category": "global",
+      "source": "manual",
+      "manual_path": "source/manual/Levant Republic.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "levant-republic",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#levant-republic"
+    },
+    "Arab United Front": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "country_codes": [
+        "PSX",
+        "YEM",
+        "LBN"
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "arab-united-front",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#arab-united-front"
     }
   },
   "fragmented_entities": {},

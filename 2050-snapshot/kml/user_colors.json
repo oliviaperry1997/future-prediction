@@ -1,4 +1,10 @@
 {
+  "Southeast Asian Federation": {
+    "hex": "#ec99b3",
+    "kml_fill": "80b399ec",
+    "kml_line": "ffb399ec",
+    "width": 1.0
+  },
   "East African Federation": {
     "hex": "#42a5f5",
     "kml_fill": "80f5a542",

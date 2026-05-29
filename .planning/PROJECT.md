@@ -70,6 +70,12 @@ The user has already built a modern-day KML basemap in Google Earth. This projec
 
 **Phase 5 (2050 KML Maps & Integration) — Partially Complete.** KML generation script and source data pipeline established. All 6 KML files generated (borders, climate, technology, economy, demographics, culture). Verification and index finalization pending. KML pipeline created Eurasia, Oceania, and Antarctica with (wip) tags — these regions require manual plausibility review, which is now the focus of v1.1.
 
+**Phase 6 (Central Asia Review) — Complete.** All 5 Central Asian CAC entities assessed. KML (wip) tags removed, Ferghana Valley exclave holes implemented. Borders-geopolitics CAC entry, economy, demographics, culture, and climate profiles completed.
+
+**Phase 7 (Eastern Asia Review) — Complete.** Korea recalibrated from unified 40% scenario to two-Koreas 60% scenario (ROK reactionary degradation, DPRK revolutionary ascendancy). KML (wip) tags removed. All domain docs updated with Japan/Mongolia/ROK/DPRK profiles and expanded China entries.
+
+**Phase 8 (Eastern Europe Review) — Complete.** EU federalized as revolutionary project by 2050 — single European Union entity across all docs and KML. Union State confederation (Russia/Belarus/Ukraine) with separate entity polygons. Moldova reunified with Romania; Transnistria absorbed into Ukraine. KML (wip) tags removed for Eastern Europe. All 5 domain docs expanded with Belarus and Ukraine standard-depth profiles, EU Core replaced with full European Union. Russia given light Union State update.
+
 ## Key Decisions
 
 | Decision | Rationale | Outcome |
@@ -98,4 +104,4 @@ This document evolves at phase transitions and milestone boundaries.
 
 ---
 
-*Last updated: 2026-05-27 — v1.1 milestone started*
+*Last updated: 2026-05-28 — v1.1 milestone — Phase 9 complete*
