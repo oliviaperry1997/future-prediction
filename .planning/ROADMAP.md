@@ -14,11 +14,11 @@ A markdown-based geopolitical forecasting and world-building project. This roadm
 - [x] **Phase 6: Central Asia Review** — Plausibility audit: Central Asia (completed 2026-05-27)
 - [x] **Phase 7: Eastern Asia Review** — Plausibility audit: Eastern Asia (completed 2026-05-27)
 - [x] **Phase 8: Eastern Europe Review** — Plausibility audit: Eastern Europe (completed 2026-05-27)
-- [ ] **Phase 9: Northern Europe Review** — Plausibility audit: Northern Europe
+- [x] **Phase 9: Northern Europe Review** — Plausibility audit: Northern Europe (completed 2026-05-28)
 - [x] **Phase 10: Southeast Asia Review** — Plausibility audit: Southeast Asia (completed 2026-05-28)
-- [ ] **Phase 11: Southern Asia Review** — Plausibility audit: Southern Asia
-- [x] **Phase 12: Southern Europe Review** — Plausibility audit: Southern Europe (completed 2026-05-28)
-- [ ] **Phase 13: Western Asia Review** — Plausibility audit: Western Asia
+- [x] **Phase 11: Southern Asia Review** — Plausibility audit: Southern Asia (completed 2026-05-28)
+- [x] **Phase 12: Southern Europe Review** — Plausibility audit: Southern Europe (completed 2026-05-29)
+- [x] **Phase 13: Western Asia Review** — Plausibility audit: Western Asia (completed 2026-05-29)
 - [ ] **Phase 14: Western Europe Review** — Plausibility audit: Western Europe
 - [ ] **Phase 15: Australasia Review** — Plausibility audit: Australasia
 - [ ] **Phase 16: Melanesia Review** — Plausibility audit: Melanesia
@@ -220,6 +220,7 @@ Plans:
 - [x] 09-01-PLAN.md — KML & Entity Config: Northern Europe restructuring (Wave 1)
 - [x] 09-02-PLAN.md — Borders-Geopolitics: UK late-revolutionary update (Wave 1, parallel)
 - [x] 09-03-PLAN.md — Domain docs: verify EU collective covers Northern members (Wave 2)
+- [x] 09-04-PLAN.md — Northern Europe UAT pass (post-execution)
 
 **Cross-cutting constraints:**
 - Plans 01 and 02 are parallel (Wave 1) — KML + entity-config edits and borders-geopolitics don't conflict
@@ -259,7 +260,7 @@ Plans:
 - [x] 11-01-PLAN.md — KML & Entity Config: (wip) removal, Afghanistan added to Southern Asia, section anchors fixed (Wave 1)
 - [x] 11-02-PLAN.md — Borders-Geopolitics & asia.md: India expanded, 7 new entries, loop stage table updated (Wave 1, parallel)
 - [x] 11-03-PLAN.md — Economy & Demographics: India expanded, 7 new profiles each (Wave 2, blocked on 02)
-- [ ] 11-04-PLAN.md — Culture & Climate: India culture expanded, 7 new cultural profiles, Southern Asia climate subsection (Wave 2, blocked on 02, parallel with 03)
+- [x] 11-04-PLAN.md — Culture & Climate: India culture expanded, 7 new cultural profiles, Southern Asia climate subsection (Wave 2, blocked on 02, parallel with 03)
 
 **Cross-cutting constraints:**
 - Plans 01 and 02 are parallel (Wave 1) — KML edits and domain doc writing don't conflict
@@ -284,8 +285,8 @@ Plans:
 - [x] 12-02-PLAN.md — borders-geopolitics.md: 8 EU member sub-entries, Western Balkans entries, Greco-Turkish conflict, Cyprus partition, microstates (Wave 1)
 - [x] 12-03-PLAN.md — economy.md + demographics.md: all Southern European entities (Wave 2, depends on 02)
 - [x] 12-04-PLAN.md — culture.md + climate.md: all Southern European entities (Wave 2, depends on 02)
-
-**Wave 2** *(blocked on Wave 1 completion)*
+- [x] 12-05-PLAN.md — Southern Europe UAT pass (post-execution)
+- [x] 12-06-PLAN.md — Generational KML gap-closure: Turkey hierarchy, N.Cyprus, Quartet bugfix, dict folders
 
 ### Phase 13: Western Asia Review
 **Mode**: mvp
@@ -299,11 +300,12 @@ Plans:
 **Plans**: 5 plans
 
 Plans:
-- [ ] 13-01-PLAN.md — KML/entity-config restructure: Western Asia folder rename, South Caucasus entities, Levant Republic, AUF (Wave 1)
-- [ ] 13-02-PLAN.md — Entity profiles: Turkey + South Caucasus cluster (Armenia, Azerbaijan, Georgia, Nagorno-Karabakh) (Wave 1)
-- [ ] 13-03-PLAN.md — Entity profiles: Levant cluster (Israel, Levant Republic, Syria, Iraq) + AUF meta-entry (Wave 2, blocked on 01)
-- [ ] 13-04-PLAN.md — Entity profiles: Iran + Arabian Peninsula (Saudi Arabia, Yemen, UAE, Kuwait, Qatar, Bahrain, Oman) + Quartet (Wave 2, blocked on 01)
-- [ ] 13-05-PLAN.md — Transition doc update (west-asia.md) + Key Changes/Verification Checklist + consistency scan (Wave 3, blocked on 02-04)
+- [x] 13-01-PLAN.md — KML/entity-config restructure: Western Asia folder rename, South Caucasus entities, Levant Republic, AUF (Wave 1)
+- [x] 13-02-PLAN.md — Entity profiles: Turkey + South Caucasus cluster (Armenia, Azerbaijan, Georgia, Nagorno-Karabakh) (Wave 1)
+- [x] 13-03-PLAN.md — Entity profiles: Levant cluster (Israel, Levant Republic, Syria, Iraq) + AUF meta-entry (Wave 2, blocked on 01)
+- [x] 13-04-PLAN.md — Entity profiles: Iran + Arabian Peninsula (Saudi Arabia, Yemen, UAE, Kuwait, Qatar, Bahrain, Oman) + Quartet (Wave 2, blocked on 01)
+- [x] 13-05-PLAN.md — Transition doc update (west-asia.md) + Key Changes/Verification Checklist + consistency scan (Wave 3, blocked on 02-04)
+- [x] 13-06-PLAN.md — Post-execution fixes: Israel dissolution, Saudi fragmentation, NK/Armenia, Ash-Sharqiyah (merged into 13)
 
 **Wave structure:**
 - Wave 1: Plans 01, 02 (parallel — no file overlap)
@@ -384,11 +386,11 @@ Plans:
 | 6. Central Asia Review | 4/4 | Complete   | 2026-05-27 |
 | 7. Eastern Asia Review | 4/4 | Complete   | 2026-05-27 |
 | 8. Eastern Europe Review | 5/5 | Complete | 2026-05-27 |
-| 9. Northern Europe Review | 0/3 | Planned | — |
+| 9. Northern Europe Review | 4/4 | Complete   | 2026-05-28 |
 | 10. Southeast Asia Review | 4/4 | Complete   | 2026-05-28 |
-| 11. Southern Asia Review | 3/4 | In Progress|  |
-| 12. Southern Europe Review | 5/6 | In Progress|  |
-| 13. Western Asia Review | — | Not started | — |
+| 11. Southern Asia Review | 4/4 | Complete | 2026-05-28 |
+| 12. Southern Europe Review | 6/6 | Complete | 2026-05-29 |
+| 13. Western Asia Review | 6/6 | Complete | 2026-05-29 |
 | 14. Western Europe Review | — | Not started | — |
 | 15. Australasia Review | — | Not started | — |
 | 16. Melanesia Review | — | Not started | — |

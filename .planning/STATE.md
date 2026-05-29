@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
 status: executing
-stopped_at: Phase 12 context gathered
-last_updated: "2026-05-29T01:20:04.549Z"
-last_activity: 2026-05-29 -- Phase 13 planning complete
+stopped_at: Phase 13 complete
+last_updated: "2026-05-29T12:30:00.000Z"
+last_activity: 2026-05-29 -- Phase 13 post-execution fixes committed
 progress:
   total_phases: 19
-  completed_phases: 7
-  total_plans: 34
-  completed_plans: 30
-  percent: 88
+  completed_phases: 12
+  total_plans: 66
+  completed_plans: 56
+  percent: 85
 ---
 
 # Project State
@@ -21,20 +21,20 @@ progress:
 See: .planning/PROJECT.md (updated 2026-05-19)
 
 **Core value:** A coherent, grounded, internally consistent vision of how the world transforms between now and 2100, detailed enough to draw accurate maps at each quarter-century checkpoint.
-**Current focus:** Phase 09 — northern-europe-review
+**Current focus:** Phase 14 — Western Europe Review
 
 ## Current Position
 
-Phase: 11
-Plan: 4 of 4 (complete)
-Status: Ready to execute
-Last activity: 2026-05-29 -- Phase 13 planning complete
+Phase: 13
+Plan: 6 of 6 (complete)
+Status: Complete
+Last activity: 2026-05-29 -- Phase 13 post-execution fixes committed
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 17
+- Total plans completed: 56
 - Average duration: —
 - Total execution time: 0 hours
 
@@ -42,81 +42,33 @@ Last activity: 2026-05-29 -- Phase 13 planning complete
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| — | — | — | — |
 | 01 | 3 | - | - |
 | 03 | 3 | - | - |
 | 04 | 4 | - | - |
 | 05 | 3 | - | - |
-|   08 | 5 | - | - |
-| 09 | 3 | - | - |
-
-**Recent Trend:**
-
-- Last 5 plans: (none)
-- Trend: —
-
-*Updated after each plan completion*
-| Phase 05-2050-kml-maps-integration P01 | 5m35s | 2 tasks | 10 files |
-| Phase 05-2050-kml-maps-integration PP02 | 8m30s | 2 tasks | 11 files |
-| Phase 07 P02 | 12m | 3 tasks | 1 files |
-| Phase 07 P04 | 240 | 3 tasks | 2 files |
+| 08 | 5 | - | - |
+| 09 | 4 | - | - |
+| 10 | 4 | - | - |
+| 11 | 4 | - | - |
+| 12 | 6 | - | - |
+| 13 | 6 | - | - |
 
 ## Accumulated Context
 
 ### Decisions
 
-Phase 1 locked decisions from discuss-phase (see `01-CONTEXT.md` for full details):
-
-| ID | Decision | Category |
-|----|----------|----------|
-| D-01 | In-repo vault — `.obsidian/` inside `future-prediction` repo | Vault location |
-| D-02 | Flat per-milestone directory structure | Directory layout |
-| D-03 | Supporting dirs at root (`/templates`, `/meta`, `/sources`) | Directory layout |
-| D-04 | Shared base YAML schema (title, status, created, updated, tags) | Frontmatter |
-| D-05 | Domain docs extend base with domain, milestone | Frontmatter |
-| D-06 | Prediction entries extend base with confidence, target_milestone, etc. | Frontmatter |
-| D-07 | Counter-scenario extends base with alternative_thesis, divergence_points | Frontmatter |
-| D-08 | Individual prediction notes in `/meta/predictions/` | Prediction register |
-| D-09 | HIGH/MEDIUM/LOW confidence scale with written criteria | Prediction register |
-| D-10 | doc_ref field linking predictions to domain docs | Prediction register |
-| D-11 | Single counter-scenario doc at `/meta/counter-scenario.md` | Counter-scenario |
-| D-12 | "Clean revolution" thesis for counter-scenario | Counter-scenario |
-| D-13 | Full Dataview dashboard (5 views) | Dataview queries |
-| D-14 | Dataview + manual review for cross-domain consistency | Consistency |
-
-- [Phase ?]: Used Natural Earth 1:110m countries for global boundaries (GeoJSON -> ogr2ogr KML)
-- [Phase 05]: Added parent entity placemark inside fragmented entity folders for See KML resolution
-- [Phase 05]: Added entity_copy overlays for fragmented entities in economy, demographics, culture domains
-- [Phase 05]: Reconciled domain doc See KML marker names with actual KML entity names (6 fixes)
-- [Phase ?]: [Phase 07 Plan 02]: Two Koreas (ROK/DPRK) replacing Unified Korea in borders-geopolitics.md
-- [Phase ?]: [Phase 07 Plan 02]: Mongolia added as sovereign buffer state between China and Russia
-- [Phase ?]: [Phase 07 Plan 02]: China territorial reference expanded with Hong Kong (SAR) and Taiwan (SAR since ~2035-2038)
-- [Phase ?]: [Phase 07 Plan 04]: Cultural profiles for Japan, Mongolia, ROK, DPRK added to culture.md; China expanded with Core Socialist Values, social credit, Hong Kong/Taiwan SAR cultural scenes
-- [Phase ?]: [Phase 07 Plan 04]: Eastern Asia climate analysis expanded with typhoons (Category 6), heatwaves, sea level rise (40-60 cm), Tibetan Plateau warming (+3.0°C), Mongolia dzud/desertification
-- [Phase ?]: [Phase 07 Plan 04]: Eastern Asia added to climate migration (~2-4M) and water conflicts (Yellow River, Amur/Heilongjiang)
-- [Phase 11 Plan 01]: (wip) removed from Southern Asia; Afghanistan moved from Central Asia to Southern Asia in entity-config.json and borders.kml; section_anchors populated for all 7 non-India Southern Asia entities
-
-- [Phase 11 Plan 02]: India expanded to standard depth (Stage 3 Reactionary Degradation) in borders-geopolitics.md; 7 new Southern Asia entity paragraphs added (Pakistan, Bangladesh, Nepal, Bhutan, Sri Lanka, Maldives, Afghanistan); loop stage table in asia.md updated with all 8 entities; Pakistan 'failed state' and Afghanistan 'beyond the loop' framings superseded
-
-- [Phase 11 Plan 04]: India culture expanded (RSS project, Hindi wars, Bollywood $4B, 35M+ diaspora); 7 new Southern Asia cultural profiles added (Pakistan–Afghanistan) to culture.md; Southern Asia entity-level climate subsection added to climate.md (GLOF, delta flooding, Maldives existential, Afghanistan drought)
-
-- [Phase 11 post-execution]: Siachen Glacier polygon (formerly unclaimed in Natural Earth source, lon 76.8-77.8 lat 35.1-35.6) assigned to Pakistan and merged into Pakistan's main body via shapely unary_union. Pakistan in borders.kml now has 2 polygons (merged northern body 462 pts + small coastal exclave). Do NOT treat as a separate entity or revert to 3 polygons in future phases.
-
-- [Phase 12 gap-closure]: Western Balkans (Bosnia-Herzegovina BIH, Serbia SRB) removed as standalone entities; added to European Federation country_codes. Southern Europe folder in folder_hierarchy is now intentionally empty.
-
-- [Phase 12 gap-closure]: Andorra (AND), Monaco (MCO), Gibraltar (GIB) added to European Federation country_codes. All three are present in Natural Earth 10m source. Monaco (~2 km²) is absorbed into the mainland EF polygon after 0.02° simplification and will not appear as a distinct polygon — this is expected. Melilla is absent from Natural Earth source at all resolutions; skipped.
-
-- [Phase 12 gap-closure]: Turkey entity (TUR) added to Eurasia > Western Asia (wip) folder in folder_hierarchy. It was previously defined in entities but missing from the hierarchy.
-
-- [Phase 12 gap-closure]: Northern Cyprus merged into Turkey's polygon via `add_country_codes: ["CYN"]` on the Turkey entity. Northern Cyprus is NOT a standalone entity — do not add it back as a separate entry in entities or folder_hierarchy. The CYN polygons (bounds ~[32.6, 35.0, 34.6, 35.7]) appear as part of Turkey's 8-placemark folder alongside the Aegean islands and mainland.
-
-- [Phase 12 gap-closure]: generate-kml.py bug fixed — `source: "group"` processing was unconditionally overwriting entity_polygons for member country names (e.g., the Quartet group was overwriting Turkey's polygon with a plain TUR shape, discarding the CYN union). Fixed with a guard: group processing skips overwrite if entity_polygons already contains the country name.
-
-- [Phase 12 gap-closure]: generate-kml.py extended — folder_hierarchy list items now support dict format `{"ParentEntity": ["Child1", "Child2"]}` to nest child entity folders inside a parent entity's folder. This feature exists but is not currently used (Turkey/N.Cyprus uses the polygon-merge approach instead).
+- [Phase 13]: Israel does not survive to 2050 — dissolved ~2044-2050 via demographic/political collapse under APR encirclement; absorbed into Levant Republic (APR). Dimona/Negev nuclear site under APR/Levant Republic administrative control.
+- [Phase 13]: Quartet reduced to Turkey-Pakistan rump by 2050 — Saudi Arabia fragmented, Egypt in APR.
+- [Phase 13]: Hejaz is not a separate KML entity — listed only as APR member.
+- [Phase 13]: Saudi fragments use manual KMLs, not GADM — GADM 4.1 file not accessible to generator at runtime.
+- [Phase 13]: Nagorno-Karabakh merged into Armenia geometry via add_manual_paths; subtracted from Azerbaijan.
+- [Phase 13]: Ash-Sharqiyah is the eastern province of Saudi Arabia (lon 44.65-55.67); Najdi rump is interior (lon 37.01-48.26, no Qatar overlap).
 
 ### Pending Todos
 
-None yet.
+- Load regenerated borders.kml in Google Earth Pro to visually verify all fragment boundaries
+- Regenerate all overlay KMLs (climate, technology, economy, demographics, culture) if entity-set dependencies changed
+- Confirm no entity name mismatches between entity-config.json, user_colors.json, and KML `<name>` tags
 
 ### Blockers/Concerns
 
@@ -130,6 +82,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-28T22:41:44.153Z
-Stopped at: Phase 12 context gathered
+Last session: 2026-05-29T12:30:00.000Z
+Stopped at: Phase 13 complete
 Resume file: None
