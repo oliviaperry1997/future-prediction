@@ -133,6 +133,41 @@ The Mediterranean basin is experiencing warming at 1.5-2× the global average ra
 - Inland continental climate with Dinaric Alpine topography — flash flood risk from atmospheric rivers in the Dinaric range is Bosnia's primary acute climate hazard (Sarajevo's 2014 flood was a preview; comparable events are recurring). Wildfire risk on the Dalmatian-facing limestone karst. Agricultural stress from increased drought frequency. Coal dependency in the former Republika Srpska region created climate governance friction during EU accession; coal-fired plants now face mandatory phase-out under EU environmental law, with the transition funded through Just Transition Mechanism allocations.
 - **→ See KML: European Federation**
 
+<!-- Western Europe reviewed Phase 14 (2026-05-29) -->
+**France:** *(EU Federation subdivision)*
+- **Heat stress and agriculture:** Southern France (Provence, Languedoc, Rhone Valley) experiences Mediterranean-class heat — summer temperatures regularly exceed 40°C. French agriculture (wheat in the Beauce, wine in Bordeaux/Burgundy/Champagne, maize in the southwest) is severely heat-stressed; the 2022-2023 drought pattern has become the baseline. The Loire and Seine valleys face reduced summer river flows, constraining nuclear reactor cooling — France's nuclear fleet, still the EU's largest despite the fusion transition, operates at reduced capacity during summer low-flow periods. Corsica and Brittany: Corsica faces Mediterranean heat extremes and wildfire regime similar to Sardinia; Brittany is relatively buffered by Atlantic position but faces increased storm surge risk.
+- **Alpine glacier retreat:** The French Alps (Mont Blanc massif, Ecrins, Vanoise) have lost 50-60% of glacier volume since 2000. Summer ski tourism eliminated; Alpine hydropower reduced during summer low flow; glacial lake outburst flood (GLOF) risk on the Mont Blanc northern slope. The Rhone river system — fed by Alpine meltwater — shows a 15-20% summer flow reduction.
+- **Wildfire regime:** Mediterranean France (Var, Bouches-du-Rhone, Corsica) faces the most severe wildfire regime in the EU's western Mediterranean — the 2021-2022 scale fires have become annual events.
+- **Renewable energy:** France's nuclear fleet provides low-carbon baseload, supplemented by rapid solar expansion in the south. The Cadarache fusion plant (SPARC-class tokamak, operational 2046) is the first commercial fusion plant supplying the European grid — located in Provence.
+- **→ See KML: European Federation**
+
+**Germany:** *(EU Federation subdivision)*
+- **Rhine water stress:** The Rhine is Germany's industrial lifeline — reduced Alpine snowpack and summer drought episodes (the 2018, 2022, and 2031 Rhine lows) have become more frequent. Summer Rhine flows at Kaub (the critical chokepoint for barge traffic) fall below 80cm for extended periods 3-4x more frequently than in the early 2000s. This constrains German industrial logistics (coal, chemicals, containers — 80% of German inland freight moves on the Rhine). EDF investment in Rhine dredging and alternative transport infrastructure partially mitigates.
+- **Heat stress:** Berlin, the Rhine-Ruhr, and the Upper Rhine plain regularly exceed 40°C. German agriculture (wheat, barley, rapeseed, maize) faces yield variability — northern Germany and Baltic coast somewhat buffered, but the central and southern agricultural zones are stressed.
+- **Energy transition:** Germany's Energiewende has matured into the EU's most comprehensive renewable energy system — wind (North Sea, Baltic, onshore), solar (Bavaria, Baden-Wurttemberg), and battery storage. The post-AfD green-left government accelerated the coal phase-out (completed ~2040). North Sea offshore wind supplies ~25% of German electricity.
+- **→ See KML: European Federation**
+
+**Netherlands:** *(EU Federation subdivision)*
+- **Sea-level rise:** The Netherlands is the EU's most sea-level-exposed large subdivision — 26% of territory below sea level, 60% of population in flood-prone zones. Sea-level rise of 0.3-0.5m by 2050 requires continuous dike and storm surge barrier upgrades. The Delta Works (the world's most advanced sea defense system) has been expanded — the Maeslantkering and Oosterscheldekering have been reinforced; a new Northern Delta Works program (Wadden Sea coast, Ems estuary) was completed in the 2040s. Dutch water management expertise is an EU-wide strategic asset.
+- **Rhine-Meuse-Scheldt delta:** Riverine flooding from increased precipitation intensity in the Rhine and Meuse watersheds (Alpine glacier melt + Atlantic storm intensification) creates compound flood risk when high river flows coincide with storm surge at Rotterdam.
+- **Agricultural adaptation:** Dutch greenhouse agriculture (the world's most productive per hectare) has adapted through climate-controlled systems and water-efficient irrigation. Saltwater intrusion in coastal agricultural zones is managed through freshwater injection and selective crop adaptation.
+- **→ See KML: European Federation**
+
+**Belgium:** *(EU Federation subdivision)*
+- **Storm surge risk:** The Belgian coast (Flanders — 67km of North Sea coastline) faces increased storm surge risk from sea-level rise and intensified Atlantic storms. The Port of Antwerp — Europe's second-largest port — has invested in flood barriers and elevated infrastructure. The Scheldt estuary flood management is coordinated with Dutch Delta Works.
+- **Urban heat:** Brussels, Antwerp, and Liege face urban heat island effects during summer heatwaves — Brussels regularly exceeds 38-40°C. Green roof mandates and urban cooling infrastructure are EU-assisted.
+- **→ See KML: European Federation**
+
+*Austria and Luxembourg — Western European inland states with moderate climate exposure.*
+**Austria:** *(EU Federation subdivision)*
+- **Alpine glacier retreat:** The Austrian Alps have lost 55-65% of glacier volume since 2000. Summer ski tourism eliminated; winter ski season shortened by 4-6 weeks. Alpine hydropower (Austria's primary renewable source — ~65% of electricity) faces 10-15% summer generation reduction. GLOF risk in the Otztal and Stubai Alps. The Danube — Austria's primary river — faces summer flow reduction from reduced Alpine snowpack, affecting navigation and Danube shipping.
+- **Heat stress:** Vienna and the Danube valley regularly exceed 38°C during summer heatwaves. Austrian agriculture (wine in Wachau, grain in the Danube plain, dairy in the Alpine valleys) faces increased drought and heat stress.
+- **→ See KML: European Federation**
+
+**Luxembourg:** *(EU Federation subdivision)*
+- Landlocked continental climate. Luxembourg faces: increased summer heatwave frequency (Luxembourg City regularly exceeds 36-38°C); Moselle valley wine production (Luxembourg's distinctive white wine sector) affected by heat stress; flash flood risk from intensified convective storms in the Ardennes-Luxembourg region. No sea-level exposure, no glacier dependence.
+- **→ See KML: European Federation**
+
 <!-- Southern Asia reviewed Phase 11 (2026-05-28) --> — Eight individual sovereign states face distinct but interconnected climate stresses across the Himalayan watershed, the delta coast, and the low-lying atolls:
 
 **India:** Heat mortality is the primary acute risk — Indus Valley and Gangetic Plain regularly exceed 50°C (consistent with the global heatwave analysis above); wet-bulb temperatures breach survivability threshold during worst events. Himalayan glacier retreat reduces dry-season Ganges and Brahmaputra flows — agricultural water security for 500M+ northern Indians is permanently compromised. Monsoon intensification creates flood-drought oscillation: longer dry spells punctuated by extreme flooding (northeastern India, Bihar, Bengal). The India-Bangladesh border is the world's largest climate-migration frontline — fence infrastructure has been reinforced but cannot stop the pressure. → See KML: India
