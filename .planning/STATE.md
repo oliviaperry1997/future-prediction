@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
 status: executing
-stopped_at: Plan 1 complete — Switzerland and Liechtenstein merged into EU Federation
-last_updated: "2026-05-29T17:34:39.729Z"
+stopped_at: Plan 2 complete — Borders-Geopolitics: Western EU sub-entries + Key Changes bullet
+last_updated: "2026-05-29T17:38:08.352Z"
 last_activity: 2026-05-29
 progress:
   total_phases: 19
   completed_phases: 8
   total_plans: 38
-  completed_plans: 36
-  percent: 95
+  completed_plans: 37
+  percent: 97
 ---
 
 # Project State
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-05-19)
 ## Current Position
 
 Phase: 14 (western-europe-review) — EXECUTING
-Plan: 2 of 4
+Plan: 3 of 4
 Status: Ready to execute
 Last activity: 2026-05-29
 
@@ -59,6 +59,7 @@ Last activity: 2026-05-29
 
 - [Phase 14]: Switzerland is a full European Federation member by 2050 — CHE removed from standalone entity entry, CHE+LIE added to EU Federation country_codes
 - [Phase 14]: Liechtenstein absorbed into EU Federation with Switzerland (no separate KML or entity entry)
+- [Phase 14 Plan 02]: All 6 Western EU members (France, Germany, Netherlands, Belgium, Austria, Luxembourg) receive individual sub-entries in borders-geopolitics.md European Federation section — France and Germany at substantial depth, Netherlands at research-driven depth, Belgium/Austria/Luxembourg at standard depth per D-07. No standalone Switzerland profile per D-02.
 - [Phase 13]: Israel does not survive to 2050 — dissolved ~2044-2050 via demographic/political collapse under APR encirclement; absorbed into Levant Republic (APR). Dimona/Negev nuclear site under APR/Levant Republic administrative control.
 - [Phase 13]: Quartet reduced to Turkey-Pakistan rump by 2050 — Saudi Arabia fragmented, Egypt in APR.
 - [Phase 13]: Hejaz is not a separate KML entity — listed only as APR member.
@@ -84,6 +85,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-29T17:34:39.725Z
+Last session: 2026-05-29T17:38:08.348Z
 Stopped at: Plan 1 complete — Switzerland + Liechtenstein merged into EU Federation
-Resume file: .planning/phases/14-western-europe-review/14-01-SUMMARY.md
+Resume file: .planning/phases/14-western-europe-review/14-02-SUMMARY.md
