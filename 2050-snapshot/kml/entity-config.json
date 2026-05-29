@@ -1441,7 +1441,10 @@
       "country_code": "PAK",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "pakistan",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#pakistan"
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#pakistan",
+      "add_manual_paths": [
+        "source/manual/Siachen-Glacier.kml"
+      ]
     },
     "Bangladesh": {
       "type": "entity",
@@ -2413,7 +2416,10 @@
       "country_code": "AZE",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "azerbaijan",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#azerbaijan"
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#azerbaijan",
+      "subtract_manual_paths": [
+        "source/manual/Nagorno-Karabakh.kml"
+      ]
     },
     "Georgia": {
       "type": "entity",

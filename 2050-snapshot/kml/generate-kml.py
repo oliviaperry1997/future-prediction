@@ -1516,6 +1516,31 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                         else:
                             entity_errors.append(f"  [{entity_name}] add_country_codes: '{cc}' not found")
                 
+                # Add manual KML geometries to country polygon (e.g., Pakistan + Siachen Glacier)
+                add_manual_paths = entity_cfg.get("add_manual_paths", [])
+                if add_manual_paths:
+                    for manual_path in add_manual_paths:
+                        full_path = os.path.join(os.path.dirname(__file__), manual_path)
+                        if os.path.exists(full_path):
+                            manual_tree = etree.parse(full_path)
+                            polygons = []
+                            for coords_el in manual_tree.findall(f".//{{{NS}}}coordinates"):
+                                if coords_el.text:
+                                    poly = parse_coordinates_to_polygon(coords_el.text.strip())
+                                    if poly is not None:
+                                        if not poly.is_valid:
+                                            poly = poly.buffer(0)
+                                        if poly is not None and not poly.is_empty and poly.is_valid:
+                                            polygons.append(poly)
+                            if polygons:
+                                add_geom = unary_union(polygons) if len(polygons) > 1 else polygons[0]
+                                if not add_geom.is_valid:
+                                    add_geom = add_geom.buffer(0)
+                                geom = geom.union(add_geom)
+                                geom = remove_slivers(geom)
+                        else:
+                            entity_errors.append(f"  [{entity_name}] add_manual_paths not found: {manual_path}")
+                
                 simplified = prepare_for_output(geom, entity_cfg)
                 coords = geom_to_coords(simplified)
                 if coords:
