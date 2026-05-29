@@ -232,8 +232,7 @@
         "Southeast Asian Federation"
       ],
       "Western Europe": [
-        "European Federation",
-        "Switzerland"
+        "European Federation"
       ],
       "Southern Asia": [
         "Bangladesh",
@@ -702,6 +701,8 @@
         "MNE",
         "MKD",
         "BIH",
+        "CHE",
+        "LIE",
         "SRB",
         "AND",
         "MCO",
@@ -1273,15 +1274,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Switzerland": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "CHE",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
+
     "Ukraine": {
       "type": "entity",
       "category": "global",
