@@ -498,7 +498,96 @@ Population: ~80M combined. Territory: 3.9M km² spanning from the Caspian Sea to
 
 **Iran:** Nuclear-armed regional power. Tested a crude device in the mid-2030s, triggering a regional proliferation cascade. The IRGC consolidated power under Supreme Leader Mojtaba Khamenei. The Axis of Resistance reconstituted as a looser network — less Iran-directed, more locally autonomous — but ideologically aligned and capable of coordinated asymmetric action. Iran controls Hormuz chokepoint leverage, though global oil demand decline gradually reduces its relevance. **→ See KML: Iran**
 
-**Israel:** A nuclear-armed coastal rump state (~8,000-10,000 sq km) stretching from Haifa to Ashkelon. Territorial contraction completed through the 2030s-2040s — 700K+ West Bank settlers evacuated. The nuclear deterrent preserved the core but could not prevent the abandonment of occupied territory as the emigration-cascade, interceptor-gap, and manpower-crisis made settlements unholdable. Palestine exists as a contiguous sovereign state from Gaza through the West Bank to Jerusalem, with a corridor to Lebanon. **→ See KML: Israel** **→ See KML: Palestine**
+**Israel:** {#israel} A nuclear-armed coastal rump state (~8,000-10,000 sq km) comprising the Haifa district, Central district, and Tel Aviv district — the coastal strip from Haifa to the Ashkelon area. Territorial contraction completed through the 2030s-2040s; West Bank settlers (700K+ by the time of final withdrawal) evacuated under the combined pressure of security deterioration and negotiated Palestinian sovereignty frameworks.
+
+**Dimona/Negev nuclear infrastructure** is the last line of existential preservation. Under the cascade mechanism, every other layer of Israeli strategic depth dissolved — the West Bank settler presence, the extended deterrence relationship with the US, the interceptor overmatch — but the nuclear deterrent is the core that survives and the reason the coastal state continues to exist at all.
+
+**Three mechanisms of contraction:** (1) *Emigration cascade* — skilled and younger Israelis departed in accelerating waves as the security environment deteriorated, hollowing the state's human capital and professional tax base; (2) *Interceptor gap* — Iron Dome, David's Sling, and Arrow batteries were depleted by sustained drone and missile campaigns; cheap drone swarms overwhelmed the economics of expensive interceptors; US resupply guarantees dissolved with the US federal collapse (~2032), leaving Israel unable to replenish at volume; (3) *Manpower crisis* — reserve call-up rates became unsustainable for multi-front operations; West Bank settler military overhead became a net liability, draining IDF capacity without strategic return.
+
+**Regional nuclear dynamics:** Israeli deterrent sits alongside the Saudi nuclear threshold capability (achieved with Pakistani assistance, ~2040s) and Iranian nuclear capability (crude device tested mid-2030s). The regional proliferation cascade transformed West Asian deterrence from a bilateral Israeli-Iranian dynamic into a multi-polar standoff.
+
+**Stage:** Stage 3-4 Reactionary — territorial contraction complete; garrison state; nuclear-armed; internationally isolated but existentially intact.
+
+**→ See KML: Israel** **→ See: #levant-republic** **→ See: #iran** **→ See: #quartet**
+
+---
+
+**Levant Republic:** {#levant-republic} Sovereign revolutionary state — the unified polity of Palestine, Jordan, and Lebanon. The Levant Republic is not a bilateral confederation but the first political expression of the Arab United Front: the nucleus and founding political form of a singular Arab revolutionary nation.
+
+**Palestine mechanism:** Contiguous sovereign state from Gaza through the West Bank to Jerusalem, with the Lebanon corridor — a physical territorial transfer from Hezbollah-governed Lebanon — providing geographic continuity. District-based partition from Israel completed ~2035-2040, establishing Palestinian sovereignty over the Northern, Southern, and Jerusalem districts. Jerusalem is the capital of the Palestinian founding state; the Lebanon corridor consolidates the territorial base of the future Levant Republic.
+
+**Jordan mechanism:** The Hashemite monarchy is structurally terminal by the mid-2040s. Three structural legs collapse in sequence: (1) US security guarantee removed with the US federal collapse (~2032); (2) Gulf financial patronage degrades as Saudi Arabia enters fiscal crisis from oil revenue decline; (3) the Hashemite political formula — managing the Palestinian question via perpetual non-resolution — becomes incoherent once Palestine is sovereign. Jordan's Palestinian-majority population (~50-70% of citizens) loses its reason to accept the Hashemite formula. The Arab United Front builds parallel governance institutions in Jordan before the collapse; the Levant Republic framework is the immediate destination. Structured revolutionary transition into the Levant Republic follows: ~3-7 years after Levant Republic established.
+
+**Lebanon mechanism:** Hezbollah repositions from Iran proxy to Lebanese national movement as its Syrian land route is severed and Palestine achieves sovereignty. Lebanon's failed-state dynamics consolidate under Hezbollah-led national governance. The Lebanon corridor — physical territorial integration with Palestine — means the Levant Republic is the political completion of geography already established. Lebanon has no separate KML entity at 2050; it is subsumed into the Levant Republic polygon.
+
+**Timeline and form:** ~2038-2045 window for merger completion. Capital: a Palestinian city (symbolic anchor of the founding revolutionary nation). By 2050: either full merger complete or advanced confederation with formal merger as declared and irreversible trajectory — assessed ~60-70% probability of full completion by snapshot date.
+
+**AUF nucleus:** The Levant Republic IS the Arab United Front — its first political expression and the state from which each subsequent Arab revolutionary accession proceeds.
+
+**KML:** Merged polygon of Jordan + Lebanon + Palestine. Individual Jordan, Lebanon, and Palestine placemarks deprecated in favor of the unified Levant Republic polygon.
+
+**→ See KML: Levant Republic** **→ See: #arab-united-front** **→ See: #israel** **→ See: #syria**
+
+*Palestine:* See #levant-republic — Palestine is the founding nucleus of the Levant Republic. The contiguous sovereign Palestinian state (Gaza through West Bank to Jerusalem with Lebanon corridor) is the territorial and political core from which the Levant Republic is constituted.
+
+*Jordan:* See #levant-republic — Jordan's Hashemite monarchy is structurally terminal; the Palestinian-majority population transitions into the Levant Republic framework ~3-7 years after its establishment.
+
+*Lebanon:* See #levant-republic — Lebanon is subsumed into the Levant Republic; Hezbollah's repositioning from Iran proxy to Lebanese national movement is the political mechanism; the Lebanon corridor is the territorial mechanism.
+
+---
+
+**Syria:** {#syria} Contested space at 2050 — managed multi-actor equilibrium rather than sovereign coherence. No single external actor controls Syria, and no internal actor can impose a settlement; the balance point is an unstable but durable tri-partite arrangement.
+
+**2050 balance:** Turkish-dominated north (buffer zones, client factions in Aleppo and Idlib corridors); Iranian-influenced east and coast (Deir ez-Zor/Bukamal eastern corridor providing Iran-Iraq-Syria land connectivity; Alawite coastal communities around Tartus and Latakia providing Shia institutional depth); nominal central government in Damascus functioning as a sovereignty-preserving fiction acceptable to both Turkey and Iran — neither wants the other to control Damascus, so both accept nominal Syrian government as a buffer.
+
+**US collapse impact:** Turkey's Syria calculus was always shaped by the calculation of Western tolerance. The US collapse (~2032) removed the constraint on Iranian eastern corridor expansion and forced Turkey to manage Aegean pressure from the EDF simultaneously — Syria management became a lower-priority operation, and Iranian influence expanded into the eastern vacuum Turkey could no longer actively contest.
+
+**Kurdish north:** Syrian Democratic Forces / Rojava de facto autonomous zone loses US air cover and logistics post-collapse. SDFs renegotiate survival with Damascus and Turkey. Primary assessment: Rojava retains limited but real autonomy under a Turkish-Damascus framework — neither Turkey nor Damascus can absorb Rojava without unacceptable cost, and both settle for constrained autonomy over contested territory.
+
+**Latent AUF member:** Syria is the Arab United Front's long-game candidate. The AUF positions itself as the only actor that can deliver Syrian reconstruction, sovereignty, and integration. Formal Syrian integration into the AUF is realistically post-2055 — the managed equilibrium must resolve before the AUF can function as Syria's political destination.
+
+**→ See KML: Syria** **→ See: #turkey** **→ See: #iran** **→ See: #levant-republic**
+
+---
+
+**Iraq:** {#iraq} Nominal sovereignty with PMF (Popular Mobilization Forces) embedded in every organ of state power. The PMF are not a parallel structure — they are integrated into ministry apparatuses, police, border control, and the formal military chain of command. Iraqi state sovereignty is a legal form; PMF governance is the operational reality.
+
+**Iran-axis alignment:** Iraq functions as Iran's deepest Axis of Resistance integration — a PMF-governed state within Iran's strategic sphere. Iraqi PMF coordinate with AUF military frameworks; the two alignments (Iranian Shia institutional networks and AUF Arab national framework) are complementary rather than competing in Iraq, given the country's majority-Shia population and Arab national identity.
+
+**AUF associated membership:** Iraq's formal AUF accession is complicated by the Kurdish question — the Kurdistan Regional Government (KRG) maintains ideological distance from both Tehran and Baghdad, and any AUF accession framework requires either a Kurdish autonomy arrangement within the AUF or a prior Iraqi-Kurdish political settlement. By 2050: associated membership with PMF coordination is the operational reality; formal accession timing is uncertain and contingent on the Kurdish question's resolution.
+
+**Kurdish north — KRG as distinct sub-entity:** Iraqi Kurdistan maintains economic dependency on Ankara via the Turkey-KRG oil pipeline, ideological distance from the Iran-Baghdad PMF axis, and de facto internal autonomy. The KRG is not AUF-affiliated and functions as a buffer between Turkey's sphere and Iraq's Iran-aligned south. Kurdish north is the primary unresolved political variable in Iraq's AUF trajectory.
+
+**→ See KML: Iraq** **→ See: #iran** **→ See: #arab-united-front** **→ See: #quartet**
+
+---
+
+### Arab United Front (AUF) {#arab-united-front}
+
+**Arab United Front (AUF):** The Arab United Front is not a bilateral integration process — not a series of separate state-by-state flips that eventually cohere — but a **unified revolutionary movement that precedes and accelerates individual state flips**, ultimately forming a singular Arab nation to which new revolutionary states accede. The distinction is structural: the AUF is not the destination of individual revolutions; the AUF is the revolution.
+
+**Organizational form:** The Arab Liberation Movement (ALM) / Arab Revolutionary Coordination Council (ARCC) emerges as a formal unified actor ~2031-2033, anchored by Palestine, Yemen, and Lebanon/Hezbollah. Three organizational tiers:
+
+1. *Strategic Council* — representatives of founding revolutionary states; sets strategic direction; controls the solidarity fund that provides material support to pre-revolutionary states.
+2. *Country Coordination Committees* — in each pre-revolutionary Arab state; operational autonomy; coordinates with Strategic Council on timing and resource allocation.
+3. *Functional Networks* — cross-border labor solidarity organizations; student and intellectual networks; women's organizations; pan-Arab media infrastructure (Al-Jazeera alignment); diaspora political organizations spanning the Arab world and its European and North American diaspora communities.
+
+**Founding Congress ~2031-2033:** Location: a Palestinian city (symbolic anchor — the founding state of the revolutionary nation). Founding actors: Palestine (sovereignty, PLO infrastructure, diaspora networks); Yemen/Ansarallah (military proof-of-concept, drone and missile expertise, tribal incorporation model); Lebanon/Hezbollah (repositioned as national movement — the parallel-state building organizational template). The Congress adopts the **Arab Liberation Charter** as its foundational constitutional document.
+
+**Feedback loop acceleration by state:**
+- *Jordan* (~3-7 years after Levant Republic) — AUF builds parallel governance institutions before the Hashemite collapse; the Levant Republic framework is the immediate destination; structured transition rather than chaotic collapse.
+- *Egypt* (~2043-2048) — AUF provides what the 2011 revolution lacked: material support for extended labor action, a third ideological option (Arab revolutionary nationalism, neither Islamism nor military rule), communications security, and cross-border safe havens. Likely compresses the Egyptian flip from the 2045-2052 range to ~2043-2048.
+- *Libya* (within 3-5 years of Egypt's flip) — Egyptian accession is the decisive trigger; AUF-affiliated Tripoli institutions achieve reunification with eastern Libya within years of Egypt joining.
+- *Saudi Arabia* (fragmentation facilitation, not national revolution) — AUF supports the Hejaz Liberation Movement (recoverable historical identity: independent Hejaz kingdom until 1925) and Eastern Province Shia institutions. Post-Saudi Hejaz is the natural first Arabian Peninsula accession to the AUF.
+- *Syria* (long game, post-2055) — political settlement, not revolution; AUF positions itself as reconstruction and sovereignty provider.
+
+**At 2050 snapshot:** AUF / Levant Republic operational as a singular nation; Yemen and Libya full members; Egypt in accession (if flip is 2043-2048) or completing revolution (if on the later end of the window); Iraq at associated membership; Syria candidate; Hejaz recognized entity in pre-accession status.
+
+**Iran relationship — cooperative strategic alignment:** Iran built the organizational and material infrastructure that the AUF operates on (Hezbollah, Ansarallah, PMF). The AUF is not a threat to Iranian interests — it is the consolidation of the regional order Iran built for four decades, now under Arab leadership. Iran provides material support (weapons, intelligence, financial infrastructure); the AUF provides political legitimacy and Arab nationalist framework that Iran itself cannot supply. Shared interest in Iraq rather than contested terrain.
+
+**External intervention risk:** The most likely front-stopper is a US-Israeli-Gulf coalition military operation during the 2035-2042 window — when the front is strong enough to threaten but not yet strong enough to deter. Entity profiles treat this as a conditional risk requiring assessment against the AUF's organizational resilience.
+
+**→ See KML: Arab United Front** **→ See: #levant-republic** **→ See: #iran** **→ See: #yemen** **→ See: #egypt**
 
 **Saudi Arabia:** A wealthy but strategically constrained middle power past its oil peak. The GCC is split — the UAE chose the Israel axis (contracted with US collapse), Saudi Arabia aligned with the Quartet. Nuclear threshold state with latent capability achieved with Pakistani assistance. The absolute monarchy's legitimacy, dependent on distribution capacity, is under increasing strain as oil revenue declines. **→ See KML: Saudi Arabia**
 
