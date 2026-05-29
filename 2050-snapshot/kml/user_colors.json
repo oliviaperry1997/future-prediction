@@ -83,7 +83,7 @@
     "kml_line": "ff4bd3f5",
     "width": 1.0
   },
-  "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
+  "São Tomé and Príncipe": {
     "hex": "#da3251",
     "kml_fill": "805132da",
     "kml_line": "ff5132da",
@@ -167,7 +167,7 @@
     "kml_line": "ff99d244",
     "width": 1.0
   },
-  "C\u00f4te d'Ivoire": {
+  "Côte d'Ivoire": {
     "hex": "#e78531",
     "kml_fill": "803185e7",
     "kml_line": "ff3185e7",
@@ -263,7 +263,7 @@
     "kml_line": "ff2f2dbd",
     "width": 1.0
   },
-  "Aztl\u00e1n": {
+  "Aztlán": {
     "hex": "#beca6c",
     "kml_fill": "806ccabe",
     "kml_line": "ff6ccabe",
@@ -1152,9 +1152,9 @@
     "width": 1.0
   },
   "United Arab Emirates": {
-    "hex": "#6b8e23",
-    "kml_fill": "80238e6b",
-    "kml_line": "ff238e6b",
+    "hex": "#289678",
+    "kml_fill": "80789628",
+    "kml_line": "ff789628",
     "width": 1.0
   },
   "Mauritius": {
@@ -1229,7 +1229,7 @@
     "kml_line": "ff784ba0",
     "width": 1.0
   },
-  "Cura\u00e7ao": {
+  "Curaçao": {
     "hex": "#3498DB",
     "kml_fill": "80db9834",
     "kml_line": "ffdb9834",
@@ -1265,7 +1265,7 @@
     "kml_line": "ffb6599b",
     "width": 1.0
   },
-  "St. Barth\u00e9lemy": {
+  "St. Barthélemy": {
     "hex": "#4CAF50",
     "kml_fill": "8050af4c",
     "kml_line": "ff50af4c",
@@ -1395,6 +1395,30 @@
     "hex": "#7e6da5",
     "kml_fill": "80a56d7e",
     "kml_line": "ffa56d7e",
+    "width": 1.0
+  },
+  "Armenia": {
+    "hex": "#FF6400",
+    "kml_fill": "800064ff",
+    "kml_line": "ff0064ff",
+    "width": 1.0
+  },
+  "Azerbaijan": {
+    "hex": "#00B9E4",
+    "kml_fill": "80e4b900",
+    "kml_line": "ffe4b900",
+    "width": 1.0
+  },
+  "Georgia": {
+    "hex": "#FFECEC",
+    "kml_fill": "80ececff",
+    "kml_line": "ffececff",
+    "width": 1.0
+  },
+  "Arab Popular Republic": {
+    "hex": "#239F40",
+    "kml_fill": "80409f23",
+    "kml_line": "ff409f23",
     "width": 1.0
   }
 }
