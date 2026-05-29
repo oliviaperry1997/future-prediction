@@ -296,6 +296,19 @@ Plans:
   1. All 14 Western Asian entities assessed — no contradictions
   2. KML entities for Western Asia correct in Google Earth Pro
   3. All documentation gaps for Western Asian entities identified and filled
+**Plans**: 5 plans
+
+Plans:
+- [ ] 13-01-PLAN.md — KML/entity-config restructure: Western Asia folder rename, South Caucasus entities, Levant Republic, AUF (Wave 1)
+- [ ] 13-02-PLAN.md — Entity profiles: Turkey + South Caucasus cluster (Armenia, Azerbaijan, Georgia, Nagorno-Karabakh) (Wave 1)
+- [ ] 13-03-PLAN.md — Entity profiles: Levant cluster (Israel, Levant Republic, Syria, Iraq) + AUF meta-entry (Wave 2, blocked on 01)
+- [ ] 13-04-PLAN.md — Entity profiles: Iran + Arabian Peninsula (Saudi Arabia, Yemen, UAE, Kuwait, Qatar, Bahrain, Oman) + Quartet (Wave 2, blocked on 01)
+- [ ] 13-05-PLAN.md — Transition doc update (west-asia.md) + Key Changes/Verification Checklist + consistency scan (Wave 3, blocked on 02-04)
+
+**Wave structure:**
+- Wave 1: Plans 01, 02 (parallel — no file overlap)
+- Wave 2: Plans 03, 04 (parallel — both write borders-geopolitics.md but different sections; executor should serialize if tool-level locking required)
+- Wave 3: Plan 05 (integrates all prior work)
 
 ### Phase 14: Western Europe Review
 **Mode**: mvp
