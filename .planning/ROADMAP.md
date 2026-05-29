@@ -19,7 +19,7 @@ A markdown-based geopolitical forecasting and world-building project. This roadm
 - [x] **Phase 11: Southern Asia Review** — Plausibility audit: Southern Asia (completed 2026-05-28)
 - [x] **Phase 12: Southern Europe Review** — Plausibility audit: Southern Europe (completed 2026-05-29)
 - [x] **Phase 13: Western Asia Review** — Plausibility audit: Western Asia (completed 2026-05-29)
-- [ ] **Phase 14: Western Europe Review** — Plausibility audit: Western Europe
+- [x] **Phase 14: Western Europe Review** — Plausibility audit: Western Europe (completed 2026-05-29)
 - [ ] **Phase 15: Australasia Review** — Plausibility audit: Australasia
 - [ ] **Phase 16: Melanesia Review** — Plausibility audit: Melanesia
 - [ ] **Phase 17: Micronesia Review** — Plausibility audit: Micronesia
@@ -327,7 +327,7 @@ Plans:
 - [x] 14-01-PLAN.md — KML & Entity Config: Merge Switzerland/Liechtenstein into EU Federation (Wave 1)
 - [x] 14-02-PLAN.md — Borders-Geopolitics: Western EU sub-entries + Key Changes bullet (Wave 1, parallel)
 - [x] 14-03-PLAN.md — Economy & Demographics: Western EU sub-entries (Wave 2, blocked on 02)
-- [ ] 14-04-PLAN.md — Culture, Climate & Technology: Western EU sub-entries (Wave 2, blocked on 02, parallel with 03)
+- [x] 14-04-PLAN.md — Culture, Climate & Technology: Western EU sub-entries (Wave 2, blocked on 02, parallel with 03)
 
 **Wave structure:**
 - Wave 1: Plans 01, 02 (parallel — KML edits and domain doc writing don't conflict)
@@ -409,7 +409,7 @@ Plans:
 | 11. Southern Asia Review | 4/4 | Complete | 2026-05-28 |
 | 12. Southern Europe Review | 6/6 | Complete | 2026-05-29 |
 | 13. Western Asia Review | 6/6 | Complete | 2026-05-29 |
-| 14. Western Europe Review | 3/4 | In Progress|  |
+| 14. Western Europe Review | 4/4 | Complete   | 2026-05-29 |
 | 15. Australasia Review | — | Not started | — |
 | 16. Melanesia Review | — | Not started | — |
 | 17. Micronesia Review | — | Not started | — |
