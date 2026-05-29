@@ -86,12 +86,7 @@
         "São Tomé and Príncipe"
       ],
       "Northern Africa": [
-        "Algeria",
-        "Egypt",
-        "Libya",
-        "Morocco",
-        "Sudan",
-        "Tunisia"
+        "Morocco"
       ],
       "Southern Africa": [
         "Botswana",
@@ -254,23 +249,17 @@
       "Western Asia": [
         "Bahrain",
         "Iran",
-        "Iraq",
         "Israel",
         "Kuwait",
         "Oman",
-        "Palestine",
         "Qatar",
         "Saudi Arabia",
-        "Syria",
         "Turkey",
         "United Arab Emirates",
-        "Yemen",
         "Armenia",
         "Azerbaijan",
         "Georgia",
-        "Arab Popular Republic",
-        "Eastern Province",
-        "Hejaz"
+        "Arab Popular Republic"
       ]
     },
     "Oceania (wip)": {
@@ -934,15 +923,6 @@
       "section_anchor": "federation-of-sahel-states",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#federation-of-sahel-states"
     },
-    "Egypt": {
-      "type": "entity",
-      "category": "global",
-      "source": "manual",
-      "manual_path": "source/manual/Egypt.kml",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "egypt",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#egypt"
-    },
     "Nigeria": {
       "type": "entity",
       "category": "global",
@@ -1128,15 +1108,6 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "israel",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#israel"
-    },
-    "Palestine": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "PSX",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "palestine",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#palestine"
     },
     "Saudi Arabia": {
       "type": "entity",
@@ -1500,58 +1471,6 @@
       "section_anchor": "maldives",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#maldives"
     },
-    "Iraq": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "IRQ",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "iraq",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#iraq"
-    },
-    "Jordan": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "JOR",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "levant-republic",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#levant-republic"
-    },
-    "Lebanon": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "LBN",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "levant-republic",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#levant-republic"
-    },
-    "Syria": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "SYR",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "syria",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#syria"
-    },
-    "Yemen": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "YEM",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "yemen",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#yemen",
-      "add_admin1_per_code": {
-        "SAU": [
-          "Najran",
-          "`Asir",
-          "Jizan"
-        ]
-      }
-    },
     "Oman": {
       "type": "entity",
       "category": "global",
@@ -1606,42 +1525,6 @@
         "MAR",
         "SAH"
       ],
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Algeria": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "DZA",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Tunisia": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "TUN",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Libya": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "LBY",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Sudan": {
-      "type": "entity",
-      "category": "global",
-      "source": "manual",
-      "manual_path": "source/manual/Sudan.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
@@ -2446,15 +2329,6 @@
       "section_anchor": "georgia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#georgia"
     },
-    "Levant Republic": {
-      "type": "entity",
-      "category": "global",
-      "source": "manual",
-      "manual_path": "source/manual/Levant Republic.kml",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "levant-republic",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#levant-republic"
-    },
     "Arab United Front": {
       "type": "entity",
       "category": "global",
@@ -2468,21 +2342,6 @@
       "section_anchor": "arab-united-front",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#arab-united-front"
     },
-    "Hejaz": {
-      "type": "entity",
-      "category": "global",
-      "source": "admin1_merge",
-      "country_code": "SAU",
-      "merge_regions": [
-        "Makkah",
-        "Al Madinah",
-        "Tabuk",
-        "Al Bahah"
-      ],
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "saudi-arabia",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#saudi-arabia"
-    },
     "Eastern Province": {
       "type": "entity",
       "category": "global",
@@ -2492,6 +2351,29 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "saudi-arabia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#saudi-arabia"
+    },
+    "Arab Popular Republic": {
+      "type": "entity",
+      "category": "revolutionary",
+      "source": "manual",
+      "manual_path": "source/manual/Arab Popular Republic.kml",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "arab-popular-republic",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#arab-popular-republic",
+      "members": [
+        "Palestine",
+        "Jordan",
+        "Lebanon",
+        "Yemen",
+        "Libya",
+        "Egypt",
+        "Tunisia",
+        "Algeria",
+        "Sudan",
+        "Iraq",
+        "Syria",
+        "Hejaz"
+      ]
     }
   },
   "fragmented_entities": {},
