@@ -318,9 +318,27 @@ Plans:
 **Depends on**: Phase 13
 **Requirements**: EURA-09
 **Success Criteria** (what must be TRUE):
-  1. All Western European entities assessed — no contradictions
-  2. KML entities for Western Europe correct in Google Earth Pro
-  3. All documentation gaps for Western European entities identified and filled
+   1. All Western European entities assessed — no contradictions
+   2. KML entities for Western Europe correct in Google Earth Pro
+   3. All documentation gaps for Western European entities identified and filled
+**Plans**: 4 plans
+
+Plans:
+- [ ] 14-01-PLAN.md — KML & Entity Config: Merge Switzerland/Liechtenstein into EU Federation (Wave 1)
+- [ ] 14-02-PLAN.md — Borders-Geopolitics: Western EU sub-entries + Key Changes bullet (Wave 1, parallel)
+- [ ] 14-03-PLAN.md — Economy & Demographics: Western EU sub-entries (Wave 2, blocked on 02)
+- [ ] 14-04-PLAN.md — Culture, Climate & Technology: Western EU sub-entries (Wave 2, blocked on 02, parallel with 03)
+
+**Wave structure:**
+- Wave 1: Plans 01, 02 (parallel — KML edits and domain doc writing don't conflict)
+- Wave 2: Plans 03, 04 (parallel — different domain docs, no file conflicts; both blocked on Plan 02's entity definitions)
+
+**Cross-cutting constraints:**
+- Per D-01/D-02: Switzerland is full EU Federation member — no standalone entry, merged into EU KML polygon
+- Per D-03/D-05: Switzerland+Lichtenstein KML merged into EU Federation; Liechtenstein absorbed with Switzerland
+- Per D-07: Depth stratification — France+Germany substantial, Netherlands research, Belgium/Austria/Luxembourg standard
+- Per D-08/D-09: France nuclear deterrent federalized; Corsica+Brittany separate as EU subdivisions
+- Per D-11/D-12: US bases transferred to EDF with Ramstein as central command; Germany recovers as leading EU industrial power
 
 ### Phase 15: Australasia Review
 **Mode**: mvp
@@ -391,7 +409,7 @@ Plans:
 | 11. Southern Asia Review | 4/4 | Complete | 2026-05-28 |
 | 12. Southern Europe Review | 6/6 | Complete | 2026-05-29 |
 | 13. Western Asia Review | 6/6 | Complete | 2026-05-29 |
-| 14. Western Europe Review | — | Not started | — |
+| 14. Western Europe Review | 0/4 | Planned | — |
 | 15. Australasia Review | — | Not started | — |
 | 16. Melanesia Review | — | Not started | — |
 | 17. Micronesia Review | — | Not started | — |
