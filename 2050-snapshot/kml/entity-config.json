@@ -262,7 +262,7 @@
       ]
     },
     "Oceania (wip)": {
-      "Australasia (wip)": [
+      "Australasia": [
         "Australia",
         "New Zealand"
       ],
@@ -1132,6 +1132,50 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "australia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#australia"
+    },
+    "Christmas Island": {
+      "type": "entity",
+      "category": "global",
+      "source": "territory",
+      "country_code": "CXR",
+      "sovereign": "AUS",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "australia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#australia",
+      "status": "Australian external territory — sovereign 2050"
+    },
+    "Cocos (Keeling) Islands": {
+      "type": "entity",
+      "category": "global",
+      "source": "territory",
+      "country_code": "CCK",
+      "sovereign": "AUS",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "australia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#australia",
+      "status": "Australian external territory — sovereign 2050"
+    },
+    "Heard Island and McDonald Islands": {
+      "type": "entity",
+      "category": "global",
+      "source": "territory",
+      "country_code": "HMD",
+      "sovereign": "AUS",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "australia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#australia",
+      "status": "Australian external territory — sovereign 2050 (uninhabited)"
+    },
+    "Norfolk Island": {
+      "type": "entity",
+      "category": "global",
+      "source": "territory",
+      "country_code": "NFK",
+      "sovereign": "AUS",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "australia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#australia",
+      "status": "Australian external territory — sovereign 2050"
     },
     "Kanaky": {
       "type": "entity",

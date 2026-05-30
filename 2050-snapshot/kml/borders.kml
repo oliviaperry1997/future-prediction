@@ -63824,7 +63824,7 @@
     <Folder>
       <name>Oceania (wip)</name>
       <Folder>
-        <name>Australasia (wip)</name>
+        <name>Australasia</name>
         <Folder>
           <name>Australia</name>
           <Placemark>
@@ -65048,6 +65048,34 @@
                 </LinearRing>
               </outerBoundaryIs>
             </Polygon>
+          </Placemark>
+          <Placemark>
+            <name>Christmas Island</name>
+            <description>See: 2050-snapshot/domains/borders-geopolitics.md#australia | Australian external territory — sovereign 2050</description>
+            <Point>
+              <coordinates>105.6908,-10.4916,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Cocos (Keeling) Islands</name>
+            <description>See: 2050-snapshot/domains/borders-geopolitics.md#australia | Australian external territory — sovereign 2050</description>
+            <Point>
+              <coordinates>96.8201,-12.1642,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Heard Island and McDonald Islands</name>
+            <description>See: 2050-snapshot/domains/borders-geopolitics.md#australia | Australian external territory — sovereign 2050 (uninhabited)</description>
+            <Point>
+              <coordinates>73.5033,-53.1000,0</coordinates>
+            </Point>
+          </Placemark>
+          <Placemark>
+            <name>Norfolk Island</name>
+            <description>See: 2050-snapshot/domains/borders-geopolitics.md#australia | Australian external territory — sovereign 2050</description>
+            <Point>
+              <coordinates>167.9547,-29.0408,0</coordinates>
+            </Point>
           </Placemark>
         </Folder>
         <Folder>
