@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>Tokelau</name>
+    <Placemark>
+      <name>Atafu</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>-172.470649,-8.577709,0 -172.513034,-8.570853,0 -172.521900,-8.532815,0 -172.494380,-8.531216,0 -172.464960,-8.555481,0 -172.463052,-8.575381,0 -172.470649,-8.577709,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Nukunonu</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>-171.870075,-9.181079,0 -171.862416,-9.115299,0 -171.779289,-9.101463,0 -171.763415,-9.210470,0 -171.765657,-9.215258,0 -171.789433,-9.232282,0 -171.817459,-9.227150,0 -171.836372,-9.219562,0 -171.870075,-9.181079,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Fakaofo</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>-171.272606,-9.375919,0 -171.213557,-9.323616,0 -171.206779,-9.324823,0 -171.192280,-9.338834,0 -171.179882,-9.358378,0 -171.192576,-9.428462,0 -171.195487,-9.430139,0 -171.214830,-9.423963,0 -171.272606,-9.375919,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>
