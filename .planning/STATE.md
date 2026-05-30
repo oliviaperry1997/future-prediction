@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
-status: verifying
-stopped_at: Phase 17 context gathered
-last_updated: "2026-05-30T12:39:22.311Z"
-last_activity: 2026-05-30
+status: executing
+stopped_at: Phase 17 Plan 01 complete
+last_updated: "2026-05-30T13:00:00.000Z"
+last_activity: 2026-05-30 -- Phase 17 Plan 01 executed
 progress:
   total_phases: 19
   completed_phases: 11
-  total_plans: 46
-  completed_plans: 47
-  percent: 100
+  total_plans: 50
+  completed_plans: 48
+  percent: 96
 ---
 
 # Project State
@@ -25,10 +25,10 @@ See: .planning/PROJECT.md (updated 2026-05-19)
 
 ## Current Position
 
-Phase: 14 (western-europe-review) — COMPLETE
-Plan: 4 of 4
-Status: Phase complete — ready for verification
-Last activity: 2026-05-30
+Phase: 17 (micronesia-review) — IN PROGRESS
+Plan: 1 of 3 complete
+Status: Executing
+Last activity: 2026-05-30 -- Phase 17 Plan 01 executed
 
 ## Performance Metrics
 
@@ -59,6 +59,7 @@ Last activity: 2026-05-30
 
 ### Decisions
 
+- [Phase 17 Plan 01]: CNMI absent from borders.kml — entity-config.json entry added as placeholder; KML polygon addition is a future task
 - [Phase 14]: Switzerland is a full European Federation member by 2050 — CHE removed from standalone entity entry, CHE+LIE added to EU Federation country_codes
 - [Phase 14]: Liechtenstein absorbed into EU Federation with Switzerland (no separate KML or entity entry)
 - [Phase 14 Plan 02]: All 6 Western EU members (France, Germany, Netherlands, Belgium, Austria, Luxembourg) receive individual sub-entries in borders-geopolitics.md European Federation section — France and Germany at substantial depth, Netherlands at research-driven depth, Belgium/Austria/Luxembourg at standard depth per D-07. No standalone Switzerland profile per D-02.
@@ -90,6 +91,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-30T12:39:22.306Z
-Stopped at: Phase 17 context gathered
-Resume file: .planning/phases/17-micronesia-review/17-CONTEXT.md
+Last session: 2026-05-30T13:00:00.000Z
+Stopped at: Phase 17 Plan 01 complete
+Resume file: .planning/phases/17-micronesia-review/17-01-SUMMARY.md
