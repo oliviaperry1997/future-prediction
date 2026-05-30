@@ -65437,7 +65437,7 @@
         </Folder>
       </Folder>
       <Folder>
-        <name>Melanesia (wip)</name>
+        <name>Melanesia</name>
         <Folder>
           <name>Fiji</name>
           <Placemark>
@@ -67719,6 +67719,9 @@
               </outerBoundaryIs>
             </Polygon>
           </Placemark>
+        </Folder>
+        <Folder>
+          <name>Bougainville</name>
         </Folder>
       </Folder>
       <Folder>

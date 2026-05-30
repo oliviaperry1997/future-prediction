@@ -264,12 +264,13 @@
         "Australia",
         "New Zealand"
       ],
-      "Melanesia (wip)": [
+      "Melanesia": [
         "Fiji",
         "Kanaky",
         "Papua New Guinea",
         "Solomon Is.",
-        "Vanuatu"
+        "Vanuatu",
+        "Bougainville"
       ],
       "Micronesia (wip)": [
         "Guam",
@@ -1147,6 +1148,15 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "kanaky",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#kanaky"
+    },
+    "Bougainville": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "BVL",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "bougainville",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#bougainville"
     },
     "New Zealand": {
       "type": "entity",
