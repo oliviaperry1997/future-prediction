@@ -767,6 +767,53 @@ Oman's Muscat channel — the traditional diplomatic back-channel between Iran a
 - **→ See KML: New Zealand**
 - → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
 
+**Melanesia:**
+
+**Fiji:** Revolutionary Stage 3-4 — the regional anchor. The most strategically capable Pacific state, Fiji functions as the institutional hub of Melanesian and broader Pacific regionalism.
+- **Territorial integrity:** 330+ islands, sovereign and unchanged. Host to the largest climate refugee resettlement programs in Oceania — Kiribati has purchased land in Fiji for community relocation; Tuvaluan and I-Kiribati communities are establishing permanent settlements.
+- **Strategic posture:** BRICS+ engagement, independent foreign policy. Hosts UN Pacific operations and diplomatic missions. Pacific Islands Forum central actor — Suva is the diplomatic capital of the Pacific.
+- **Economic character:** Tourism, sugar, garment exports reoriented toward BRICS+ trade. Pacific financial hub. Remittances from Fijian diaspora in Australia and NZ supplement domestic economy.
+- **→ See KML: Fiji**
+- → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
+
+**Kanaky:** Revolutionary Stage 3-4 — decolonization complete. Fully independent sovereign state by the late 2030s-2040s, named Kanaky in recognition of the Kanak sovereignty movement's completed trajectory.
+- **Status:** Full independence achieved. France's Pacific administrative and military presence ended. Named Kanaky — the Kanak independence name — as the editorial lock on the revolutionary framing.
+- **Territorial integrity:** Grande Terre and the Loyalty Islands as independent sovereign Melanesian state.
+- **Economic character:** Nickel reserves (critical for EV battery supply chains) provide the economic foundation. China is the primary nickel customer — the BRICS+ commodity relationship is the economic spine of Kanaky's sovereignty.
+- **Strategic posture:** PIF member. Non-aligned, leveraging nickel wealth for strategic autonomy. Closest Pacific analog to an independence-through-resource-wealth model.
+- **→ See KML: Kanaky**
+- → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
+
+**Papua New Guinea:** Stage 1-2 Bifurcation — reactionary by default. Revolutionary potential unrealized due to governance failure — the resource curse dynamic held.
+- **The bifurcation:** PNG had the raw materials for a revolutionary breakthrough — LNG, gold, copper; strategic position astride key shipping lanes; land border with Indonesia. But governance failure (corruption, law and order collapse, infrastructure deficit) prevented it from capturing this potential. Extraction revenue was captured by elite networks rather than invested in state capacity.
+- **Territorial integrity:** Main island of New Guinea (eastern half) and 600+ outer islands. Bougainville — formally autonomous since 2019 — has achieved de facto independence by 2050 (see Bougainville entry below).
+- **Strategic posture:** Navigates China-Australia competition without coherent strategy — accepts Chinese infrastructure investment while maintaining Australian security relationships. Neither leveraged nor resolved.
+- **Economic character:** LNG, gold, copper extraction continues but development dividends never materialized. Subsistence agriculture remains the livelihood of ~80% of the population.
+- **→ See KML: Papua New Guinea**
+- → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
+
+**Solomon Islands:** Revolutionary Stage 2-3 — pragmatic independence. The 2022 China security agreement as the foundational act of Pacific strategic autonomy.
+- **Strategic posture:** The 2022 China security agreement permanently broke the US-Australia monopoly on Pacific security relationships. By 2050, Solomon Islands has deepened this multi-vector strategy — maintaining security and economic relationships with China, Australia, NZ, and PIF simultaneously. The small state's greatest leverage is its refusal to be a single-patron dependency.
+- **Territorial integrity:** Guadalcanal, Malaita, and outer islands, unchanged.
+- **Economic character:** Small, subsistence-agricultural economy. Logging, fisheries, and Chinese infrastructure investment. Remittances significant.
+- **→ See KML: Solomon Is.**
+- → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
+
+**Vanuatu:** Revolutionary Stage 2-3 — Blue Pacific regionalism. Non-aligned anchor in Pacific collective governance since independence (1980).
+- **Strategic posture:** Non-aligned since independence — Vanuatu's strategic heritage predates the revolutionary era. PIF central actor. Blue Pacific collective leverage as the primary survival mechanism for an economically small, climate-vulnerable archipelago.
+- **Territorial integrity:** 80+ island archipelago, unchanged. One of the world's highest disaster risk profiles — cyclone and volcanic exposure is a permanent feature.
+- **Climate character:** Cyclone frequency and intensity increasing. Volcanic risk (Ambae, Tanna active volcanoes). Disaster resilience is a primary governance investment — Vanuatu is a climate adaptation laboratory.
+- **Economic character:** Tourism, agricultural exports (copra, cocoa, kava). Pacific financial services (offshore registration residual). PIF climate finance access as a development supplement.
+- **→ See KML: Vanuatu**
+- → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
+
+**Bougainville:** Revolutionary Stage 1-2 — independence achieved (~2040-2042). Independent sovereign state following PNG governance failure making continued nominal sovereignty untenable.
+- **Independence path:** Formal separation from Papua New Guinea. The deferred 2019 independence referendum's 98% independence vote became legally operative under international law once PNG's governance failure made continued PNG sovereignty nominal. Independence by ~2040-2042.
+- **Economic anchor:** Panguna copper mine (closed 1989 — the trigger for the Bougainville Civil War) reopened with Chinese investment by ~2038. The mine's revenue provides the economic viability basis that was absent during the civil war era.
+- **Strategic posture:** PIF member, non-aligned. Small sovereign state under the Blue Pacific collective framework.
+- **→ See KML: Bougainville**
+- → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
+
 **Pacific Islands:** "Blue Pacific" regionalism matured — the Pacific Islands Forum's 2050 Strategy delivered deepened regional governance, climate resilience financing, and collective diplomatic weight. Atoll states (Tuvalu, Kiribati, Marshall Islands) pioneered legal frameworks for sovereignty without habitable territory — their 200nm EEZs persist as sovereign zones even as physical land becomes marginal. **→ See KML: Pacific Islands Forum**
 
 **US Pacific Territories:** Guam affiliated with the Pacifica/HFS under a compact with significant local Chamorro autonomy — the military bases (Andersen AFB, Naval Base Guam) are jointly managed assets. American Samoa absorbed into the Hawaiian Free State. CNMI aligned with Japan. The constitutional orphans of the US collapse found new homes. **→ See KML: Guam / HFS Compact**
