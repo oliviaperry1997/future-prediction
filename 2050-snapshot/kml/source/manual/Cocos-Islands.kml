@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Cocos (Keeling) Islands - South Keeling</name>
+      <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>96.863129,-12.181736,0 96.869395,-12.187921,0 96.845225,-12.197686,0 96.830577,-12.179946,0 96.823416,-12.150974,0 96.821544,-12.126560,0 96.828380,-12.126560,0 96.828380,-12.136326,0 96.829845,-12.144464,0 96.835216,-12.160577,0 96.831309,-12.171482,0 96.836192,-12.182061,0 96.847667,-12.187188,0 96.863129,-12.181736,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Cocos (Keeling) Islands - North Keeling</name>
+      <Polygon>
+        <altitudeMode>clampToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>96.902192,-12.199965,0 96.892345,-12.195896,0 96.889659,-12.192804,0 96.888520,-12.187433,0 96.900076,-12.186782,0 96.909028,-12.182061,0 96.914561,-12.173517,0 96.916189,-12.161798,0 96.921072,-12.173517,0 96.920177,-12.184991,0 96.913910,-12.194513,0 96.902192,-12.199965,0</coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+  </Document>
+</kml>

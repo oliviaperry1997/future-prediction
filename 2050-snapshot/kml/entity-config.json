@@ -64,11 +64,9 @@
         "East African Federation",
         "Eritrea",
         "Ethiopia",
-        "La Réunion",
         "Madagascar",
         "Malawi",
         "Mauritius",
-        "Mayotte",
         "Mozambique",
         "Seychelles",
         "Tigray",
@@ -714,7 +712,9 @@
       "add_manual_paths": [
         "source/manual/Scotland.kml",
         "source/manual/NIreland.kml",
-        "source/manual/Åland.kml"
+        "source/manual/Åland.kml",
+        "source/manual/La-Reunion.kml",
+        "source/manual/Mayotte.kml"
       ],
       "subtract_admin1_per_code": {
         "FRA": [
@@ -1131,51 +1131,13 @@
       "country_code": "AUS",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "australia",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#australia"
-    },
-    "Christmas Island": {
-      "type": "entity",
-      "category": "global",
-      "source": "territory",
-      "country_code": "CXR",
-      "sovereign": "AUS",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "australia",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#australia",
-      "status": "Australian external territory — sovereign 2050"
-    },
-    "Cocos (Keeling) Islands": {
-      "type": "entity",
-      "category": "global",
-      "source": "territory",
-      "country_code": "CCK",
-      "sovereign": "AUS",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "australia",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#australia",
-      "status": "Australian external territory — sovereign 2050"
-    },
-    "Heard Island and McDonald Islands": {
-      "type": "entity",
-      "category": "global",
-      "source": "territory",
-      "country_code": "HMD",
-      "sovereign": "AUS",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "australia",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#australia",
-      "status": "Australian external territory — sovereign 2050 (uninhabited)"
-    },
-    "Norfolk Island": {
-      "type": "entity",
-      "category": "global",
-      "source": "territory",
-      "country_code": "NFK",
-      "sovereign": "AUS",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "australia",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#australia",
-      "status": "Australian external territory — sovereign 2050"
+      "add_manual_paths": [
+        "source/manual/Christmas-Island.kml",
+        "source/manual/Cocos-Islands.kml",
+        "source/manual/Heard-McDonald-Islands.kml",
+        "source/manual/Norfolk-Island.kml"
+      ]
     },
     "Kanaky": {
       "type": "entity",
@@ -1318,7 +1280,6 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-
     "Ukraine": {
       "type": "entity",
       "category": "global",
@@ -2057,26 +2018,6 @@
       "source": "admin1",
       "country_code": "FRA",
       "admin1_name": "Martinique",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "La Réunion": {
-      "type": "entity",
-      "category": "global",
-      "source": "admin1",
-      "country_code": "FRA",
-      "admin1_name": "La Réunion",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
-    },
-    "Mayotte": {
-      "type": "entity",
-      "category": "global",
-      "source": "admin1",
-      "country_code": "FRA",
-      "admin1_name": "Mayotte",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
