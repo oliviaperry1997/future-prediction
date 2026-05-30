@@ -864,6 +864,44 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **→ See KML: New Zealand**
 - → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
 
+**Melanesia:**
+
+**Fiji:** Stable Melanesian demographic anchor with significant climate migration inflows.
+- **Population (est. 2050):** ~1.1-1.2M (from ~900K 2024). Modest natural growth, partially offset by emigration to Australia and NZ.
+- **Composition:** Fijian (iTaukei, ~57%), Indo-Fijian (~37%), Pacific Islander and other (~6%). The Indo-Fijian proportion has declined from historical peak (~49% in 1966) due to emigration following the 1987 and 2000 coups.
+- **Climate migration intake:** Fiji is the primary resettlement destination for climate-displaced Pacific Islanders — Kiribati land purchase in Fiji, Tuvaluan resettlement programs. I-Kiribati and Tuvaluan communities (~50-80K by 2050) are establishing permanent settlements. This is the most significant demographic change of the period.
+- **→ See KML: Fiji**
+
+**Kanaky:** Post-independence demographic stabilization with French-origin population transition.
+- **Population (est. 2050):** ~290-310K (from ~270K 2024). Modest natural growth; French métropolitain population declines post-independence.
+- **Composition:** Kanak (~44%), European/Caldoche (~34%), Wallisian/Polynesian (~12%), other (~10%). The Kanak proportion increases as French administrative population departs post-independence.
+- **Independence transition:** The ~80K French-origin population (caldoches and métropolitains) face uncertain status — some remain as Kanaky citizens, others repatriate to France. Kanak population majority secured for the first time.
+- **→ See KML: Kanaky**
+
+**Papua New Guinea:** Most linguistically diverse nation on Earth — high-growth population with rapid urbanization pressure.
+- **Population (est. 2050):** ~12-13M (from ~10M 2024). High fertility rate (TFR ~4.0 in 2024) drives significant growth despite high infant mortality.
+- **Composition:** 800+ distinct language groups — PNG has the world's highest linguistic diversity. Major regional groups: Highlands (~40%), Coastal/Island (~35%), Southern (~25%). No single ethnic or linguistic majority.
+- **Urbanization:** Rapid urbanization toward Port Moresby and Lae, driven by rural-to-urban migration. Urban infrastructure has not kept pace — informal settlements expand. Rural ~80% of population remains subsistence agriculture-dependent.
+- **→ See KML: Papua New Guinea**
+
+**Solomon Islands:** Youthful population with Pacific urbanization pressures.
+- **Population (est. 2050):** ~900K-1M (from ~750K 2024). High fertility rate and young median age.
+- **Composition:** Melanesian (~95%), Polynesian (~4%), Micronesian, European, and other (~1%). Guadalcanal and Western Province concentrations.
+- **Urbanization:** Honiara informal settlement growth is the primary demographic trend. Rural-to-urban migration without adequate urban infrastructure creates governance pressure.
+- **→ See KML: Solomon Is.**
+
+**Vanuatu:** Fast-growing Pacific population with disaster-resilient demographics.
+- **Population (est. 2050):** ~450-500K (from ~330K 2024). High fertility rate (TFR ~3.5), young population.
+- **Composition:** Ni-Vanuatu (~98%), European and other (~2%). 80+ islands with distinct island cultures and over 100 indigenous languages — world's highest language density per capita.
+- **Disaster displacement:** Cyclone and volcanic events cause internal displacement — island populations near active volcanoes (Ambae, Tanna) have relocated multiple times. Disaster-driven internal migration is a structural demographic feature.
+- **→ See KML: Vanuatu**
+
+**Bougainville:** Small independent nation from PNG separation — distinct Bougainvillean identity.
+- **Population (est. 2050):** ~360-400K (from ~300K 2024). Growth rate mirrors broader PNG region.
+- **Composition:** Bougainvillean (~95% — distinct from mainland PNG culturally and physically, with darker skin tone and distinct identity). The Panguna mine reactivation brings Chinese and Pacific Islander workers (~5K-15K migrant labor supplement).
+- **Post-independence:** Independence created a new nationality — Bougainvillean identity as distinct from Papua New Guinean. Autonomous region status (2019-~2040) transitioned to full sovereignty.
+- **→ See KML: Bougainville**
+
 ## Driving Forces
 
 Briefly — key demographic drivers from the 2026-2049 transition period:

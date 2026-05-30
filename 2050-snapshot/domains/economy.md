@@ -787,6 +787,45 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **→ See KML: New Zealand**
 - → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
 
+**Melanesia:**
+
+**Fiji:** Largest Melanesian economy — Pacific financial hub with BRICS+ trade reorientation.
+- **GDP (est. 2050):** ~$14-16B PPP (from ~$12B 2024 PPP). Tourism recovery and BRICS+ trade reorientation support steady growth.
+- **Economic character:** Tourism (Pacific destination hub), sugar, garment/light manufacturing exports. Pacific financial services hub — Suva hosts regional financial institutions. Remittances from Fijian diaspora (Australia, NZ) significant (~10% of GDP).
+- **BRICS+ integration:** Commodity trade reoriented toward China and Asian partners post-US collapse. Fiji's strategic neutrality allows access to both Western and BRICS+ markets.
+- **→ See KML: Fiji**
+
+**Kanaky:** Nickel reserves as economic spine of independent sovereignty — EV battery supply chain positioning.
+- **GDP (est. 2050):** ~$12-15B (from ~$10B 2024). Nickel revenues elevated by EV battery demand; French metropolitan subsidies ended post-independence but replaced by Chinese commodity revenue.
+- **Nickel economy:** Kanaky holds ~25% of world's known nickel reserves — critical for lithium-ion battery cathodes. Chinese and Korean EV manufacturers are primary customers. Nickel as strategic commodity gives Kanaky leverage far exceeding its population size.
+- **Post-independence adjustment:** French public sector (~30% of GDP under colonial administration) phased out, replaced by nickel revenues and development investment from China and regional partners.
+- **→ See KML: Kanaky**
+
+**Papua New Guinea:** Resource wealth without development — the resource curse in practice.
+- **GDP (est. 2050):** ~$50-60B PPP (from ~$40B 2024 PPP). Growth from extraction but not distributed to population.
+- **Economic character:** LNG (PNG LNG project, largest in Pacific), gold (Porgera, Ok Tedi), copper. Extraction-dominated economy with weak domestic industrial base.
+- **Resource curse:** Revenue captured by elite networks and multinational extractors. Public services, infrastructure, and living standards have not kept pace with extraction growth. ~80% of population remains in subsistence agriculture.
+- **Chinese investment:** Infrastructure investment (ports, roads) through BRI agreements. High-debt infrastructure deals raise dependency concerns but PNG has limited alternatives.
+- **→ See KML: Papua New Guinea**
+
+**Solomon Islands:** Strategic leverage without economic scale.
+- **GDP (est. 2050):** ~$2-3B PPP (from ~$1.5B 2024 PPP). Logging, fisheries, subsistence agriculture. Chinese investment and aid supplement domestic economy.
+- **Economic character:** Small, agricultural-dominated economy. Logging (declining as forest cover reduces), tuna fisheries (Pacific Fisheries Agency significant), subsistence agriculture (~70% of population).
+- **Strategic asymmetry:** Solomon Islands' economic weight is far smaller than its geopolitical weight — the China security agreement transformed its strategic position without proportional economic gains.
+- **→ See KML: Solomon Is.**
+
+**Vanuatu:** Climate adaptation economy and offshore services residual.
+- **GDP (est. 2050):** ~$1.5-2B PPP (from ~$1B 2024 PPP). Tourism, agriculture, offshore services.
+- **Economic character:** Tourism (Pacific eco-destination, cyclone season constraint), copra/cocoa/kava agricultural exports, offshore company registration (residual, declining). Kava export market growing with Pacific diaspora demand.
+- **Climate adaptation:** Disaster risk is the primary economic constraint — cyclone damage in bad years can wipe 10-15% of GDP. PIF climate resilience financing is a development supplement.
+- **→ See KML: Vanuatu**
+
+**Bougainville:** Copper mining independence economy — single-commodity sovereign state.
+- **GDP (est. 2050):** ~$3-4B PPP (independent state from ~2040). Panguna copper mine is the primary revenue source.
+- **Economic character:** Copper extraction (Panguna, one of world's largest copper deposits). Chinese investment and operating partnership — mine reopened ~2038 after decades of closure following the 1989-1997 civil war.
+- **Economic vulnerability:** Single-commodity dependency — Panguna copper is the entire economic foundation. Mine revenue distributed through state structures with PIF technical governance support.
+- **→ See KML: Bougainville**
+
 ## Driving Forces
 
 The 2050 economic landscape is the end-state of trajectories whose key drivers are documented in the 2026-2049 transition analysis:
