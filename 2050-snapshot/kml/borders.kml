@@ -78066,7 +78066,7 @@
         </Folder>
       </Folder>
     </Folder>
-  <Folder><name>Antarctica</name><Folder><name>San Martin</name><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-89.867238,-72.515682,0
+  <Folder><name>Antarctica</name><Folder><name>San Martin</name><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-89.867238,-72.515682,0
 -89.848378,-72.522273,0
 -89.896596,-72.531795,0
 -89.887563,-72.534480,0
@@ -80396,18 +80396,18 @@
 -89.785146,-72.500667,0
 -89.824696,-72.508846,0
 -89.900502,-72.510433,0
--89.867238,-72.515682,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.134999,-68.138116,0
+-89.867238,-72.515682,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.134999,-68.138116,0
 -67.200754,-68.172621,0
 -67.235504,-68.171645,0
 -67.254954,-68.144789,0
 -67.240102,-68.133071,0
--67.134999,-68.138116,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-66.901112,-67.888360,0
+-67.134999,-68.138116,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-66.901112,-67.888360,0
 -66.998647,-67.882094,0
 -67.040028,-67.861423,0
 -66.945546,-67.848891,0
 -66.898346,-67.853285,0
 -66.855377,-67.872247,0
--66.901112,-67.888360,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.292551,-67.868829,0
+-66.901112,-67.888360,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.292551,-67.868829,0
 -67.233795,-67.830824,0
 -67.336781,-67.818292,0
 -67.185943,-67.794122,0
@@ -80417,7 +80417,7 @@
 -67.177480,-67.884942,0
 -67.246409,-67.893976,0
 -67.290639,-67.876235,0
--67.292551,-67.868829,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.495717,-67.589044,0
+-67.292551,-67.868829,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.495717,-67.589044,0
 -67.183705,-67.599786,0
 -67.151112,-67.610772,0
 -67.122182,-67.642511,0
@@ -80439,7 +80439,7 @@
 -67.774770,-67.685805,0
 -67.766265,-67.667657,0
 -67.739980,-67.654880,0
--67.495717,-67.589044,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-66.893137,-67.512384,0
+-67.495717,-67.589044,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-66.893137,-67.512384,0
 -66.810536,-67.523533,0
 -66.999379,-67.591485,0
 -67.083608,-67.602146,0
@@ -80447,21 +80447,21 @@
 -67.081532,-67.557550,0
 -67.023101,-67.546645,0
 -66.971181,-67.517022,0
--66.893137,-67.512384,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.744456,-67.360772,0
+-66.893137,-67.512384,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.744456,-67.360772,0
 -67.728017,-67.339614,0
 -67.690541,-67.318780,0
 -67.644928,-67.307387,0
 -67.604156,-67.314630,0
 -67.668691,-67.357110,0
 -67.709096,-67.369724,0
--67.744456,-67.360772,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.693349,-67.284275,0
+-67.744456,-67.360772,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.693349,-67.284275,0
 -67.760406,-67.294529,0
 -67.810211,-67.263442,0
 -67.670888,-67.205011,0
 -67.604075,-67.201593,0
 -67.575795,-67.214451,0
 -67.626088,-67.251397,0
--67.693349,-67.284275,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.641957,-66.683201,0
+-67.693349,-67.284275,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.641957,-66.683201,0
 -67.686676,-66.718194,0
 -67.744211,-66.733657,0
 -67.752187,-66.739679,0
@@ -80542,7 +80542,7 @@
 -67.769683,-66.619236,0
 -67.659413,-66.648614,0
 -67.660227,-66.670505,0
--67.641957,-66.683201,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.633412,-67.141534,0
+-67.641957,-66.683201,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.633412,-67.141534,0
 -67.681467,-67.128106,0
 -67.648508,-67.109470,0
 -67.656606,-67.088800,0
@@ -80551,7 +80551,7 @@
 -67.547963,-67.066339,0
 -67.540354,-67.098891,0
 -67.584340,-67.132908,0
--67.633412,-67.141534,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.527577,-66.821059,0
+-67.633412,-67.141534,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.527577,-66.821059,0
 -67.490224,-66.799086,0
 -67.519887,-66.762140,0
 -67.483957,-66.742608,0
@@ -80563,7 +80563,7 @@
 -67.493398,-66.904474,0
 -67.603139,-66.879978,0
 -67.563832,-66.866469,0
--67.527577,-66.821059,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.161041,-66.388767,0
+-67.527577,-66.821059,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.161041,-66.388767,0
 -67.122711,-66.362563,0
 -67.153066,-66.343194,0
 -67.147450,-66.325291,0
@@ -80571,7 +80571,7 @@
 -67.027089,-66.341892,0
 -67.023834,-66.361261,0
 -67.056386,-66.378351,0
--67.161041,-66.388767,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.056386,-66.236261,0
+-67.161041,-66.388767,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-67.056386,-66.236261,0
 -67.051259,-66.254083,0
 -67.027089,-66.259861,0
 -66.923736,-66.252862,0
@@ -80582,7 +80582,7 @@
 -67.121571,-66.250909,0
 -67.110219,-66.240981,0
 -67.071604,-66.234959,0
--67.056386,-66.236261,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-66.910797,-66.301935,0
+-67.056386,-66.236261,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-66.910797,-66.301935,0
 -66.792877,-66.240655,0
 -66.770375,-66.221775,0
 -66.766347,-66.178969,0
@@ -80602,12 +80602,12 @@
 -66.751454,-66.289239,0
 -66.841054,-66.321954,0
 -66.888661,-66.325779,0
--66.910797,-66.301935,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-65.758860,-65.949884,0
+-66.910797,-66.301935,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-65.758860,-65.949884,0
 -65.727691,-65.989353,0
 -65.801991,-65.992608,0
 -65.784739,-65.971856,0
 -65.779856,-65.948012,0
--65.758860,-65.949884,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-65.934397,-65.877048,0
+-65.758860,-65.949884,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-65.934397,-65.877048,0
 -65.900095,-65.876723,0
 -65.888824,-65.890883,0
 -65.900746,-65.911065,0
@@ -80615,14 +80615,14 @@
 -65.998402,-65.929295,0
 -66.033844,-65.924574,0
 -65.970693,-65.888116,0
--65.934397,-65.877048,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-65.247792,-65.841404,0
+-65.934397,-65.877048,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-65.247792,-65.841404,0
 -65.200103,-65.856134,0
 -65.194000,-65.883884,0
 -65.221262,-65.900323,0
 -65.254018,-65.900160,0
 -65.317779,-65.865899,0
 -65.344350,-65.839532,0
--65.247792,-65.841404,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-65.791575,-65.519952,0
+-65.247792,-65.841404,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-65.791575,-65.519952,0
 -65.690541,-65.542657,0
 -65.624827,-65.534926,0
 -65.655629,-65.572035,0
@@ -80656,7 +80656,7 @@
 -65.963043,-65.599054,0
 -65.980702,-65.573419,0
 -65.960032,-65.553318,0
--65.791575,-65.519952,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-65.616444,-65.468357,0
+-65.791575,-65.519952,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-65.616444,-65.468357,0
 -65.527008,-65.472914,0
 -65.577382,-65.497166,0
 -65.659983,-65.511489,0
@@ -80664,7 +80664,7 @@
 -65.732249,-65.485284,0
 -65.722239,-65.470880,0
 -65.666575,-65.485610,0
--65.616444,-65.468357,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-63.117014,-64.847101,0
+-65.616444,-65.468357,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-63.117014,-64.847101,0
 -63.069936,-64.841404,0
 -63.024892,-64.850844,0
 -63.014394,-64.869724,0
@@ -80674,7 +80674,7 @@
 -62.987945,-64.896742,0
 -63.076487,-64.889907,0
 -63.129547,-64.869399,0
--63.117014,-64.847101,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-63.336781,-64.795343,0
+-63.117014,-64.847101,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-63.336781,-64.795343,0
 -63.205149,-64.717462,0
 -63.177154,-64.712986,0
 -63.157135,-64.724542,0
@@ -80694,12 +80694,12 @@
 -63.520090,-64.822035,0
 -63.447906,-64.789483,0
 -63.422109,-64.784926,0
--63.336781,-64.795343,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-62.846750,-64.809015,0
+-63.336781,-64.795343,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-62.846750,-64.809015,0
 -62.900461,-64.823907,0
 -63.005238,-64.816664,0
 -63.030995,-64.806410,0
 -62.957102,-64.794854,0
--62.846750,-64.809015,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-62.722564,-64.738214,0
+-62.846750,-64.809015,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-62.722564,-64.738214,0
 -62.722524,-64.723321,0
 -62.731028,-64.717380,0
 -62.764312,-64.709649,0
@@ -80712,14 +80712,14 @@
 -62.637522,-64.726170,0
 -62.679555,-64.746352,0
 -62.704823,-64.747654,0
--62.722564,-64.738214,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-62.022776,-64.653009,0
+-62.722564,-64.738214,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-62.022776,-64.653009,0
 -62.036692,-64.661228,0
 -62.076975,-64.651056,0
 -62.079091,-64.638767,0
 -62.068918,-64.632501,0
 -62.022817,-64.624933,0
 -62.032094,-64.641046,0
--62.022776,-64.653009,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-62.014638,-64.552911,0
+-62.022776,-64.653009,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-62.014638,-64.552911,0
 -62.041737,-64.580824,0
 -62.057240,-64.610528,0
 -62.093007,-64.620864,0
@@ -80730,7 +80730,7 @@
 -62.100901,-64.571873,0
 -62.091298,-64.551528,0
 -62.053782,-64.538018,0
--62.014638,-64.552911,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-63.572987,-64.741306,0
+-62.014638,-64.552911,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-63.572987,-64.741306,0
 -63.508534,-64.759861,0
 -63.570546,-64.774509,0
 -63.650706,-64.816502,0
@@ -80819,7 +80819,7 @@
 -63.410024,-64.732599,0
 -63.444000,-64.722589,0
 -63.558258,-64.732192,0
--63.572987,-64.741306,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-61.626536,-64.359552,0
+-63.572987,-64.741306,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-61.626536,-64.359552,0
 -61.546254,-64.350274,0
 -61.489247,-64.384535,0
 -61.525624,-64.395929,0
@@ -80827,7 +80827,7 @@
 -61.598866,-64.388279,0
 -61.611440,-64.380792,0
 -61.603627,-64.371759,0
--61.626536,-64.359552,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-62.471344,-64.212823,0
+-61.626536,-64.359552,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-62.471344,-64.212823,0
 -62.522857,-64.202407,0
 -62.562489,-64.175470,0
 -62.573883,-64.152276,0
@@ -80892,14 +80892,14 @@
 -62.565500,-64.318617,0
 -62.509999,-64.289158,0
 -62.463775,-64.236749,0
--62.471344,-64.212823,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-61.700429,-64.172459,0
+-62.471344,-64.212823,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-61.700429,-64.172459,0
 -61.749135,-64.157322,0
 -61.760406,-64.147149,0
 -61.753733,-64.114190,0
 -61.715688,-64.095147,0
 -61.689565,-64.102716,0
 -61.659088,-64.171563,0
--61.700429,-64.172459,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-62.023549,-64.016697,0
+-61.700429,-64.172459,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-62.023549,-64.016697,0
 -61.936269,-63.991306,0
 -61.833485,-63.978204,0
 -61.842275,-63.964532,0
@@ -80916,7 +80916,7 @@
 -62.060658,-64.053888,0
 -62.027089,-64.043064,0
 -62.013661,-64.028904,0
--62.023549,-64.016697,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-60.772857,-63.700128,0
+-62.023549,-64.016697,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-60.772857,-63.700128,0
 -60.802561,-63.674574,0
 -60.802235,-63.665785,0
 -60.724517,-63.687677,0
@@ -80953,7 +80953,7 @@
 -60.691274,-63.715020,0
 -60.768788,-63.721856,0
 -60.778188,-63.717462,0
--60.772857,-63.700128,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-61.627187,-63.787856,0
+-60.772857,-63.700128,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-61.627187,-63.787856,0
 -61.653391,-63.803399,0
 -61.684193,-63.807875,0
 -61.693227,-63.780450,0
@@ -80963,14 +80963,14 @@
 -61.636383,-63.726170,0
 -61.621409,-63.732354,0
 -61.613759,-63.763604,0
--61.627187,-63.787856,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-59.797353,-63.553399,0
+-61.627187,-63.787856,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-59.797353,-63.553399,0
 -59.777943,-63.594822,0
 -59.834706,-63.600356,0
 -59.871571,-63.583754,0
 -59.874420,-63.572686,0
 -59.837514,-63.554620,0
 -59.842356,-63.544203,0
--59.797353,-63.553399,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-61.993886,-63.298517,0
+-59.797353,-63.553399,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-61.993886,-63.298517,0
 -61.951731,-63.311782,0
 -61.975738,-63.333591,0
 -62.011790,-63.345147,0
@@ -80986,7 +80986,7 @@
 -62.154124,-63.250095,0
 -62.019521,-63.261651,0
 -62.006500,-63.269789,0
--61.993886,-63.298517,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-62.429799,-62.985772,0
+-61.993886,-63.298517,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-62.429799,-62.985772,0
 -62.656850,-63.084649,0
 -62.712310,-63.089288,0
 -62.680409,-63.072686,0
@@ -81000,7 +81000,7 @@
 -62.351145,-62.875421,0
 -62.306264,-62.875177,0
 -62.356760,-62.933364,0
--62.429799,-62.985772,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-60.619252,-62.896661,0
+-62.429799,-62.985772,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-60.619252,-62.896661,0
 -60.547841,-62.925958,0
 -60.497874,-62.964288,0
 -60.525990,-62.981052,0
@@ -81018,7 +81018,7 @@
 -60.741567,-62.964044,0
 -60.746978,-62.940606,0
 -60.692209,-62.895196,0
--60.619252,-62.896661,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-61.460683,-62.737237,0
+-60.619252,-62.896661,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-61.460683,-62.737237,0
 -61.408803,-62.729425,0
 -61.198883,-62.727716,0
 -61.247060,-62.742364,0
@@ -81030,7 +81030,7 @@
 -61.521881,-62.800226,0
 -61.520172,-62.774509,0
 -61.507721,-62.759210,0
--61.460683,-62.737237,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-60.641754,-62.564223,0
+-61.460683,-62.737237,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-60.641754,-62.564223,0
 -60.604848,-62.572524,0
 -60.491078,-62.577081,0
 -60.451812,-62.569106,0
@@ -81080,7 +81080,7 @@
 -60.710317,-62.499770,0
 -60.703521,-62.505955,0
 -60.705149,-62.523207,0
--60.641754,-62.564223,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-57.441965,-64.452244,0
+-60.641754,-62.564223,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-57.441965,-64.452244,0
 -57.416860,-64.443292,0
 -57.258412,-64.427016,0
 -56.943959,-64.328790,0
@@ -81096,11 +81096,11 @@
 -57.447581,-64.534356,0
 -57.456410,-64.518324,0
 -57.457916,-64.487237,0
--57.441965,-64.452244,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-57.652455,-64.450291,0
+-57.441965,-64.452244,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-57.652455,-64.450291,0
 -57.584584,-64.417657,0
 -57.563954,-64.442315,0
 -57.587514,-64.470961,0
--57.652455,-64.450291,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-56.808827,-64.322686,0
+-57.652455,-64.450291,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-56.808827,-64.322686,0
 -56.898549,-64.317315,0
 -56.863922,-64.302016,0
 -56.849477,-64.279962,0
@@ -81109,7 +81109,7 @@
 -56.582509,-64.235121,0
 -56.633209,-64.275160,0
 -56.714467,-64.306573,0
--56.808827,-64.322686,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-57.718007,-64.341729,0
+-56.808827,-64.322686,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-57.718007,-64.341729,0
 -57.654205,-64.301528,0
 -57.685292,-64.289321,0
 -57.786000,-64.315606,0
@@ -81254,7 +81254,7 @@
 -57.657541,-64.383071,0
 -57.672841,-64.393162,0
 -57.727040,-64.393650,0
--57.718007,-64.341729,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-57.365956,-63.884861,0
+-57.718007,-64.341729,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-57.365956,-63.884861,0
 -57.487131,-63.854587,0
 -57.501088,-63.858575,0
 -57.513743,-63.875177,0
@@ -81274,20 +81274,20 @@
 -57.236969,-63.883396,0
 -57.242909,-63.866876,0
 -57.310048,-63.870782,0
--57.365956,-63.884861,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-57.552317,-63.655938,0
+-57.365956,-63.884861,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-57.552317,-63.655938,0
 -57.572133,-63.642755,0
 -57.440419,-63.619236,0
 -57.402089,-63.628025,0
 -57.463857,-63.688653,0
 -57.511545,-63.698337,0
 -57.538930,-63.683119,0
--57.552317,-63.655938,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-56.577870,-63.611017,0
+-57.552317,-63.655938,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-56.577870,-63.611017,0
 -56.648020,-63.623305,0
 -56.689198,-63.592869,0
 -56.662831,-63.567478,0
 -56.602691,-63.557306,0
 -56.467926,-63.565688,0
--56.577870,-63.611017,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-55.932362,-63.579360,0
+-56.577870,-63.611017,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-55.932362,-63.579360,0
 -55.964915,-63.581476,0
 -56.157786,-63.526300,0
 -56.240468,-63.478692,0
@@ -81299,7 +81299,7 @@
 -55.719594,-63.475356,0
 -55.719106,-63.499119,0
 -55.923736,-63.549249,0
--55.932362,-63.579360,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-55.872141,-63.298028,0
+-55.932362,-63.579360,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-55.872141,-63.298028,0
 -55.901357,-63.296645,0
 -55.913075,-63.316583,0
 -55.946401,-63.341241,0
@@ -81342,7 +81342,7 @@
 -55.775543,-63.309828,0
 -55.791737,-63.324965,0
 -55.824941,-63.323337,0
--55.872141,-63.298028,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-56.646718,-63.219496,0
+-55.872141,-63.298028,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-56.646718,-63.219496,0
 -56.677235,-63.217543,0
 -56.698557,-63.206231,0
 -56.702870,-63.189223,0
@@ -81351,7 +81351,7 @@
 -56.609853,-63.150567,0
 -56.565989,-63.162856,0
 -56.591868,-63.208591,0
--56.646718,-63.219496,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-56.603586,-63.070245,0
+-56.646718,-63.219496,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-56.603586,-63.070245,0
 -56.618031,-63.051446,0
 -56.602651,-63.030532,0
 -56.524281,-63.003188,0
@@ -81365,7 +81365,7 @@
 -56.273508,-63.178481,0
 -56.336049,-63.174574,0
 -56.408437,-63.155532,0
--56.603586,-63.070245,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-59.764719,-62.540134,0
+-56.603586,-63.070245,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-59.764719,-62.540134,0
 -59.783681,-62.516290,0
 -59.799062,-62.509535,0
 -59.932200,-62.489435,0
@@ -81380,7 +81380,7 @@
 -59.601959,-62.513930,0
 -59.599192,-62.534356,0
 -59.618235,-62.544692,0
--59.764719,-62.540134,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-59.382314,-62.372735,0
+-59.764719,-62.540134,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-59.382314,-62.372735,0
 -59.347401,-62.406508,0
 -59.386871,-62.446873,0
 -59.508778,-62.456964,0
@@ -81392,7 +81392,7 @@
 -59.689198,-62.361098,0
 -59.603871,-62.347345,0
 -59.436757,-62.355076,0
--59.382314,-62.372735,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-58.849029,-62.286065,0
+-59.382314,-62.372735,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-58.849029,-62.286065,0
 -58.834340,-62.309340,0
 -59.029856,-62.348077,0
 -59.069407,-62.349054,0
@@ -81404,7 +81404,7 @@
 -58.983144,-62.265395,0
 -58.899159,-62.263116,0
 -58.871897,-62.270929,0
--58.849029,-62.286065,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-58.949127,-62.225681,0
+-58.849029,-62.286065,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-58.949127,-62.225681,0
 -59.010732,-62.219659,0
 -58.982818,-62.184503,0
 -58.946034,-62.158787,0
@@ -81468,7 +81468,7 @@
 -58.807362,-62.170180,0
 -58.942006,-62.193129,0
 -58.959869,-62.210626,0
--58.949127,-62.225681,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-54.098012,-61.312107,0
+-58.949127,-62.225681,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-54.098012,-61.312107,0
 -54.202870,-61.284112,0
 -54.227406,-61.270115,0
 -54.086903,-61.180352,0
@@ -81482,7 +81482,7 @@
 -54.034250,-61.223728,0
 -54.036041,-61.245701,0
 -54.057037,-61.288832,0
--54.098012,-61.312107,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Argentine-Chilean Peninsula</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-55.344838,-61.153741,0
+-54.098012,-61.312107,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>San Martin</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000265</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-55.344838,-61.153741,0
 -55.449045,-61.115004,0
 -55.414052,-61.083591,0
 -55.378041,-61.070489,0
