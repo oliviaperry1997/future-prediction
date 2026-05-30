@@ -2,29 +2,29 @@
 
 ## Overview
 
-A markdown-based geopolitical forecasting and world-building project. This roadmap covers v1 — establishing the Obsidian vault methodology, writing the 2026-2050 transition document, producing the full 2050 snapshot across six STEEP domains (borders, climate, technology, economy, demographics, culture), and creating KML map files for the 2050 world in Google Earth Pro — followed by v1.1, a region-by-region plausibility audit of the Eurasia, Oceania, and Antarctica regions. Each phase delivers a complete, usable layer of the project: foundation first, then causal arc, then structural snapshot, then socioeconomic snapshot, then geographic instantiation, then regional verification.
+A markdown-based geopolitical forecasting and world-building project. This roadmap covers v1 — establishing the Obsidian vault methodology, writing the 2020-2050 transition document, producing the full 2050 snapshot across six STEEP domains (borders, climate, technology, economy, demographics, culture), and creating KML map files for the 2050 world in Google Earth Pro — followed by v1.1, a region-by-region plausibility audit of the Eurasia, Oceania, and Antarctica regions. Each phase delivers a complete, usable layer of the project: foundation first, then causal arc, then structural snapshot, then socioeconomic snapshot, then geographic instantiation, then regional verification.
 
 ## Phases
 
 - [ ] **Phase 1: Foundation & Methodology** - Establish Obsidian vault, YAML templates, Dataview queries, counter-scenario document, prediction register, and cross-domain consistency mechanism
-- [x] **Phase 2: 2026-2050 Transition** - Write the big-picture trends document with specific dates, driver analysis, and inflection points covering 2026-2050 (completed 2026-05-19)
-- [x] **Phase 3: 2050 Structural Snapshot** - Document the geopolitical, climate, and technology landscape of the 2050 world (completed 2026-05-19)
-- [x] **Phase 4: 2050 Socioeconomic Snapshot** - Document the economy, demographics, and culture of the 2050 world with cross-references (completed 2026-05-21)
+- [x] **Phase 2: 2020-2050 Transition** - Write the big-picture trends document with specific dates, driver analysis, and inflection points covering 2020-2050 (completed 2020-05-19)
+- [x] **Phase 3: 2050 Structural Snapshot** - Document the geopolitical, climate, and technology landscape of the 2050 world (completed 2020-05-19)
+- [x] **Phase 4: 2050 Socioeconomic Snapshot** - Document the economy, demographics, and culture of the 2050 world with cross-references (completed 2020-05-21)
 - [ ] **Phase 5: 2050 KML Maps & Integration** - Produce KML map files for the 2050 world, cross-reference to markdown sections, and finalize 2050 index
-- [x] **Phase 6: Central Asia Review** — Plausibility audit: Central Asia (completed 2026-05-27)
-- [x] **Phase 7: Eastern Asia Review** — Plausibility audit: Eastern Asia (completed 2026-05-27)
-- [x] **Phase 8: Eastern Europe Review** — Plausibility audit: Eastern Europe (completed 2026-05-27)
-- [x] **Phase 9: Northern Europe Review** — Plausibility audit: Northern Europe (completed 2026-05-28)
-- [x] **Phase 10: Southeast Asia Review** — Plausibility audit: Southeast Asia (completed 2026-05-28)
-- [x] **Phase 11: Southern Asia Review** — Plausibility audit: Southern Asia (completed 2026-05-28)
-- [x] **Phase 12: Southern Europe Review** — Plausibility audit: Southern Europe (completed 2026-05-29)
-- [x] **Phase 13: Western Asia Review** — Plausibility audit: Western Asia (completed 2026-05-29)
-- [x] **Phase 14: Western Europe Review** — Plausibility audit: Western Europe (completed 2026-05-29)
-- [x] **Phase 15: Australasia Review** — Plausibility audit: Australasia (completed 2026-05-30)
-- [x] **Phase 16: Melanesia Review** — Plausibility audit: Melanesia (completed 2026-05-30)
-- [x] **Phase 17: Micronesia Review** — Plausibility audit: Micronesia (completed 2026-05-30)
+- [x] **Phase 6: Central Asia Review** — Plausibility audit: Central Asia (completed 2020-05-27)
+- [x] **Phase 7: Eastern Asia Review** — Plausibility audit: Eastern Asia (completed 2020-05-27)
+- [x] **Phase 8: Eastern Europe Review** — Plausibility audit: Eastern Europe (completed 2020-05-27)
+- [x] **Phase 9: Northern Europe Review** — Plausibility audit: Northern Europe (completed 2020-05-28)
+- [x] **Phase 10: Southeast Asia Review** — Plausibility audit: Southeast Asia (completed 2020-05-28)
+- [x] **Phase 11: Southern Asia Review** — Plausibility audit: Southern Asia (completed 2020-05-28)
+- [x] **Phase 12: Southern Europe Review** — Plausibility audit: Southern Europe (completed 2020-05-29)
+- [x] **Phase 13: Western Asia Review** — Plausibility audit: Western Asia (completed 2020-05-29)
+- [x] **Phase 14: Western Europe Review** — Plausibility audit: Western Europe (completed 2020-05-29)
+- [x] **Phase 15: Australasia Review** — Plausibility audit: Australasia (completed 2020-05-30)
+- [x] **Phase 16: Melanesia Review** — Plausibility audit: Melanesia (completed 2020-05-30)
+- [x] **Phase 17: Micronesia Review** — Plausibility audit: Micronesia (completed 2020-05-30)
 - [ ] **Phase 18: Polynesia Review** — Plausibility audit: Polynesia
-- [x] **Phase 19: Antarctica Review** — Plausibility audit: Antarctica (completed 2026-05-30)
+- [x] **Phase 19: Antarctica Review** — Plausibility audit: Antarctica (completed 2020-05-30)
 
 ## Phase Details
 
@@ -50,13 +50,13 @@ Plans:
 - Plan 01 depends on `must_haves.truths`: "Author can open the project as an Obsidian vault", "YAML frontmatter schemas exist for all document types"
 - Plans 02 and 03 share `must_haves.truths`: "Author can create content using templates", "Dataview queries can read YAML frontmatter"
 
-### Phase 2: 2026-2050 Transition
+### Phase 2: 2020-2050 Transition
 **Mode**: mvp
 **Goal**: Author has a complete causal narrative connecting present day to 2050, grounded in the structural forces and the project's central thesis
 **Depends on**: Phase 1
 **Requirements**: TRAN-01, TRAN-02
 **Success Criteria** (what must be TRUE):
-   1. Transition document covers the full 2026-2050 timeline with specific dates for at least 10 major inflection points and transitional events
+   1. Transition document covers the full 2020-2050 timeline with specific dates for at least 10 major inflection points and transitional events
    2. Document includes driver analysis across all six STEEP domains (borders, climate, technology, economy, demographics, culture)
    3. Cross-domain feedback loops are identified and described between at least three domain pairs
    4. Open uncertainties are explicitly flagged with confidence labels (HIGH/MEDIUM/LOW) where appropriate
@@ -435,28 +435,58 @@ Plans:
 - Per D-05: Full depth across all domain docs — not truncated for non-sovereign status
 - Per D-07/D-08: Standard **Entity:** format, standalone sections
 
+### Phase 19.1: Antarctica Gap Closure
+**Mode**: mvp
+**Goal**: Fix antarctica geometry, restructure entities, correct narrative based on review feedback
+**Depends on**: Phase 19
+**Requirements**: ANTA-01
+**Success Criteria** (what must be TRUE):
+   1. KML claim zones use longitudinal sector clips instead of point-in-polygon assignment
+   2. Argentine-Chilean Peninsula polygon is clipped to actual sector (53°W–90°W)
+   3. Claim zones are nested under owning entities (AAT→Australia, Ross→NZ, Adélie+Dronning→EF, MBL→China) — Argentine-Chilean Peninsula stays standalone
+   4. UK claim is defunct (not dormant) — Falklands defense failure + English revolution killed it
+   5. Australia auctions/leases portions of AAT it cannot police
+   6. All domain docs updated for entity restructuring and narrative corrections
+**Plans**: 4 plans
+
+Plans:
+- [ ] 19.1-01-PLAN.md — KML longitudinal sector clips + entity nesting in KML/JSON + BAT removal (Wave 1)
+- [ ] 19.1-02-PLAN.md — borders-geopolitics.md UK defunct + Australia leasing narrative (Wave 1, parallel)
+- [ ] 19.1-03-PLAN.md — economy.md + demographics.md UK defunct + Australia leasing corrections (Wave 2, blocked on 02)
+- [ ] 19.1-04-PLAN.md — culture.md + climate.md + technology.md UK defunct corrections (Wave 2, blocked on 02, parallel with 03)
+
+**Cross-cutting constraints:**
+- Plans 01 and 02 are parallel (Wave 1) — KML/JSON edits and domain doc writing don't conflict
+- Plans 03 and 04 are parallel (Wave 2) — different domain docs, no file conflicts
+- Plan 02 must complete first (establishes narrative corrections that Plans 03/04 echo)
+- Per D-A: Longitudinal sector clips replace point-in-polygon assignment
+- Per D-D: Claim zones nested under parent entities (AAT→Australia, Ross→NZ, EF→Adélie+Dronning, China→MBL)
+- Per D-G: UK claim is defunct — dissolved with UK sovereignty
+- Per D-H: Australia AAT includes leasing/auctioning narrative
+
 ## Progress
 
-**Execution Order:** Phases execute in numeric order: 1 → 2 → ... → 19
+**Execution Order:** Phases execute in numeric order: 1 → 2 → ... → 19.1
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation & Methodology | 3/3 | Complete | 2026-05-19 |
-| 2. 2026-2050 Transition | 4/4 | Complete | 2026-05-19 |
-| 3. 2050 Structural Snapshot | 3/3 | Complete | 2026-05-19 |
-| 4. 2050 Socioeconomic Snapshot | 4/4 | Complete | 2026-05-21 |
+| 1. Foundation & Methodology | 3/3 | Complete | 2020-05-19 |
+| 2. 2020-2050 Transition | 4/4 | Complete | 2020-05-19 |
+| 3. 2050 Structural Snapshot | 3/3 | Complete | 2020-05-19 |
+| 4. 2050 Socioeconomic Snapshot | 4/4 | Complete | 2020-05-21 |
 | 5. 2050 KML Maps & Integration | 2/3 | Paused | — |
-| 6. Central Asia Review | 4/4 | Complete   | 2026-05-27 |
-| 7. Eastern Asia Review | 4/4 | Complete   | 2026-05-27 |
-| 8. Eastern Europe Review | 5/5 | Complete | 2026-05-27 |
-| 9. Northern Europe Review | 4/4 | Complete   | 2026-05-28 |
-| 10. Southeast Asia Review | 4/4 | Complete   | 2026-05-28 |
-| 11. Southern Asia Review | 4/4 | Complete | 2026-05-28 |
-| 12. Southern Europe Review | 6/6 | Complete | 2026-05-29 |
-| 13. Western Asia Review | 6/6 | Complete | 2026-05-29 |
-| 14. Western Europe Review | 4/4 | Complete   | 2026-05-29 |
-| 15. Australasia Review | 4/4 | Complete   | 2026-05-30 |
-| 16. Melanesia Review | 4/4 | Complete   | 2026-05-30 |
-| 17. Micronesia Review | 4/4 | Complete   | 2026-05-30 |
+| 6. Central Asia Review | 4/4 | Complete   | 2020-05-27 |
+| 7. Eastern Asia Review | 4/4 | Complete   | 2020-05-27 |
+| 8. Eastern Europe Review | 5/5 | Complete | 2020-05-27 |
+| 9. Northern Europe Review | 4/4 | Complete   | 2020-05-28 |
+| 10. Southeast Asia Review | 4/4 | Complete   | 2020-05-28 |
+| 11. Southern Asia Review | 4/4 | Complete | 2020-05-28 |
+| 12. Southern Europe Review | 6/6 | Complete | 2020-05-29 |
+| 13. Western Asia Review | 6/6 | Complete | 2020-05-29 |
+| 14. Western Europe Review | 4/4 | Complete   | 2020-05-29 |
+| 15. Australasia Review | 4/4 | Complete   | 2020-05-30 |
+| 16. Melanesia Review | 4/4 | Complete   | 2020-05-30 |
+| 17. Micronesia Review | 4/4 | Complete   | 2020-05-30 |
 | 18. Polynesia Review | — | Planned (4 plans) | — |
-| 19. Antarctica Review | 4/4 | Complete   | 2026-05-30 |
+| 19. Antarctica Review | 4/4 | Complete   | 2020-05-30 |
+| 19.1. Antarctica Gap Closure | — | Planned | — |
