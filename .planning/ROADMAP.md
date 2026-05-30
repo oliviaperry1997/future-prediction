@@ -22,7 +22,7 @@ A markdown-based geopolitical forecasting and world-building project. This roadm
 - [x] **Phase 14: Western Europe Review** — Plausibility audit: Western Europe (completed 2026-05-29)
 - [x] **Phase 15: Australasia Review** — Plausibility audit: Australasia (completed 2026-05-30)
 - [x] **Phase 16: Melanesia Review** — Plausibility audit: Melanesia (completed 2026-05-30)
-- [ ] **Phase 17: Micronesia Review** — Plausibility audit: Micronesia
+- [x] **Phase 17: Micronesia Review** — Plausibility audit: Micronesia (completed 2026-05-30)
 - [ ] **Phase 18: Polynesia Review** — Plausibility audit: Polynesia
 - [ ] **Phase 19: Antarctica Review** — Plausibility audit: Antarctica
 
@@ -389,7 +389,7 @@ Plans:
 - [x] 17-01-PLAN.md — KML (wip) rename + entity-config.json entity entries for all 7 Micronesian entities
 - [x] 17-02-PLAN.md — borders-geopolitics.md Micronesia subsection (7 sub-entries, replaces US Pacific Territories stub)
 - [x] 17-03-PLAN.md — economy.md + demographics.md Micronesia subsections
-- [ ] 17-04-PLAN.md — culture.md + climate.md Micronesia subsections (D-07 climate risk differentiation)
+- [x] 17-04-PLAN.md — culture.md + climate.md Micronesia subsections (D-07 climate risk differentiation)
 
 ### Phase 18: Polynesia Review
 **Mode**: mvp
@@ -397,9 +397,16 @@ Plans:
 **Depends on**: Phase 17
 **Requirements**: OCEA-04
 **Success Criteria** (what must be TRUE):
-  1. All 6 Polynesian entities assessed — no contradictions
-  2. KML entities for Polynesia correct in Google Earth Pro
-  3. All documentation gaps for Polynesian entities identified and filled
+   1. All 6 Polynesian entities assessed — no contradictions
+   2. KML entities for Polynesia correct in Google Earth Pro
+   3. All documentation gaps for Polynesian entities identified and filled
+**Plans**: 4 plans
+
+Plans:
+- [ ] 18-01-PLAN.md — KML (wip) rename + entity-config.json entity entries for all 6 Polynesian entities (Wave 1)
+- [ ] 18-02-PLAN.md — borders-geopolitics.md Polynesia subsection (Wave 2, blocked on 01)
+- [ ] 18-03-PLAN.md — economy.md + demographics.md Polynesia subsections (Wave 3, blocked on 02)
+- [ ] 18-04-PLAN.md — culture.md + climate.md Polynesia subsections (Wave 4, blocked on 03)
 
 ### Phase 19: Antarctica Review
 **Mode**: mvp
@@ -433,6 +440,6 @@ Plans:
 | 14. Western Europe Review | 4/4 | Complete   | 2026-05-29 |
 | 15. Australasia Review | 4/4 | Complete   | 2026-05-30 |
 | 16. Melanesia Review | 4/4 | Complete   | 2026-05-30 |
-| 17. Micronesia Review | 3/4 | In Progress | 2026-05-30 |
-| 18. Polynesia Review | — | Not started | — |
+| 17. Micronesia Review | 4/4 | Complete   | 2026-05-30 |
+| 18. Polynesia Review | — | Planned (4 plans) | — |
 | 19. Antarctica Review | — | Not started | — |
