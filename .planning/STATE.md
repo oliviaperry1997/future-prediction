@@ -1,7 +1,7 @@
 ---
 gsd_state_version: 1.0
 milestone: v1.1
-milestone_name: milestone
+milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
 status: completed
 stopped_at: Phase 19.1 Plan 04 complete — culture/ climate/ technology UK defunct corrections, BAT → See KML cleaned
 last_updated: "2026-05-30T19:50:24.736Z"
