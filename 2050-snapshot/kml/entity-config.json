@@ -200,8 +200,14 @@
         "Suriname"
       ]
     },
-    "Antarctica (wip)": [
-      "Antarctica"
+    "Antarctica": [
+      "Australian Antarctic Territory",
+      "Ross Dependency",
+      "Adélie Land",
+      "Dronning Maud Land",
+      "Argentine-Chilean Peninsula",
+      "British Antarctic Territory",
+      "Chinese Marie Byrd Land"
     ],
     "Eurasia": {
       "Central Asia": [
@@ -259,7 +265,7 @@
         "Arab Popular Republic"
       ]
     },
-    "Oceania (wip)": {
+    "Oceania": {
       "Australasia": [
         "Australia",
         "New Zealand"
@@ -288,7 +294,6 @@
         "Tonga",
         "Tuvalu",
         "Tokelau",
-        "American Samoa",
         "Pitcairn",
         "Wallis and Futuna"
       ]
@@ -1713,11 +1718,65 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Antarctica": {
+    "Adélie Land": {
       "type": "entity",
       "category": "global",
-      "source": "country",
-      "country_code": "ATA",
+      "source": "custom",
+      "country_code": "ATA-FR",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "antarctica",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
+    },
+    "Argentine-Chilean Peninsula": {
+      "type": "entity",
+      "category": "global",
+      "source": "custom",
+      "country_code": "ATA-ARCL",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "antarctica",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
+    },
+    "Australian Antarctic Territory": {
+      "type": "entity",
+      "category": "global",
+      "source": "custom",
+      "country_code": "ATA-AUS",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "antarctica",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
+    },
+    "British Antarctic Territory": {
+      "type": "entity",
+      "category": "global",
+      "source": "custom",
+      "country_code": "ATA-GB",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "antarctica",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
+    },
+    "Chinese Marie Byrd Land": {
+      "type": "entity",
+      "category": "global",
+      "source": "custom",
+      "country_code": "ATA-CN",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "antarctica",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
+    },
+    "Dronning Maud Land": {
+      "type": "entity",
+      "category": "global",
+      "source": "custom",
+      "country_code": "ATA-NO",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "antarctica",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
+    },
+    "Ross Dependency": {
+      "type": "entity",
+      "category": "global",
+      "source": "custom",
+      "country_code": "ATA-NZ",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "antarctica",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
@@ -1798,7 +1857,7 @@
       "country_code": "PYF",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "maohi-nui",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#maohi-nui"
     },
     "Cook Is.": {
       "type": "entity",
@@ -1821,8 +1880,12 @@
     "Samoa": {
       "type": "entity",
       "category": "global",
-      "source": "country",
-      "country_code": "WSM",
+      "source": "group",
+      "keep_unified": true,
+      "country_codes": [
+        "WSM",
+        "ASM"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "samoa",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#samoa"
@@ -1848,20 +1911,11 @@
     "Tokelau": {
       "type": "entity",
       "category": "global",
-      "source": "country",
-      "country_code": "TKL",
+      "source": "manual",
+      "manual_path": "source/manual/Tokelau.kml",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "tokelau",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#tokelau"
-    },
-    "American Samoa": {
-      "type": "entity",
-      "category": "global",
-      "source": "country",
-      "country_code": "ASM",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "american-samoa",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#american-samoa"
     },
     "Pitcairn": {
       "type": "entity",

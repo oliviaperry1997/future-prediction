@@ -461,10 +461,46 @@
     "kml_line": "ff523ea1",
     "width": 1.0
   },
-  "Antarctica": {
+  "Adélie Land": {
+    "hex": "#2b5c8f",
+    "kml_fill": "808f5c2b",
+    "kml_line": "ff8f5c2b",
+    "width": 1.0
+  },
+  "Argentine-Chilean Peninsula": {
+    "hex": "#8b3a2b",
+    "kml_fill": "802b3a8b",
+    "kml_line": "ff2b3a8b",
+    "width": 1.0
+  },
+  "Australian Antarctic Territory": {
     "hex": "#1f2d4a",
     "kml_fill": "804a2d1f",
     "kml_line": "ff4a2d1f",
+    "width": 1.0
+  },
+  "British Antarctic Territory": {
+    "hex": "#8a8a8a",
+    "kml_fill": "408a8a8a",
+    "kml_line": "ff8a8a8a",
+    "width": 1.0
+  },
+  "Chinese Marie Byrd Land": {
+    "hex": "#bf2c23",
+    "kml_fill": "80232cbf",
+    "kml_line": "ff232cbf",
+    "width": 1.0
+  },
+  "Dronning Maud Land": {
+    "hex": "#3a6b8f",
+    "kml_fill": "808f6b3a",
+    "kml_line": "ff8f6b3a",
+    "width": 1.0
+  },
+  "Ross Dependency": {
+    "hex": "#1a6b4d",
+    "kml_fill": "804d6b1a",
+    "kml_line": "ff4d6b1a",
     "width": 1.0
   },
   "Kazakhstan": {
@@ -1056,9 +1092,9 @@
     "width": 1.0
   },
   "Cook Is.": {
-    "hex": "#5581b0",
-    "kml_fill": "80b08155",
-    "kml_line": "ffb08155",
+    "hex": "#c77d30",
+    "kml_fill": "80307dc7",
+    "kml_line": "ff307dc7",
     "width": 1.0
   },
   "Samoa": {
@@ -1068,9 +1104,9 @@
     "width": 1.0
   },
   "Niue": {
-    "hex": "#5581b0",
-    "kml_fill": "80b08155",
-    "kml_line": "ffb08155",
+    "hex": "#2e75b6",
+    "kml_fill": "80b6752e",
+    "kml_line": "ffb6752e",
     "width": 1.0
   },
   "Tonga": {
@@ -1146,9 +1182,9 @@
     "width": 1.0
   },
   "Maohi Nui": {
-    "hex": "#4770dc",
-    "kml_fill": "80dc7047",
-    "kml_line": "ffdc7047",
+    "hex": "#517fa7",
+    "kml_fill": "80a77f51",
+    "kml_line": "ffa77f51",
     "width": 1.0
   },
   "United Arab Emirates": {
@@ -1431,12 +1467,6 @@
     "hex": "#C8C103",
     "kml_fill": "8003C1C8",
     "kml_line": "ff03C1C8",
-    "width": 1.0
-  },
-  "American Samoa": {
-    "hex": "#e8923a",
-    "kml_fill": "803a92e8",
-    "kml_line": "ff3a92e8",
     "width": 1.0
   },
   "Pitcairn": {
