@@ -83,7 +83,7 @@
     "kml_line": "ff4bd3f5",
     "width": 1.0
   },
-  "São Tomé and Príncipe": {
+  "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
     "hex": "#da3251",
     "kml_fill": "805132da",
     "kml_line": "ff5132da",
@@ -167,7 +167,7 @@
     "kml_line": "ff99d244",
     "width": 1.0
   },
-  "Côte d'Ivoire": {
+  "C\u00f4te d'Ivoire": {
     "hex": "#e78531",
     "kml_fill": "803185e7",
     "kml_line": "ff3185e7",
@@ -263,7 +263,7 @@
     "kml_line": "ff2f2dbd",
     "width": 1.0
   },
-  "Aztlán": {
+  "Aztl\u00e1n": {
     "hex": "#beca6c",
     "kml_fill": "806ccabe",
     "kml_line": "ff6ccabe",
@@ -461,7 +461,7 @@
     "kml_line": "ff523ea1",
     "width": 1.0
   },
-  "Adélie Land": {
+  "Ad\u00e9lie Land": {
     "hex": "#2b5c8f",
     "kml_fill": "808f5c2b",
     "kml_line": "ff8f5c2b",
@@ -477,12 +477,6 @@
     "hex": "#1f2d4a",
     "kml_fill": "804a2d1f",
     "kml_line": "ff4a2d1f",
-    "width": 1.0
-  },
-  "British Antarctic Territory": {
-    "hex": "#8a8a8a",
-    "kml_fill": "408a8a8a",
-    "kml_line": "ff8a8a8a",
     "width": 1.0
   },
   "Chinese Marie Byrd Land": {
@@ -1265,7 +1259,7 @@
     "kml_line": "ff784ba0",
     "width": 1.0
   },
-  "Curaçao": {
+  "Cura\u00e7ao": {
     "hex": "#3498DB",
     "kml_fill": "80db9834",
     "kml_line": "ffdb9834",
@@ -1301,7 +1295,7 @@
     "kml_line": "ffb6599b",
     "width": 1.0
   },
-  "St. Barthélemy": {
+  "St. Barth\u00e9lemy": {
     "hex": "#4CAF50",
     "kml_fill": "8050af4c",
     "kml_line": "ff50af4c",

@@ -1,5 +1,5 @@
 {
-  "description": "2050 World Map — Entity and overlay configuration for KML generation. Per D-19 (programmatic generation) and D-04 (rough polygon overlays).",
+  "description": "2050 World Map \u2014 Entity and overlay configuration for KML generation. Per D-19 (programmatic generation) and D-04 (rough polygon overlays).",
   "styles": {
     "default-polygon": {
       "lineColor": "ffb08155",
@@ -81,7 +81,7 @@
         "Congo",
         "Equatorial Guinea",
         "Gabon",
-        "São Tomé and Príncipe"
+        "S\u00e3o Tom\u00e9 and Pr\u00edncipe"
       ],
       "Northern Africa": [
         "Morocco"
@@ -96,7 +96,7 @@
         "Benin",
         "Cabo Verde",
         "Nigeria",
-        "Côte d'Ivoire",
+        "C\u00f4te d'Ivoire",
         "Federation of Sahel States",
         "Ghana",
         "Guinea",
@@ -115,7 +115,7 @@
         "British Virgin Is.",
         "Cayman Islands",
         "Cuba",
-        "Curaçao",
+        "Cura\u00e7ao",
         "Dominica",
         "Dominican Rep.",
         "Grenada",
@@ -128,7 +128,7 @@
         "Saba",
         "Saint Lucia",
         "Saint Martin",
-        "St. Barthélemy",
+        "St. Barth\u00e9lemy",
         "St. Eustatius",
         "St. Kitts and Nevis",
         "St. Vin. and Gren.",
@@ -200,15 +200,6 @@
         "Suriname"
       ]
     },
-    "Antarctica": [
-      "Australian Antarctic Territory",
-      "Ross Dependency",
-      "Adélie Land",
-      "Dronning Maud Land",
-      "Argentine-Chilean Peninsula",
-      "British Antarctic Territory",
-      "Chinese Marie Byrd Land"
-    ],
     "Eurasia": {
       "Central Asia": [
         "Kazakhstan",
@@ -297,7 +288,20 @@
         "Pitcairn",
         "Wallis and Futuna"
       ]
-    }
+    },
+    "Australia": [
+      "Australian Antarctic Territory"
+    ],
+    "New Zealand": [
+      "Ross Dependency"
+    ],
+    "European Federation": [
+      "Ad\u00e9lie Land",
+      "Dronning Maud Land"
+    ],
+    "China": [
+      "Chinese Marie Byrd Land"
+    ]
   },
   "entities": {
     "Pacifica": {
@@ -306,7 +310,7 @@
       "source": "manual",
       "manual_path": "source/manual/Pacifica.kml",
       "add_manual_paths": [
-        "source/manual/Tlingit Aaní.kml"
+        "source/manual/Tlingit Aan\u00ed.kml"
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "pacifica",
@@ -344,7 +348,7 @@
       "type": "entity",
       "category": "indigenous",
       "source": "none",
-      "description": "Autonomous indigenous zone within Atlantica territory. No separate polygon — represented by a point marker within NEC territory.",
+      "description": "Autonomous indigenous zone within Atlantica territory. No separate polygon \u2014 represented by a point marker within NEC territory.",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "haudenosaunee-confederacy",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#haudenosaunee-confederacy"
@@ -460,7 +464,7 @@
       "source": "admin1_merge",
       "country_code": "CAN",
       "admin1_provinces": [
-        "Québec"
+        "Qu\u00e9bec"
       ],
       "clip_lat": 55,
       "clip_side": "south",
@@ -533,7 +537,7 @@
       ],
       "merge_admin1": [
         {
-          "province": "Québec",
+          "province": "Qu\u00e9bec",
           "clip_lat": 55,
           "clip_side": "north"
         }
@@ -722,15 +726,15 @@
       "add_manual_paths": [
         "source/manual/Scotland.kml",
         "source/manual/NIreland.kml",
-        "source/manual/Åland.kml",
+        "source/manual/\u00c5land.kml",
         "source/manual/La-Reunion.kml",
         "source/manual/Mayotte.kml"
       ],
       "subtract_admin1_per_code": {
         "FRA": [
           "Guadeloupe",
-          "Guyane française",
-          "La Réunion",
+          "Guyane fran\u00e7aise",
+          "La R\u00e9union",
           "Martinique",
           "Mayotte"
         ],
@@ -1530,7 +1534,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Côte d'Ivoire": {
+    "C\u00f4te d'Ivoire": {
       "type": "entity",
       "category": "global",
       "source": "country",
@@ -1624,7 +1628,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "São Tomé and Príncipe": {
+    "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
       "type": "entity",
       "category": "global",
       "source": "country",
@@ -1718,14 +1722,15 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Adélie Land": {
+    "Ad\u00e9lie Land": {
       "type": "entity",
       "category": "global",
       "source": "custom",
       "country_code": "ATA-FR",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
+      "see_path": "See: 2050-snapshot/kml/borders.kml (nested under European Federation)",
+      "parent_entity": "European Federation"
     },
     "Argentine-Chilean Peninsula": {
       "type": "entity",
@@ -1734,7 +1739,7 @@
       "country_code": "ATA-ARCL",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
+      "see_path": "See: 2050-snapshot/kml/borders.kml (standalone)"
     },
     "Australian Antarctic Territory": {
       "type": "entity",
@@ -1743,16 +1748,8 @@
       "country_code": "ATA-AUS",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
-    },
-    "British Antarctic Territory": {
-      "type": "entity",
-      "category": "global",
-      "source": "custom",
-      "country_code": "ATA-GB",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
+      "see_path": "See: 2050-snapshot/kml/borders.kml (nested under Australia)",
+      "parent_entity": "Australia"
     },
     "Chinese Marie Byrd Land": {
       "type": "entity",
@@ -1761,7 +1758,8 @@
       "country_code": "ATA-CN",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
+      "see_path": "See: 2050-snapshot/kml/borders.kml (nested under China)",
+      "parent_entity": "China"
     },
     "Dronning Maud Land": {
       "type": "entity",
@@ -1770,7 +1768,8 @@
       "country_code": "ATA-NO",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
+      "see_path": "See: 2050-snapshot/kml/borders.kml (nested under European Federation)",
+      "parent_entity": "European Federation"
     },
     "Ross Dependency": {
       "type": "entity",
@@ -1779,7 +1778,8 @@
       "country_code": "ATA-NZ",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#antarctica"
+      "see_path": "See: 2050-snapshot/kml/borders.kml (nested under New Zealand)",
+      "parent_entity": "New Zealand"
     },
     "Hawaii": {
       "type": "entity",
@@ -1791,7 +1791,9 @@
           "county": ".*"
         }
       ],
-      "add_country_codes": ["UMI"],
+      "add_country_codes": [
+        "UMI"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "hawaii",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#hawaiian-free-state"
@@ -2025,7 +2027,7 @@
       "category": "global",
       "source": "admin1",
       "country_code": "FRA",
-      "admin1_name": "Guyane française",
+      "admin1_name": "Guyane fran\u00e7aise",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "cayenne",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#cayenne"
@@ -2120,7 +2122,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Curaçao": {
+    "Cura\u00e7ao": {
       "type": "entity",
       "category": "global",
       "source": "group",
@@ -2227,7 +2229,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "St. Barthélemy": {
+    "St. Barth\u00e9lemy": {
       "type": "entity",
       "category": "global",
       "source": "country",
@@ -2335,7 +2337,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Aztlán": {
+    "Aztl\u00e1n": {
       "type": "entity",
       "category": "revolutionary",
       "source": "none",
@@ -2647,7 +2649,7 @@
         ]
       },
       {
-        "name": "Extreme Heat — Persian Gulf",
+        "name": "Extreme Heat \u2014 Persian Gulf",
         "type": "rough_polygon",
         "description": "See: 2050-snapshot/domains/climate.md#west-asia--middle-east",
         "approximate_coords": [
@@ -2967,7 +2969,7 @@
     ],
     "demographics": [
       {
-        "name": "Demographic Profile Reference — PPR",
+        "name": "Demographic Profile Reference \u2014 PPR",
         "type": "entity_copy",
         "source_entity": "Pacifica",
         "description": "See: 2050-snapshot/domains/demographics.md#pacific-peoples-republic"
@@ -2981,7 +2983,7 @@
     ],
     "culture": [
       {
-        "name": "Cultural Profile Reference — Pacifica",
+        "name": "Cultural Profile Reference \u2014 Pacifica",
         "type": "entity_copy",
         "source_entity": "Pacifica",
         "description": "See: 2050-snapshot/domains/culture.md#pacific-peoples-republic"
