@@ -234,6 +234,126 @@ The Mediterranean basin is experiencing warming at 1.5-2× the global average ra
 - **Climate adaptation laboratory:** Vanuatu has become a Pacific leader in community-level disaster resilience — traditional safe house designs, seed saving, and community relocation protocols developed over generations of cyclone/volcanic experience are now formally integrated into national disaster management.
 - **→ See KML: Vanuatu**
 
+**Micronesia:**
+
+*Atoll States (Kiribati, Marshall Islands, Nauru) — primary threat: sea-level rise and freshwater lens salinization*
+
+**Kiribati:** Existential sea-level crisis — 30-50% habitable land area lost; managed resettlement as the primary adaptation strategy.
+- **Primary risk:** Sea-level rise and saltwater intrusion have destroyed freshwater lenses across multiple Gilbert Islands atolls. The most habitable atolls (Tarawa, Kiritimati/Christmas Island) retain marginal viability but face ongoing freshwater stress. Land area reduction of 30-50% aligns with the Pacific Island atoll states characterization (see "Pacific Islands" section for the EEZ-without-territory framework).
+- **Adaptation:** Managed resettlement to Fiji (land purchase on Vanua Levu — a Kiribati government land purchase providing a community resettlement anchor; see Fiji entry above) and New Zealand (Pacific Access Category expanded to climate refugee status). This is the primary adaptation — not in-country coastal defense, which is economically and technically infeasible for atoll states.
+- **Trajectory:** In-country population declining as managed resettlement accelerates; EEZ persists as sovereign zone regardless of land habitability. Climate trajectory continues to worsen through 2050 with no atoll-scale defense viable.
+- **→ See KML: Kiribati**
+
+**Marshall Islands:** Atoll existence under challenge — nuclear legacy compounds the climate crisis.
+- **Primary risk:** Low-lying Majuro and outer atolls facing sea-level rise and saltwater intrusion. Marshall Islands lost 30-50% of habitable land area (consistent with the Pacific Island atoll states characterization). Bikini and Enewetak atolls — already contaminated from nuclear testing — face accelerating loss of remediation sites to sea-level inundation.
+- **Adaptation:** Managed relocation of outer atoll populations to Majuro; diaspora to Guam and HFS as climate-driven emigration. The post-COFA successor arrangement includes climate adaptation funding.
+- **Interaction:** Nuclear remediation at Bikini and Enewetak is complicated by sea-level inundation — contaminated material risks being mobilized by rising seas before remediation completes. This is the Marshall Islands' most acute climate-nuclear intersection.
+- **→ See KML: Marshall Is.**
+
+**Nauru:** Atoll vulnerability — single island with no alternative elevation; full relocation dependency.
+- **Primary risk:** Nauru's 21 sq km single island has no higher ground to retreat to — unlike archipelago atoll states, there is no within-country relocation option. Sea-level rise affects the coastal fringe (where most infrastructure sits). Freshwater lens vulnerability is acute on the narrow island.
+- **Adaptation:** Fully patron-dependent adaptation — Australia-funded coastal defense and eventually relocation support. No domestic adaptation capacity. The phosphate plateau (the highest land on the island) provides some elevation refuge for infrastructure but is not habitable in the traditional sense.
+- **Trajectory:** Nauru's climate trajectory is the most unambiguous: without external patron support for coastal defense or relocation, the island becomes uninhabitable within the 2050-2075 window.
+- **→ See KML: Nauru**
+
+*US Territory Successors (Guam, CNMI) — primary threat: typhoon intensification + military/economic transition*
+
+**Guam:** Typhoon intensification zone — military infrastructure and Chamorro economy both climate-exposed.
+- **Primary risk:** Western Pacific typhoon track intensification. Guam sits in Typhoon Alley — Category 4-5 events that would previously have been rare are now occurring at higher frequency. Andersen AFB and Naval Base Guam have undergone typhoon hardening (infrastructure resilience upgrades under the Pacifica/HFS compact), but civilian infrastructure lags.
+- **Adaptation:** Military infrastructure resilience investment (compact-funded). Chamorro traditional building practices (which predate concrete construction and have some typhoon adaptability) are being revived. Coastal flooding risk to Tumon Bay resort corridor requires managed retreat.
+- **Human-climate interaction:** The economy transition (off US federal spending) intersects with climate recovery costs — typhoon damage recovery competes with development investment for the same compact funding pool.
+- **→ See KML: Guam**
+
+**CNMI (Northern Mariana Islands):** Typhoon exposure on a contracted economic base — limited adaptation capacity.
+- **Primary risk:** Same Western Pacific typhoon intensification zone as Guam. The Saipan/Tinian/Rota archipelago faces the same increased storm intensity. Post-tourism-collapse, the economic base to fund infrastructure repair and resilience is severely constrained.
+- **Adaptation:** Japan compact development funding partially directed toward typhoon resilience. Population contraction paradoxically reduces the infrastructure exposure (fewer people, fewer buildings needing protection).
+- **Trajectory:** CNMI's climate adaptation challenge is primarily economic — the political will exists (Japan compact provides external funding), but the contraction of the domestic economy limits the matching funding capacity.
+- **→ See KML: CNMI**
+
+*Pacific Archipelagos (FSM, Palau) — primary threat: coral reef degradation and fisheries loss*
+
+**Micronesia (FSM):** Coral bleaching and fisheries collapse — the primary economic-climate intersection.
+- **Primary risk:** FSM's four-state federation spans extensive coral reef ecosystems. Repeated mass bleaching events (2016, 2020, 2024+ cycle) have degraded reef health across the Carolinian archipelago. Coral degradation reduces reef-based fisheries productivity and coastal protection (reef buffer against wave action).
+- **Adaptation:** Coral reef protection zones and FSM-level fishing regulations. The regional framework (Pacific Islands Forum's Blue Pacific strategy) provides multilateral fisheries management that partially protects FSM's EEZ from overfishing by distant-water fleets. Limited domestic climate adaptation capacity.
+- **Trajectory:** Coral bleaching frequency expected to exceed recovery threshold — a coral mortality event would cascade into fisheries collapse and coastal vulnerability increase simultaneously. This is FSM's most severe climate risk scenario.
+- **→ See KML: Micronesia**
+
+**Palau:** Reef biodiversity heritage under thermal stress — the Marine Sanctuary as adaptation strategy.
+- **Primary risk:** Coral thermal stress — Palau's globally recognized reef biodiversity (some of the world's highest marine biodiversity per unit area) is acutely vulnerable to ocean temperature increases. Bleaching events have increased in frequency and severity. The Palau National Marine Sanctuary (no-take zone covering 80% of EEZ) is explicitly designed as a climate resilience tool — protecting the reef from fishing stress to maximize recovery capacity between bleaching events.
+- **Adaptation:** The Marine Sanctuary is the primary climate adaptation strategy — reducing non-climate stressors to maximize reef resilience to temperature stress. International climate financing accessed through the sanctuary's global conservation significance.
+- **Trajectory:** Palau's reef future depends on global temperature trajectory, not local action — the sanctuary can extend resilience but cannot substitute for emission reductions. Under 2°C scenarios, Palau's reef survives in degraded form. Under 3°C+ scenarios, mass mortality is likely before 2075.
+- **→ See KML: Palau**
+
+#### Polynesia
+
+*Volcanic/High-Island Entities (Maohi Nui, Samoa, Tonga, Cook Is., Niue, American Samoa, Wallis and Futuna) — primary threat: cyclone intensification and coastal erosion*
+
+**Maohi Nui:** Cyclone intensification zone across the Society, Tuamotu, and Marquesas archipelagoes — coral reef degradation compounds coastal vulnerability.
+- **Primary risk:** South Pacific cyclone track intensification — Category 4-5 events affecting the Society Islands (Tahiti, Mo'orea, Bora Bora) and the Tuamotu atolls at increased frequency. Coral bleaching (multiple mass bleaching events since 2016) degrades the barrier reef systems that protect coastal communities and infrastructure. The Marquesas Islands face drought stress from precipitation pattern shifts.
+- **Adaptation:** Post-independence adaptation planning integrated into Maohi Nui's sovereign governance — cyclone-resistant building codes adopted from Fiji's model, coral reef monitoring and protection programs, managed retreat from most vulnerable coastal zones (particularly on low-lying atolls in the Tuamotu archipelago). French nuclear test site monitoring (Moruroa, Fangataufa) — nuclear waste containment integrity under sea-level rise and cyclone stress is an unresolved climate-nuclear intersection.
+- **Trajectory:** Maohi Nui's high-island geography provides significant natural resilience — Tahiti and the other high islands are not at existential risk from sea-level rise. The primary trajectory is increasing cyclone damage costs and coral reef degradation over the 2050-2075 period.
+**→ See KML: Maohi Nui**
+
+**Cook Islands:** Cyclone and sea-level convergence — Southern Cooks (volcanic high islands) face cyclone risk; Northern Cooks (atolls) face existential sea-level threat.
+- **Primary risk:** Dual climate profile — the Southern Cooks (Rarotonga, Aitutaki — volcanic high islands) face cyclone intensification (Category 4-5 events increasing) and coastal erosion; the Northern Cooks (atoll chain — Pukapuka, Penrhyn, Manihiki) face sea-level rise and freshwater lens salinization comparable to the Tuvalu/Kiribati pattern. Aitutaki's lagoon ecosystem (a primary tourism asset and cultural site) is threatened by coral bleaching and ocean acidification.
+- **Adaptation:** NZ budget support provides adaptation financing that most independent atoll states lack — cyclone hardening of critical infrastructure, coastal protection for Rarotonga's tourism corridor, and managed relocation planning for Northern Cooks atoll communities (relocation to Rarotonga or NZ). Traditional knowledge integration — Cook Islands Māori cyclone prediction and preparation practices preserved through oral tradition.
+- **Trajectory:** Southern Cooks viable with adaptation investment; Northern Cooks face progressive depopulation as atoll habitability declines over the 2050-2075 period.
+**→ See KML: Cook Is.**
+
+**Niue:** Single raised coral atoll — limited elevation refuge, no within-country relocation option.
+- **Primary risk:** Unlike the atoll states (which have archipelagoes and some higher islands), Niue is a single raised coral atoll with maximum elevation ~60m but habitable coastal fringe at much lower elevations. The limited coastal infrastructure — the hospital, airport, port, and most housing — is in the coastal zone. Cyclone intensification is the acute risk; sea-level rise compounds coastal erosion and storm surge vulnerability. Freshwater lens vulnerability from saltwater intrusion.
+- **Adaptation:** NZ-funded coastal protection and cyclone hardening. The extreme population-to-infrastructure ratio (1,600 people maintaining a national airport, port, hospital, and road network) means per-capita adaptation costs are the highest in the Pacific. Traditional Niuean knowledge of cyclone patterns and food preservation (the "cyclone pantry" — preserving taro, coconut, and fish for storm periods) is maintained.
+- **Trajectory:** Viable with NZ support but at high per-capita cost. The demographic decline (if in-country population continues falling) may make infrastructure maintenance economically unsustainable before climate impacts make it physically unsustainable.
+**→ See KML: Niue**
+
+**Samoa:** Cyclone intensification on a vulnerable high-island economy — agriculture, tourism, and coastal communities all exposed.
+- **Primary risk:** Category 4-5 cyclone intensification affecting Upolu and Savai'i — the primary islands are high-elevation and not at existential sea-level risk, but the coastal settlement pattern (most population, infrastructure, and economic activity on the narrow coastal plains) creates high cyclone exposure. Storm surge, coastal erosion, and inland flooding from extreme rainfall events. Agricultural damage from cyclone winds and salt spray (taro, coconut, and breadfruit crops destroyed in major cyclone years).
+- **Adaptation:** Samoa's cyclone resilience is built into fa'asamoa village governance — village-based disaster committees, traditional safe-house designs, seed-saving practices, and community-based early warning systems. National building codes updated post-2030. Mangrove restoration and coastal replanting programs for storm surge protection.
+- **Trajectory:** Samoa's high-island geography provides long-term viability, but climate adaptation costs will absorb an increasing share of GDP. Cyclone damage as a recurring economic shock is the new normal — the adaptation challenge is financial resilience (disaster insurance, recovery funds) as much as physical infrastructure.
+**→ See KML: Samoa**
+
+**Tonga:** Cyclone intensification across the Tongan archipelago — the most cyclone-exposed country in the world by land-area-to-cyclone-track ratio.
+- **Primary risk:** Tonga sits at the center of the South Pacific cyclone belt — Category 4-5 events are now the dominant climate hazard. Tropical Cyclone Gita (2018) and the 2022 Hunga Tonga-Hunga Ha'apai eruption-tsunami event demonstrate the compound hazard landscape. The 170-island archipelago means cyclone tracks almost inevitably affect populated islands. Sea-level rise compounds storm surge for low-lying islands (Ha'apai group, Niuas). Freshwater lens salinization on atoll islands (Nomuka, Mango) is advancing.
+- **Adaptation:** Tonga's traditional architecture — fale (open-sided houses with thatched roofs) — is paradoxically cyclone-resilient in its traditional form (the open structure allows wind to pass through) but modern concrete-block construction is not. The post-2018 rebuilding program incorporated cyclone-rated construction standards. The Hunga Tonga eruption (January 2022, the largest volcanic explosion in 30+ years) demonstrated a new climate-natural hazard intersection — volcanic tsunamis may become more frequent as the volcanic arc responds to post-caldera dynamics.
+- **Trajectory:** Tonga's geographic exposure to tropical cyclones is structurally determined — there is no adaptation path that eliminates cyclone risk, only damage reduction. The constitutional monarchy's institutional continuity provides stable disaster governance.
+**→ See KML: Tonga**
+
+**American Samoa:** Cyclone intensification on a small volcanic archipelago — HFS absorption provides institutional framework but infrastructure investment is constrained.
+- **Primary risk:** Category 4-5 cyclone intensification affecting Tutuila, the Manu'a Islands, and Swains Island — the same South Pacific cyclone belt exposure as independent Samoa. Coastal erosion from storm surge threatens the narrow coastal plains where the majority of the ~50K population lives. Freshwater lens vulnerability on the smaller islands (Ofu, Olosega, Ta'ū) from saltwater intrusion. The tuna cannery infrastructure (the primary economic asset) is coastal and cyclone-exposed.
+- **Adaptation:** HFS absorption (per borders-geopolitics.md) provides the institutional framework for adaptation planning — American Samoa's climate resilience is integrated into HFS territory management, with cyclone hardening funded through HFS budget allocation. The fa'asamoa village governance system provides community-level disaster response capacity. Traditional Samoan cyclone knowledge (shared with independent Samoa) is maintained.
+- **Trajectory:** American Samoa's small land area (197 km²) means climate vulnerability is structural rather than resolvable. Continued viability depends on HFS investment in coastal protection and cyclone hardening. The population may decline through out-migration to the main Hawaiian Islands as cyclone damage accumulates.
+**→ See KML: American Samoa**
+
+*Atoll/Low-Island Entities (Tuvalu, Tokelau) — primary threat: sea-level rise and freshwater lens salinization*
+
+**Tuvalu:** Existential sea-level crisis — the global reference case for atoll sovereignty loss; follows the EEZ-without-territory legal innovation pioneered with Kiribati.
+- **Primary risk:** Sea-level rise has reduced habitable land area by 30-50% across all 9 atolls. The highest point on Tuvalu is ~4.6m, and most of the population lives within 2m of the high-tide line. Freshwater lenses have been destroyed by saltwater intrusion on multiple atolls. Cyclone-generated storm surges now overtop the remaining habitable land on Funafuti and the outer atolls during extreme events. The Tuvaluan population is functionally resettling to NZ under the expanded Pacific Access Category — climate-driven migration, not voluntary relocation.
+- **Adaptation:** Managed resettlement to NZ and Australia is the primary adaptation — there is no viable in-country coastal defense for a nation of 9 atolls with a total land area of 26 sq km. The "Tuvalu Futures" sovereignty framework — EEZ persistence (sovereign 200nm zone generating fisheries revenue) after continuous human habitation becomes impossible — is the legal adaptation (cross-reference to the "Pacific Islands" section for the EEZ-without-territory framework). Digital governance infrastructure (the "Digital Nation" concept) maintains state functions regardless of physical location.
+- **Trajectory:** In-country population continues declining through managed resettlement. The EEZ persists as the sovereign economic zone. By 2075, Tuvalu's physical territory may be functionally uninhabitable for continuous human settlement, but the nation continues as a legal and political entity with a citizenry distributed across NZ, Australia, and Fiji.
+**→ See KML: Tuvalu**
+
+**Tokelau:** Atoll sea-level vulnerability on a micro-scale — three low-lying atolls with limited adaptation capacity.
+- **Primary risk:** Maximum elevation ~5m — all three atolls (Atafu, Nukunonu, Fakaofo) are low-lying and acutely vulnerable to sea-level rise. Freshwater lens salinization is ongoing. Cyclone storm surge overtopping threatens the village settlements, which are the only concentration points for the ~1,500 population. The atolls' small size means there is no internal relocation option — damage to any one atoll affects a disproportionate share of the national population.
+- **Adaptation:** NZ-funded adaptation — coastal protection infrastructure (seawalls, groynes) for the main villages, freshwater management, and cyclone shelters. The Tokelauan population is small enough that managed resettlement to NZ is logistically feasible as the ultimate adaptation — the entire in-country population (~1,500) could be accommodated within a single suburb in Auckland.
+- **Trajectory:** Tokelau's climate future is determined by NZ's adaptation investment decisions and the Tokelauan community's preference for continued in-country residence vs. resettlement. The small population means the choice is not constrained by infrastructure scale — either continued atoll habitation with NZ support or managed resettlement to NZ are feasible.
+**→ See KML: Tokelau**
+
+*Remote-Island Entity (Pitcairn) — primary threat: remote-island climate marginality*
+
+**Pitcairn Islands:** Remote-island climate marginality — extreme isolation compounds climate vulnerability; limited infrastructure and small population constrain adaptation capacity.
+- **Primary risk:** Pitcairn's climate profile is distinct from the tropical Polynesian pattern — Pitcairn is subtropical (25°S), with a milder climate but exposure to the same South Pacific cyclone belt. The single inhabited island (Pitcairn, ~5 km²) has no airstrip — access is by sea only (a 32-hour voyage from Mangareva/Gambier Islands). This isolation means cyclone warning lead time is limited, and post-disaster supply delivery is logistically challenging. Sea-level rise affects the only landing site (Bounty Bay) and coastal infrastructure. The uninhabited Henderson Island (UNESCO World Heritage) is one of the world's most pristine raised coral atolls — its ecological value is threatened by plastic pollution accumulation, not directly by climate, but sea-level rise affects its beach ecosystems.
+- **Adaptation:** NZ responsibility (post-UK transfer). Adaptation is necessarily NZ-funded and externally managed — the community of ~50 cannot fund its own coastal protection, cyclone-hardened housing, or freshwater security. The lack of an airstrip is the binding constraint for disaster response — any adaptation strategy requires maintaining the sea-based supply line.
+- **Trajectory:** Pitcairn's long-term viability depends on NZ's willingness to maintain the remote settlement. The community is small enough that relocation to NZ is logistically simple — if infrastructure maintenance or disaster recovery costs become disproportionate to the population served, NZ may face the question of assisted relocation. The unique cultural value of the Pitcairn community (the Bounty narrative) makes this a politically and culturally significant decision.
+**→ See KML: Pitcairn**
+
+*Volcanic/High-Island Entity (Wallis and Futuna) — primary threat: cyclone intensification and coastal erosion*
+
+**Wallis and Futuna:** Cyclone and coastal erosion risk on two small volcanic islands — Maohi Nui association provides adaptation framework.
+- **Primary risk:** Cyclone intensification affecting both Wallis (/'Uvea) and Futuna — these are small volcanic islands (Wallis 78 km², Futuna 64 km²) with most population concentrated on the coastal fringe. Storm surge and coastal erosion threaten the village settlements, agricultural land (taro, yam, banana plantations), and the limited road infrastructure. Freshwater stress from precipitation variability — the islands depend on rainfall catchment for freshwater supply.
+- **Adaptation:** Maohi Nui association provides the institutional framework for adaptation planning — Wallis and Futuna's climate resilience is integrated into Maohi Nui's national adaptation strategy. French-era infrastructure (seawalls, cyclone shelters) maintained through Maohi Nui development support. Traditional knowledge — Wallisian and Futunan cyclone prediction and food preservation practices — is maintained through customary governance structures (the Lavelua and Tui Sigave/Tui Alo kingdoms).
+- **Trajectory:** The small land area and coastal settlement pattern mean climate vulnerability is structural, not resolvable. Continued viability requires ongoing adaptation investment and infrastructure maintenance.
+**→ See KML: Wallis and Futuna**
+
 **Pacific Island atoll states:** Existential crisis from sea level rise — Tuvalu, Kiribati, and the Marshall Islands have lost 30-50% of habitable land area. Saltwater intrusion has destroyed freshwater lenses across multiple atolls, forcing relocation. New legal frameworks for "sovereignty without habitable territory" — 200nm EEZs persist as sovereign zones even as physical land becomes marginal. Climate refugee resettlement in NZ, Fiji, and Australia is the primary response.
 
 **Polar regions:** The Arctic is transformed — ice-free summers, open-water conditions for 3-5 months, permafrost thaw destabilizing infrastructure across 100,000+ sq km of inhabited tundra. New shipping routes (Northwest Passage, Northern Sea Route) are open for 2-3 months of the year. Greenland's melting contributes accelerating sea level rise. Antarctic dynamics remain the planet's largest sea level wild card — West Antarctic ice sheet retreat is underway but the pace of collapse remains uncertain.
