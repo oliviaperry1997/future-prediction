@@ -387,8 +387,8 @@ Plans:
 
 Plans:
 - [x] 17-01-PLAN.md — KML (wip) rename + entity-config.json entity entries for all 7 Micronesian entities
-- [ ] 17-02-PLAN.md — borders-geopolitics.md Micronesia subsection (7 sub-entries, replaces US Pacific Territories stub)
-- [ ] 17-03-PLAN.md — economy.md + demographics.md Micronesia subsections
+- [x] 17-02-PLAN.md — borders-geopolitics.md Micronesia subsection (7 sub-entries, replaces US Pacific Territories stub)
+- [x] 17-03-PLAN.md — economy.md + demographics.md Micronesia subsections
 - [ ] 17-04-PLAN.md — culture.md + climate.md Micronesia subsections (D-07 climate risk differentiation)
 
 ### Phase 18: Polynesia Review
@@ -433,6 +433,6 @@ Plans:
 | 14. Western Europe Review | 4/4 | Complete   | 2026-05-29 |
 | 15. Australasia Review | 4/4 | Complete   | 2026-05-30 |
 | 16. Melanesia Review | 4/4 | Complete   | 2026-05-30 |
-| 17. Micronesia Review | 1/4 | In Progress | 2026-05-30 |
+| 17. Micronesia Review | 3/4 | In Progress | 2026-05-30 |
 | 18. Polynesia Review | — | Not started | — |
 | 19. Antarctica Review | — | Not started | — |
