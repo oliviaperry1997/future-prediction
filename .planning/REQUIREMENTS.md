@@ -101,7 +101,7 @@ Region-by-region plausibility audit for the 2050 snapshot. Each requirement cove
 
 ### Antarctica Review
 
-- [ ] **ANTA-01**: Antarctica — review complete
+- [x] **ANTA-01**: Antarctica — review complete
 
 ## Out of Scope
 
@@ -163,7 +163,7 @@ Region-by-region plausibility audit for the 2050 snapshot. Each requirement cove
 | OCEA-02 | Phase 16 | Complete |
 | OCEA-03 | Phase 17 | Pending |
 | OCEA-04 | Phase 18 | Pending |
-| ANTA-01 | Phase 19 | Pending |
+| ANTA-01 | Phase 19 | Complete |
 
 **Coverage:**
 - v1.1 requirements: 14 total

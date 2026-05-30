@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
 status: executing
-stopped_at: Phase 19 context gathered
-last_updated: "2026-05-30T16:43:47.322Z"
-last_activity: 2026-05-30 -- Phase 18 execution started
+stopped_at: Phase 19 Plan 01 complete
+last_updated: "2026-05-30T18:01:00.000Z"
+last_activity: 2026-05-30 -- Phase 19 Plan 01 complete (Antarctica claim-zone KML restructuring)
 progress:
   total_phases: 19
   completed_phases: 13
-  total_plans: 55
-  completed_plans: 56
-  percent: 100
+  total_plans: 59
+  completed_plans: 57
+  percent: 97
 ---
 
 # Project State
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-05-19)
 
 **Core value:** A coherent, grounded, internally consistent vision of how the world transforms between now and 2100, detailed enough to draw accurate maps at each quarter-century checkpoint.
-**Current focus:** Phase 18 — polynesia-review
+**Current focus:** Phase 19 — antarctica-review
 
 ## Current Position
 
-Phase: 18 (polynesia-review) — EXECUTING
-Plan: 1 of 4
-Status: Executing Phase 18
-Last activity: 2026-05-30 -- Phase 18 execution started
+Phase: 19 (antarctica-review) — EXECUTING
+Plan: 2 of 4
+Status: Ready to execute
+Last activity: 2026-05-30
 
 ## Performance Metrics
 
@@ -85,6 +85,10 @@ Last activity: 2026-05-30 -- Phase 18 execution started
 - Regenerate all overlay KMLs (climate, technology, economy, demographics, culture) if entity-set dependencies changed
 - Confirm no entity name mismatches between entity-config.json, user_colors.json, and KML `<name>` tags
 
+- [Phase 19 Plan 01]: GADM coastline geometry used as v1 for Antarctica claim-zone polygons; SCAR ADD ice-shelf data refinement deferred to follow-up
+- [Phase 19 Plan 01]: Adélie Land wedge (136°E–142°E) has no assigned polygon patches from existing GADM data — empty KML folder created for future refinement
+- [Phase 19 Plan 01]: British Antarctic Territory KML fill opacity reduced to 25% (kml_fill=408a8a8a) to signal dormant paper-claim status
+
 ### Blockers/Concerns
 
 None yet.
@@ -97,6 +101,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-30T16:43:47.313Z
-Stopped at: Phase 19 context gathered
-Resume file: .planning/phases/19-antarctica-review/19-CONTEXT.md
+Last session: 2026-05-30T17:47:52.000Z
+Stopped at: Phase 19 Plan 01 complete — 7 claim-zone KML folders, entity entries, color styles
+Resume file: .planning/phases/19-antarctica-review/19-01-SUMMARY.md
