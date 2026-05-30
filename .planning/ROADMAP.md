@@ -383,13 +383,14 @@ Plans:
   1. All 6 Micronesian entities assessed — no contradictions
   2. KML entities for Micronesia correct in Google Earth Pro
   3. All documentation gaps for Micronesian entities identified and filled
-**Plans**: 4 plans
+**Plans**: 5 plans
 
 Plans:
 - [x] 17-01-PLAN.md — KML (wip) rename + entity-config.json entity entries for all 7 Micronesian entities
 - [x] 17-02-PLAN.md — borders-geopolitics.md Micronesia subsection (7 sub-entries, replaces US Pacific Territories stub)
 - [x] 17-03-PLAN.md — economy.md + demographics.md Micronesia subsections
 - [x] 17-04-PLAN.md — culture.md + climate.md Micronesia subsections (D-07 climate risk differentiation)
+- [x] 17-05-PLAN.md — Review gap closure: Guam anchor fix + CNMI KML polygon addition
 
 ### Phase 18: Polynesia Review
 **Mode**: mvp
