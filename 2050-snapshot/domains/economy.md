@@ -767,14 +767,24 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 
 
 
-**Australia / New Zealand:**
-- **GDP:** ~$2T combined (~$1.6T Australia, ~$400B New Zealand)
-- **Dominant sectors:** Energy and resources (Australia — LNG, iron ore, coal — declining, lithium, rare earths — expanding; both — green hydrogen production potential), agriculture (Australia — wheat, beef, wool, wine; New Zealand — dairy, meat, wine, horticulture — premium export markets), technology services (both — fintech, agtech, climate tech), education (declining — international student market restructured post-US-collapse), finance (Sydney — Asia-Pacific financial hub, aligned with BRICS+)
-- **Trade partners and bloc alignment:** BRICS+ (observers — Australia pivoted to multipolar engagement after AUKUS effectively died), China (primary trade partner — iron ore, LNG, agricultural exports — complex relationship but economically essential), ASEAN, Japan, Korea, Pacifica (growing relationship). Both countries completed the transition from US client to multipolar actor by the 2040s.
-- **Economic model:** Social-democratic / mixed. Australia: Labor-dominated government (post-conservative decline). New Zealand: Progressive governance, nuclear-free since 1984. Both maintain strong welfare states, universal healthcare, and managed migration.
-- **Currencies:** Australian dollar (AUD) and New Zealand dollar (NZD) — both convertible to BCU and used in regional trade. Neither is a reserve currency but both are actively traded in Asia-Pacific markets.
-- **Labor market character:** Mixed automated. Mining and agriculture highly automated (autonomous trucks, drones, automated shearing/milking). Services mixed. Both countries maintain managed migration programs to address labor shortages. ~30M combined population (Australia ~26M, NZ ~5M).
-- **→ See KML: Australia/NZ**
+**Australia:**
+- **GDP:** ~$1.6T (AUD-denominated; ~1.2T BCU-equivalent at current exchange)
+- **Dominant sectors:** Critical minerals and resources (lithium, rare earths — the new strategic export replacing coal; iron ore and LNG declining but still substantial), green hydrogen production (major scaling investment since 2030s), agriculture (wheat, beef, wool, wine — export-oriented, increasingly Asia-Pacific markets), technology services (agtech, climate tech, fintech), finance (Sydney as Asia-Pacific financial hub with BRICS+ integration)
+- **Trade partners and bloc alignment:** China (primary — iron ore, LNG, critical minerals — the economic relationship is essential despite strategic complexity), ASEAN (deepening integration), Japan, Korea, Pacifica; BRICS+ observer (~2035) — trade invoiced increasingly in BCU and CNY rather than USD
+- **Economic model:** Social-democratic / mixed. Labor-dominated government post-conservative decline (2028 onward). Strong welfare state, universal healthcare, managed migration. Post-AUKUS defense reorientation absorbed $3B sunk cost and redirected to domestic capability (Mitsubishi frigates, missile production, cyber/signals) — a net economic adjustment, not a crisis.
+- **Currency:** Australian dollar (AUD) — convertible to BCU; actively traded in Asia-Pacific markets; not a reserve currency
+- **Labor market:** Highly automated in mining and agriculture (autonomous trucks, drones); services mixed; managed migration programs (Pacific Engagement Visa, skilled migration) fill labor gaps; climate-driven internal migration from heat-stressed inland regions ongoing
+- **→ See KML: Australia**
+- → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
+
+**New Zealand:**
+- **GDP:** ~$400B (NZD-denominated; ~280B BCU-equivalent)
+- **Dominant sectors:** Premium agriculture (dairy, meat, wine, horticulture — high-value export markets in Asia and Pacific), tourism (recovering but restructured — premium/ecotourism rather than mass market), climate tech and agtech, education services (restructured post-US-collapse; NZ positioned as stable Anglosphere education destination), finance (Wellington and Auckland — regional financial services)
+- **Trade partners and bloc alignment:** China (primary trade partner — dairy, meat, wood), Australia (CER — Closer Economic Relations, the deepest bilateral economic relationship), ASEAN, Pacific Islands Forum; non-aligned strategically; trades in multiple currencies (NZD, CNY, AUD, BCU)
+- **Economic model:** Progressive governance, nuclear-free since 1984. Strong welfare state, universal healthcare. The economic model NZ built in the 1980s-1990s proved robust through the US collapse period — no fundamental restructuring required, only reorientation of trade away from US markets.
+- **Currency:** New Zealand dollar (NZD) — stable, convertible; traded in Asia-Pacific markets
+- **Labor market:** Mixed automation; Pacific Access Category migration deepened (includes climate refugee resettlement from Tuvalu, Kiribati, other atoll states); services, agriculture, and healthcare are primary sectors
+- **→ See KML: New Zealand**
 - → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
 
 ## Driving Forces

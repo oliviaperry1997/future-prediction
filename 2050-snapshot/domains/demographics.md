@@ -838,17 +838,31 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 
 
 
-**Australia / New Zealand:**
-- **Population:** 35M (growing slowly — Australia ~28M, New Zealand ~7M)
-- **Age structure:** Median age 39, dependency ratio 54%
-- **TFR:** 1.7 (below replacement)
-- **Net migration:** +0.5%/yr (managed migration — Pacific Engagement Visa, skilled migration programs, climate refugee resettlement)
-- **Urbanization:** 88% (Sydney, Melbourne, Brisbane, Perth, Auckland, Wellington, Christchurch as primary urban centers)
-- **Life expectancy:** 83 (high — universal healthcare, clean environment in NZ; Australia's extreme heat regions creating health divergence)
-- **Labor force participation:** 62% (mining and agriculture highly automated; services mixed; managed migration fills labor gaps)
-- **Primary languages:** English, Mandarin, Indigenous languages (Māori, Aboriginal languages)
-- **→ See KML: Australia/NZ**
-- → See transition doc: [demographics.md Driver 2](../../2026-2050-transition/demographics.md#driver-2-climate-driven-migration-acceleration)
+**Australia:**
+- **Population:** ~28M (growing slowly at ~0.5%/yr via managed migration)
+- **Age structure:** Median age 40, dependency ratio 55%; ageing workforce partially offset by managed migration inflows
+- **TFR:** 1.6 (below replacement — below NZ's, reflecting higher cost-of-living pressure in urban centers)
+- **Net migration:** +0.6%/yr (managed programs: Pacific Engagement Visa, skilled migration; climate refugee resettlement from Pacific Islands; some climate-driven influx from Southeast Asia)
+- **Urbanization:** 90% (Sydney, Melbourne, Brisbane, Perth as primary urban centers; internal migration from heat-stressed inland and southwestern regions toward coast ongoing)
+- **Life expectancy:** 82 (universal healthcare baseline; divergence emerging between temperate coastal regions and heat-stressed inland zones — extreme heat events reducing life expectancy in vulnerable inland populations)
+- **Labor force participation:** 62% (highly automated mining and agriculture; services workforce sustained by managed migration; climate adaptation infrastructure construction absorbing significant labor)
+- **Ethnic composition:** Increasingly Asian-origin (Chinese, Indian, Vietnamese, Filipino) — Asian immigration has been the primary migration stream since the 2000s; post-US-collapse, Anglo-Celtic cultural dominance has substantially declined; Pacific Islander community growing via Pacific Engagement Visa
+- **Primary languages:** English, Mandarin, Aboriginal languages
+- **→ See KML: Australia**
+- → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
+
+**New Zealand:**
+- **Population:** ~7M (growing at ~1%/yr — higher than Australia, reflecting Pacific climate migrant intake)
+- **Age structure:** Median age 38, dependency ratio 52%
+- **TFR:** 1.8 (slightly higher than Australia — lower cost-of-living pressure outside Auckland; Māori and Pacific communities have higher TFRs than the national average)
+- **Net migration:** +1%/yr (Pacific Access Category expanded significantly post-climate crisis; Tuvalu, Kiribati, Cook Islands, Samoa as primary sending nations; skilled migration from UK and Ireland continued post-Brexit and US collapse)
+- **Urbanization:** 87% (Auckland dominates — ~35% of national population; Wellington, Christchurch, Hamilton as secondary centers; South Island remains relatively rural)
+- **Life expectancy:** 84 (universal healthcare, clean environment, temperate climate — NZ is one of the few developed nations whose life expectancy is improving rather than plateauing)
+- **Labor force participation:** 64% (services-heavy economy with Pacific and Māori communities well-integrated; Pacific climate migrants filling agricultural and healthcare labor needs)
+- **Ethnic composition:** European (Pākehā) ~50%, Māori ~20%, Pacific Islanders ~12% (growing rapidly), Asian ~15% (Chinese, Indian, Filipino); Māori language (te reo Māori) now widely spoken nationally
+- **Primary languages:** English, te reo Māori, Samoan, Tongan
+- **→ See KML: New Zealand**
+- → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
 
 ## Driving Forces
 
