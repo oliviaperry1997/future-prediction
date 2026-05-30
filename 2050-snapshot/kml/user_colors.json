@@ -1013,10 +1013,16 @@
     "kml_line": "ffbd90a5",
     "width": 1.0
   },
+  "CNMI": {
+    "hex": "#3cb371",
+    "kml_fill": "8071b33c",
+    "kml_line": "ff71b33c",
+    "width": 1.0
+  },
   "Guam": {
-    "hex": "#ffffff",
-    "kml_fill": "80ffffff",
-    "kml_line": "ff2dc0fb",
+    "hex": "#ff7f50",
+    "kml_fill": "80507fff",
+    "kml_line": "ff507fff",
     "width": 1.0
   },
   "Kiribati": {
@@ -1425,6 +1431,30 @@
     "hex": "#C8C103",
     "kml_fill": "8003C1C8",
     "kml_line": "ff03C1C8",
+    "width": 1.0
+  },
+  "American Samoa": {
+    "hex": "#e8923a",
+    "kml_fill": "803a92e8",
+    "kml_line": "ff3a92e8",
+    "width": 1.0
+  },
+  "Pitcairn": {
+    "hex": "#7fb37f",
+    "kml_fill": "807fb37f",
+    "kml_line": "ff7fb37f",
+    "width": 1.0
+  },
+  "Tokelau": {
+    "hex": "#c7709e",
+    "kml_fill": "809e70c7",
+    "kml_line": "ff9e70c7",
+    "width": 1.0
+  },
+  "Wallis and Futuna": {
+    "hex": "#609b9b",
+    "kml_fill": "809b9b60",
+    "kml_line": "ff9b9b60",
     "width": 1.0
   }
 }
