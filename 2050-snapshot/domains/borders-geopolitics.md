@@ -809,7 +809,50 @@ Oman's Muscat channel — the traditional diplomatic back-channel between Iran a
 
 **Pacific Islands:** "Blue Pacific" regionalism matured — the Pacific Islands Forum's 2050 Strategy delivered deepened regional governance, climate resilience financing, and collective diplomatic weight. Atoll states (Tuvalu, Kiribati, Marshall Islands) pioneered legal frameworks for sovereignty without habitable territory — their 200nm EEZs persist as sovereign zones even as physical land becomes marginal. **→ See KML: Pacific Islands Forum**
 
-**US Pacific Territories:** Guam affiliated with the Pacifica/HFS under a compact with significant local Chamorro autonomy — the military bases (Andersen AFB, Naval Base Guam) are jointly managed assets. American Samoa absorbed into the Hawaiian Free State. CNMI aligned with Japan. The constitutional orphans of the US collapse found new homes. **→ See KML: Guam / HFS Compact**
+#### Micronesia
+
+**Guam:** Revolutionary Stage 1-2 — Constitutional crisis. The most strategically significant US Pacific territory, Guam's post-US status is defined by its military infrastructure and Chamorro sovereignty claim.
+- **Territorial integrity:** Guam affiliated with Pacifica/HFS under a compact with significant Chamorro autonomy — the Chamorro Nation's right to self-determination is formally recognized within the compact framework. Andersen AFB and Naval Base Guam are jointly managed assets under Pacifica/HFS defense agreements. Guam's constitutional status transitions from "unincorporated territory" to "compact partner."
+- **Strategic posture:** Jointly managed military infrastructure — Andersen AFB (now Pacifica/HFS Pacific air hub) and Naval Base Guam (Pacific fleet anchor) — gives Guam strategic leverage in the post-US Pacific order. PIF observer status. Chamorro self-determination recognized by PIF member states.
+- **Key dynamics:** Economy transitioning off federal spending (which comprised ~30% of pre-collapse GDP) toward Pacific trade, tourism recovery, and compact revenue. Chamorro cultural renaissance — decolonization of American administrative legacy. High emigration pressure remains.
+- **US Minor Outlying Islands (brief note):** Wake Island is claimed by Marshall Islands (nuclear test legacy site, US-era airfield now dormant); Midway and Palmyra are wildlife refuges under HFS/Pacifica environmental administration; Johnston Atoll (chemical/nuclear test history) is under PPR remediation authority. All are uninhabited and strategically marginal.
+**→ See KML: Guam**
+
+**CNMI (Northern Mariana Islands):** Revolutionary Stage 1-2 — Reorientation. Japan-aligned by 2050, leveraging historical Japanese settlement ties and the collapse of US tourism that previously anchored its economy.
+- **Territorial integrity:** Post-US compact dissolved — CNMI entered a new bilateral arrangement with Japan that covers economic development and residency rights for the Japanese diaspora descendant community. Not a Japanese territory — a sovereign compact partner. US administrative legacy formally ended.
+- **Strategic posture:** Japan-aligned in a non-military economic compact framework. CNMI's geographical position (northern Marianas arc, south of Japan) gives Japan a non-militarized Pacific presence node. PIF observer. Low-profile diplomatically.
+- **Key dynamics:** Post-US tourism collapse (90% of economy pre-collapse was US-sourced tourism) forced structural reorientation. Japanese cultural and economic ties — historical Japanese colonial settlement (1914-1944) creates residual diaspora linkages — became the foundation of the new arrangement. Population contraction significant (~30% decline from peak emigration).
+**→ See KML: CNMI**
+
+**Kiribati:** Revolutionary Stage 2-3 — Climate Justice. Existential climate crisis as the central political reality; EEZ sovereignty without habitable territory as the legal innovation.
+- **Territorial integrity:** Most atoll land area reduced 30-50% — the Gilbert Islands archipelago faces freshwater lens salinization across multiple atolls. Kiribati's 200nm EEZ persists as the sovereign economic zone even as physical land becomes marginal (see "Pacific Islands" above for the EEZ-without-territory framework). Land purchase in Fiji (Vanua Levu) provides a physical resettlement anchor for the I-Kiribati community.
+- **Strategic posture:** PIF central actor in climate justice diplomacy. The EEZ-without-territory legal precedent — with Kiribati as the test case — gives Kiribati disproportionate diplomatic weight relative to its population. Climate Justice alliance with Tuvalu, Marshall Islands as the atoll state bloc.
+- **Key dynamics:** Managed resettlement to Fiji (land purchase) and New Zealand (Pacific Access Category) is the primary policy mechanism. I-Kiribati diaspora communities in Fiji and NZ maintain cultural ties to the EEZ. Fisheries revenue from EEZ licensing as the primary remaining economic base.
+**→ See KML: Kiribati**
+
+**Marshall Islands:** Revolutionary Stage 1-2 — Reorientation crisis. Post-COFA reorientation to a regional PIF framework arrangement; nuclear legacy as permanent diplomatic leverage.
+- **Territorial integrity:** Low-lying atolls — Majuro and Kwajalein as the administrative centers. COFA voided by US collapse; Marshall Islands negotiated a successor arrangement within a PIF-anchored regional framework. Wake Island claim against the US successor states (specifically HFS/Pacifica) reasserted — the Marshall Islands' 1979 claim was never formally resolved; post-US collapse provides the opportunity to press it.
+- **Strategic posture:** PIF-framework-aligned, leveraging the former US missile testing range at Kwajalein as a negotiating asset in the successor arrangement. Nuclear test legacy (Bikini, Enewetak) as permanent diplomatic leverage in climate and reparations forums.
+- **Key dynamics:** Post-COFA aid dependency transferred to the PIF regional framework — the structural dependency on external patron aid remains, but is now distributed across PIF climate finance, Australia, and NZ rather than concentrated in a single patron. EEZ fisheries revenue. Nuclear remediation at Bikini and Enewetak ongoing.
+**→ See KML: Marshall Is.**
+
+**Micronesia (FSM):** Revolutionary Stage 1-2 — Reorientation crisis. Post-COFA reorientation to Chinese patronage; geographically dispersed four-state federation navigating patron transition.
+- **Territorial integrity:** Four island states (Yap, Chuuk, Pohnpei, Kosrae) — FSM's internal fragmentation risk (Chuuk independence movement) is the primary internal pressure. Post-COFA patron arrangement provides the economic floor that keeps the federation viable.
+- **Strategic posture:** China-aligned in the post-COFA successor arrangement. FSM's geographic centrality in the western Pacific makes it a contested node in the broader great-power competition for Micronesian positioning — China's Solomon Islands model extended westward to FSM.
+- **Key dynamics:** COFA's end removed US Compact revenue (~$100M/year) — China replaced this funding stream through infrastructure investment and direct budget support. Remittances from FSM diaspora in the US successor states (Guam, HFS) remain significant. Chuuk's independence movement gained momentum in the instability of the COFA transition.
+**→ See KML: Micronesia**
+
+**Nauru:** Revolutionary Stage 1-2 — Dependent reorientation. Phosphate-depleted micro-state with no resource anchor; survival through external patronage and EEZ licensing.
+- **Territorial integrity:** Single 21 sq km island; no territorial complexity. The phosphate plateau that once provided national income is effectively exhausted (mined to ~80% depletion by 2000). Nauru's sovereignty is not contested — it is simply marginal.
+- **Strategic posture:** Australia-aligned pragmatist — Nauru's long history of Australian offshore processing dependency (Nauru Regional Processing Centre) shaped an enduring patron relationship. Nauru leveraged this dependency into stable economic support within the Australian orbit.
+- **Key dynamics:** Australian offshore processing legacy has shaped Nauru-Australia relations — Nauru leveraged this dependency into economic support that outlasted the detention centre's operational phase. EEZ fisheries licensing as primary revenue. Population contraction from phosphate-era immigration reversal. Nauru's 2050 viability is patron-dependent.
+**→ See KML: Nauru**
+
+**Palau:** Revolutionary Stage 1-2 — Reorientation crisis. Post-COFA reorientation to Japanese patronage; Taiwan/Japan alignment history shapes the successor arrangement.
+- **Territorial integrity:** Palau's Rock Islands and full archipelago intact. No territorial disputes. Post-COFA patron arrangement negotiated from a relatively strong position — Palau's intact governance and Taiwan-aligned history made Japan the natural successor partner.
+- **Strategic posture:** Japan-aligned. Palau's historical stance (Taiwan recognition held longest among Pacific states, formal US military access) positions it as the most pro-Western-aligned of the post-COFA states in the post-US order. Japan provides the economic compact that replaced COFA without requiring strategic realignment toward China.
+- **Key dynamics:** Tourism-dependent economy (pre-collapse: 100K+ visitors/year, mainly from Japan, Taiwan, China) — recovery trajectory in the post-collapse period toward Japanese and Australian tourist markets. Marine biodiversity conservation as soft power asset. Small population (~18K) means external support viability.
+**→ See KML: Palau**
 
 ### Polar Regions
 
