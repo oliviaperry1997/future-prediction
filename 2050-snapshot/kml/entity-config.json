@@ -271,13 +271,14 @@
         "Solomon Is.",
         "Vanuatu"
       ],
-      "Micronesia (wip)": [
+      "Micronesia": [
         "Guam",
         "Kiribati",
         "Marshall Is.",
         "Micronesia",
         "Nauru",
-        "Palau"
+        "Palau",
+        "CNMI"
       ],
       "Polynesia (wip)": [
         "Cook Is.",
@@ -1824,6 +1825,60 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "guam",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#guam-hfs-compact"
+    },
+    "Kiribati": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "KIR",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "kiribati",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#kiribati"
+    },
+    "Marshall Is.": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "MHL",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "marshall-islands",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#marshall-islands"
+    },
+    "Micronesia": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "FSM",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "fsm",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#micronesia-fsm"
+    },
+    "Nauru": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "NRU",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "nauru",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#nauru"
+    },
+    "Palau": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "PLW",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "palau",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#palau"
+    },
+    "CNMI": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "MNP",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "cnmi",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#cnmi"
     },
     "Cayenne": {
       "type": "entity",
