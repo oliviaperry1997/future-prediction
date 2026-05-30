@@ -748,9 +748,24 @@ Oman's Muscat channel — the traditional diplomatic back-channel between Iran a
 
 ### Oceania
 
-**Australia:** An independent middle power — the revolutionary pivot completed. AUKUS is dead (US submarines never arrived). Australia engaged BRICS+ as an observer, diversified trade to China and ASEAN, and built an independent defense posture. The transition from US client to multipolar actor was painful but complete by the 2040s. **→ See KML: Australia**
+### Australasia
 
-**New Zealand:** The quiet revolutionary model — independent foreign policy, nuclear-free since 1984, progressive governance, deepening Pacifica alignment. The US collapse changed nothing for New Zealand's strategic posture; it was already outside the US orbit. A stable, comfortable small-state model. **→ See KML: New Zealand**
+**Australia:** Revolutionary Stage 3 — structural pivot complete, cultural consolidation ongoing. The defining story of 2050 Australia is the end of 80 years of US-alliance dependency. AUKUS collapsed by 2030 when US submarine deliveries failed to materialize (Pentagon capacity constraints + "America First" lens); Australia absorbed the $3B sunk cost and redirected defense investment to independent capability (Mitsubishi frigates contract, domestic missile production, expanded cyber and signals intelligence capacity).
+- **Territorial integrity:** Unchanged — Australian mainland, Tasmania, and 4 external territories (Christmas Island, Cocos Keeling Islands, Heard/McDonald Islands, Norfolk Island) remain sovereign Australian territory. No territorial changes by 2050.
+- **Strategic posture:** BRICS+ observer (formalized ~2035 after AUKUS collapse made fence-sitting untenable). Five Eyes residual — intelligence-sharing with UK, Canada, NZ continues but the US anchor is gone; the network functions as a "Four Eyes" arrangement in practice.
+- **US presence ended:** Pine Gap (joint surveillance facility) and Darwin marine rotations ended ~2032 following the US federal collapse. Pine Gap transitioned to Australian sovereign intelligence use under a bilateral arrangement with the UK; Darwin is now a purely Australian naval facility with ASEAN partner rotation access.
+- **Economic reorientation:** China remains the primary trade partner (iron ore, LNG, rare earths, agricultural exports — the relationship is complex but economically essential). Lithium and rare earth processing investments have deepened the China-Australia economic relationship even as Australia pursued strategic autonomy. ASEAN integration deepened; Pacific Island relationships expanded (climate refugee resettlement, Pacific Engagement Visa).
+- **Climate vulnerability:** One of the world's most climate-stressed developed nations — Black Summer fire seasons are now typical, extreme heat (50°C+) across inland and southwestern Australia is routine, Great Barrier Reef bleached below 10% coral cover. Climate adaptation is a major governance priority; a partial internal migration from heat-stressed inland regions toward the coast and NW is underway.
+- **→ See KML: Australia**
+- → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
+
+**New Zealand:** Revolutionary Stage 4 — the proof of concept. New Zealand chose the correct path in 1984 (nuclear-free declaration, Closer Economic Relations, independent foreign policy) and the US collapse simply vindicated what NZ had already built. No dramatic adjustment was required — NZ was already outside the US security orbit. A stable, prosperous small-state model.
+- **Territorial integrity:** Unchanged — North Island, South Island, Stewart Island, and associated outlying islands remain sovereign NZ territory. (NZ associated territories — Cook Islands, Niue, Tokelau — are addressed in the Polynesia regional review.)
+- **Strategic posture:** Non-aligned in practice; Five Eyes residual participation (signals intelligence); deepening Pacific regionalism via the Pacific Islands Forum. No AUKUS involvement — NZ was excluded from AUKUS from the start, which proved prescient.
+- **Pacific role:** Climate migration from Pacific Island states (particularly Tuvalu, Kiribati) has deepened NZ-Pacific integration. NZ's Pacific Access Category and climate refugee resettlement programs have been the model for managed Pacific migration.
+- **Economic character:** Social-democratic, progressive governance, nuclear-free since 1984. Premium agricultural exports (dairy, meat, wine, horticulture), growing climate tech and agtech sectors, education services. Economy remains stable and well-managed — NZ avoided the volatility of the US-dependent Anglosphere states.
+- **→ See KML: New Zealand**
+- → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
 
 **Pacific Islands:** "Blue Pacific" regionalism matured — the Pacific Islands Forum's 2050 Strategy delivered deepened regional governance, climate resilience financing, and collective diplomatic weight. Atoll states (Tuvalu, Kiribati, Marshall Islands) pioneered legal frameworks for sovereignty without habitable territory — their 200nm EEZs persist as sovereign zones even as physical land becomes marginal. **→ See KML: Pacific Islands Forum**
 
