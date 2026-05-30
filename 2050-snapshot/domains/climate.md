@@ -203,6 +203,42 @@ The Mediterranean basin is experiencing warming at 1.5-2× the global average ra
 - **Wildfire risk:** NZ is not immune — fire risk has increased in the South Island's eastern rain shadow zones (Canterbury, Otago). But fire events remain manageable at current frequency.
 - **→ See KML: New Zealand**
 
+**Melanesia:**
+
+**Fiji:** Pacific climate anchor — cyclone risk, but also the primary destination for climate-displaced Pacific Islanders.
+- **Cyclone exposure:** Category 4-5 cyclones are the primary climate hazard — Cyclone Winston (2016, Category 5) was the strongest ever recorded in the Southern Hemisphere. Cyclone frequency and intensity are increasing. Fiji's building codes and disaster preparedness are the most developed in the Pacific outside Australia/NZ.
+- **Climate destination:** Fiji is the primary resettlement destination for climate-displaced Pacific Islanders from atoll states. Kiribati has purchased land in Fiji for community relocation; Tuvaluan and I-Kiribati communities are establishing permanent settlements. Fiji's relative elevation and cyclone resilience make it a climate refuge compared to low-lying atoll states.
+- **Sea-level footnote:** Fiji has low-lying coastal areas and atoll outliers (Lau group) that face sea-level pressure, but the main islands are volcanic and elevated — the primary risk is cyclone, not inundation.
+- **→ See KML: Fiji**
+
+**Kanaky:** Cyclone corridor with stable elevated terrain; nickel mining-amplified environmental risk.
+- **Cyclone risk:** Grande Terre's mountainous spine provides relative protection, but Loyalty Islands and coastal lowlands face cyclone exposure. Southern Hemisphere cyclone season (November-April) brings periodic major events.
+- **Nickel extraction climate interaction:** Nickel mining operations on Grande Terre involve significant deforestation and topsoil disruption — increasing erosion, flash flooding, and lagoon sedimentation. The post-independence government faces pressure to improve environmental standards inherited from the colonial mining era.
+- **→ See KML: Kanaky**
+
+**Papua New Guinea:** Deforestation-driven climate amplification in a high-rainfall tropical environment.
+- **Deforestation feedback:** PNG's tropical forests (8% of world's remaining rainforest) are under extraction pressure — logging, palm oil conversion, and mining deforestation. Forest loss amplifies regional temperature increase and disrupts rainfall patterns.
+- **Highlands flooding:** Increased rainfall intensity in the Highlands drives flash flooding and landslides — the 2024 Southern Highlands landslide (2,000+ deaths) is an early indicator of this intensifying trend. Infrastructure collapse during extreme events is a recurring governance crisis.
+- **Coastal lowland flooding:** PNG's extensive coastal lowlands (Gulf and Western Provinces) face increasing tidal flooding. Low-lying island communities (Carteret Islands) are among the world's first climate-displaced communities — beginning resettlement to mainland Bougainville as early as 2008.
+- **→ See KML: Papua New Guinea**
+
+**Solomon Islands:** Cyclone exposure and coral reef ecosystem collapse threatening food security.
+- **Cyclone corridor:** Solomon Islands lies in an active cyclone track. Cyclone Pam (2015) and Harold (2020) caused severe damage. Infrastructure recovery is slow given economic constraints.
+- **Reef ecosystem:** The Solomon Islands' coral reefs — critical for food security (coastal protein) and fisheries — are experiencing bleaching events with increasing frequency. By 2050, widespread reef degradation has affected the food security of coastal communities that depend on reef fisheries.
+- **→ See KML: Solomon Is.**
+
+**Vanuatu:** World's highest disaster risk score — cyclone, volcanic, and seismic convergence.
+- **Disaster risk:** Vanuatu consistently scores the highest on the World Risk Index — the convergence of cyclone exposure, active volcanic risk, and seismic activity (subduction zone) creates a uniquely high multi-hazard profile.
+- **Active volcanoes:** Yasur (Tanna — continuously erupting for 800+ years), Manaro (Ambae — major eruption 2017-2018 forced full-island evacuation), and multiple submarine volcanoes. Volcanic risk drives recurring island evacuations and permanent community relocation.
+- **Cyclone intensification:** Cyclone Pam (2015, Category 5) effectively devastated Vanuatu's economy. Category 4-5 events have increased in the 2026-2050 period — Vanuatu's disaster recovery cycle has shortened as events become more frequent.
+- **Climate adaptation laboratory:** Vanuatu has become a Pacific leader in community-level disaster resilience — traditional safe house designs, seed saving, and community relocation protocols developed over generations of cyclone/volcanic experience are now formally integrated into national disaster management.
+- **→ See KML: Vanuatu**
+
+**Bougainville:** Tropical climate with mining-amplified environmental risk.
+- **Climate profile:** Tropical — high rainfall, cyclone exposure (at the edge of the Solomon Islands cyclone track). No distinct volcanic risk separate from the broader PNG region.
+- **Mining environmental risk:** Panguna mine reopening brings environmental risk — acid mine drainage into the Kawerong River system (a legacy of the original 1972-1989 mine operation). Environmental monitoring is a condition of Chinese investment agreements, but enforcement is contested.
+- **→ See KML: Bougainville**
+
 **Pacific Island atoll states:** Existential crisis from sea level rise — Tuvalu, Kiribati, and the Marshall Islands have lost 30-50% of habitable land area. Saltwater intrusion has destroyed freshwater lenses across multiple atolls, forcing relocation. New legal frameworks for "sovereignty without habitable territory" — 200nm EEZs persist as sovereign zones even as physical land becomes marginal. Climate refugee resettlement in NZ, Fiji, and Australia is the primary response.
 
 **Polar regions:** The Arctic is transformed — ice-free summers, open-water conditions for 3-5 months, permafrost thaw destabilizing infrastructure across 100,000+ sq km of inhabited tundra. New shipping routes (Northwest Passage, Northern Sea Route) are open for 2-3 months of the year. Greenland's melting contributes accelerating sea level rise. Antarctic dynamics remain the planet's largest sea level wild card — West Antarctic ice sheet retreat is underway but the pace of collapse remains uncertain.

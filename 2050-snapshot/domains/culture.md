@@ -411,6 +411,42 @@ The 2050 linguistic landscape reflects the end of US hegemony and the multipolar
 - **→ See KML: New Zealand**
 - → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
 
+**Melanesia:**
+
+**Fiji:** Pacific cultural crossroads — iTaukei and Indo-Fijian duality resolved through shared Pacific civic identity.
+- **Cultural duality:** The iTaukei (indigenous Fijian) and Indo-Fijian communities have moved from post-coup tension toward a shared Fijian civic identity — not without friction, but with the 2013 constitution's "equal citizenry" framework gradually taking hold. The US collapse and the demonstration that colonial-era hierarchies were arbitrary accelerated reconciliation.
+- **Pacific hub identity:** Fiji positions itself as the cultural gateway to the Pacific — hosting regional institutions, diplomatic missions, and the Pacific Games. The "Pacific way" — consensus, communal decision-making, relationship-based governance — is most institutionally developed in Fiji.
+- **Decolonization of British institutional legacy:** The common law, parliamentary system, and rugby (a Fijian cultural obsession and national identity anchor) are thoroughly indigenized — British forms now serve Fijian content.
+- **→ See KML: Fiji**
+
+**Kanaky:** Kanak cultural sovereignty as the substance of independence — kastom law and kaneka identity restored.
+- **Independence as cultural victory:** For the Kanak people, independence is not primarily a political event — it is the reinstatement of Kanak sovereignty over land, customary law, and cultural practice that colonialism subordinated for 130 years. Kastom law (customary governance through clans and chiefs) operates alongside the new state's formal institutions.
+- **Kanak identity:** Kaneka music (a fusion of traditional Kanak and global musical influences) is the cultural expression of the independence era. Kanak languages (33 distinct languages across Grande Terre) are experiencing revitalization — now taught in schools alongside French (which remains a lingua franca).
+- **Post-French transition:** French language and Catholic institutions remain as cultural layers but are recontextualized — French is a tool, not an identity. The Caldoche (French-origin Kanaky citizens who remained) have largely adapted to the new cultural order.
+- **→ See KML: Kanaky**
+
+**Papua New Guinea:** World's most culturally diverse nation — 800+ languages, kastom governance at village level persisting despite state failure.
+- **Linguistic diversity:** PNG has 800+ languages — approximately 12% of all human languages. No single language or ethnic group holds national dominance. Tok Pisin (PNG Creole) and Hiri Motu serve as lingua francas; English is the official language of governance. This diversity is a cultural achievement — one of the last places where pre-colonial language communities have survived intact.
+- **Kastom governance:** At village level, Melanesian kastom (customary law and practice) operates as the real governance system — bride price, land tenure, dispute resolution, and community obligations are kastom-governed. The formal state is distant from most people's daily lives. State failure at the national level coexists with functional community-level governance.
+- **Tension:** Urban PNG (Port Moresby, Lae) is increasingly disconnected from kastom — urban crime, gang structures (raskol gangs), and the breakdown of traditional social controls create a dual-world culture.
+- **→ See KML: Papua New Guinea**
+
+**Solomon Islands:** Island identity and the cultural pride of strategic agency.
+- **Island identity:** Solomon Islands' 80+ island communities maintain distinct cultural identities — no national cultural homogeneity. The Guadalcanal-Malaita tension (which drove the 1998-2003 conflict) has calmed but the distinct identities remain. Kastom (customary law and practice) governs land, marriage, and community life.
+- **Strategic agency as cultural pride:** The 2022 China security agreement — widely criticized by Australia and Western commentators — is experienced domestically as cultural pride: Solomon Islands made its own strategic choice, refused to be told what to do, and demonstrated that Pacific small states have agency. This narrative is culturally significant.
+- **→ See KML: Solomon Is.**
+
+**Vanuatu:** World's highest language density — Pacific non-alignment as cultural heritage.
+- **Language ecology:** Vanuatu has more languages per capita than any other nation — 100+ indigenous languages for ~500K people. Bislama (Vanuatu Creole) is the national lingua franca. French and English are official languages (the only Pacific nation with French-English dual official languages from colonial legacy).
+- **Non-alignment as identity:** Vanuatu's 1980 independence was explicitly non-aligned — "the Vanuatu way" of independence from all great powers is a cultural identity, not just a policy. This predates and informs the broader Blue Pacific non-alignment tradition.
+- **Custom governance:** The National Council of Chiefs (Malvatu Mauri) is constitutionally recognized — one of the few Pacific nations where customary governance has formal constitutional status alongside the parliamentary system.
+- **→ See KML: Vanuatu**
+
+**Bougainville:** Bougainvillean identity as the cultural foundation of independence — distinct people, distinct nation.
+- **Distinct identity:** Bougainvilleans have a distinct cultural and physical identity — darker skin (sometimes described as "black" by other Melanesians), distinct language groups (Nasioi, Halia, others), and a regional identity that predates colonial borders. The 1989-1997 civil war was as much a cultural assertion as a political one.
+- **Post-conflict reconciliation:** The 2001 Bougainville Peace Agreement's truth and reconciliation process established kastom-based reconciliation mechanisms as the primary post-conflict healing framework — the Bougainvillean cultural approach to the conflict's legacy.
+- **→ See KML: Bougainville**
+
 ## Driving Forces
 
 Briefly — key cultural drivers from the 2026-2049 transition period, with → See transition doc: references:
