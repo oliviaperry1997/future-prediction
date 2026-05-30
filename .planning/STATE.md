@@ -4,13 +4,13 @@ milestone: v1.1
 milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
 status: executing
 stopped_at: Phase 19.1 Plan 01 complete — 6 sector-clipped claim zones nested under parents, BAT removed
-last_updated: "2026-05-30T19:14:37.000Z"
-last_activity: 2026-05-30 -- Phase 19.1 Plan 01 executed
+last_updated: "2026-05-30T19:23:08.547Z"
+last_activity: 2026-05-30
 progress:
   total_phases: 20
   completed_phases: 12
   total_plans: 55
-  completed_plans: 59
+  completed_plans: 60
   percent: 100
 ---
 
@@ -26,7 +26,7 @@ See: .planning/PROJECT.md (updated 2026-05-19)
 ## Current Position
 
 Phase: 19.1 (Antarctica Gap Closure) — EXECUTING
-Plan: 2 of 4
+Plan: 3 of 4
 Status: Ready to execute
 Last activity: 2026-05-30
 
@@ -57,6 +57,7 @@ Last activity: 2026-05-30
 | Phase 19 P02 | 3min | 2 tasks | 1 files |
 | Phase 19-antarctica-review P03 | 5min | 2 tasks | 2 files |
 | Phase 19-antarctica-review P04 | 3min | 3 tasks | 3 files |
+| Phase 19.1 P02 | 172 | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -90,6 +91,11 @@ Last activity: 2026-05-30
 - [Phase 19.1 Plan 01]: Argentine-Chilean Peninsula clipped to 53°W–90°W; verified range -89.89 to -53.22 with 0 coordinates outside sector (D-B)
 - [Phase 19.1 Plan 01]: Claim zones nested under parent entities in KML: AAT→Australia, Ross→NZ, Adélie+Dronning→EF, CMBL→China; ACP standalone (D-D)
 - [Phase 19.1 Plan 01]: BAT removed from all 3 files: KML folder+style, entity-config entry, user_colors entry (D-G)
+- [Phase ?]: UK Antarctic claim defunct per D-G
+- [Phase ?]: Australia AAT leasing framework: India primary lessee, resource-access agreement ~2040
+- [Phase ?]: Claim zones documented as nested under parent entities (D-D extended to narrative)
+- [Phase ?]: Argentine-Chilean Joint Peninsula standalone — only zone not nested under single parent
+- [Phase ?]: BAT sector (20W-53W) reclassified as unadministered Antarctic territory
 
 ### Pending Todos
 
@@ -113,6 +119,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-30T19:14:37.000Z
+Last session: 2026-05-30T19:22:52.975Z
 Stopped at: Phase 19.1 Plan 01 complete — 6 sector-clipped claim zones nested under parents, BAT removed
 Resume file: None
