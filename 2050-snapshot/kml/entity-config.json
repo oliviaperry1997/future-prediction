@@ -289,28 +289,13 @@
         "Wallis and Futuna"
       ]
     },
-    "Australia": [
-      "Australian Antarctic Territory"
-    ],
-    "New Zealand": [
-      "Ross Dependency"
-    ],
-    "European Federation": [
-      "Ad\u00e9lie Land",
-      "Dronning Maud Land"
-    ],
-    "China": [
-      "Chinese Marie Byrd Land"
-    ],
-    "South Africa": [
-      "South African Antarctic Territory"
-    ],
-    "India": [
-      "Indian Antarctic Territory"
-    ],
-    "Brazil": [
-      "Brazilian Antarctic Territory"
-    ]
+    "Australia": [],
+    "New Zealand": [],
+    "European Federation": [],
+    "China": [],
+    "South Africa": [],
+    "India": [],
+    "Brazil": []
   },
   "entities": {
     "Pacifica": {
@@ -622,7 +607,8 @@
       "country_code": "BRA",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "brazil",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#brazil"
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#brazil",
+      "antarctic_territory": "Includes Brazilian Antarctic Territory (20\u00b0W\u201353\u00b0W, former BAT sector)"
     },
     "Argentina": {
       "type": "entity",
@@ -755,7 +741,8 @@
       },
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "european-union",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#european-union"
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#european-union",
+      "antarctic_territory": "Includes Dronning Maud Land (20\u00b0W\u201345\u00b0E, via Norway) and Ad\u00e9lie Land (136\u00b0E\u2013142\u00b0E, via France)"
     },
     "Russia": {
       "type": "entity",
@@ -1037,7 +1024,8 @@
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "south-africa",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#south-africa"
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#south-africa",
+      "antarctic_territory": "Includes South African Antarctic Territory (45\u00b0E\u201360\u00b0E, Enderby+Kemp Land)"
     },
     "China": {
       "type": "entity",
@@ -1051,7 +1039,8 @@
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "china",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#china"
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#china",
+      "antarctic_territory": "Includes Marie Byrd Land (90\u00b0W\u2013150\u00b0W, formal claim under Santiago Protocol)"
     },
     "DPRK": {
       "type": "entity",
@@ -1084,7 +1073,8 @@
       "country_code": "IND",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "india",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#india"
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#india",
+      "antarctic_territory": "Includes Indian Antarctic Territory (60\u00b0E\u2013100\u00b031'32.5\"E, purchased from Australia)"
     },
     "Japan": {
       "type": "entity",
@@ -1160,7 +1150,8 @@
         "source/manual/Cocos-Islands.kml",
         "source/manual/Heard-McDonald-Islands.kml",
         "source/manual/Norfolk-Island.kml"
-      ]
+      ],
+      "antarctic_territory": "Includes Australian Antarctic Territory (100\u00b031'32.5\"E\u2013136\u00b0E + 142\u00b0E\u2013160\u00b0E)"
     },
     "Kanaky": {
       "type": "entity",
@@ -1178,7 +1169,8 @@
       "country_code": "NZL",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "new-zealand",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#new-zealand"
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#new-zealand",
+      "antarctic_territory": "Includes Ross Dependency (160\u00b0E\u2013150\u00b0W)"
     },
     "Pacific Islands Forum": {
       "type": "entity",
@@ -1731,16 +1723,6 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Ad\u00e9lie Land": {
-      "type": "entity",
-      "category": "global",
-      "source": "custom",
-      "country_code": "ATA-FR",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/kml/borders.kml (nested under European Federation)",
-      "parent_entity": "European Federation"
-    },
     "Argentine-Chilean Peninsula": {
       "type": "entity",
       "category": "global",
@@ -1748,47 +1730,8 @@
       "country_code": "ATA-ARCL",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/kml/borders.kml (standalone)"
-    },
-    "Australian Antarctic Territory": {
-      "type": "entity",
-      "category": "global",
-      "source": "custom",
-      "country_code": "ATA-AUS",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/kml/borders.kml (nested under Australia)",
-      "parent_entity": "Australia"
-    },
-    "Chinese Marie Byrd Land": {
-      "type": "entity",
-      "category": "global",
-      "source": "custom",
-      "country_code": "ATA-CN",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/kml/borders.kml (nested under China)",
-      "parent_entity": "China"
-    },
-    "Dronning Maud Land": {
-      "type": "entity",
-      "category": "global",
-      "source": "custom",
-      "country_code": "ATA-NO",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/kml/borders.kml (nested under European Federation)",
-      "parent_entity": "European Federation"
-    },
-    "Ross Dependency": {
-      "type": "entity",
-      "category": "global",
-      "source": "custom",
-      "country_code": "ATA-NZ",
-      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
-      "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/kml/borders.kml (nested under New Zealand)",
-      "parent_entity": "New Zealand"
+      "see_path": "See: 2050-snapshot/kml/borders.kml (standalone)",
+      "note": "ACJAT \"San Mart\u00edn\" \u2014 Chile with Argentine condominium (53\u00b0W\u201390\u00b0W). The only claim zone not integrated into a parent state."
     },
     "Hawaii": {
       "type": "entity",
@@ -2547,36 +2490,6 @@
         "Syria",
         "Hejaz"
       ]
-    },
-    "South African Antarctic Territory": {
-      "type": "entity",
-      "category": "global",
-      "source": "Santiago Protocol claim purchase (2044) \u2014 Enderby+Kemp Land purchased from Australia",
-      "domain_doc": "borders-geopolitics.md",
-      "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/kml/borders.kml (South African Antarctic Territory)",
-      "parent_entity": "South Africa",
-      "country_code": "ATA-ZA"
-    },
-    "Indian Antarctic Territory": {
-      "type": "entity",
-      "category": "global",
-      "source": "Santiago Protocol claim purchase (2043-2044) \u2014 Mac. Robertson/Princess Elizabeth/Kaiser Wilhelm II/Queen Mary Land purchased from Australia",
-      "domain_doc": "borders-geopolitics.md",
-      "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/kml/borders.kml (Indian Antarctic Territory)",
-      "parent_entity": "India",
-      "country_code": "ATA-IN"
-    },
-    "Brazilian Antarctic Territory": {
-      "type": "entity",
-      "category": "global",
-      "source": "Santiago Protocol claim filing (2046) \u2014 former British Antarctic Territory sector",
-      "domain_doc": "borders-geopolitics.md",
-      "section_anchor": "antarctica",
-      "see_path": "See: 2050-snapshot/kml/borders.kml (Brazilian Antarctic Territory)",
-      "parent_entity": "Brazil",
-      "country_code": "ATA-BR"
     }
   },
   "fragmented_entities": {},

@@ -461,43 +461,6 @@
     "kml_line": "ff523ea1",
     "width": 1.0
   },
-  "Ad\u00e9lie Land": {
-    "hex": "#2b5c8f",
-    "kml_fill": "808f5c2b",
-    "kml_line": "ff8f5c2b",
-    "width": 1.0
-  },
-  "Argentine-Chilean Peninsula": {
-    "hex": "#8b3a2b",
-    "kml_fill": "802b3a8b",
-    "kml_line": "ff2b3a8b",
-    "width": 1.0,
-    "note": "ACJAT San Mart\u00edn \u2014 Chile with Argentine condominium (53\u00b0W\u201390\u00b0W)"
-  },
-  "Australian Antarctic Territory": {
-    "hex": "#1f2d4a",
-    "kml_fill": "804a2d1f",
-    "kml_line": "ff4a2d1f",
-    "width": 1.0
-  },
-  "Chinese Marie Byrd Land": {
-    "hex": "#bf2c23",
-    "kml_fill": "80232cbf",
-    "kml_line": "ff232cbf",
-    "width": 1.0
-  },
-  "Dronning Maud Land": {
-    "hex": "#3a6b8f",
-    "kml_fill": "808f6b3a",
-    "kml_line": "ff8f6b3a",
-    "width": 1.0
-  },
-  "Ross Dependency": {
-    "hex": "#1a6b4d",
-    "kml_fill": "804d6b1a",
-    "kml_line": "ff4d6b1a",
-    "width": 1.0
-  },
   "Kazakhstan": {
     "hex": "#57bbe4",
     "kml_fill": "80e4bb57",
@@ -1481,26 +1444,5 @@
     "kml_fill": "809b9b60",
     "kml_line": "ff9b9b60",
     "width": 1.0
-  },
-  "South African Antarctic Territory": {
-    "hex": "#3A9455",
-    "kml_fill": "803a9455",
-    "kml_line": "ff3a9455",
-    "styleId": "__managed_style_0000000000000268",
-    "note": "South African Antarctic Territory \u2014 Enderby+Kemp Land (SA green)"
-  },
-  "Indian Antarctic Territory": {
-    "hex": "#FF9933",
-    "kml_fill": "80ff9933",
-    "kml_line": "ffff9933",
-    "styleId": "__managed_style_0000000000000269",
-    "note": "Indian Antarctic Territory \u2014 Mac. Robertson/Princess Elizabeth/Kaiser Wilhelm II/Queen Mary Land (India saffron)"
-  },
-  "Brazilian Antarctic Territory": {
-    "hex": "#009C3B",
-    "kml_fill": "80009c3b",
-    "kml_line": "ff009c3b",
-    "styleId": "__managed_style_000000000000026A",
-    "note": "Brazilian Antarctic Territory \u2014 former BAT sector (Brazil green)"
   }
 }

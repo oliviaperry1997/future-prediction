@@ -11924,7 +11924,7 @@
               </outerBoundaryIs>
             </Polygon>
           </Placemark>
-        <Folder><name>South African Antarctic Territory</name><Placemark><name>South African Antarctic Territory</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000078</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>45.020885,-67.731624,0
+        <Placemark><name>South Africa</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000078</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>45.020885,-67.731624,0
 45.020885,-67.731622,0
 45.131114,-67.718440,0
 45.208263,-67.724666,0
@@ -12376,7 +12376,7 @@
 45.000000,-90.000000,0
 45.000000,-67.731430,0
 45.038562,-67.731855,0
-45.020885,-67.731624,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>South African Antarctic Territory</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000078</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>48.773692,-66.720473,0
+45.020885,-67.731624,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>South Africa</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000078</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>48.773692,-66.720473,0
 48.808930,-66.767348,0
 48.763357,-66.783298,0
 48.594737,-66.777520,0
@@ -12387,7 +12387,7 @@
 48.305024,-66.721612,0
 48.375255,-66.699151,0
 48.725352,-66.703058,0
-48.773692,-66.720473,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder></Folder>
+48.773692,-66.720473,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder>
       </Folder>
       <Folder>
         <name>Western Africa</name>
@@ -39442,7 +39442,7 @@
               </outerBoundaryIs>
             </Polygon>
           </Placemark>
-        <Folder><name>Brazilian Antarctic Territory</name><Placemark><name>Brazilian Antarctic Territory</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000048</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-52.576161,-76.869319,0
+        <Placemark><name>Brazil</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000048</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-52.576161,-76.869319,0
 -52.106679,-76.878841,0
 -52.059865,-76.873836,0
 -52.047841,-76.869075,0
@@ -39953,7 +39953,7 @@
 -53.000000,-76.764023,0
 -52.770314,-76.836116,0
 -52.698354,-76.838191,0
--52.576161,-76.869319,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Brazilian Antarctic Territory</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000048</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-44.690256,-60.676202,0
+-52.576161,-76.869319,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Brazil</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000048</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-44.690256,-60.676202,0
 -44.609283,-60.708917,0
 -44.524810,-60.674737,0
 -44.505238,-60.675551,0
@@ -39969,14 +39969,14 @@
 -44.783030,-60.733819,0
 -44.694569,-60.722752,0
 -44.680776,-60.708591,0
--44.690256,-60.676202,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Brazilian Antarctic Territory</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000048</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-45.020416,-60.690362,0
+-44.690256,-60.676202,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Brazil</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000048</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-45.020416,-60.690362,0
 -45.000234,-60.700860,0
 -45.025624,-60.710219,0
 -45.083363,-60.684666,0
 -45.069000,-60.660252,0
 -45.067128,-60.631117,0
 -45.029612,-60.656834,0
--45.020416,-60.690362,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Brazilian Antarctic Territory</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000048</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-45.665761,-60.524102,0
+-45.020416,-60.690362,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Brazil</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000048</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-45.665761,-60.524102,0
 -45.567535,-60.553643,0
 -45.477162,-60.545587,0
 -45.390981,-60.579278,0
@@ -40016,7 +40016,7 @@
 -45.746978,-60.532322,0
 -45.737294,-60.518976,0
 -45.720570,-60.516209,0
--45.665761,-60.524102,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder></Folder>
+-45.665761,-60.524102,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder>
         <Folder>
           <name>Cayenne</name>
           <Placemark>
@@ -44113,7 +44113,7 @@
               </outerBoundaryIs>
             </Polygon>
           </Placemark>
-        <Folder><name>Chinese Marie Byrd Land</name><Placemark><name>Chinese Marie Byrd Land</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000267</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-150.000000,-76.535592,0
+        <Placemark><name>China</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_000000000000007B</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-150.000000,-76.535592,0
 -150.000000,-76.459490,0
 -149.640494,-76.429866,0
 -149.639762,-76.429988,0
@@ -45107,13 +45107,13 @@
 -150.000000,-76.560635,0
 -149.931571,-76.554744,0
 -149.794669,-76.521175,0
--150.000000,-76.535592,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Chinese Marie Byrd Land</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000267</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-142.480589,-75.433039,0
+-150.000000,-76.535592,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>China</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_000000000000007B</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-142.480589,-75.433039,0
 -142.480580,-75.433038,0
 -142.480580,-75.433040,0
--142.480589,-75.433039,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Chinese Marie Byrd Land</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000267</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-103.608878,-75.107233,0
+-142.480589,-75.433039,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>China</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_000000000000007B</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-103.608878,-75.107233,0
 -103.608876,-75.107232,0
 -103.608876,-75.107234,0
--103.608878,-75.107233,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Chinese Marie Byrd Land</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000267</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-132.274403,-74.157647,0
+-103.608878,-75.107233,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>China</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_000000000000007B</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-132.274403,-74.157647,0
 -132.295155,-74.147882,0
 -132.300526,-74.134942,0
 -132.228668,-74.125909,0
@@ -45121,7 +45121,7 @@
 -132.121897,-74.149591,0
 -132.144032,-74.167576,0
 -132.174672,-74.173110,0
--132.274403,-74.157647,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Chinese Marie Byrd Land</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000267</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-104.687123,-73.096531,0
+-132.274403,-74.157647,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>China</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_000000000000007B</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-104.687123,-73.096531,0
 -104.553944,-73.145766,0
 -104.532704,-73.174493,0
 -104.630483,-73.211358,0
@@ -45134,7 +45134,7 @@
 -105.061025,-72.954197,0
 -105.014150,-72.940525,0
 -104.958608,-72.942641,0
--104.687123,-73.096531,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Chinese Marie Byrd Land</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000267</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-90.511708,-68.752618,0
+-104.687123,-73.096531,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>China</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_000000000000007B</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-90.511708,-68.752618,0
 -90.501210,-68.785414,0
 -90.512441,-68.809177,0
 -90.606923,-68.817478,0
@@ -45142,7 +45142,7 @@
 -90.623769,-68.768650,0
 -90.612294,-68.727960,0
 -90.548207,-68.729181,0
--90.511708,-68.752618,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder></Folder>
+-90.511708,-68.752618,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder>
         <Folder>
           <name>Japan</name>
           <Placemark>
@@ -61959,7 +61959,7 @@
               </outerBoundaryIs>
             </Polygon>
           </Placemark>
-        <Folder><name>Dronning Maud Land</name><Placemark><name>Dronning Maud Land</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000264</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-19.868703,-73.054256,0
+        <Placemark><name>European Federation</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_000000000000005A</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-19.868703,-73.054256,0
 -19.863271,-73.041316,0
 -19.876820,-73.021419,0
 -19.885365,-72.999812,0
@@ -63463,7 +63463,7 @@
 -19.767648,-75.549493,0
 -20.000000,-75.521029,0
 -20.000000,-73.097703,0
--19.868703,-73.054256,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder><Folder><name>Adélie Land</name><Placemark><name>Adélie Land</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000263</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>136.027920,-66.251468,0
+-19.868703,-73.054256,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>European Federation</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_000000000000005A</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>136.027920,-66.251468,0
 136.083751,-66.237563,0
 136.128429,-66.235528,0
 136.159516,-66.245375,0
@@ -63572,7 +63572,7 @@
 142.000000,-90.000000,0
 136.000000,-90.000000,0
 136.000000,-66.242599,0
-136.027920,-66.251468,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder></Folder>
+136.027920,-66.251468,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder>
       </Folder>
       <Folder>
         <name>Southern Asia</name>
@@ -64338,7 +64338,7 @@
               </outerBoundaryIs>
             </Polygon>
           </Placemark>
-        <Folder><name>Indian Antarctic Territory</name><Placemark><name>Indian Antarctic Territory</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000084</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>60.234386,-67.381768,0
+        <Placemark><name>India</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000084</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>60.234386,-67.381768,0
 60.328787,-67.377130,0
 60.393077,-67.383884,0
 60.466645,-67.369806,0
@@ -65234,7 +65234,7 @@
 60.000000,-90.000000,0
 60.000000,-67.403602,0
 60.094981,-67.405369,0
-60.234386,-67.381768,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Indian Antarctic Territory</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000084</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>92.423350,-65.693292,0
+60.234386,-67.381768,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>India</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000084</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>92.423350,-65.693292,0
 92.621104,-65.726007,0
 92.671641,-65.749200,0
 92.668956,-65.784845,0
@@ -65244,7 +65244,7 @@
 92.235850,-65.750665,0
 92.285330,-65.712172,0
 92.350271,-65.694757,0
-92.423350,-65.693292,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder></Folder>
+92.423350,-65.693292,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder>
         <Folder>
           <name>Maldives</name>
           <Placemark>
@@ -69161,7 +69161,7 @@
               </outerBoundaryIs>
             </Polygon>
           </Placemark>
-        <Folder><name>Australian Antarctic Territory</name><Placemark><name>Australian Antarctic Territory</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_000000000000018F</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>142.000000,-90.000000,0
+        <Placemark><name>Australia</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000BA</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>142.000000,-90.000000,0
 142.000000,-66.804499,0
 142.092784,-66.827407,0
 142.198741,-66.875909,0
@@ -69704,7 +69704,7 @@
 159.975108,-69.622654,0
 160.000000,-69.628901,0
 160.000000,-90.000000,0
-142.000000,-90.000000,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Australian Antarctic Territory</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_000000000000018F</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>100.523680,-90.000000,0
+142.000000,-90.000000,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Australia</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000BA</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>100.523680,-90.000000,0
 100.523680,-65.874478,0
 100.525401,-65.874446,0
 100.635387,-65.859187,0
@@ -70618,10 +70618,10 @@
 135.950084,-66.226741,0
 136.000000,-66.242599,0
 136.000000,-90.000000,0
-100.523680,-90.000000,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Australian Antarctic Territory</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_000000000000018F</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>121.174569,-66.778987,0
+100.523680,-90.000000,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Australia</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000BA</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>121.174569,-66.778987,0
 121.174571,-66.778985,0
 121.174571,-66.778987,0
-121.174569,-66.778987,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder></Folder>
+121.174569,-66.778987,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder>
         <Folder>
           <name>New Zealand</name>
           <Placemark>
@@ -70962,7 +70962,7 @@
               </outerBoundaryIs>
             </Polygon>
           </Placemark>
-        <Folder><name>Ross Dependency</name><Placemark><name>Ross Dependency</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000262</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-179.999989,-81.923641,0
+        <Placemark><name>New Zealand</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000C0</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-179.999989,-81.923641,0
 -179.999989,-81.721126,0
 -179.999989,-81.518733,0
 -179.999989,-81.316219,0
@@ -71382,7 +71382,7 @@
 -179.999989,-82.530940,0
 -179.999989,-82.328548,0
 -179.999989,-82.126033,0
--179.999989,-81.923641,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Ross Dependency</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000262</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-150.000000,-76.535592,0
+-179.999989,-81.923641,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>New Zealand</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000C0</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>-150.000000,-76.535592,0
 -150.144980,-76.545772,0
 -150.495292,-76.570369,0
 -150.521476,-76.566707,0
@@ -71393,7 +71393,7 @@
 -150.513053,-76.501766,0
 -150.076774,-76.465816,0
 -150.000000,-76.459490,0
--150.000000,-76.535592,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Ross Dependency</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000262</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>164.483531,-77.794368,0
+-150.000000,-76.535592,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>New Zealand</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000C0</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>164.483531,-77.794368,0
 164.528941,-77.828426,0
 164.521861,-77.832332,0
 164.508922,-77.841975,0
@@ -72559,7 +72559,7 @@
 164.473155,-77.764095,0
 164.470836,-77.771297,0
 164.473155,-77.781429,0
-164.483531,-77.794368,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Ross Dependency</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000262</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>166.977306,-76.962660,0
+164.483531,-77.794368,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>New Zealand</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000C0</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>166.977306,-76.962660,0
 166.872244,-76.972914,0
 166.866466,-76.947931,0
 166.853282,-76.936212,0
@@ -72567,10 +72567,10 @@
 166.874034,-76.926446,0
 166.956554,-76.938409,0
 166.977306,-76.950616,0
-166.977306,-76.962660,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Ross Dependency</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000262</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>163.039561,-75.943414,0
+166.977306,-76.962660,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>New Zealand</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000C0</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>163.039561,-75.943414,0
 163.039561,-75.943416,0
 163.039558,-75.943414,0
-163.039561,-75.943414,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Ross Dependency</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000262</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>162.878184,-75.654392,0
+163.039561,-75.943414,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>New Zealand</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000C0</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>162.878184,-75.654392,0
 162.813487,-75.693292,0
 162.742198,-75.701837,0
 162.635102,-75.690037,0
@@ -72579,7 +72579,7 @@
 162.972341,-75.554864,0
 162.977550,-75.565037,0
 162.898611,-75.619806,0
-162.878184,-75.654392,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Ross Dependency</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000262</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>162.572276,-75.481134,0
+162.878184,-75.654392,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>New Zealand</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000C0</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>162.572276,-75.481134,0
 162.533702,-75.484063,0
 162.504649,-75.474054,0
 162.487966,-75.457208,0
@@ -72587,7 +72587,7 @@
 162.570811,-75.422947,0
 162.601248,-75.436782,0
 162.617849,-75.459161,0
-162.572276,-75.481134,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Ross Dependency</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000262</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>169.813731,-73.348565,0
+162.572276,-75.481134,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>New Zealand</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000C0</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>169.813731,-73.348565,0
 169.819184,-73.400811,0
 169.850271,-73.416111,0
 169.861501,-73.441583,0
@@ -72611,14 +72611,14 @@
 169.705251,-73.325779,0
 169.751638,-73.320082,0
 169.793712,-73.327244,0
-169.813731,-73.348565,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Ross Dependency</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000262</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>163.309581,-70.386407,0
+169.813731,-73.348565,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>New Zealand</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000C0</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>163.309581,-70.386407,0
 163.395681,-70.345392,0
 163.455333,-70.339125,0
 163.516287,-70.345961,0
 163.566661,-70.363946,0
 163.515636,-70.378188,0
 163.346202,-70.395278,0
-163.309581,-70.386407,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Ross Dependency</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000262</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>161.920421,-70.240655,0
+163.309581,-70.386407,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>New Zealand</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000C0</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>161.920421,-70.240655,0
 161.888031,-70.257257,0
 161.855724,-70.261163,0
 161.828787,-70.255141,0
@@ -72626,7 +72626,7 @@
 161.834483,-70.222101,0
 161.867686,-70.217462,0
 161.900076,-70.224542,0
-161.920421,-70.240655,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Ross Dependency</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000262</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>164.712169,-67.268487,0
+161.920421,-70.240655,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>New Zealand</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000C0</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>164.712169,-67.268487,0
 164.840343,-67.339288,0
 164.836925,-67.362726,0
 164.913910,-67.404392,0
@@ -72647,7 +72647,7 @@
 164.670421,-67.312107,0
 164.657237,-67.260837,0
 164.674571,-67.257745,0
-164.712169,-67.268487,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Ross Dependency</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000262</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>163.081309,-66.706476,0
+164.712169,-67.268487,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>New Zealand</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000C0</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>163.081309,-66.706476,0
 163.114757,-66.687270,0
 163.169932,-66.690199,0
 163.260509,-66.716241,0
@@ -72661,7 +72661,7 @@
 163.249197,-66.877374,0
 163.190766,-66.843845,0
 163.155040,-66.812270,0
-163.081309,-66.706476,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>Ross Dependency</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_0000000000000262</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>162.324474,-66.346775,0
+163.081309,-66.706476,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark><Placemark><name>New Zealand</name><description>See: 2050-snapshot/domains/borders-geopolitics.md#antarctica</description><styleUrl>#__managed_style_00000000000000C0</styleUrl><Polygon><extrude>1</extrude><altitudeMode>clampToGround</altitudeMode><outerBoundaryIs><LinearRing><coordinates>162.324474,-66.346775,0
 162.328868,-66.312758,0
 162.287608,-66.294041,0
 162.297862,-66.254815,0
@@ -72675,7 +72675,7 @@
 162.290212,-66.397638,0
 162.342947,-66.372491,0
 162.349457,-66.360447,0
-162.324474,-66.346775,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder></Folder>
+162.324474,-66.346775,0</coordinates></LinearRing></outerBoundaryIs></Polygon></Placemark></Folder>
       </Folder>
       <Folder>
         <name>Melanesia</name>
