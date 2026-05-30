@@ -394,17 +394,17 @@ Plans:
 
 ### Phase 18: Polynesia Review
 **Mode**: mvp
-**Goal**: Polynesia (Cook Is., Maohi Nui, Niue, Samoa, Tonga, Tuvalu) plausibility verified, KML issues fixed, documentation gaps filled
+**Goal**: Polynesia (10 entities: Cook Is., Maohi Nui, Niue, Samoa, Tonga, Tuvalu, + Tokelau, American Samoa, Pitcairn, Wallis and Futuna) plausibility verified, KML issues fixed, documentation gaps filled
 **Depends on**: Phase 17
 **Requirements**: OCEA-04
 **Success Criteria** (what must be TRUE):
-   1. All 6 Polynesian entities assessed — no contradictions
+   1. All 10 Polynesian entities assessed — no contradictions
    2. KML entities for Polynesia correct in Google Earth Pro
    3. All documentation gaps for Polynesian entities identified and filled
 **Plans**: 4 plans
 
 Plans:
-- [ ] 18-01-PLAN.md — KML (wip) rename + entity-config.json entity entries for all 6 Polynesian entities (Wave 1)
+- [ ] 18-01-PLAN.md — KML (wip) rename + entity-config entries + KML polygons for all 10 Polynesian entities (Wave 1)
 - [ ] 18-02-PLAN.md — borders-geopolitics.md Polynesia subsection (Wave 2, blocked on 01)
 - [ ] 18-03-PLAN.md — economy.md + demographics.md Polynesia subsections (Wave 3, blocked on 02)
 - [ ] 18-04-PLAN.md — culture.md + climate.md Polynesia subsections (Wave 4, blocked on 03)
@@ -415,9 +415,25 @@ Plans:
 **Depends on**: Phase 18
 **Requirements**: ANTA-01
 **Success Criteria** (what must be TRUE):
-  1. Antarctica entity assessed against established dynamics — no contradictions
-  2. KML entity for Antarctica correct in Google Earth Pro
-  3. All documentation gaps for Antarctica identified and filled
+   1. Antarctica entity assessed against established dynamics — no contradictions
+   2. KML entity for Antarctica correct in Google Earth Pro — 7 claim-zone polygons replacing single continent polygon
+   3. All documentation gaps for Antarctica identified and filled across all 5 domain docs (economy, demographics, culture, technology, climate) plus borders-geopolitics expansion
+**Plans**: 4 plans
+
+Plans:
+- [ ] 19-01-PLAN.md — KML Claim-Zone Polygons + entity-config + user_colors + (wip) removal (Wave 1)
+- [ ] 19-02-PLAN.md — borders-geopolitics.md Antarctica full entry expansion + Territorial Integrity table (Wave 1, parallel)
+- [ ] 19-03-PLAN.md — economy.md + demographics.md Antarctica entries (Wave 2, blocked on 02)
+- [ ] 19-04-PLAN.md — culture.md + climate.md + technology.md Antarctica entries (Wave 2, blocked on 02, parallel with 03)
+
+**Cross-cutting constraints:**
+- Plans 01 and 02 are parallel (Wave 1) — KML edits and domain doc writing don't conflict
+- Plans 03 and 04 are parallel (Wave 2) — different domain docs, no file conflicts
+- Plan 02 must complete first (establishes entity names and governance regime that Plans 03/04 reference)
+- Per D-01: 7 claim-zone polygons replace single Antarctica polygon in borders.kml
+- Per D-03: Ice shelf boundaries as source geometry (SCAR ADD dataset or GADM fallback)
+- Per D-05: Full depth across all domain docs — not truncated for non-sovereign status
+- Per D-07/D-08: Standard **Entity:** format, standalone sections
 
 ## Progress
 
@@ -443,4 +459,4 @@ Plans:
 | 16. Melanesia Review | 4/4 | Complete   | 2026-05-30 |
 | 17. Micronesia Review | 4/4 | Complete   | 2026-05-30 |
 | 18. Polynesia Review | — | Planned (4 plans) | — |
-| 19. Antarctica Review | — | Not started | — |
+| 19. Antarctica Review | 0/4 | Planned | — |
