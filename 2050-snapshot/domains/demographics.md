@@ -896,12 +896,6 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Disaster displacement:** Cyclone and volcanic events cause internal displacement — island populations near active volcanoes (Ambae, Tanna) have relocated multiple times. Disaster-driven internal migration is a structural demographic feature.
 - **→ See KML: Vanuatu**
 
-**Bougainville:** Small independent nation from PNG separation — distinct Bougainvillean identity.
-- **Population (est. 2050):** ~360-400K (from ~300K 2024). Growth rate mirrors broader PNG region.
-- **Composition:** Bougainvillean (~95% — distinct from mainland PNG culturally and physically, with darker skin tone and distinct identity). The Panguna mine reactivation brings Chinese and Pacific Islander workers (~5K-15K migrant labor supplement).
-- **Post-independence:** Independence created a new nationality — Bougainvillean identity as distinct from Papua New Guinean. Autonomous region status (2019-~2040) transitioned to full sovereignty.
-- **→ See KML: Bougainville**
-
 ## Driving Forces
 
 Briefly — key demographic drivers from the 2026-2049 transition period:

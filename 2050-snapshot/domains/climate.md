@@ -234,11 +234,6 @@ The Mediterranean basin is experiencing warming at 1.5-2× the global average ra
 - **Climate adaptation laboratory:** Vanuatu has become a Pacific leader in community-level disaster resilience — traditional safe house designs, seed saving, and community relocation protocols developed over generations of cyclone/volcanic experience are now formally integrated into national disaster management.
 - **→ See KML: Vanuatu**
 
-**Bougainville:** Tropical climate with mining-amplified environmental risk.
-- **Climate profile:** Tropical — high rainfall, cyclone exposure (at the edge of the Solomon Islands cyclone track). No distinct volcanic risk separate from the broader PNG region.
-- **Mining environmental risk:** Panguna mine reopening brings environmental risk — acid mine drainage into the Kawerong River system (a legacy of the original 1972-1989 mine operation). Environmental monitoring is a condition of Chinese investment agreements, but enforcement is contested.
-- **→ See KML: Bougainville**
-
 **Pacific Island atoll states:** Existential crisis from sea level rise — Tuvalu, Kiribati, and the Marshall Islands have lost 30-50% of habitable land area. Saltwater intrusion has destroyed freshwater lenses across multiple atolls, forcing relocation. New legal frameworks for "sovereignty without habitable territory" — 200nm EEZs persist as sovereign zones even as physical land becomes marginal. Climate refugee resettlement in NZ, Fiji, and Australia is the primary response.
 
 **Polar regions:** The Arctic is transformed — ice-free summers, open-water conditions for 3-5 months, permafrost thaw destabilizing infrastructure across 100,000+ sq km of inhabited tundra. New shipping routes (Northwest Passage, Northern Sea Route) are open for 2-3 months of the year. Greenland's melting contributes accelerating sea level rise. Antarctic dynamics remain the planet's largest sea level wild card — West Antarctic ice sheet retreat is underway but the pace of collapse remains uncertain.

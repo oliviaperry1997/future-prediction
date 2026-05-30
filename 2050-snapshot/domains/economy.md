@@ -820,12 +820,6 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **Climate adaptation:** Disaster risk is the primary economic constraint — cyclone damage in bad years can wipe 10-15% of GDP. PIF climate resilience financing is a development supplement.
 - **→ See KML: Vanuatu**
 
-**Bougainville:** Copper mining independence economy — single-commodity sovereign state.
-- **GDP (est. 2050):** ~$3-4B PPP (independent state from ~2040). Panguna copper mine is the primary revenue source.
-- **Economic character:** Copper extraction (Panguna, one of world's largest copper deposits). Chinese investment and operating partnership — mine reopened ~2038 after decades of closure following the 1989-1997 civil war.
-- **Economic vulnerability:** Single-commodity dependency — Panguna copper is the entire economic foundation. Mine revenue distributed through state structures with PIF technical governance support.
-- **→ See KML: Bougainville**
-
 ## Driving Forces
 
 The 2050 economic landscape is the end-state of trajectories whose key drivers are documented in the 2026-2049 transition analysis:

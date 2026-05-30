@@ -442,11 +442,6 @@ The 2050 linguistic landscape reflects the end of US hegemony and the multipolar
 - **Custom governance:** The National Council of Chiefs (Malvatu Mauri) is constitutionally recognized — one of the few Pacific nations where customary governance has formal constitutional status alongside the parliamentary system.
 - **→ See KML: Vanuatu**
 
-**Bougainville:** Bougainvillean identity as the cultural foundation of independence — distinct people, distinct nation.
-- **Distinct identity:** Bougainvilleans have a distinct cultural and physical identity — darker skin (sometimes described as "black" by other Melanesians), distinct language groups (Nasioi, Halia, others), and a regional identity that predates colonial borders. The 1989-1997 civil war was as much a cultural assertion as a political one.
-- **Post-conflict reconciliation:** The 2001 Bougainville Peace Agreement's truth and reconciliation process established kastom-based reconciliation mechanisms as the primary post-conflict healing framework — the Bougainvillean cultural approach to the conflict's legacy.
-- **→ See KML: Bougainville**
-
 ## Driving Forces
 
 Briefly — key cultural drivers from the 2026-2049 transition period, with → See transition doc: references:

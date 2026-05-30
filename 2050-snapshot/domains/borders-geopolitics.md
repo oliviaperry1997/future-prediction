@@ -786,7 +786,7 @@ Oman's Muscat channel — the traditional diplomatic back-channel between Iran a
 
 **Papua New Guinea:** Stage 1-2 Bifurcation — reactionary by default. Revolutionary potential unrealized due to governance failure — the resource curse dynamic held.
 - **The bifurcation:** PNG had the raw materials for a revolutionary breakthrough — LNG, gold, copper; strategic position astride key shipping lanes; land border with Indonesia. But governance failure (corruption, law and order collapse, infrastructure deficit) prevented it from capturing this potential. Extraction revenue was captured by elite networks rather than invested in state capacity.
-- **Territorial integrity:** Main island of New Guinea (eastern half) and 600+ outer islands. Bougainville — formally autonomous since 2019 — has achieved de facto independence by 2050 (see Bougainville entry below).
+ - **Territorial integrity:** Main island of New Guinea (eastern half) and 600+ outer islands. Bougainville — formally autonomous since 2019, with a 98% independence referendum result — remains in an unresolved sovereignty limbo. PNG governance failure has made continued nominal PNG sovereignty increasingly tenuous, but full independence has not been formally achieved by 2050.
 - **Strategic posture:** Navigates China-Australia competition without coherent strategy — accepts Chinese infrastructure investment while maintaining Australian security relationships. Neither leveraged nor resolved.
 - **Economic character:** LNG, gold, copper extraction continues but development dividends never materialized. Subsistence agriculture remains the livelihood of ~80% of the population.
 - **→ See KML: Papua New Guinea**
@@ -805,13 +805,6 @@ Oman's Muscat channel — the traditional diplomatic back-channel between Iran a
 - **Climate character:** Cyclone frequency and intensity increasing. Volcanic risk (Ambae, Tanna active volcanoes). Disaster resilience is a primary governance investment — Vanuatu is a climate adaptation laboratory.
 - **Economic character:** Tourism, agricultural exports (copra, cocoa, kava). Pacific financial services (offshore registration residual). PIF climate finance access as a development supplement.
 - **→ See KML: Vanuatu**
-- → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
-
-**Bougainville:** Revolutionary Stage 1-2 — independence achieved (~2040-2042). Independent sovereign state following PNG governance failure making continued nominal sovereignty untenable.
-- **Independence path:** Formal separation from Papua New Guinea. The deferred 2019 independence referendum's 98% independence vote became legally operative under international law once PNG's governance failure made continued PNG sovereignty nominal. Independence by ~2040-2042.
-- **Economic anchor:** Panguna copper mine (closed 1989 — the trigger for the Bougainville Civil War) reopened with Chinese investment by ~2038. The mine's revenue provides the economic viability basis that was absent during the civil war era.
-- **Strategic posture:** PIF member, non-aligned. Small sovereign state under the Blue Pacific collective framework.
-- **→ See KML: Bougainville**
 - → See transition doc: [oceania.md](../../2026-2050-transition/regions/oceania.md)
 
 **Pacific Islands:** "Blue Pacific" regionalism matured — the Pacific Islands Forum's 2050 Strategy delivered deepened regional governance, climate resilience financing, and collective diplomatic weight. Atoll states (Tuvalu, Kiribati, Marshall Islands) pioneered legal frameworks for sovereignty without habitable territory — their 200nm EEZs persist as sovereign zones even as physical land becomes marginal. **→ See KML: Pacific Islands Forum**
