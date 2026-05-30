@@ -933,6 +933,68 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Migration dynamics:** Historically low emigration — Palauans have strong in-country attachment. Small Palauan diaspora in Guam and HFS. Modest Japan compact inflow of technical workers.
 - **→ See KML: Palau**
 
+#### Polynesia
+
+**Maohi Nui:** ~280K residents (2050 est.) — Polynesian majority, French-origin population declining post-independence.
+- **Composition:** Maohi (Polynesian) ~70%, French-origin (demis and metropolitan French) ~15%, Chinese descent ~10%, other Pacific and Asian ~5%. The French-origin population is declining as metropolitan administrators depart post-independence; some long-established families remain as Maohi Nui citizens. The Maohi proportion increases as decolonization progresses.
+- **Migration dynamics:** Post-independence emigration of French administrative staff is the defining demographic shift — ~20-30K departure over the 2030-2045 period. Return migration of Maohi diaspora from France and New Caledonia partially offsets the loss. Net population roughly stable.
+- **Urbanization:** Tahiti (Pape'ete urban area) dominates — ~70% of population on the main island. Outer island populations declining as young adults move to Tahiti for education and employment.
+**→ See KML: Maohi Nui**
+
+**Cook Islands:** ~15K in-country residents (2050 est.); ~80K diaspora in New Zealand — extreme diaspora-dominant nationality.
+- **Composition:** Cook Islands Māori (~87%), NZ European/Pākehā (~8%), other Pacific and Asian (~5%). The far larger diaspora in NZ is a culturally integrated extension of the Cook Islands community, not a separate emigrant population — circular migration is continuous.
+- **Migration dynamics:** NZ free movement continues — Cook Islands Māori are NZ citizens and move freely between the two countries. The in-country population is roughly stable as outflows to NZ are balanced by return migration and retirement. The Northern Cook Islands atolls face depopulation toward Rarotonga and NZ.
+- **Urbanization:** Rarotonga concentrated (~75% of in-country population). Northern atolls have minimal permanent populations — mostly older residents and seasonal residents.
+**→ See KML: Cook Is.**
+
+**Niue:** ~1,600 in-country residents (2050 est.); ~30K diaspora in New Zealand — the most extreme diaspora-to-in-country ratio in the Pacific.
+- **Composition:** Niuean (~92%), NZ European and other (~8%). The in-country population is one of the world's smallest for a sovereign state. The diaspora in NZ is ~30K — the ratio of diaspora to in-country population (~18:1) is the highest of any Pacific nation.
+- **Migration dynamics:** Niueans are NZ citizens with free movement. The in-country population continues a long-term decline trend (from ~5K in 1966 to ~1.6K) — young Niueans leave for education and employment in NZ, and many do not return. The population is aging — median age in-country is ~45, among the highest in the Pacific.
+- **Population pressure:** The in-country population is now so small that basic governance functions (electing a 20-member Assembly, maintaining infrastructure, staffing a hospital and schools) strain demographic capacity. Niue's sovereignty in 2050 is a political fact maintained by the diaspora's cultural attachment and NZ's support, not by in-country demographic weight.
+**→ See KML: Niue**
+
+**Samoa:** ~220K residents (2050 est.) — stable Polynesian population with significant diaspora abroad.
+- **Composition:** Samoan (~96%), Euronesian and European (~3%), other Pacific and Asian (~1%). Fa'asamoa social structure organizes demographic life — extended family ('aiga) networks, customary land tenure, and the matai chiefly system shape settlement patterns and migration decisions.
+- **Migration dynamics:** Net outmigration to NZ, Australia, and US — the Samoan diaspora (~200K+) is comparable in size to the in-country population. Remittance-driven circular migration is the dominant pattern — family members rotate between overseas employment and in-country residence. Return migration in older age is common.
+- **Urbanization:** Apia urban area (Upolu) concentrated — ~40% of in-country population. Savai'i (the larger but less populated island) has ~20% of population, with the remainder in Upolu villages. Rural-to-urban migration within Samoa is modest compared to other Pacific states.
+**→ See KML: Samoa**
+
+**Tonga:** ~100K residents (2050 est.) — one of the highest diaspora ratios globally with ~100K+ Tongans abroad.
+- **Composition:** Tongan (~97%), other Pacific and Asian (~3%). Tongan society is highly homogeneous — the constitutional monarchy and social hierarchy (nobility/ commoner structure) shape demographic patterns.
+- **Migration dynamics:** Net outmigration to NZ, Australia, and US — the diaspora (~100K+) is approximately equal to the in-country population. Remittance flows sustain much of the in-country economy. Cyclone-driven temporary displacement within Tonga (Tongatapu to Vava'u and Ha'apai) is a recurring demographic event.
+- **Urbanization:** Tongatapu (Nuku'alofa urban area) concentrated — ~70% of in-country population. Vava'u and Ha'apai have declining populations as young adults move to Tongatapu or abroad. The outer island populations are aging as working-age adults leave.
+**→ See KML: Tonga**
+
+**Tuvalu:** ~12K in-country residents (2050 est.); ~5K diaspora in NZ and Australia — effective diaspora-nation with declining in-country population.
+- **Composition:** Tuvaluan (Polynesian) ~96%, other Pacific and Asian ~4%. Culturally homogeneous. The in-country population is contracting as managed resettlement to NZ (Pacific Access Category expanded to climate refugee status) and Australia (Pacific Engagement Visa) continues.
+- **Migration dynamics:** Climate-driven managed resettlement is the primary demographic driver. NZ accepts ~100-200 Tuvaluans/year under the expanded Pacific Access Category; Australia's Pacific Engagement Visa adds additional slots. The diaspora in NZ (primarily Auckland, Wellington) is growing toward the size of the in-country population. Return migration is minimal — the atolls are becoming less habitable.
+- **Urbanization:** Funafuti (the main atoll) concentrates ~60% of in-country population. Outer atolls (Nanumea, Nui, Vaitupu, etc.) are progressively depopulating as residents relocate to Funafuti or NZ. The in-country population distribution is in terminal contraction toward Funafuti as the last habitable concentration point.
+**→ See KML: Tuvalu**
+
+**Tokelau:** ~1,500 residents (2050 est.); ~8K diaspora in New Zealand — NZ-associated micro-population.
+- **Composition:** Tokelauan (~95%), NZ European and other (~5%). Three atoll communities (Atafu, Nukunonu, Fakaofo) with distinct local identities. The Tokelauan diaspora in NZ (~8K) is significantly larger than the in-country population.
+- **Migration dynamics:** Net outmigration to NZ — Tokelauans are NZ citizens and the free movement pathway drives steady population flow to NZ. The in-country population is aging. Climate concerns may accelerate outmigration as atoll habitability declines.
+- **Population pressure:** The in-country population is among the world's smallest permanently inhabited territories. The three atoll communities each have ~500 residents. Governance capacity (the Council of Faipule, village councils) is strained by demographic scale.
+**→ See KML: Tokelau**
+
+**American Samoa:** ~50K residents (2050 est.) — declining from US-era peak; Polynesian cultural retention despite territorial disruption.
+- **Composition:** Samoan (~92%), other Pacific Islander (~4%), Asian (~3%), other (~1%). The fa'asamoa system remains the organizing social structure — extended 'aiga families, matai chiefly titles, and customary land tenure persist regardless of the absorption trajectory (HFS or Samoa-aligned).
+- **Migration dynamics:** US-era migration patterns disrupted by the US collapse. Migration flows reorient toward Hawaii — American Samoans gain HFS citizenship with free movement to the Hawaiian islands. Emigration of non-Samoan workers (US military and administrative personnel, contract workers) post-US collapse is a one-time population reduction.
+- **Urbanization:** Tutuila (Pago Pago urban area) concentrated — ~95% of population on the main island. Manu'a group and other islands have minimal permanent populations.
+**→ See KML: American Samoa**
+
+**Pitcairn Islands:** ~50 residents (2050 est.) — one of the world's smallest permanently inhabited jurisdictions; population aging and declining.
+- **Composition:** Descendants of HMS Bounty mutineers (1789) and their Tahitian companions — ~95% of the population shares this common ancestry. The community is endogamous by necessity (there is no other population to marry into without leaving the island).
+- **Migration dynamics:** Immigration is tightly restricted by Pitcairn Island Council policy — new residents are rarely accepted. The population is aging (~median age 50+) and declining (from ~60 in 2020 to ~50). NZ administration may relax immigration constraints to prevent population collapse, potentially accepting a small number of new residents.
+- **Population pressure:** The population is below the minimum viable size for sustainable community function — the island cannot maintain a full doctor, teacher, or infrastructure crew from its own population. Contract workers from NZ fill critical roles on rotation.
+**→ See KML: Pitcairn**
+
+**Wallis and Futuna:** ~10K residents (2050 est.) — stable micro-population with diaspora in New Caledonia and France.
+- **Composition:** Wallisian/Uvean (~70%), Futunan (~25%), French and other (~5%). Two distinct cultural groups — Wallisians ('Uvea) and Futunans — with related but distinct Polynesian identities, languages, and customary governance structures (the Lavelua monarchy on Wallis, the Tui Sigave and Tui Alo kingdoms on Futuna).
+- **Migration dynamics:** Modest net outmigration to New Caledonia (the primary diaspora destination) and France. The independence transition (Maohi Nui association) has not triggered large-scale population movement — Wallisians and Futunans remain in place even as the sovereignty framework changes. Return migration is limited.
+- **Urbanization:** Mata-Utu (Wallis) is the administrative center. Futuna is more rural — population distributed across coastal villages. Alofi (the third island) is uninhabited.
+**→ See KML: Wallis and Futuna**
+
 ## Driving Forces
 
 Briefly — key demographic drivers from the 2026-2049 transition period:
