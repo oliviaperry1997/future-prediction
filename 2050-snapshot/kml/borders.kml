@@ -65029,7 +65029,7 @@
             </Polygon>
           </Placemark>
            <Placemark>
-             <name>Christmas Island</name>
+             <name>Australia</name>
              <styleUrl>#__managed_style_00000000000000BA</styleUrl>
              <description>See: 2050-snapshot/domains/borders-geopolitics.md#australia | Australian external territory — sovereign 2050</description>
              <Polygon>
@@ -65042,30 +65042,33 @@
              </Polygon>
            </Placemark>
            <Placemark>
-             <name>Cocos (Keeling) Islands</name>
+             <name>Australia</name>
              <styleUrl>#__managed_style_00000000000000BA</styleUrl>
              <description>See: 2050-snapshot/domains/borders-geopolitics.md#australia | Australian external territory — sovereign 2050</description>
-             <MultiGeometry>
-               <Polygon>
-                 <altitudeMode>clampToGround</altitudeMode>
-                 <outerBoundaryIs>
-                   <LinearRing>
-                     <coordinates>96.863129,-12.181736,0 96.869395,-12.187921,0 96.845225,-12.197686,0 96.830577,-12.179946,0 96.823416,-12.150974,0 96.821544,-12.126560,0 96.828380,-12.126560,0 96.828380,-12.136326,0 96.829845,-12.144464,0 96.835216,-12.160577,0 96.831309,-12.171482,0 96.836192,-12.182061,0 96.847667,-12.187188,0 96.863129,-12.181736,0</coordinates>
-                   </LinearRing>
-                 </outerBoundaryIs>
-               </Polygon>
-               <Polygon>
-                 <altitudeMode>clampToGround</altitudeMode>
-                 <outerBoundaryIs>
-                   <LinearRing>
-                     <coordinates>96.902192,-12.199965,0 96.892345,-12.195896,0 96.889659,-12.192804,0 96.888520,-12.187433,0 96.900076,-12.186782,0 96.909028,-12.182061,0 96.914561,-12.173517,0 96.916189,-12.161798,0 96.921072,-12.173517,0 96.920177,-12.184991,0 96.913910,-12.194513,0 96.902192,-12.199965,0</coordinates>
-                   </LinearRing>
-                 </outerBoundaryIs>
-               </Polygon>
-             </MultiGeometry>
+             <Polygon>
+               <altitudeMode>clampToGround</altitudeMode>
+               <outerBoundaryIs>
+                 <LinearRing>
+                   <coordinates>96.863129,-12.181736,0 96.869395,-12.187921,0 96.845225,-12.197686,0 96.830577,-12.179946,0 96.823416,-12.150974,0 96.821544,-12.126560,0 96.828380,-12.126560,0 96.828380,-12.136326,0 96.829845,-12.144464,0 96.835216,-12.160577,0 96.831309,-12.171482,0 96.836192,-12.182061,0 96.847667,-12.187188,0 96.863129,-12.181736,0</coordinates>
+                 </LinearRing>
+               </outerBoundaryIs>
+             </Polygon>
            </Placemark>
            <Placemark>
-             <name>Heard Island and McDonald Islands</name>
+             <name>Australia</name>
+             <styleUrl>#__managed_style_00000000000000BA</styleUrl>
+             <description>See: 2050-snapshot/domains/borders-geopolitics.md#australia | Australian external territory — sovereign 2050</description>
+             <Polygon>
+               <altitudeMode>clampToGround</altitudeMode>
+               <outerBoundaryIs>
+                 <LinearRing>
+                   <coordinates>96.902192,-12.199965,0 96.892345,-12.195896,0 96.889659,-12.192804,0 96.888520,-12.187433,0 96.900076,-12.186782,0 96.909028,-12.182061,0 96.914561,-12.173517,0 96.916189,-12.161798,0 96.921072,-12.173517,0 96.920177,-12.184991,0 96.913910,-12.194513,0 96.902192,-12.199965,0</coordinates>
+                 </LinearRing>
+               </outerBoundaryIs>
+             </Polygon>
+           </Placemark>
+           <Placemark>
+             <name>Australia</name>
              <styleUrl>#__managed_style_00000000000000BA</styleUrl>
              <description>See: 2050-snapshot/domains/borders-geopolitics.md#australia | Australian external territory — sovereign 2050 (uninhabited)</description>
              <Polygon>
@@ -65078,7 +65081,7 @@
              </Polygon>
            </Placemark>
            <Placemark>
-             <name>Norfolk Island</name>
+             <name>Australia</name>
              <styleUrl>#__managed_style_00000000000000BA</styleUrl>
              <description>See: 2050-snapshot/domains/borders-geopolitics.md#australia | Australian external territory — sovereign 2050</description>
              <Polygon>
