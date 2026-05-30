@@ -24,7 +24,7 @@ A markdown-based geopolitical forecasting and world-building project. This roadm
 - [x] **Phase 16: Melanesia Review** — Plausibility audit: Melanesia (completed 2026-05-30)
 - [x] **Phase 17: Micronesia Review** — Plausibility audit: Micronesia (completed 2026-05-30)
 - [ ] **Phase 18: Polynesia Review** — Plausibility audit: Polynesia
-- [ ] **Phase 19: Antarctica Review** — Plausibility audit: Antarctica
+- [x] **Phase 19: Antarctica Review** — Plausibility audit: Antarctica (completed 2026-05-30)
 
 ## Phase Details
 
@@ -424,7 +424,7 @@ Plans:
 - [x] 19-01-PLAN.md — KML Claim-Zone Polygons + entity-config + user_colors + (wip) removal (Wave 1)
 - [x] 19-02-PLAN.md — borders-geopolitics.md Antarctica full entry expansion + Territorial Integrity table (Wave 1, parallel)
 - [x] 19-03-PLAN.md — economy.md + demographics.md Antarctica entries (Wave 2, blocked on 02)
-- [ ] 19-04-PLAN.md — culture.md + climate.md + technology.md Antarctica entries (Wave 2, blocked on 02, parallel with 03)
+- [x] 19-04-PLAN.md — culture.md + climate.md + technology.md Antarctica entries (Wave 2, blocked on 02, parallel with 03)
 
 **Cross-cutting constraints:**
 - Plans 01 and 02 are parallel (Wave 1) — KML edits and domain doc writing don't conflict
@@ -459,4 +459,4 @@ Plans:
 | 16. Melanesia Review | 4/4 | Complete   | 2026-05-30 |
 | 17. Micronesia Review | 4/4 | Complete   | 2026-05-30 |
 | 18. Polynesia Review | — | Planned (4 plans) | — |
-| 19. Antarctica Review | 3/4 | In Progress|  |
+| 19. Antarctica Review | 4/4 | Complete   | 2026-05-30 |
