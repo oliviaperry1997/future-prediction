@@ -43,7 +43,7 @@ Plausibility audit of 6 Micronesian entities (Guam, Kiribati, Marshall Is., Micr
 ### KML — (wip) Tag Removal
 
 - **D-08:** All 6 Micronesian entity KML folders already exist in the `Micronesia (wip)` folder in borders.kml. After review, rename folder to `Micronesia`. No new polygon additions needed (entities are: Guam, Kiribati, Marshall Is., Micronesia/FSM, Nauru, Palau).
-- **D-09:** CNMI has its own KML folder (confirmed as part of US territories structure). Researcher verifies CNMI KML placement and cross-reference consistency.
+- **D-09:** CNMI does NOT have a KML folder in borders.kml. Entity-config.json entry added as a placeholder. KML polygon creation is a future task.
 
 ### Agent's Discretion
 

@@ -826,36 +826,43 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **Economic structure:** Pre-collapse ~30% of GDP was US federal spending (military payroll, federal grants, Compact of Free Association). Post-collapse: jointly managed Andersen AFB and Naval Base Guam under the Pacifica/HFS compact generates ongoing lease and service revenue. Tourism partial recovery (toward Asian and Australian markets). Chamorro compact revenue provides baseline economic floor.
 - **GDP trajectory:** Significant contraction from the federal spending cliff (~20-25% GDP decline 2026-2035), partial recovery by 2050 driven by Pacific trade hub development and military compact stabilization.
 - **Key sectors:** Military services, tourism, Pacific trade transit, government services.
+- **→ See KML: Guam**
 
 **CNMI (Northern Mariana Islands):** Post-collapse micro-economy — US-sourced tourism (90% of pre-collapse GDP) destroyed; Japan compact arrangement provides replacement economic framework.
 - **Economic structure:** Pre-collapse economy almost entirely dependent on US-origin tourists visiting casino-resort complexes. Post-US collapse eliminated this market. Japan compact arrangement funds infrastructure development and provides preferential access to Japanese tourism market.
 - **GDP trajectory:** Severe contraction (est. 50%+ GDP decline 2026-2035); partial Japan-funded recovery by 2050 to a significantly smaller steady state. Population contraction reduces the economic base further.
 - **Key sectors:** Japanese-oriented tourism (partial), Japan compact development projects, subsistence agriculture residual.
+- **→ See KML: CNMI**
 
 **Kiribati:** EEZ fisheries economy — land marginal, sovereign economic base is the 200nm zone.
 - **Economic structure:** EEZ tuna fisheries licensing to distant-water fishing nations (China, Japan, Korea, EU) as primary revenue. PIF-framework/patron development funding supplements. Remittances from I-Kiribati diaspora in NZ and Fiji are significant relative to in-country population.
 - **GDP trajectory:** In-country GDP is small and contracting as population relocates to Fiji/NZ; EEZ revenue persists regardless of land habitability. The effective economic unit is the diaspora-plus-EEZ complex.
 - **Key sectors:** EEZ fisheries licensing, patron aid/development funding, remittances.
+- **→ See KML: Kiribati**
 
 **Marshall Islands:** Post-COFA patron economy — regional PIF framework compact replaces US Compact of Free Association payments.
 - **Economic structure:** COFA Compact payments (~$70M/year) replaced by PIF+Australia+NZ successor arrangement. Kwajalein missile range negotiated as an asset in the successor deal. EEZ tuna fisheries licensing as secondary revenue. Remittances from Marshall Islands diaspora in Guam/HFS significant.
 - **GDP trajectory:** COFA end created an aid cliff (2026-2032); PIF successor arrangement restored the fiscal floor. Nuclear remediation at Bikini/Enewetak funded through PIF arrangement.
 - **Key sectors:** Patron compact revenue, EEZ fisheries, Kwajalein asset revenue, remittances.
+- **→ See KML: Marshall Is.**
 
 **Micronesia (FSM):** Post-COFA patron economy — China compact replaces US Compact of Free Association payments.
 - **Economic structure:** COFA Compact payments (~$100M/year) replaced by China successor arrangement across all four states (Yap, Chuuk, Pohnpei, Kosrae). Geographically dispersed economy with weak inter-state integration. Remittances from FSM diaspora in Guam and HFS remain significant.
 - **GDP trajectory:** COFA cliff (2026-2030) followed by China compact restoration. Chuuk's internal instability (independence movement) creates uncertainty for Chuuk State's economic participation.
 - **Key sectors:** China compact revenue, subsistence agriculture, EEZ fisheries, remittances.
+- **→ See KML: Micronesia**
 
 **Nauru:** Micro-economy — phosphate depleted, Australia patron-dependent survival.
 - **Economic structure:** Phosphate mining (once 80%+ of GDP) effectively exhausted by 2000; the post-phosphate economy is dependent on Australia patronage (offshore processing legacy converted to stable economic support). By 2050, the Australia arrangement sustains the micro-budget. EEZ tuna licensing provides modest additional revenue.
 - **GDP trajectory:** Effectively flat micro-economy since phosphate exhaustion. Australia patron arrangement determines whether the budget is in surplus or deficit. No growth trajectory available without external resource injection.
 - **Key sectors:** Australia patron aid, EEZ fisheries licensing, minimal government services.
+- **→ See KML: Nauru**
 
 **Palau:** Tourism-dependent Pacific economy — recovering toward Japanese and Australian markets post-US collapse.
 - **Economic structure:** Pre-collapse: ~100K+ tourists/year (primarily Japanese, Taiwanese, Chinese); tourism ~50% of GDP. Post-collapse: US-origin and Chinese-origin tourism disrupted; recovery toward Japanese and Australian markets through Japan patron arrangement. Marine biodiversity (UNESCO World Heritage diving sites) as the durable tourism asset.
 - **GDP trajectory:** Significant tourism contraction 2026-2035; partial recovery by 2050 toward Japanese/Australian tourist market. Small population (~18K) means per-capita recovery is viable even at lower absolute volumes.
 - **Key sectors:** Tourism (diving, eco-tourism), Japan compact revenue, EEZ fisheries, marine conservation.
+- **→ See KML: Palau**
 
 ## Driving Forces
 

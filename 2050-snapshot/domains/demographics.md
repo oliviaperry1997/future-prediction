@@ -901,30 +901,37 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 **Guam:** ~155K residents (2050 est.) — Chamorro majority, declining Filipino/other Asian population, military-affiliated population.
 - **Composition:** Chamorro (~40%), Filipino (~26%), other Pacific Islander/Asian (~20%), military-affiliated/US mainland origin (~14%). Chamorro cultural resurgence post-compact has increased the relative weight of Chamorro identity even as absolute numbers shift.
 - **Migration dynamics:** Emigration of non-Chamorro workers as federal employment collapsed; Chamorro return migration and diaspora repatriation driven by sovereignty recognition. Net modest population decline from peak (~180K in 2020).
+- **→ See KML: Guam**
 
 **CNMI (Northern Mariana Islands):** ~30K residents (2050 est.) — significant contraction from peak due to tourism collapse emigration.
 - **Composition:** Chamorro/Carolinian indigenous (~30%), Filipino and other Micronesian (~45%), small remaining Japanese-descent community (~5%), Japanese compact workers (~20%). Population composition shifted significantly as Filipino contract workers departed with tourism collapse.
 - **Migration dynamics:** Net significant emigration (est. 30-40% population decline from 2020 peak of ~53K). Japan compact arrangement has introduced a modest inflow of Japanese technical/development workers.
+- **→ See KML: CNMI**
 
 **Kiribati:** ~80K in-country residents (2050 est.); ~60K+ diaspora in NZ and Fiji — effective diaspora-dominant nationality.
 - **Composition:** I-Kiribati (~98%) — culturally homogeneous. The national population is now split between in-country residents and diaspora communities in NZ (Pacific Access Category) and Fiji (land purchase community). The Fiji community is growing toward permanence.
 - **Migration dynamics:** Climate-driven managed resettlement — the primary demographic story. Net outmigration ongoing. In-country population concentrated on higher-elevation atolls; lower atolls being abandoned.
+- **→ See KML: Kiribati**
 
 **Marshall Islands:** ~28K in-country residents (2050 est.); ~20K+ diaspora in Guam, HFS, and US successor states.
 - **Composition:** Marshallese (~94%), small Asian and other Pacific communities. High diaspora ratio — Marshallese emigrants to Guam and HFS (historically enabled by COFA free movement provisions) have not all returned in the post-COFA era.
 - **Migration dynamics:** Post-COFA free movement provisions revised but not fully eliminated under the PIF successor arrangement. In-country population stable around Majuro and Kwajalein. Climate displacement from outer atolls is ongoing.
+- **→ See KML: Marshall Is.**
 
 **Micronesia (FSM):** ~90K in-country residents (2050 est.); ~45K+ diaspora.
 - **Composition:** Four distinct ethnic groups corresponding to the four states — Chuukese (~49%), Pohnpeian (~29%), Kosraean (~6%), Yapese (~6%), other (~10%). Chuuk is the most populous and most politically unstable state.
 - **Migration dynamics:** FSM diaspora in Guam and HFS historically enabled by COFA free movement provisions. Chuuk's political instability drives out-migration from that state specifically. Overall population slowly contracting.
+- **→ See KML: Micronesia**
 
 **Nauru:** ~8K residents (2050 est.) — one of the world's smallest sovereign populations.
 - **Composition:** Nauruan (~93%), small Pacific Islander and other communities. Population is essentially static — no immigration pressure and modest emigration. Nauruan national identity remains strong despite the micro-scale.
 - **Migration dynamics:** Minimal — the phosphate era brought contract workers who departed with the industry. Current population is essentially all Nauruan nationals. Small Pacific diaspora in Australia exists.
+- **→ See KML: Nauru**
 
 **Palau:** ~20K residents (2050 est.) — stable small-state population with modest Japanese compact inflow.
 - **Composition:** Palauan (~73%), Filipino (~16%), other Asian (~7%), Japanese/other (~4%). Japan compact arrangement has introduced a small Japanese professional community.
 - **Migration dynamics:** Historically low emigration — Palauans have strong in-country attachment. Small Palauan diaspora in Guam and HFS. Modest Japan compact inflow of technical workers.
+- **→ See KML: Palau**
 
 ## Driving Forces
 
