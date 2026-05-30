@@ -864,6 +864,68 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **Key sectors:** Tourism (diving, eco-tourism), Japan compact revenue, EEZ fisheries, marine conservation.
 - **→ See KML: Palau**
 
+#### Polynesia
+
+**Maohi Nui:** Post-independence diversification — French metropolitan subsidies replaced by tourism, pearl farming, and fisheries revenue as the independent economic base.
+- **Economic structure:** Tourism (Tahiti, Bora Bora, Mo'orea — luxury Pacific destination; recovering post-French administrative contraction), black pearl farming (Tuamotu archipelago — Maohi Nui is the world's largest black pearl producer), tuna fisheries (EEZ licensing and processing), seabed mineral exploration rights (potential polymetallic nodule resources in the Clarion-Clipperton Zone). French metropolitan subsidies (~$2B/year under colonial administration) phased out over the 2030s-2040s independence transition.
+- **GDP trajectory:** Significant contraction during the subsidy phase-out (~15-20% GDP decline 2030-2040), followed by stabilization and partial recovery as independent revenue streams mature. Tourism recovery toward Asian, Australian, and revolutionary-state markets.
+- **Key sectors:** Tourism, pearl farming, fisheries, seabed mineral exploration (potential), public services.
+**→ See KML: Maohi Nui**
+
+**Cook Islands:** NZ-associated tourism and offshore finance economy — NZ budget support as the external economic anchor.
+- **Economic structure:** Tourism (Rarotonga and Aitutaki — primary economic driver; ~70% of GDP), pearl farming (Northern Cooks), offshore financial services, NZ budget support (~$25M/year). Remittances from the Cook Islands Māori diaspora in NZ (~80K) are significant relative to in-country population (~15K).
+- **GDP trajectory:** Modest growth through tourism recovery and NZ budget stability. The diaspora-in-country population ratio means per-capita GDP metrics are misleading — the effective economic unit is the trans-Tasman Cook Islands economic community.
+- **Key sectors:** Tourism, NZ budget support, pearl farming, remittances.
+**→ See KML: Cook Is.**
+
+**Niue:** NZ budget-dependent micro-economy — the most extreme aid dependency ratio in the Pacific.
+- **Economic structure:** NZ budget support (~$20M/year) as the primary revenue source — Niue could not sustain government functions, infrastructure maintenance, or public services without this. Tourism (small-scale — diving, whale watching, ecotourism), agriculture (vanilla, nonu, honey), fishing for local consumption. Remittances from Niuean diaspora in NZ (~30K) supplement in-country income.
+- **GDP trajectory:** Stable but static — NZ budget support maintains a floor. No growth trajectory available without population increase, which requires both economic opportunity and climate adaptation investment. The population crisis (1,600 in-country) is the binding economic constraint.
+- **Key sectors:** NZ budget support, remittances, small-scale tourism, subsistence agriculture.
+**→ See KML: Niue**
+
+**Samoa:** Remittance-anchored Pacific economy — balanced between tourism recovery, diaspora income, and agricultural exports.
+- **Economic structure:** Remittances (~20% of GDP from Samoan diaspora in NZ, Australia, US — the largest per-capita remittance-dependent economy in Polynesia), tourism (primary non-remittance revenue), agriculture (taro, coconut products — copra, coconut oil, nonu), manufacturing (light assembly — automotive wiring harnesses, a legacy of the 1990s Yazaki plant). PIF development funding supplements infrastructure investment.
+- **GDP trajectory:** Steady moderate growth (~2-3%/yr) driven by remittance stability and tourism recovery. Climate impacts (cyclone damage) cause periodic GDP shocks that recovery periods smooth over.
+- **Key sectors:** Remittances, tourism, agriculture, manufacturing (light assembly).
+**→ See KML: Samoa**
+
+**Tonga:** Remittance-dependent constitutional monarchy — diaspora economics as the foundation of national income.
+- **Economic structure:** Remittances from the Tongan diaspora (~50% of population abroad in NZ, Australia, US — the highest diaspora ratio in Polynesia) are the dominant economic force, contributing ~35-40% of GDP. Tourism (Vava'u whale watching, Tongatapu cultural tourism — recovering), agriculture (squash, vanilla, fish — primarily export), construction (driven by remittance-funded housing and cyclone reconstruction).
+- **GDP trajectory:** Cyclone-driven volatility is the primary economic pattern — Category 4-5 events cause 10-20% GDP shocks every 3-5 years, followed by reconstruction-driven recovery. The diaspora remittance stream provides a shock absorber that landlocked economies lack.
+- **Key sectors:** Remittances, tourism, agriculture, construction.
+**→ See KML: Tonga**
+
+**Tuvalu:** EEZ fisheries economy — diaspora nation whose economic base is the sovereign ocean zone rather than the shrinking land.
+- **Economic structure:** EEZ tuna fisheries licensing to distant-water fishing nations as primary sovereign revenue. Remittances from Tuvaluan diaspora in NZ ($ignificant relative to in-country population of ~12K). NZ and Australian development assistance (Pacific Access Category-related, climate adaptation funding). The .tv domain name registry (a legacy revenue source — diminished from its 2020s peak but still contributing).
+- **GDP trajectory:** In-country GDP is small and static. The effective economic unit is the diaspora-plus-EEZ complex — the EEZ generates ~$10-20M/year in licensing revenue regardless of how many people live on the shrinking atolls.
+- **Key sectors:** EEZ fisheries licensing, diaspora remittances, development assistance, .tv domain revenue.
+**→ See KML: Tuvalu**
+
+**Tokelau:** NZ-administered subsistence micro-economy — the smallest economic unit in Polynesia.
+- **Economic structure:** NZ budget support (~$10M/year for ~1,500 people — one of the highest per-capita aid dependencies in the world), subsistence fishing and agriculture (coconuts, pulaka/swamp taro), small-scale copra production, remittances from Tokelauan community in NZ. No significant commercial sector or export capacity.
+- **GDP trajectory:** Wholly determined by NZ budget allocation. No independent growth trajectory. The 2006-2007 referendum preference for continued NZ connection reflects an economic reality as much as a political choice — independence would not be economically viable without NZ-equivalent budget support.
+- **Key sectors:** NZ budget support, remittances, subsistence fishing and agriculture.
+**→ See KML: Tokelau**
+
+**American Samoa:** Post-US federal funding collapse — tuna canneries as the surviving economic anchor in a contracted economy.
+- **Economic structure:** Tuna canneries (Starkist — the largest private employer; Chicken of the Sea departed post-collapse) as the primary remaining economic anchor. US federal funding (which comprised ~40-50% of GDP under US administration — federal grants, Medicare/Medicaid reimbursements, infrastructure funding) collapsed with the US dissolution. Hawaiian Free State budget support partially replaces lost US federal funding, providing a reduced but stable fiscal floor for the province.
+- **GDP trajectory:** Severe contraction (~40-50% GDP decline 2026-2035) from the federal funding cliff. Partial stabilization by 2050 at a significantly reduced economic base, sustained by tuna processing and HFS budget support.
+- **Key sectors:** Tuna canning, HFS budget support, small-scale remittances, subsistence fishing.
+**→ See KML: American Samoa**
+
+**Pitcairn Islands:** Micro-economy — the world's smallest permanently inhabited jurisdiction by both population and economic output.
+- **Economic structure:** NZ budget support (following the UK-to-NZ transfer of administrative responsibility), .pn domain name registry (a legacy revenue source from the 1990s — minor but significant relative to population), small-scale cruise tourism (passengers visit Pitcairn for the Bounty mutineer history), subsistence fishing and gardening, souvenir sales (wood carvings, stamps, honey, handicrafts) to passing ships.
+- **GDP trajectory:** Effectively flat — the economy is too small to have meaningful growth dynamics. The total annual economic output of ~50 people on a remote island is determined primarily by external support and the frequency of cruise ship visits.
+- **Key sectors:** NZ budget support, domain registry, cruise tourism, subsistence.
+**→ See KML: Pitcairn**
+
+**Wallis and Futuna:** Maohi Nui-associated subsistence economy — French subsidy phase-out replaced by Maohi Nui development support.
+- **Economic structure:** Subsistence agriculture (taro, yams, bananas, breadfruit, pigs, poultry) for the majority of the ~10K population. Remittances from diaspora in New Caledonia and France. French metropolitan subsidies (which sustained the public sector under colonial administration) phased out during the France-to-Maohi Nui sovereignty transition, partially replaced by Maohi Nui development assistance.
+- **GDP trajectory:** Subsidy phase-out causes contraction, then stabilization at a lower level supported by Maohi Nui association. No independent growth trajectory — the economy's scale and geographic isolation preclude significant commercial development.
+- **Key sectors:** Subsistence agriculture, Maohi Nui development assistance, remittances.
+**→ See KML: Wallis and Futuna**
+
 ## Driving Forces
 
 The 2050 economic landscape is the end-state of trajectories whose key drivers are documented in the 2026-2049 transition analysis:
