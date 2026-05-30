@@ -280,13 +280,17 @@
         "Palau",
         "CNMI"
       ],
-      "Polynesia (wip)": [
+      "Polynesia": [
         "Cook Is.",
         "Maohi Nui",
         "Niue",
         "Samoa",
         "Tonga",
-        "Tuvalu"
+        "Tuvalu",
+        "Tokelau",
+        "American Samoa",
+        "Pitcairn",
+        "Wallis and Futuna"
       ]
     }
   },
@@ -1728,6 +1732,7 @@
           "county": ".*"
         }
       ],
+      "add_country_codes": ["UMI"],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "hawaii",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#hawaiian-free-state"
@@ -1795,6 +1800,87 @@
       "section_anchor": "maohi-nui",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
+    "Cook Is.": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "COK",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "cook-islands",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#cook-islands"
+    },
+    "Niue": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "NIU",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "niue",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#niue"
+    },
+    "Samoa": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "WSM",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "samoa",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#samoa"
+    },
+    "Tonga": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "TON",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "tonga",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#tonga"
+    },
+    "Tuvalu": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "TUV",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "tuvalu",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#tuvalu"
+    },
+    "Tokelau": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "TKL",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "tokelau",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#tokelau"
+    },
+    "American Samoa": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "ASM",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "american-samoa",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#american-samoa"
+    },
+    "Pitcairn": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "PCN",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "pitcairn",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#pitcairn"
+    },
+    "Wallis and Futuna": {
+      "type": "entity",
+      "category": "global",
+      "source": "country",
+      "country_code": "WLF",
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "wallis-and-futuna",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#wallis-and-futuna"
+    },
     "Mauritius": {
       "type": "entity",
       "category": "global",
@@ -1824,7 +1910,7 @@
       "country_code": "GUM",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "guam",
-      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#guam-hfs-compact"
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#guam"
     },
     "Kiribati": {
       "type": "entity",
