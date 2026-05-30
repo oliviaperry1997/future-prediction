@@ -94,7 +94,7 @@ Region-by-region plausibility audit for the 2050 snapshot. Each requirement cove
 
 ### Oceania Review
 
-- [ ] **OCEA-01**: Australasia — review complete
+- [x] **OCEA-01**: Australasia — review complete
 - [ ] **OCEA-02**: Melanesia — review complete
 - [ ] **OCEA-03**: Micronesia — review complete
 - [ ] **OCEA-04**: Polynesia — review complete
@@ -159,7 +159,7 @@ Region-by-region plausibility audit for the 2050 snapshot. Each requirement cove
 | EURA-07 | Phase 12 | Complete |
 | EURA-08 | Phase 13 | Pending |
 | EURA-09 | Phase 14 | Complete |
-| OCEA-01 | Phase 15 | Pending |
+| OCEA-01 | Phase 15 | Complete |
 | OCEA-02 | Phase 16 | Pending |
 | OCEA-03 | Phase 17 | Pending |
 | OCEA-04 | Phase 18 | Pending |

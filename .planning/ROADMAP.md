@@ -20,7 +20,7 @@ A markdown-based geopolitical forecasting and world-building project. This roadm
 - [x] **Phase 12: Southern Europe Review** — Plausibility audit: Southern Europe (completed 2026-05-29)
 - [x] **Phase 13: Western Asia Review** — Plausibility audit: Western Asia (completed 2026-05-29)
 - [x] **Phase 14: Western Europe Review** — Plausibility audit: Western Europe (completed 2026-05-29)
-- [ ] **Phase 15: Australasia Review** — Plausibility audit: Australasia
+- [x] **Phase 15: Australasia Review** — Plausibility audit: Australasia (completed 2026-05-30)
 - [ ] **Phase 16: Melanesia Review** — Plausibility audit: Melanesia
 - [ ] **Phase 17: Micronesia Review** — Plausibility audit: Micronesia
 - [ ] **Phase 18: Polynesia Review** — Plausibility audit: Polynesia
@@ -349,6 +349,13 @@ Plans:
   1. Both Australasian entities assessed — no contradictions
   2. KML entities for Australasia correct in Google Earth Pro
   3. All documentation gaps for Australasian entities identified and filled
+**Plans**: 4 plans
+
+Plans:
+- [x] 15-01-PLAN.md — KML: Add 4 overseas territory Placemarks, rename Australasia (wip) folder (Wave 1)
+- [x] 15-02-PLAN.md — borders-geopolitics.md: Expand AU/NZ stubs into structured sub-entries (Wave 2)
+- [x] 15-03-PLAN.md — economy.md + demographics.md: Replace combined entries with individual sub-entries (Wave 3)
+- [x] 15-04-PLAN.md — culture.md + climate.md: Replace combined entries with individual sub-entries (Wave 4)
 
 ### Phase 16: Melanesia Review
 **Mode**: mvp
@@ -410,7 +417,7 @@ Plans:
 | 12. Southern Europe Review | 6/6 | Complete | 2026-05-29 |
 | 13. Western Asia Review | 6/6 | Complete | 2026-05-29 |
 | 14. Western Europe Review | 4/4 | Complete   | 2026-05-29 |
-| 15. Australasia Review | — | Not started | — |
+| 15. Australasia Review | 4/4 | Complete   | 2026-05-30 |
 | 16. Melanesia Review | — | Not started | — |
 | 17. Micronesia Review | — | Not started | — |
 | 18. Polynesia Review | — | Not started | — |
