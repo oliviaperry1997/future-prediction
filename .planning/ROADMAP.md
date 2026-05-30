@@ -452,7 +452,7 @@ Plans:
 Plans:
 - [x] 19.1-01-PLAN.md — KML longitudinal sector clips + entity nesting in KML/JSON + BAT removal (Wave 1)
 - [x] 19.1-02-PLAN.md — borders-geopolitics.md UK defunct + Australia leasing narrative (Wave 1, parallel)
-- [ ] 19.1-03-PLAN.md — economy.md + demographics.md UK defunct + Australia leasing corrections (Wave 2, blocked on 02)
+- [x] 19.1-03-PLAN.md — economy.md + demographics.md UK defunct + Australia leasing corrections (Wave 2, blocked on 02)
 - [ ] 19.1-04-PLAN.md — culture.md + climate.md + technology.md UK defunct corrections (Wave 2, blocked on 02, parallel with 03)
 
 **Cross-cutting constraints:**
@@ -488,5 +488,5 @@ Plans:
 | 16. Melanesia Review | 4/4 | Complete   | 2020-05-30 |
 | 17. Micronesia Review | 4/4 | Complete   | 2020-05-30 |
 | 18. Polynesia Review | — | Planned (4 plans) | — |
-| 19. Antarctica Review | 4/4 | Complete   | 2020-05-30 |
+| 19. Antarctica Review | 3/4 | In Progress|  |
 | 19.1. Antarctica Gap Closure | 1/4 | Executing | 2026-05-30 |
