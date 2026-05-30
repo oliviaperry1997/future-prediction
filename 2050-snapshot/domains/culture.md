@@ -442,6 +442,50 @@ The 2050 linguistic landscape reflects the end of US hegemony and the multipolar
 - **Custom governance:** The National Council of Chiefs (Malvatu Mauri) is constitutionally recognized — one of the few Pacific nations where customary governance has formal constitutional status alongside the parliamentary system.
 - **→ See KML: Vanuatu**
 
+#### Micronesia
+
+**Guam:** Chamorro cultural renaissance — decolonization of American administrative and cultural legacy as the defining post-compact cultural project.
+- **Cultural identity:** Chamorro sovereignty recognition through the Pacifica/HFS compact has catalyzed a cultural resurgence — CHamoru language revitalization programs, traditional navigation and fishing practices, and the displacement of US fast-food and franchise monoculture by Chamorro culinary and artistic identity. Inafa'maolek (interdependence/harmony) as the governing social ethic reasserted over American individualist cultural imports.
+- **Cultural production:** Chamorro literary, musical, and visual arts flowering — the post-compact generation produces work that directly processes the colonial experience and sovereignty achievement. Strong regional connections to other Pacific decolonization cultures (Kanaky, Hawaiian Free State).
+- **Decolonization legacy:** The replacement of US federal administrative culture (English-only instruction, American civic rituals) with bilingual CHamoru-English governance and Chamorro cultural civic education is the cultural analog to the geopolitical compact.
+- **→ See KML: Guam**
+
+**CNMI (Northern Mariana Islands):** Indigenous Chamorro/Carolinian identity navigating Japanese cultural revival and post-US administrative transformation.
+- **Cultural identity:** Chamorro and Carolinian indigenous identities are the anchor — historically suppressed under US administration. Japanese colonial era (1914-1944) left cultural residue (food, architecture, diaspora family ties) that the Japan compact arrangement has revived. The CNMI cultural landscape is trilingual (Chamorro, Carolinian, Japanese) with English as a declining lingua franca.
+- **Cultural dynamics:** Japan compact inflow has renewed Japanese cultural presence — Japanese-language instruction, Japanese cultural festivals, Japanese business culture. This sits in tension with the Chamorro/Carolinian indigenous cultural resurgence. The resulting cultural negotiation is the defining CNMI cultural story.
+- **Migration effect:** Population contraction has contracted the cultural production base — smaller cultural institutions, reduced government arts funding, but stronger community cohesion in the remaining indigenous population.
+- **→ See KML: CNMI**
+
+**Kiribati:** I-Kiribati cultural diaspora — maintaining Pacific atoll identity across a physically dispersed nation.
+- **Cultural identity:** I-Kiribati culture (te katei ni Kiribati — the Kiribati way) is deeply tied to the maneaba (meeting house) system, oral tradition, and the physical ocean environment. Climate displacement to Fiji and NZ has created a diaspora cultural challenge: maintaining maneaba culture in an urban Pacific or NZ context. The diaspora communities have constructed maneaba in Fiji and NZ as cultural anchors.
+- **Cultural resilience:** The EEZ-without-territory legal framework has given I-Kiribati cultural identity a political scaffolding — the nation persists as a sovereign entity even as the land diminishes. Cultural identity is not land-anchored but ocean-anchored, which provides philosophical alignment with the sovereignty-through-EEZ model.
+- **Cultural production:** Climate testimony as cultural production — I-Kiribati poets, artists, and diplomats have become the most prominent Pacific voices on climate justice. The cultural and the political are fused.
+- **→ See KML: Kiribati**
+
+**Marshall Islands:** Marshallese cultural identity shaped by nuclear legacy and survival diaspora.
+- **Cultural identity:** Marshallese navigation culture (traditional stick charts, star navigation, canoe-building) and oral tradition as the cultural foundation. The nuclear test legacy (Bikini, Enewetak) is now processed as cultural trauma and assertion simultaneously — nuclear reparations advocacy is culturally central, not marginal.
+- **Diaspora culture:** Large Marshallese diaspora in Guam and HFS maintains cultural ties to the islands while adapting to urban Pacific contexts. The diaspora is culturally integrated across the island-diaspora continuum — not a rupture but an extension.
+- **Post-COFA cultural shift:** The end of US Compact produced a cultural as well as economic rupture — English-dominant American cultural influence (churches, consumer culture) declined; patron-culture influence entered. The patron's cultural footprint is noted in the borders-geopolitics.md characterization.
+- **→ See KML: Marshall Is.**
+
+**Micronesia (FSM):** Four-culture federation — Chuukese, Pohnpeian, Kosraean, and Yapese cultural distinctiveness preserved within the federal framework.
+- **Cultural identity:** FSM is four distinct cultures, not one. Yap is the most culturally distinct — traditional Yapese stone money (rai), rank society, and Yapese cultural conservatism remain strong. Chuuk has the largest population and the most political instability but also the strongest martial/navigational cultural tradition. Pohnpei has the ancient Nan Madol heritage site as a cultural anchor.
+- **Cultural dynamics:** FSM's cultural diversity is a political stress and a cultural richness simultaneously. The post-COFA transition has reduced American cultural influence and opened space for traditional cultural reassertion across all four states.
+- **Regional cultural role:** FSM has played a role in the Pacific arts festival and regional cultural exchanges as a multi-culture representative — its diversity is an asset in pan-Pacific cultural diplomacy.
+- **→ See KML: Micronesia**
+
+**Nauru:** Nauruan cultural identity under existential pressure — micro-nation synthesizing post-phosphate survival into cultural narrative.
+- **Cultural identity:** Nauruan identity is defined by its paradox: a people who had one of the highest per-capita incomes in the world in the 1970s-80s (phosphate boom) and now survive on patron dependency. This economic arc is processed culturally — Nauruan literature and cultural production reflects both the boom nostalgia and the post-boom reckoning.
+- **Thin source material note:** Nauru has the least documented cultural profile of any Micronesian entity — this entry synthesizes from regional dynamics and the known phosphate-era cultural transformation. Nauruan language (Nauruan, an Eastern Micronesian language) is the primary cultural marker; the community is small enough that cultural transmission is direct (not institutionalized).
+- **Survival culture:** The post-phosphate generation's cultural identity is one of survival and resilience — making something of the micro-state against significant odds. The Australian offshore processing relationship (and its end) is processed as a colonial-style dependency narrative.
+- **→ See KML: Nauru**
+
+**Palau:** Palauan cultural identity as marine sovereignty — biodiversity stewardship as cultural and political assertion.
+- **Cultural identity:** Palauan culture is deeply ocean-centered — the Bai (traditional men's meeting house), tattoo traditions, oral history of migration and navigation, and the cultural significance of the Palau National Marine Sanctuary (no-take zone covering 80% of EEZ). The sanctuary is simultaneously a conservation policy and a cultural assertion of Palauan sovereign control over their ocean environment.
+- **Cultural production:** Palau has punched above its weight in Pacific cultural diplomacy — the Marine Sanctuary model has been adopted by other Pacific states. Palauan artists and cultural figures draw on the reef ecosystem as a cultural metaphor for resilience and sovereignty.
+- **Post-COFA cultural shift:** Like FSM and Marshall Islands, the end of US Compact reduced American cultural influence. Palau's relatively strong governance and distinct cultural identity means the cultural shift is less disruptive than in more US-dependent states.
+- **→ See KML: Palau**
+
 ## Driving Forces
 
 Briefly — key cultural drivers from the 2026-2049 transition period, with → See transition doc: references:
