@@ -301,6 +301,15 @@
     ],
     "China": [
       "Chinese Marie Byrd Land"
+    ],
+    "South Africa": [
+      "South African Antarctic Territory"
+    ],
+    "India": [
+      "Indian Antarctic Territory"
+    ],
+    "Brazil": [
+      "Brazilian Antarctic Territory"
     ]
   },
   "entities": {
@@ -2538,6 +2547,36 @@
         "Syria",
         "Hejaz"
       ]
+    },
+    "South African Antarctic Territory": {
+      "type": "entity",
+      "category": "global",
+      "source": "Santiago Protocol claim purchase (2044) \u2014 Enderby+Kemp Land purchased from Australia",
+      "domain_doc": "borders-geopolitics.md",
+      "section_anchor": "antarctica",
+      "see_path": "See: 2050-snapshot/kml/borders.kml (South African Antarctic Territory)",
+      "parent_entity": "South Africa",
+      "country_code": "ATA-ZA"
+    },
+    "Indian Antarctic Territory": {
+      "type": "entity",
+      "category": "global",
+      "source": "Santiago Protocol claim purchase (2043-2044) \u2014 Mac. Robertson/Princess Elizabeth/Kaiser Wilhelm II/Queen Mary Land purchased from Australia",
+      "domain_doc": "borders-geopolitics.md",
+      "section_anchor": "antarctica",
+      "see_path": "See: 2050-snapshot/kml/borders.kml (Indian Antarctic Territory)",
+      "parent_entity": "India",
+      "country_code": "ATA-IN"
+    },
+    "Brazilian Antarctic Territory": {
+      "type": "entity",
+      "category": "global",
+      "source": "Santiago Protocol claim filing (2046) \u2014 former British Antarctic Territory sector",
+      "domain_doc": "borders-geopolitics.md",
+      "section_anchor": "antarctica",
+      "see_path": "See: 2050-snapshot/kml/borders.kml (Brazilian Antarctic Territory)",
+      "parent_entity": "Brazil",
+      "country_code": "ATA-BR"
     }
   },
   "fragmented_entities": {},

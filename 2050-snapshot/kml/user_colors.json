@@ -471,7 +471,8 @@
     "hex": "#8b3a2b",
     "kml_fill": "802b3a8b",
     "kml_line": "ff2b3a8b",
-    "width": 1.0
+    "width": 1.0,
+    "note": "ACJAT San Mart\u00edn \u2014 Chile with Argentine condominium (53\u00b0W\u201390\u00b0W)"
   },
   "Australian Antarctic Territory": {
     "hex": "#1f2d4a",
@@ -1480,5 +1481,26 @@
     "kml_fill": "809b9b60",
     "kml_line": "ff9b9b60",
     "width": 1.0
+  },
+  "South African Antarctic Territory": {
+    "hex": "#3A9455",
+    "kml_fill": "803a9455",
+    "kml_line": "ff3a9455",
+    "styleId": "__managed_style_0000000000000268",
+    "note": "South African Antarctic Territory \u2014 Enderby+Kemp Land (SA green)"
+  },
+  "Indian Antarctic Territory": {
+    "hex": "#FF9933",
+    "kml_fill": "80ff9933",
+    "kml_line": "ffff9933",
+    "styleId": "__managed_style_0000000000000269",
+    "note": "Indian Antarctic Territory \u2014 Mac. Robertson/Princess Elizabeth/Kaiser Wilhelm II/Queen Mary Land (India saffron)"
+  },
+  "Brazilian Antarctic Territory": {
+    "hex": "#009C3B",
+    "kml_fill": "80009c3b",
+    "kml_line": "ff009c3b",
+    "styleId": "__managed_style_000000000000026A",
+    "note": "Brazilian Antarctic Territory \u2014 former BAT sector (Brazil green)"
   }
 }
