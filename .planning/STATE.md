@@ -2,15 +2,15 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
-status: verifying
-stopped_at: Phase 19 Plan 01 complete — 7 claim-zone KML folders, entity entries, color styles
-last_updated: "2026-05-30T18:21:27.940Z"
-last_activity: 2026-05-30
+status: executing
+stopped_at: Phase 19.1 Plan 01 complete — 6 sector-clipped claim zones nested under parents, BAT removed
+last_updated: "2026-05-30T19:14:37.000Z"
+last_activity: 2026-05-30 -- Phase 19.1 Plan 01 executed
 progress:
-  total_phases: 19
-  completed_phases: 14
-  total_plans: 59
-  completed_plans: 60
+  total_phases: 20
+  completed_phases: 12
+  total_plans: 55
+  completed_plans: 59
   percent: 100
 ---
 
@@ -21,13 +21,13 @@ progress:
 See: .planning/PROJECT.md (updated 2026-05-19)
 
 **Core value:** A coherent, grounded, internally consistent vision of how the world transforms between now and 2100, detailed enough to draw accurate maps at each quarter-century checkpoint.
-**Current focus:** Phase 19 — antarctica-review
+**Current focus:** Phase 19.1 — Antarctica Gap Closure
 
 ## Current Position
 
-Phase: 19 (antarctica-review) — EXECUTING
-Plan: 4 of 4
-Status: Phase complete — ready for verification
+Phase: 19.1 (Antarctica Gap Closure) — EXECUTING
+Plan: 2 of 4
+Status: Ready to execute
 Last activity: 2026-05-30
 
 ## Performance Metrics
@@ -86,6 +86,10 @@ Last activity: 2026-05-30
 - [Phase ?]: culture.md Antarctica inserted after Wallis and Futuna
 - [Phase ?]: climate.md Antarctica climate entry consistency
 - [Phase ?]: technology.md Antarctica insertion point
+- [Phase 19.1 Plan 01]: Longitudinal sector clipping replaces point-in-polygon assignment with meridian-intersection splitting across 6 sector boundaries (D-A)
+- [Phase 19.1 Plan 01]: Argentine-Chilean Peninsula clipped to 53°W–90°W; verified range -89.89 to -53.22 with 0 coordinates outside sector (D-B)
+- [Phase 19.1 Plan 01]: Claim zones nested under parent entities in KML: AAT→Australia, Ross→NZ, Adélie+Dronning→EF, CMBL→China; ACP standalone (D-D)
+- [Phase 19.1 Plan 01]: BAT removed from all 3 files: KML folder+style, entity-config entry, user_colors entry (D-G)
 
 ### Pending Todos
 
@@ -109,6 +113,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-30T18:21:18.341Z
-Stopped at: Phase 19 Plan 01 complete — 7 claim-zone KML folders, entity entries, color styles
+Last session: 2026-05-30T19:14:37.000Z
+Stopped at: Phase 19.1 Plan 01 complete — 6 sector-clipped claim zones nested under parents, BAT removed
 Resume file: None
