@@ -148,11 +148,11 @@ The 2050 employment landscape is defined by the uneven penetration of automation
 
 → See KML: Labor Market Zones
 
-### Economic Profiles — US Successor States
+### Economic Profiles — Americas
 
-Entity-by-entity economic profiles covering all 19 successor states. Each profile includes GDP range, dominant sectors, trade partners and bloc alignment, economic model, currency status, and labor market character.
+Entity-by-entity economic profiles covering all ~85 Americas entities across 4 UN geoscheme subregions: Northern America, Caribbean, Central America, South America. Each profile includes GDP range, dominant sectors, trade partners and bloc alignment, economic model, currency status, labor market character, and → See KML cross-reference.
 
-#### Revolutionary States
+**Northern America:**
 
 **Pacifica:**
 - **GDP:** ~$2.5T
@@ -244,8 +244,6 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **→ See KML: Appalachia**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#appalachia)
 
-#### Indigenous Sovereign Nations
-
 **Navajo Nation (Diné Bikéyah):**
 - **GDP:** ~$15B
 - **Dominant sectors:** Solar energy (abundant solar resource — transitioning from fossil fuel legacy), energy (legacy coal — declining, uranium reclamation), tourism (Monument Valley, Canyon de Chelly, Four Corners region), crafts (textiles, jewelry — global market via digital platforms), agriculture (limited by water)
@@ -295,8 +293,6 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **Labor market character:** Mixed. Tourism and agriculture labor-intensive. Energy sector automated. Gaming industry mixed. ~50K+ population.
 - **→ See KML: Haudenosaunee Confederacy**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#12-iroquoishaudenosaunee-confederacy)
-
-#### Reactionary States
 
 **Florida:**
 - **GDP:** ~$200B (down from ~$400B pre-collapse — tourism collapsed, agriculture declining, no federal transfers)
@@ -378,8 +374,6 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **→ See KML: Mountain Tapestry**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#18-mountain-extraction-rump--tapestry-states)
 
-#### Degrading Rumps
-
 **Alaska:**
 - **GDP:** ~$30B
 - **Dominant sectors:** Oil and gas (severely declining — production <500K bpd, global demand declining, infrastructure degrading), fishing (Bristol Bay, Gulf of Alaska — residual), logistics (Anchorage as air cargo hub — significantly reduced volume), military (residual infrastructure, no capacity to project power)
@@ -399,6 +393,454 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **Labor market character:** Labor-intensive. Fishing, subsistence, and seasonal tourism. Some automation in fish processing.
 - **→ See KML: Tlingit Aaní**
 - → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#11-other-alaska-indigenous-nations)
+
+**Canada (rump):**
+- **GDP:** ~$600B (structural decline — lost richest provinces, severed from US market, oil/gas exports declining)
+- **Dominant sectors:** Oil sands (Alberta — declining global demand, pipeline capacity constrained), agriculture (Prairies — wheat, canola, livestock — export-oriented but landlocked), mining (potash — Saskatchewan, uranium, nickel — world-class deposits), forestry (boreal — declining as mills close), energy (hydro — Manitoba, Quebec lost but Churchill Falls contract legacy provides some revenue)
+- **Trade partners and bloc alignment:** Great Lakes (primary — Ontario rump manufacturing and logistics corridor), Atlantica (growing but limited — Maritimes lost), BRICS+ (limited — energy and mineral exports through Great Lakes and Pacifica intermediaries). Economic decline driven by three simultaneous shocks: US collapse (lost primary market), provincial fragmentation (lost economic weight of BC, Quebec, Maritimes, Alberta autonomy), and global fossil fuel demand decline.
+- **Economic model:** Reactionary extractive economy in structural decline. Federal capacity minimal. Oil sands revenue declining. No alternative growth engine identified. Fiscal transfers to rump provinces unsustainable.
+- **Currency:** Canadian Dollar (CAD) — severely weakened, limited convertibility. Trade increasingly settled in BCU and Great Lakes Dollar.
+- **Labor market character:** Mixed. Oil sands moderately automated. Mining and forestry mixed. Agriculture mechanizing. High unemployment in former industrial Ontario. Brain drain to Great Lakes and Atlantica.
+- **→ See KML: Canada (rump)**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Quebec Republic:**
+- **GDP:** ~$350B (culturally conservative-nationalist, economically fragile — severed from Canadian market, Labrador dispute consuming diplomatic bandwidth)
+- **Dominant sectors:** Hydroelectricity (Hydro-Québec — world-class renewable producer, exports to Atlantica and Maritime Republic — primary revenue source), aerospace (Bombardier legacy — reduced but still significant), mining (critical minerals — lithium, rare earths, iron — Nunavik, Labrador region), manufacturing (aluminum, forestry, food processing — declining), services (Montréal — financial and tech hub, but talent flight to Atlantica)
+- **Trade partners and bloc alignment:** Atlantica (primary — hydro exports, limited trade corridor), Maritime Republic (tense — Labrador dispute), Great Lakes (limited). Not BRICS+ aligned. The Labrador Triangle dispute constrains all economic relationships.
+- **Economic model:** Conservatist-nationalist mixed economy. Strong state sector (Hydro-Québec, state-owned enterprises). Economic nationalism (Buy Québécois policies). Fiscal pressure from military spending on Labrador border.
+- **Currency:** Quebec Franc (QBF) — managed float. Limited international acceptance. Hydro export revenue provides some convertibility.
+- **Labor market character:** Mixed. Aerospace highly skilled. Hydroelectric capital-intensive. Mining mixed. Services moderate. Talent flight of educated Québécois to Atlantica accelerating.
+- **→ See KML: Quebec Republic**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Maritime Republic:**
+- **GDP:** ~$80B (cooperative commonwealth — fishing and forestry reorganized under public ownership)
+- **Dominant sectors:** Fishing (Atlantic fisheries — cooperative-managed, sustainable harvest — primary export to Atlantica and Europe), forestry (publicly owned forests — sustainable timber, paper), agriculture (potatoes — PEI, Nova Scotia, New Brunswick — export-oriented), renewable energy (tidal — Bay of Fundy, wind — offshore — growing), shipbuilding (Halifax — Irving legacy, naval and commercial)
+- **Trade partners and bloc alignment:** Atlantica (primary — free movement zone, trade corridor), European Federation (fisheries exports), Pacifica (limited). BRICS+ observer through Atlantica relationship. The Maritimes function as Atlantica's maritime gateway.
+- **Economic model:** Cooperative economics. Public ownership of natural resources (forestry, fisheries, energy). Worker cooperatives in processing and services. Strong social services funded by cooperative revenue.
+- **Currency:** Maritime Dollar (MRD) — pegged to Atlantic Dollar (ATD). Managed by Maritime Monetary Authority in coordination with Atlantica.
+- **Labor market character:** Labor-intensive. Fishing and forestry employ significant share. Shipbuilding mixed. Renewable energy growing. Cooperative employment structure provides wage stability.
+- **→ See KML: Maritime Republic**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Newfoundland:**
+- **GDP:** ~$25B (cooperative commonwealth — fishery and resource-worker economy, microstate scale)
+- **Dominant sectors:** Fishing (Grand Banks — cod, crab, shrimp — cooperative-managed, sustainable), hydroelectricity (Churchill Falls — Labrador, disputed with Quebec), mining (iron ore — Labrador West, nickel — Voisey's Bay), offshore oil (Hibernia, Terra Nova — declining), renewable energy (wind — growing)
+- **Trade partners and bloc alignment:** Atlantica (primary — fish and energy exports), Maritime Republic (cooperative), European Federation (fisheries). The Churchill Falls dispute with Quebec Republic constrains energy relationships.
+- **Economic model:** Cooperative commonwealth. Fishing and energy managed through cooperatives and public ownership. Social democratic welfare state at microstate scale.
+- **Currency:** Newfoundland Dollar (NFD) — pegged to Atlantic Dollar (ATD) through Maritime-Atlantica financial coordination.
+- **Labor market character:** Labor-intensive. Fishing and fish processing primary employment. Mining mixed. Hydroelectric capital-intensive. Small population (~500K) limits labor force.
+- **→ See KML: Newfoundland**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Manitoba:**
+- **GDP:** ~$60B (agricultural economy under cooperative/public ownership — revolutionary interior anchor)
+- **Dominant sectors:** Agriculture (grain — wheat, canola, oats — large-scale, cooperative-managed; livestock, potatoes, sugar beets), hydroelectricity (Manitoba Hydro — exports to Great Lakes and Canadian rump), mining (nickel — Thompson, gold, copper, potash — emerging), manufacturing (food processing, agricultural equipment), services (Winnipeg — regional trade and logistics hub)
+- **Trade partners and bloc alignment:** Great Lakes (primary — electricity exports, agricultural trade corridor), Canadian rump (limited — Churchill port access via Hudson Bay), BRICS+ (growing — agricultural exports). Revolutionarily aligned—Manitoba's cooperative economy and socialist orientation match Great Lakes and Pacifica.
+- **Economic model:** Cooperative/public ownership mixed economy. Directed agriculture through Manitoba Wheat Pool cooperative structure. Hydroelectricity publicly owned. Worker cooperatives in manufacturing and processing.
+- **Currency:** Manitoba Dollar (MBD) — partially convertible, managed in coordination with Great Lakes Dollar (GLD).
+- **Labor market character:** Mixed. Agriculture increasingly automated (autonomous combines, drone monitoring). Hydroelectric capital-intensive. Manufacturing moderately automated. Cooperative employment provides wage stability.
+- **→ See KML: Manitoba**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Denendeh:**
+- **GDP:** ~$5B (small — indigenous stewardship economy transitioning from mining to sustainable/renewable)
+- **Dominant sectors:** Mining (diamond — Ekati, Diavik — declining reserves; gold — emerging; rare earths — potential), renewable energy (hydro — Taltson, Snare — small scale; solar and wind — growing for community power), traditional economy (caribou, fishing, trapping, crafts — subsistence and commercial), tourism (Northern Lights, Great Slave Lake, Nahanni — eco-cultural tourism), forestry (sustainable — limited)
+- **Trade partners and bloc alignment:** Canadian rump (residual — transportation corridor), Great Lakes (emerging — renewable energy and mining), Pacifica (cultural ties through indigenous networks). BRICS+ participants through indigenous cooperative trade relationships.
+- **Economic model:** Indigenous stewardship economy. Dene collective governance of land and resources. Transition from mining-dependent revenue to renewable and cultural economy. Co-management agreements with mining companies.
+- **Currency:** Digital basket (BCU) / barter. No independent currency. Canadian dollar legacy holdings being converted.
+- **Labor market character:** Labor-intensive. Traditional economy employs significant share. Mining capital-intensive. Renewable energy installation growing. Indigenous cooperative enterprises expanding.
+- **→ See KML: Denendeh**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Inuit Nunangat:**
+- **GDP:** ~$4B (small — transnational indigenous confederation, Arctic resource governance)
+- **Dominant sectors:** Mining (Mary River iron ore — Baffin Island, gold — Nunavut, rare earths — emerging potential), oil and gas (residual — declining global demand, Arctic drilling constrained by ice structure mandate), renewable energy (hydro — small scale, solar and wind — growing for community energy independence), fisheries (Arctic char, turbot — commercial, sustainable), traditional economy (seal, caribou, fishing, crafts), carbon credit revenue (peatlands and permafrost carbon sinks — emerging revenue source)
+- **Trade partners and bloc alignment:** Canada rump (residual — transportation corridor), Denendeh (cooperative), Greenland (Pan-Inuit cooperation), BRICS+ (limited — mineral exports). Carbon credit market provides emerging revenue from boreal/Arctic ecosystem preservation.
+- **Economic model:** Transnational indigenous governance. Inuit Tapiriit Kanatami successor coordinates economic policy across Nunavut, Nunavik (Northern Quebec), Nunatsiavut (Labrador), and Inuvialuit (NWT). Resource co-management with territorial governments. Land claims agreements provide revenue base.
+- **Currency:** Digital basket (BCU) / Canadian dollar (residual). No independent currency.
+- **Labor market character:** Labor-intensive. Traditional economy employs significant share. Mining capital-intensive. Public sector (territorial administration) largest employer. High cost of living constrains labor market development.
+- **→ See KML: Inuit Nunangat**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Mexico:**
+- **GDP:** ~$1.5T (unified revolutionary republic with Aztlán — middle-income transitional economy trending toward developmental socialism)
+- **Dominant sectors:** Manufacturing (automotive, electronics, appliances — integrated with Aztlán semiconductor/solar base), energy (oil — Pemex, declining; solar — Sonoran desert, integrated with Aztlán grid; wind — Isthmus of Tehuantepec), remittances (Mexican diaspora in revolutionary successor states — reduced from US-era peak but still significant), agriculture (avocado, berries, tomatoes, corn — water-stressed north, subsistence south), tourism (Cancún, Riviera Maya, Pacific coast — reoriented from US to BRICS+ markets), services (Mexico City — financial hub for unified Mexico-Aztlán economic space)
+- **Trade partners and bloc alignment:** Aztlán (integrated — unified economic space, energy sharing, currency coordination), Pacifica (electricity exports, trade corridor), BRICS+ (member), Great Lakes (agricultural and manufactured goods trade). The Mexico-Aztlán unification created a continental manufacturing corridor from the Sonoran desert to the Yucatán.
+- **Economic model:** Unified revolutionary republic trending socialist. State-directed strategic industries (energy, infrastructure, mining). Market-based private sector with strong social regulation. Aztlán's socialist model influences national economic policy.
+- **Currency:** Mexican Peso (MXN) — unified with Aztlán Peso (CSP) under the Mexico-Aztlán monetary union. Convertible to BCU within BRICS+ framework.
+- **Labor market character:** Mixed. Manufacturing increasingly automated (40-50% by task). Agriculture labor-intensive. Services mixed. Young workforce with education levels improving. Remittance-dependent household economy declining as domestic employment grows.
+- **→ See KML: Mexico**
+- → See transition doc: [central-america.md](../../2026-2050-transition/regions/central-america.md)
+
+**Bermuda:**
+- **GDP:** ~$10B (offshore financial center — dollar collapse destroyed the primary model)
+- **Dominant sectors:** Financial services (residual — re/insurance, asset management — reoriented from USD to multicurrency), tourism (premium — British-colonial heritage tourism, golf), maritime services (ship registration — second-largest registry globally)
+- **Trade partners and bloc alignment:** Atlantica (primary — closest revolutionary state), UK (residual). The dollar collapse destroyed Bermuda's offshore financial center model — re/insurance reregulated under multicurrency framework.
+- **Economic model:** Residual offshore financial hub. Re/insurance industry adapted to BCU and multicurrency settlement. Tourism reoriented toward BRICS+ markets.
+- **Currency:** Bermudian Dollar (BMD) — historically pegged to USD, transitioning to BCU and Atlantic Dollar for trade settlement.
+- **→ See KML: Bermuda**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**St. Pierre and Miquelon:**
+- **GDP:** ~$200M (French overseas collectivity — micro-economy)
+- **Dominant sectors:** Fishing (cod — Grand Banks, traditional), services (public administration — French subsidy-dependent), tourism (limited — French heritage, seabird colonies), sealing (residual)
+- **Trade partners and bloc alignment:** France (residual — subsidies declining), Newfoundland and Maritime Republic (de facto economic integration). French sovereignty maintained but functionally oriented toward revolutionary North Atlantic neighbors.
+- **Economic model:** French overseas micro-economy. Subsidy-dependent. Fishing-based private sector. Viable only through French transfer payments.
+- **Currency:** Euro (EUR) — digital basket (BCU) use growing for local trade with Newfoundland and Maritimes.
+- **→ See KML: St. Pierre and Miquelon**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Caribbean:**
+
+**Cuba:**
+- **GDP:** ~$120B (anchor of Caribbean revolutionary socialism, embargo collapsed with US federal government)
+- **Dominant sectors:** Pharmaceuticals and biotech (developed in isolation — valuable export industry post-embargo), tourism (reoriented toward BRICS+ markets — China, Russia, Brazil), medical diplomacy (health services exports), agriculture (sugar, tobacco, citrus — reforming), nickel and cobalt mining (Moa — with Canadian investment)
+- **Trade partners and bloc alignment:** BRICS+ (primary), Aztlán (normalized relations), Atlantica (growing), Venezuela (EAF-aligned — ideological ally), China (investment and trade). Post-embargo Cuba is no longer a besieged outlier — it is the region's diplomatic and ideological hub.
+- **Economic model:** Revolutionary socialist — state-directed with growing private sector (SME reform post-embargo). Biotech and pharmaceuticals under state ownership. Tourism joint ventures with foreign capital.
+- **Currency:** Cuban Peso (CUP) + Convertible Peso (CUC — transitional). Digital basket (BCU) growing for international transactions.
+- **→ See KML: Cuba**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Haiti:**
+- **GDP:** ~$15B (deepest crisis in the region — failed state, humanitarian catastrophe)
+- **Dominant sectors:** Agriculture (subsistence — rice, mangoes, coffee — deforestation and landslides reducing output), remittances (Haitian diaspora in Atlantica, France — primary foreign exchange source), small-scale manufacturing (textiles — Port-au-Prince industrial parks — disrupted by gang control), international humanitarian economy (NGOs, CARICOM stabilization mission)
+- **Trade partners and bloc alignment:** CARICOM (collective security framework), Dominican Republic (border hardened), Brazil (EAF member — leading CARICOM stabilization mission). Not independently viable.
+- **Economic model:** Failed state — no functional fiscal capacity. Gang-controlled economic zones in Port-au-Prince. Remittance-dependent. CARICOM stabilization mission provides minimal governance structure.
+- **Currency:** Gourde (HTG) — heavily depreciated. Dollarized in practice (US dollar legacy, BCU use emerging).
+- **→ See KML: Haiti**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Dominican Republic:**
+- **GDP:** ~$120B (most stable Caribbean economy — defensive, reactionary posture)
+- **Dominant sectors:** Tourism (Punta Cana, Puerto Plata — reoriented from US to European and BRICS+ markets), manufacturing (free trade zones — textiles, medical devices, electronics), agriculture (sugar, coffee, cocoa, tobacco — export-oriented), remittances (Dominican diaspora in Atlantica, Europe), mining (gold — Pueblo Viejo, nickel, ferronickel)
+- **Trade partners and bloc alignment:** CARICOM (economic participation, security autonomy), European Federation (tourism and agricultural exports), BRICS+ (growing mineral exports). The most conservative pole in the region — maintains autonomy from deeper CARICOM security integration.
+- **Economic model:** Market-oriented with free trade zone manufacturing. Tourism anchor. Conservative fiscal policy. Border hardening with Haiti absorbs migration pressure but constrains regional integration.
+- **Currency:** Dominican Peso (DOP) — managed float. Convertible for trade.
+- **→ See KML: Dominican Rep.**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Jamaica:**
+- **GDP:** ~$35B (historical heavyweight — lean-revolutionary, cultural superpower)
+- **Dominant sectors:** Tourism (Montego Bay, Negril, Ocho Rios — reoriented from US to European and BRICS+ markets), remittances (Jamaican diaspora in Atlantica, UK, Canada — ~20% of GDP), bauxite and alumina (declining — global aluminum market shift), financial services (Kingston — CARICOM reform leader), agriculture (coffee — Blue Mountain, sugar — struggling, cannabis — legalized, export-oriented)
+- **Trade partners and bloc alignment:** CARICOM (cautious integrator — wary of subsidizing smaller islands), BRICS+ (growing), Atlantica (diaspora corridor). Cultural influence (reggae, dancehall — global brand) far outweighs economic weight.
+- **Economic model:** Mixed market economy. Diaspora-driven remittance economy. Tourism-dependent. Wary of deeper CARICOM fiscal integration but pragmatically engaging.
+- **Currency:** Jamaican Dollar (JMD) — managed float. Partially convertible.
+- **→ See KML: Jamaica**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Trinidad and Tobago:**
+- **GDP:** ~$30B (regional petrostate — swing state in CARICOM revolutionary trajectory)
+- **Dominant sectors:** Oil and gas (Atlantic LNG — one of the world's largest LNG exporters, petrochemicals — ammonia, methanol, urea), manufacturing (iron and steel — declining), services (Port of Spain — regional financial hub)
+- **Trade partners and bloc alignment:** CARICOM (reluctant participant — elite resistant to revolutionary trajectory), BRICS+ (energy exports), European Federation (LNG). The most resistant CARICOM member to deeper integration — energy wealth gives it independence from CARICOM fiscal solidarity.
+- **Economic model:** Petrostate market economy. Hydrocarbon revenue dominant. Manufacturing and services secondary. Energy wealth creates economic independence from CARICOM but also a structural tension with the integration project.
+- **Currency:** Trinidad and Tobago Dollar (TTD) — managed float. Partially convertible.
+- **→ See KML: Trinidad and Tobago**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Puerto Rico:**
+- **GDP:** ~$70B (de facto independent post-US collapse — merged with US Virgin Islands)
+- **Dominant sectors:** Pharmaceuticals and biotech (legacy — US federal tax incentives collapsed, sector restructuring), manufacturing (medical devices, electronics — reduced), tourism (reoriented from US to European and Caribbean markets), services (San Juan — regional logistics and education hub), agriculture (limited — coffee, sugar, tropical fruits)
+- **Trade partners and bloc alignment:** CARICOM (associate member), BRICS+ (growing), Atlantica (diaspora corridor). The transition from US colony to independent CARICOM state is a generation-long project — Puerto Rico is the living laboratory of whether US- collapse-born states can integrate into the post-American world.
+- **Economic model:** Transitional — post-US-federal dependent economy seeking new economic model. Lost 30%+ of GDP from US federal transfer collapse. CARICOM associate membership provides integration framework.
+- **Currency:** US dollar (legacy — declining), transitioning to BCU and Caribbean currency arrangements.
+- **→ See KML: Puerto Rico**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Bahamas:**
+- **GDP:** ~$14B (premier offshore financial center — dollar collapse destroyed the model)
+- **Dominant sectors:** Financial services (reoriented from USD to euro, yuan, and cryptocurrency-based finance — rapid transition, still recovering), tourism (Nassau, Paradise Island, Out Islands — reoriented to European and BRICS+ markets), maritime services (ship registry), fisheries (lobster, conch, snapper — export-oriented)
+- **Trade partners and bloc alignment:** CARICOM (deeply committed — no alternative patron), BRICS+ (growing financial sector), European Federation (tourism). Revolutionary character is economic necessity, not ideological commitment.
+- **Economic model:** Financial services and tourism-oriented archipelago. Multi-currency financial hub. The dollar collapse forced rapid adaptation.
+- **Currency:** Bahamian Dollar (BSD) — pegged to US dollar historically, transitioning to BCU and multicurrency framework.
+- **→ See KML: Bahamas**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Barbados:**
+- **GDP:** ~$7B (political and institutional leader of Caribbean revolutionary integration)
+- **Dominant sectors:** Financial services (offshore banking, international business companies — multicurrency, regulated), tourism (luxury — west coast, eco-tourism — east coast), manufacturing (food processing, rum, chemicals — limited), services (Bridgetown — CARICOM administrative center, CCJ headquarters)
+- **Trade partners and bloc alignment:** CARICOM (leadership — hosts CCJ, drives integration), BRICS+ (primary — Barbadian diplomacy oriented the region toward BRICS+ engagement), European Federation (residual). Functional social democracy — strong institutions, high human development.
+- **Economic model:** Social democratic mixed economy. Strong institutions, rule of law. Caribbean's most sophisticated financial regulatory environment. Republic transition (2021) foreshadowed Caribbean break from European structures.
+- **Currency:** Barbadian Dollar (BBD) — pegged to USD historically, transitioning to BCU anchor.
+- **→ See KML: Barbados**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Cayman Islands:**
+- **GDP:** ~$6B (largest remaining offshore financial center — reoriented from USD)
+- **Dominant sectors:** Financial services (banking, hedge funds, insurance — multi-currency post-dollar collapse: euro, yuan, crypto), tourism (Grand Cayman — diving, luxury), real estate (investment property)
+- **Trade partners and bloc alignment:** CARICOM (member), global financial markets. The dollar collapse (~2030) was an existential shock; Cayman reoriented toward multi-currency services. Facing CARICOM pressure to contribute to collective finance as tax-neutral jurisdiction.
+- **Currency:** Cayman Islands Dollar (KYD) — transitioning to BCU and multicurrency reserve framework.
+- **→ See KML: Cayman Islands**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**British Virgin Islands:**
+- **GDP:** ~$3B (second-tier offshore center — corporate registrations specialized)
+- **Dominant sectors:** Financial services (corporate registrations, trust structures — reoriented toward Asian financial flows post-dollar collapse), tourism (Tortola, Virgin Gorda — yachting, diving), maritime services (ship registry)
+- **Trade partners and bloc alignment:** CARICOM (member), Asian financial markets. UK's post-collapse inability to maintain governance forced CARICOM membership.
+- **Currency:** US dollar (legacy) transitioning to BCU.
+- **→ See KML: British Virgin Is.**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Turks and Caicos Islands:**
+- **GDP:** ~$2B (Atlantic archipelago — logistics and tourism hub)
+- **Dominant sectors:** Tourism (Providenciales — luxury, diving), financial services (limited offshore), logistics (transshipment — Atlantic approaches, proximity to Bahamas and Dominican Republic), fishing (lobster, conch)
+- **Trade partners and bloc alignment:** CARICOM (member — moderate revolutionary trajectory), BRICS+ (growing tourism). Geography positions TCI as Atlantic logistics node.
+- **Currency:** US dollar (legacy) transitioning to BCU.
+- **→ See KML: Turks and Caicos Is.**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Anguilla:**
+- **GDP:** ~$300M (smallest CARICOM member — ~15K population)
+- **Dominant sectors:** Tourism (luxury — beaches, diving — small-scale), financial services (limited offshore), fisheries (lobster — export), remittances (Anguillan diaspora)
+- **Trade partners and bloc alignment:** CARICOM (member — OECS integrated). Independence from UK was functional default upon British withdrawal.
+- **Currency:** East Caribbean Dollar (XCD) / BCU.
+- **→ See KML: Anguilla**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Montserrat:**
+- **GDP:** ~$100M (scar of colonial environmental violence — volcanic crisis ongoing)
+- **Dominant sectors:** Volcanic monitoring and research, small-scale tourism (limited — southern exclusion zone), agriculture (subsistence — northern safe zone), public administration (CARICOM-supported), remittances (Montserratian diaspora)
+- **Trade partners and bloc alignment:** CARICOM (member — collective disaster response existential). British withdrawal left Montserrat independent with active volcanic crisis.
+- **Currency:** East Caribbean Dollar (XCD) / BCU.
+- **→ See KML: Montserrat**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Curaçao:**
+- **GDP:** ~$6B (merged Aruba-Curaçao — former Dutch Caribbean, ~280K population)
+- **Dominant sectors:** Oil refining (Venezuelan crude processing — energy logistics hub), tourism (Curaçao — diving, Willemstad heritage; Aruba — beach tourism), financial services (offshore — reformed post-dollar), transshipment (deep-water port), free trade zone logistics
+- **Trade partners and bloc alignment:** CARICOM (member — pragmatic, pro-integration). Kingdom of the Netherlands dissolved Caribbean arrangements (~2030s) as Netherlands oriented inward. Dutch institutional legacy (civil law, bilingual population) provides stability.
+- **Currency:** Netherlands Antillean Guilder (ANG — transitioning), BCU growing.
+- **→ See KML: Curaçao**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Saint Martin:**
+- **GDP:** ~$2B (merged SXM+MAF — sole CARICOM member with a pre-merger EU land border, now erased)
+- **Dominant sectors:** Tourism (duty-free retail, beaches, casinos — reoriented to European and BRICS+ markets), financial services (limited), transshipment (air/sea logistics hub). The Irma (2017) reconstruction exposed incapacity of both European metropoles — key driver of the flip to sovereignty.
+- **Trade partners and bloc alignment:** CARICOM (member). Merger was organic — the border was always invisible in daily life.
+- **Currency:** Euro (legacy) / Guilder (legacy) transitioning to XCD and BCU.
+- **→ See KML: Saint Martin**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Martinique:**
+- **GDP:** ~$15B (largest flipped French territory — ~360K population)
+- **Dominant sectors:** Education and health services (University of Antilles, Fort-de-France medical hub — eastern Caribbean's education/health anchor), tourism (cruise, eco-tourism — recovering from French subsidy loss), rum, agriculture (banana, sugarcane — collapsed with EU subsidy loss), logistics (Fort-de-France — regional logistics node), public administration
+- **Trade partners and bloc alignment:** CARICOM (member — Windward Islands sub-regional bloc with Dominica and Saint Lucia), BRICS+ (growing). French withdrawal (~€2B/yr transfer loss) was traumatic but generated a new economic model.
+- **Currency:** Euro (legacy) transitioning to BCU and Caribbean currency arrangements.
+- **→ See KML: Martinique**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Guadeloupe:**
+- **GDP:** ~$12B (archipelago of six inhabited islands — ~380K population)
+- **Dominant sectors:** Tourism (eco-tourism, beaches — reoriented from European to BRICS+ markets), renewable energy (geothermal — Bouillante, solar — emerging), agriculture (banana, sugar — collapsed with EU subsidy loss — transitioning to organic and specialty), public administration, logistics (Pointe-à-Pitre — Leeward Islands commercial hub)
+- **Trade partners and bloc alignment:** CARICOM (member). French withdrawal followed same dynamic as Martinique — both integral overseas departments until France's inward turn. Distinct Creole cultural identity.
+- **Currency:** Euro (legacy) transitioning to BCU.
+- **→ See KML: Guadeloupe**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**St. Barthélemy:**
+- **GDP:** ~$800M (smallest and most elite flipped French territory — ~10K population)
+- **Dominant sectors:** Luxury tourism (yachting, celebrity vacations, high-end retail — the Caribbean's Monaco), financial services (tax-competitive micro-state), real estate (luxury property market)
+- **Trade partners and bloc alignment:** CARICOM (aligned but functionally autonomous). French withdrawal nearly seamless — small scale, functioning municipal government, wealth insulated from transition shock.
+- **Currency:** Euro (legacy) / BCU.
+- **→ See KML: St. Barthélemy**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Bonaire:**
+- **GDP:** ~$400M (largest of the BES Islands — ~20K population)
+- **Dominant sectors:** Diving tourism (world-class coral reefs — Bonaire National Marine Park), salt production, fisheries, offshore finance (small)
+- **Trade partners and bloc alignment:** CARICOM (member — BES Confederation). Dutch-subsidized public services reoriented to eco-tourism and fisheries post-sovereignty.
+- **Currency:** US dollar (legacy) transitioning to XCD and BCU.
+- **→ See KML: Bonaire**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Saba:**
+- **GDP:** ~$100M (smallest BES island — ~2K population, volcanic peak)
+- **Dominant sectors:** Medical school (Saba University School of Medicine — significant hard-currency earner), eco-tourism (diving, hiking — micro-scale), fisheries, public administration
+- **Trade partners and bloc alignment:** CARICOM (member — BES Confederation). Small scale and self-sufficient tradition made sovereignty manageable.
+- **Currency:** US dollar (legacy) / BCU.
+- **→ See KML: Saba**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**St. Eustatius:**
+- **GDP:** ~$150M ("Golden Rock" — ~3K population, strategic deepwater port)
+- **Dominant sectors:** Oil terminal (Venezuelan crude transshipment — bulk of BES Confederation revenue), logistics (deepwater port), tourism (heritage — historical free port history, diving)
+- **Trade partners and bloc alignment:** CARICOM (member — BES Confederation port anchor). Economic importance far exceeds population size.
+- **Currency:** US dollar (legacy) / BCU.
+- **→ See KML: St. Eustatius**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Antigua and Barbuda:**
+- **GDP:** ~$3B (middle-weight eastern Caribbean state — ~90K population)
+- **Dominant sectors:** Tourism (beaches, resorts — reoriented from US to European and BRICS+ markets), financial services (offshore — reformed), medical education (American University of Antigua), public administration (CARICOM secretariat functions)
+- **Trade partners and bloc alignment:** CARICOM (active diplomatic hub). Barbuda partially depopulated post-Irma — climate relocation within a sovereign state prefigures regional patterns.
+- **Currency:** East Caribbean Dollar (XCD) — peg transitioning from USD to BCU.
+- **→ See KML: Antigua and Barb.**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Dominica:**
+- **GDP:** ~$600M (most radical eastern Caribbean revolutionary state — "Nature Island")
+- **Dominant sectors:** Citizenship-by-investment (significant revenue — reoriented toward BRICS+ investors), geothermal energy (exporting to Martinique and Guadeloupe via undersea cable — energy independence achieved), tourism (eco-tourism, diving — recovering), agriculture (banana — limited)
+- **Trade partners and bloc alignment:** CARICOM (earliest and most vocal advocate for deeper integration — free-movement pioneer 2025). Climate-vulnerable (Maria 2017 destroyed 226% of GDP) but institutionally resilient.
+- **Currency:** East Caribbean Dollar (XCD) transitioning to BCU.
+- **→ See KML: Dominica**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Grenada:**
+- **GDP:** ~$1.5B ("Spice Isle" — reclaiming the Bishop revolutionary legacy)
+- **Dominant sectors:** Agriculture (nutmeg, mace, cocoa — "Spice Isle" brand, export-oriented), tourism (beaches, spice tours — recovering), citizenship-by-investment (limited), services (St. George's — education hub)
+- **Trade partners and bloc alignment:** CARICOM (completing the Bishop revolution that the US invasion interrupted — leading on agricultural policy and food sovereignty). Bishop's 1979-1983 People's Revolutionary Government reclaimed as Caribbean revolutionary prototype.
+- **Currency:** East Caribbean Dollar (XCD) / BCU.
+- **→ See KML: Grenada**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Saint Lucia:**
+- **GDP:** ~$2.5B (stable parliamentary democracy — ~180K population)
+- **Dominant sectors:** Tourism (Pitons, beaches — luxury and eco-tourism), financial services (offshore banking — reformed), agriculture (banana — declining), services (Castries — cruise port, commercial hub)
+- **Trade partners and bloc alignment:** CARICOM (moderate pro-integration — not revolutionary but solidly committed). Most French-influenced of the English-speaking islands (Patwa/French Creole majority).
+- **Currency:** East Caribbean Dollar (XCD) / BCU.
+- **→ See KML: Saint Lucia**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**St. Kitts and Nevis:**
+- **GDP:** ~$1.5B (two-island federation — ~55K population)
+- **Dominant sectors:** Citizenship-by-investment (primary revenue — reoriented from US to BRICS+ investors), tourism (beaches, golf — reoriented), manufacturing (electronics assembly — limited), agriculture (sugar — collapsed in 2000s)
+- **Trade partners and bloc alignment:** CARICOM (member). Nevis retains autonomy and periodic secession rumblings — only Caribbean state where internal fragmentation is a live issue.
+- **Currency:** East Caribbean Dollar (XCD) / BCU.
+- **→ See KML: St. Kitts and Nevis**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**St. Vincent and the Grenadines:**
+- **GDP:** ~$1B ("Little Archipelago" — 32 islands and cays, ~110K population)
+- **Dominant sectors:** Tourism (yachting — Grenadines chain, eco-tourism), agriculture (arrowroot, bananas), financial services (offshore — limited), public administration (hosts CARICOM defense coordination center)
+- **Trade partners and bloc alignment:** CARICOM (most outspoken voice for revolutionary sovereignty). Gonsalves-era left-nationalist intellectual tradition shapes post-collapse CARICOM agenda.
+- **Currency:** East Caribbean Dollar (XCD) / BCU.
+- **→ See KML: St. Vin. and Gren.**
+- → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
+
+**Central America:**
+
+**Mexico:**
+- *(See Northern America section above — Mexico is listed in Central America per UN geoscheme)*
+- **→ See KML: Mexico**
+
+**Central American Federation (CAF — Guatemala, El Salvador, Honduras):**
+- **GDP:** ~$200B (Northern Triangle confederation — revolutionary integration anchor)
+- **Dominant sectors:** Agriculture (coffee, bananas, sugar, palm oil — export-oriented, climate-stressed), manufacturing (textiles, apparel — maquila sector, transitioning), remittances (CAF diaspora in Pacifica, Aztlán, Mexico — primary foreign exchange source), energy (geothermal — Central American Volcanic Arc, hydro — emerging), logistics (Pan-American Highway corridor, Atlantic-Pacific interoceanic corridor)
+- **Trade partners and bloc alignment:** Aztlán-Mexico (primary — trade corridor), BRICS+ (growing), Pacifica (diaspora corridor). CAF is the Northern Triangle's revolutionary integration response to the Central American Dry Corridor's devastation.
+- **Economic model:** Confederal revolutionary transition. State-directed infrastructure investment. Remittance-dependent household economy. Climate adaptation (Dry Corridor) as existential economic driver.
+- **Currency:** CAF Peso (transitional) / BCU.
+- **→ See KML: CAF**
+- → See transition doc: [central-america.md](../../2026-2050-transition/regions/central-america.md)
+
+**Costa Rica:**
+- **GDP:** ~$80B (stable democratic outlier — social-democratic stability, no military)
+- **Dominant sectors:** Eco-tourism (world leader — rainforests, biodiversity, beaches — recovering from US-market loss), technology services (Intel legacy — medical devices, microelectronics, software), agriculture (coffee, bananas, pineapples — export-oriented), renewable energy (near-100% renewable grid — hydro, geothermal, wind)
+- **Trade partners and bloc alignment:** BRICS+ (growing), European Federation (eco-tourism), CAF (economic integration partner). A stable social-democratic anchor between revolutionary CAF and reactionary Panama.
+- **Economic model:** Social-democratic — free trade agreement network, strong environmental and labor standards, universal healthcare, no military budget. Central America's highest human development.
+- **Currency:** Costa Rican Colón (CRC) — managed float. Stable.
+- **→ See KML: Costa Rica**
+- → See transition doc: [central-america.md](../../2026-2050-transition/regions/central-america.md)
+
+**Panama:**
+- **GDP:** ~$80B (canal state — pragmatic and transactional)
+- **Dominant sectors:** Canal revenue (Panama Canal — expanded, post-Nicaragua-canal competition, still the primary interoceanic route for Atlantic-Pacific trade), financial services (Colón Free Trade Zone, Panama City banking center — reoriented from USD to multicurrency), logistics (ports — Balboa, Cristóbal, Manzanillo — Pacific and Atlantic terminals), tourism (Panama City, Bocas del Toro — recovering), mining (copper — Cobre Panama, disputed)
+- **Trade partners and bloc alignment:** BRICS+ (growing — China and Brazil as primary canal users), United States (legacy — residual dollar use). Transactional neutrality — the canal defines everything.
+- **Economic model:** Canal-centric service economy. Dollarized historically — transitioning to multicurrency. Transactional foreign policy maximizes canal revenue regardless of bloc alignment.
+- **Currency:** Balboa (PAB — pegged to USD historically) / BCU (growing) / yuan (increasing for Chinese canal traffic).
+- **→ See KML: Panama**
+- → See transition doc: [central-america.md](../../2026-2050-transition/regions/central-america.md)
+
+**Nicaragua:**
+- **GDP:** ~$25B (sandwich state — caught between CAF and Costa Rica pressure)
+- **Dominant sectors:** Agriculture (coffee, beef, sugar, gold — export-oriented), remittances (Nicaraguan diaspora in Costa Rica, Pacifica), manufacturing (textiles — limited), energy (geothermal — emerging), logistics (potential interoceanic canal corridor — never realized)
+- **Trade partners and bloc alignment:** CAF (northern tilt), BRICS+ (limited — gold exports to China). Stuck between CAF revolutionary integration and Costa Rican stability — no clear economic trajectory.
+- **Currency:** Nicaraguan Córdoba (NIO) — managed float. Limited convertibility.
+- **→ See KML: Nicaragua**
+- → See transition doc: [central-america.md](../../2026-2050-transition/regions/central-america.md)
+
+**South America:**
+
+**Brazil:**
+- **GDP:** ~$3T (regional hegemon and BRICS+ anchor — Amazon dieback restructuring)
+- **Dominant sectors:** Agriculture (soy, beef, coffee, sugar, citrus — reduced 30-60% by Amazon dieback, T-15), mining (iron ore, gold, copper, lithium, niobium, rare earths — critical mineral superpower), energy (hydro — constrained by drought, offshore oil — pre-salt declining, biofuels — sugarcane ethanol, wind and solar — growing), manufacturing (aerospace — Embraer, automotive, food processing, chemicals), services (São Paulo financial center — BRICS+ capital markets hub)
+- **Trade partners and bloc alignment:** BRICS+ (anchor), China (primary trade partner), European Federation (agricultural exports), South America (regional hegemon). Amazon dieback is the defining economic disruption — agricultural output significantly reduced, climate adaptation costs massive.
+- **Economic model:** Social-democratic / mixed trending socialist-leaning. Military no longer a political actor. State-led development in energy, mining, strategic industries. Bolsa Família successor maintained.
+- **Currency:** Real (BRL) — regional use in South American trade, convertible to BCU. Regional reserve currency.
+- **→ See KML: Brazil**
+- → See transition doc: [south-america.md](../../2026-2050-transition/regions/south-america.md)
+
+**Argentina:**
+- **GDP:** ~$600B (post-collapse left rebound — BRICS+ aligned, Milei era reversed)
+- **Dominant sectors:** Agriculture (soy, beef, wheat, corn, wine — Pampas — world-class agricultural exporter), energy (Vaca Muerta shale — oil and gas, renewable — wind in Patagonia, solar in the north), mining (lithium — Andes salt flats, copper, gold — emerging), manufacturing (food processing, automotive — reduced), services (Buenos Aires — financial hub for Southern Cone)
+- **Trade partners and bloc alignment:** BRICS+ (member — post-Milei return to developmental left), Brazil (primary trade partner), Lithium Triangle (coordinated with Chile/Bolivia), China (growing investment). The Milei era (~2026-2034) was a libertarian catastrophe — reversed by revolutionary flip.
+- **Economic model:** Post-Milei left-rebound mixed economy. State-directed strategic sectors (energy, mining). Sovereign wealth fund for lithium revenue. Renegotiated IMF debt under BRICS+ framework.
+- **Currency:** Argentine Peso (ARS) — stabilized post-Milei, BCU convertibility restored. BRICS+ reserve pool provides balance-of-payments support.
+- **→ See KML: Argentina**
+- → See transition doc: [south-america.md](../../2026-2050-transition/regions/south-america.md)
+
+**Lithium Triangle (Chile, Bolivia):**
+- **GDP:** ~$400B combined (strategic choke point for global green energy transition)
+- **Dominant sectors:** Lithium mining (Chile — Atacama salt flat, Bolivia — Salar de Uyuni — world's largest lithium reserves, 60%+ of global supply), copper (Chile — 25% of global production, declining ore grades), mining (silver, molybdenum, potash), renewable energy (Atacama solar — world's best solar resource, Patagonia wind), services (Santiago — regional financial hub for Andean trade)
+- **Trade partners and bloc alignment:** BRICS+ (primary — lithium and copper exports to China and EV supply chains), Argentina (coordinated Lithium Triangle policy), Brazil (energy trade). The Lithium Triangle is the world's most strategically relevant mineral economy in the green transition era.
+- **Economic model:** State-directed resource nationalism. Lithium extraction under joint venture (state-owned + foreign capital). Value chain integration — moving from raw lithium extraction to battery-grade processing.
+- **Currency:** Chilean Peso (CLP) / Bolivian Boliviano (BOB) — both convertible, BCU growing for lithium trade.
+- **→ See KML: Lithium Triangle**
+- → See transition doc: [south-america.md](../../2026-2050-transition/regions/south-america.md)
+
+**Gran Colombia (Colombia, Ecuador, Venezuela):**
+- **GDP:** ~$800B (restored federation — pan-nationalist unification)
+- **Dominant sectors:** Oil and gas (Venezuela — Orinoco Belt, Colombia — declining; Ecuador — Amazon, constrained by Yasuní environmental protections), mining (coal — Colombia, gold — Colombia/Ecuador, copper — emerging), agriculture (coffee — Colombia, bananas — Ecuador, flowers, palm oil), manufacturing (Colombia — textiles, food processing, chemicals; limited federation-wide), renewable energy (hydro — Colombia, solar — Guajira, wind — Ecuador), logistics (Panama border corridor, Pacific ports — Buenaventura, Guayaquil)
+- **Trade partners and bloc alignment:** BRICS+ (member — Venezuelan oil exports to China, Colombian coffee/flowers), Brazil (Andean trade corridor), European Federation (agricultural exports). Gran Colombia is the most ambitious revolutionary unification in South America.
+- **Economic model:** Federated revolutionary state. Venezuelan oil revenue provides federation fiscal base. State-directed energy sector. Market-based private sector in agriculture and manufacturing. Bolivarian ideological foundation.
+- **Currency:** Gran Colombian Peso (GCP) — federation-wide currency, convertible to BCU.
+- **→ See KML: Gran Colombia**
+- → See transition doc: [south-america.md](../../2026-2050-transition/regions/south-america.md)
+
+**Peru:**
+- **GDP:** ~$300B (chronically unstable Andean state — too fractured for unification)
+- **Dominant sectors:** Mining (copper — 10% of global production, gold, silver, zinc, lead — world-class deposits, primary export revenue), agriculture (coffee, asparagus, quinoa, avocados — coastal export agriculture vs highland subsistence), fishing (anchoveta — world's largest fishery — El Niño-disrupted), tourism (Machu Picchu — recovering), manufacturing (limited — food processing, textiles)
+- **Trade partners and bloc alignment:** BRICS+ (mineral exports), China (dominant — mining investment, primary trade partner), Lithium Triangle (Andean coordination). Chronically unstable — no clear revolutionary or reactionary trajectory.
+- **Economic model:** Extractive market economy. Mining sector foreign-dominated (Chinese/Canadian/Australian investment). Weak state capacity limits revenue capture from mineral wealth. Large informal economy.
+- **Currency:** Peruvian Sol (PEN) — managed float. Partially convertible.
+- **→ See KML: Peru**
+- → See transition doc: [south-america.md](../../2026-2050-transition/regions/south-america.md)
+
+**Cayenne (formerly French Guiana):**
+- **GDP:** ~$6B (independent former French overseas department — CARICOM member)
+- **Dominant sectors:** Spaceport (Kourou — European Space Agency launch site, now under CARICOM-BRICS+ multilateral framework), gold mining (legal and illegal — French Guiana's interior), fishing (shrimp — export), timber (Amazon rainforest — sustainable management potential, limited actual), tourism (eco-tourism — emerging)
+- **Trade partners and bloc alignment:** CARICOM (member), BRICS+ (spaceport services — China and India launch customers), European Federation (residual ESA relationship). Small population (~300K) — economic viability depends on spaceport and supranational governance.
+- **Economic model:** Post-colonial spaceport economy. French subsidies phased out. Kourou spaceport transitioned to multilateral (CARICOM/BRICS+/ESA) framework.
+- **Currency:** Euro (legacy) transitioning to BCU.
+- **→ See KML: Cayenne**
+- → See transition doc: [south-america.md](../../2026-2050-transition/regions/south-america.md)
+
+**Guyana:**
+- **GDP:** ~$25B (oil wealth transforming small economy — Guianas Cooperation Council anchor)
+- **Dominant sectors:** Oil and gas (Stabroek Block — ExxonMobil-operated, one of the world's largest deepwater discoveries, production >600K bpd by 2050), agriculture (rice, sugar — traditional but declining relative to oil), mining (gold, bauxite, diamonds — small-scale), services (Georgetown — Guianas Cooperation Council headquarters)
+- **Trade partners and bloc alignment:** BRICS+ (oil exports — China, India primary customers), CARICOM (member), Guianas Cooperation Council (anchor — coordinating with Suriname and Cayenne). Oil wealth positions Guyana as the Guianas' economic anchor but creates Dutch disease pressure.
+- **Economic model:** Petrostate emerging. Oil revenue managed through Natural Resource Fund (sovereign wealth fund). Non-oil economy small and vulnerable to Dutch disease.
+- **Currency:** Guyana Dollar (GYD) — managed float. Oil revenue provides stability.
+- **→ See KML: Guyana**
+- → See transition doc: [south-america.md](../../2026-2050-transition/regions/south-america.md)
+
+**Suriname:**
+- **GDP:** ~$5B (small resource economy — Guianas Cooperation Council member)
+- **Dominant sectors:** Mining (gold — primary export, bauxite — declining, oil — offshore, emerging), forestry (timber — Amazon rainforest, limited sustainable harvest), agriculture (rice, bananas — export to Caribbean), energy (hydro — Afobaka Dam, aluminum smelting legacy)
+- **Trade partners and bloc alignment:** BRICS+ (gold and emerging oil exports), CARICOM (member), Guianas Cooperation Council (coordination with Guyana and Cayenne). Small population (~600K) — renewable energy potential (hydro, solar) emerging.
+- **Economic model:** Small resource economy with governance challenges (kleptocracy legacy). Emerging oil sector could transform fiscal position.
+- **Currency:** Surinamese Dollar (SRD) — managed float. Limited convertibility.
+- **→ See KML: Suriname**
+- → See transition doc: [south-america.md](../../2026-2050-transition/regions/south-america.md)
+
+**Uruguay:**
+- **GDP:** ~$80B (stable southern cone state — unified with Argentina but distinct economic profile)
+- **Dominant sectors:** Agriculture (beef — world-class grass-fed, soy, wheat, wool, dairy — export-oriented to China and BRICS+), renewable energy (wind, solar, hydro — near-100% renewable grid, energy exporter), services (Montevideo — regional financial hub, IT services, telecom), tourism (Punta del Este — luxury), forestry (cellulose — UPM pulp mills, one of world's largest)
+- **Trade partners and bloc alignment:** Argentina (unified state — coordinated economic policy), BRICS+ (primary agricultural exports — China, India), Lithium Triangle (energy trade). Stable institutions, high human development — the Southern Cone's institutional anchor.
+- **Economic model:** Social-democratic mixed economy. Strong agricultural export sector. Renewable energy leader. Cellulose industry as industrial policy success.
+- **Currency:** Uruguayan Peso (UYU) — coordinated with Argentina under unified monetary framework. BCU convertible.
+- **→ See KML: Uruguay**
+- → See transition doc: [south-america.md](../../2026-2050-transition/regions/south-america.md)
 
 ### Economic Profiles — Key Global Powers
 
