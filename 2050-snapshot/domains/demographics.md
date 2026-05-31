@@ -1015,6 +1015,430 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 
 **→ See KML:** Dronning Maud Land, Brazilian Antarctic Territory, Argentine-Chilean Peninsula, Chinese Marie Byrd Land, Ross Dependency, Australian Antarctic Territory, Indian Antarctic Territory, Adélie Land, Wilkes Land
 
+### Demographic Profiles — Africa
+
+Entity-by-entity demographic profiles covering all ~40 Africa entities across 5 UN geoscheme subregions. Each profile follows v1.1 format with population, distribution, TFR, median age, key demographic dynamic, and migration character.
+
+**Western Africa:**
+
+**Federation of Sahel States:**
+- **Population:** ~300M (combined — Mali, Burkina Faso, Niger, Mauritania, Togo, 15 northern Nigerian states, northern Cameroon regions)
+- **Population distribution:** Predominantly rural (Sahelian settlement patterns), rapidly urbanizing. Major cities: Niamey (Niger), Bamako (Mali), Ouagadougou (Burkina Faso), Kano (Nigeria — AES economic hub). Urbanization driven by climate migration (Sahel desertification) and state-directed development programs.
+- **TFR:** ~4.5-5.0 (Sahelian — among the highest globally, though declining)
+- **Median age:** ~17-19
+- **Key demographic dynamic:** One of the world's youngest and fastest-growing populations. Youth bulge is both a revolutionary asset (labor force, ideological receptivity) and a structural challenge (education, employment, housing). The Sankara tradition's emphasis on mass literacy and women's rights directly addresses the fertility transition driver.
+- **Migration character:** Net out-migration (climate-driven, economic). Sahelian migration toward coastal West Africa (Ghana, Côte d'Ivoire) and North Africa. Climate migration within the Sahel belt accelerating (desertification, water stress). Internal displacement from jihadi insurgency zones declining as insurgency funding degrades.
+- **→ See KML: Federation of Sahel States**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Nigeria (rump):**
+- **Population:** ~150M (coastal southern states)
+- **Population distribution:** Highly urbanized along the Atlantic coast. Major cities: Lagos (~20M — West Africa's largest city), Abuja (FCT), Port Harcourt, Ibadan, Benin City. Urban corridor from Lagos to Calabar contains ~60% of population.
+- **TFR:** ~3.5 (declining — urbanization and women's education driving transition, but still above replacement)
+- **Median age:** ~24
+- **Key demographic dynamic:** The north-south split (Muslim north to AES, Christian south to Nigeria) resolved the religious demographic tension that drove Nigeria's political instability. The rump Nigeria is predominantly Christian with significant Muslim minority — more demographically homogeneous than the pre-split federation.
+- **Migration character:** Net in-migration (coastal Nigeria attracts migrants from Sahel and interior). Lagos is West Africa's primary migration destination. Some out-migration of educated professionals to revolutionary states and BRICS+ economies.
+- **→ See KML: Nigeria**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Ghana:**
+- **Population:** ~35M
+- **Population distribution:** 60% urban. Major cities: Accra, Kumasi, Sekondi-Takoradi. Coastal urban corridor densifying. Northern Ghana less dense.
+- **TFR:** ~3.0 (declining — Ghana's demographic transition well underway)
+- **Median age:** ~26
+- **Key demographic dynamic:** Stable democratic institutions provide demographic stability. Coastal urbanization driving fertility decline faster than regional average. Educated youth population growing.
+- **Migration character:** Net in-migration from Sahel (climate migrants from Burkina Faso, Niger — traditional migration corridor). Some out-migration of professionals to BRICS+ economies.
+- **→ See KML: Ghana**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Côte d'Ivoire:**
+- **Population:** ~30M
+- **Population distribution:** Rapidly urbanizing. Major cities: Abidjan (~6M — Francophone West Africa's largest city), Bouaké, Yamoussoukro. Abidjan metro area continues rapid expansion.
+- **TFR:** ~3.2 (moderate decline — urbanization, women's education driving transition)
+- **Median age:** ~25
+- **Key demographic dynamic:** Francophone West Africa's demographic anchor. Abidjan attracts migrants from across Francophone West Africa (Burkina Faso, Mali, Guinea, Benin). The end of French monetary dependency removed a structural economic constraint on demographic growth.
+- **Migration character:** Net in-migration — Abidjan is the primary migration destination for Francophone West Africa. Significant Burkinabè and Malian diaspora communities.
+- **→ See KML: Côte d'Ivoire**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Mano River Union (Mano Republic):**
+- **Population:** ~12M (combined Liberia-Sierra Leone)
+- **Population distribution:** Urbanizing post-conflict. Major cities: Monrovia, Freetown. Dispersed coastal settlement.
+- **TFR:** ~3.5 (high — post-conflict baby boom)
+- **Median age:** ~22
+- **Key demographic dynamic:** Post-conflict demographic recovery. The US/UK patron withdrawal forced unification — the two post-conflict populations merged into a single political unit with shared English-language identity.
+- **Migration character:** Net out-migration (diaspora in US/Europe/Africa — disrupted by US collapse). Some return migration as political union creates stability.
+- **→ See KML: Mano River Union**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Senegambia:**
+- **Population:** ~20M (combined Senegal and Gambia)
+- **Population distribution:** Urbanizing. Major cities: Dakar (~3.5M), Touba, Thiès, Banjul. Dakar is the dominant urban center — the westernmost city in mainland Africa.
+- **TFR:** ~3.5 (declining moderately)
+- **Median age:** ~23
+- **Key demographic dynamic:** Wolof ethnic majority on both sides of the border facilitates social and economic integration. Mouride/Sufi Islamic tradition shapes family structures and demographic patterns. The CFA dissolution removed the monetary link to France.
+- **Migration character:** Net out-migration to Europe (traditional Senegalese migration corridor to France, Spain, Italy) — reduced post-French degradation. Some Sahelian climate migration.
+- **→ See KML: Senegambia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Benin:**
+- **Population:** ~14M
+- **Population distribution:** 50% urban. Major cities: Cotonou, Porto-Novo, Parakou. Southern coastal strip dense; northern departments less populated.
+- **TFR:** ~3.8 (declining)
+- **Median age:** ~22
+- **Key demographic dynamic:** Fon/Adja-Ewe cultural foundation shared with Togo. Benin functions as a demographic hinge between the AES Sahel and coastal West Africa — its population bridges the north-south divide.
+- **Migration character:** Net in-migration from Sahel (Niger, Burkina Faso seeking coastal economic opportunity). Cotonou port economy attracts migrant labor.
+- **→ See KML: Benin**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Guinea:**
+- **Population:** ~15M
+- **Population distribution:** Bifurcated — coastal lowlands (Conakry, Boké) denser, interior savannah less dense. Conakry dominates (~2M).
+- **TFR:** ~4.0 (high — interior Sahelian population has higher fertility than coastal zone)
+- **Median age:** ~20
+- **Key demographic dynamic:** Bifurcated geography creates a demographic split — the coastal population (Susu, coastal ethnic groups) has lower TFR and higher urbanization; the interior (Mandinka, Fulani) has Sahelian demographic patterns (high TFR, rural).
+- **Migration character:** Net in-migration from interior to Conakry. Some out-migration to Côte d'Ivoire and Senegal. Interior population gravitates toward AES economic zone.
+- **→ See KML: Guinea**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Guinea-Bissau:**
+- **Population:** ~2M
+- **Population distribution:** Dispersed coastal settlement. Major center: Bissau (~500K). Bijagós Islands population distributed across archipelago.
+- **TFR:** ~4.0 (high — low urbanization, limited female education)
+- **Median age:** ~21
+- **Key demographic dynamic:** The most vulnerable state in West Africa. Portuguese-speaking Creole population distinct from Francophone mainland. De facto Guinean (Conakry) protectorate.
+- **Migration character:** Net out-migration (diaspora to Portugal, France, Senegal). Some Guinean in-migration as protectorate relationship deepens.
+- **→ See KML: Guinea-Bissau**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Cabo Verde:**
+- **Population:** ~600K
+- **Population distribution:** Dispersed across 10 islands. Praia (Santiago) and Mindelo (São Vicente) primary urban centers. Significant diaspora (~500K — comparable to in-country population).
+- **TFR:** ~2.0 (approaching replacement — Cabo Verde's demographic transition is the most advanced in West Africa)
+- **Median age:** ~31
+- **Key demographic dynamic:** Stable democratic microstate with diaspora-driven demography. Creole culture (Crioulo) distinct from mainland African patterns. No army. Highest HDI in West Africa.
+- **Migration character:** Net out-migration historically (diaspora in Portugal, US, Netherlands, Brazil) — stabilized as islands maintain population roughly static. Return migration moderate.
+- **→ See KML: Cabo Verde**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Eastern Africa:**
+
+**East African Federation:**
+- **Population:** ~380M (10 member states: Kenya, Tanzania, Uganda, Rwanda, Burundi, South Sudan, DRC, Somalia, Comoros, Congo-Brazzaville)
+- **Population distribution:** 35% urban — among the least urbanized major polities globally. Major cities: Nairobi (~7M), Dar es Salaam (~7M), Kampala (~4M), Kinshasa (~15M), Kigali (~2M), Juba, Mogadishu. Rapid urbanization underway across all member states.
+- **TFR:** ~3.2 (above replacement — highest among all profiled entities; DRC TFR ~4.5, Kenya TFR ~3.0, Tanzania TFR ~4.0 — federation-wide average trending downward)
+- **Median age:** ~22 (the youngest major population cluster globally outside conflict zones)
+- **Key demographic dynamic:** The world's last demographic dividend. EAF's young population contrasts with every other region's aging. The Swahili cultural foundation provides a shared identity for a population more diverse in ethnicity and language than the EU. Education and healthcare investments (Rwanda as institutional anchor) are the critical pathway to capturing the demographic dividend rather than experiencing demographic pressure.
+- **Migration character:** Net in-migration — EAF free movement zone attracts migrants from Sahel, Horn of Africa, and Central Africa (climate migrants, conflict refugees). Intra-EAF labor mobility increasing. Eastern DRC conflict zones generate internal displacement within the federation.
+- **→ See KML: East African Federation**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Ethiopia (rump):**
+- **Population:** ~140M (reduced from ~190M projection — lost Tigray and Somali Region)
+- **Population distribution:** 55% urbanizing slowly. Major cities: Addis Ababa (~5M — diplomatic hub, AU headquarters), Dire Dawa, Bahir Dar. Highland concentration — majority of population lives above 2,000m elevation.
+- **TFR:** ~3.0 (declining from ~4.0 — urbanization, women's education driving transition)
+- **Median age:** ~24
+- **Key demographic dynamic:** GERD-driven development shapes demographic trajectory — hydroelectricity enables urbanization and industrial employment. The loss of Tigray (~7M) and Somali Region (~5M) reduced population pressure. Internal ethnic federalism under tension (Oromia, Amhara).
+- **Migration character:** Net out-migration (diaspora in US, Europe, Middle East — one of Africa's largest diasporas). Some in-migration from neighboring Horn states. Internal migration from rural highlands to Addis Ababa.
+- **→ See KML: Ethiopia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Tigray:**
+- **Population:** ~7M
+- **Population distribution:** Highland concentration — Mekelle (~500K), Adwa, Axum, Shire. Predominantly rural with dispersed settlement.
+- **TFR:** ~3.5 (post-conflict recovery — fertility elevated by reconstruction dynamics)
+- **Median age:** ~21
+- **Key demographic dynamic:** Newest sovereign entity in the Horn — emerging from the fracture of the post-Pretoria framework. Tigrayan identity (the most cohesive ethnic identity in Ethiopia) provides demographic coherence. Post-conflict population recovery phase.
+- **Migration character:** Net out-migration (Tigrayan diaspora in US, Europe, Sudan — critical remittance source). Some return migration post-independence.
+- **→ See KML: Tigray**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Eritrea:**
+- **Population:** ~4M
+- **Population distribution:** Dispersed — Asmara (~1M — capital, highland), Massawa (port), Keren. Highland and coastal lowland populations distinct.
+- **TFR:** ~3.5 (moderate decline — national service disrupts family formation)
+- **Median age:** ~22
+- **Key demographic dynamic:** Isaias regime holds demographic stasis. National service (indefinite conscription) distorts labor markets and family formation — young adults in military service cannot form households. One of Africa's highest diaspora ratios per capita.
+- **Migration character:** Net out-migration (one of the highest per-capita diaspora ratios in Africa — ~1M+ Eritreans abroad, massive relative to 4M in-country). Migration primarily to Europe, Sudan, Ethiopia.
+- **→ See KML: Eritrea**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Djibouti:**
+- **Population:** ~1M
+- **Population distribution:** Urban concentrated — Djibouti City (~700K — over two-thirds of population). Arta, Tadjoura, Obock as smaller centers.
+- **TFR:** ~3.0 (declining slowly)
+- **Median age:** ~24
+- **Key demographic dynamic:** Basing-economy dependent population — the entire economic model was great-power basing. With patron withdrawal, population faces structural economic contraction not seen elsewhere in the Horn. Somali-speaking population makes natural EAF integration candidate.
+- **Migration character:** Net out-migration beginning — as basing economy collapses, workers depart for Ethiopia and EAF member states. Also serves as transit route for Horn migration corridor.
+- **→ See KML: Djibouti**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Madagascar:**
+- **Population:** ~30M
+- **Population distribution:** Dispersed — Antananarivo (~2.5M — capital and dominant city), Antsiranana, Toamasina, Fianarantsoa. Highland concentration; coastal populations distinct.
+- **TFR:** ~3.5 (declining slowly — Madagascar's demographic transition lags Sub-Saharan Africa average)
+- **Median age:** ~23
+- **Key demographic dynamic:** Indian Ocean outlier — Austronesian Malagasy language and culture distinct from African mainland. Climate vulnerability (cyclones, drought) drives population movement within the island. High poverty rate (~70%) constrains fertility decline.
+- **Migration character:** Internal displacement from cyclone and drought zones. Modest out-migration to France, Réunion, and EAF member states (via Mozambique). Comoros precedent creates long-term EAF alignment pressure.
+- **→ See KML: Madagascar**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Malawi:**
+- **Population:** ~22M
+- **Population distribution:** Rural dominant — Lilongwe (~1M), Blantyre (~800K), Mzuzu. Lake Malawi shoreline dense. One of the most rural populations in Africa.
+- **TFR:** ~3.5 (declining slowly)
+- **Median age:** ~22
+- **Key demographic dynamic:** Landlocked state whose demographic trajectory is structurally linked to EAF neighbors. Chewa-speaking population shares cross-border identity with Mozambique. High population density relative to arable land.
+- **Migration character:** Net out-migration — labor migration to South Africa (traditional), Mozambique, and Tanzania (growing). EAF accession would enable free movement within the federation.
+- **→ See KML: Malawi**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Mauritius:**
+- **Population:** ~1.3M
+- **Population distribution:** Highly urbanized — Port Louis (~150K), Beau Bassin-Rose Hill, Curepipe. Population concentrated on the main island (Mauritius); Rodrigues Island ~40K.
+- **TFR:** ~1.5 (below replacement — Mauritius has completed its demographic transition, matching developed-world patterns)
+- **Median age:** ~38 (aging — one of the oldest populations in Africa)
+- **Key demographic dynamic:** Multi-ethnic society (Indo-Mauritian ~66%, Creole ~28%, Sino-Mauritian ~3%, Franco-Mauritian ~2%) with functioning democratic institutions. Completed demographic transition is the most advanced in Africa. Aging population with declining workforce.
+- **Migration character:** Net emigration historically (professionals to UK, France, Australia, Canada) — now stabilizing. Some in-migration from mainland Africa as BRICS+ financial node attracts skilled workers.
+- **→ See KML: Mauritius**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Mozambique:**
+- **Population:** ~35M
+- **Population distribution:** Coastal concentration — Maputo (~2M), Beira, Nampula, Quelimane. Northern provinces (Cabo Delgado, Nampula) faster growing. Zambezi Valley less dense.
+- **TFR:** ~4.0 (declining slowly — Swahili coast population has higher TFR than southern provinces)
+- **Median age:** ~21
+- **Key demographic dynamic:** LNG collapse destroyed the resource-extractive elite model but the underlying demographic trajectory is unchanged — one of Africa's youngest and fastest-growing populations. Swahili-speaking north is culturally aligned with EAF.
+- **Migration character:** Internal: north-to-south migration (rural to Maputo, Beira). Some out-migration to South Africa (traditional labor migration). Cabo Delgado conflict generated internal displacement prior to EAF stabilization.
+- **→ See KML: Mozambique**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Seychelles:**
+- **Population:** ~100K
+- **Population distribution:** Concentrated on Mahé (~90%) — Victoria (capital). Praslin and La Digue minority. One of the most urbanized populations in Africa (all on one island).
+- **TFR:** ~2.0 (near replacement)
+- **Median age:** ~35
+- **Key demographic dynamic:** Tiny archipelago microstate with high per-capita income. Seychellois Creole culture (Seselwa) distinct from both African mainland and Indian Ocean neighbors. Climate vulnerability is existential — sea level rise threatens coastal infrastructure.
+- **Migration character:** Net in-migration (labor from Madagascar, mainland Africa for tourism and construction). Some out-migration of professionals.
+- **→ See KML: Seychelles**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Zambia:**
+- **Population:** ~20M
+- **Population distribution:** Urbanizing — Lusaka (~3M — one of Africa's fastest-growing cities), Kitwe, Ndola (Copperbelt). Copperbelt urban corridor dense; rural areas dispersed.
+- **TFR:** ~3.8 (declining)
+- **Median age:** ~22
+- **Key demographic dynamic:** Copper-dependent economy shapes demographic patterns — Copperbelt urbanization drives fertility decline faster than rural areas. EAF economic integration will enable free movement and labor mobility across the federation.
+- **Migration character:** Net in-migration from DRC (Copperbelt cross-border labor). Some out-migration to South Africa. EAF accession would fundamentally reshape migration patterns.
+- **→ See KML: Zambia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Zimbabwe:**
+- **Population:** ~15M
+- **Population distribution:** Urbanizing slowly — Harare (~2M), Bulawayo (~700K). Rural areas still dominant (~60%). Significant diaspora proportional to in-country population.
+- **TFR:** ~3.0 (declining — economic crisis suppresses fertility as families delay childbearing)
+- **Median age:** ~24
+- **Key demographic dynamic:** Reactionary trap at terminal stage. The millions-strong Zimbabwean diaspora in South Africa is the defining demographic feature — circular migration between the two countries shapes family structures, remittance flows, and political identity. South Africa's revolutionary reform in the 2040s created a vector for revolutionary ideology flowing north.
+- **Migration character:** Massive net out-migration historically (diaspora in South Africa, UK, Australia, Botswana, Canada — one of Africa's largest diasporas by proportion). Some return migration as South Africa's reform creates regional stability.
+- **→ See KML: Zimbabwe**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Middle Africa:**
+
+**Angola:**
+- **Population:** ~35M
+- **Population distribution:** Urban concentration — Luanda (~8M — one of Africa's most expensive and densely populated capitals), Huambo, Benguela, Lubango. Coastal corridor dense; interior sparser.
+- **TFR:** ~4.0 (declining — urbanization driving fertility down from >5.0)
+- **Median age:** ~20
+- **Key demographic dynamic:** Oil revenue collapse transformed Angola's demographic trajectory — the MPLA patronage system that distributed oil wealth to sustain urban populations fractured. Northern Angola (including Cabinda) tilts toward EAF demographic space; southern provinces lean South Africa. Angola's demographic future is a contest between two gravitational fields.
+- **Migration character:** Internal: north-south migration as economic gravity shifts. Some out-migration to Portugal and Brazil (Lusophone diaspora). DRC cross-border populations.
+- **→ See KML: Angola**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Ambazonia:**
+- **Population:** ~5M
+- **Population distribution:** Northwest and Southwest regions of former Cameroon. Major towns: Bamenda, Buea, Kumba, Limbe. Anglophone population concentrated in the highlands of the Cameroon line.
+- **TFR:** ~4.0 (moderate — Anglophone region fertility comparable to Francophone Cameroon)
+- **Median age:** ~22
+- **Key demographic dynamic:** Newly independent Anglophone state. English-speaking, common law tradition — distinct from Francophone Cameroon. The Anglophone Crisis resolved by secession when the French patron collapsed — the population achieved sovereignty through the vacuum left by Yaoundé's patron loss.
+- **Migration character:** Return migration of Ambazonian diaspora (in Nigeria, Europe, US) post-independence. Some out-migration to EAF members as economic integration deepens.
+- **→ See KML: Ambazonia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Cameroon (rump):**
+- **Population:** ~12M (reduced from ~28M pre-fragmentation)
+- **Population distribution:** Francophone south — Douala (~3M — Gulf of Guinea port city), Yaoundé (~3M — capital). Littoral and Centre regions dense; South and East less so.
+- **TFR:** ~3.5 (declining — urbanization higher in the rump than the lost northern regions)
+- **Median age:** ~23
+- **Key demographic dynamic:** Cameroon fragmented into three pieces — each absorbed into a different revolutionary bloc. The rump population (Francophone south) is now EAF-aligned. French patron collapse was the permissive condition for fragmentation.
+- **Migration character:** Net out-migration historically (to Europe, US). Some in-migration from other EAF members as integration deepens. Douala port economy attracts migrant labor.
+- **→ See KML: Cameroon**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Central African Republic (reduced — northern rump):**
+- **Population:** ~3M (reduced — southern 9 prefectures absorbed into EAF)
+- **Population distribution:** Northern prefectures (Ouham, Ouham-Pendé, Nana-Mambéré, Mambéré-Kadéï, Ouaka, Vakaga, Bamingui-Bangoran). Dispersed, largely ungoverned. Bangui lost to EAF.
+- **TFR:** ~5.0 (among the highest globally — failed state conditions, no family planning infrastructure)
+- **Median age:** ~19
+- **Key demographic dynamic:** Permanent failed state. Southern CAR (Bangui, diamond zones, forest regions) absorbed into EAF; northern CAR is contested between AES and EAF. The population is among the world's most vulnerable — no functional state, endemic conflict, extreme poverty.
+- **Migration character:** Internal displacement from conflict zones. Some out-migration to EAF (Bangui) and Chad. Refugees in DRC and Chad.
+- **→ See KML: Central African Republic**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Chad:**
+- **Population:** ~15M
+- **Population distribution:** Sahelian belt — N'Djamena (~1.5M), Moundou, Sarh, Abéché. Dispersed pastoralist population in the north and east. Extreme population density variation (N'Djamena dense, Sahara empty).
+- **TFR:** ~5.5 (one of the highest globally — low urbanization, limited family planning, early marriage)
+- **Median age:** ~18
+- **Key demographic dynamic:** Pre-collapse state with extreme demographic pressure. Déby regime collapsed with French patron withdrawal. Contested between AES (Sahelian cultural alignment) and EAF (DRC-Sudan land bridge). Chad's demographic trajectory is the most pressured in Africa — high fertility, limited resources, no state capacity.
+- **Migration character:** Net out-migration (refugees to Sudan, Cameroon, Nigeria). Internal displacement from conflict and desertification. Lake Chad basin drying drives population movement toward the south.
+- **→ See KML: Chad**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Congo (Brazzaville):**
+- **Population:** ~6M
+- **Population distribution:** Urban concentrated — Brazzaville (~2M — directly across Congo River from Kinshasa), Pointe-Noire (~1M — Atlantic port). Southern corridor (Brazzaville-Pointe-Noire) contains majority of population.
+- **TFR:** ~4.0 (declining)
+- **Median age:** ~22
+- **Key demographic dynamic:** Post-Sassou regime joined the EAF — Congo's population now part of the federation's demographic weight. Brazzaville-Kinshasa cross-river population is the closest urban pairing in Africa. Small population relative to EAF totals but strategically located.
+- **Migration character:** Internal migration toward Pointe-Noire (port economy) and Brazzaville. EAF membership enables free movement across the Congo River.
+- **→ See KML: Congo**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Equatorial Guinea:**
+- **Population:** ~1.5M
+- **Population distribution:** Bioko Island (Malabo) — absorbed into EAF. Río Muni (mainland) — partitioned between Cameroon and Gabon. Population dispersed across territory with no surviving governance structure.
+- **TFR:** ~4.0 (high — low urbanization even before collapse)
+- **Median age:** ~21
+- **Key demographic dynamic:** Cautionary case for oil-dependent kleptocracies. When the resource vanished and the dictator died, no state structure remained. Population absorbed by neighboring revolutionary states.
+- **Migration character:** Out-migration from collapsed territory. Some absorption into EAF Bioko and Gabonese Río Muni.
+- **→ See KML: Equatorial Guinea**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Gabon:**
+- **Population:** ~2.5M
+- **Population distribution:** Urban concentrated — Libreville (~800K — Gulf of Guinea capital), Port-Gentil, Franceville. Coastal concentration; interior (rainforest) sparsely populated.
+- **TFR:** ~3.0 (moderate — urbanization higher than Central Africa average)
+- **Median age:** ~26
+- **Key demographic dynamic:** Post-Bongo coup broke the dynastic trap. EAF-associate state preserves internal autonomy while accepting economic integration. Smaller population enables higher per-capita income and public service delivery.
+- **Migration character:** Net in-migration (from Cameroon, Equatorial Guinea, Congo — Libreville as Gulf of Guinea labor destination). Some out-migration to France.
+- **→ See KML: Gabon**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**São Tomé and Príncipe:**
+- **Population:** ~220K
+- **Population distribution:** São Tomé island (majority) — São Tomé City (~70K). Príncipe island (~8K). Dispersed rural settlement across the archipelago.
+- **TFR:** ~3.5 (moderate decline)
+- **Median age:** ~24
+- **Key demographic dynamic:** Small island democracy, EAF observer state. Comoros precedent — small island state absorbed into EAF for climate and security reasons. Democratic institutions preserved within EAF framework.
+- **Migration character:** Net out-migration (diaspora in Portugal, Angola). EAF observer status may create new migration patterns over time.
+- **→ See KML: São Tomé and Príncipe**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Northern Africa:**
+
+**Egypt:**
+- **Population:** ~150M+ (growing — among Africa's largest and most pressured populations)
+- **Population distribution:** Extreme Nile concentration — 95%+ of population lives on 5% of land (Nile Valley and Delta). Cairo (~20M — largest city in Africa, one of the world's most densely populated), Alexandria (~5M), Giza. Unprecedented urban density along the Nile.
+- **TFR:** ~2.5 (declining — Egypt's demographic transition is advanced but slowed by poverty and limited family planning access)
+- **Median age:** ~28
+- **Key demographic dynamic:** Egypt is the most consequential demographic pressure point in North Africa. 150M+ population on limited arable land (Nile Valley) with chronic water stress (GERD reduced Nile flows by 10-25%). World's largest wheat importer — food price shocks are a direct regime threat. Military regime brittle — revolutionary potential is high as demographic pressure exceeds state capacity to manage it.
+- **Migration character:** Net out-migration (diaspora in Gulf, Libya, Europe — remittance economy ~$30B+/yr). Migration corridor to Europe via Libya and Mediterranean. Some in-migration from Sudan (Nile corridor).
+- **→ See KML: Arab Popular Republic**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Libya:**
+- **Population:** ~7M
+- **Population distribution:** Coastal concentrated — Tripoli (~2M), Benghazi (~700K), Misrata. Fezzan (south) sparsely populated — smuggling corridor and Sahel spillover zone.
+- **TFR:** ~2.5 (moderate — declining as urbanization continues)
+- **Median age:** ~30
+- **Key demographic dynamic:** Frozen reactionary partition since 2011 — two governments, two central banks, two militaries. Oil revenue-sharing prevents collapse but no reunification. One of the highest foreign worker ratios in Africa (pre-2011 large migrant workforce from Sub-Saharan Africa — significantly reduced post-fracture).
+- **Migration character:** Migration transit hub (Sub-Saharan African migrants to Europe via Mediterranean). Some in-migration of African workers to oil sector. Out-migration of Libyan professionals to Europe and Gulf.
+- **→ See KML: Arab Popular Republic**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Tunisia:**
+- **Population:** ~12M
+- **Population distribution:** Coastal concentrated — Tunis (~2.5M — capital), Sfax, Sousse, Bizerte. Interior (Kasserine, Gafsa, Tataouine) less populated and economically marginalized.
+- **TFR:** ~1.8 (approaching replacement — Tunisia has the most advanced demographic transition in North Africa)
+- **Median age:** ~35
+- **Key demographic dynamic:** Arab Spring redemption narrative — the democratic impulses of 2011 were suppressed but not extinguished, and patron withdrawal allowed re-emergence. Educated population with civil society tradition. Below-replacement TFR positions Tunisia as an aging North African society.
+- **Migration character:** Net out-migration to Europe (France, Italy, Germany — traditional migration corridor). Highly educated emigration (brain drain). Some return migration as revolutionary re-emergence creates stability.
+- **→ See KML: Arab Popular Republic**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Algeria:**
+- **Population:** ~50M
+- **Population distribution:** Coastal concentrated — Algiers (~3M — capital), Oran, Constantine, Annaba. Sahara interior sparsely populated (Tuareg, Toubou populations). 90%+ of population lives on the Mediterranean coastal strip.
+- **TFR:** ~2.5 (declining — approaching replacement, down from ~3.0 in 2020s)
+- **Median age:** ~30
+- **Key demographic dynamic:** Revolutionary flip triggered by hydrocarbon revenue decline. FLN anti-colonial founding provides ideological framework. Massive youth bulge — one of Africa's youngest large populations. Population pressure on water-stressed coastal zone is acute.
+- **Migration character:** Net out-migration to Europe (France — traditional corridor), some to Canada and US. Brain drain significant (educated professionals). Remittance economy moderate.
+- **→ See KML: Arab Popular Republic**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Morocco:**
+- **Population:** ~40M
+- **Population distribution:** Coastal and plains concentration — Casablanca (~4M — economic capital), Rabat (~2M — political capital), Marrakech, Fès, Tangier. The Rif and Atlas mountains less dense. Western Sahara populated by ~500K.
+- **TFR:** ~2.0 (approaching replacement — Morocco's demographic transition near completion)
+- **Median age:** ~33
+- **Key demographic dynamic:** Surviving reactionary monarchy — the last North African holdout. Monarchy's legitimacy depends on distribution capacity (water stress, declining Western investment erode that capacity). Below-replacement fertility means Morocco's population is stabilizing — demographic pressure is not the regime threat it is in Egypt or Algeria.
+- **Migration character:** Net out-migration to Europe (France, Spain, Italy, Netherlands — one of Africa's largest diasporas). Remittance economy (~$12B/yr). Some return migration. Transit corridor for Sub-Saharan African migrants to Europe.
+- **→ See KML: Morocco**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Sudan:**
+- **Population:** ~50M
+- **Population distribution:** Nile corridor — Khartoum (confluence of Blue and White Nile), Omdurman, Port Sudan (Red Sea). Darfur and Kordofan less dense. South Sudan lost (independent) in 2011 reduces population.
+- **TFR:** ~3.5 (declining slowly — post-conflict recovery, urbanization in Khartoum)
+- **Median age:** ~24
+- **Key demographic dynamic:** Post-civil-war rump state in revolutionary transition, APR member. Nile axis alignment with Egypt connects Sudan's demographic trajectory to broader North African patterns. US-backed counter-revolution removed — revolutionary forces re-emerged.
+- **Migration character:** Net out-migration (refugees to Egypt, Chad, Ethiopia — Darfur conflict legacy). Some in-migration from South Sudan. Internal displacement from Darfur and Kordofan conflict zones.
+- **→ See KML: Arab Popular Republic**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Southern Africa:**
+
+**Botswana:**
+- **Population:** ~2.5M
+- **Population distribution:** Urbanizing — Gaborone (~250K — capital), Francistown, Maun. Most population concentrated in the eastern corridor; Kalahari Desert sparsely populated.
+- **TFR:** ~2.5 (declining — Botswana's demographic transition is the most advanced in Southern Africa after South Africa)
+- **Median age:** ~30
+- **Key demographic dynamic:** Africa's most consistent democratic success story. Diamond wealth managed through the Pula Fund provides fiscal stability that supports public health and education. One of Africa's highest HIV treatment rates has normalized life expectancy.
+- **Migration character:** Net in-migration from Zimbabwe (traditional labor migration — diaspora ~500K+), Zambia. Some out-migration of professionals to BRICS+ economies.
+- **→ See KML: Botswana**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Eswatini:**
+- **Population:** ~1.2M
+- **Population distribution:** Dispersed — Mbabane (~60K — administrative capital), Manzini (~30K — economic hub). Predominantly rural. High HIV prevalence (~25%+ historically, now managed) shapes mortality and life expectancy.
+- **TFR:** ~2.5 (moderate — declining but high HIV-related child mortality suppresses population growth)
+- **Median age:** ~28
+- **Key demographic dynamic:** Africa's last absolute monarchy — demographic trajectory shaped by HIV legacy and South African economic integration. Extremely high HIV prevalence (~25%+ of adults historically) lowered life expectancy to ~60 in the 2010s, now recovering to ~65. Too small and dependent for independent demographic strategy.
+- **Migration character:** Net out-migration to South Africa (labor migration — ~200K+ Eswatini nationals working in SA). Remittance-dependent household economy.
+- **→ See KML: Eswatini**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Namibia:**
+- **Population:** ~2.5M
+- **Population distribution:** Extremely low density (2nd least densely populated country globally after Mongolia). Windhoek (~450K — capital), Walvis Bay (port), Swakopmund. Rural population dispersed across the Kalahari and Namib deserts.
+- **TFR:** ~3.0 (declining — Namibia's demographic transition moderately advanced)
+- **Median age:** ~28
+- **Key demographic dynamic:** Stable democratic institutions, SWAPO liberation movement governance legacy. Diamond and uranium revenue provides public health and education infrastructure. German colonial legacy and SWAPO heritage create a distinct political culture.
+- **Migration character:** Net in-migration from Angola (cross-border trade and Zaire refugees — historical), Zambia. Some out-migration of professionals to South Africa and BRICS+ economies.
+- **→ See KML: Namibia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**South Africa:**
+- **Population:** ~60M
+- **Population distribution:** 70% urban. Major cities: Johannesburg (~6M — economic capital, Africa's financial center), Cape Town (~4.5M — legislative capital, tourism hub), Durban (~4M — port city, Indian Ocean gateway), Pretoria/Tshwane (~3M — administrative capital). Gauteng province (Johannesburg-Pretoria corridor) contains ~25% of national population on 1.5% of land area.
+- **TFR:** ~1.8 (below replacement — South Africa's demographic transition is the most advanced in Sub-Saharan Africa)
+- **Median age:** ~33 (aging — declining TFR, HIV legacy mortality on older cohorts)
+- **Key demographic dynamic:** Dual identity — revolutionary international BRICS+ leader and domestic reactionary trap. 35%+ unemployment is the binding demographic crisis — the highest in the industrial world. HIV pandemic legacy (peaked at ~19% adult prevalence in the 2000s — managed to ~12% by 2050) shaped mortality, life expectancy (~68 in 2010s, recovering to ~75 by 2050), and household structure. The youth bulge (~60% under 35) is either a demographic dividend or a time bomb depending on whether employment growth can absorb new labor market entrants. The Eskom energy crisis throttles economic growth, constraining the ability to employ the young population. Post-ANC reform trajectory determines which outcome dominates.
+- **Migration character:** Net in-migration from throughout Southern Africa (Zimbabwe ~2M+, Mozambique ~1M+, Malawi, Lesotho — the largest regional migration system in Africa). Out-migration of white and skilled Black professionals to UK, Australia, NZ (brain drain). Internal migration from Eastern Cape and Limpopo to Gauteng (Johannesburg economic pull).
+- **→ See KML: South Africa**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
 ## Driving Forces
 
 Briefly — key demographic drivers from the 2026-2049 transition period:
