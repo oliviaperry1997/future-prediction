@@ -74,6 +74,7 @@
         "Zimbabwe"
       ],
       "Middle Africa": [
+        "Ambazonia",
         "Angola",
         "Cameroon",
         "Central African Republic",
@@ -793,8 +794,57 @@
     "East African Federation": {
       "type": "entity",
       "category": "global",
-      "source": "manual",
-      "manual_path": "source/manual/East African Federation.kml",
+      "source": "group",
+      "keep_unified": true,
+      "country_codes": [
+        "BDI",
+        "COD",
+        "KEN",
+        "RWA",
+        "TZA",
+        "UGA"
+      ],
+      "admin1_regions": [
+        {
+          "country_code": "CAF",
+          "admin1_name": "Bangui"
+        },
+        {
+          "country_code": "CAF",
+          "admin1_name": "Basse-Kotto"
+        },
+        {
+          "country_code": "CAF",
+          "admin1_name": "Haut-Mbomou"
+        },
+        {
+          "country_code": "CAF",
+          "admin1_name": "K\u00e9mo"
+        },
+        {
+          "country_code": "CAF",
+          "admin1_name": "Lobaye"
+        },
+        {
+          "country_code": "CAF",
+          "admin1_name": "Mbomou"
+        },
+        {
+          "country_code": "CAF",
+          "admin1_name": "Nana-Gr\u00e9bizi"
+        },
+        {
+          "country_code": "CAF",
+          "admin1_name": "Ombella-M'Poko"
+        },
+        {
+          "country_code": "CAF",
+          "admin1_name": "Sangha-Mba\u00e9r\u00e9"
+        }
+      ],
+      "add_manual_paths": [
+        "source/manual/East African Federation.kml"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "east-african-federation",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#east-african-federation"
@@ -899,14 +949,6 @@
         },
         {
           "country_code": "NGA",
-          "admin1_name": "Plateau"
-        },
-        {
-          "country_code": "NGA",
-          "admin1_name": "Nassarawa"
-        },
-        {
-          "country_code": "NGA",
           "admin1_name": "Niger"
         },
         {
@@ -918,16 +960,16 @@
           "admin1_name": "Kebbi"
         },
         {
-          "country_code": "NGA",
-          "admin1_name": "Benue"
+          "country_code": "CMR",
+          "admin1_name": "Adamaoua"
         },
         {
-          "country_code": "NGA",
-          "admin1_name": "Kogi"
+          "country_code": "CMR",
+          "admin1_name": "Nord"
         },
         {
-          "country_code": "NGA",
-          "admin1_name": "Federal Capital Territory"
+          "country_code": "CMR",
+          "admin1_name": "Extr\u00eame-Nord"
         }
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
@@ -942,43 +984,7 @@
       "admin1_regions": [
         {
           "country_code": "NGA",
-          "admin1_name": "Lagos"
-        },
-        {
-          "country_code": "NGA",
-          "admin1_name": "Ogun"
-        },
-        {
-          "country_code": "NGA",
-          "admin1_name": "Oyo"
-        },
-        {
-          "country_code": "NGA",
-          "admin1_name": "Osun"
-        },
-        {
-          "country_code": "NGA",
-          "admin1_name": "Ondo"
-        },
-        {
-          "country_code": "NGA",
-          "admin1_name": "Ekiti"
-        },
-        {
-          "country_code": "NGA",
-          "admin1_name": "Edo"
-        },
-        {
-          "country_code": "NGA",
-          "admin1_name": "Delta"
-        },
-        {
-          "country_code": "NGA",
-          "admin1_name": "Bayelsa"
-        },
-        {
-          "country_code": "NGA",
-          "admin1_name": "Rivers"
+          "admin1_name": "Abia"
         },
         {
           "country_code": "NGA",
@@ -986,19 +992,35 @@
         },
         {
           "country_code": "NGA",
+          "admin1_name": "Anambra"
+        },
+        {
+          "country_code": "NGA",
+          "admin1_name": "Bayelsa"
+        },
+        {
+          "country_code": "NGA",
+          "admin1_name": "Benue"
+        },
+        {
+          "country_code": "NGA",
           "admin1_name": "Cross River"
         },
         {
           "country_code": "NGA",
-          "admin1_name": "Abia"
+          "admin1_name": "Delta"
         },
         {
           "country_code": "NGA",
-          "admin1_name": "Imo"
+          "admin1_name": "Ebonyi"
         },
         {
           "country_code": "NGA",
-          "admin1_name": "Anambra"
+          "admin1_name": "Edo"
+        },
+        {
+          "country_code": "NGA",
+          "admin1_name": "Ekiti"
         },
         {
           "country_code": "NGA",
@@ -1006,7 +1028,47 @@
         },
         {
           "country_code": "NGA",
-          "admin1_name": "Ebonyi"
+          "admin1_name": "Federal Capital Territory"
+        },
+        {
+          "country_code": "NGA",
+          "admin1_name": "Imo"
+        },
+        {
+          "country_code": "NGA",
+          "admin1_name": "Kogi"
+        },
+        {
+          "country_code": "NGA",
+          "admin1_name": "Lagos"
+        },
+        {
+          "country_code": "NGA",
+          "admin1_name": "Nassarawa"
+        },
+        {
+          "country_code": "NGA",
+          "admin1_name": "Ogun"
+        },
+        {
+          "country_code": "NGA",
+          "admin1_name": "Ondo"
+        },
+        {
+          "country_code": "NGA",
+          "admin1_name": "Osun"
+        },
+        {
+          "country_code": "NGA",
+          "admin1_name": "Oyo"
+        },
+        {
+          "country_code": "NGA",
+          "admin1_name": "Plateau"
+        },
+        {
+          "country_code": "NGA",
+          "admin1_name": "Rivers"
         }
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
@@ -1578,17 +1640,75 @@
     "Cameroon": {
       "type": "entity",
       "category": "global",
-      "source": "country",
-      "country_code": "CMR",
+      "source": "group",
+      "keep_unified": true,
+      "country_codes": [
+        "CMR"
+      ],
+      "admin1_regions": [
+        {
+          "country_code": "CMR",
+          "admin1_name": "Centre"
+        },
+        {
+          "country_code": "CMR",
+          "admin1_name": "Est"
+        },
+        {
+          "country_code": "CMR",
+          "admin1_name": "Littoral"
+        },
+        {
+          "country_code": "CMR",
+          "admin1_name": "Ouest"
+        },
+        {
+          "country_code": "CMR",
+          "admin1_name": "Sud"
+        }
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
+    },
+    "Ambazonia": {
+      "type": "entity",
+      "category": "global",
+      "source": "group",
+      "keep_unified": true,
+      "country_codes": [
+        "CMR"
+      ],
+      "admin1_regions": [
+        {
+          "country_code": "CMR",
+          "admin1_name": "Nord-Ouest"
+        },
+        {
+          "country_code": "CMR",
+          "admin1_name": "Sud-Ouest"
+        }
+      ],
+      "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
+      "section_anchor": "ambazonia",
+      "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#ambazonia"
     },
     "Central African Republic": {
       "type": "entity",
       "category": "global",
       "source": "country",
       "country_code": "CAF",
+      "subtract_admin1": [
+        "Basse-Kotto",
+        "Bangui",
+        "Haut-Mbomou",
+        "K\u00e9mo",
+        "Lobaye",
+        "Mbomou",
+        "Nana-Gr\u00e9bizi",
+        "Ombella-M'Poko",
+        "Sangha-Mba\u00e9r\u00e9"
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
@@ -1723,7 +1843,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Argentine-Chilean Peninsula": {
+    "San Martin": {
       "type": "entity",
       "category": "global",
       "source": "custom",
