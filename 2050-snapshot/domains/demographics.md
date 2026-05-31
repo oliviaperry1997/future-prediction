@@ -94,9 +94,11 @@ Climate-driven migration is one of the defining demographic forces shaping the 2
 - **Impact on destination demographics:** Climate migrants constitute 5-15% of population in high-receiving regions — Pacifica urban zones, European Federation cities (Amsterdam, Berlin, Copenhagen), East African cities (Nairobi, Kampala, Dar es Salaam), and Southeast Asian megacities (Jakarta, Bangkok, Ho Chi Minh City). In the Pacifica and Atlantica, climate migrants fill labor gaps in care work, construction, and services — functioning as a demographic complement to automation-driven labor restructuring.
 - → See climate snapshot: [Climate-Driven Migration](../../2050-snapshot/domains/climate.md#climate-driven-migration) for climate drivers and regional impact details
 
-### Demographic Profiles — US Successor States
+### Demographic Profiles — Americas
 
-Entity-by-entity profiles. Each profile uses expanded variables per D-10: Population (single best-estimate figure), age structure (median age / dependency ratio), Total Fertility Rate (TFR), net migration rate, urbanization rate, life expectancy, ethnic/religious composition summary, labor force participation rate, and primary languages.
+Entity-by-entity demographic profiles covering all ~85 Americas entities across 4 UN geoscheme subregions: Northern America, Caribbean, Central America, South America. Each profile uses expanded variables per D-10: Population (single best-estimate figure), age structure (median age / dependency ratio), Total Fertility Rate (TFR), net migration rate, urbanization rate, life expectancy, ethnic/religious composition summary, labor force participation rate, and primary languages.
+
+**Northern America:**
 
 #### Revolutionary States
 
@@ -380,6 +382,358 @@ Entity-by-entity profiles. Each profile uses expanded variables per D-10: Popula
 - **Labor force participation:** 50% (residual extraction, fishing, logistics — declining; subsistence economy supplements formal sector)
 - **Primary languages:** English, Alaska Native languages
 - **→ See KML: Alaska**
+
+#### Canada and Remaining Northern America
+
+**Canada (rump):**
+- **Population:** ~35M
+- **Age structure:** Median age 44, dependency ratio 58%
+- **TFR:** 1.5
+- **Net migration:** -0.3%/yr (brain drain to Great Lakes, Atlantica, and Pacifica)
+- **Urbanization:** 82%
+- **Life expectancy:** 81
+- **Ethnic/religious composition:** 70% white, 20% visible minority (South Asian, Chinese, Indigenous), 5% Indigenous, 5% other
+- **Labor force participation:** 58%
+- **Primary languages:** English, French
+- **→ See KML: Canada (rump)**
+
+**Quebec Republic:**
+- **Population:** ~8M
+- **Age structure:** Median age 43, dependency ratio 55%
+- **TFR:** 1.6
+- **Net migration:** +0.1%/yr (modest immigration from Francophone Africa and Haiti)
+- **Urbanization:** 85%
+- **Life expectancy:** 82
+- **Ethnic/religious composition:** 80% French-Canadian, 10% Francophone African, 5% Haitian, 5% other
+- **Labor force participation:** 60%
+- **Primary languages:** French, English
+- **→ See KML: Quebec Republic**
+
+**Maritime Republic:**
+- **Population:** ~2M
+- **Age structure:** Median age 46, dependency ratio 60%
+- **TFR:** 1.4
+- **Net migration:** -0.2%/yr (modest out-migration to Atlantica and Great Lakes)
+- **Urbanization:** 60%
+- **Life expectancy:** 80
+- **Ethnic/religious composition:** 90% white, 5% Indigenous (Mi'kmaq, Maliseet), 5% other
+- **Labor force participation:** 55%
+- **Primary languages:** English, French
+- **→ See KML: Maritime Republic**
+
+**Caribbean:**
+
+**Cuba:**
+- **Population:** ~10M
+- **Age structure:** Median age 44, dependency ratio 52%
+- **TFR:** 1.5
+- **Net migration:** -0.2%/yr (continued out-migration to Aztlán, Pacifica, and Spain)
+- **Urbanization:** 78%
+- **Life expectancy:** 80
+- **Ethnic/religious composition:** 65% white, 25% mixed, 10% Black. Religious landscape: Catholic majority, Santería minority, secular growing.
+- **Labor force participation:** 58%
+- **Primary languages:** Spanish
+- **→ See KML: Cuba**
+
+**Haiti:**
+- **Population:** ~12M
+- **Age structure:** Median age 28, dependency ratio 65%
+- **TFR:** 2.6 (highest in the Caribbean)
+- **Net migration:** -0.8%/yr (severe out-migration to Aztlán, Quebec, and Maritime Republic)
+- **Urbanization:** 60%
+- **Life expectancy:** 67 (lowest in the Americas)
+- **Ethnic/religious composition:** 95% Black, 5% other
+- **Labor force participation:** 55%
+- **Primary languages:** Haitian Creole, French
+- **→ See KML: Haiti**
+
+**Dominican Republic:**
+- **Population:** ~11M
+- **Age structure:** Median age 35, dependency ratio 48%
+- **TFR:** 2.0
+- **Net migration:** -0.1%/yr (modest out-migration to Aztlán and Atlantica)
+- **Urbanization:** 82%
+- **Life expectancy:** 76
+- **Ethnic/religious composition:** 75% mixed, 15% white, 10% Black
+- **Labor force participation:** 62%
+- **Primary languages:** Spanish
+- **→ See KML: Dominican Republic**
+
+**Jamaica:**
+- **Population:** ~3M (declining)
+- **Age structure:** Median age 38, dependency ratio 45%
+- **TFR:** 2.0
+- **Net migration:** -0.5%/yr (significant out-migration to Aztlán and UK)
+- **Urbanization:** 60%
+- **Life expectancy:** 75
+- **Ethnic/religious composition:** 90% Black, 5% mixed, 5% other
+- **Labor force participation:** 60%
+- **Primary languages:** English, Jamaican Patois
+- **→ See KML: Jamaica**
+
+**Trinidad and Tobago:**
+- **Population:** ~1.2M
+- **Age structure:** Median age 40, dependency ratio 47%
+- **TFR:** 1.8
+- **Net migration:** -0.2%/yr
+- **Urbanization:** 55%
+- **Life expectancy:** 76
+- **Ethnic/religious composition:** 40% Indian, 35% Black, 20% mixed, 5% other
+- **Labor force participation:** 58%
+- **Primary languages:** English, Trinidadian Creole
+- **→ See KML: Trinidad and Tobago**
+
+**Bahamas:**
+- **Population:** ~400K
+- **Age structure:** Median age 38, dependency ratio 44%
+- **TFR:** 1.6
+- **Net migration:** +0.3%/yr (modest immigration — tourism and finance)
+- **Urbanization:** 83%
+- **Life expectancy:** 76
+- **Labor force participation:** 58%
+- **Primary languages:** English
+- **→ See KML: Bahamas**
+
+**Barbados:**
+- **Population:** ~280K
+- **Age structure:** Median age 42, dependency ratio 50%
+- **TFR:** 1.6
+- **Net migration:** +0.2%/yr (modest immigration — medical and education hub)
+- **Urbanization:** 70%
+- **Life expectancy:** 79
+- **Primary languages:** English
+- **→ See KML: Barbados**
+
+**Central America:**
+
+**Mexico:**
+- *(See Northern America section above — Mexico spans the Northern America / Central America boundary. For demographic purposes, Mexico is profiled here under Central America where the majority of its demographic weight and migration dynamics reside.)*
+- **→ See KML: Mexico**
+
+**Guatemala:**
+- **Population:** ~18M
+- **Age structure:** Median age 25, dependency ratio 62%
+- **TFR:** 2.5
+- **Net migration:** -0.6%/yr (significant out-migration to Aztlán and Pacifica)
+- **Urbanization:** 55%
+- **Life expectancy:** 72
+- **Primary languages:** Spanish, K'iche', Kaqchikel, Mam, Q'eqchi'
+- **→ See KML: Guatemala**
+
+**Central American Federation (CAF — Guatemala, El Salvador, Honduras):** (combined — see individual entries above for Guatemala; El Salvador and Honduras below form confederal entity)
+- **Population:** ~28M (combined)
+- **Age structure:** Median age 27, dependency ratio 58%
+- **TFR:** 2.2
+- **Net migration:** -0.6%/yr (high out-migration to Aztlán and Pacifica)
+- **Urbanization:** 63%
+- **Life expectancy:** 73
+- **Primary languages:** Spanish, Nawat, Garifuna, Miskito
+- **→ See KML: CAF**
+- → See transition doc: [central-america.md](../../2026-2050-transition/regions/central-america.md)
+
+**El Salvador:**
+- **Population:** ~6M (declining)
+- **Age structure:** Median age 32, dependency ratio 50%
+- **TFR:** 1.8
+- **Net migration:** -0.5%/yr (continued out-migration to Aztlán)
+- **Urbanization:** 75%
+- **Life expectancy:** 74
+- **Primary languages:** Spanish, Nawat
+- **→ See KML: El Salvador**
+
+**Honduras:**
+- **Population:** ~9M (declining)
+- **Age structure:** Median age 27, dependency ratio 58%
+- **TFR:** 2.3
+- **Net migration:** -0.7%/yr (high out-migration to Aztlán and Pacifica)
+- **Urbanization:** 60%
+- **Life expectancy:** 73
+- **Primary languages:** Spanish, Garifuna, Miskito
+- **→ See KML: Honduras**
+
+**Nicaragua:**
+- **Population:** ~7M
+- **Age structure:** Median age 30, dependency ratio 55%
+- **TFR:** 2.2
+- **Net migration:** -0.4%/yr
+- **Urbanization:** 60%
+- **Life expectancy:** 76
+- **Primary languages:** Spanish, Miskito, Rama
+- **→ See KML: Nicaragua**
+
+**Costa Rica:**
+- **Population:** ~5M
+- **Age structure:** Median age 38, dependency ratio 44%
+- **TFR:** 1.6
+- **Net migration:** +0.5%/yr (net immigration — retirement and eco-migration)
+- **Urbanization:** 80%
+- **Life expectancy:** 80
+- **Primary languages:** Spanish, English
+- **→ See KML: Costa Rica**
+
+**Panama:**
+- **Population:** ~4.5M
+- **Age structure:** Median age 33, dependency ratio 46%
+- **TFR:** 2.0
+- **Net migration:** +0.4%/yr (net immigration — canal economy attracts foreign workers)
+- **Urbanization:** 70%
+- **Life expectancy:** 79
+- **Primary languages:** Spanish, English
+- **→ See KML: Panama**
+
+**Belize:**
+- **Population:** ~450K
+- **Age structure:** Median age 28, dependency ratio 55%
+- **TFR:** 2.2
+- **Net migration:** +0.1%/yr
+- **Urbanization:** 48%
+- **Life expectancy:** 76
+- **Primary languages:** English, Spanish, Kriol, Maya
+- **→ See KML: Belize**
+
+**South America:**
+
+**Brazil:**
+- **Population:** ~170M (declining — down from 215M peak)
+- **Age structure:** Median age 40, dependency ratio 50%
+- **TFR:** 1.5
+- **Net migration:** -0.1%/yr (modest out-migration to Portugal, European Federation, and Chile)
+- **Urbanization:** 90%
+- **Life expectancy:** 78
+- **Ethnic/religious composition:** 50% mixed (Pardo), 30% white, 15% Black, 5% Indigenous/Asian
+- **Labor force participation:** 58%
+- **Primary languages:** Portuguese
+- **→ See KML: Brazil**
+
+**Venezuela:**
+- **Population:** ~22M (severely declined — mass migration crisis 2020s-2030s)
+- **Age structure:** Median age 35, dependency ratio 48%
+- **TFR:** 2.1
+- **Net migration:** -0.3%/yr (continued out-migration to Colombia, Chile, Peru, and Pacifica)
+- **Urbanization:** 88%
+- **Life expectancy:** 72
+- **Ethnic/religious composition:** 55% Mestizo, 20% white, 15% Black, 10% other
+- **Labor force participation:** 55%
+- **Primary languages:** Spanish
+- **→ See KML: Venezuela**
+
+**Colombia:**
+- **Population:** ~50M
+- **Age structure:** Median age 36, dependency ratio 46%
+- **TFR:** 1.7
+- **Net migration:** +0.2%/yr (modest net immigration — peace consolidation attracts return migration)
+- **Urbanization:** 82%
+- **Life expectancy:** 79
+- **Ethnic/religious composition:** 55% Mestizo, 25% white, 10% Black/Afro-Colombian, 5% Indigenous, 5% other
+- **Labor force participation:** 60%
+- **Primary languages:** Spanish
+- **→ See KML: Colombia**
+
+**Argentina:**
+- **Population:** ~42M
+- **Age structure:** Median age 38, dependency ratio 50%
+- **TFR:** 1.7
+- **Net migration:** +0.1%/yr (modest immigration from neighboring countries)
+- **Urbanization:** 92%
+- **Life expectancy:** 78
+- **Ethnic/religious composition:** 85% white, 10% Mestizo, 5% other
+- **Labor force participation:** 58%
+- **Primary languages:** Spanish, Italian
+- **→ See KML: Argentina**
+
+**Chile:**
+- **Population:** ~18M
+- **Age structure:** Median age 40, dependency ratio 48%
+- **TFR:** 1.5
+- **Net migration:** +0.3%/yr (net immigration — stability attracts pensioners and skilled workers)
+- **Urbanization:** 88%
+- **Life expectancy:** 82 (highest in South America)
+- **Ethnic/religious composition:** 65% Mestizo, 25% white, 8% Indigenous (Mapuche, Aymara, Rapa Nui), 2% other
+- **Labor force participation:** 60%
+- **Primary languages:** Spanish, Mapudungun
+- **→ See KML: Chile**
+
+**Peru:**
+- **Population:** ~32M
+- **Age structure:** Median age 33, dependency ratio 48%
+- **TFR:** 1.9
+- **Net migration:** -0.1%/yr (modest out-migration to Chile, Argentina, and Pacifica)
+- **Urbanization:** 80%
+- **Life expectancy:** 77
+- **Ethnic/religious composition:** 60% Mestizo, 25% Indigenous (Quechua, Aymara), 10% white, 5% other
+- **Labor force participation:** 62%
+- **Primary languages:** Spanish, Quechua, Aymara
+- **→ See KML: Peru**
+
+**Ecuador:**
+- **Population:** ~18M
+- **Age structure:** Median age 32, dependency ratio 46%
+- **TFR:** 2.0
+- **Net migration:** -0.2%/yr (out-migration to Spain, Pacifica, and Chile)
+- **Urbanization:** 72%
+- **Life expectancy:** 78
+- **Primary languages:** Spanish, Kichwa, Shuar
+- **→ See KML: Ecuador**
+
+**Bolivia:**
+- **Population:** ~12M
+- **Age structure:** Median age 30, dependency ratio 55%
+- **TFR:** 2.3
+- **Net migration:** -0.3%/yr (out-migration to Chile, Argentina, and Spain)
+- **Urbanization:** 70%
+- **Life expectancy:** 74
+- **Primary languages:** Spanish, Quechua, Aymara, Guaraní
+- **→ See KML: Bolivia**
+
+**Paraguay:**
+- **Population:** ~7M
+- **Age structure:** Median age 32, dependency ratio 48%
+- **TFR:** 2.2
+- **Net migration:** -0.2%/yr (modest out-migration to Argentina and Chile)
+- **Urbanization:** 65%
+- **Life expectancy:** 75
+- **Primary languages:** Spanish, Guaraní
+- **→ See KML: Paraguay**
+
+**Uruguay:**
+- **Population:** ~3.5M
+- **Age structure:** Median age 38, dependency ratio 52%
+- **TFR:** 1.6
+- **Net migration:** +0.2%/yr (modest immigration — political stability attracts foreigners)
+- **Urbanization:** 95%
+- **Life expectancy:** 80
+- **Primary languages:** Spanish
+- **→ See KML: Uruguay**
+
+**Guyana:**
+- **Population:** ~800K
+- **Age structure:** Median age 30, dependency ratio 46%
+- **TFR:** 2.1
+- **Net migration:** +0.5%/yr (net immigration — oil-driven labor demand)
+- **Urbanization:** 55%
+- **Life expectancy:** 72
+- **Primary languages:** English, Guyanese Creole, Hindi
+- **→ See KML: Guyana**
+
+**Suriname:**
+- **Population:** ~600K
+- **Age structure:** Median age 32, dependency ratio 44%
+- **TFR:** 2.0
+- **Net migration:** -0.1%/yr
+- **Urbanization:** 68%
+- **Life expectancy:** 73
+- **Primary languages:** Dutch, Sranan Tongo, Hindi, Javanese
+- **→ See KML: Suriname**
+
+**French Guiana (rump):**
+- **Population:** ~150K
+- **Age structure:** Median age 28, dependency ratio 48%
+- **TFR:** 2.8
+- **Net migration:** +0.3%/yr (modest immigration from Haiti and Brazil)
+- **Urbanization:** 80%
+- **Life expectancy:** 74
+- **Primary languages:** French, Creole
+- **→ See KML: French Guiana (rump)**
 
 ### Demographic Profiles — Key Global Powers
 
