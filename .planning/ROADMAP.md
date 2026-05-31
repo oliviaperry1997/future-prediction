@@ -512,5 +512,5 @@ Plans:
 - [x] 20-03-PLAN.md — borders-geopolitics Africa Restructure (Wave 3)
 - [x] 20-04-PLAN.md — borders-geopolitics Americas Restructure (Wave 4)
 - [x] 20-05-PLAN.md — Africa Economy & Demographics Profiles (Wave 5)
-- [ ] 20-06-PLAN.md — Americas Economy & Demographics Profiles (Wave 6)
+- [x] 20-06-PLAN.md — Americas Economy & Demographics Profiles (Wave 6)
 - [ ] 20-07-PLAN.md — Culture, Climate & Technology Profiles (Wave 5)**
