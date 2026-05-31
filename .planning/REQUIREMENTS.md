@@ -78,7 +78,12 @@ Deferred to future release. Tracked but not in current roadmap.
 
 ## v1.1 Requirements
 
-Region-by-region plausibility audit for the 2050 snapshot. Each requirement covers three axes: (1) assess plausibility against established dynamics and the revolutionary feedback loop, (2) fix KML creation issues, (3) fill documentation gaps.
+Region-by-region plausibility audit for the 2050 snapshot.
+
+### Africa & America Re-review
+
+- [ ] **AFAM-01**: Africa entity profiles completed to v1.1 depth — all 35 Africa entities have structured entries in economy.md, demographics.md, culture.md, climate.md, technology.md, and borders-geopolitics.md. Sahel-Nigeria border reallocation and Cameroon fragmentation implemented in KML.
+- [x] **AFAM-02**: Americas entity profiles completed to v1.1 depth — all 85 Americas entities have structured entries. US successor states reorganized into Northern America section. Caribbean, Central America, South America profiles created. Each requirement covers three axes: (1) assess plausibility against established dynamics and the revolutionary feedback loop, (2) fix KML creation issues, (3) fill documentation gaps.
 
 ### Eurasia Review
 
@@ -165,9 +170,12 @@ Region-by-region plausibility audit for the 2050 snapshot. Each requirement cove
 | OCEA-04 | Phase 18 | Pending |
 | ANTA-01 | Phase 19 | Complete |
 
+| AFAM-01 | Phase 20 | Pending |
+| AFAM-02 | Phase 20 | Complete |
+
 **Coverage:**
-- v1.1 requirements: 14 total
-- Mapped to phases: 14
+- v1.1 requirements: 16 total
+- Mapped to phases: 16
 - Unmapped: 0 ✓
 
 ---
