@@ -649,7 +649,7 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **→ See KML: Brazil**
 - → See transition doc: event T-15
 
-**East African Federation (EAF):**
+**East African Federation:**
 - **GDP:** ~$500B
 - **Dominant sectors:** Agriculture (coffee, tea, horticulture, staple crops — largely smallholder, modernizing), energy (geothermal — Great Rift Valley, hydro — Nile tributaries, solar — expanding rapidly), logistics (East African transport corridors — Mombasa-to-Kampala-to-Kigali-to-Juba, Dar es Salaam corridor), services (finance — Nairobi as East African financial hub, telecommunications — mobile money ecosystem matured), tourism (safari, coastal — recovering from climate disruptions)
 - **Trade partners and bloc alignment:** BRICS+ (primary — EAF is a BRICS+ member), China (infrastructure investment and trade), India (historical trade ties), European Federation (agricultural exports to Europe — declining as Africa-Europe trade shifts), intra-East African Community trade (growing — confederation structure)
@@ -947,6 +947,430 @@ Entity-by-entity economic profiles covering all 19 successor states. Each profil
 - **Regulated territorial economic model:** Antarctica's economy operates under the Santiago Protocol's regulated territorial framework — claims are sovereign but constrained by the ice-structure mandate, revenue-sharing obligations, and the ban on lethal weaponry. The British Antarctic Territory's former sector (20°W–53°W) is now the Brazilian Antarctic Territory — the UK's claim is defunct (dissolved with UK sovereignty), and Brazil claimed the vacated sector under the Santiago Protocol. Economic activity is structured through: (1) claimant-state administration of designated zones (extraction, research, enforcement), (2) Santiago Secretariat-managed commons (krill fisheries via CCAMLR, revenue-sharing from extraction), and (3) international scientific cooperation. The Santiago framework is an experiment in regulated territorial resource governance — the ice-structure mandate is its binding constraint, the claim market is its innovation, and the revenue-sharing mechanism is its institutional glue.
 
 **→ See KML:** Dronning Maud Land, Brazilian Antarctic Territory, Argentine-Chilean Peninsula, Chinese Marie Byrd Land, Ross Dependency, Australian Antarctic Territory, Indian Antarctic Territory, Adélie Land, Wilkes Land
+
+### Economic Profiles — Africa
+
+Entity-by-entity economic profiles covering all ~40 Africa entities across 5 UN geoscheme subregions. Each profile follows v1.1 format with GDP range, dominant sectors, trade partners and bloc alignment, economic model, currency status, and labor market character.
+
+**Western Africa:**
+
+**Federation of Sahel States:**
+- **GDP:** ~$XXXB (combined — Mali, Burkina Faso, Niger, Mauritania, Togo, 15 northern Nigerian states, northern Cameroon regions)
+- **Dominant sectors:** Gold mining (nationalized — SOPAMIB in Burkina Faso, state-owned operations across Mali/Niger), agriculture (cereals, cotton, livestock — Sahelian), informal cross-border trade (livestock, artisanal gold), remittances, energy (hydro — Niger River), state-directed manufacturing and infrastructure
+- **Trade partners and bloc alignment:** BRICS+ (primary — gold exports to China/Switzerland via BRICS+ channels), ECOWAS residual (coastal trade via Togo's Lomé port), intra-AES trade. The BRICS+ financial system provides IMF-alternative lending. Gold nationalization directly competes with the smuggling economy that funded jihadi insurgencies.
+- **Economic model:** Revolutionary socialist-state-directed. Sankara-tradition: resource nationalization (gold, uranium), state-directed development, BRICS+ finance, self-sufficient development orientation. The security emergency juntas are structurally transitional — as gold nationalization degrades the insurgency economy, the military phase expires by design.
+- **Currency:** CFA franc dissolved following French monetary withdrawal. AES common currency (Sahel Franc or similar — pegged to a basket of BRICS+ currencies and gold). Gold reserves provide backing.
+- **Labor market character:** Predominantly subsistence agriculture and informal economy transitioning toward state-directed modernization. Youth unemployment high but declining as state-directed development programs absorb labor. Artisanal gold mining provides ~2M+ informal livelihoods.
+- **→ See KML: Federation of Sahel States**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Nigeria (rump):**
+- **GDP:** ~$XXXB (reduced from pre-split baseline — lost 15 northern states to AES, retained Atlantic oil infrastructure and Lagos financial sector)
+- **Dominant sectors:** Oil and gas (Niger Delta — declining through the 2040s but viable for domestic consumption and regional petrochemicals), financial services (Lagos — West Africa's financial hub post-AES withdrawal of northern banking institutions), manufacturing (emerging — automotive assembly, pharmaceuticals, food processing), services (digital economy — Lagos tech hub, mobile money), agriculture (cocoa, palm oil, rubber — southern cash crops)
+- **Trade partners and bloc alignment:** BRICS+ (member — Atlantic-facing trade orientation), Coastal West African Federation (Ghana-CIV axis trade), European Federation (agricultural and oil exports). Lagos financial hub serves as the Atlantic gateway for West African BRICS+ trade.
+- **Economic model:** Democratic-revolutionary mixed economy. Retained Anglophone legal system and Lagos financial sector. Oil revenue managed through a reconstituted Federation Account. Market-based private sector with state regulation.
+- **Currency:** Nigerian Naira (NGN) — managed float. Trade increasingly settled in BCU and yuan within BRICS+ clearing house.
+- **Labor market character:** Mixed. Oil sector capital-intensive (moderately automated). Financial and tech services growing. Agriculture labor-intensive. ~150M population with young demographic profile. High unemployment remains a structural challenge.
+- **→ See KML: Nigeria**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Ghana:**
+- **GDP:** ~$XXXB
+- **Dominant sectors:** Manufacturing (automotive assembly, pharmaceuticals, food processing — transition from commodity-export dependency), digital services (Accra tech hub), gold (legacy — production declining from peak), cocoa (processing — reducing raw export dependency), oil (Jubilee fields — declining)
+- **Trade partners and bloc alignment:** Coastal West African Federation (primary — Gold Coast Compact with Côte d'Ivoire), BRICS+ (trade reorientation), European Federation (residual agricultural exports). Accra coordinates the Gold Coast Compact monetary and trade architecture.
+- **Economic model:** Democratic-revolutionary mixed economy. Stable institutions, functioning rule of law, growing industrial base. Transition from commodity export to manufacturing and services.
+- **Currency:** Cedi (GHS) — managed float, convertible to BCU.
+- **Labor market character:** Mixed. Manufacturing moderately automated. Digital services growing. Agriculture still significant but declining as share of employment. Educated workforce.
+- **→ See KML: Ghana**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Côte d'Ivoire:**
+- **GDP:** ~$XXXB
+- **Dominant sectors:** Cocoa (world's largest producer — processing and manufacturing reducing raw export dependency), agriculture (cashew, coffee, palm oil), manufacturing (food processing, construction materials), services (Abidjan — Francophone West African economic hub operating outside French monetary and security framework)
+- **Trade partners and bloc alignment:** Ghana (confederal partner — Gold Coast Compact), BRICS+ (trade reorientation), China (infrastructure investment). Abidjan functions as the Francophone gateway for BRICS+ trade.
+- **Economic model:** Democratic-revolutionary mixed economy. Post-French reorientation. The CFA franc dissolution removed monetary dependency.
+- **Currency:** West African Franc (transitional — replacing the dissolved CFA franc, coordinated with Ghana under Gold Coast Compact monetary framework).
+- **Labor market character:** Mixed. Cocoa processing moderately automated. Agriculture labor-intensive. Services and construction growing. Port economy (Abidjan) provides significant employment.
+- **→ See KML: Côte d'Ivoire**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Mano River Union (Mano Republic):**
+- **GDP:** ~$XXB (combined Liberia-Sierra Leone — small, recovering from post-patron adjustment)
+- **Dominant sectors:** Mining (iron ore — Liberia, Sierra Leone — Chinese investment), agriculture (rubber, palm oil, cocoa — smallholder), fisheries (coastal), remittances (diaspora in US/Europe — disrupted by US collapse), services (Monrovia-Freetown corridor)
+- **Trade partners and bloc alignment:** Coastal West African Federation (junior partner), China (mining investment). The US/UK aid withdrawal forced the merger — post-collapse reconstruction funded through BRICS+ MDB and Chinese infrastructure lending.
+- **Economic model:** Post-patron unified state. US-client identity (Liberia) and UK budgetary support (Sierra Leone) both withdrawn — the unified state survives on mineral revenue, BRICS+ lending, and international development assistance.
+- **Currency:** Mano Dollar (transitional — legacy Liberian and Sierra Leonean currencies being unified).
+- **Labor market character:** Labor-intensive. Mining capital-intensive (foreign-owned). Agriculture smallholder. Remittance-dependent. High informal employment.
+- **→ See KML: Mano River Union**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Senegambia:**
+- **GDP:** ~$XXB (combined — Senegal's economy dominates over Gambia)
+- **Dominant sectors:** Agriculture (groundnuts — primary cash crop, cotton), fisheries (Atlantic coast), services (Dakar — regional services hub), mining (phosphates — Senegal), tourism (Dakar, Saly, Gambian coast), manufacturing (food processing, construction materials)
+- **Trade partners and bloc alignment:** BRICS+ (primary — Senegal's trade reorientation), China (infrastructure investment), Coastal West African Federation (senior partner). The CFA franc dissolution removed the final monetary obstacle to confederation.
+- **Economic model:** Market-oriented economy under confederal governance. Senegal provides economic weight; Gambia's enclave geography is fully integrated into Senegambian economic space.
+- **Currency:** Senegambian Franc (post-CFA transitional currency, within BRICS+ clearing framework).
+- **Labor market character:** Labor-intensive. Agriculture and fisheries dominant. Services growing in Dakar. High informal employment.
+- **→ See KML: Senegambia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Benin:**
+- **GDP:** ~$XXB
+- **Dominant sectors:** Port services (Cotonou — secondary Atlantic port for AES access route), agriculture (cotton, cashew, palm oil), re-export trade (Nigeria corridor), textiles, services
+- **Trade partners and bloc alignment:** AES (associated state — deep cross-border integration), Nigeria (primary trade partner), China (infrastructure investment). Benin functions as the hinge between AES Sahelian and coastal West African economic blocs.
+- **Economic model:** Market economy with state coordination. AES-associated economic integration without full membership.
+- **Currency:** West African Franc (transitional).
+- **Labor market character:** Labor-intensive. Port and re-export trade provides significant informal employment. Agriculture dominant. Cotton sector employs ~500K smallholders.
+- **→ See KML: Benin**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Guinea:**
+- **GDP:** ~$XXB
+- **Dominant sectors:** Mining (Simandou iron ore — world's largest untapped high-grade deposit, operational from late 2030s), bauxite (Boké — one of world's largest reserves), agriculture (rice — Guinée Maritime, livestock — interior), energy (hydro — potential, underdeveloped)
+- **Trade partners and bloc alignment:** BRICS+ (primary — Chinese and BRICS+ investment in Simandou), AES (associated — interior economic integration), Coastal West African Federation (limited). Simandou provides independent mineral revenue that sustains Guinea's balancing act.
+- **Economic model:** State-directed resource economy. Mining revenue managed through state-owned enterprises. Simandou development underwrites Guinean sovereignty between Sahelian and coastal alignments.
+- **Currency:** Guinean Franc (GNF) — managed float.
+- **Labor market character:** Labor-intensive. Agriculture dominant (majority of workforce). Mining capital-intensive (employs relatively few). Bauxite sector provides primary formal employment.
+- **→ See KML: Guinea**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Guinea-Bissau:**
+- **GDP:** ~$XB
+- **Dominant sectors:** Cashew nuts (primary export — one of world's largest producers), fisheries (Atlantic coast), agriculture (rice, tropical fruits), minimal formal economy
+- **Trade partners and bloc alignment:** Guinea (Conakry) — de facto protectorate relationship. residual trade with Portugal and EU. Not independently viable.
+- **Economic model:** De facto Guinean protectorate. Nominal sovereignty maintained through Guinean security and economic support.
+- **Currency:** CFA franc legacy / Guinean Franc (de facto use). No independent currency function.
+- **Labor market character:** Informal and subsistence dominant. Cashew sector employs significant share of population. Fishing provides coastal livelihoods. Among the lowest formal employment rates in West Africa.
+- **→ See KML: Guinea-Bissau**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Cabo Verde:**
+- **GDP:** ~$XB
+- **Dominant sectors:** Tourism (from Brazil, Europe — recovering post-US-collapse restructuring), services (offshore financial services, maritime logistics), remittances (~10% of GDP from diaspora), fisheries (tuna), agriculture (limited — volcanic island soils)
+- **Trade partners and bloc alignment:** BRICS+ (deepening — tourism and investment from Brazil), China (infrastructure investment). No military. Diaspora-driven economy. Stable multi-party democracy without mainland bloc alignment.
+- **Economic model:** Stable democratic market economy. Diaspora-driven. No military expenditure, high human development.
+- **Currency:** Cape Verdean Escudo (CVE) — pegged to euro historically, transitioning to BCU convertibility.
+- **Labor market character:** Mixed. Tourism labor-intensive. Services growing. Emigration provides remittance income floor. ~600K population.
+- **→ See KML: Cabo Verde**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Eastern Africa:**
+
+**East African Federation:**
+- **GDP:** ~$500B (combined — 10 member states: Kenya, Tanzania, Uganda, Rwanda, Burundi, South Sudan, DRC, Somalia, Comoros, Congo-Brazzaville)
+- **Dominant sectors:** Agriculture (coffee, tea, horticulture, staple crops — largely smallholder, modernizing), energy (geothermal — Great Rift Valley, hydro — Nile tributaries, solar — expanding, DRC hydroelectric potential), mining (DRC cobalt — 70% of global supply, copper, gold, diamonds, coltan), logistics (East African transport corridors, Congo River corridor, Pointe-Noire Atlantic port), services (finance — Nairobi as East African hub, telecommunications — mobile money ecosystem), manufacturing (light manufacturing, food processing — growing), tourism (safari, Indian Ocean coast)
+- **Trade partners and bloc alignment:** BRICS+ (primary — member), China (infrastructure investment), India (historical trade ties), European Federation (declining agricultural exports), intra-EAF trade (growing). East African Shilling is the confederation trade currency.
+- **Economic model:** Confederal social-democratic / mixed economy. Coordinated economic policy, common currency (East African Shilling), BRICS+ MDB-financed infrastructure. DRC's resource wealth provides strategic leverage.
+- **Currency:** East African Shilling (EAS) — regional currency managed by the East African Monetary Institute. Convertible to BCU within BRICS+ framework.
+- **Labor market character:** Labor-intensive. Agriculture employs majority of workforce. Services and logistics growing. Automation limited outside capital-intensive sectors (energy, mining). Young workforce (median age ~22 — youngest major population cluster).
+- **→ See KML: East African Federation**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Ethiopia (rump):**
+- **GDP:** ~$XXXB (reduced from projection — lost Tigray and Somali Region)
+- **Dominant sectors:** Agriculture (coffee — world's largest producer of Arabica, teff, grains, livestock), energy (GERD hydroelectricity — 6.5 GW, defining sovereignty project), manufacturing (light manufacturing, textiles, leather goods — growing), services (Addis Ababa — AU headquarters, diplomatic hub, Ethiopian Airlines hub)
+- **Trade partners and bloc alignment:** BRICS+ (primary — post-Berbera-Axis pivot), China (infrastructure investment, GERD financing), EAF (growing integration), Turkey (drone procurement, trade). The GERD hydroelectricity provides both domestic power and export revenue to Sudan and Djibouti.
+- **Economic model:** State-directed developmental state with emerging market elements. GERD provides energy independence and export revenue. Post-Berbera-Axis pivot to BRICS+ reorients trade patterns.
+- **Currency:** Ethiopian Birr (ETB) — managed float. Trade increasingly settled in BCU and yuan.
+- **Labor market character:** Labor-intensive. Agriculture dominant (~60% of workforce). Manufacturing and services growing but from low base. Young population (~140M) provides demographic dividend if employment growth can absorb new entrants.
+- **→ See KML: Ethiopia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Tigray:**
+- **GDP:** ~$XB
+- **Dominant sectors:** Agriculture (subsistence grains, livestock — teff, wheat, cattle), mining (gold and minerals — limited), services (Mekelle — regional trade hub), remittances (Tigrayan diaspora), reconstruction economy
+- **Trade partners and bloc alignment:** EAF (tilted alignment), Ethiopia (residual economic ties — disputed border). Independent state emerging from post-Pretoria fracture. Economic viability depends on EAF integration and diaspora support.
+- **Economic model:** Post-conflict reconstruction economy. State-directed in reconstruction phase. Diaspora remittances critical.
+- **Currency:** Ethiopian Birr (de facto) / transitional arrangement.
+- **Labor market character:** Post-conflict. Agriculture dominant. Reconstruction provides temporary employment. Diaspora remittances sustain household income. ~7M population.
+- **→ See KML: Tigray**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Eritrea:**
+- **GDP:** ~$XB
+- **Dominant sectors:** Mining (gold, zinc, copper — Bisha mine, Zara gold), agriculture (subsistence — limited arable land, drought-prone), services (minimal — Asmara regional trade), remittances (Eritrean diaspora — significant)
+- **Trade partners and bloc alignment:** Minimal — isolated. Residual Chinese investment in mining. The US/EU patron withdrawal removed the external support that sustained minimal economic function. Isaias regime holds in terminal stasis.
+- **Economic model:** Reactionary stasis state-directed. Military mobilization (national service) as de facto labor allocation. Remittance-dependent. No functional financial sector.
+- **Currency:** Nakfa (ERN) — non-convertible, limited circulation. Dollarized in practice.
+- **Labor market character:** State-mobilized. National service (indefinite conscription) provides labor allocation. Agriculture subsistence. Mining capital-intensive. Remittance-dependent household economy.
+- **→ See KML: Eritrea**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Djibouti:**
+- **GDP:** ~$XB (severely reduced from basing-chokepoint peak)
+- **Dominant sectors:** Basing services (residual Chinese PLAAF presence — reduced, Camp Lemonnier closed, French bases degraded), port services (Djibouti port — Ethiopia trade corridor diminished as Ethiopia pivots), logistics (limited), services (minimal)
+- **Trade partners and bloc alignment:** China (residual basing revenue), Ethiopia (reduced trade corridor). Economic model destroyed by patron withdrawal. Independence not viable beyond 2050s.
+- **Economic model:** Extractive basing economy — collapsed when patrons withdrew. Residual Chinese presence provides minimal fiscal support.
+- **Currency:** Djiboutian Franc (DJF) — pegged to USD historically, transition uncertain.
+- **Labor market character:** Limited formal employment. Port services sector contracting. High unemployment. Diaspora remittances provide household income floor.
+- **→ See KML: Djibouti**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Madagascar:**
+- **GDP:** ~$XXB
+- **Dominant sectors:** Agriculture (vanilla — world's largest producer, cloves, coffee, cocoa, rice — subsistence), mining (ilmenite, nickel, cobalt, graphite — growing), textiles (light manufacturing — export processing zones), tourism (eco-tourism — recovering)
+- **Trade partners and bloc alignment:** BRICS+ (primary — mining exports to China), EAF (deepening ties via Mozambique), India (historical trade). Climate vulnerability (cyclones, drought) constrains agricultural growth.
+- **Economic model:** Mixed — mineral extraction state-directed, agriculture smallholder. EAF alignment prospect creates long-term economic trajectory.
+- **Currency:** Malagasy Ariary (MGA) — managed float. Limited convertibility.
+- **Labor market character:** Labor-intensive. Agriculture dominant (~70% of workforce). Mining capital-intensive. High informal employment. ~30M population.
+- **→ See KML: Madagascar**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Malawi:**
+- **GDP:** ~$XB
+- **Dominant sectors:** Agriculture (tobacco — primary export, tea, sugar, maize — subsistence), services (limited — Lilongwe, Blantyre), mining (rare earths — emerging, uranium — legacy)
+- **Trade partners and bloc alignment:** EAF (accession trajectory — port access depends on Tanzania/Mozambique, both EAF-aligned), BRICS+ (trade through EAF channels). Landlocked — economic sovereignty already nominal.
+- **Economic model:** Agricultural market economy transitioning toward EAF integration. EAF Investment Bank finances cross-border infrastructure.
+- **Currency:** Malawian Kwacha (MWK) — managed float, BCU use growing.
+- **Labor market character:** Labor-intensive. Agriculture dominant (~80% of workforce). High informal employment. Remittance-dependent.
+- **→ See KML: Malawi**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Mauritius:**
+- **GDP:** ~$XXB
+- **Dominant sectors:** Financial services (BRICS+ financial node — offshore banking, wealth management, investment fund domicile), tourism (luxury — Indian Ocean destination), textiles (export processing zones — declining), ICT and business process outsourcing
+- **Trade partners and bloc alignment:** BRICS+ (primary — financial node), India (historical ties, strategic relationship), China (investment). Chagos Archipelago monetized through Diego Garcia basing rights with India and China.
+- **Economic model:** Diversified small-island economy. High-income by regional standards. Financial sector sophistication compensates for geographic isolation.
+- **Currency:** Mauritian Rupee (MUR) — convertible. Regional financial hub status maintains stability.
+- **Labor market character:** Mixed. Financial services skilled. Tourism labor-intensive. Manufacturing moderately automated. Educated workforce. ~1.3M population.
+- **→ See KML: Mauritius**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Mozambique:**
+- **GDP:** ~$XXB (LNG sector stranded — global gas demand peaked in 2030s)
+- **Dominant sectors:** Agriculture (cashew, cotton, sugar, maize — subsistence), mining (coal — Tete province, graphite — Cabo Delgado, emerging rare earths), energy (hydro — Cahora Bassa dam, Mozambique-South Africa power corridor), logistics (Beira, Nacala, Maputo ports), fisheries
+- **Trade partners and bloc alignment:** EAF (accession trajectory — Swahili coast cultural alignment), BRICS+ (mineral exports), South Africa (residual economic ties). LNG collapse destroyed the resource-extractive elite model.
+- **Economic model:** Transitioning from resource-extractive toward EAF-integrated mixed economy. EAF membership negotiations underway.
+- **Currency:** Mozambican Metical (MZN) — managed float. EAS adoption potential if EAF membership finalized.
+- **Labor market character:** Labor-intensive. Agriculture dominant. Mining capital-intensive. Cabo Delgado reconstruction provides temporary employment.
+- **→ See KML: Mozambique**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Seychelles:**
+- **GDP:** ~$XB
+- **Dominant sectors:** Tourism (luxury eco-tourism — primary economic driver), fisheries (tuna — EEZ licensing), offshore financial services (limited), blue economy (marine conservation, carbon credits)
+- **Trade partners and bloc alignment:** BRICS+ (aligned), Indian Ocean Commission. Climate vulnerability is existential — not a mainland integration story.
+- **Economic model:** Tourism-dependent small-island economy. Blue economy investing in marine conservation and sustainable fisheries.
+- **Currency:** Seychellois Rupee (SCR) — convertible.
+- **Labor market character:** Tourism labor-intensive. Fisheries moderate. High per-capita income by African standards. ~100K population.
+- **→ See KML: Seychelles**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Zambia:**
+- **GDP:** ~$XXB
+- **Dominant sectors:** Copper mining (Copperbelt — structurally integrated with DRC cobalt-copper sector — the world's most concentrated critical mineral zone), agriculture (maize, tobacco, cotton), energy (hydro — Kariba Dam, potential for solar), logistics (Dar es Salaam corridor — EAF-controlled)
+- **Trade partners and bloc alignment:** EAF (economic integration overwhelming — copper processed in DRC/Tanzania, EAF Investment Bank finances infrastructure, East African Shilling is trade currency), BRICS+ (mineral exports). Political membership is lagging indicator of de facto integration.
+- **Economic model:** Resource-dependent market economy transitioning toward EAF integration. Copper value chain already EAF-integrated.
+- **Currency:** Zambian Kwacha (ZMW) — managed float. EAS adoption likely upon EAF membership.
+- **Labor market character:** Mixed. Mining capital-intensive (moderately automated). Agriculture labor-intensive. Services growing. Copper sector provides primary formal employment.
+- **→ See KML: Zambia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Zimbabwe:**
+- **GDP:** ~$XB (dollarized, informal economy dominant)
+- **Dominant sectors:** Agriculture (tobacco — primary export, maize, cotton — declining), mining (gold, platinum, diamonds, lithium — critical minerals growing), services (limited — Harare financial sector), remittances (Zimbabwean diaspora in South Africa and UK — significant relative to formal GDP)
+- **Trade partners and bloc alignment:** South Africa (primary — millions-strong diaspora, trade corridor), China (mining investment, BRI infrastructure), BRICS+ (growing orientation). Not EAF-aligned — orientation is southward toward South Africa.
+- **Economic model:** Reactionary trap — dollarized post-hyperinflation, informal economy dominant, elite capture complete. Not transitioning toward revolutionary model by 2050.
+- **Currency:** Multi-currency (US dollar legacy, South African rand, BCU). No functional national currency.
+- **Labor market character:** Informal dominant. Agriculture and mining provide primary formal employment. High diaspora dependency. ~15M population with high youth unemployment.
+- **→ See KML: Zimbabwe**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Middle Africa:**
+
+**Angola:**
+- **GDP:** ~$XXB (severely reduced — oil revenue collapse, MPLA patronage system fractured)
+- **Dominant sectors:** Oil and gas (Cabinda — declining global demand, production reduced), diamonds (Catoca — one of the world's largest diamond mines), agriculture (subsistence — limited commercial), fisheries (Atlantic coast), services (Luanda — reduced)
+- **Trade partners and bloc alignment:** EAF (northern provinces and Cabinda leaning EAF), South Africa (southern provinces leaning South African alignment), China (residual oil-backed loans). Angola reconfigured as a weak confederal entity contested between EAF and South African gravitational fields.
+- **Economic model:** Post-MPLA weak confederal resource economy. Oil revenue collapse triggered patronage system fracture.
+- **Currency:** Kwanza (AOA) — heavily depreciated. Multiple exchange rate systems.
+- **Labor market character:** Oil capital-intensive. Diamond mining mixed. Agriculture labor-intensive. High unemployment post-oil collapse.
+- **→ See KML: Angola**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Ambazonia:**
+- **GDP:** ~$XB (nascent independent economy)
+- **Dominant sectors:** Agriculture (coffee, cocoa, palm oil, tea — Anglophone regions' cash crops), mining (limited — bauxite, marble), services (Bamenda-Buea axis — regional trade hub), remittances (Ambazonian diaspora), small-scale manufacturing
+- **Trade partners and bloc alignment:** EAF (primary alignment — Douala port access through rump Cameroon/EAF relationship), Nigeria (cross-border trade). Independent Anglophone state emerging from Anglophone Crisis resolution.
+- **Economic model:** Independent small-state economy transitioning from conflict to peacetime. Diaspora investment critical for early-stage development.
+- **Currency:** Legacy CFA framework / transitional arrangement. EAS adoption potential through EAF alignment.
+- **Labor market character:** Post-conflict. Agriculture dominant. Reconstruction and services growing. Diaspora remittances sustain household income.
+- **→ See KML: Ambazonia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Cameroon (rump):**
+- **GDP:** ~$XXB (reduced — lost northern regions to AES, Ambazonia to independence)
+- **Dominant sectors:** Port services (Douala — Gulf of Guinea port, now EAF-aligned), agriculture (cocoa, coffee, cotton, timber — reduced hinterland), manufacturing (limited — Douala industrial zone), services (Yaoundé — administrative functions reduced)
+- **Trade partners and bloc alignment:** EAF (aligned — Douala provides EAF with Gulf of Guinea port access). The French patron collapse left no alternative alignment.
+- **Economic model:** Reduced rump state under EAF economic integration. Douala port revenue sustains minimal state function.
+- **Currency:** Central African CFA franc (dissolved transition) / East African Shilling (emerging).
+- **Labor market character:** Labor-intensive. Agriculture and port services provide primary employment. Reduced from pre-fragmentation economic base.
+- **→ See KML: Cameroon**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Central African Republic (reduced — northern rump):**
+- **GDP:** ~$XB (severely reduced from already-low baseline)
+- **Dominant sectors:** Agriculture (subsistence — cassava, millet, sorghum), mining (residual diamond extraction — artisan), limited formal economy
+- **Trade partners and bloc alignment:** AES (contested northern zone between AES and EAF gravitational fields). Ungoverned territory — no functional economic model.
+- **Economic model:** Failed state. No functional taxation or public services. Humanitarian economy sustained by international aid (residual).
+- **Currency:** Legacy CFA framework / barter. No functional currency.
+- **Labor market character:** Subsistence agriculture. Diamond artisan mining. Extremely limited formal employment. Humanitarian aid and NGO employment provide the only formal income.
+- **→ See KML: Central African Republic**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Chad:**
+- **GDP:** ~$XB (extremely low — pre-collapse baseline)
+- **Dominant sectors:** Oil (Doba basin — small producer, declining), agriculture (subsistence — millet, sorghum, livestock — Sahelian pastoralism), gold mining (artisanal — increasing as Sahel insurgency funding)
+- **Trade partners and bloc alignment:** Contested AES/EAF zone — neither bloc has full economic control. Residual trade with Sudan and Libya. Pre-collapse trajectory.
+- **Economic model:** Pre-collapse failed state. Déby regime collapsed with French patron withdrawal. No functional economic governance.
+- **Currency:** Legacy CFA framework / barter.
+- **Labor market character:** Subsistence agriculture. Pastoralism. Gold mining (artisanal). Extremely limited formal employment.
+- **→ See KML: Chad**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Congo (Brazzaville):**
+- **GDP:** ~$XXB (oil-dependent, joining EAF)
+- **Dominant sectors:** Oil (offshore — declining production but still significant for small population), mining (potash, phosphate — emerging), forestry (timber — Congo Basin sustainable management), services (Brazzaville, Pointe-Noire)
+- **Trade partners and bloc alignment:** EAF (member since 2040s — Pointe-Noire provides Atlantic port access), BRICS+ (through EAF membership). Post-Sassou regime transition completed.
+- **Economic model:** Oil-dependent state transitioning to EAF member economy. Fiscal stabilization through BRICS+ MDB support.
+- **Currency:** Legacy CFA framework transitioning to East African Shilling.
+- **Labor market character:** Oil capital-intensive. Forestry labor-intensive. Services moderate. Small population (~6M).
+- **→ See KML: Congo**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Equatorial Guinea:**
+- **GDP:** ~$XB (collapsed from oil peak)
+- **Dominant sectors:** Oil and gas (production fallen below 100K bpd by 2030), agriculture (subsistence — cocoa, coffee), fisheries (limited)
+- **Trade partners and bloc alignment:** N/A — collapsed kleptocracy, territory partitioned. Bioko absorbed into EAF; Río Muni partitioned between Cameroon and Gabon.
+- **Economic model:** Collapsed oil kleptocracy. No surviving governance structure.
+- **Currency:** Legacy / N/A.
+- **Labor market character:** Oil employment minimal post-collapse. Agriculture subsistence. No functioning labor market.
+- **→ See KML: Equatorial Guinea**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Gabon:**
+- **GDP:** ~$XXB
+- **Dominant sectors:** Manganese (green energy — critical mineral for steel and batteries), oil (declining — smaller producer than Angola or Congo), mining (gold, iron ore — emerging), forestry (timber — Okoume, sustainable management), hydroelectricity (energy self-sufficient), services (Libreville — Gulf of Guinea financial hub)
+- **Trade partners and bloc alignment:** EAF (associate state — deeply integrated economically but not full member), BRICS+ (manganese exports), China (infrastructure investment). Smaller population (~2.5M) enables higher per-capita income.
+- **Economic model:** EAF-associate mixed economy. More diversified than Gulf of Guinea neighbors — manganese provides independent revenue.
+- **Currency:** Legacy CFA framework transitioning to East African Shilling (associate status).
+- **Labor market character:** Mixed. Mining moderately automated. Forestry labor-intensive. Services growing. Higher formal employment rate than regional average.
+- **→ See KML: Gabon**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**São Tomé and Príncipe:**
+- **GDP:** ~$XB
+- **Dominant sectors:** Agriculture (cocoa — primary export, coffee, copra), fisheries (tuna), tourism (eco-tourism — growing), services (limited)
+- **Trade partners and bloc alignment:** EAF (observer state — climate/security alignment). Nigeria Joint Development Zone never productive.
+- **Economic model:** Small-island agricultural economy. EAF observer status provides security framework and development support.
+- **Currency:** Dobra (STN) / East African Shilling (emerging).
+- **Labor market character:** Labor-intensive. Agriculture dominant. Tourism growing. Small population (~220K).
+- **→ See KML: São Tomé and Príncipe**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Northern Africa:**
+
+**Egypt:**
+- **GDP:** ~$XXXB (stressed — $169B external debt, chronic water stress)
+- **Dominant sectors:** Agriculture (Nile Valley — wheat, cotton, rice — water-constrained), natural gas (offshore — Zohr field, significant but declining), manufacturing (textiles, chemicals, automotive assembly), services (Suez Canal revenue, tourism — disrupted), remittances (Egyptian diaspora in Gulf)
+- **Trade partners and bloc alignment:** Quartet (Turkey-Saudi-Egypt-Pakistan — junior partner), Arab Popular Republic (member by 2050), BRICS+ (growing). $1.3B/yr US military aid ended with US collapse.
+- **Economic model:** Military-dominated nationalist-capitalist in terminal reactionary stress. The debt bomb exploded in the 2030s. World's largest wheat importer — food price shocks direct regime threat.
+- **Currency:** Egyptian Pound (EGP) — heavily depreciated. Multiple devaluations. Limited convertibility.
+- **Labor market character:** Labor-intensive. Agriculture and services dominant. Large informal sector (~60% of workforce). Youth unemployment 25%+. Population 150M+ with extreme demographic pressure.
+- **→ See KML: Arab Popular Republic**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Libya:**
+- **GDP:** ~$XXB (frozen partition — oil revenue shared between two administrations)
+- **Dominant sectors:** Oil and gas (primary — Africa's largest proven crude reserves, ~1.2M bpd capacity), agriculture (limited — coastal strip), services (minimal — fragmented between Tripoli and Benghazi)
+- **Trade partners and bloc alignment:** Arab Popular Republic (member by 2050), Turkey (western alignment), Russia/UAE (eastern alignment — degraded). Oil revenue-sharing mechanism prevents collapse but no reunification.
+- **Economic model:** Frozen reactionary partition — two central banks, two fiscal policies. Oil revenue sustains both factions. Patron degradation will force resolution.
+- **Currency:** Libyan Dinar (LYD) — two competing central banks, dual exchange rates.
+- **Labor market character:** Oil capital-intensive (employs small fraction of workforce). Services limited. Large public sector employment (legacy). High informal employment.
+- **→ See KML: Arab Popular Republic**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Tunisia:**
+- **GDP:** ~$XXB (recovering from reactionary interregnum)
+- **Dominant sectors:** Agriculture (olives — world's leading olive oil exporter, citrus, grains), manufacturing (automotive components, textiles, electronics — export-oriented), tourism (Mediterranean — recovering from COVID and security disruptions), services (financial services, ICT), phosphates (mining — declining)
+- **Trade partners and bloc alignment:** Arab Popular Republic (member by 2050), BRICS+ (growing), European Federation (residual trade dependency). Second revolutionary wave in the 2030s — this time without Western counter-revolution.
+- **Economic model:** Mixed economy emerging from reactionary interregnum toward revolutionary re-emergence. Civil society tradition provides institutional resilience.
+- **Currency:** Tunisian Dinar (TND) — managed float.
+- **Labor market character:** Mixed. Manufacturing moderately automated. Agriculture labor-intensive. Tourism labor-intensive. Educated workforce with high emigration.
+- **→ See KML: Arab Popular Republic**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Algeria:**
+- **GDP:** ~$XXXB (hydrocarbon-dependent, revenue declining)
+- **Dominant sectors:** Oil and gas (primary — ~90% of exports, including LNG to Europe), mining (iron ore, phosphates, gold — emerging), agriculture (limited — Mediterranean coast), manufacturing (limited — hydrocarbons linked), construction (public investment)
+- **Trade partners and bloc alignment:** Arab Popular Republic (member by 2050), BRICS+ (primary pivot), Russia (military procurement), China (infrastructure investment). Hydrocarbon revenue decline triggered the revolutionary flip.
+- **Economic model:** Post-revolutionary-flip transition from hydrocarbon-based social contract. FLN anti-colonial founding provides ideological framework for economic restructuring.
+- **Currency:** Algerian Dinar (DZD) — managed float. Limited convertibility.
+- **Labor market character:** Hydrocarbon capital-intensive. Construction labor-intensive. High youth unemployment (~30%). Population ~50M with massive youth bulge.
+- **→ See KML: Arab Popular Republic**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Morocco:**
+- **GDP:** ~$XXXB (most diversified North African economy)
+- **Dominant sectors:** Agriculture (citrus, olives, tomatoes, grains — water-stressed, phosphates for fertilizer), phosphates (Office Chérifien des Phosphates — world's largest reserves, critical for fertilizer and EV batteries), manufacturing (automotive — Renault, Stellantis; aerospace — Boeing legacy; textiles), services (tourism — Marrakech, Atlantic coast — recovering), renewable energy (Noor solar complex, wind — North Africa leader)
+- **Trade partners and bloc alignment:** European Federation (primary — residual), China (phosphate exports, infrastructure), Gulf states (investment, remittances). Standalone entity — not an APR member. Navigating multipolar transition skillfully.
+- **Economic model:** Adaptive monarchy-capitalist. Monarchy's legitimacy depends on distribution capacity. Water stress is existential — chronic and worsening.
+- **Currency:** Moroccan Dirham (MAD) — managed float. Relatively stable.
+- **Labor market character:** Mixed. Manufacturing moderately automated. Agriculture labor-intensive (water-constrained). Services growing. Unemployment moderate. Significant remittance economy (~8% of GDP).
+- **→ See KML: Morocco**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Sudan:**
+- **GDP:** ~$XXB (post-civil-war, in revolutionary transition)
+- **Dominant sectors:** Agriculture (sorghum, millet, wheat, cotton, sesame — Nile-irrigated, gold mining — artisanal and small-scale), livestock (one of Africa's largest herds), mining (gold — emerging as primary export), energy (hydro — Roseires, Merowe dams)
+- **Trade partners and bloc alignment:** Arab Popular Republic (member by 2050), Egypt (Nile axis alignment), BRICS+ (growing). US-backed counter-revolution removed — revolutionary forces re-emerged.
+- **Economic model:** Post-conflict revolutionary transition. Nile axis alignment with Egypt and BRICS+ investment provide reconstruction framework.
+- **Currency:** Sudanese Pound (SDG) — heavily depreciated. Transitional currency arrangements under APR framework.
+- **Labor market character:** Labor-intensive. Agriculture dominant (~70% of workforce). Gold mining artisanal. Post-conflict reconstruction providing employment. Large informal sector.
+- **→ See KML: Arab Popular Republic**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Southern Africa:**
+
+**Botswana:**
+- **GDP:** ~$XXB
+- **Dominant sectors:** Diamond mining (Debswana — world's leading diamond producer by value, revenue managed through Pula Fund sovereign wealth fund), tourism (Okavango Delta, Chobe, Kalahari — high-value eco-tourism), services (Gaborone — regional SADC administrative hub), mining (copper — emerging)
+- **Trade partners and bloc alignment:** BRICS+ (diamond exports — China, India primary markets), SACU (Southern African Customs Union). Africa's most consistent success story — functional institutions, resource management, stable democracy.
+- **Economic model:** Democratic resource management model. Sovereign wealth fund (Pula Fund) provides fiscal stabilization. Diamond revenue managed for long-term development.
+- **Currency:** Botswana Pula (BWP) — stable, convertible. Trade-weighted managed float.
+- **Labor market character:** Mining capital-intensive (employs moderate share). Tourism labor-intensive. Services growing. Higher formal employment rate than regional average. ~2.5M population.
+- **→ See KML: Botswana**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Eswatini:**
+- **GDP:** ~$XB
+- **Dominant sectors:** Agriculture (sugar — primary export, citrus, cotton, maize), manufacturing (sugar processing, soft drink concentrate — distribution hub for Africa), forestry (timber — export to South Africa), services (limited), remittances (Eswatini diaspora in South Africa)
+- **Trade partners and bloc alignment:** South Africa (overwhelmingly dominant — SACU customs union, currency peg, trade corridor). Africa's last absolute monarchy — independence maintained through South African forbearance.
+- **Economic model:** Absolute monarchy-market economy. SACU revenue provides fiscal backbone. Mswati III rules by decree. Too small (~1.2M) and dependent for independent economic strategy.
+- **Currency:** Lilangeni (SZL) — pegged 1:1 to South African Rand. Swaziland Monetary Authority operates within Rand Monetary Area.
+- **Labor market character:** Labor-intensive. Agriculture dominant. Manufacturing moderate. High unemployment (~25%). Diaspora remittances significant.
+- **→ See KML: Eswatini**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Namibia:**
+- **GDP:** ~$XB
+- **Dominant sectors:** Mining (diamonds — world-class offshore and alluvial deposits, uranium — Husab, Rössing, one of world's largest producers, gold — emerging), fishing (Atlantic — one of Africa's richest fishing grounds, sustainably managed), agriculture (cattle, karakul sheep — export-oriented), tourism (Etosha, Skeleton Coast, Namib — high-value eco-tourism), renewable energy (solar, wind — emerging)
+- **Trade partners and bloc alignment:** BRICS+ (primary — uranium exports to China, diamond exports), SACU (Southern African Customs Union), South Africa (regional economic integration). Stable democratic institutions, SWAPO governance legacy.
+- **Economic model:** Democratic resource management. Diamond and uranium revenue managed through sovereign wealth fund. Institutional quality among Africa's highest.
+- **Currency:** Namibian Dollar (NAD) — pegged 1:1 to South African Rand.
+- **Labor market character:** Mining capital-intensive. Fishing mixed. Agriculture labor-intensive. Tourism growing. High unemployment (~20%) despite strong institutional governance. ~2.5M population.
+- **→ See KML: Namibia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**South Africa:**
+- **GDP:** ~$XXXB (most industrialized economy in Africa)
+- **Dominant sectors:** Financial services (Johannesburg — Africa's financial capital, Johannesburg Stock Exchange), mining (gold, platinum, palladium, chromium, manganese, coal — declining but still significant, critical minerals for green energy), manufacturing (automotive, chemicals, food processing, metals — constrained by Eskom energy crisis), energy (Eskom — legacy coal infrastructure in collapse, renewable transition underway), services (retail, telecommunications, logistics), agriculture (maize, citrus, wine, wool)
+- **Trade partners and bloc alignment:** BRICS+ (anchor — South Africa is the African BRICS+ member), SACU (customs union anchor), African Continental Free Trade Area (leadership role), European Federation (legacy trade ties). Dual identity: revolutionary international posture vs domestic reactionary trap.
+- **Economic model:** Mixed — socialist-internationalized foreign policy meets domestic social-democratic / market hybrid. Eskom crisis is the binding constraint — energy infrastructure collapse throttles all economic activity. Post-ANC reform trajectory determines whether the dual identity resolves positively.
+- **Currency:** South African Rand (ZAR) — Africa's most traded currency, moderately convertible. Used in SACU and some SADC trade. LRCI trade settlement growth.
+- **Labor market character:** Mixed. Financial services moderately automated. Mining increasingly automated. Manufacturing mixed. Agriculture mechanized in commercial sector. 35%+ unemployment is the binding domestic crisis — the highest in the industrial world by any measure.
+- **→ See KML: South Africa**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
 ## Driving Forces
 
