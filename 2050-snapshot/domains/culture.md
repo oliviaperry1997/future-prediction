@@ -459,11 +459,11 @@ The 2050 linguistic landscape reflects the end of US hegemony and the multipolar
 - **→ See KML: Senegambia**
 - → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
-**Benin:** Revolutionary Stage 2-3 — AES-associated coastal state bridging the Sahel and Atlantic blocs, Vodun cultural heartland.
-- **Ideological alignment:** Democratic-revolutionary — not an AES member but operates as an associated state. Benin's long democratic tradition (the 1990s Conférence Nationale) provides stability. The Porto-Novo-Lomé economic corridor defines the development axis.
-- **Cultural identity:** Fon, Yoruba, Adja, Bariba, and Dendi cultural groups. Benin is the spiritual heartland of Vodun (UNESCO-recognized, January 10 as National Vodun Day since 1992), exported to the Americas through the transatlantic slave trade.
-- **Key cultural dynamic:** Benin's identity as the "cradle of Vodun" gives it a unique cultural position — the 1993 return of the Abomey royal treasures and the ongoing restitution of colonial-era artifacts anchor a cultural identity of recovery and reclamation.
-- **Religious/linguistic character:** Christianity (Catholic, ~30%), Islam (~22%), Vodun and Indigenous traditions (significant). French official, Fon, Yoruba, Bariba, Dendi.
+**Benin (southern rump):** Revolutionary Stage 2-3 — AES-associated coastal revolutionary state; Vodun cultural heartland.
+- **Ideological alignment:** Fully revolutionary and AES-associated. The fragmentation resolved the internal cultural tension — the rump's Fon/Adja-Ewe coastal identity is now the governing cultural logic of the state. Benin's long democratic tradition (the 1990s Conférence Nationale) provides the institutional foundation for its revolutionary character.
+- **Cultural identity:** Fon, Yoruba, and Adja cultural groups (Bariba and Dendi-speaking populations are now part of AES territory in the north). Benin is the spiritual heartland of Vodun (UNESCO-recognized, January 10 as National Vodun Day since 1992), exported to the Americas through the transatlantic slave trade — a cultural identity that is entirely rooted in the southern coastal and forest zone.
+- **Key cultural dynamic:** Benin's identity as the "cradle of Vodun" gives it a unique cultural position — the 1993 return of the Abomey royal treasures and the ongoing restitution of colonial-era artifacts anchor a cultural identity of recovery and reclamation. The fragmentation, paradoxically, clarified rather than diminished this identity.
+- **Religious/linguistic character:** Christianity (Catholic, ~40%), Vodun and Indigenous traditions (~35%), Islam (~10%, reduced from pre-fragmentation with Muslim-majority northern departments now in AES). French official, Fon, Yoruba, Adja.
 - **→ See KML: Benin**
 - → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
@@ -476,7 +476,7 @@ The 2050 linguistic landscape reflects the end of US hegemony and the multipolar
 - → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
 **Guinea-Bissau:** Revolutionary Stage 1 — De facto Guinean protectorate, the most vulnerable state in West Africa.
-- **Ideological alignment:** Beyond loop — nominal sovereignty preserved through Guinean (Conakry) protection. Post-colonial trajectory of military coups, drug-trafficking state capture, and economic collapse left Guinea-Bissau as West Africa's most fragile entity.
+- **Ideological alignment:** Stage 1-2 — nominal sovereignty preserved through Guinean (Conakry) protection. Post-colonial trajectory of military coups, drug-trafficking state capture, and economic collapse left Guinea-Bissau as West Africa's most fragile entity, advancing through the loop under Guinean patronage rather than independent state capacity.
 - **Cultural identity:** Portuguese-speaking Creole (Crioulo) culture distinct from the Francophone mainland. Shared PAIGC liberation movement history with Guinea links the two states — Amílcar Cabral is the foundational cultural figure. Bijagós archipelago has a distinctive matriarchal cultural tradition.
 - **Key cultural dynamic:** Guinea-Bissau's cultural identity is one of survival — the post-independence narrative is of a state that should not exist but persists through cultural resilience rather than institutional strength.
 - **Religious/linguistic character:** Islam (Sunni, ~45%), Indigenous traditions (~35%), Christianity (~20%). Crioulo (Portuguese Creole) as national lingua franca, Portuguese official, Balanta, Fula, Mandinka.
@@ -617,16 +617,16 @@ The 2050 linguistic landscape reflects the end of US hegemony and the multipolar
 - **→ See KML: Ambazonia**
 - → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
-**Central African Republic:** Stage 2-3 — Failed state whose southern prefectures were absorbed by EAF, reduced northern rump.
-- **Ideological alignment:** Beyond loop — failed state whose southern economic zone (Bangui, diamond/forest zones) was absorbed by EAF. Northern CAR contested between AES and EAF spheres.
-- **Cultural identity:** Gbaya, Banda, Mandjia, Sara groups. CAR never developed a coherent national identity — the state was always a French administrative construct. The southern absorption into EAF may eventually provide a cultural anchor that the independent state never had.
-- **Key dynamic:** CAR is the most consequential failed-state absorption in Central Africa. The northern-southern partition follows the geographic logic of the Ubangi-Mbomou river system — the south flows toward the Congo, the north toward Chad.
+**Central African Republic:** Stage 2-3 — Fully absorbed into the EAF.
+- **Ideological alignment:** Revolutionary by absorption — the EAF is now the governing framework for all of CAR's territory. The collapse of Russian patronage (Africa Corps/Wagner withdrawal) removed the last external structure sustaining any form of independent Bangui governance, enabling full EAF incorporation.
+- **Cultural identity:** Gbaya, Banda, Mandjia, Sara groups. CAR never developed a coherent national identity — the state was always a French administrative construct. EAF membership provides the cultural and institutional anchor the independent state never had; Bangui is becoming an EAF administrative node for the Central African basin.
+- **Key dynamic:** CAR's full EAF absorption completed the federation's continental reach. The Ubangi-Mbomou river system — which defines the territory's geography — now flows entirely within the EAF's economic space.
 - **Religious/linguistic character:** Christianity (Protestant, Catholic ~85%), Islam (Sunni ~10%), Indigenous traditions. French official, Sango (national), Gbaya, Banda.
-- **→ See KML: Central African Republic**
+- **→ See KML: East African Federation**
 - → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
-**Chad:** Beyond Loop — Primary contested zone between AES and EAF gravitational fields.
-- **Ideological alignment:** Beyond loop — neither independent nor static. AES cultural alignment (Sahelian Muslim identity, Zaghawa military elite, Toubou networks) competes with EAF pull (DRC-Sudan land bridge, N'Djamena-Abéché corridor). Chad is the strategic pivot of the Sahel-Central Africa interface.
+**Chad:** Stage 1-2 — Primary contested zone between AES and EAF gravitational fields.
+- **Ideological alignment:** Within the loop — neither bloc-aligned nor static. AES cultural alignment (Sahelian Muslim identity, Zaghawa military elite, Toubou networks) competes with EAF pull (DRC-Sudan land bridge, N'Djamena-Abéché corridor). Chad is the strategic pivot of the Sahel-Central Africa interface.
 - **Cultural identity:** Sara (south, Christian-leaning, agricultural) and Zaghawa/Toubou/Arab (north, Muslim, pastoral) divide. Chad's "unity in diversity" was always a military imposition.
 - **Key dynamic:** The post-Déby collapse opened Chad to competitive revolutionary influence. The north tilts AES, the south tilts EAF, and N'Djamena negotiates between them. Chad is the continent's quintessential contested space.
 - **Religious/linguistic character:** Islam (Sunni, ~55%), Christianity (~35%), Indigenous traditions. French and Arabic official, Sara, Kanembu, Gorane.
@@ -641,8 +641,8 @@ The 2050 linguistic landscape reflects the end of US hegemony and the multipolar
 - **→ See KML: Congo**
 - → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
-**Equatorial Guinea:** Beyond Loop — Collapsed oil kleptocracy, territory partitioned.
-- **Ideological alignment:** Beyond loop — no independent governance survived the collapse of oil revenue and Obiang's death. Bioko absorbed by EAF, mainland Río Muni partitioned between Cameroon and Gabon.
+**Equatorial Guinea:** Stage 2-3 — Collapsed oil kleptocracy; territory absorbed into EAF and Gabon.
+- **Ideological alignment:** Revolutionized by absorption — no independent governance survived the collapse of oil revenue and Obiang's death. Bioko absorbed by EAF, mainland Río Muni partitioned between Cameroon and Gabon.
 - **Cultural identity:** Fang (~85%, mainland), Bubi (Bioko, ~10%). The post-collapse cultural reality is fragmentation — Bioko Fang now part of EAF's diverse federation, mainland Fang absorbed into Gabon's cultural sphere.
 - **Key dynamic:** Equatorial Guinea is the cautionary case — an oil kleptocracy whose culture was hollowed by resource dependence. When the resource vanished, no cultural institutions remained to hold the society together.
 - **Religious/linguistic character:** Christianity (Catholic ~90%), Indigenous traditions. Spanish, French, Portuguese (official), Fang, Bubi.

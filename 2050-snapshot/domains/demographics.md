@@ -1435,13 +1435,13 @@ Entity-by-entity demographic profiles covering all ~40 Africa entities across 5 
 - **→ See KML: Senegambia**
 - → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
-**Benin:**
-- **Population:** ~14M
-- **Population distribution:** 50% urban. Major cities: Cotonou, Porto-Novo, Parakou. Southern coastal strip dense; northern departments less populated.
-- **TFR:** ~3.8 (declining)
-- **Median age:** ~22
-- **Key demographic dynamic:** Fon/Adja-Ewe cultural foundation shared with Togo. Benin functions as a demographic hinge between the AES Sahel and coastal West Africa — its population bridges the north-south divide.
-- **Migration character:** Net in-migration from Sahel (Niger, Burkina Faso seeking coastal economic opportunity). Cotonou port economy attracts migrant labor.
+**Benin (southern rump):**
+- **Population:** ~9-10M (reduced — 4 northern departments with ~4M now AES territory)
+- **Population distribution:** Highly urbanized coastal strip. Major cities: Cotonou, Porto-Novo. Parakou (in Borgou) is now AES territory. Southern departments dense along the Bight of Benin coast.
+- **TFR:** ~3.5 (declining — the rump's southern population has a lower TFR than the northern departments that departed)
+- **Median age:** ~23
+- **Key demographic dynamic:** Fon/Adja-Ewe cultural foundation shared with Togo defines the rump's demographic identity. The fragmentation removed the north-south demographic tension — the rump is a more coherent coastal population with the Cotonou port economy as its organizing node.
+- **Migration character:** Net in-migration from AES territory and surrounding states seeking Cotonou port economic opportunity. The rump functions as the AES's primary Atlantic labor market.
 - **→ See KML: Benin**
 - → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
@@ -1629,14 +1629,14 @@ Entity-by-entity demographic profiles covering all ~40 Africa entities across 5 
 - **→ See KML: Cameroon**
 - → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
-**Central African Republic (reduced — northern rump):**
-- **Population:** ~3M (reduced — southern 9 prefectures absorbed into EAF)
-- **Population distribution:** Northern prefectures (Ouham, Ouham-Pendé, Nana-Mambéré, Mambéré-Kadéï, Ouaka, Vakaga, Bamingui-Bangoran). Dispersed, largely ungoverned. Bangui lost to EAF.
-- **TFR:** ~5.0 (among the highest globally — failed state conditions, no family planning infrastructure)
+**Central African Republic (EAF territory):**
+- **Population:** ~5.5M (all prefectures — now under EAF governance)
+- **Population distribution:** All 16 prefectures, including Bangui (~900K) and the northern prefectures (Ouham, Ouham-Pendé, Nana-Mambéré, Mambéré-Kadéï, Ouaka, Vakaga, Bamingui-Bangoran). EAF stabilization has reduced but not ended displacement in the northern interior.
+- **TFR:** ~5.0 (among the highest globally — reconstruction underway but family planning infrastructure remains minimal)
 - **Median age:** ~19
-- **Key demographic dynamic:** Permanent failed state. Southern CAR (Bangui, diamond zones, forest regions) absorbed into EAF; northern CAR is contested between AES and EAF. The population is among the world's most vulnerable — no functional state, endemic conflict, extreme poverty.
-- **Migration character:** Internal displacement from conflict zones. Some out-migration to EAF (Bangui) and Chad. Refugees in DRC and Chad.
-- **→ See KML: Central African Republic**
+- **Key demographic dynamic:** Full EAF absorption has ended the territorial contest but not the underlying demographic crisis. The population is among the world's most vulnerable — the EAF investment framework is the primary vehicle for reconstruction. Bangui functions as an EAF administrative node.
+- **Migration character:** Internal displacement reduced as EAF security framework consolidates. Out-migration to Kinshasa and Bangui from the northern interior continues.
+- **→ See KML: East African Federation**
 - → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
 **Chad:**

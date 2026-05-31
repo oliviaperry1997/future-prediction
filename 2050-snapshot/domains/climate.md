@@ -473,11 +473,11 @@ The 2050 climate state is the endpoint of trajectories whose key drivers are doc
 - **Climate migration role:** Origin and moderate destination within West Africa.
 - **→ See KML: Senegambia**
 
-**Benin:** Moderate climate risk.
-- **Primary climate threats:** Coastal erosion (Cotonou lagoon, the Porto-Novo-Cotonou coastal strip), rainfall variability, flooding (Ouémé River basin), extreme heat in the northern Atakora region
-- **Climate risk level:** Moderate. Cotonou's coastal infrastructure faces erosion pressure.
-- **Adaptation posture:** Moderate — stable governance but limited fiscal space. AES association provides some regional framework.
-- **Climate migration role:** Transit zone between AES and coastal West Africa.
+**Benin (southern rump):** Moderate climate risk.
+- **Primary climate threats:** Coastal erosion (Cotonou lagoon, the Porto-Novo-Cotonou coastal strip), rainfall variability, flooding (Ouémé River basin)
+- **Climate risk level:** Moderate. Cotonou's coastal infrastructure faces erosion and sea-level pressure. The rump's climate profile is dominated by the Atlantic coastal zone — the northern Sahelian heat exposure departed with the AES-absorbed departments.
+- **Adaptation posture:** Moderate — AES association provides a regional adaptation framework; Cotonou's port revenue provides more fiscal space than the pre-fragmentation state.
+- **Climate migration role:** Destination — Cotonou attracts climate migrants from the AES Sahel zone, including from the former northern Benin departments.
 - **→ See KML: Benin**
 
 **Guinea:** Moderate-high climate risk.
@@ -935,8 +935,8 @@ The 2050 climate state is the endpoint of trajectories whose key drivers are doc
 
 **Haiti:** Extreme climate risk.
 - **Primary climate threats:** Hurricane intensification (the Caribbean basin — Haiti sits in the primary hurricane track and has the lowest building standards and most degraded natural defenses in the region — Hurricane Matthew 2016 and every subsequent event cause catastrophic damage), deforestation-driven flooding (Haiti is 98% deforested — the mountains that once absorbed rainfall now produce catastrophic flash floods and landslides with every extreme precipitation event), drought (the southern peninsula and Artibonite Valley — increasing drought frequency affects agricultural livelihoods), sea-level rise (coastal erosion in Port-au-Prince, Les Cayes, and other coastal urban centers)
-- **Climate risk level:** Extreme — the convergence of hurricane exposure, catastrophic deforestation, extreme poverty, and failed-state governance makes Haiti the most climate-vulnerable country in the Americas.
-- **Adaptation posture:** Low — the failed state has no systemic adaptation capacity. CARICOM stabilization mission and NGO/INGO adaptation projects operate at the margins.
+- **Climate risk level:** Extreme — the convergence of hurricane exposure, catastrophic deforestation, extreme poverty, and CARICOM-managed governance makes Haiti the most climate-vulnerable country in the Americas.
+- **Adaptation posture:** Low — no independent systemic adaptation capacity. CARICOM stabilization mission and NGO/INGO adaptation projects operate at the margins, constrained by the scale of the crisis relative to available resources.
 - **Climate migration role:** Origin — Haiti is the Caribbean's largest climate migration origin. The Dominican Republic is the primary destination, with onward migration to the US and Central America.
 - **→ See KML: Haiti**
 

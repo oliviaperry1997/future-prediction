@@ -1,5 +1,5 @@
 {
-  "description": "2050 World Map \u2014 Entity and overlay configuration for KML generation. Per D-19 (programmatic generation) and D-04 (rough polygon overlays).",
+  "description": "2050 World Map — Entity and overlay configuration for KML generation. Per D-19 (programmatic generation) and D-04 (rough polygon overlays).",
   "styles": {
     "default-polygon": {
       "lineColor": "ffb08155",
@@ -77,12 +77,10 @@
         "Ambazonia",
         "Angola",
         "Cameroon",
-        "Central African Republic",
         "Chad",
-        "Congo",
         "Equatorial Guinea",
         "Gabon",
-        "S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+        "São Tomé and Príncipe"
       ],
       "Northern Africa": [
         "Morocco"
@@ -97,7 +95,7 @@
         "Benin",
         "Cabo Verde",
         "Nigeria",
-        "C\u00f4te d'Ivoire",
+        "Côte d'Ivoire",
         "Federation of Sahel States",
         "Ghana",
         "Guinea",
@@ -116,7 +114,7 @@
         "British Virgin Is.",
         "Cayman Islands",
         "Cuba",
-        "Cura\u00e7ao",
+        "Curaçao",
         "Dominica",
         "Dominican Rep.",
         "Grenada",
@@ -129,7 +127,7 @@
         "Saba",
         "Saint Lucia",
         "Saint Martin",
-        "St. Barth\u00e9lemy",
+        "St. Barthélemy",
         "St. Eustatius",
         "St. Kitts and Nevis",
         "St. Vin. and Gren.",
@@ -290,13 +288,9 @@
         "Wallis and Futuna"
       ]
     },
-    "Australia": [],
-    "New Zealand": [],
-    "European Federation": [],
-    "China": [],
-    "South Africa": [],
-    "India": [],
-    "Brazil": []
+    "Antarctica": {
+      "San Martin": []
+    }
   },
   "entities": {
     "Pacifica": {
@@ -305,7 +299,7 @@
       "source": "manual",
       "manual_path": "source/manual/Pacifica.kml",
       "add_manual_paths": [
-        "source/manual/Tlingit Aan\u00ed.kml"
+        "source/manual/Tlingit Aaní.kml"
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "pacifica",
@@ -343,7 +337,7 @@
       "type": "entity",
       "category": "indigenous",
       "source": "none",
-      "description": "Autonomous indigenous zone within Atlantica territory. No separate polygon \u2014 represented by a point marker within NEC territory.",
+      "description": "Autonomous indigenous zone within Atlantica territory. No separate polygon — represented by a point marker within NEC territory.",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "haudenosaunee-confederacy",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#haudenosaunee-confederacy"
@@ -459,7 +453,7 @@
       "source": "admin1_merge",
       "country_code": "CAN",
       "admin1_provinces": [
-        "Qu\u00e9bec"
+        "Québec"
       ],
       "clip_lat": 55,
       "clip_side": "south",
@@ -532,7 +526,7 @@
       ],
       "merge_admin1": [
         {
-          "province": "Qu\u00e9bec",
+          "province": "Québec",
           "clip_lat": 55,
           "clip_side": "north"
         }
@@ -609,7 +603,8 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "brazil",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#brazil",
-      "antarctic_territory": "Includes Brazilian Antarctic Territory (20\u00b0W\u201353\u00b0W, former BAT sector)"
+      "antarctic_territory": "Includes Brazilian Antarctic Territory (20°W–53°W, former BAT sector)",
+      "antarctic_sector_path": "source/manual/Antarctica/Brazil.kml"
     },
     "Argentina": {
       "type": "entity",
@@ -722,15 +717,15 @@
       "add_manual_paths": [
         "source/manual/Scotland.kml",
         "source/manual/NIreland.kml",
-        "source/manual/\u00c5land.kml",
+        "source/manual/Åland.kml",
         "source/manual/La-Reunion.kml",
         "source/manual/Mayotte.kml"
       ],
       "subtract_admin1_per_code": {
         "FRA": [
           "Guadeloupe",
-          "Guyane fran\u00e7aise",
-          "La R\u00e9union",
+          "Guyane française",
+          "La Réunion",
           "Martinique",
           "Mayotte"
         ],
@@ -743,7 +738,8 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "european-union",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#european-union",
-      "antarctic_territory": "Includes Dronning Maud Land (20\u00b0W\u201345\u00b0E, via Norway) and Ad\u00e9lie Land (136\u00b0E\u2013142\u00b0E, via France)"
+      "antarctic_territory": "Includes Dronning Maud Land (20°W–45°E, via Norway) and Adélie Land (136°E–142°E, via France)",
+      "antarctic_sector_path": "source/manual/Antarctica/European Federation.kml"
     },
     "Russia": {
       "type": "entity",
@@ -798,49 +794,13 @@
       "keep_unified": true,
       "country_codes": [
         "BDI",
+        "CAF",
         "COD",
+        "COG",
         "KEN",
         "RWA",
         "TZA",
         "UGA"
-      ],
-      "admin1_regions": [
-        {
-          "country_code": "CAF",
-          "admin1_name": "Bangui"
-        },
-        {
-          "country_code": "CAF",
-          "admin1_name": "Basse-Kotto"
-        },
-        {
-          "country_code": "CAF",
-          "admin1_name": "Haut-Mbomou"
-        },
-        {
-          "country_code": "CAF",
-          "admin1_name": "K\u00e9mo"
-        },
-        {
-          "country_code": "CAF",
-          "admin1_name": "Lobaye"
-        },
-        {
-          "country_code": "CAF",
-          "admin1_name": "Mbomou"
-        },
-        {
-          "country_code": "CAF",
-          "admin1_name": "Nana-Gr\u00e9bizi"
-        },
-        {
-          "country_code": "CAF",
-          "admin1_name": "Ombella-M'Poko"
-        },
-        {
-          "country_code": "CAF",
-          "admin1_name": "Sangha-Mba\u00e9r\u00e9"
-        }
       ],
       "add_manual_paths": [
         "source/manual/East African Federation.kml"
@@ -969,7 +929,23 @@
         },
         {
           "country_code": "CMR",
-          "admin1_name": "Extr\u00eame-Nord"
+          "admin1_name": "Extrême-Nord"
+        },
+        {
+          "country_code": "BEN",
+          "admin1_name": "Alibori"
+        },
+        {
+          "country_code": "BEN",
+          "admin1_name": "Atakora"
+        },
+        {
+          "country_code": "BEN",
+          "admin1_name": "Borgou"
+        },
+        {
+          "country_code": "BEN",
+          "admin1_name": "Donga"
         }
       ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
@@ -1087,7 +1063,8 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "south-africa",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#south-africa",
-      "antarctic_territory": "Includes South African Antarctic Territory (45\u00b0E\u201360\u00b0E, Enderby+Kemp Land)"
+      "antarctic_territory": "Includes South African Antarctic Territory (45°E–60°E, Enderby+Kemp Land)",
+      "antarctic_sector_path": "source/manual/Antarctica/South Africa.kml"
     },
     "China": {
       "type": "entity",
@@ -1102,7 +1079,8 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "china",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#china",
-      "antarctic_territory": "Includes Marie Byrd Land (90\u00b0W\u2013150\u00b0W, formal claim under Santiago Protocol)"
+      "antarctic_territory": "Includes Marie Byrd Land (90°W–150°W, formal claim under Santiago Protocol)",
+      "antarctic_sector_path": "source/manual/Antarctica/China.kml"
     },
     "DPRK": {
       "type": "entity",
@@ -1136,7 +1114,8 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "india",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#india",
-      "antarctic_territory": "Includes Indian Antarctic Territory (60\u00b0E\u2013100\u00b031'32.5\"E, purchased from Australia)"
+      "antarctic_territory": "Includes Indian Antarctic Territory (60°E–100°31'32.5\"E, purchased from Australia)",
+      "antarctic_sector_path": "source/manual/Antarctica/India.kml"
     },
     "Japan": {
       "type": "entity",
@@ -1213,7 +1192,8 @@
         "source/manual/Heard-McDonald-Islands.kml",
         "source/manual/Norfolk-Island.kml"
       ],
-      "antarctic_territory": "Includes Australian Antarctic Territory (100\u00b031'32.5\"E\u2013136\u00b0E + 142\u00b0E\u2013160\u00b0E)"
+      "antarctic_territory": "Includes Australian Antarctic Territory (100°31'32.5\"E–136°E + 142°E–160°E)",
+      "antarctic_sector_path": "source/manual/Antarctica/Australia.kml"
     },
     "Kanaky": {
       "type": "entity",
@@ -1232,7 +1212,8 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "new-zealand",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#new-zealand",
-      "antarctic_territory": "Includes Ross Dependency (160\u00b0E\u2013150\u00b0W)"
+      "antarctic_territory": "Includes Ross Dependency (160°E–150°W)",
+      "antarctic_sector_path": "source/manual/Antarctica/New Zealand.kml"
     },
     "Pacific Islands Forum": {
       "type": "entity",
@@ -1597,7 +1578,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "C\u00f4te d'Ivoire": {
+    "Côte d'Ivoire": {
       "type": "entity",
       "category": "global",
       "source": "country",
@@ -1642,9 +1623,7 @@
       "category": "global",
       "source": "group",
       "keep_unified": true,
-      "country_codes": [
-        "CMR"
-      ],
+      "country_codes": [],
       "admin1_regions": [
         {
           "country_code": "CMR",
@@ -1676,9 +1655,7 @@
       "category": "global",
       "source": "group",
       "keep_unified": true,
-      "country_codes": [
-        "CMR"
-      ],
+      "country_codes": [],
       "admin1_regions": [
         {
           "country_code": "CMR",
@@ -1698,17 +1675,6 @@
       "category": "global",
       "source": "country",
       "country_code": "CAF",
-      "subtract_admin1": [
-        "Basse-Kotto",
-        "Bangui",
-        "Haut-Mbomou",
-        "K\u00e9mo",
-        "Lobaye",
-        "Mbomou",
-        "Nana-Gr\u00e9bizi",
-        "Ombella-M'Poko",
-        "Sangha-Mba\u00e9r\u00e9"
-      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
@@ -1749,7 +1715,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
+    "São Tomé and Príncipe": {
       "type": "entity",
       "category": "global",
       "source": "country",
@@ -1851,7 +1817,8 @@
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "antarctica",
       "see_path": "See: 2050-snapshot/kml/borders.kml (standalone)",
-      "note": "ACJAT \"San Mart\u00edn\" \u2014 Chile with Argentine condominium (53\u00b0W\u201390\u00b0W). The only claim zone not integrated into a parent state."
+      "note": "ACJAT \"San Martín\" — Chile with Argentine condominium (53°W–90°W). The only claim zone not integrated into a parent state.",
+      "antarctic_sector_path": "source/manual/Antarctica/San Martin.kml"
     },
     "Hawaii": {
       "type": "entity",
@@ -2099,7 +2066,7 @@
       "category": "global",
       "source": "admin1",
       "country_code": "FRA",
-      "admin1_name": "Guyane fran\u00e7aise",
+      "admin1_name": "Guyane française",
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "cayenne",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md#cayenne"
@@ -2107,8 +2074,19 @@
     "Benin": {
       "type": "entity",
       "category": "global",
-      "source": "country",
-      "country_code": "BEN",
+      "source": "group",
+      "keep_unified": true,
+      "country_codes": [],
+      "admin1_regions": [
+        { "country_code": "BEN", "admin1_name": "Atlantique" },
+        { "country_code": "BEN", "admin1_name": "Collines" },
+        { "country_code": "BEN", "admin1_name": "Kouffo" },
+        { "country_code": "BEN", "admin1_name": "Littoral" },
+        { "country_code": "BEN", "admin1_name": "Mono" },
+        { "country_code": "BEN", "admin1_name": "Ouémé" },
+        { "country_code": "BEN", "admin1_name": "Plateau" },
+        { "country_code": "BEN", "admin1_name": "Zou" }
+      ],
       "domain_doc": "2050-snapshot/domains/borders-geopolitics.md",
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
@@ -2194,7 +2172,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Cura\u00e7ao": {
+    "Curaçao": {
       "type": "entity",
       "category": "global",
       "source": "group",
@@ -2301,7 +2279,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "St. Barth\u00e9lemy": {
+    "St. Barthélemy": {
       "type": "entity",
       "category": "global",
       "source": "country",
@@ -2409,7 +2387,7 @@
       "section_anchor": "",
       "see_path": "See: 2050-snapshot/domains/borders-geopolitics.md"
     },
-    "Aztl\u00e1n": {
+    "Aztlán": {
       "type": "entity",
       "category": "revolutionary",
       "source": "none",
@@ -2721,7 +2699,7 @@
         ]
       },
       {
-        "name": "Extreme Heat \u2014 Persian Gulf",
+        "name": "Extreme Heat — Persian Gulf",
         "type": "rough_polygon",
         "description": "See: 2050-snapshot/domains/climate.md#west-asia--middle-east",
         "approximate_coords": [
@@ -3041,7 +3019,7 @@
     ],
     "demographics": [
       {
-        "name": "Demographic Profile Reference \u2014 PPR",
+        "name": "Demographic Profile Reference — PPR",
         "type": "entity_copy",
         "source_entity": "Pacifica",
         "description": "See: 2050-snapshot/domains/demographics.md#pacific-peoples-republic"
@@ -3055,7 +3033,7 @@
     ],
     "culture": [
       {
-        "name": "Cultural Profile Reference \u2014 Pacifica",
+        "name": "Cultural Profile Reference — Pacifica",
         "type": "entity_copy",
         "source_entity": "Pacifica",
         "description": "See: 2050-snapshot/domains/culture.md#pacific-peoples-republic"

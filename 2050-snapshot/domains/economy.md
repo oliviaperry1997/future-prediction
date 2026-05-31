@@ -504,10 +504,10 @@ Entity-by-entity economic profiles covering all ~85 Americas entities across 4 U
 - → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
 
 **Haiti:**
-- **GDP:** ~$15B (deepest crisis in the region — failed state, humanitarian catastrophe)
+- **GDP:** ~$15B (deepest crisis in the region — under CARICOM stabilization, humanitarian catastrophe)
 - **Dominant sectors:** Agriculture (subsistence — rice, mangoes, coffee — deforestation and landslides reducing output), remittances (Haitian diaspora in Atlantica, France — primary foreign exchange source), small-scale manufacturing (textiles — Port-au-Prince industrial parks — disrupted by gang control), international humanitarian economy (NGOs, CARICOM stabilization mission)
 - **Trade partners and bloc alignment:** CARICOM (collective security framework), Dominican Republic (border hardened), Brazil (EAF member — leading CARICOM stabilization mission). Not independently viable.
-- **Economic model:** Failed state — no functional fiscal capacity. Gang-controlled economic zones in Port-au-Prince. Remittance-dependent. CARICOM stabilization mission provides minimal governance structure.
+- **Economic model:** CARICOM stabilization governance — no independent fiscal capacity. Gang-controlled economic zones in Port-au-Prince. Remittance-dependent. The CARICOM stabilization mission provides the minimal governance structure that Haitian state institutions cannot sustain.
 - **Currency:** Gourde (HTG) — heavily depreciated. Dollarized in practice (US dollar legacy, BCU use emerging).
 - **→ See KML: Haiti**
 - → See transition doc: [north-america.md](../../2026-2050-transition/regions/north-america.md)
@@ -1456,13 +1456,13 @@ Entity-by-entity economic profiles covering all ~40 Africa entities across 5 UN 
 - **→ See KML: Senegambia**
 - → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
-**Benin:**
-- **GDP:** ~$XXB
-- **Dominant sectors:** Port services (Cotonou — secondary Atlantic port for AES access route), agriculture (cotton, cashew, palm oil), re-export trade (Nigeria corridor), textiles, services
-- **Trade partners and bloc alignment:** AES (associated state — deep cross-border integration), Nigeria (primary trade partner), China (infrastructure investment). Benin functions as the hinge between AES Sahelian and coastal West African economic blocs.
-- **Economic model:** Market economy with state coordination. AES-associated economic integration without full membership.
+**Benin (southern rump):**
+- **GDP:** ~$XXB (reduced from pre-fragmentation baseline — northern cotton-producing departments departed, but Cotonou port revenues are unaffected)
+- **Dominant sectors:** Port services (Cotonou — secondary Atlantic port for AES; role strengthened by rump's full AES alignment), agriculture (cashew, palm oil — cotton shifted north with AES territory), re-export trade (Nigeria corridor), services
+- **Trade partners and bloc alignment:** AES (full associated integration), Nigeria (primary trade partner), Togo (Porto-Novo-Lomé corridor), China (infrastructure investment). The rump is the AES's primary Atlantic economic node.
+- **Economic model:** Market economy with AES coordination framework. The fragmentation accelerated AES economic integration — the rump no longer balances between blocs.
 - **Currency:** West African Franc (transitional).
-- **Labor market character:** Labor-intensive. Port and re-export trade provides significant informal employment. Agriculture dominant. Cotton sector employs ~500K smallholders.
+- **Labor market character:** Port and re-export trade provides significant informal employment. Cashew and palm oil agriculture dominant in the south. Cotton sector largely departed with the northern departments.
 - **→ See KML: Benin**
 - → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
@@ -1650,21 +1650,21 @@ Entity-by-entity economic profiles covering all ~40 Africa entities across 5 UN 
 - **→ See KML: Cameroon**
 - → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
-**Central African Republic (reduced — northern rump):**
-- **GDP:** ~$XB (severely reduced from already-low baseline)
-- **Dominant sectors:** Agriculture (subsistence — cassava, millet, sorghum), mining (residual diamond extraction — artisan), limited formal economy
-- **Trade partners and bloc alignment:** AES (contested northern zone between AES and EAF gravitational fields). Ungoverned territory — no functional economic model.
-- **Economic model:** Failed state. No functional taxation or public services. Humanitarian economy sustained by international aid (residual).
-- **Currency:** Legacy CFA framework / barter. No functional currency.
-- **Labor market character:** Subsistence agriculture. Diamond artisan mining. Extremely limited formal employment. Humanitarian aid and NGO employment provide the only formal income.
-- **→ See KML: Central African Republic**
+**Central African Republic (EAF territory):**
+- **GDP:** Fully integrated into EAF economic framework — previously negligible standalone GDP, now accounted within EAF aggregate.
+- **Dominant sectors:** Agriculture (subsistence — cassava, millet, sorghum), mining (diamond extraction under EAF investment governance), river trade (Ubangi-Mbomou corridor to Kinshasa)
+- **Trade partners and bloc alignment:** EAF (primary — full member). All extractive sector revenues are being restructured under the EAF investment bank framework.
+- **Economic model:** EAF integration. The EAF investment bank provides the taxation, infrastructure, and public services framework that CAR's independent state was never able to sustain.
+- **Currency:** Transitioning from legacy CFA framework to East African Shilling.
+- **Labor market character:** Subsistence agriculture and diamond artisan mining. EAF infrastructure investment (roads, port access, energy) is the primary formal employment driver.
+- **→ See KML: East African Federation**
 - → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
 **Chad:**
 - **GDP:** ~$XB (extremely low — pre-collapse baseline)
 - **Dominant sectors:** Oil (Doba basin — small producer, declining), agriculture (subsistence — millet, sorghum, livestock — Sahelian pastoralism), gold mining (artisanal — increasing as Sahel insurgency funding)
 - **Trade partners and bloc alignment:** Contested AES/EAF zone — neither bloc has full economic control. Residual trade with Sudan and Libya. Pre-collapse trajectory.
-- **Economic model:** Pre-collapse failed state. Déby regime collapsed with French patron withdrawal. No functional economic governance.
+- **Economic model:** Post-collapse contested state. Déby regime collapsed with French patron withdrawal; the AES and EAF are competing to provide the economic governance framework that fills the vacuum.
 - **Currency:** Legacy CFA framework / barter.
 - **Labor market character:** Subsistence agriculture. Pastoralism. Gold mining (artisanal). Extremely limited formal employment.
 - **→ See KML: Chad**

@@ -20,6 +20,7 @@ Outputs:
   - culture.kml: Culture overlay placemarks (entity copies only)
 """
 
+import copy
 import json
 import os
 import re
@@ -2388,8 +2389,28 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                 pm = make_placemark(entity_name, ct, description=see_path, style_url=style_id)
                 placemarks.append(pm)
         
-        return make_folder(entity_name, placemarks)
-    
+        folder = make_folder(entity_name, placemarks)
+
+        # Append manually-maintained Antarctic sector placemarks alongside main territory.
+        entity_cfg_item = cfg.get("entities", {}).get(entity_name, {})
+        sector_path = entity_cfg_item.get("antarctic_sector_path")
+        if sector_path:
+            full_sector_path = os.path.join(script_dir, sector_path)
+            if os.path.exists(full_sector_path):
+                sector_tree = etree.parse(full_sector_path)
+                for pm in sector_tree.findall(f".//{{{NS}}}Placemark"):
+                    pm_copy = copy.deepcopy(pm)
+                    if style_id:
+                        style_el = pm_copy.find(f"{{{NS}}}styleUrl")
+                        if style_el is None:
+                            style_el = etree.SubElement(pm_copy, f"{{{NS}}}styleUrl")
+                        style_el.text = f"#{style_id}"
+                    folder.append(pm_copy)
+            else:
+                entity_errors.append(f"  [{entity_name}] antarctic_sector_path not found: {full_sector_path}")
+
+        return folder
+
     def build_hierarchy_folders(node, name):
         children = []
         
@@ -2429,6 +2450,32 @@ def generate_borders_kml(config, county_data, global_by_name, global_by_code, co
                         if entity_folder is not None:
                             children.append(entity_folder)
             else:
+                # Empty list — for entities with no computed polygon (e.g. San Martin),
+                # fall back to antarctic_sector_path if present.  Entities that DO have
+                # a main polygon (countries) get their sector placemarks appended inside
+                # build_entity_folder instead, so they won't reach this branch.
+                entity_cfg_for_name = config.get("entities", {}).get(name, {})
+                sector_path = entity_cfg_for_name.get("antarctic_sector_path")
+                if sector_path:
+                    full_sector_path = os.path.join(script_dir, sector_path)
+                    if os.path.exists(full_sector_path):
+                        style_id = entity_styles.get(name)
+                        if not style_id:
+                            _, _, style_id = get_entity_style(name)
+                            entity_styles[name] = style_id
+                        sector_tree = etree.parse(full_sector_path)
+                        placemarks = []
+                        for pm in sector_tree.findall(f".//{{{NS}}}Placemark"):
+                            pm_copy = copy.deepcopy(pm)
+                            if style_id:
+                                style_el = pm_copy.find(f"{{{NS}}}styleUrl")
+                                if style_el is None:
+                                    style_el = etree.SubElement(pm_copy, f"{{{NS}}}styleUrl")
+                                style_el.text = f"#{style_id}"
+                            placemarks.append(pm_copy)
+                        return make_folder(name, placemarks)
+                    else:
+                        entity_errors.append(f"  [{name}] antarctic_sector_path not found: {full_sector_path}")
                 if name in groups_expanded:
                     sub_children = []
                     for cname in groups_expanded[name]:

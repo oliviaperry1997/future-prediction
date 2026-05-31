@@ -67,7 +67,7 @@ Biotechnology in 2050 has transitioned from a research frontier to a mature indu
 
 **Synthetic biology:** Industrial biomanufacturing at scale produces chemicals, materials, and fuels through engineered microorganisms. The Great Lakes' manufacturing belt hosts the largest concentration of synthetic biology industrial plants outside China — replacing petrochemical feedstocks with biologically produced polymers, solvents, and specialty chemicals. The former Gulf region's petrochemical industry, already stranded by energy transition, faces a second displacement as synthetic biology captures downstream markets.
 
-**Longevity research:** Targeted anti-aging therapies — senolytics (clearing senescent cells), telomere maintenance interventions, epigenetic reprogramming — are available in wealthy regions. Average lifespan in the European core, Pacifica, Atlantica, Japan, and China has increased by 3-5 years relative to 2020s baselines, driven by reduced cardiovascular disease, cancer, and neurodegenerative condition mortality. "Longevity escape velocity" — the point at which annual lifespan gains exceed one year per year of research — has not been achieved and is not expected in the foreseeable future. Significant divergence exists: lifespan in reactionary states and failed states has stagnated or declined due to healthcare system collapse and climate-related mortality.
+**Longevity research:** Targeted anti-aging therapies — senolytics (clearing senescent cells), telomere maintenance interventions, epigenetic reprogramming — are available in wealthy regions. Average lifespan in the European core, Pacifica, Atlantica, Japan, and China has increased by 3-5 years relative to 2020s baselines, driven by reduced cardiovascular disease, cancer, and neurodegenerative condition mortality. "Longevity escape velocity" — the point at which annual lifespan gains exceed one year per year of research — has not been achieved and is not expected in the foreseeable future. Significant divergence exists: lifespan in Stage 1 reactionary states and conflict/crisis zones has stagnated or declined due to healthcare system collapse and climate-related mortality.
 
 **Pandemic preparedness and bio-surveillance:** The COVID-19 and subsequent pandemic experiences of the 2020s-2030s produced permanent infrastructure. A global bio-surveillance network — coordinated by the WHO's reformed Global Pandemic Prevention Directorate (established 2033) — monitors wastewater, respiratory samples, and animal reservoirs for novel pathogens. Rapid-response mRNA and next-generation vaccine platforms can deploy a new vaccine within 100 days of a novel pathogen sequence identification. The system has been tested multiple times and works — no pandemic since the 2030s has approached COVID-19's global impact.
 
@@ -213,11 +213,11 @@ The 2050 technology landscape is the end-state of trajectories whose key drivers
 - **Energy system:** Hydro (Manantali), gas-to-power, solar (growing). Dakar's grid is the most reliable in the region outside Accra/Abidjan.
 - **→ See KML: Senegambia**
 
-**Benin:** Low technology infrastructure.
-- **Key technology sectors:** Agricultural processing (cotton, cashew, palm oil), port technology (Cotonou as transshipment hub), mobile money
+**Benin (southern rump):** Low technology infrastructure.
+- **Key technology sectors:** Port technology (Cotonou as AES transshipment hub), agricultural processing (cashew, palm oil), mobile money
 - **Automation penetration:** Very low (<5%).
-- **Digital infrastructure:** Cotonou has moderate mobile connectivity; interior connectivity limited.
-- **Energy system:** Hydro (Niger River), growing solar. Grid reliability poor.
+- **Digital infrastructure:** Cotonou has moderate mobile connectivity; interior connectivity limited. Cotton processing technology departed with the northern departments.
+- **Energy system:** Growing solar. Grid reliability poor but improving under AES regional energy framework.
 - **→ See KML: Benin**
 
 **Guinea:** Low technology infrastructure — mining technology exception.
@@ -674,7 +674,7 @@ The 2050 technology landscape is the end-state of trajectories whose key drivers
 - **Energy system:** Oil (Venezuelan imports — declined sharply after Venezuela's fragmentation), thermal (domestic oil/bunker fuel), solar (growing), biomass (sugar cane bagasse), wind (small-scale). The US embargo's end opened Cuba to renewable energy investment. Cuba has good solar and wind resources.
 - **→ See KML: Cuba**
 
-**Haiti:** Minimal technology infrastructure — failed state.
+**Haiti:** Minimal technology infrastructure — under CARICOM stabilization.
 - **Key technology sectors:** None functional. Minimal artisanal manufacturing.
 - **Automation penetration:** Near zero.
 - **Digital infrastructure:** Minimal — Port-au-Prince has basic mobile coverage. Data centers: none. Infrastructure is destroyed or non-functional.
