@@ -174,57 +174,548 @@ The 2050 linguistic landscape reflects the end of US hegemony and the multipolar
 
 ### Cultural Entity Profiles
 
-#### US Successor States (Revolutionary)
+**Northern America:**
 
-**Pacifica:** Post-capitalist, secular-ecological culture. Techno-optimism tempered by environmental values. The Pacifica's cultural identity is built around democratic socialism, technological innovation, and ecological stewardship — a "green and post-scarcity" vision that attracts talent from across North America. Four-day workweeks, UBI, universal public services, and a vibrant public sphere define daily life. The Pacifica is the cultural pole of the revolutionary bloc — its values, media, and lifestyle are aspirational models for progressive populations worldwide. → See KML: Pacifica
+**Pacifica:** Post-capitalist, secular-ecological culture. Techno-optimism tempered by environmental values. The Pacifica's cultural identity is built around democratic socialism, technological innovation, and ecological stewardship — a "green and post-scarcity" vision that attracts talent from across North America. Four-day workweeks, UBI, universal public services, and a vibrant public sphere define daily life. The Pacifica is the cultural pole of the revolutionary bloc — its values, media, and lifestyle are aspirational models for progressive populations worldwide.
+- **→ See KML: Pacifica**
 
-**Atlantica:** Social-democratic, cosmopolitan. Elite educational institutions maintain global role — Harvard, MIT, Columbia, and Yale retain prestige and attract international students despite the reduced global reach of US higher education. Atlantica's cultural identity is rooted in urban density, ethnic diversity, and institutional continuity. Finance and professional services have transformed post-dollar-collapse but retain their global orientation. Atlantica is the most internationally connected successor state, maintaining strong cultural ties to the EU and UK. → See KML: Atlantica
+**Atlantica:** Social-democratic, cosmopolitan. Elite educational institutions maintain global role — Harvard, MIT, Columbia, and Yale retain prestige and attract international students despite the reduced global reach of US higher education. Atlantica's cultural identity is rooted in urban density, ethnic diversity, and institutional continuity. Finance and professional services have transformed post-dollar-collapse but retain their global orientation. Atlantica is the most internationally connected successor state, maintaining strong cultural ties to the EU and UK.
+- **→ See KML: Atlantica**
 
-**Great Lakes:** Solidarity culture, industrial heritage, labor movement identity. The Great Lakes' cultural identity is the most distinctive of the revolutionary states — rooted in working-class pride, cooperative production, and the "right to a productive role." Manufacturing culture is celebrated rather than mourned. The Great Lakes' reindustrialization program has created a culture of making and building that contrasts with the Pacifica's information-economy culture. Detroit, Chicago, Cleveland, and Minneapolis are cultural anchors. → See KML: Great Lakes
+**Great Lakes:** Solidarity culture, industrial heritage, labor movement identity. The Great Lakes' cultural identity is the most distinctive of the revolutionary states — rooted in working-class pride, cooperative production, and the "right to a productive role." Manufacturing culture is celebrated rather than mourned. The Great Lakes' reindustrialization program has created a culture of making and building that contrasts with the Pacifica's information-economy culture. Detroit, Chicago, Cleveland, and Minneapolis are cultural anchors.
+- **→ See KML: Great Lakes**
 
-**Front Range Socialist Republic (FRSR):** Frontier socialism, indigenous partnerships, ecological stewardship. The FRSR's cultural identity is shaped by its position as a revolutionary island — defensive, self-reliant, and pragmatic. The Front Range urban corridor (Denver/Boulder/Fort Collins/Colorado Springs) combines outdoor recreation culture with technology and aerospace professionalism. High defense spending relative to GDP shapes public life. → See KML: Front Range Socialist Republic
+**Front Range Socialist Republic (FRSR):** Frontier socialism, indigenous partnerships, ecological stewardship. The FRSR's cultural identity is shaped by its position as a revolutionary island — defensive, self-reliant, and pragmatic. The Front Range urban corridor (Denver/Boulder/Fort Collins/Colorado Springs) combines outdoor recreation culture with technology and aerospace professionalism. High defense spending relative to GDP shapes public life.
+- **→ See KML: Front Range Socialist Republic**
 
-**Aztlán:** Chicano/Latino cultural renaissance, Indigenous solidarity, liberation theology influence. Aztlán's cultural identity is the most distinctive in the former US — a fusion of Aztlán nationalism, socialist economics, indigenous sovereignty, and Latinx cultural traditions. Spanish is the primary language of governance and daily life. Aztlán's cultural production — music, literature, film, visual art — draws on centuries of Mexicano/Indigenous heritage while looking toward a post-capitalist future. Semiconductor manufacturing and solar energy export provide the economic base for cultural confidence. → See KML: Aztlán
+**Aztlán:** Chicano/Latino cultural renaissance, Indigenous solidarity, liberation theology influence. Aztlán's cultural identity is the most distinctive in the former US — a fusion of Aztlán nationalism, socialist economics, indigenous sovereignty, and Latinx cultural traditions. Spanish is the primary language of governance and daily life. Aztlán's cultural production — music, literature, film, visual art — draws on centuries of Mexicano/Indigenous heritage while looking toward a post-capitalist future. Semiconductor manufacturing and solar energy export provide the economic base for cultural confidence.
+- **→ See KML: Aztlán**
 
-**Hawaiian Free State (HFS):** Polynesian cultural revival, aloha spirit as governance philosophy, Asian-Pacific hybrid identity. Native Hawaiian sovereignty forms the constitutional foundation; the Office of Hawaiian Affairs evolved into a governing body. Aloha ʻāina (land stewardship) structures both governance and daily life. The HFS positions itself as a Pacific diplomatic bridge — between East Asia, Oceania, and the revolutionary states. Military base conversion and renewable energy development have reshaped the economy without destroying the cultural fabric. → See KML: Hawaiian Free State
+**Hawaiian Free State (HFS):** Polynesian cultural revival, aloha spirit as governance philosophy, Asian-Pacific hybrid identity. Native Hawaiian sovereignty forms the constitutional foundation; the Office of Hawaiian Affairs evolved into a governing body. Aloha ʻāina (land stewardship) structures both governance and daily life. The HFS positions itself as a Pacific diplomatic bridge — between East Asia, Oceania, and the revolutionary states. Military base conversion and renewable energy development have reshaped the economy without destroying the cultural fabric.
+- **→ See KML: Hawaiian Free State**
 
-**New Afrika:** Black liberation theology, socialist reconstruction, cultural renaissance. New Afrika's cultural identity is being forged in the post-revolutionary moment — a fusion of Black American traditions (AME and Baptist church heritage, Gullah/Geechee culture, jazz, blues, hip-hop), Pan-African solidarity, and socialist reconstruction. The CSA period (2036-2044) was a traumatic interruption that suppressed Black cultural institutions; the revolution has unleashed an explosion of cultural production. Atlanta, New Orleans, and Jackson are the cultural anchors. The Gullah/Geechee language revival — once near-extinct in the Sea Islands — has been revived and is taught in schools. → See KML: New Afrika
+**New Afrika:** Black liberation theology, socialist reconstruction, cultural renaissance. New Afrika's cultural identity is being forged in the post-revolutionary moment — a fusion of Black American traditions (AME and Baptist church heritage, Gullah/Geechee culture, jazz, blues, hip-hop), Pan-African solidarity, and socialist reconstruction. The CSA period (2036-2044) was a traumatic interruption that suppressed Black cultural institutions; the revolution has unleashed an explosion of cultural production. Atlanta, New Orleans, and Jackson are the cultural anchors. The Gullah/Geechee language revival — once near-extinct in the Sea Islands — has been revived and is taught in schools.
+- **→ See KML: New Afrika**
 
-**Appalachia:** Mountain solidarity, labor movement revival, anti-CSA identity. The Appalachia's cultural identity is rooted in the region's union organizing tradition (UMWA legacy), mountain independence, and pride in being the first area to expel CSA rule. Folk traditions (Appalachian fiddle, bluegrass, ballad singing) have been revived as expressions of anti-CSA resistance. Spanning all West Virginia (minus panhandles), western Virginia, and eastern Kentucky (~2M population), the Appalachia sees itself as the conscience of the revolutionary South — the broad highland corridor that proved the CSA could be beaten. → See KML: Appalachia
+**Appalachia:** Mountain solidarity, labor movement revival, anti-CSA identity. The Appalachia's cultural identity is rooted in the region's union organizing tradition (UMWA legacy), mountain independence, and pride in being the first area to expel CSA rule. Folk traditions (Appalachian fiddle, bluegrass, ballad singing) have been revived as expressions of anti-CSA resistance. Spanning all West Virginia (minus panhandles), western Virginia, and eastern Kentucky (~2M population), the Appalachia sees itself as the conscience of the revolutionary South — the broad highland corridor that proved the CSA could be beaten.
+- **→ See KML: Appalachia**
 
-**Alleghenia:** Post-industrial solidarity, labor-tech fusion, energy independence. Alleghenia's cultural identity is built around Greater Pittsburgh's steelworker union legacy, transformed into a robotics, AI, and healthcare economy. Spanning 37 Pennsylvania counties plus the West Virginia northern panhandle (~5M population), the region bridges Atlantica and Great Lakes, combining Appalachian labor heritage with 21st-century manufacturing. Marcellus shale gas revenue funds the post-capitalist transition. → See KML: Alleghenia
+**Alleghenia:** Post-industrial solidarity, labor-tech fusion, energy independence. Alleghenia's cultural identity is built around Greater Pittsburgh's steelworker union legacy, transformed into a robotics, AI, and healthcare economy. Spanning 37 Pennsylvania counties plus the West Virginia northern panhandle (~5M population), the region bridges Atlantica and Great Lakes, combining Appalachian labor heritage with 21st-century manufacturing. Marcellus shale gas revenue funds the post-capitalist transition.
+- **→ See KML: Alleghenia**
 
-#### Indigenous Sovereign Nations
+**Navajo Nation (Diné Bikéyah):** Diné cultural sovereignty, language revitalization, pastoral-ecological values. Hózhó philosophy — walking in beauty, balance, and harmony — structures governance, land management, and daily life. The Navajo language (Diné bizaad) is widely spoken and supported by immersion schools. The Nation's solar energy transition reflects Diné values of stewardship for future generations. Return migration from diaspora communities strengthens cultural identity.
+- **→ See KML: Navajo Nation**
 
-**Navajo Nation (Diné Bikéyah):** Diné cultural sovereignty, language revitalization, pastoral-ecological values. Hózhó philosophy — walking in beauty, balance, and harmony — structures governance, land management, and daily life. The Navajo language (Diné bizaad) is widely spoken and supported by immersion schools. The Nation's solar energy transition reflects Diné values of stewardship for future generations. Return migration from diaspora communities strengthens cultural identity. → See KML: Navajo Nation
+**Oceti Sakowin (Dakota/Lakota Nation):** Lakota/Dakota cultural renaissance, treaty-based sovereignty, land-centered spirituality. The Wicóȟaŋpi — sacred way of living — structures cultural identity through ceremonial cycles (Sun Dance, vision quest, sweat lodge), kinship systems (tiyóšpaye — extended family bands), and the Seven Council Fires governance tradition. Bison reintroduction is both an economic project and a spiritual restoration.
+- **→ See KML: Dakota/Lakota Nation**
 
-**Oceti Sakowin (Dakota/Lakota Nation):** Lakota/Dakota cultural renaissance, treaty-based sovereignty, land-centered spirituality. The Wicóȟaŋpi — sacred way of living — structures cultural identity through ceremonial cycles (Sun Dance, vision quest, sweat lodge), kinship systems (tiyóšpaye — extended family bands), and the Seven Council Fires governance tradition. Bison reintroduction is both an economic project and a spiritual restoration. → See KML: Dakota/Lakota Nation
+**Sequoyan Nation (Cherokee):** Sequoyan cultural revival, education focus, bicultural identity. The Cherokee Nation's professional governance and diversified economy support a confident bicultural identity — fluent in both Cherokee (ᏣᎳᎩ) and English, engaged with global markets while maintaining ceremonial traditions (Stomp grounds, Green Corn ceremony). The Sequoyah Schools system and language technology program (Cherokee AI assistant) demonstrate the Nation's commitment to education as cultural preservation.
+- **→ See KML: Sequoyan Nation**
 
-**Sequoyan Nation (Cherokee):** Sequoyan cultural revival, education focus, bicultural identity. The Cherokee Nation's professional governance and diversified economy support a confident bicultural identity — fluent in both Cherokee (ᏣᎳᎩ) and English, engaged with global markets while maintaining ceremonial traditions (Stomp grounds, Green Corn ceremony). The Sequoyah Schools system and language technology program (Cherokee AI assistant) demonstrate the Nation's commitment to education as cultural preservation. → See KML: Sequoyan Nation
+**Tlingit Aaní:** Indigenous circumpolar identity, subsistence cultural economy, climate adaptation culture. Tlingit, Haida, and Tsimshian cultures structure governance through clan houses (naʼ) and moiety systems. The Inside Passage maritime culture — fishing, carving, potlatch — continues as the foundation of identity. Climate change adaptation is a lived cultural reality for a coastal society.
+- **→ See KML: Tlingit Aaní**
 
-**Tlingit Aaní:** Indigenous circumpolar identity, subsistence cultural economy, climate adaptation culture. Tlingit, Haida, and Tsimshian cultures structure governance through clan houses (naʼ) and moiety systems. The Inside Passage maritime culture — fishing, carving, potlatch — continues as the foundation of identity. Climate change adaptation is a lived cultural reality for a coastal society. → See KML: Tlingit Aaní
+**Haudenosaunee Confederacy:** Longhouse governance tradition, environmental stewardship, confederate identity. The oldest living democracy in North America (founded ~1142 CE) — the Great Law of Peace (Gayanashagowa) structures governance through clan mothers and chiefs. The Thanksgiving Address opens every public gathering. The Confederacy's environmental philosophy — considering the seventh generation in all decisions — has influenced Atlantica environmental policy.
+- **→ See KML: Haudenosaunee Confederacy**
 
-**Haudenosaunee Confederacy:** Longhouse governance tradition, environmental stewardship, confederate identity. The oldest living democracy in North America (founded ~1142 CE) — the Great Law of Peace (Gayanashagowa) structures governance through clan mothers and chiefs. The Thanksgiving Address opens every public gathering. The Confederacy's environmental philosophy — considering the seventh generation in all decisions — has influenced Atlantica environmental policy. → See KML: Haudenosaunee Confederacy
+**Florida:** Sunbelt nostalgia, climate anxiety, Caribbean orientation. Florida's cultural identity is in crisis — the Panhandle's loss to New Afrika, the CSA period's trauma, and relentless climate impacts have shattered the "Sunshine State" identity. Miami functions increasingly as a Caribbean city-state, oriented toward CARICOM and Latin American trade. Interior Florida is culturally hollowed — aging, depopulating, and defined by what it has lost. The Seminole and Miccosukee maintain their cultural traditions and have gained political influence as the state's institutions weakened.
+- **→ See KML: Florida**
 
-#### US Successor States (Reactionary)
+**North Carolina:** Divided identity — Bible Belt reactionary rump vs. RTP revolutionary enclave. The Research Triangle Area's cultural production (tech culture, university life, progressive values) is sealed off from the surrounding reactionary territory. Charlotte's finance culture collapsed with the dollar. Rural North Carolina remains Evangelical Protestant, agrarian-conservative, and increasingly resentful of the RTP enclave. The state's cultural identity is defined by this internal fracture.
+- **→ See KML: North Carolina**
 
-**Florida:** Sunbelt nostalgia, climate anxiety, Caribbean orientation. Florida's cultural identity is in crisis — the Panhandle's loss to New Afrika, the CSA period's trauma, and relentless climate impacts have shattered the "Sunshine State" identity. Miami functions increasingly as a Caribbean city-state, oriented toward CARICOM and Latin American trade. Interior Florida is culturally hollowed — aging, depopulating, and defined by what it has lost. The Seminole and Miccosukee maintain their cultural traditions and have gained political influence as the state's institutions weakened. → See KML: Florida
+**Virginia (Southern Rump):** Lost identity, NOVA nostalgia, residual military culture. Southern Virginia is culturally defined by what it lost — NOVA's prosperity, the federal presence, and any coherent identity. Hampton Roads retains a residual military culture (Norfolk Naval Base legacy) but without federal funding or mission. The population is aging, rural, and increasingly isolated from Atlantica's cosmopolitan culture just to the north.
+- **→ See KML: Virginia**
 
-**North Carolina:** Divided identity — Bible Belt reactionary rump vs. RTP revolutionary enclave. The Research Triangle Area's cultural production (tech culture, university life, progressive values) is sealed off from the surrounding reactionary territory. Charlotte's finance culture collapsed with the dollar. Rural North Carolina remains Evangelical Protestant, agrarian-conservative, and increasingly resentful of the RTP enclave. The state's cultural identity is defined by this internal fracture. → See KML: North Carolina
+**Texas:** Reactionary cultural deflation — lost identity without economic base. Texas's outsized cultural identity — cowboy mythology, oil-patch machismo, "Don't Mess with Texas" bravado — has become unsustainable without oil revenue, without the Permian Basin (now Aztlán territory), and without the coastal refinery strip. Houston's petrochemical culture is contested between organized workers pushing revolutionary and management clinging to reactionary values. Dallas/Fort Worth survives as a corporate-service hub but the cultural confidence is gone.
+- **→ See KML: Texas**
 
-**Virginia:** Lost identity, NOVA nostalgia, residual military culture. Southern Virginia is culturally defined by what it lost — NOVA's prosperity, the federal presence, and any coherent identity. Hampton Roads retains a residual military culture (Norfolk Naval Base legacy) but without federal funding or mission. The population is aging, rural, and increasingly isolated from Atlantica's cosmopolitan culture just to the north. → See KML: Virginia
+**Tennessee:** Crossroads culture without the crossroads. Tennessee's historic identity as a cultural crossroads — Nashville's music industry, Memphis's blues/Soul heritage, the Great Smoky Mountains — has become unsustainable without national economic integration. Nashville's music industry collapsed with the dollar and the loss of national distribution. The state's culture is in preservation mode, not production.
+- **→ See KML: Tennessee**
 
-**Tennessee:** Crossroads culture without the crossroads. Tennessee's historic identity as a cultural crossroads — Nashville's music industry, Memphis's blues/Soul heritage, the Great Smoky Mountains — has become unsustainable without national economic integration. Nashville's music industry collapsed with the dollar and the loss of national distribution. The state's culture is in preservation mode, not production. The Appalachia's eastern Kentucky and WV territories have a more dynamic cultural identity than the Tennessee rump. → See KML: Tennessee
+**Kentucky:** Bourbon-horse-tobacco culture in terminal decline. Kentucky's cultural identity was built around three luxury/agricultural sectors — bourbon, horse racing, and tobacco — all of which collapsed with the national market and the loss of eastern KY to the Appalachia. The Kentucky Derby, once a global cultural event, is a diminished local affair. East Kentucky's coal-country culture (UMWA legacy, mountain music) broke away with the Appalachia, leaving the western rump culturally adrift.
+- **→ See KML: Kentucky**
 
-**Kentucky:** Bourbon-horse-tobacco culture in terminal decline. Kentucky's cultural identity was built around three luxury/agricultural sectors — bourbon, horse racing, and tobacco — all of which collapsed with the national market and the loss of eastern KY to the Appalachia. The Kentucky Derby, once a global cultural event, is a diminished local affair. East Kentucky's coal-country culture (UMWA legacy, mountain music) broke away with the Appalachia, leaving the western rump culturally adrift. → See KML: Kentucky
+**Heartland:** Agrarian conservatism, pioneer mythology, evangelical influence. The Heartland's cultural identity is organized around agriculture, small-town values, and a pioneer mythology that has become increasingly detached from economic reality. Agribusiness conglomerates dominate the cultural landscape as they dominate the economy. The Dakota/Lakota sovereignty declaration (Oceti Sakowin) has fragmented the Heartland both territorially and psychologically — the narrative of peaceful pioneer settlement is no longer sustainable. Out-migration of young adults has left an aging, shrinking population.
+- **→ See KML: Heartland**
 
-**Heartland:** Agrarian conservatism, pioneer mythology, evangelical influence. The Heartland's cultural identity is organized around agriculture, small-town values, and a pioneer mythology that has become increasingly detached from economic reality. Agribusiness conglomerates dominate the cultural landscape as they dominate the economy. The Dakota/Lakota sovereignty declaration (Oceti Sakowin) has fragmented the Heartland both territorially and psychologically — the narrative of peaceful pioneer settlement is no longer sustainable. Out-migration of young adults has left an aging, shrinking population. → See KML: Heartland
+**Deseret:** LDS theocratic culture, communitarian, high social cohesion, tech-engaged. The Deseret's cultural identity is the most coherent of any reactionary state — LDS Church institutional capacity provides social cohesion, welfare infrastructure, and governance coordination that purely secular reactionary states lack. High social cohesion, low crime, strong family structures, and a distinctive dietary code (Word of Wisdom — no alcohol, tobacco, caffeine) define daily life. The "Silicon Slopes" tech sector (SLC/Provo) has withered without global integration but left a legacy of technological engagement. Youth exodus to revolutionary states is the Corridor's most significant cultural challenge.
+- **→ See KML: Deseret**
 
-**Deseret:** LDS theocratic culture, communitarian, high social cohesion, tech-engaged. The Deseret's cultural identity is the most coherent of any reactionary state — LDS Church institutional capacity provides social cohesion, welfare infrastructure, and governance coordination that purely secular reactionary states lack. High social cohesion, low crime, strong family structures, and a distinctive dietary code (Word of Wisdom — no alcohol, tobacco, caffeine) define daily life. The "Silicon Slopes" tech sector (SLC/Provo) has withered without global integration but left a legacy of technological engagement. Youth exodus to revolutionary states is the Corridor's most significant cultural challenge. → See KML: Deseret
+**Mountain Tapestry:** Libertarian-individualist, extractive economy culture, weak collective identity. The Mountain Tapestry's cultural identity is the least coherent of any successor state region — a collection of small extraction-economy communities, ranching settlements, and tourist towns with minimal shared identity. The Columbia Plateau Republic (eastern WA/OR, southern ID) has the strongest regional identity, based on irrigated agriculture and hydroelectric power, and may flip revolutionary by 2050. Most of the region is depopulating, with remaining populations aging and increasingly isolated.
+- **→ See KML: Mountain Tapestry**
 
-**Mountain Tapestry:** Libertarian-individualist, extractive economy culture, weak collective identity. The Mountain Tapestry's cultural identity is the least coherent of any successor state region — a collection of small extraction-economy communities, ranching settlements, and tourist towns with minimal shared identity. The Columbia Plateau Republic (eastern WA/OR, southern ID) has the strongest regional identity, based on irrigated agriculture and hydroelectric power, and may flip revolutionary by 2050. Most of the region is depopulating, with remaining populations aging and increasingly isolated. → See KML: Mountain Tapestry
+**Alaska:** Frontier survivalist, extractive legacy, declining cohesion. The Alaska's cultural identity is shaped by frontier individualism, oil-extraction boom-and-bust psychology, and a fading great-power military presence. With federal funding gone and oil revenue collapsed, the Rump's social contract is deteriorating. The Permanent Fund — once Alaska's universal dividend and source of civic identity — has been depleted. Out-migration is the dominant demographic reality; those who remain are disproportionately older and less mobile.
+- **→ See KML: Alaska**
 
-**Alaska:** Frontier survivalist, extractive legacy, declining cohesion. The Alaska's cultural identity is shaped by frontier individualism, oil-extraction boom-and-bust psychology, and a fading great-power military presence. With federal funding gone and oil revenue collapsed, the Rump's social contract is deteriorating. The Permanent Fund — once Alaska's universal dividend and source of civic identity — has been depleted. Out-migration is the dominant demographic reality; those who remain are disproportionately older and less mobile. → See KML: Alaska
+**Canada (rump):** Liberal-institutionalist identity in decline — Canadian multiculturalism, social democracy, and peacekeeping identity eroded by fragmentation. The Canadian rump (Ontario, British Columbia coast absorbed into Pacifica, Northern Ontario to Great Lakes) is a hollowed identity-state defined by what it lost — Quebec, the Maritime provinces, the North, and the West. The "polite Canadian" identity persists as a cultural defense mechanism against diminished circumstances.
+- **→ See KML: Canada**
+
+**Quebec Republic:** Sovereign québécois identity — the most cohesive national identity in Northern America. Quebec's cultural identity is built around the French language (Charte de la langue française — Bill 101 legacy), secularism (laïcité), and the unfinished independence project now realized. Montreal's cultural production (film, literature, music, comedy) is the primary vehicle for québécois cultural projection. The tension between civic nationalism and cultural nationalism persists but is managed.
+- **→ See KML: Quebec**
+
+**Maritime Republic:** Atlantic Canadian identity — the "cultural calm" of the Maritimes. Acadian, Mi'kmaq, and Scottish heritage communities. Halifax functions as the cultural hub. The Maritime Republic's identity is defined by what it kept (stability, community, Atlantic orientation) rather than what it lost. Less ideologically revolutionary than Quebec — pragmatic, cooperative, and resistant to grand ideological projects.
+- **→ See KML: Maritime Republic**
+
+**Newfoundland:** "The Rock" identity — distinct from mainland Canada, closer to Irish-sea cultural heritage. Newfoundland's cultural identity is shaped by the cod fishery collapse, the offshore oil experience, and the enduring distinctiveness of Newfoundland English, music, and storytelling tradition. Outport culture (small remote fishing communities) persists as the cultural ideal even as the population concentrates in St. John's.
+- **→ See KML: Newfoundland**
+
+**Manitoba:** Prairie-social-democratic culture — the legacy of the Canadian social-democratic tradition (Tommy Douglas's CCF/NDP). Winnipeg functions as the cultural hub. Manitoba's identity is defined by its Ukrainian-Canadian, Franco-Manitoban, and Indigenous cultural communities (largest urban Indigenous population in Canada). Climate-adaptive agriculture is a emerging cultural identity marker.
+- **→ See KML: Manitoba**
+
+**Denendeh:** Dene cultural sovereignty — Indigenous self-determination in the Northwest Territories. Dene languages (Chipewyan, Tłı̨chǫ, Dogrib, Gwich'in, Slavey), traditional land-based governance, and the Mackenzie River corridor define the cultural landscape. Diamond mining revenue provides the economic base for cultural preservation. The transition from territorial administration to indigenous sovereignty paralleled the Landback trajectory in the former US.
+- **→ See KML: Denendeh**
+
+**Inuit Nunangat:** Inuit cultural sovereignty across the Arctic — Inuktut language (Inuktitut, Inuinnaqtun), traditional knowledge (Inuit Qaujimajatuqangit), and the transition from colonial administration to Inuit self-government. The cultural foundation is land-based: hunting, fishing, and seasonal mobility adapted to the Arctic environment. Climate change is the defining cultural disruption (sea ice loss, permafrost thaw, shifting animal migration patterns). The Inuit Circumpolar Council provides an international cultural framework.
+- **→ See KML: Inuit Nunangat**
+
+**Bermuda:** Microstate Atlantic identity — British Overseas Territory legacy evolved into independent island state. Bermuda's cultural identity is shaped by its offshore financial sector heritage, its tourism economy, and its distinctive Bermudian English dialect. The transition to sovereignty was functional rather than revolutionary — Bermuda adapted to the post-American world by deepening ties with the Maritime Republic and CARICOM.
+- **→ See KML: Bermuda**
+
+**St. Pierre and Miquelon:** French Atlantic microculture — the last French North Atlantic outpost, now independent. The small archipelago (~6K population) maintains French language and cultural institutions (the fête nationale, French cuisine, the St. Pierre accent distinct from both Quebec and France). Fishing economy transitioned toward tourism and cultural preservation.
+- **→ See KML: St. Pierre and Miquelon**
+
+**Caribbean:**
+
+**Cuba:** Veteran socialist cultural project — the anchor of Caribbean revolutionary cultural identity. Cuba's cultural identity is built on the 1959 revolution's legacy: Afro-Cuban religious traditions (Santería, Palo, Abakuá) syncretized with Marxist-secular state ideology, world-class arts (ballet, visual arts, literature, música cubana — son, salsa, rumba, timba), and the enduring impact of the Special Period (1990s) as foundational cultural memory. The US embargo's collapse ended the siege mentality but also introduced new cultural influences.
+- **→ See KML: Cuba**
+
+**Haiti:** Deepest cultural roots in the Caribbean — Vodou, Haitian Creole (Kreyòl Ayisyen), and the revolutionary tradition of 1804 (the first successful slave revolt and the first Black republic). Haiti's contemporary cultural production — visual arts (Haitian naive painting, metalwork), literature (Frankétienne, Dany Laferrière, Edwidge Danticat), music (compas, rara, mizik rasin) — continues despite state collapse. The cultural identity is profoundly resilient.
+- **→ See KML: Haiti**
+
+**Dominican Republic:** Hispaniola dual-state identity — Spanish-Antillean culture (merengue, bachata, Catholicism) distinct from Haitian Kreyòl-Vodou culture. The DR's cultural identity is defined by the Hispaniola relationship — language, religion, and racial hierarchy. Baseball is the dominant cultural institution. The border hardened after the CARICOM stabilization mission — cultural exchange with Haiti reduced.
+- **→ See KML: Dominican Rep.**
+
+**Puerto Rico:** Caribbean-American hybridity — the transition from US colony to independent CARICOM state is a cultural as well as political project. Puerto Rican cultural identity is built around the Spanish language, Afro-Caribbean heritage (bomba, plena), and the ongoing negotiation of what "Puerto Ricanness" means outside the US territorial framework. Cultural institutions (the Instituto de Cultura Puertorriqueña, the Luis Muñoz Marín Foundation) lead the post-colonial identity formation.
+- **→ See KML: Puerto Rico**
+
+**Jamaica:** Global cultural superpower — reggae, dancehall, Rastafari, and the Jamaican diaspora. Jamaican cultural identity has global reach disproportionate to its population: Bob Marley remains a global icon, dancehall is the dominant Caribbean music genre, and Jamaican patois influences global slang. The cultural influence outweighs the economic weight — Jamaica's cultural production is its most significant export. WIF-trauma isolationism has evolved into confident CARICOM integrator status.
+- **→ See KML: Jamaica**
+
+**Trinidad and Tobago:** Carnival nation — the most ethnically diverse Caribbean state (African-descended, Indian-descended, mixed, others). Trinidadian cultural identity is defined by Carnival (the world's most famous pre-Lenten festival, soca and calypso music, steelpan — the only acoustic instrument invented in the 20th century), and the Indo-Trinidadian cultural tradition (Hindu festivals — Diwali, Phagwa; Islam — Eid; dhalpuri and doubles cuisine). The "one from ten leaves nought" fear of CARICOM integration reflects a distinctive cultural confidence.
+- **→ See KML: Trinidad and Tobago**
+
+**Bahamas:** Atlantic Creole identity — Junkanoo (the defining cultural festival), Bahamian English dialect, and a cultural identity shaped by tourism, offshore finance, and proximity to the US. The dollar collapse destroyed the offshore financial model but the cultural identity — confident, outward-looking, deeply Christian — survived. The Bahamas' sovereignty is defensive; its cultural character is entrepreneurial rather than revolutionary.
+- **→ See KML: Bahamas**
+
+**Barbados:** The institutional and political leader of Caribbean revolutionary integration — Bajan culture is the most British-influenced in the Caribbean (cricket, afternoon tea, the London Bridge of Barbados in place names) but also the most independent-minded (the 2021 republic transition, leadership of CARICOM integration). Crop Over festival, rum culture (Mount Gay, Foursquare), and Rihanna as global cultural ambassador define the cultural landscape. The Bajan accent, wit, and social confidence make Barbados punch above its weight.
+- **→ See KML: Barbados**
+
+**Antigua and Barbuda:** Tourism-dependent microstate culture — cricket (Sir Viv Richards legacy), Carnival, and the distinctive Antiguan accent. Barbuda's post-Irma evacuation and partial depopulation is a cultural wound — Barbudan identity (collective land ownership tradition, Afrikaner heritage) is under existential pressure. Antiguan cultural production (literature — Jamaica Kincaid, music — calypso, soca) maintains regional influence.
+- **→ See KML: Antigua and Barb.**
+
+**Dominica:** The most radical revolutionary cultural project in the eastern Caribbean — "Nature Island" identity that combines environmentalism with anti-colonial cultural assertion. Dominican culture (Kweyòl French Creole language, Afro-Caribbean heritage, the Kalinago indigenous territory — the last pre-Columbian indigenous community in the Caribbean) is organized around resilience — Hurricane Maria (2017) is a foundational cultural reference. Leading on CARICOM integration and climate adaptation.
+- **→ See KML: Dominica**
+
+**Grenada:** The "Spice Isle" — nutmeg, mace, cocoa, and a revolutionary cultural tradition (the 1979 People's Revolutionary Government under Maurice Bishop). Bishop's legacy is reclaimed as the prototype of Caribbean revolutionary socialism, crushed by US invasion, now completed in the post-American era. Grenadian cultural identity is shaped by this unfinished revolution narrative and by the spice-island agricultural tradition.
+- **→ See KML: Grenada**
+
+**Saint Lucia:** Stable parliamentary democracy with a distinctive French-Creole cultural influence — Saint Lucian Kweyòl (French Creole, ~95% of population), Catholicism, and the cultural legacy of the two Nobel laureates (Sir Arthur Lewis, Derek Walcott). The Jazz Festival, Carnival, and fishing-village traditions (La Woz, La Magwit flower festivals) define the cultural calendar.
+- **→ See KML: Saint Lucia**
+
+**St. Kitts and Nevis:** Two-island federal culture — St. Kitts (the larger island, Basseterre, sugar heritage) and Nevis (autonomous, Charlestown, more independent-minded). Citizenship-by-investment revenue shaped a distinctive transactional culture — "selling citizenship" is both an economic strategy and a cultural negotiation of sovereignty. Nevis retains periodic secession sentiment.
+- **→ See KML: St. Kitts and Nevis**
+
+**St. Vincent and the Grenadines:** "Little Archipelago" culture — 32 islands and cays, from mainland St. Vincent (agricultural — arrowroot, bananas, breadfruit) to the Grenadines chain (yachting tourism, private-island culture). Vincentian cultural identity is the most outspokenly revolutionary in the English Caribbean — the Gonsalves-era left-nationalist tradition defined the region's post-colonial cultural critique. Garifuna heritage (Black Caribs, deported from St. Vincent to Honduras in 1797) is an active cultural memory.
+- **→ See KML: St. Vin. and Gren.**
+
+**Cayman Islands:** Offshore financial center culture — Cayman's cultural identity was shaped by the offshore sector (banking, hedge funds, corporate registrations). The dollar collapse was an existential shock; reorientation toward multi-currency and cryptocurrency finance produced a pragmatic, adaptive cultural response. The Caymanian identity is defensive — a small community (~80K) protecting its economic niche in a post-dollar world.
+- **→ See KML: Cayman Islands**
+
+**Saint Martin:** The merged island of Sint Maarten (Dutch) and Saint-Martin (French) — the only land border in the Caribbean between two European powers, now erased. Saint Martin's cultural identity is the fusion of Dutch (commercial, tourism-oriented, English-speaking) and French (culinary, cultural, French-speaking) traditions. The island's cultural character is pragmatic fusion — the border was always invisible in daily life. Hurricane Irma (2017) is a shared cultural trauma.
+- **→ See KML: Saint Martin**
+
+**Curaçao:** Merged entity of Aruba and Curaçao (ABW+CUW) — the Dutch Caribbean cultural anchor. Papiamentu (the Creole language blending Portuguese, Spanish, Dutch, and African languages) is the primary cultural marker. Willemstad's colorful Dutch colonial architecture, Carnival, and the Curaçaoan tradition of multicultural tolerance (the "Sede di Papiamentu" — thirst for Papiamentu language and culture) define the cultural identity. Curaçao functions as CARICOM's energy logistics hub.
+- **→ See KML: Curaçao**
+
+**Guadeloupe:** French-Antillean Creole culture — gwoka (drumming and dance tradition, UNESCO heritage), Creole cuisine, and a history of labor and anti-colonial activism (the 1802 slave revolt, the 1967 riots, the 2009 general strike). The transition from French overseas department to independent CARICOM state was traumatic — the economic dependency on French transfers collapsed — but Guadeloupean cultural identity, forged in resistance, provided a foundation for post-colonial reconfiguration.
+- **→ See KML: Guadeloupe**
+
+**Martinique:** The largest of the flipped French Caribbean territories — Martinican cultural identity is the most Francophone in the Caribbean. Aimé Césaire's négritude movement (literary and political, founded in the 1930s) provides the intellectual framework for Martinican cultural assertion. Bèlè (dance, drumming, song tradition), Creole language (Kréyòl Matnik), and Martinican rum culture are the primary cultural markers. Fort-de-France functions as a regional education and health services hub.
+- **→ See KML: Martinique**
+
+**Bonaire:** Diving tourism and nature conservation as cultural identity — Bonaire's coral reef ecosystem (Bonaire National Marine Park) is the defining cultural and economic asset. The island's small population (~20K) maintains a Dutch-Caribbean cultural character with Papiamentu as the primary language. The post-Netherlands sovereignty transition was managed pragmatically — Bonaire's identity is environmental stewardship, not revolutionary nationalism.
+- **→ See KML: Bonaire**
+
+**Anguilla:** The smallest CARICOM member (~15K population) — Anguillan cultural identity is defined by its independence story (the 1967 Anguillan Revolution — the island expelled Saint Kitts police, declared independence, and maintained self-government for two years before British reimposition). The British withdrawal in the 2030s fulfilled the 1967 revolution's legacy. Fishing, boat-building, and a distinctive Anguillan musical tradition (soca, calypso) define the cultural landscape.
+- **→ See KML: Anguilla**
+
+**Montserrat:** A scar of colonial environmental violence — the Soufrière Hills eruption (1995-1997) destroyed Plymouth, the capital, and rendered the southern half of the island an exclusion zone. Montserratian cultural identity in 2050 is defined by diaspora (majority evacuated, never returned), the loss of the island's cultural geography, and the CARICOM collective disaster response that sustains the remaining ~5K population. The St. Patrick's Day festival (commemorating the 1768 slave revolt) was relocated to St. John's, Antigua.
+- **→ See KML: Montserrat**
+
+**British Virgin Islands:** Offshore financial center specialized in corporate registrations — BVI cultural identity was shaped by the company-registration industry (more registered companies than residents). The dollar collapse devastated the model; reorientation toward Asian financial flows is ongoing. The BVI community (~30K) maintains a British-Virgin Islands Creole English culture distinct from the US Virgin Islands. Tortola, Virgin Gorda, Anegada, and Jost Van Dyke each have distinct island identities.
+- **→ See KML: British Virgin Is.**
+
+**Turks and Caicos Islands:** Tourism-dependent archipelago culture — 40 islands, ~50K population. TCI leveraged its Atlantic geography as a transshipment and logistics node post-dollar. The distinctive "Turkish" identity (named after Turks Cay, not Turkey) is a curiosity of colonial cartography. The island character is pragmatic and outward-looking — less ideologically revolutionary than the eastern Caribbean.
+- **→ See KML: Turks and Caicos Is.**
+
+**Saba:** The smallest CARICOM member (~2K population) — a dormant volcanic peak with the world's shortest commercial airstrip. Saban cultural identity is shaped by extreme insularity, self-sufficiency, and the Saba University School of Medicine (a significant cultural and economic institution). Saba lace (drawn-thread embroidery, introduced by a local woman in the late 19th century) is the distinctive cultural craft. Dutch-Caribbean with strong English influence.
+- **→ See KML: Saba**
+
+**St. Eustatius:** "The Golden Rock" — an island of strategic history (the first foreign entity to recognize the United States, 1776) and current significance (~3K population). The deepwater port and oil terminal generate the bulk of the BES Confederation's revenue. Statian cultural identity is shaped by this commercial-transshipment history — the "one island, one port" culture of a trade node.
+- **→ See KML: St. Eustatius**
+
+**St. Barthélemy:** The Caribbean's Monaco — an exclusive luxury tourism microstate (~10K population). St. Barths' cultural identity is shaped by yachting, celebrity tourism, high-end retail, and the Swedish colonial heritage (1784-1878, returned to France for debt payment). The French pause de midi (two-hour lunch break), Swedish architectural references, and Riviera-style social codes create a unique microculture. The sovereignty transition was nearly seamless — the island's wealth insulated it from the shock.
+- **→ See KML: St. Barthélemy**
+
+**Central America:**
+
+**Mexico:** Unified revolutionary republic — Mexico's cultural identity in 2050 is a fusion of its Indigenous heritage (Nahua, Maya, Zapotec, Mixtec civilizations), Spanish colonial legacy, and the revolutionary energy brought by Aztlán integration. The Mexican revolutionary tradition (the 1910 Revolution, the PRI's institutional revolution, the Zapatista legacy) provides the ideological framework. Mexico City remains the region's cultural capital — the largest Spanish-speaking city in the world, producing globally influential film, literature, music, and visual art. Aztlán's integration brought new cultural dynamics: a heightened Chicano consciousness, deeper ties to the US successor state cultural landscape, and the fusion of northern Mexican norteño culture with Aztlán's Chicano artistic production.
+- **→ See KML: Mexico**
+
+**Central American Federation (CAF):** Revolutionary confederal identity — Guatemala, El Salvador, and Honduras operating as a political and cultural unit. The CAF's cultural identity is being forged in the integration process, drawing on shared Maya heritage, the marimba tradition, and the collective memory of the 20th-century civil wars. The CAF's identity is forward-looking rather than nostalgic — the confederation is understood as a break from the violence, corruption, and US domination that defined the 20th century. Maya language revitalization (K'iche', Q'eqchi', Mam, Kaqchikel) is a central cultural project.
+- **→ See KML: Central American Federation**
+
+**Costa Rica:** "Pura Vida" culture — the most stable democracy in Central America, no army, ecotourism-led identity. Costa Rican cultural identity is built around environmental stewardship (25%+ of territory protected), social democratic tradition, and a self-image as the "Switzerland of Central America." The Tico identity — friendly, peace-loving, proud of the country's unique path — has proven resilient through the regional transformation. Caution toward full CAF integration reflects a cultural preference for stability over revolutionary transformation.
+- **→ See KML: Costa Rica**
+
+**Panama:** Canal nation — Panamanian cultural identity is structured around the Panama Canal, the Colón Free Zone, and the country's role as a global transit node. The Canal generates not just revenue but identity — "criollo" Canal Zone culture (the Zonians, the West Indian canal-worker diaspora, the American engineering legacy). Panama City's skyline, the banking center, and the bi-cultural (Spanish-English, with Afro-Antillean influence) character define the cultural landscape. Pragmatic, transactional, non-ideological.
+- **→ See KML: Panama**
+
+**Nicaragua:** Sandinista revolutionary legacy — Nicaraguan cultural identity is shaped by the Sandinista revolution (1979), the Contra war, and the Ortega-era cultural project (poetry, muralism, Sandinista folklore). Rubén Darío (the father of modernismo in Spanish-language literature) is the national literary icon. The intersection of the Pacific coast (Spanish-mestizo, León-Granada cultural axis) and the Caribbean coast (Miskito, Creole, Garifuna, Rama cultures) defines Nicaragua's internal cultural diversity.
+- **→ See KML: Nicaragua**
+
+**Belize:** CARICOM-CAF bridge identity — English-speaking, Caribbean-identified state on the Central American mainland. Belizean cultural identity is a distinctive blend of Afro-Caribbean (Kriol language, Garifuna culture, Caribbean food and music), Maya (Mopan, Yucatec, Q'eqchi), and Mestizo traditions. The "brown and proud" Belizean identity is rooted in the refusal to assimilate into either the Hispanic Central American or the Anglophone Caribbean monoculture. Belize functions as the living proof that regional integration frameworks can coexist.
+- **→ See KML: Belize**
+
+**South America:**
+
+**Brazil:** Mestiço identity transformed by environmental consciousness — the Amazon dieback (August 2047) is a profound cultural wound that has reshaped Brazilian national identity. The loss of the world's largest rainforest produced a national reckoning with development models, Indigenous knowledge, and environmental stewardship. Brazilian cultural identity remains rooted in its extraordinary diversity: Afro-Brazilian religion and music (Candomblé, Umbanda, samba, bossa nova, funk carioca, sertanejo), Indigenous traditions, European heritage (Portuguese, Italian, German, Japanese), and the mestiço (mixed-race) self-understanding. Brazil's BRICS+ leadership role has deepened cultural engagement with Africa and Asia.
+- **→ See KML: Brazil**
+
+**Argentina:** Post-collapse cultural reinvention — the Milei-era collapse (hyperinflation, dollarization crisis, social breakdown) and subsequent revolutionary flip produced a profound cultural reorientation. Argentine identity, once defined by European-descended exceptionalism (the "Paris of South America" narrative), has been reconfigured around South American solidarity and BRICS+ alignment. Tango, football (Maradona and Messi as global icons), the asado tradition, and Argentine literature (Borges, Cortázar) remain cultural anchors. The unified Argentina-Uruguay state (Rioplatense unification ~2048) merged two closely related cultures — both River Plate, both Spanish-speaking, both shaped by Italian immigration.
+- **→ See KML: Argentina**
+
+**Gran Colombia:** Bolivarian unification realized — the restored federation of Colombia, Ecuador, and Venezuela (~2048) completes Simón Bolívar's 19th-century vision. Gran Colombian cultural identity is built on shared Andean heritage (the cordillera identity), the vallenato and cumbia musical traditions (Colombia's Caribbean coast roots), the cultural weight of Bogotá, Quito, and Caracas as literary and artistic centers, and the Bolivarian ideological framework. The federation's three constituent states retain distinct cultural traditions: Colombia's Andean-Caribbean-Pacific diversity, Ecuador's Indigenous-Quichua axis (Otavalo market, the Amazon basin), and Venezuela's Caribbean-Oil cultural landscape (the arepa, salsa, and the legacy of Hugo Chávez).
+- **→ See KML: Gran Colombia**
+
+**Lithium Triangle (Chile, Bolivia):** State-controlled resource nationalism shaping cultural identity — Chile and Bolivia, though not merged, coordinate on lithium policy. Chilean cultural identity is defined by the post-Pinochet democratic recovery, the Mapuche Indigenous resurgence, and the world's longest and thinnest country geography (Atacama Desert to Patagonian fjords). Bolivian cultural identity is the most Indigenous-grounded in South America — Aymara and Quechua majority, the Pachamama (Earth Mother) cosmology, the coca leaf tradition, and the enduring legacy of the 1952 National Revolution. The Andean worldview frames the lithium extraction debate as a question of Indigenous sovereignty and ecological stewardship.
+- **→ See KML: Lithium Triangle**
+
+**Peru:** Fractured Andean identity — Peru's chronic political instability creates a fragmented cultural landscape. The cultural foundation is the Inca and pre-Inca heritage (Machu Picchu, Cusco, the Sacred Valley, Nazca Lines) combined with Spanish colonial legacy (Lima's vice-royal architecture, the University of San Marcos — oldest in the Americas). Peruvian cuisine (ceviche, pisco sour, lomo saltado, Andean potatoes, the Amazon's exotic fruits) is the country's most successful cultural export — a globally recognized gastronomic tradition. The Quechua and Aymara linguistic heritage persists in the highlands but faces marginalization from Spanish-dominant coastal culture.
+- **→ See KML: Peru**
+
+**Cayenne:** Independent from French Guiana — Cayenne's cultural identity is defined by its unique position as the last European colonial territory in mainland South America, now independent. French language remains dominant, but Creole Guianese culture (the créole guyanais language, Carnival, the bèlè dance tradition, the Amerindian communities — Wayana, Wayampi, Palikur, Teko, Kaliña) is being revitalized post-independence. The European spaceport (Guiana Space Centre) legacy converted to civilian/commercial launch services, giving Cayenne a distinctive "space city" identity.
+- **→ See KML: Cayenne**
+
+**Guyana:** English-speaking CARICOM member on the South American mainland — Guyanese cultural identity is shaped by its Indo-Guyanese majority (descendants of indentured laborers), Afro-Guyanese minority, and small Amerindian, Chinese, and Portuguese communities. The "six peoples" concept (East Indian, African, Amerindian, Chinese, Portuguese, Mixed) defines the cultural landscape. Cricket, Caribbean food (rotisserie chicken, pepperpot, roti), and the Stabroek Market cultural hub in Georgetown define daily life. Oil wealth (Stabroek Block) has created a new cultural dynamic: the "oil rush" generation versus traditional agricultural and mining identities.
+- **→ See KML: Guyana**
+
+**Suriname:** The most ethnically diverse South American nation — Hindustani (Indian-descended, ~27%), Maroon (descendants of escaped enslaved Africans, ~22%), Javanese (~14%), Creole (Afro-Surinamese, ~16%), Chinese, and Indigenous (Carib, Arawak, Trio, Wayana) communities. Each group maintains its own languages, religions (Hinduism, Islam, Christianity, Winti — Afro-Surinamese spirit tradition), cuisines, and cultural festivals (Diwali, Phagwa, Eid, Keti Koti — the July 1 emancipation festival). The Javanese gamelan tradition, Maroon cultural heritage (the Saamaka, Ndyuka, and other Maroon communities), and Surinamese Creole (Sranan Tongo) as lingua franca create a unique cultural synthesis.
+- **→ See KML: Suriname**
+
+**Paraguay:** Guarani-Spanish bilingual identity — Paraguay is the only South American country where an Indigenous language (Guarani) is spoken by the majority of the population, including non-Indigenous citizens. Paraguayan cultural identity is built around Guarani linguistic heritage, the Jesuit mission legacy (the reducciones), the yerba mate tradition (tereré — cold yerba mate drunk throughout the day), and the traumatic memory of the War of the Triple Alliance (1864-1870, which killed ~70% of the male population). The landlocked position between Gran Colombia, Brazil, and Argentina makes Paraguay's cultural identity one of quiet independence.
+- **→ See KML: Paraguay**
+
+**Africa:**
+
+**Western Africa:**
+
+**Federation of Sahel States (AES):** Revolutionary Stage 2-3 — Sahelian revolutionary confederation fusing Sankara tradition, Sufi Islam, and anti-imperial solidarity.
+- **Ideological alignment:** Revolutionary — Sankara-tradition centralized governance, resource nationalism (gold, uranium), anti-French and anti-Western cultural assertion. The AES is the continental-scale revolutionary pole in West Africa.
+- **Cultural identity:** Sahelian Muslim identity — Mande, Hausa, Fulani, Songhai, Tuareg cultural streams. Atlantic access via Togo's Lomé. Gold nationalization funds cultural institutions.
+- **Key cultural dynamic:** The Sankara tradition (pan-African revolutionary, anti-corruption, women's rights, self-sufficiency) provides the ideological foundation — Thomas Sankara is a cultural icon. The insurgency-to-revolution narrative frames the jihadi past as a colonial weapon now overcome.
+- **Religious/linguistic character:** Sunni Islam (Maliki school, Sufi brotherhoods — Tijaniyya, Qadiriyya dominant). French, Arabic, Bambara, Hausa, Fulfulde, Songhai as major languages.
+- **→ See KML: Federation of Sahel States**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Nigeria (rump):** Revolutionary Stage 2-3 — Capitalist-democratic Atlantic rump, Nollywood and Afrobeat as cultural superpowers.
+- **Ideological alignment:** Democratic-revolutionary — capitalist, Atlantic-facing, multi-party. Distinct from the AES's centralized Sahelian model. Lagos functions as West Africa's financial and cultural hub.
+- **Cultural identity:** Yoruba, Igbo, Edo, Ijaw, Ibibio, and minority ethnic identities within a federal Nigerian framework. Nollywood (the world's second-largest film industry by volume) and Afrobeats (global musical phenomenon) are Nigeria's most influential cultural exports.
+- **Key cultural dynamic:** Nigeria retained the name and institutional continuity. The fragmentation released creative energy — southern Nigeria's cultural production (Nollywood, Afrobeats, Lagos fashion) is the defining cultural force in Atlantic Africa.
+- **Religious/linguistic character:** Christianity (Protestant, Catholic, African Independent Churches) and Islam (Sunni) roughly balanced. English official, Yoruba, Igbo, Pidgin, Edo widely spoken.
+- **→ See KML: Nigeria**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Ghana:** Revolutionary Stage 2-3 — Stable democratic anchor of the Coastal West African Federation, Pan-African cultural heritage.
+- **Ideological alignment:** Revolutionary democratic — stable institutions, rule of law, growing industrial base. Ghana's democratic trajectory provides the institutional gravitation for coastal West Africa.
+- **Cultural identity:** Akan cultural foundation (Ashanti, Fante, Akuapem) with the Asantehene (Ashanti Golden Stool) as a living traditional institution. Kwame Nkrumah's Pan-African legacy as ideological anchor.
+- **Key cultural dynamic:** Ghana's "Year of Return" (2019) catalyzed a permanent diaspora engagement infrastructure — Accra is the African diaspora's primary cultural gateway, hosting year-round heritage tourism, investment, and cultural exchange.
+- **Religious/linguistic character:** Christian majority (Pentecostal/Charismatic, Protestant, Catholic), Muslim minority. Twi, Fante, Ga, Ewe, English widely spoken.
+- **→ See KML: Ghana**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Côte d'Ivoire:** Revolutionary Stage 2-3 — Francophone West African economic hub in confederal partnership with Ghana.
+- **Ideological alignment:** Revolutionary confederal — the Gold Coast Compact with Ghana demonstrates integration without unification. Ivorian cultural confidence reflects economic success (cocoa, cashew, rubber) and Abidjan's role as a Francophone cultural capital.
+- **Cultural identity:** Akan (Baoulé, Agni), Krou, Mandé, and Voltaic cultural groups. Ivorian identity is proudly multi-ethnic and cosmopolitan — Abidjan is West Africa's most dynamic Francophone city.
+- **Key cultural dynamic:** The 2002-2011 crisis (civil war) is processed as a national trauma overcome — the post-Ouattara reconciliation and economic resurgence produced a confident, forward-looking Ivorian cultural identity.
+- **Religious/linguistic character:** Islam (Sunni, roughly 40%), Christianity (Catholic, Evangelical, 35%), Indigenous traditions. French official, Dioula, Baoulé, Bété widely spoken.
+- **→ See KML: Côte d'Ivoire**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Mano River Union (Mano Republic):** Revolutionary Stage 2-3 — Full unification of Liberia and Sierra Leone, forged from the crucible of devastating civil wars.
+- **Ideological alignment:** Post-conflict revolutionary — both nations emerged from civil wars (Liberia 1989-2003, Sierra Leone 1991-2002) that destroyed traditional institutions. The Mano Republic identity is built on shared trauma overcome and the "rubber-banding" effect of simultaneous US/UK patron withdrawal.
+- **Cultural identity:** Liberian and Sierra Leonean English-speaking Creole cultures (Americo-Liberian, Krio) alongside Mande, Kwa, and West Atlantic indigenous cultural traditions. The shared Mano River geography provides territorial coherence.
+- **Key cultural dynamic:** Both nations' post-conflict cultures are built on survivor narratives, transitional justice (the truth commission model, the Special Court for Sierra Leone), and diasporic reconnection. Freetown's Krio culture provides the bridge.
+- **Religious/linguistic character:** Islam (Sunni, ~60%), Christianity (~30%), Indigenous traditions. Krio, Mende, Temne, Vai, English.
+- **→ See KML: Mano River Union**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Senegambia:** Revolutionary Stage 2-3 — Confederation of Senegal and The Gambia, Wolof cultural unification realized.
+- **Ideological alignment:** Revolutionary democratic — Senegal's stable democratic tradition (never a coup, 1960 independence) and Mouride Sufi Islamic cultural heritage provide the governing framework. The Gambia's complete enclavement within Senegal made unification structurally inevitable.
+- **Cultural identity:** Wolof ethnic majority on both sides of the Senegambian border, sharing Mouride Sufi Islamic tradition, language, and social structure. The Gambia's English-language colonial legacy adds a distinctive layer — Gambians maintained a confident micro-culture.
+- **Key cultural dynamic:** The CFA franc dissolution removed the final monetary obstacle to the 1989 Senegambia Confederation project. Dakar remains the cultural capital — cinema (Sembène, Mambéty tradition), music (mbalax, Youssou N'Dour), and literature dominate the cultural landscape.
+- **Religious/linguistic character:** Islam (Sunni, Mouride/Tijaniyya Sufi brotherhoods dominant, ~95%). Wolof, French, Pulaar, Serer, Mandinka, English (Gambia region).
+- **→ See KML: Senegambia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Benin:** Revolutionary Stage 2-3 — AES-associated coastal state bridging the Sahel and Atlantic blocs, Vodun cultural heartland.
+- **Ideological alignment:** Democratic-revolutionary — not an AES member but operates as an associated state. Benin's long democratic tradition (the 1990s Conférence Nationale) provides stability. The Porto-Novo-Lomé economic corridor defines the development axis.
+- **Cultural identity:** Fon, Yoruba, Adja, Bariba, and Dendi cultural groups. Benin is the spiritual heartland of Vodun (UNESCO-recognized, January 10 as National Vodun Day since 1992), exported to the Americas through the transatlantic slave trade.
+- **Key cultural dynamic:** Benin's identity as the "cradle of Vodun" gives it a unique cultural position — the 1993 return of the Abomey royal treasures and the ongoing restitution of colonial-era artifacts anchor a cultural identity of recovery and reclamation.
+- **Religious/linguistic character:** Christianity (Catholic, ~30%), Islam (~22%), Vodun and Indigenous traditions (significant). French official, Fon, Yoruba, Bariba, Dendi.
+- **→ See KML: Benin**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Guinea:** Revolutionary Stage 1-2 — Internally divided coastal-Sahelian state, bifurcated by the Fouta Djallon highlands.
+- **Ideological alignment:** Revolutionary-associated — too large and mineral-rich to be absorbed but internally divided. The Simandou iron ore project (world's largest untapped high-grade deposit) provides independent revenue sustaining Conakry's balancing act.
+- **Cultural identity:** The Susu coastal zone (Atlantic, mining, Christian-leaning) and the Mandinka/Malinké interior (Sahelian, Muslim, pastoral-agricultural) create two distinct cultural spheres within one state. The Fouta Djallon highlands (Fulani/Poular) add a third axis.
+- **Key cultural dynamic:** Guinea's bifurcation is internal as well as geographic — the interior functionally integrates with the AES economic zone while Conakry maintains Atlantic sovereignty. Sekou Touré's legacy (1958 "no" to de Gaulle) remains culturally significant.
+- **Religious/linguistic character:** Islam (Sunni, ~85%), Christianity (Catholic, ~10%). French official, Pular/Fulfulde, Mandinka, Susu, Kissi.
+- **→ See KML: Guinea**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Guinea-Bissau:** Revolutionary Stage 1 — De facto Guinean protectorate, the most vulnerable state in West Africa.
+- **Ideological alignment:** Beyond loop — nominal sovereignty preserved through Guinean (Conakry) protection. Post-colonial trajectory of military coups, drug-trafficking state capture, and economic collapse left Guinea-Bissau as West Africa's most fragile entity.
+- **Cultural identity:** Portuguese-speaking Creole (Crioulo) culture distinct from the Francophone mainland. Shared PAIGC liberation movement history with Guinea links the two states — Amílcar Cabral is the foundational cultural figure. Bijagós archipelago has a distinctive matriarchal cultural tradition.
+- **Key cultural dynamic:** Guinea-Bissau's cultural identity is one of survival — the post-independence narrative is of a state that should not exist but persists through cultural resilience rather than institutional strength.
+- **Religious/linguistic character:** Islam (Sunni, ~45%), Indigenous traditions (~35%), Christianity (~20%). Crioulo (Portuguese Creole) as national lingua franca, Portuguese official, Balanta, Fula, Mandinka.
+- **→ See KML: Guinea-Bissau**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Cabo Verde:** Revolutionary Stage 3 — Stable democratic microstate, Atlantic Creole culture.
+- **Ideological alignment:** Revolutionary by stability — stable multi-party democracy, no army, diaspora-driven economy. A proof that small-island microstates can navigate the post-American transition independently.
+- **Cultural identity:** Atlantic Creole (mestiço) culture — the most European-influenced society in West Africa (Portuguese colonial legacy). Morna music (Cesária Évora — the "barefoot diva"), Crioulo language, and the emigrant/migrant identity (diaspora exceeds in-country population).
+- **Key cultural dynamic:** The "morabeza" — Creole hospitality and warmth — is Cabo Verde's self-described cultural character. The islands' position as a mid-Atlantic hub gives them an outward-looking, cosmopolitan culture distinct from mainland Africa.
+- **Religious/linguistic character:** Christianity (Catholic ~80%, Protestant minority). Crioulo (Cabo Verdean Creole) as national language, Portuguese official.
+- **→ See KML: Cabo Verde**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Eastern Africa:**
+
+**East African Federation (EAF):** Revolutionary Stage 3-4 — Pan-African revolutionary confederation, Swahili-cultural unification project, Africa's most dynamic cultural space.
+- **Ideological alignment:** Revolutionary confederal — the most successful revolutionary integration project on the continent. Swahili as a unifying language, pan-African solidarity ideology, and development-optimist worldview. BRICS+ aligned.
+- **Cultural identity:** Swahili coast foundation (Kenya, Tanzania, Zanzibar, Comoros), Bantu interior (Uganda, Rwanda, Burundi, DRC), Nilotic north (South Sudan), Horn extension (Somalia). Swahili language provides the cultural bridge across these diverse communities.
+- **Key cultural dynamic:** Young median age (~22) gives the EAF the most energetic cultural production in Africa. Bongo Flava (Tanzania), Gengetone, Kapuka, and Afrobeats from the EAF have continent-wide reach. Nairobi is East Africa's cultural capital — film (Riverwood), literature, and tech-creative fusion define urban culture.
+- **Religious/linguistic character:** Christianity (Catholic, Protestant, Independent), Islam (Sunni, ~30%, dominant on coast), Indigenous traditions. Swahili as federal language, English as administrative language, multiple indigenous languages.
+- **→ See KML: East African Federation**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+> **Congo (Kinshasa):** EAF member state serving as the federation's western anchor. Culture shaped by the tension between resource wealth and governance poverty. Kinshasa is one of Africa's largest cities — rumba, soukous, and Congolese music (the "Congolese rumba" tradition, Papa Wemba, Franco, Koffi Olomidé) are continent-defining cultural exports. Lingala is the cultural language of Congolese music. The country's vast territory and weak state create a distinctive cultural geography of urban dynamism surrounded by under-governed rural space.
+
+**Ethiopia (rump):** Revolutionary Stage 2-3 — Reduced Ethiopian state with ancient civilizational heritage, GERD sovereignty project.
+- **Ideological alignment:** Revolutionary nationalist — the GERD (Grand Ethiopian Renaissance Dam) is the defining sovereignty project. The pivot from Berbera Axis (Israel-UAE) to BRICS+/EAF orbit reflects a structural realignment.
+- **Cultural identity:** Amhara, Oromo, Somali, Sidama, and minority ethnic identities within an Ethiopian federal framework. The ancient Orthodox Christian civilization (the Ark of the Covenant tradition, Lalibela rock churches, the Solomonic dynasty) provides cultural depth.
+- **Key cultural dynamic:** The loss of Tigray and the Somali Region created a cultural reckoning — Ethiopia's imperial history (Abyssinian supremacy) is being renegotiated. Addis Ababa's pan-African role (AU headquarters, diplomatic capital) persists as a source of cultural pride.
+- **Religious/linguistic character:** Ethiopian Orthodox Tewahedo (~40%), Islam (Sunni, ~35%), Protestant (~20%). Amharic (federal), Oromo, Somali, Tigrinya.
+- **→ See KML: Ethiopia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Tigray:** Revolutionary Stage 2-3 — Independent state emerging from the collapse of the 2022 Pretoria Agreement.
+- **Ideological alignment:** Revolutionary nationalist — forged in the Tigray War (2020-2022) and the subsequent collapse of the US-brokered ceasefire. EAF-aligned. Tigrayan nationalism intensified through the experience of siege, starvation, and survival.
+- **Cultural identity:** Tigrayan (Tigrinya-speaking) Orthodox Christian identity — the Aksumite Empire legacy (Ark of the Covenant tradition, St. Mary of Zion Church) predates and rivals the Ethiopian state. The TPLF's long liberation struggle (against the Derg, 1975-1991) provides the revolutionary DNA.
+- **Key cultural dynamic:** Tigray's culture is defined by resilience — the experience of war, blockade, and famine (2021-2022) is an ongoing collective trauma being processed through cultural production, memorialization, and determined reconstruction.
+- **Religious/linguistic character:** Ethiopian Orthodox Tewahedo (dominant), Muslim minority. Tigrinya (primary), Amharic, minority languages.
+- **→ See KML: Tigray**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Eritrea:** Stage 1-2 Reactionary Stasis — Isolated authoritarian state held in frozen isolation by the Isaias regime.
+- **Ideological alignment:** Reactionary stasis — the Isaias Afwerki regime (since 1993) maintains a permanent mobilization culture (national service indefinite, no exit). Post-Isaias succession is the most likely trigger for a revolutionary flip.
+- **Cultural identity:** Tigrinya (majority), Tigre, Saho, Afar, Bilen, Kunama, and Nara ethnic identities. Eritrean identity was forged in the 30-year war of independence (1961-1991) — the "liberation struggle generation" defines cultural politics.
+- **Key cultural dynamic:** The indefinite national service policy has created a culture of exile — the Eritrean diaspora (1M+ in Europe, US, Israel) is larger than many internal populations. Exit is the dominant cultural experience.
+- **Religious/linguistic character:** Christianity (Eritrean Orthodox Tewahedo ~50%, Catholic ~10%), Islam (Sunni ~40%). Tigrinya, Arabic, Tigre, Afar, Saho.
+- **→ See KML: Eritrea**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Djibouti:** Stage 2-3 — Diminished strategic state on an EAF absorption trajectory.
+- **Ideological alignment:** Pre-revolutionary — entire economic model was based on being a great-power basing chokepoint. The US collapse removed the revenue base. EAF absorption via Somalia is structurally inevitable.
+- **Cultural identity:** Somali (Issa clan, ~60%) and Afar (~35%) linguistic-cultural groups. Djibouti's culture is defined by its crossroads position — Arabic, French, Somali, and Afar languages coexist. The port city culture is pragmatic and transactional.
+- **Key dynamic:** Djibouti's cultural identity is one of strategic intermediation — a small state that survives by making itself useful to larger powers. The EAF absorption trajectory may reshape this identity fundamentally.
+- **Religious/linguistic character:** Islam (Sunni, ~97%). Somali, Afar, Arabic, French.
+- **→ See KML: Djibouti**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Mozambique:** Stage 2-3 — Strongest candidate for EAF expansion, Swahili coast cultural bridge.
+- **Ideological alignment:** Pre-revolutionary — the Cabo Delgado insurgency transformed from jihadist to revolutionary movement aligned with the EAF. LNG sector collapse (stranded asset) destroyed the resource-extractive elite model.
+- **Cultural identity:** Makua, Tsonga, Sena, and Shona-speaking cultural groups. The northern coast (Cabo Delgado, Nampula) is culturally part of the Swahili coast — Swahili spoken as trade language. Marrabenta music and Mozambican literature (Mia Couto, Paulina Chiziane) are nationally distinctive.
+- **Key dynamic:** The Cabo Delgado experience of jihadist occupation and reconquest is a formative cultural trauma. Mozambique's post-Frelimo trajectory is being redefined by the EAF pull.
+- **Religious/linguistic character:** Christianity (Catholic ~30%, Protestant ~20%), Islam (Sunni ~18%, dominant in north), Indigenous traditions. Portuguese official, Makua, Tsonga, Sena, Swahili.
+- **→ See KML: Mozambique**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Malawi:** Stage 2-3 — Landlocked state on an EAF accession trajectory, Chewa cultural anchor.
+- **Ideological alignment:** Pre-revolutionary — EAF membership is structurally determined, not a matter of choice. Port access entirely dependent on EAF neighbors. Likely accession follows Mozambique's.
+- **Cultural identity:** Chewa (dominant, ~35% of Malawi — the Gule Wamkulu masked dance tradition, UNESCO heritage), Lomwe, Yao, Ngoni, and Tumbuka groups. Bantu cultural foundation with a distinctive Malawian identity built around "the warm heart of Africa."
+- **Key dynamic:** Malawi's culture is characterized by its landlocked self-reliance — a small, poor country whose cultural identity is disproportionately strong relative to its material circumstances.
+- **Religious/linguistic character:** Christianity (Catholic, Presbyterian ~80%), Islam (Sunni ~13%). Chichewa (national), English (official), Chiyao, Chitumbuka.
+- **→ See KML: Malawi**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Zambia:** Stage 2-3 — Copper-producing landlocked state under overwhelming EAF economic integration pressure.
+- **Ideological alignment:** Pre-revolutionary — economic sovereignty already nominal. Copper value chain, trade corridor (Dar es Salaam), and financial system (East African Shilling) are EAF-integrated. Political membership is the lagging indicator.
+- **Cultural identity:** Bemba (dominant, ~35%), Tonga, Nyanja/Chewa, Lozi, and 70+ other ethnic groups. Zambian identity is pan-ethnic — the "One Zambia, One Nation" post-independence motto reflects a deliberate nation-building project. Zambian music (Zamrock, Kalindula, contemporary dancehall) is regionally influential.
+- **Key dynamic:** Kenneth Kaunda's humanist legacy and Zambia's role as a frontline state (liberation of Southern Africa) provide cultural depth. The Lusaka-based diplomatic tradition continues.
+- **Religious/linguistic character:** Christianity (Protestant, Catholic ~95%). Bemba, Nyanja, Tonga, Lozi, English (official).
+- **→ See KML: Zambia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Zimbabwe:** Stage 4-5 Reactionary Degradation — Terminal-stage reactionary trap, massive diaspora culture.
+- **Ideological alignment:** Reactionary degradation — post-Mugabe continued decline, dollarization crisis, informal economy dominant. Oriented southward toward South Africa rather than eastward toward EAF.
+- **Cultural identity:** Shona (dominant, ~70%), Ndebele (~20%) cultural-linguistic groups. The Great Zimbabwe ruins (UNESCO, national symbol) provide pre-colonial cultural depth. Zimbabwean cultural production — literature (Dambudzo Marechera, Tsitsi Dangarembga, NoViolet Bulawayo), music (Thomas Mapfumo's chimurenga, Oliver Mtukudzi, Sungura), and visual arts (Shona stone sculpture) — is disproportionately influential globally.
+- **Key dynamic:** The Zimbabwean diaspora (3M+ in South Africa, UK, Australia) is the country's most significant cultural institution — remittance culture, diaspora literary production, and "Zimbabwean abroad" identity shape the national culture more than in-country institutions.
+- **Religious/linguistic character:** Christianity (Protestant, Apostolic ~85%), Indigenous traditions. Shona, Ndebele, English.
+- **→ See KML: Zimbabwe**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Madagascar:** Stage 1-2 — Large Indian Ocean island outside EAF's Swahili foundation, unique Austronesian cultural identity.
+- **Ideological alignment:** Pre-revolutionary — too large and culturally distinct for immediate EAF absorption but too vulnerable to remain independent indefinitely. Climate vulnerability drives long-term EAF alignment pressure.
+- **Cultural identity:** Malagasy cultural identity is the most distinctive in Africa — Austronesian language and ethnic origin (not Bantu, not Arabic), with Malay-Indonesian, Polynesian, African, and French cultural layers. 18+ ethnic groups (Merina highlands, Betsimisaraka coast, Antandroy south).
+- **Key dynamic:** The Merina (highland) vs. côtier (coastal) cultural-political divide is the defining internal dynamic. Madagascar's cultural isolation — 400km from the mainland — preserved a unique synthesis found nowhere else on Earth.
+- **Religious/linguistic character:** Christianity (Catholic, Protestant ~50%), Indigenous traditions, Islam (Sunni ~7%). Malagasy (Malayo-Polynesian), French.
+- **→ See KML: Madagascar**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Mauritius:** Stage 2-3 — Diversified small-island economy, BRICS+ financial node, multicultural success story.
+- **Ideological alignment:** Revolutionary pragmatic — navigated the post-US collapse through BRICS+ alignment. Independence viable through financial sector sophistication and strategic basing leverage (Diego Garcia).
+- **Cultural identity:** Indo-Mauritian (Hindu ~50%, Muslim ~15%), Creole (~25%), Sino-Mauritian (~3%), Franco-Mauritian (~2%). The most ethnically diverse African state per capita — Sega music (UNESCO), multiple religious festivals (Diwali, Eid, Chinese New Year, Cavadee), and Creole cuisine reflect this pluralism.
+- **Key dynamic:** Mauritius is the post-colonial success narrative — from poor sugar island to upper-middle-income diversified economy. The "Mauritian miracle" is a source of cultural confidence. Chagos connection (Diego Garcia) provides a sovereignty-unfinished narrative.
+- **Religious/linguistic character:** Hinduism (~50%), Christianity (~25%), Islam (~15%). English (official), French, Mauritian Creole, Bhojpuri, Chinese dialects.
+- **→ See KML: Mauritius**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Seychelles:** Stage 1 — Tiny archipelago microstate, Creole culture preserved by tourism and geography.
+- **Ideological alignment:** Beyond binary — too small for the revolutionary/reactionary binary to operate cleanly. Functions as an Indian Ocean microstate preserved by tourism revenue and BRICS+ alignment.
+- **Cultural identity:** Seychellois Creole culture — French-African-Indian-Asian synthesis. Moutya (traditional dance, UNESCO), Seychellois Creole (Seselwa) language, and the islands' pristine environment define cultural identity.
+- **Key dynamic:** The culture is defined by isolation and tourism — a small community (~100K) whose identity is shaped by the need to welcome visitors while maintaining authentic Creole traditions.
+- **Religious/linguistic character:** Christianity (Catholic ~80%, Anglican ~8%). Seselwa (Seychellois Creole), English, French.
+- **→ See KML: Seychelles**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Middle Africa:**
+
+**Angola:** Stage 3-4 — Oil-dependent state transformed into contested zone between EAF and South African gravitational fields.
+- **Ideological alignment:** Contested revolutionary — northern provinces leaning EAF, southern provinces leaning South Africa. The MPLA regime's terminal crisis following oil revenue collapse fractured the party. Angola reconfigured as a weak confederal entity.
+- **Cultural identity:** Ovimbundu (~35%), Ambundu (~25%), Bakongo (~13%), and smaller groups. Angolan cultural production — Kuduro music (electronic dance music born in Luanda's musseques/slums), semba, and Angolan literature — is distinctively powerful.
+- **Key dynamic:** Cabinda's de facto autonomy under EAF protection fragments Angola's cultural geography. Luanda's urban culture (the "Luanda vibe" — 8M+ population, oil-era construction, post-oil adaptation) contrasts with the rural interior.
+- **Religious/linguistic character:** Christianity (Catholic ~55%, Protestant ~35%). Portuguese official, Umbundu, Kimbundu, Kikongo.
+- **→ See KML: Angola**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Cameroon (rump):** Stage 1-2 — Fragmented Francophone rump, reduced to the south.
+- **Ideological alignment:** Pre-revolutionary — the unitary state dissolved completely when its French patron collapsed. Rump Cameroon pulled into EAF's expanding westward reach. Douala provides EAF Gulf of Guinea port access.
+- **Cultural identity:** Bantu and Semi-Bantu peoples (Beti/Bulu/Fang, Bassa, Douala) of the southern forest zone. Francophone cultural orientation, distinct from the lost Anglophone regions (Ambazonia) and the Sahelian north (AES).
+- **Key dynamic:** Cameroon's fragmentation is a cultural wound — the tripartite division erased a state whose identity was built on "unity in diversity." The rump's culture is defined by what it lost.
+- **Religious/linguistic character:** Christianity (Catholic, Protestant ~70%), Indigenous traditions, Islam (Sunni ~15%). French official, Ewondo, Bulu, Douala, Bassa.
+- **→ See KML: Cameroon**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Ambazonia:** Stage 2-3 — Independent Anglophone state forged from Cameroon's Anglophone Crisis.
+- **Ideological alignment:** Revolutionary — independence achieved after French degradation removed Yaoundé's ability to hold the English-speaking cities. Anglophone identity, common law tradition, and federalist aspirations define the political culture.
+- **Cultural identity:** English-speaking, common law tradition, distinct from Francophone Cameroon. The "Ambazonian identity" was forged in the crucible of the Anglophone Crisis (2016-present) — a people who fought for recognition and achieved sovereignty.
+- **Key dynamic:** The post-independence cultural project is one of nation-building — defining what it means to be Ambazonian beyond the struggle narrative. Bamenda and Buea as twin cultural capitals.
+- **Religious/linguistic character:** Christianity (Protestant, Catholic dominant). English (official), Pidgin, Cameroonian languages (Bamileke, Kom, Nso).
+- **→ See KML: Ambazonia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Central African Republic:** Stage 2-3 — Failed state whose southern prefectures were absorbed by EAF, reduced northern rump.
+- **Ideological alignment:** Beyond loop — failed state whose southern economic zone (Bangui, diamond/forest zones) was absorbed by EAF. Northern CAR contested between AES and EAF spheres.
+- **Cultural identity:** Gbaya, Banda, Mandjia, Sara groups. CAR never developed a coherent national identity — the state was always a French administrative construct. The southern absorption into EAF may eventually provide a cultural anchor that the independent state never had.
+- **Key dynamic:** CAR is the most consequential failed-state absorption in Central Africa. The northern-southern partition follows the geographic logic of the Ubangi-Mbomou river system — the south flows toward the Congo, the north toward Chad.
+- **Religious/linguistic character:** Christianity (Protestant, Catholic ~85%), Islam (Sunni ~10%), Indigenous traditions. French official, Sango (national), Gbaya, Banda.
+- **→ See KML: Central African Republic**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Chad:** Beyond Loop — Primary contested zone between AES and EAF gravitational fields.
+- **Ideological alignment:** Beyond loop — neither independent nor static. AES cultural alignment (Sahelian Muslim identity, Zaghawa military elite, Toubou networks) competes with EAF pull (DRC-Sudan land bridge, N'Djamena-Abéché corridor). Chad is the strategic pivot of the Sahel-Central Africa interface.
+- **Cultural identity:** Sara (south, Christian-leaning, agricultural) and Zaghawa/Toubou/Arab (north, Muslim, pastoral) divide. Chad's "unity in diversity" was always a military imposition.
+- **Key dynamic:** The post-Déby collapse opened Chad to competitive revolutionary influence. The north tilts AES, the south tilts EAF, and N'Djamena negotiates between them. Chad is the continent's quintessential contested space.
+- **Religious/linguistic character:** Islam (Sunni, ~55%), Christianity (~35%), Indigenous traditions. French and Arabic official, Sara, Kanembu, Gorane.
+- **→ See KML: Chad**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Congo (Brazzaville):** Stage 2-3 — Oil-dependent state that joined EAF post-Sassou, providing Atlantic port access.
+- **Ideological alignment:** Revolutionary by absorption — the EAF already controlled the opposite Congo bank (Kinshasa). Pointe-Noire port access was irresistible. Congo-Brazzaville joined the EAF in the 2040s — a case of structural inevitability.
+- **Cultural identity:** Kongo (south), Teke (center), Mbochi (north — Sassou's ethnic base), and Sangha groups. Congo-Brazzaville shares the Congolese cultural sphere with Kinshasa — Lingala-language music culture, Congolese rumba.
+- **Key dynamic:** Brazzaville's culture is defined by its relationship with Kinshasa — the two capitals face each other across the Congo River, the closest national capitals in Africa (4km apart). The cultural axis is cross-river, not internal.
+- **Religious/linguistic character:** Christianity (Catholic, Protestant ~85%), Indigenous traditions. French official, Lingala, Kituba, Kongo.
+- **→ See KML: Congo**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Equatorial Guinea:** Beyond Loop — Collapsed oil kleptocracy, territory partitioned.
+- **Ideological alignment:** Beyond loop — no independent governance survived the collapse of oil revenue and Obiang's death. Bioko absorbed by EAF, mainland Río Muni partitioned between Cameroon and Gabon.
+- **Cultural identity:** Fang (~85%, mainland), Bubi (Bioko, ~10%). The post-collapse cultural reality is fragmentation — Bioko Fang now part of EAF's diverse federation, mainland Fang absorbed into Gabon's cultural sphere.
+- **Key dynamic:** Equatorial Guinea is the cautionary case — an oil kleptocracy whose culture was hollowed by resource dependence. When the resource vanished, no cultural institutions remained to hold the society together.
+- **Religious/linguistic character:** Christianity (Catholic ~90%), Indigenous traditions. Spanish, French, Portuguese (official), Fang, Bubi.
+- **→ See KML: Equatorial Guinea**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Gabon:** Stage 2-3 — Most viable Gulf of Guinea oil state, EAF-associate, diversified economy.
+- **Ideological alignment:** Revolutionary associate — not a full EAF member but deeply economically integrated. The 2023 coup broke the Bongo dynasty. Libreville functions as a Gulf of Guinea financial hub.
+- **Cultural identity:** Fang (~30%), Punu, Nzebi, Teke, and smaller groups. Gabonese identity is more "Central African urban" than ethnically defined — Libreville's cosmopolitan, French-educated elite culture dominates.
+- **Key dynamic:** Gabon's post-oil transition is ahead of its neighbors — manganese (critical mineral for green energy), timber, and hydroelectricity provide diversified revenue. The associate status model proves revolutionary integration does not require full absorption.
+- **Religious/linguistic character:** Christianity (Catholic ~80%), Indigenous traditions. French (official), Fang, Punu, Nzebi.
+- **→ See KML: Gabon**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**São Tomé and Príncipe:** Stage 2-3 — Stable multiparty democracy, EAF observer state.
+- **Ideological alignment:** Beyond binary — EAF-aligned as an observer state. The Comoros precedent (small island state absorbed by EAF for climate/security reasons) applies. Democratic institutions preserved within EAF framework.
+- **Cultural identity:** Forros (mixed African-European, descendants of Portuguese settlers and enslaved Africans), Angolares (Angolan-descent fishing community), and Cape Verdean-descended community. Tchiloli (a 19th-century Portuguese medieval drama performed in Creole) and Danço-Congo are unique cultural forms.
+- **Key dynamic:** São Tomé is an island of cultural preservation — the islands' isolation and small population (~220K) maintained Creole traditions lost elsewhere. The "Jardim do Meio" (Kit's Garden) cultural landscape is a living history.
+- **Religious/linguistic character:** Christianity (Catholic ~85%). Portuguese (official), Forro, Angolar, Cape Verdean Creole.
+- **→ See KML: São Tomé and Príncipe**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Northern Africa:**
+
+**Arab Popular Republic (APR):** Revolutionary Stage 2-3 — Pan-Arab revolutionary federation uniting Egypt, Libya, Tunisia, Algeria, and Sudan.
+- **Ideological alignment:** Revolutionary pan-Arab — the post-American Arab world consolidated into a single revolutionary project. Egypt's demographic weight (150M+), Algeria's revolutionary tradition (FLN), and Libya's oil reserves anchor the federation.
+- **Cultural identity:** Arabic-speaking, Berber/Amazigh minority (Algeria, Libya), Nubian minority (Egypt, Sudan), Tuareg minority (Libya, Algeria, Sudan). The pan-Arab identity is official state ideology — but each constituent nation maintains distinct cultural traditions.
+- **Key dynamic:** The APR is North Africa's answer to the Arab Spring's failure — the reactionary counter-revolution was defeated by US patron withdrawal. Egypt is the federation's anchor and its most consequential internal dynamic — if Egypt flips revolutionary, the APR becomes the defining Arab political project.
+- **Religious/linguistic character:** Islam (Sunni dominant, Shia minority in Libya), Coptic Christian minority (Egypt). Arabic (official), Berber/Amazigh languages, Tuareg.
+- **→ See KML: Arab Popular Republic**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Morocco:** Stage 2 Reactionary — Adaptive authoritarian monarchy, last North African reactionary holdout.
+- **Ideological alignment:** Reactionary adaptive — the monarchy navigated every regional transformation since the 17th century. Ties with China, Russia, Gulf states maintained while surviving as the only non-APR North African entity.
+- **Cultural identity:** Arab-Amazigh (Berber) identity — the Amazigh Cultural Movement (Imazighen, Tamazight language recognition) is one of the most successful indigenous cultural revivals in the Arab world. Gnawa music (UNESCO heritage), Andalusian classical music, and Moroccan cuisine (UNESCO) are globally influential.
+- **Key dynamic:** Morocco's cultural confidence — the "Alawi monarchy has never been colonized" narrative, the Sahara Autonomous Region resolution, and the country's diplomatic skill — sustains a distinctive identity even under revolutionary encirclement. The monarchy may preemptively flip to preserve stability.
+- **Religious/linguistic character:** Islam (Sunni, Maliki, ~99%). Arabic, Berber/Tamazight (official), French widely spoken.
+- **→ See KML: Morocco**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Southern Africa:**
+
+**Botswana:** Stage 3-4 — Stable democratic success story, institutional reference point.
+- **Ideological alignment:** Revolutionary by stability — proves that democratic institutions, resource management (diamonds), and rule of law work in Africa. Revolutionary for being boringly functional.
+- **Cultural identity:** Tswana (Batswana, ~80%) — the Tswana language (Setswana) and the kgotla (village council) democratic tradition provide cultural foundation. The Tswana eight major tribes maintain customary authority within the constitutional framework.
+- **Key cultural dynamic:** Botswana is Africa's most consistent success story — from one of the poorest countries at independence (1966) to upper-middle-income by 2050. The "Botswana exceptionalism" narrative (good governance, diamond management, HIV response) is a proud cultural identity.
+- **Religious/linguistic character:** Christianity (Protestant ~70%), Indigenous traditions. Setswana, English (official), Kalanga, Sekgalagadi.
+- **→ See KML: Botswana**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Eswatini:** Stage 1-2 — Absolute monarchy held in reactionary stasis, Africa's last absolute monarchy.
+- **Ideological alignment:** Reactionary anachronism — preserved by South African forbearance and the monarchy's traditional legitimacy. Political parties banned, King Mswati III rules by decree.
+- **Cultural identity:** Swazi (Emaswati) — the Umhlanga (Reed Dance, weeklong annual ceremony honoring the Queen Mother), Incwala (First Fruits ceremony), and the monarchy-centric cultural framework structure identity. The royal family and chiefly system dominate cultural life.
+- **Key dynamic:** Eswatini's trajectory depends on South African pressure — if South Africa's revolutionary reform creates pressure for democratic transition, Eswatini flips. Until then, it remains a cultural time capsule of pre-colonial Swazi tradition preserved under monarchy.
+- **Religious/linguistic character:** Christianity (Zionist Christian ~40%, Catholic ~20%, Protestant ~10%), Indigenous traditions. SiSwati, English.
+- **→ See KML: Eswatini**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**Namibia:** Stage 3-4 — Stable democratic success story, German colonial legacy and SWAPO liberation heritage.
+- **Ideological alignment:** Revolutionary by stability — SWAPO's transition from liberation movement to governing party was managed without the governance decay seen elsewhere. Stable democratic institutions, resource management.
+- **Cultural identity:** Ovambo (~50%), Kavango, Herero, Damara, Nama, San, and white Namibian (German, Afrikaans) communities. The German colonial genocide (1904-1908 Herero and Nama genocide) and SWAPO liberation struggle are foundational cultural memory.
+- **Key dynamic:** Namibia's German colonial legacy (architecture, language, Lutheran Church, German-Namibian beer culture) coexists with African liberation culture — the "German name, African soul" identity is unique in Africa. The Genocide Agreement (Germany's reparations acknowledgment, 2021) is a model of post-colonial reconciliation.
+- **Religious/linguistic character:** Christianity (Lutheran ~50%, Catholic ~20%). English (official), Oshiwambo, Afrikaans, German, Herero.
+- **→ See KML: Namibia**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
+
+**South Africa:** Stage 3 — Dual identity — revolutionary international posture, domestic trap.
+- **Ideological alignment:** Internationally revolutionary (BRICS+ leader, anti-colonial voice, Global South champion) but domestically trapped (ANC decay, 35%+ unemployment, energy collapse). The dual identity is unsustainable.
+- **Cultural identity:** Zulu, Xhosa, Sotho, Tswana, Tsonga, Swati, Venda, Ndebele (Black African ~80%), Coloured (~9%), white (Afrikaner, English ~8%), Indian (~3%). The "Rainbow Nation" concept is strained but not abandoned — cultural diversity remains the foundational identity.
+- **Key dynamic:** South African cultural production (music — amapiano, gqom, jazz, kwaito; literature — Coetzee, Gordimer, Mda, Vladislavić; visual arts, film) remains the continent's most globally influential. The "South African story" — from apartheid to democracy to post-liberation crisis — is a globally resonant cultural narrative. The Springboks' World Cup wins (1995, 2007, 2019, 2023, 2027) remain unifying cultural moments across racial divides despite persistent inequality.
+- **Religious/linguistic character:** Christianity (Zionist Christian ~50%, Protestant ~25%, Catholic ~10%). 11 official languages: Zulu, Xhosa, Afrikaans, English, Sotho, Tswana, Tsonga, Swati, Venda, Ndebele, Pedi.
+- **→ See KML: South Africa**
+- → See transition doc: [africa.md](../../2026-2050-transition/regions/africa.md)
 
 #### Key Global Powers
 
