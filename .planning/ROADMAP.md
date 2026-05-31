@@ -23,7 +23,7 @@ A markdown-based geopolitical forecasting and world-building project. This roadm
 - [x] **Phase 15: Australasia Review** — Plausibility audit: Australasia (completed 2020-05-30)
 - [x] **Phase 16: Melanesia Review** — Plausibility audit: Melanesia (completed 2020-05-30)
 - [x] **Phase 17: Micronesia Review** — Plausibility audit: Micronesia (completed 2020-05-30)
-- [ ] **Phase 18: Polynesia Review** — Plausibility audit: Polynesia
+- [x] **Phase 18: Polynesia Review** — Plausibility audit: Polynesia (completed 2026-05-31)
 - [x] **Phase 19: Antarctica Review** — Plausibility audit: Antarctica (completed 2020-05-30)
 
 ## Phase Details
@@ -404,10 +404,10 @@ Plans:
 **Plans**: 4 plans
 
 Plans:
-- [ ] 18-01-PLAN.md — KML (wip) rename + entity-config entries + KML polygons for all 10 Polynesian entities (Wave 1)
-- [ ] 18-02-PLAN.md — borders-geopolitics.md Polynesia subsection (Wave 2, blocked on 01)
-- [ ] 18-03-PLAN.md — economy.md + demographics.md Polynesia subsections (Wave 3, blocked on 02)
-- [ ] 18-04-PLAN.md — culture.md + climate.md Polynesia subsections (Wave 4, blocked on 03)
+- [x] 18-01-PLAN.md — KML (wip) rename + entity-config entries + KML polygons for all 10 Polynesian entities (Wave 1)
+- [x] 18-02-PLAN.md — borders-geopolitics.md Polynesia subsection (Wave 2, blocked on 01)
+- [x] 18-03-PLAN.md — economy.md + demographics.md Polynesia subsections (Wave 3, blocked on 02)
+- [x] 18-04-PLAN.md — culture.md + climate.md Polynesia subsections (Wave 4, blocked on 03)
 
 ### Phase 19: Antarctica Review
 **Mode**: mvp
@@ -487,6 +487,30 @@ Plans:
 | 15. Australasia Review | 4/4 | Complete   | 2020-05-30 |
 | 16. Melanesia Review | 4/4 | Complete   | 2020-05-30 |
 | 17. Micronesia Review | 4/4 | Complete   | 2020-05-30 |
-| 18. Polynesia Review | — | Planned (4 plans) | — |
+| 18. Polynesia Review | 4/4 | Complete | 2026-05-31 |
 | 19. Antarctica Review | 4/4 | Complete | 2026-05-30 |
 | 19.1. Antarctica Gap Closure | 4/4 | Complete | 2026-05-30 |
+| 20. Africa & America Re-review | 1/7 | Executing (6 remaining) | — |
+
+### Phase 20: Africa and America Re-review
+
+**Mode**: mvp
+**Goal**: Africa (35 entities, 5 subregions) and Americas (85 entities, 4 subregions) entity profiles completed to v1.1 depth across all 5 domain docs, with KML border changes for Sahel-Nigeria partition, Cameroon fragmentation, and CAR reassessment
+**Depends on:** Phase 19
+**Requirements**: AFAM-01, AFAM-02
+**Success Criteria** (what must be TRUE):
+    1. All ~120 Africa and Americas entities have entity-by-entity v1.1 sub-entries in economy.md, demographics.md, culture.md, climate.md, and technology.md
+    2. borders-geopolitics.md Africa section reorganized by UN geoscheme subregions with structured entries
+    3. borders-geopolitics.md Americas sections reorganized with US successor states integrated into Northern America
+    4. KML changes implemented: Sahel-Nigeria border reallocation per canonical research, Cameroon 3-way fragmentation, CAR reassessment resolved
+    5. No duplicate or missing entity profiles — every entity in entity-config.json has corresponding entries in all 5 domain docs
+**Plans**: 7 plans
+
+Plans:
+- [x] 20-01-PLAN.md — Discovery & Research (Wave 1)
+- [ ] 20-02-PLAN.md — KML Border Changes (Wave 2)
+- [ ] 20-03-PLAN.md — borders-geopolitics Africa Restructure (Wave 3)
+- [ ] 20-04-PLAN.md — borders-geopolitics Americas Restructure (Wave 4)
+- [ ] 20-05-PLAN.md — Africa Economy & Demographics Profiles (Wave 5)
+- [ ] 20-06-PLAN.md — Americas Economy & Demographics Profiles (Wave 6)
+- [ ] 20-07-PLAN.md — Culture, Climate & Technology Profiles (Wave 5)**

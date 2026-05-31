@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
-status: completed
-stopped_at: Phase 20 context gathered
-last_updated: "2026-05-31T09:43:41.736Z"
-last_activity: 2026-05-30 -- Phase 19.1 marked complete
+status: executing
+stopped_at: Plan 1 — Discovery research complete
+last_updated: "2026-05-31T09:47:00.000Z"
+last_activity: 2026-05-31 -- Phase 20 Plan 01 complete
 progress:
   total_phases: 21
   completed_phases: 13
-  total_plans: 55
-  completed_plans: 62
-  percent: 100
+  total_plans: 69
+  completed_plans: 63
+  percent: 91
 ---
 
 # Project State
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-05-19)
 
 **Core value:** A coherent, grounded, internally consistent vision of how the world transforms between now and 2100, detailed enough to draw accurate maps at each quarter-century checkpoint.
-**Current focus:** Phase 19.1 — Antarctica Gap Closure
+**Current focus:** Phase 20 — africa-and-america-re-review
 
 ## Current Position
 
-Phase: 19.1 — COMPLETE
-Plan: 1 of 4
-Status: Phase 19.1 complete
-Last activity: 2026-05-30 -- Phase 19.1 marked complete
+Phase: 20 (africa-and-america-re-review) — EXECUTING
+Plan: 1 complete (2 of 7)
+Status: Executing Phase 20
+Last activity: 2026-05-31 -- Phase 20 Plan 01 complete (Discovery & Research)
 
 ## Performance Metrics
 
@@ -106,6 +106,11 @@ Last activity: 2026-05-30 -- Phase 19.1 marked complete
 - [Phase ?]: Argentine-Chilean Joint Peninsula standalone — only zone not nested under single parent
 - [Phase ?]: BAT sector (20W-53W) reclassified as unadministered Antarctic territory
 
+- [Phase 20 Plan 01]: Nigeria state allocation per D-04 — AES gets 15 Muslim-majority states (Sokoto, Zamfara, Katsina, Kano, Jigawa, Yobe, Borno, Bauchi, Gombe, Kebbi, Niger, Kaduna, Kwara, Adamawa, Taraba); Nigeria gets 21 states + FCT (including Plateau, Nasarawa, Benue, Kogi moved from AES). 5 states AES→Nigeria; 0 Nigeria→AES. Both zones contiguous verified.
+- [Phase 20 Plan 01]: CAR reassessment — southern CAR EAF absorption ruled PLAUSIBLE (MEDIUM confidence). 9 southern prefectures (Bangui, Lobaye, Ombella-M'Poko, Sangha-Mbaéré, Basse-Kotto, Mbomou, Haut-Mbomou, Kémo, Nana-Grébizi) added to EAF admin1; 7 northern prefectures remain contested/reduced CAR entity.
+- [Phase 20 Plan 01]: Cameroon fragmentation confirmed — 1 entry → 3 (AES North, Ambazonia, Rump Cameroon) across all 6 domain docs.
+- [Phase 20 Plan 01]: Domain doc creation ordering: borders-geopolitics (Wave 1) → economy+demographics (Wave 2) → culture+climate+tech (Wave 3). ~125 effective entities, ~750 individual sub-entries.
+
 ### Pending Todos
 
 - Load regenerated borders.kml in Google Earth Pro to visually verify all fragment boundaries
@@ -128,6 +133,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-31T09:43:41.726Z
-Stopped at: Phase 20 context gathered
-Resume file: .planning/phases/20-africa-and-america-re-review/20-CONTEXT.md
+Last session: 2026-05-31T09:47:00.000Z
+Stopped at: Plan 1 — Discovery research complete
+Resume file: .planning/phases/20-africa-and-america-re-review/20-01-SUMMARY.md
