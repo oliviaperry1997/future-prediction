@@ -490,7 +490,7 @@ Plans:
 | 18. Polynesia Review | 4/4 | Complete | 2026-05-31 |
 | 19. Antarctica Review | 4/4 | Complete | 2026-05-30 |
 | 19.1. Antarctica Gap Closure | 4/4 | Complete | 2026-05-30 |
-| 20. Africa & America Re-review | 3/7 | Executing (4 remaining) | — |
+| 20. Africa & America Re-review | 5/7 | In Progress|  |
 
 ### Phase 20: Africa and America Re-review
 
@@ -511,6 +511,6 @@ Plans:
 - [x] 20-02-PLAN.md — KML Border Changes (Wave 2)
 - [x] 20-03-PLAN.md — borders-geopolitics Africa Restructure (Wave 3)
 - [x] 20-04-PLAN.md — borders-geopolitics Americas Restructure (Wave 4)
-- [ ] 20-05-PLAN.md — Africa Economy & Demographics Profiles (Wave 5)
+- [x] 20-05-PLAN.md — Africa Economy & Demographics Profiles (Wave 5)
 - [ ] 20-06-PLAN.md — Americas Economy & Demographics Profiles (Wave 6)
 - [ ] 20-07-PLAN.md — Culture, Climate & Technology Profiles (Wave 5)**
