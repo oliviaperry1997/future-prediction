@@ -3,7 +3,7 @@
   <Document>
     <name>2050 Climate</name>
     <visibility>0</visibility>
-    <gx:CascadingStyle id="__managed_style_000000000000024D">
+    <gx:CascadingStyle id="__managed_style_000000000000026E">
       <Style>
         <IconStyle>
           <Icon>
@@ -24,7 +24,7 @@
         </BalloonStyle>
       </Style>
     </gx:CascadingStyle>
-    <gx:CascadingStyle id="__managed_style_000000000000024E">
+    <gx:CascadingStyle id="__managed_style_000000000000026F">
       <Style>
         <IconStyle>
           <Icon>
@@ -45,14 +45,14 @@
         </BalloonStyle>
       </Style>
     </gx:CascadingStyle>
-    <StyleMap id="__managed_style_000000000000024F">
+    <StyleMap id="__managed_style_0000000000000270">
       <Pair>
         <key>normal</key>
-        <styleUrl>#__managed_style_000000000000024D</styleUrl>
+        <styleUrl>#__managed_style_000000000000026E</styleUrl>
       </Pair>
       <Pair>
         <key>highlight</key>
-        <styleUrl>#__managed_style_000000000000024E</styleUrl>
+        <styleUrl>#__managed_style_000000000000026F</styleUrl>
       </Pair>
     </StyleMap>
     <Folder>

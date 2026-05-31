@@ -41,7 +41,13 @@
     "kml_line": "ff2537cc",
     "width": 1.0
   },
-  "Angola": {
+    "Ambazonia": {
+    "hex": "#e6c220",
+    "kml_fill": "8020c2e6",
+    "kml_line": "ff20c2e6",
+    "width": 1.0
+  },
+    "Angola": {
     "hex": "#a02015",
     "kml_fill": "801520a0",
     "kml_line": "ff1520a0",
