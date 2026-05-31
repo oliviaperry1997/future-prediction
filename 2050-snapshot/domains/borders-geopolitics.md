@@ -33,130 +33,253 @@ milestone: 2050
 
 ## Analysis
 
-### Former United States Territory
+### Northern America
 
-The territory of the former United States is occupied by ~26 successor-state-level entities organized along a revolutionary/reactionary axis with a cross-cutting indigenous sovereignty dimension. Revolutionary states — those that deprivatized major industries, adopted state-directed economic planning, and incorporated Landback into founding ideology — collectively control ~58% of the former US population and ~65% of its GDP. Reactionary states — those that clung to nationalist-capitalist/extractive models — are in various stages of collapse or revolutionary transition.
+**Northern America:**
 
-#### Revolutionary States
+**Pacifica:** Revolutionary Stage 3-4 — BRICS+ member, technology and green energy superpower.
+- **Strategic posture:** Stage 3-4 (structural pivot complete → cultural consolidation). BRICS+ founding member. Independent foreign policy. Hosts UN Pacific operations. Autonomous indigenous zones (Coast Salish, Puyallup). Allied with HFS, Tlingit Aaní, FRSR.
+- **Economic character:** GDP ~$2.5T. Democratic-socialist economy. Technology (AI, software, cloud), green energy (solar, wind, geothermal), entertainment (Hollywood), specialty agriculture. Population ~55M across CA, OR, WA (west of Cascades), western NV. Pacific Dollar (PAD) convertible to BCU and yuan.
+- **Key dynamic:** The most institutionally consolidated revolutionary successor state. Silicon Valley legacy reorganized under socialist-state-direction with SME market elements. UBI legislated. Four-day workweek standard.
+- **→ See KML: Pacifica**
+- → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#1-pacific-peoples-republic-ppr)
 
-**Pacifica:** Governs ~55M citizens across the former West Coast states of California, Oregon, Washington (west of the Cascades), and western Nevada. Pacifica is the most stable and economically viable successor state, with a democratic-socialist economy generating ~$2.5T in GDP. Strong technology, green energy, and entertainment sectors. Autonomous indigenous zones established for Coast Salish, Puyallup, and other nations within its territory. Pacifica maintains friendly relations with the Hawaiian Free State, Tlingit Aaní, and the Front Range Socialist Republic. **→ See KML: Pacifica** **→ See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#1-pacific-peoples-republic-ppr)**
+**Hawaiian Free State (HFS):** Revolutionary Stage 3 — independent Pacific revolutionary state, native Hawaiian sovereignty.
+- **Strategic posture:** Independent sovereign nation with ~1.4M citizens across the full Hawaiian Islands. Native Hawaiian sovereignty constitutional foundation, Aloha ʻāina governing principle. Major Pacific diplomatic actor, close alliance with Pacifica.
+- **Economic character:** Democratic-socialist economy. Renewable energy (geothermal, solar, wind), Pacific trade hub functions. Converted military infrastructure serving civilian economy. Pacific Dollar (PAD) trade zone participant.
+- **Key dynamic:** Did not merge with Pacifica — maintains independent sovereignty as the native Hawaiian revolutionary project. Strategic pivot from US colony to Pacific revolutionary state complete.
+- **→ See KML: Hawaiian Free State**
+- → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#2-hawaiian-free-state-hfs)
 
-**Hawaiian Free State (HFS):** Independent sovereign nation with ~1.4M citizens across the full Hawaiian Islands. Democratic-socialist economy built on converted military infrastructure, renewable energy (geothermal, solar, wind), and Pacific trade hub functions. Native Hawaiian sovereignty forms the constitutional foundation, with Aloha ʻāina as the governing principle. Major Pacific diplomatic actor — maintains close alliance with the Pacifica but did not merge. **→ See KML: Hawaiian Free State**
+**Atlantica:** Revolutionary Stage 3-4 — social-democratic megalopolis, Boston-to-Washington corridor.
+- **Strategic posture:** Governs ~55M citizens across the Boston-to-Washington megalopolis. Social-democratic mixed economy. Strong ties to European Federation and United Kingdom. Haudenosaunee Confederacy operates as autonomous indigenous zone within territory. Emergence phased: New England Core (~2032-2034), NYC flip (~2034), Declaration (~2035), Western NY self-determination (~2036-2037), Federal Rump absorption (~2038-2039), Consolidation (~2039-2042).
+- **Economic character:** Finance sector retained but transformed post-dollar-collapse. Education (Ivy League), healthcare, and professional services drive economy. Atlantic Dollar (ATD) introduced ~2040. Atlantic Works employment program.
+- **Key dynamic:** The Corridor model — a revolutionary state built not on resource extraction but on service-sector transformation and institutional continuity. Social-democratic constitution adopted.
+- **→ See KML: Atlantica**
+- → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#3-republic-of-atlantica-roa)
 
-**Atlantica:** Governs ~55M citizens across the Boston-to-Washington megalopolis. Social-democratic mixed economy. Finance sector retained but transformed post-dollar-collapse, education (Ivy League), healthcare, and professional services drive the economy. Strong ties to the European Federation and the United Kingdom. The Haudenosaunee Confederacy operates as an autonomous indigenous zone within its territory.
+**Great Lakes:** Revolutionary Stage 3-4 — Manufacturing-driven anchor of the revolutionary interior.
+- **Strategic posture:** Governs ~50M across Michigan, Ohio, Indiana, Illinois, Wisconsin, Minnesota, Iowa, Missouri, western Pennsylvania. Controls Great Lakes shipping, St. Lawrence Seaway, Mississippi River corridor. Reindustrialization through public ownership of strategic industries, worker cooperatives in smaller enterprises. Joint energy market with Pacifica (Pacific-Great Lakes Power Compact).
+- **Economic character:** Manufacturing-driven economy (~$440B+ combined industrial base). Heavy industry, automotive, advanced manufacturing, agriculture. Great Lakes Dollar (GLD) trade currency.
+- **Key dynamic:** The manufacturing anchor of the revolutionary bloc. Controls the interior's trade corridors and industrial base. Absorbed Northern Ontario extractive economy and the western NY industrial tier.
+- **→ See KML: Great Lakes**
+- → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#4-great-lakes-confederation-glc)
 
-Atlantica's emergence was phased, not monolithic:
-1. **~2032-2034 — New England Core:** MA, CT, RI, VT, NH, ME began covert coordination, leveraging existing regional identity, high union density, and progressive politics.
-2. **~2034 — NYC Flips:** New York City became the catalyst. A revolutionary municipal movement overthrows city government, transforming the project from a regional New England compact into a corridor anchored by America's largest city and financial center.
-3. **~2035 — Formal Declaration:** After NYC joined, the Hudson Valley, Capital District, Central NY, and New Jersey followed. The Corridor achieved de facto autonomy and declared independence.
-4. **~2036-2037 — Western NY Self-Determination:** Buffalo, Rochester, and the western tier gravitated toward Great Lakes — a self-determined decision, not a border dispute. New York state authority had collapsed after NYC flipped; the people in each region chose their alignment through local referendums and uprisings. Rochester was the closest call — its labor history and Lake Ontario geography tipped it to Great Lakes over its abolitionist/reformist ties to the Northeast.
-5. **~2038-2039 — Federal Rump Absorption:** After the Mid-Atlantic federal rump collapsed, DC/Maryland/Northern Virginia were absorbed. Eastern Pennsylvania (Philadelphia) followed, completing the Boston-to-Washington megalopolis.
-6. **~2039-2042 — Consolidation:** Social-democratic constitution adopted, Atlantic Works employment program established, Atlantic Dollar (ATD) introduced, international recognition solidified.
+**Front Range Socialist Republic (FRSR):** Revolutionary Stage 3 — Revolutionary island in the interior, technology and aerospace hub.
+- **Strategic posture:** Governs ~5M along Colorado Front Range corridor (Denver/Boulder/Fort Collins/Colorado Springs). High defense spending as revolutionary island surrounded by reactionary territory. Allied with Pacifica and Great Lakes via air and trade corridors.
+- **Economic character:** Strong technology, aerospace (Space Command/NORAD legacy), renewable energy sectors. Water-constrained (Colorado River system). Landlocked logistics.
+- **Key dynamic:** Viable but strained — the most exposed revolutionary state in the interior, surrounded by reactionary rumps. Water and logistics are existential constraints.
+- **→ See KML: Front Range Socialist Republic**
+- → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#5-front-range-socialist-republic-frsr)
 
-**→ See KML: Atlantica**
+**Aztlán:** Revolutionary Stage 3-4 — Northern autonomous socialist region of unified Mexico, renewable energy superpower.
+- **Strategic posture:** Governs ~15M across Arizona (minus Navajo), New Mexico (minus Navajo), Hispanic-majority Texas counties. Autonomous socialist region within unified Mexican republic. The original Chicano Socialist Republic (CSR) evolved from separatist to integrative, culminating in formal unification with Mexico by the late 2040s.
+- **Economic character:** Renewable energy superpower (best solar resource in former US). Anchor of semiconductor manufacturing (Phoenix TSMC/Intel legacy). Permian Basin infrastructure repurposed for geothermal and grid-scale storage. Water-constrained — managed via desalination partnerships with Mexico and aggressive conservation.
+- **Key dynamic:** Founds itself on Aztlán nationalism fused with socialist economics. Socialist economic model with indigenous autonomous zones (Navajo). The border cuts through central Texas along demographic lines — Hispanic-majority south, Anglo-majority north.
+- **→ See KML: Aztlán**
+- → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#6-aztlán-socialist-republic)
 
-**Great Lakes:** Governs ~50M citizens across Michigan, Ohio, Indiana, Illinois, Wisconsin, Minnesota, Iowa, Missouri, and western Pennsylvania. The manufacturing-driven economy (~$440B+ combined industrial base) is the anchor of the revolutionary bloc in the interior. Reindustrialization through public ownership of strategic industries, with worker cooperatives in smaller enterprises. Its territory controls Great Lakes shipping, the St. Lawrence Seaway, and the Mississippi River corridor. **→ See KML: Great Lakes**
+**New Afrika:** Revolutionary Stage 2-3 — Black-led revolutionary socialist republic, emerging Southeast anchor.
+- **Strategic posture:** Governs ~23M across Louisiana, Mississippi, Alabama, Georgia, South Carolina, Florida Panhandle. Emerged from internal revolution (~2044-2046) overthrowing the revived CSA. Capital in Jackson, Mississippi. Strong ties to Great Lakes and Atlantica. Nation-to-nation relationships with Choctaw, Coushatta, Poarch Creek, Catawba.
+- **Economic character:** Rebuilding from CSA period. Gulf shipping through New Orleans, Mobile, Savannah, Charleston. Agriculture (cotton, rice, soybeans), manufacturing under public ownership. Trade unions reorganized explosively since revolution.
+- **Key dynamic:** The most hard-won revolutionary state — born from the overthrow of a reactionary successor regime. Emerging as the revolutionary anchor of the Southeast.
+- **→ See KML: New Afrika**
+- → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#7-republic-of-new-afrika-rna)
 
-**Front Range Socialist Republic (FRSR):** Governs ~5M citizens along the Colorado Front Range corridor (Denver/Boulder/Fort Collins/Colorado Springs). Viable but strained — high defense spending as a revolutionary island surrounded by reactionary territory, water constraints from the Colorado River system, and landlocked logistics. Strong technology, aerospace (Space Command/NORAD legacy), and renewable energy sectors. Allied with the Pacifica and Great Lakes via air and trade corridors. **→ See KML: Front Range Socialist Republic**
+**Alleghenia:** Revolutionary Stage 2-3 — Pittsburgh-centered revolutionary republic bridging the Great Lakes and Atlantica.
+- **Strategic posture:** Governs ~5M across Greater Pittsburgh region — 37 counties in western Pennsylvania plus WV northern panhandle. Broke away from US remnant ~2038-2040. Allied with both Great Lakes and Atlantica. Controls Marcellus/Utica shale gas, Pittsburgh manufacturing, Ohio River corridor.
+- **Economic character:** Post-industrial innovation economy (robotics, AI, healthcare). Strong labor history. Manufacturing base preserved through public-worker cooperative hybrid.
+- **Key dynamic:** Neither Atlantica nor Great Lakes, but allied with both. Bridges the two revolutionary blocs geographically and economically. Distinct revolutionary identity rooted in Pittsburgh's labor history.
+- **→ See KML: Alleghenia**
+- → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#8-alleghenia)
 
-**Aztlán:** The northern revolutionary autonomous region of the unified Mexican republic, governing ~15M citizens across Arizona (minus Navajo Nation), New Mexico (minus Navajo Nation), and the Hispanic-majority counties of Texas — a continuous territorial corridor from the Permian Basin through the Rio Grande Valley, sweeping north to encompass San Antonio (Bexar County) and the majority-Hispanic counties of Medina, Uvalde, Caldwell, and Atascosa, then following the Nueces River to Corpus Christi. The border cuts through central Texas along demographic lines — Hispanic-majority south, Anglo-majority north — with San Antonio as the region's urban anchor. A renewable energy superpower — the best solar resource in the former US — and anchor of semiconductor manufacturing (Phoenix TSMC/Intel legacy). The Permian Basin's hydrocarbon infrastructure has been repurposed for geothermal and grid-scale storage. Water-constrained but managed via desalination partnerships with Mexico and aggressive conservation. Socialist economic model with indigenous autonomous zones for Navajo and other nations. Founds itself on Aztlán nationalism fused with socialist economics — the original Chicano Socialist Republic (CSR) project evolved from separatist to integrative, culminating in formal unification with Mexico by the late 2040s. **→ See KML: Aztlán**
+**Appalachia:** Revolutionary Stage 2-3 — Mountainous revolutionary corridor, explicitly anti-CSA.
+- **Strategic posture:** Governs ~2M across West Virginia (minus panhandles), ~15 western VA counties, 24 eastern KY coal counties. First area in the South to revolt against CSA rule. Functions as revolutionary corridor linking Great Lakes, Alleghenia, and New Afrika. Mountainous terrain makes it highly defensible.
+- **Economic character:** Not self-sufficient in food or energy but strategically positioned astride the Appalachian spine. United Mine Workers organizing tradition revived.
+- **Key dynamic:** Appalachia is explicitly anti-CSA — West Virginia was never Confederate, born from the anti-secessionist Restored Government of Virginia. The dormant United Mine Workers organizing tradition expelled CSA forces by ~2044.
+- **→ See KML: Appalachia**
+- → See transition doc: [successor-states.md](../../2026-2050-transition/successor-states.md#9-appalachian-people's-republic)
 
-**New Afrika:** A Black-led revolutionary socialist republic governing ~23M across Louisiana, Mississippi, Alabama, Georgia, South Carolina, and the Florida Panhandle. The Republic of New Afrika emerged from the internal revolution (~2044-2046) that overthrew the revived CSA. Jackson, Mississippi serves as the capital. The economy is rebuilding from the brutal CSA period — Gulf shipping through New Orleans, Mobile, Savannah, and Charleston; agriculture (cotton, rice, soybeans); and manufacturing are being reorganized under public ownership. Trade unions, illegal under the CSA, have organized explosively since the revolution. New Afrika respects indigenous sovereignty with nation-to-nation relationships with Choctaw, Coushatta, Poarch Creek, Catawba, and other nations within its territory. Strong ties to the Great Lakes and Atlantica. Emerging as the revolutionary anchor of the Southeast. **→ See KML: New Afrika**
+**Navajo Nation (Diné Bikéyah):** Indigenous Sovereign Stage 2-3 — Sovereign indigenous socialist republic, energy transition leader.
+- **Strategic posture:** Allied to Aztlán and Pacifica. Population ~500K across 27,425 sq miles (AZ, NM, UT). Strong institutional governance — tripartite government, 110 chapters, sovereign tax authority.
+- **Economic character:** Transitioning from fossil fuels to solar energy. Strong cultural/national identity governing economic decisions.
+- **Key dynamic:** Most institutionally developed indigenous sovereign nation within former US borders. Treats NATION as the primary sovereign identity.
+- **→ See KML: Navajo Nation**
 
-**Alleghenia:** A revolutionary republic governing ~5M across the Greater Pittsburgh region — 37 counties in western Pennsylvania plus the WV northern panhandle (Hancock, Brooke, Ohio, Marshall). Alleghenia broke away from the US remnant government ~2038-2040, after Atlantica and Great Lakes had already declared independence. Pittsburgh's strong labor history and post-industrial innovation economy (robotics, AI, healthcare) create a distinct revolutionary identity — neither Atlantica nor Great Lakes, but allied with both. Controls critical infrastructure: Marcellus/Utica shale gas, Pittsburgh manufacturing, and the Ohio River corridor. Alleghenia bridges the Great Lakes and Atlantica geographically and economically. **→ See KML: Alleghenia**
+**Dakota/Lakota Nation (Oceti Sakowin):** Indigenous Sovereign Stage 2-3 — Independent indigenous revolutionary confederation of the Dakotas.
+- **Strategic posture:** Governing all of North Dakota and South Dakota, extending into northeastern Nebraska. Declared full sovereignty over Fort Laramie treaty territories ~2036-2037. Carved the heart out of Heartland reactionary territory. Population ~250K (growing — diaspora repatriation).
+- **Economic character:** Cooperative economy based on wind energy, bison restoration, renewable energy cooperatives.
+- **Key dynamic:** By 2050, indigenous model consolidated across both Dakotas. Most dramatic territorial reclamation project in North America — indigenous sovereignty restored over a 150,000 sq mile territory.
+- **→ See KML: Dakota/Lakota Nation**
 
-**Appalachia:** A revolutionary corridor governing ~2M across all of West Virginia (minus eastern panhandle to Virginia; northern panhandle to Alleghenia), ~15 western Virginia counties, and 24 eastern Kentucky coal counties. The first area in the South to revolt against CSA rule, using mountainous terrain and the dormant United Mine Workers organizing tradition to expel CSA forces by ~2044. West Virginia state identity was subsumed during this process — the state government dissolved by ~2041, and WV no longer exists as a political unit. Appalachia is explicitly anti-CSA — West Virginia was never Confederate, born from the anti-secessionist Restored Government of Virginia. Functions as a revolutionary corridor linking the Great Lakes, Alleghenia, and New Afrika. Mountainous terrain makes it highly defensible. Not self-sufficient in food or energy but strategically positioned astride the Appalachian spine. **→ See KML: Appalachia**
+**Sequoyan Nation (Cherokee):** Indigenous Sovereign Stage 2-3 — Confederation of the Five Tribes governing eastern Oklahoma.
+- **Strategic posture:** Governing eastern and south-central Oklahoma. Emerged from dissolution of Oklahoma's state institutions (~2038-2040). Population ~1M across 40 counties. Treaty relations with Aztlán, economic ties to Great Lakes and Atlantica.
+- **Economic character:** Diversified economy — healthcare, education, energy, manufacturing, gaming. Professional confederal governance with council of the Five Tribes.
+- **Key dynamic:** The Five Tribes (Cherokee, Choctaw, Chickasaw, Creek, Seminole) federated into a single indigenous polity after Oklahoma's dissolution. Strong institutional capacity.
+- **→ See KML: Sequoyan Nation**
 
-#### Indigenous Sovereign Nations
+**Tlingit Aaní:** Indigenous Sovereign Stage 2-3 — Southeast Alaska indigenous confederation.
+- **Strategic posture:** Independent confederation governing southeast Alaska panhandle (Juneau, Sitka, Ketchikan, Inside Passage). Population ~75K. Pacifica-friendly but independent. No contiguous land connection to Lower 48.
+- **Economic character:** Strong fishing, hydroelectricity, timber economy. Socialist governance model — decentralized, indigenous-led.
+- **Key dynamic:** Maintains independence from Pacifica while sharing the Cascadian bioregion. Sea-to-mountain indigenous sovereignty corridor now possible without US-Canada border.
+- **→ See KML: Tlingit Aaní**
 
-**Navajo Nation (Diné Bikéyah):** Sovereign indigenous socialist republic allied to Aztlán and Pacifica, population ~500K. Governs 27,425 sq miles spanning Arizona, New Mexico, and Utah. Strong institutional governance — tripartite government, 110 chapters, sovereign tax authority. Economy transitioning from fossil fuels to solar energy. Strong cultural/national identity. **→ See KML: Navajo Nation**
+**Haudenosaunee Confederacy:** Indigenous Sovereign — Autonomous zone within Atlantica, oldest living democracy.
+- **Strategic posture:** Autonomous indigenous zone within Atlantica. Founded ~1142 CE. Operates own passports, courts, diplomatic relationships. Atlantica's revolutionary ideology accommodates Haudenosaunee sovereignty within its territory.
+- **Key dynamic:** The oldest living democracy in North America — its existence within Atlantica demonstrates the revolutionary-state approach to indigenous sovereignty.
 
-**Dakota/Lakota Nation (Oceti Sakowin):** Independent indigenous revolutionary confederation governing all of North Dakota and South Dakota, with territory extending into northeastern Nebraska. Population ~250K (growing — diaspora repatriation driven by Landback and cultural revitalization). The Oceti Sakowin declared full sovereignty over the Fort Laramie treaty territories at T-18 (~2036-2037), carving the heart out of the Heartland reactionary territory. By 2050, the indigenous model has consolidated across both Dakotas with a cooperative economy based on wind energy, bison restoration, and renewable energy cooperatives. **→ See KML: Dakota/Lakota Nation**
+**Texas:** Reactionary Stage 4-5 — Landlocked reactionary rump, structurally declining.
+- **Strategic posture:** Governs ~30M across remainder of Texas (east and north of Aztlán corridor). Landlocked between Aztlán, New Afrika, and Heartland/Oceti Sakowin. Borders New Afrika along Sabine River.
+- **Economic character:** Energy industry collapse — lost Permian Basin and coastal refinery strip to Aztlán. Anchored by Dallas/Fort Worth, Houston, San Antonio metro regions. Houston petrochemical corridor is a contested zone — organized workers push revolutionary.
+- **Key dynamic:** Structurally landlocked between revolutionary states on three sides. The most consequential reactionary state in North America — its flip would transform the continental balance.
+- **→ See KML: Texas**
 
-**Sequoyan Nation (Cherokee):** Sovereign indigenous revolutionary confederation of the Five Tribes — Cherokee, Choctaw, Chickasaw, Creek (Muscogee), and Seminole — governing eastern and south-central Oklahoma. Population ~1M citizens across 40 counties. The Sequoyah confederation emerged from the dissolution of Oklahoma's state institutions (~2038-2040) as each of the Five Tribes asserted sovereignty, then federated into a single indigenous polity. Strong diversified economy — healthcare, education, energy, manufacturing, gaming. Professional confederal governance with a council of the Five Tribes. Treaty relations established with Aztlán and economic ties to the Great Lakes and Atlantica. **→ See KML: Sequoyan Nation**
+**Florida:** Reactionary Stage 5 — Degraded reactionary rump, climate-hollowed.
+- **Strategic posture:** Governs ~12M across Florida mainland (minus Panhandle, which joined New Afrika). Miami increasingly operates as semi-independent city-state oriented toward CARICOM trade.
+- **Economic character:** Tourism severely diminished by hurricane risk and extreme heat. Citrus agriculture declining from saltwater intrusion. Interior Florida hollowing out.
+- **Key dynamic:** Panhandle's loss and CSA's collapse shattered Florida's identity. The most climate-exposed reactionary state — its degradation is accelerated by environmental factors beyond its control.
+- **→ See KML: Florida**
 
-**Tlingit Aaní:** Independent indigenous confederation governing southeast Alaska (panhandle — Juneau, Sitka, Ketchikan, Inside Passage). Population ~75K. Strong fishing, hydroelectricity, and timber economy. Socialist governance model — decentralized, indigenous-led. Pacifica-friendly but independent. No contiguous land connection to the Lower 48. **→ See KML: Tlingit Aaní**
+**North Carolina:** Reactionary Stage 5 — Hollowed reactionary rump defined by what it lost.
+- **Strategic posture:** Governs ~8M across North Carolina (minus Research Triangle Area — besieged revolutionary city-state linked to New Afrika and Atlantica).
+- **Economic character:** Agriculture (tobacco, soybeans, hogs), furniture, textiles in decline. Charlotte's finance sector collapsed with the dollar. RTP lost to revolutionary city-state.
+- **Key dynamic:** State identity defined by what it lost — RTP, economic relevance, any coherent purpose.
+- **→ See KML: North Carolina**
 
-**Haudenosaunee Confederacy:** Autonomous indigenous zone within Atlantica. The oldest living democracy in North America — founded ~1142 CE. Operates its own passports, courts, and diplomatic relationships. Atlantica's revolutionary ideology accommodates Haudenosaunee sovereignty within its territory.
+**Virginia (Southern Rump):** Reactionary Stage 5 — Tiny rump south of Atlantica's Fredericksburg line.
+- **Strategic posture:** Governs ~4M across southern Virginia. Northern Virginia / NOVA is Atlantica territory.
+- **Economic character:** Agriculture and residual military infrastructure (Hampton Roads) in decline without federal funding.
+- **Key dynamic:** Defined by what it lost — NOVA, federal presence, institutional capacity.
+- **→ See KML: Virginia**
 
-#### Reactionary States
+**Tennessee:** Reactionary Stage 5 — Crossroads state stranded by revolutionary encirclement.
+- **Strategic posture:** Governs ~5M. New Afrika to the south, Appalachia to the east.
+- **Economic character:** Agriculture, healthcare (Nashville legacy), logistics in decline without national economic integration. Nashville's music industry collapsed with national market.
+- **Key dynamic:** Historic crossroads position became irrelevant when roads led through hostile territory.
+- **→ See KML: Tennessee**
 
-**Texas:** A reactionary rump governing ~30M across the remainder of Texas — the territory east and north of the Aztlán corridor. Anchored by the Dallas/Fort Worth, Houston, and San Antonio metro regions. The energy industry's collapse and the loss of the Permian Basin and coastal refinery strip to Aztlán have hollowed the state's traditional economic base. Houston's petrochemical corridor is a contested zone — organized workers push revolutionary while the Dallas and San Antonio political establishments hold reactionary. Texas is structurally landlocked between Aztlán to the south/west, New Afrika to the east, and the Heartland/Oceti Sakowin to the north. Borders New Afrika along the Sabine River. **→ See KML: Texas**
+**Kentucky:** Reactionary Stage 5 — Smallest reactionary rump, no strategic assets.
+- **Strategic posture:** Governs ~3M (minus eastern coal counties that form part of Appalachia). No significant urban centers, no ports, no strategic resources.
+- **Economic character:** Bourbon, horses, tobacco, agriculture in decline without national distribution access.
+- **Key dynamic:** One of the weakest reactionary entities — its only asset is not being worth invading.
+- **→ See KML: Kentucky**
 
-**Florida:** A degraded reactionary rump governing ~12M across the Florida mainland — minus the Panhandle, which joined New Afrika. Tourism is severely diminished by hurricane risk and extreme heat; citrus agriculture is declining from saltwater intrusion. Miami increasingly operates as a semi-independent city-state oriented toward CARICOM trade. The Panhandle's loss and the CSA's collapse shattered Florida's identity as a coherent state. Interior Florida is hollowing. **→ See KML: Florida**
+**Heartland:** Reactionary Stage 5 — Shrinking plains rump surrounded by revolutionary states.
+- **Strategic posture:** Governs Nebraska, Kansas, eastern Colorado plains. Surrounded by Great Lakes to east, Oceti Sakowin to north. Lost Dakotas, Iowa, Missouri to indigenous sovereignty and Great Lakes absorption (2036-2040).
+- **Economic character:** Export agriculture base strangled by landlocked logistics controlled by revolutionary neighbors.
+- **Key dynamic:** Economically dependent and politically unstable — the most geographically trapped reactionary state.
+- **→ See KML: Heartland**
 
-**North Carolina:** A hollowed reactionary rump governing ~8M across North Carolina — minus the Research Triangle Area (Raleigh-Durham-Chapel Hill), which exists as a besieged revolutionary city-state tenuously linked to New Afrika and Atlantica. Agriculture (tobacco, soybeans, hogs), furniture, and textiles in decline. Charlotte's finance sector collapsed with the dollar. The state's identity is defined by what it lost — RTP, economic relevance, and any coherent purpose. **→ See KML: North Carolina**
+**Arkansas:** Reactionary Stage 5 — Weak reactionary remnant, provisional status.
+- **Strategic posture:** Governs territory of former state of Arkansas. Population ~3M. Centered on Little Rock. Contains Walmart-Bentonville corridor operating as semi-autonomous corporate governance zone.
+- **Economic character:** Agricultural economy (rice, soybeans, poultry) and Mississippi River logistics in decline without federal subsidies.
+- **Key dynamic:** Status provisional — broader reconfiguration of US South may reassign Arkansas's territory. Functions as reactionary remnant with minimal collective action capacity.
+- **→ See KML: Arkansas**
 
-**Virginia (Southern Rump):** A tiny reactionary rump governing ~4M across southern Virginia — everything south of Atlantica border (roughly the Fredericksburg line). Northern Virginia / NOVA is Atlantica territory. Agriculture and residual military infrastructure (Hampton Roads) in decline without federal funding. The rump is defined by what it lost — NOVA, the federal presence, and any institutional capacity. **→ See KML: Virginia**
+**Oklahoma:** Reactionary Stage 5 — Western half severed by Sequoyah indigenous confederation.
+- **Strategic posture:** Governs western half of former state — Oklahoma City metro, Panhandle, western agricultural plains. Population ~2M. Severed from eastern half by Sequoyah confederation (~2038-2040). Contains autonomous zones for non-Five-Tribes nations (Osage, Cheyenne-Arapaho, Kiowa-Comanche-Apache).
+- **Economic character:** Oil and gas economy in terminal decline. Agricultural base (wheat, cattle) automated and export-dependent.
+- **Key dynamic:** Not viable as independent entity — survival depends on trade through Great Lakes- and Sequoyah-controlled corridors.
+- **→ See KML: Oklahoma**
 
-**Tennessee:** A reactionary rump governing ~5M across the state of Tennessee. Agriculture, healthcare (Nashville legacy), and logistics in decline without national economic integration. Nashville's music/entertainment industry collapsed with the national market. Its historic position as a crossroads state became irrelevant when the roads led through hostile territory — New Afrika to the south, the Appalachia to the east. **→ See KML: Tennessee**
+**Deseret:** Reactionary Stage 4-5 — Culturally intact but economically hollow Mormon state.
+- **Strategic posture:** Governs ~6M across Utah (minus Navajo-overlap counties), southern Idaho, eastern Nevada. LDS Church provides institutional backbone and social safety net.
+- **Economic character:** Tech sector withered without global integration. Mining/extraction declined with energy transition. Young people continue to leave for revolutionary states.
+- **Key dynamic:** Indigenous sovereignty in southern Utah (Navajo lands) recognized. Cultural cohesion without economic viability.
+- **→ See KML: Deseret**
 
-**Kentucky:** A small reactionary rump governing ~3M across Kentucky — minus the eastern coal counties that broke away to form part of the Appalachia. Bourbon, horses, tobacco, and agriculture in decline without access to national distribution. No significant urban centers, no ports, no strategic resources. One of the weakest reactionary entities in the former US. **→ See KML: Kentucky**
+**Columbia:** Stage 2-3 Flipping — Reactionary-origin Inland Northwest state flipping revolutionary.
+- **Strategic posture:** Governs ~2.8M across eastern Washington, eastern Oregon, northern Idaho panhandle. Anchored by Columbia and Snake River watersheds. Initially reactionary agricultural breakaway, now flipping revolutionary through organized labor in hydroelectric and logistics sectors, driven by Cascadian influence.
+- **Economic character:** Hydroelectric and agricultural economic base. Spokane metro (~600K) as capital.
+- **Key dynamic:** The most dynamic transition story in the former-US interior — a reactionary state transformed by internal labor organizing.
+- **→ See KML: Columbia**
 
-**Heartland:** A shrinking reactionary rump governing Nebraska, Kansas, and the eastern Colorado plains, surrounded by revolutionary states — the Great Lakes to the east, Oceti Sakowin to the north. The Dakotas, Iowa, and Missouri were lost to indigenous sovereignty and Great Lakes absorption during the 2036-2040 fragmentation. Economically dependent and politically unstable. Export agriculture base was strangled by landlocked logistics controlled by revolutionary neighbors. **→ See KML: Heartland**
+**Absaroka:** Reactionary Stage 4 — Mountain ecological state, Greater Yellowstone ecosystem.
+- **Strategic posture:** Governs ~700K across western Montana, northwest Wyoming, eastern Idaho highlands. Anchored by Bozeman. Defined by ecological identity — one of last intact temperate-zone ecosystems on Earth.
+- **Economic character:** Tourism, wildlife conservation, resource extraction in decline. Sparsely populated, heavily armed, resistant to outside authority.
+- **Key dynamic:** Continental triple divide within its territory. Identity rooted in place and ecology, not ideology.
+- **→ See KML: Absaroka**
 
-**Arkansas:** A weak reactionary rump governing the territory of the former state of Arkansas. Population ~3M. Agricultural economy (rice, soybeans, poultry) and logistics (Mississippi River corridor) in decline without federal subsidies. Centered on Little Rock. The collapse of federal governance left Arkansas's institutions intact but hollowed — the state functions as a reactionary remnant with minimal capacity for collective action. Contains the Walmart-Bentonville corridor which operates as a semi-autonomous corporate governance zone. Status provisional — the broader reconfiguration of the US South may reassign Arkansas's territory. **→ See KML: Arkansas**
+**Montana-Wyoming:** Reactionary Stage 4-5 — Plains buffer between revolutionary interior and mountain states.
+- **Strategic posture:** Governs ~1.5M across eastern Montana and central-eastern Wyoming. Anchored by Billings. Functionally a buffer state between revolutionary interior and mountain states.
+- **Economic character:** Ranching and declining fossil energy (coal, oil, gas). Increasingly dependent on trade with stronger neighbors.
+- **Key dynamic:** Increasingly dependent on trade with revolutionary neighbors — the buffer role is its only strategic rationale.
+- **→ See KML: Montana-Wyoming**
 
-**Oklahoma:** A reactionary rump governing the western half of the former state — the Oklahoma City metro area, the Panhandle, and the western agricultural plains. Population ~2M. Oil and gas economy in terminal decline; agricultural base (wheat, cattle) automated and export-dependent. Centered on Oklahoma City. The state was severed from its eastern half by the Sequoyah indigenous confederation during the ~2038-2040 fragmentation and is not viable as an independent entity — its survival depends on trade access through Great Lakes- and Sequoyah-controlled corridors. Contains autonomous zones for non-Five-Tribes nations (Osage, Cheyenne-Arapaho, Kiowa-Comanche-Apache). **→ See KML: Oklahoma**
+**Colorado:** Reactionary Stage 4 — Fragmented headwaters state, Colorado River control.
+- **Strategic posture:** Governs ~800K across Western Slope of Colorado (west of Continental Divide). Anchored by Grand Junction. Functions as tense buffer between revolutionary FRSR and reactionary interior.
+- **Economic character:** Ski country, energy transition, water politics dominate. Defining strategic asset is control of Colorado River headwaters in water-scarce future.
+- **Key dynamic:** Water is the strategic variable — whoever controls the Colorado headwaters controls the Southwest's most critical resource.
+- **→ See KML: Colorado**
 
-**Deseret:** The reactionary Mormon state — culturally intact but economically hollow by 2050. Population ~6M across Utah (minus Navajo-overlap counties), southern Idaho, and eastern Nevada. The LDS Church provides institutional backbone and social safety net, but the tech sector withered without global integration and mining/extraction declined with the energy transition. Young people continue to leave for revolutionary states. Indigenous sovereignty in southern Utah (Navajo lands) is recognized. **→ See KML: Deseret**
+**Alaska:** Stage 5 — Shrunken impoverished rump around Anchorage.
+- **Strategic posture:** Population ~450K around Anchorage. Indigenous territories effectively separated. Some residual military infrastructure with no capacity to use it.
+- **Economic character:** Oil revenue collapsed, Permanent Fund depleted, mainland supply lines severed after federal rump collapse.
+- **Key dynamic:** The most extreme example of patron-collapse degradation — a state that existed entirely on federal transfers, now reduced to a small coastal rump.
+- **→ See KML: Alaska**
 
-**Columbia:** An Inland Northwest republic governing ~2.8M across eastern Washington, eastern Oregon, and the northern Idaho panhandle. Anchored by the Columbia and Snake River watersheds with a hydroelectric and agricultural economic base. The Spokane metro area (~600K) serves as the capital. Initially a reactionary agricultural breakaway, the Columbia Republic has been flipping revolutionary through organized labor in the hydroelectric and logistics sectors, driven by Cascadian influence and internal organizing. **→ See KML: Columbia**
+**Alaska Indigenous Mosaic:** Indigenous governance — Mosaic of indigenous-led territories outside Anchorage control.
+- **Strategic posture:** North Slope Iñupiat, Western Yupik, Interior Athabascan, Aleut/Unangax̂, Alutiiq/Sugpiaq. Varying capacities — some highly functional (North Slope oil wealth), some struggling. Governed through ANCSA corporation structures and tribal governments.
+- **Key dynamic:** Alaska's indigenous nations reclaimed de facto sovereignty in the vacuum left by federal collapse. The mosaic model is distinct from the unified indigenous sovereignty projects in the Lower 48.
+- **→ See KML: Tlingit Aaní**
 
-**Absaroka:** A reactionary mountain state in the Greater Yellowstone Ecosystem governing ~700K across western Montana, northwest Wyoming, and the eastern Idaho highlands. Anchored by Bozeman as capital. The economy depends on tourism, wildlife conservation, and resource extraction in decline. Absaroka is defined by its ecological identity — one of the last intact temperate-zone ecosystems on Earth, with the continental triple divide within its territory. Sparsely populated, heavily armed, and resistant to outside authority. **→ See KML: Absaroka**
+**Canada (rump "Canada"):** Reactionary Stage 4-5 — Post-fragmentation reactionary rump, extractive economy in structural decline.
+- **Strategic posture:** Governs southern Ontario (south of French River), Saskatchewan, Alberta, BC interior, Yukon, residual federally-controlled islands. Population ~15-18M. Centered on Toronto after Ottawa's federal institutions collapsed. Hostile borders on all sides except the Arctic.
+- **Economic character:** Extractive economy (oil sands, potash, uranium, forestry) in structural decline without US markets. Banking and finance oligopoly intact but operating in contracted space.
+- **Key dynamic:** Classic reactionary rump — culturally conservative, institutionally hollowed, economically contracting, sustained through authoritarian governance rather than consent.
+- **→ See KML: Canada**
 
-**Montana-Wyoming:** A reactionary plains rump governing ~1.5M across eastern Montana and central-eastern Wyoming. Ranching and declining fossil energy (coal, oil, gas) form a shrinking economic base. Anchored by Billings as capital. Functionally a buffer state between the revolutionary interior (Great Lakes, Oceti Sakowin) and the mountain states. Increasingly dependent on trade with stronger neighbors. **→ See KML: Montana-Wyoming**
+**Quebec Republic:** Reactionary Stage 4 — Conservative-nationalist republic, Labrador dispute flashpoint.
+- **Strategic posture:** Governs former province of Quebec (minus Nunavik, annexed by Inuit Nunangat). Population ~8M. Born from Canada's disintegration, not sovereigntist fervor. CAQ conservative nationalism is founding ideology.
+- **Economic character:** Severed from Canadian internal market and St. Lawrence Seaway trade corridor. Economically fragile — manufacturing, hydroelectricity, aerospace legacy sectors.
+- **Key dynamic:** The region's most dangerous flashpoint — culturally nationalist, territorially revisionist (Labrador claim), economically desperate. The Churchill Falls hydro contract (expiring 2041) is the flashpoint trigger.
+- **→ See KML: Quebec Republic**
 
-**Colorado:** A fragmented headwaters state governing ~800K across the Western Slope of Colorado — the rural territory west of the Continental Divide. Anchored by Grand Junction as capital. The defining strategic asset is control of the Colorado River's headwaters in a water-scarce future. Ski country, energy transition, and water politics dominate. Functions as a tense buffer between the revolutionary Front Range Socialist Republic and the reactionary interior. **→ See KML: Colorado**
+**Maritime Republic:** Revolutionary Stage 2-3 — Cooperative commonwealth, Atlantica-oriented.
+- **Strategic posture:** Governing Nova Scotia, New Brunswick, Prince Edward Island. Population ~2M. Francophone-bilingual by constitutional design (Acadian identity). Orients eastward toward Atlantica and Europe. Close alliance with Newfoundland.
+- **Economic character:** Fishing and forestry economies reorganized under public ownership and worker cooperatives. Deep integration with Atlantica maritime corridor.
+- **Key dynamic:** Revolutionary through economic necessity — cooperative economics tradition provided the model when markets collapsed. One of the more successful post-Canadian entities.
+- **→ See KML: Maritime Republic**
 
-#### Degrading Rumps
+**Newfoundland:** Revolutionary Stage 2-3 — Cooperative commonwealth microstate, Labrador dispute stakeholder.
+- **Strategic posture:** Governing island of Newfoundland and southern Labrador coast (minus Nunatsiavut). Population ~450K. Historical radical tradition (Fishermen's Protective Union) re-emerged as founding identity. Likely eventual absorption into Maritime Republic or broader Atlantica alignment.
+- **Economic character:** Fishery and resource-worker cooperative economy. Distinct cultural identity — Irish traditional music, Newfoundland English.
+- **Key dynamic:** The Labrador boundary dispute with Quebec Republic is existential — combined with the expiring 2041 Churchill Falls contract, creates a three-way territorial crisis with Inuit Nunangat.
+- **→ See KML: Newfoundland**
 
-**Alaska:** A shrunken, impoverished rump around Anchorage with ~450K population. Oil revenue collapsed, the Permanent Fund depleted, and supply lines from the mainland severed after the federal rump collapse. Indigenous territories (North Slope, Western Alaska, Interior) effectively separated. Some residual military infrastructure but no capacity to use it. **→ See KML: Alaska**
+**Manitoba:** Revolutionary Stage 2-3 — Unified revolutionary republic, interior anchor.
+- **Strategic posture:** Governing former province of Manitoba. Population ~1.4M. Winnipeg-Northern Manitoba-indigenous NDP coalition consolidates revolutionary control as Canada collapses.
+- **Economic character:** Agricultural economy reorganized under cooperative and public ownership structures. Anchors revolutionary interior between Great Lakes and Canadian rump.
+- **Key dynamic:** Flips revolutionary as unified entity — the urban-rural split that fragments other regions does not break Manitoba. Winnipeg's labor history and northern indigenous organizing create unified revolutionary front.
+- **→ See KML: Manitoba**
 
-**Alaska Indigenous Mosaic:** A mosaic of indigenous-led territories (North Slope Iñupiat, Western Yupik, Interior Athabascan, Aleut/Unangax̂, Alutiiq/Sugpiaq) outside Anchorage control. Varying sizes and capacities — some highly functional (North Slope with oil wealth), some struggling. Governed through ANCSA corporation structures and tribal governments. **→ See KML: Tlingit Aaní**
+**Denendeh:** Indigenous Sovereign Stage 2-3 — Pan-Athabascan indigenous entity, boreal forest governance.
+- **Strategic posture:** Governing southern Northwest Territories (Dene/Métis-majority regions). Population ~20K. Represents expansion of Athabascan indigenous sovereignty project eastward from Alaska. Governs through Dene traditional council structures.
+- **Economic character:** Transitioning from diamond mining and carbon extraction toward renewable energy (hydro, biomass) and cultural/ecological stewardship. Controls critical freshwater resources and boreal forest carbon sinks.
+- **Key dynamic:** Athabascan indigenous sovereignty template from Alaska applied to the Dene majority regions of NWT.
+- **→ See KML: Denendeh**
 
-### North America (Beyond Former US)
-
-**Canada Fragmentation:** Canada did not survive the US collapse as a unified federation. The loss of the US as Canada's primary trade partner (76% of exports pre-collapse), financial integration partner, and security guarantor triggered a cascading fragmentation that mirrors the US dissolution — but with a distinct Canadian dynamic: capitalist entrenchment rather than capital flight, reactionary governance failure, revolutionary resistance, and territorial breakaway.
-
-The fundamental driver: Canada's economy was structurally dependent on US markets. When the US dissolved, Canada's export economy collapsed. Unlike the US fragmentation where capital fled collapsing regions, Canadian capitalists *doubled down* — they controlled the media narrative (Thomson Reuters at $54B, Irving family owning all New Brunswick dailies), campaign finance (per-vote subsidy eliminated in 2011, donor base ~1% of population), and the banking oligopoly (six banks controlling 93% of assets). They stayed, consolidated, and profited from crisis — until revolutionary movements directly threatened their property.
-
-Canada fragmented into at least seven successor entities, plus territorial absorption into adjacent US successor states:
-
-**Canadian Rump ("Canada"):** The reactionary rump governing the territory that was not absorbed by breakaway regions: southern Ontario (south of the French River), Saskatchewan, Alberta, the BC interior, Yukon, and the residual federally-controlled islands. Population ~15-18M. Centered on Toronto as the de facto capital after Ottawa's federal institutions collapsed. The rump is defined by what it lost — Quebec, the Maritimes, Manitoba, the North, and the BC coast all broke away or were absorbed by revolutionary neighbors. Extractive economy (oil sands, potash, uranium, forestry) in structural decline without US markets. Banking and finance oligopoly intact but operating in a contracted economic space. Hostile borders on all sides except the Arctic — surrounded by the revolutionary Great Lakes entity (Ontario's industrial north and south-southwest), the Pacifica-aligned BC coast, the Denendeh indigenous entity absorbing the Northwest Territories, and the Manitoba revolutionary republic to the west. The rump Canada is a classic reactionary rump: culturally conservative, institutionally hollowed, economically contracting, and sustained through authoritarian governance rather than consent. **→ See KML: Canada**
-
-**Quebec Republic:** A reactionary conservative-nationalist republic governing the territory of the former province of Quebec, minus the Nunavik region (northern Quebec, annexed by Inuit Nunangat). Population ~8M. The Quebec Republic was not born from a surge of sovereigntist fervor (independence polling had languished at ~32% through the 2020s) but from Canada's disintegration — as the federal government collapsed, Quebec existed by default as a separate political space. The CAQ's conservative nationalism (cultural protectionism, laicity laws, economic nationalism) became the founding ideology. The republic is culturally inward-looking and economically fragile — severed from the Canadian internal market and the St. Lawrence Seaway trade corridor (now controlled by Great Lakes in the south and the Maritime Republic downstream). The defining external conflict is the Labrador border dispute: the 1927 Privy Council ruling that set Labrador's boundary on the 52nd parallel was never accepted by Quebec. An independent Quebec Republic asserts the claim aggressively, bringing it into direct confrontation with the Newfoundland microstate. The Churchill Falls hydro contract, expiring 2041, becomes the flashpoint — Hydro-Québec's legacy infrastructure in Labrador is claimed by both states. The Quebec Republic is the region's most dangerous flashpoint: culturally nationalist, territorially revisionist, and economically desperate. **→ See KML: Quebec Republic**
-
-**Maritime Republic (Nouvelle-Écosse, Nouveau-Brunswick, Île-du-Prince-Édouard):** A revolutionary republic governing Nova Scotia, New Brunswick, and Prince Edward Island. Population ~2M. The Maritimes, historically Canada's poorest region with the deepest traditions of cooperative economics, organized labor, and mutual aid, broke from Canada as the federal state collapsed. The Maritime Republic is revolutionary through economic necessity — its fishing and forestry economies, destroyed by US market collapse, were reorganized under public ownership and worker cooperatives. The republic is Francophone-bilingual by constitutional design (Acadian identity is its founding cultural compromise) and orients eastward toward Atlantica and Europe rather than westward toward the former Canadian interior. Close alliance with the Newfoundland microstate and deep economic integration with the Atlantica maritime corridor. PEI's absorption was by necessity — too small to survive independently after Quebec seceded, severing the Confederation Bridge land link. The Maritime Republic is stable, small-scale, and institutionally functional — one of the more successful post-Canadian entities. **→ See KML: Maritime Republic**
-
-**Newfoundland (Microstate):** A revolutionary microstate governing the island of Newfoundland and the southern Labrador coast (excluding Nunatsiavut, the Inuit self-governing region that joined Inuit Nunangat). Population ~450K. Newfoundland's historical radical tradition (the Fishermen's Protective Union, the 1930s Commission of Government rebellion against democracy-as-failure, the 1949 Confederation choice that remains contested) re-emerged as the island's foundational identity after Canada's collapse. The FPU's 21st-century descendant — a militant fishery and resource-worker movement — seized the disintegrating provincial state apparatus and declared independence as a cooperative commonwealth. Newfoundland's most likely trajectory is eventual absorption into the Maritime Republic or a broader Atlantica-aligned federation, but the island's fierce distinctiveness (the only place in North America where "me" beats "I" in grammar — the "Newfoundland personal dative" — and where Irish traditional music is the dominant folk form) makes independent microstatehood a durable option. The Labrador boundary dispute with the Quebec Republic is the existential security threat — Quebec's never-accepted 1927 border claim and the expiring 2041 Churchill Falls contract create a three-way territorial crisis involving the Newfoundland microstate, the Quebec Republic, and the Inuit Nunangat confederation. **→ See KML: Newfoundland**
-
-**Manitoba:** A unified revolutionary republic governing the territory of the former province of Manitoba. Population ~1.4M. Manitoba flips revolutionary as a unified entity, not fragmented — the existing Winnipeg-Northern Manitoba-indigenous NDP coalition (which has governed the province for generations) consolidates revolutionary control as Canada collapses. The urban-rural split that fragments other regions does not break Manitoba; Winnipeg's labor history and northern indigenous political organizing create a unified revolutionary front. Manitoba's agricultural economy is reorganized under cooperative and public ownership structures. Anchors the revolutionary interior between the Great Lakes and the Canadian rump. **→ See KML: Manitoba**
-
-**Denendeh:** A pan-Athabascan indigenous sovereign entity governing the southern Northwest Territories (the Dene/Métis-majority regions not included in Inuit Nunangat). Population ~20K. Denendeh represents the expansion of the Athabascan indigenous sovereignty project eastward from Alaska — the Dena'ina Nenn' in Alaska provides the institutional and cultural template. The southern NWT, with its Dene and Métis population and existing land-claim agreements (the Tłįchǫ, Dehcho, Akaitcho, and other Dene treaties), forms the core of the new entity. Denendeh controls critical freshwater resources and boreal forest carbon sinks. Economically transitional — away from diamond mining and carbon extraction toward renewable energy (hydro, biomass) and cultural/ecological stewardship economies. Governs through Dene traditional council structures adapted to modern governance needs. **→ See KML: Denendeh**
-
-**Inuit Nunangat (Pan-Inuit Arctic Confederation):** A transnational indigenous Arctic confederation governing the unified Inuit homeland spanning Nunavut, Nunavik (northern Quebec), Nunatsiavut (northern Labrador and coastal Labrador), and incorporating the Iñupiat Nunaat (northern Alaska) into a coordinated governance framework with Greenland — which achieved independence from Denmark as an associated sovereign state (~2038-2042). Total population ~150K across 4M+ km². Inuit Nunangat is not a conventional nation-state but a transnational political space — the Arctic Council's enhanced indigenous permanent participant status evolved into a governance structure as the Inuit homeland's ecological and strategic significance grew with Arctic sea-ice retreat. The confederation controls the Northwest Passage, critical Arctic mineral resources, and the last intact marine ecosystems in the Northern Hemisphere. The Nunavik question was forced — when the Quebec Republic declared independence, Nunavik's Inuit majority revolted rather than accept rule from Quebec City, and their de facto annexation to the pan-Inuit structure was accepted as a fait accompli. The Labrador Inuit (Nunatsiavut) had already achieved self-government within Canada (2005 Labrador Inuit Land Claims Agreement) and transitioned seamlessly to confederation membership. The Labrador boundary dispute creates a three-way territorial tension: the Churchill Falls complex is in Nunatsiavut territory, the Quebec Republic claims it, and the Newfoundland microstate disputes Quebec's claim. **→ See KML: Inuit Nunangat**
+**Inuit Nunangat:** Indigenous Sovereign Stage 2-3 — Pan-Inuit Arctic transnational confederation.
+- **Strategic posture:** Governing unified Inuit homeland spanning Nunavut, Nunavik (northern Quebec), Nunatsiavut (northern Labrador), coordinating with Iñupiat Nunaat (northern Alaska) and independent Greenland (~2038-2042). Total population ~150K across 4M+ km². Controls Northwest Passage, critical Arctic mineral resources, last intact marine ecosystems.
+- **Economic character:** Arctic stewardship economy — fisheries, mineral resource management, renewable energy (hydro, geothermal). Transnational governance funded through resource revenue sharing.
+- **Key dynamic:** Not a conventional nation-state but a transnational political space evolved from Arctic Council enhanced indigenous permanent participant status. The Labrador boundary dispute creates three-way tension with Quebec Republic and Newfoundland.
+- **→ See KML: Inuit Nunangat**
 
 **Absorbed Canadian Territory:**
 
-**BC Coast → Pacifica:** British Columbia's coastal and southern mainland regions — Vancouver, the Lower Mainland, Vancouver Island, and the coastal fjordlands stretching north to the Alaska Panhandle — were absorbed into the Pacifica revolutionary state. The process was organic: BC's coastal economy had integrated deeply with Cascadia (the Vancouver-Seattle-Portland corridor) for decades before the collapse. When Canada's federal institutions dissolved, the coastal BC regions declared alignment with Pacifica through regional referendums. Pacifica's southern border extends to the BC coast, and the Tlingit Aaní confederation now has a contiguous land corridor through Pacifica's northern coastal territory — a sea-to-mountain indigenous sovereignty corridor that was impossible under the US-Canada border regime. **→ See KML: Pacifica**
+**BC Coast → Pacifica:** British Columbia's coastal and southern mainland regions (Vancouver, Lower Mainland, Vancouver Island, coastal fjordlands) absorbed into Pacifica. Cascadian economic integration made the alignment organic — regional referendums followed Canada's federal dissolution. Tlingit Aaní now has contiguous land corridor through Pacifica's northern coastal territory. **→ See KML: Pacifica**
 
-**Northern Ontario → Great Lakes:** The territory of Ontario north of the French River — the vast boreal and mining region stretching from Lake Huron to Hudson Bay — was absorbed by the Great Lakes revolutionary entity. The transition was organic: Northern Ontario's extractive economy (mining, forestry, hydroelectricity) was linked to the Great Lakes industrial corridor, not to Southern Ontario's finance-and-services economy. When Canada collapsed, Northern Ontario communities (Sudbury, Sault Ste. Marie, Thunder Bay, Timmins, the Ring of Fire mining district) aligned with the Great Lakes entity for economic survival. The French River boundary — the historic dividing line between Southern and Northern Ontario — became the de facto border between the Canadian rump and Great Lakes territory. **→ See KML: Great Lakes**
+**Northern Ontario → Great Lakes:** Territory north of the French River (Sudbury, Sault Ste. Marie, Thunder Bay, Timmins, Ring of Fire mining district) absorbed by Great Lakes. Extract economy linked to Great Lakes industrial corridor, not Southern Ontario's finance economy. French River became de facto border between Canadian rump and Great Lakes territory. **→ See KML: Great Lakes**
 
-**St. Pierre and Miquelon:** Remains French territory, unchanged by Canada's fragmentation. The small archipelago off Newfoundland's south coast is a French overseas collectivity that was never part of Canada. France retained governance capacity in St. Pierre through local administration. The islands function as a small French outpost, economically oriented toward the Maritime Republic and Newfoundland. **→ See KML: St. Pierre and Miquelon**
+**St. Pierre and Miquelon:** French overseas collectivity, unchanged by Canada's fragmentation. Small archipelago off Newfoundland's south coast. Economically oriented toward Maritime Republic and Newfoundland. **→ See KML: St. Pierre and Miquelon**
 
 **Key Flashpoints:**
 
-**Labrador Triangle (Quebec Republic — Newfoundland — Inuit Nunangat):** The most dangerous territorial dispute in post-Canadian North America. Three sovereign entities claim overlapping portions of the Labrador Peninsula:
-- Quebec Republic claims the entire territory assigned to Newfoundland by the 1927 Privy Council ruling (which Quebec has never accepted)
-- Newfoundland microstate claims the southern Labrador coast under the 1927 ruling and the 1949 Terms of Union
-- Inuit Nunangat controls the northern Labrador coast (Nunatsiavut) and the Churchill Falls hydro complex — the largest source of electricity in the region, with the 99-year Churchill Falls contract expiring in 2041
-
-The combination of an unresolved boundary dispute, a hydro contract expiration, and the Quebec Republic's reactionary nationalism makes this the most likely site of armed conflict between Canadian successor states.
-
-**Mexico:** A unified revolutionary republic incorporating Aztlán as its northern autonomous socialist region. The Chicano Socialist Republic's original separatist project evolved into formal unification by the late 2040s — Aztlán's revolutionary energy and renewable energy infrastructure (semiconductor manufacturing, desert solar farms) integrated into Mexico's broader left-governance framework. The northern border was reconfigured from a single US-Mexico boundary into a complex multi-jurisdictional frontier between Mexico-Aztlán and the fragmented US successor states (New Afrika, Texas, Pacifica, Front Range). Deepened ties with Brazil and BRICS+. A middle-income transitional economy trending toward developmental socialism. **→ See KML: Mexico**
+**Labrador Triangle (Quebec Republic — Newfoundland — Inuit Nunangat):** The most dangerous territorial dispute in post-Canadian North America. Three sovereign entities claim overlapping Labrador Peninsula territory. The combination of an unresolved boundary dispute, the 2041 Churchill Falls hydro contract expiration, and Quebec Republic's reactionary nationalism makes this the most likely site of armed conflict between Canadian successor states.
 
 ### Caribbean
+
+**Caribbean:**
 
 The Caribbean in 2050 has undergone a fundamental transformation: every overseas territory of European powers — British, Dutch, and French — is now a fully sovereign independent state and CARICOM member. This is not gradual decolonization but a revolutionary decolonization-through-regional-integration, accelerated by the US collapse (~2030s) which removed the Monroe Doctrine and the dollar-denominated financial system that kept offshore territories as passive appendages of European metropoles. CARICOM itself has deepened from a trading bloc into a genuine regional governance framework — free movement of people, capital, and labor is operational (pioneered by Barbados, Belize, Dominica, and St. Vincent in 2025); the Caribbean Court of Justice (CCJ) is the final appellate authority for most members; and collective foreign and security policy coordination has advanced. Full political unification remains beyond the 2050 horizon but is assessed as a plausible trajectory by ~2075 — driven by climate existential threat (sea-level rise, hurricane intensification), economic necessity (no single island can compete in a BRICS+ world), and the accumulated institutional trust built through CARICOM's deepening. The spectrum of revolutionary commitment is wide — from Cuba's veteran socialist project to the former offshore financial centers adapting to a post-dollar world — but all 28 entities are on the CARICOM track, and none remain as European colonial remnants.
 
@@ -234,39 +357,92 @@ Bonaire, Saba, and Sint Eustatius were special municipalities of the Netherlands
 
 ### South America
 
-**Brazil:** The regional hegemon and BRICS+ anchor. Amazon dieback (T-15, August 2047) is an existential economic event — the rainforest's hydrological system failure reduced agricultural output by 30-60% in soy and beef production. Brazil is socialist-leaning social-democratic, aligned with the multipolar bloc. The military, internally divided and without US backing, is no longer a political actor. **→ See KML: Brazil**
+**South America:**
 
-**Argentina:** Post-Milei collapse and left rebound. Defaulted (~2034-2036), underwent a chaotic de-dollarization, and stabilized under left governance by the late 2040s. Aligned with Brazil and the BRICS+ system. Vaca Muerta's shale gas and lithium reserves — brought online in the 2040s with Chinese and Brazilian investment — provide a development base. **→ See KML: Argentina**
+**Brazil:** Revolutionary Stage 3-4 — Regional hegemon and BRICS+ anchor.
+- **Strategic posture:** Socialist-leaning social-democratic state, aligned with multipolar bloc. Military internally divided and without US backing — no longer a political actor. Amazon dieback (T-15, August 2047) is an existential economic event.
+- **Economic character:** Amazon dieback reduced agricultural output by 30-60% in soy and beef production. BRICS+ financial system participant. Diversifying from commodity dependence.
+- **Key dynamic:** The defining South American power — its trajectory determines the continent's alignment. Amazon dieback creates existential economic pressure driving revolutionary consolidation.
+- **→ See KML: Brazil**
 
-**Lithium Triangle (Chile, Bolivia):** A strategic choke point in the global green energy transition. Chile back under center-left governance after the Kast-era right-turn collapsed with US backing — lithium policy reoriented toward state control and BRICS+ partnerships. Bolivia's lithium reserves fully nationalized and developed with Chinese partnerships. **→ See KML: Lithium Triangle**
+**Argentina:** Revolutionary Stage 2-3 — Post-collapse left rebound, BRICS+ aligned.
+- **Strategic posture:** Defaulted (~2034-2036), underwent chaotic de-dollarization, stabilized under left governance by late 2040s. Aligned with Brazil and BRICS+ system. Unified with Uruguay (~2048) as broader Rioplatense post-flip revolutionary wave.
+- **Economic character:** Vaca Muerta shale gas and lithium reserves — brought online in 2040s with Chinese and Brazilian investment. Lithium sector managed within Argentina-Uruguay state.
+- **Key dynamic:** The most dramatic reversal in South America — Milei-era collapse flipped into revolutionary consolidation. Falklands/Malvinas occupied during reactionary period, converted to autonomous zone post-flip.
+- **→ See KML: Argentina**
 
-### Gran Colombia
+**Lithium Triangle (Chile, Bolivia):** Revolutionary Stage 2-3 — Strategic choke point for global green energy transition.
+- **Strategic posture:** Chile under center-left governance after Kast-era right-turn collapsed with US backing. Bolivia's lithium reserves fully nationalized with Chinese partnerships. Policy coordination only — not joint sovereignty zone.
+- **Economic character:** Chile's lithium policy reoriented toward state control and BRICS+ partnerships. Bolivia's reserves developed with Chinese investment. Argentina's lithium managed within Argentina-Uruguay state.
+- **Key dynamic:** The single most strategic resource zone in the Americas — global EV battery supply chain depends on Lithium Triangle output. State control and BRICS+ partnerships replace neoliberal extraction model.
+- **→ See KML: Lithium Triangle**
 
-**Gran Colombia (Colombia, Ecuador, Venezuela):** Formed in two phases — a confederal compact ~2038–42 deepened into full federation by ~2048. All three members were post-revolutionary left-nationalist states by the late 2030s, making the pan-nationalist unification the final stage of the revolutionary feedback loop. The revived Monroe Doctrine's absence removed the primary external obstacle: US successor states have no appetite for military intervention in South America. Capital: Bogotá. Population ~75M. Internal governance: constituent states retain domestic autonomy; indigenous autonomous zones preserved. **→ See KML: Gran Colombia**
+**Gran Colombia (Colombia, Ecuador, Venezuela):** Revolutionary Stage 4-5 — Restored federation, pan-nationalist unification.
+- **Strategic posture:** Formed in two phases — confederal compact ~2038-42 deepened into full federation by ~2048. All three members post-revolutionary left-nationalist states by late 2030s. US successor states have no appetite for military intervention in South America. Capital: Bogotá. Population ~75M. Internal governance: constituent states retain domestic autonomy; indigenous autonomous zones preserved.
+- **Economic character:** Colombia's diversified economy, Ecuador's oil and agriculture, Venezuela's resource base combined under federation framework. BRICS+ trade alignment.
+- **Key dynamic:** The revived Monroe Doctrine's absence removed the primary external obstacle to South American unification. The Gran Colombia project completes the Bolivarian unification vision that US power blocked for two centuries.
+- **→ See KML: Gran Colombia**
 
-**Peru:** Chronically unstable — the only Andean state not to join Gran Colombia. Cycles through revolving-door presidencies, periodic constitutional crises, and a fragmented party system. Too internally fractured for the unification treaties that absorbed its neighbors. **→ See KML: Peru**
+**Peru:** Stage 1-2 — Chronically unstable Andean state, too fractured for unification.
+- **Strategic posture:** The only Andean state not to join Gran Colombia. Cycles through revolving-door presidencies, constitutional crises, fragmented party system. Too internally fractured for the unification treaties that absorbed its neighbors.
+- **Economic character:** Mineral extraction (copper, gold, silver), fishing, agriculture. Economic growth constrained by chronic political instability.
+- **Key dynamic:** Peru's internal fragmentation prevents participation in the revolutionary integration transforming its neighbors. Standalone as the exception proving the rule.
+- **→ See KML: Peru**
 
-**Cayenne (formerly French Guiana):** Independent former French overseas department. France's post-EU retrenchment and overseas-territory cost-cutting led to negotiated independence in the 2040s. Joined CARICOM. Capital: Cayenne. Population ~400,000. **→ See KML: Cayenne**
+**Cayenne (formerly French Guiana):** Stage 2-3 — Independent former French overseas department, CARICOM member.
+- **Strategic posture:** Independent after France's post-EU retrenchment led to negotiated independence in the 2040s. Joined CARICOM. Capital: Cayenne. Population ~400,000. Participates in Guianas Cooperation Council.
+- **Economic character:** European spaceport (Guiana Space Centre) legacy converted to civilian/commercial launch services. Forestry, fishing.
+- **Key dynamic:** The last European colonial territory in mainland South America — sovereignty achieved through French withdrawal, not revolutionary struggle.
+- **→ See KML: Cayenne**
 
-**Uruguay:** Unified with Argentina as part of the broader Rioplatense post-flip revolutionary wave (~2048). Buenos Aires–Montevideo axis consolidated under a single sovereignty after a century of close cultural and economic integration. **→ See borders-geopolitics.md#argentina**
+**Falkland Islands, South Georgia & South Sandwich Islands:** Autonomous zone under Argentina-Uruguay state. Occupied by reactionary Milei-era Argentina (~2028-2032) during UK's post-Brexit decline. After Argentina's revolutionary flip (~2034-2036), the military occupation was converted into an autonomous zone with special status under the unified Argentina-Uruguay state.
+- **→ See borders-geopolitics.md#argentina**
 
-**Falkland Islands, South Georgia & South Sandwich Islands:** Occupied by reactionary Milei-era Argentina (~2028–2032) during the UK's accelerated post-Brexit decline. After Argentina's revolutionary flip (~2034–2036), the military occupation was converted into an autonomous zone with special status under the unified Argentina-Uruguay state. **→ See borders-geopolitics.md#argentina**
+**Guianas Cooperation Council (Guyana, Suriname, Cayenne):** Subregional coordination body. Economic coordination, climate resilience, and infrastructure integration between Guyana, Suriname, and Cayenne. Not a political unification — border disputes remain unresolved but managed. Guyana's oil wealth (Stabroek Block) anchors the council's development fund.
+- **→ See KML: Guyana, Suriname, Cayenne**
 
-**Guianas Cooperation Council (Guyana, Suriname, Cayenne):** Economic coordination, climate resilience, and infrastructure integration body. Not a political unification — border disputes remain unresolved but managed. Guyana's oil wealth (Stabroek Block) anchors the council's development fund. **→ See KML: Guyana, Suriname, Cayenne**
-
-**Lithium Triangle (Chile, Bolivia):** The strategic choke point for global green energy. Chile's lithium policy reoriented toward state control and BRICS+ partnerships; Bolivia's reserves fully nationalized with Chinese partnerships. Argentina's lithium reserves are managed within the Argentina-Uruguay state. Policy coordination only — not a joint sovereignty zone. **→ See KML: Lithium Triangle**
+**Paraguay:** Stage 2-3 — Landlocked state navigating between Gran Colombia and Southern Cone alignment.
+- **Strategic posture:** Landlocked between Gran Colombia, Argentina-Uruguay, and Brazil. Agricultural economy (soy, beef, hydroelectricity). Maintains independence through non-alignment between competing revolutionary blocs.
+- **Economic character:** Itaipu and Yacyretá hydroelectric dams provide energy export revenue. Soy and beef exports via Paraná-Paraguay waterway.
+- **Key dynamic:** Paraguay's strategic position between Gran Colombia, Brazil, and Argentina makes it a natural buffer — preserved independence by not choosing between revolutionary blocs.
+- **→ See KML: Paraguay****
 
 ### Central America
 
+**Central America:**
+
+**Mexico:** Revolutionary Stage 3-4 — Unified revolutionary republic incorporating Aztlán as northern autonomous socialist region.
+- **Strategic posture:** Unified revolutionary republic incorporating Aztlán as its northern autonomous socialist region. Aztlán's revolutionary energy and renewable energy infrastructure integrated into broader left-governance framework. Northern border reconfigured from single US-Mexico boundary into complex multi-jurisdictional frontier between Mexico-Aztlán and fragmented US successor states (New Afrika, Texas, Pacifica, Front Range). Deepened ties with Brazil and BRICS+.
+- **Economic character:** Middle-income transitional economy trending toward developmental socialism. Semiconductor manufacturing (Phoenix TSMC/Intel legacy), renewable energy (desert solar farms), manufacturing, remittances from US successor states.
+- **Key dynamic:** The original Chicano Socialist Republic project evolved from separatist to integrative, culminating in formal unification by the late 2040s. Mexico emerged as the northern anchor of a reimagined Central American space.
+- **→ See KML: Mexico**
+- → See transition doc: [central-america.md](../../2026-2050-transition/regions/central-america.md)
+
 Central America in 2050 is in the late stages of a profound reconfiguration driven by three forces: the collapse of the Monroe Doctrine after US federal dissolution removed the primary external obstacle to regional integration; the unification of Mexico with its northern Aztlán revolutionary zone creating a regional pole of attraction; and the climate-driven humanitarian pressure of the Dry Corridor drought generating existential pressure for political restructuring. The region's historical trajectory — five republics born from the 1823 Federal Republic of Central America, shattered by caudillo rivalries and US intervention — has come full circle. Without Washington's active suppression of unification movements (the 1907 Central American Court of Justice, the 1921 Federation attempt, the 1950s ODECA framework — all undermined by US opposition), the structural forces pulling the isthmus together are finally unconstrained.
 
-**Central American Federation (CAF):** A revolutionary bloc anchored by the Northern Triangle core — Guatemala, El Salvador, and Honduras — operating as a confederal governance structure with a common external tariff, free movement, coordinated security policy, and a revived Central American Court of Justice. The CAF emerged in the 2040s as left-governments across the Northern Triangle, freed from US-backed security-force patronage networks, pursued integration as a survival strategy against climate-driven migration pressure and organized crime networks that no single state could contain. The CAF is not yet a full federation (Costa Rica and Panama remain outside) but functions as a deepening confederation with a trajectory toward reunification of the historical Central American space. The Northern Triangle alone accounts for ~35M of the region's ~55M population.
+**Central American Federation (CAF):** Revolutionary Stage 2-3 — Northern Triangle confederation, regional integration anchor.
+- **Strategic posture:** Revolutionary bloc anchored by Guatemala, El Salvador, and Honduras operating as confederal governance structure with common external tariff, free movement, coordinated security policy, revived Central American Court of Justice. CAF emerged in 2040s as left-governments across Northern Triangle pursued integration as survival strategy against climate-driven migration pressure and organized crime. Not yet a full federation — Costa Rica and Panama remain outside. Northern Triangle accounts for ~35M of region's ~55M population.
+- **Economic character:** Agricultural economies transitioning toward regional manufacturing and services integration. Remittance-dependent economies reoriented toward BRICS+ financial flows. Climate-driven migration from Dry Corridor is existential pressure.
+- **Key dynamic:** Without Washington's suppression of unification movements, the structural forces pulling the isthmus together are finally unconstrained. Full Central American reunification is plausible by ~2075.
+- **→ See KML: Central American Federation**
 
-**Costa Rica:** The outlier — stable, democratic, ecotourism-driven, with no army and a strong institutional tradition. Costa Rica's caution toward the CAF reflects its historical exceptionalism (the "Switzerland of Central America") and its reluctance to absorb the governance deficits of its northern neighbors. Costa Rica maintains observer status and deep economic integration but preserves political autonomy. Its revolutionary character is measured and institutional — social-democratic stability rather than transformative upheaval.
+**Costa Rica:** Stage 2-3 — Stable democratic outlier, social-democratic stability.
+- **Strategic posture:** Stable, democratic, ecotourism-driven, no army, strong institutional tradition. Maintains observer status and deep economic integration with CAF but preserves political autonomy.
+- **Economic character:** Ecotourism, tech services, agriculture (coffee, bananas, pineapples). High human development relative to regional peers.
+- **Key dynamic:** Costa Rica's caution toward CAF reflects its historical exceptionalism ("Switzerland of Central America") and reluctance to absorb governance deficits of northern neighbors. Revolutionary character is measured and institutional.
+- **→ See KML: Costa Rica**
 
-**Panama:** The canal state — its entire economy and identity structured around the waterway. Panama's strategic calculus is unique: the canal's revenue stream (~$2.5B/yr pre-collapse) and the US security guarantee that protected it are both gone. In the post-American era, Panama navigates a complex triangle between the CAF (land border with Costa Rica, cultural and historical Central American identity), Colombia (land border, financial integration), and the BRICS+ powers that now dominate canal traffic (China is the second-largest user). Panama is the region's most pragmatic state — non-ideological, transactional, and cautious. It participates in CAF economic frameworks but maintains full sovereignty over canal operations and the Colón Free Zone.
+**Panama:** Stage 2 — Canal state, pragmatic and transactional.
+- **Strategic posture:** The canal state — its entire economy and identity structured around the waterway. Revenue stream (~$2.5B/yr pre-collapse) and US security guarantee both gone. Navigates complex triangle between CAF, Colombia (Gran Colombia), and BRICS+ powers dominating canal traffic. Participates in CAF economic frameworks but maintains full sovereignty over canal operations and Colón Free Zone.
+- **Economic character:** Canal operations and fees, Colón Free Zone, financial services, shipping logistics. BRICS+ aligned post-US-collapse.
+- **Key dynamic:** The region's most pragmatic state — non-ideological, transactional, cautious. Most likely holdout against full Central American unification.
+- **→ See KML: Panama**
 
-**Belize:** The English-speaking Caribbean-identified state on the Central American mainland. Belize's orientation has always been Caribbean (CARICOM member, Commonwealth realm, English legal system, Afro-Caribbean cultural foundation) rather than Central American (Hispanic, Spanish-speaking, civil law). Its territorial dispute with Guatemala was resolved through CAF mediation in the 2040s — a demonstration of the CAF's institutional value. Belize maintains dual CARICOM-CAF membership as a bridge state, its sovereignty guaranteed by both regional blocs.
+**Belize:** Stage 2-3 — CARICOM-CAF bridge state.
+- **Strategic posture:** English-speaking Caribbean-identified state on Central American mainland. CARICOM member, Commonwealth legal system, Afro-Caribbean cultural foundation. Territorial dispute with Guatemala resolved through CAF mediation in 2040s. Maintains dual CARICOM-CAF membership as bridge state, sovereignty guaranteed by both regional blocs.
+- **Economic character:** Tourism, offshore finance, agriculture (sugar, citrus, bananas). Small population (~400K).
+- **Key dynamic:** Belize is the living proof that regional integration frameworks can coexist — its dual CARICOM-CAF membership creates a model for overlapping sovereignty arrangements.
+- **→ See KML: Belize**
 
 **Revolutionary/Reactionary Spectrum (Central America):**
 
