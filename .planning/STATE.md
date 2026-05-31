@@ -3,15 +3,15 @@ gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
 status: executing
-stopped_at: Plan 1 — Discovery research complete
-last_updated: "2026-05-31T09:47:00.000Z"
-last_activity: 2026-05-31 -- Phase 20 Plan 01 complete
+stopped_at: Plan 3 — Africa borders-geopolitics.md restructure complete
+last_updated: "2026-05-31T10:36:00.000Z"
+last_activity: 2026-05-31 -- Phase 20 Plan 03 complete
 progress:
   total_phases: 21
   completed_phases: 13
   total_plans: 69
-  completed_plans: 63
-  percent: 91
+  completed_plans: 64
+  percent: 92
 ---
 
 # Project State
@@ -26,15 +26,15 @@ See: .planning/PROJECT.md (updated 2026-05-19)
 ## Current Position
 
 Phase: 20 (africa-and-america-re-review) — EXECUTING
-Plan: 1 complete (2 of 7)
+Plan: 3 complete (3 of 7)
 Status: Executing Phase 20
-Last activity: 2026-05-31 -- Phase 20 Plan 01 complete (Discovery & Research)
+Last activity: 2026-05-31 -- Phase 20 Plan 03 complete (Africa borders-geopolitics restructure)
 
 ## Performance Metrics
 
 **Velocity:**
 
-- Total plans completed: 62
+- Total plans completed: 64
 - Average duration: —
 - Total execution time: 0 hours
 
@@ -60,6 +60,7 @@ Last activity: 2026-05-31 -- Phase 20 Plan 01 complete (Discovery & Research)
 | Phase 19.1 P02 | 172 | 1 tasks | 1 files |
 | Phase 19.1-antarctica-gap-closure P03 | 334 | 2 tasks | 2 files |
 | Phase 19.1-antarctica-gap-closure P04 | 1min 34s | 3 tasks | 3 files |
+| Phase 20 P03 | 2min 26s | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -110,6 +111,10 @@ Last activity: 2026-05-31 -- Phase 20 Plan 01 complete (Discovery & Research)
 - [Phase 20 Plan 01]: CAR reassessment — southern CAR EAF absorption ruled PLAUSIBLE (MEDIUM confidence). 9 southern prefectures (Bangui, Lobaye, Ombella-M'Poko, Sangha-Mbaéré, Basse-Kotto, Mbomou, Haut-Mbomou, Kémo, Nana-Grébizi) added to EAF admin1; 7 northern prefectures remain contested/reduced CAR entity.
 - [Phase 20 Plan 01]: Cameroon fragmentation confirmed — 1 entry → 3 (AES North, Ambazonia, Rump Cameroon) across all 6 domain docs.
 - [Phase 20 Plan 01]: Domain doc creation ordering: borders-geopolitics (Wave 1) → economy+demographics (Wave 2) → culture+climate+tech (Wave 3). ~125 effective entities, ~750 individual sub-entries.
+- [Phase 20 Plan 03]: Congo (Kinshasa) integrated as EAF member sub-entry (blockquote) rather than standalone entity — no standalone "Congo (Kinshasa)" KML entity in entity-config.
+- [Phase 20 Plan 03]: Northern Africa includes 5 APR members (Egypt, Libya, Tunisia, Algeria, Sudan) with → See KML: Arab Popular Republic; Morocco standalone with → See KML: Morocco.
+- [Phase 20 Plan 03]: Eritrea labeled "Stage 1-2 Reactionary Stasis" not revolutionary — pre-flip per transition doc.
+- [Phase 20 Plan 03]: Chad and Equatorial Guinea use "Beyond Loop" label — outside revolutionary/reactionary binary per transition doc.
 
 ### Pending Todos
 
@@ -133,6 +138,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-31T09:47:00.000Z
-Stopped at: Plan 1 — Discovery research complete
-Resume file: .planning/phases/20-africa-and-america-re-review/20-01-SUMMARY.md
+Last session: 2026-05-31T10:36:00.000Z
+Stopped at: Plan 3 — Africa borders-geopolitics.md restructure complete
+Resume file: .planning/phases/20-africa-and-america-re-review/20-03-SUMMARY.md
