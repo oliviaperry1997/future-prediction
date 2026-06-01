@@ -13,7 +13,7 @@ Output:
 import os, subprocess, tempfile, shutil, zipfile, glob, colorsys, xml.etree.ElementTree as ET
 import fiona
 import fiona.transform
-from shapely.geometry import shape, mapping
+from shapely.geometry import shape, mapping, Polygon, MultiPolygon
 from shapely.ops import unary_union
 from shapely.strtree import STRtree
 
@@ -22,8 +22,7 @@ NE_RIVERS_URL = "https://naciscdn.org/naturalearth/10m/physical/ne_10m_rivers_la
 NE_RIVERS_ZIP = "source/ne_10m_rivers_lake_centerlines.zip"
 RIVER_COLOR   = (40, 100, 220)   # RGB
 RIVER_ALPHA   = 220
-RIVER_WIDTH   = {1: 6, 2: 5, 3: 4, 4: 3, 5: 2, 6: 2, 7: 1, 8: 1,
-                 9: 1, 10: 1}
+RIVER_WIDTH   = {1: 6, 2: 5, 3: 4, 4: 3, 5: 2, 6: 2, 7: 1, 8: 1}
 
 # ── Drainage basin config ─────────────────────────────────────────────────────
 HYBAS_GLOB       = "source/hybas_*_lev04_v1c.zip"
@@ -108,13 +107,11 @@ def generate_rivers_kmz():
                                   "Intermittent Stream", "Canals", "Canal"):
                         continue
                     sr = props.get("scalerank", 6) or 6
+                    if sr >= 9:
+                        continue
                     name = (props.get("name") or props.get("label") or "").strip()
                     geom = shape(g)
-                    if sr <= 6:
-                        rivers.append((name or f"River ({fc})", sr, geom, mapping(geom)))
-                    else:
-                        simplified = geom.simplify(0.001, preserve_topology=True)
-                        rivers.append((name or f"River ({fc})", sr, simplified, mapping(simplified)))
+                    rivers.append((name or f"River ({fc})", sr, geom, mapping(geom)))
         finally:
             shutil.rmtree(tmpdir)
 
@@ -226,12 +223,26 @@ def generate_basins_kmz(river_features):
         groups.setdefault(term, []).append(geom)
 
     # ── Merge geometries per watershed group ────────────────────────────────
+    def drop_interior_rings(geom):
+        """Remove interior holes from merged polygons."""
+        if geom.is_empty:
+            return geom
+        if geom.geom_type == 'Polygon':
+            return Polygon(geom.exterior)
+        elif geom.geom_type == 'MultiPolygon':
+            cleaned = [Polygon(p.exterior) for p in geom.geoms]
+            if len(cleaned) == 1:
+                return cleaned[0]
+            return MultiPolygon(cleaned)
+        return geom
+
     merged_basins = []  # (terminal_id, merged_shapely_geom)
     for term, geoms in groups.items():
         if len(geoms) == 1:
-            merged_basins.append((term, geoms[0]))
+            merged = geoms[0]
         else:
-            merged_basins.append((term, unary_union(geoms)))
+            merged = unary_union(geoms)
+        merged_basins.append((term, drop_interior_rings(merged)))
     merged_basins.sort(key=lambda x: x[0])
 
     print(f"  {len(basin_data)} sub-basins merged into {len(merged_basins)} watersheds")
@@ -244,17 +255,23 @@ def generate_basins_kmz(river_features):
 
     def watershed_name(term, merged_geom):
         candidates = name_tree.query(merged_geom)
-        scored = [(i, river_srs[i]) for i in candidates
-                  if merged_geom.intersects(river_geoms[i])]
-        if not scored:
-            return ""
-        best = min(scored, key=lambda x: x[1])[0]
-        n = river_names[best]
-        # Skip generic "River (River)" names
-        if n and not n.startswith("River ("):
-            return n
-        if scored:
-            return river_names[min(scored, key=lambda x: x[1])[0]]
+        best_i = None
+        best_sr = 999
+        best_len = 0.0
+        for i in candidates:
+            if not merged_geom.intersects(river_geoms[i]):
+                continue
+            n = river_names[i]
+            if n.startswith("River ("):
+                continue
+            inter_len = merged_geom.intersection(river_geoms[i]).length
+            sr = river_srs[i]
+            if sr < best_sr or (sr == best_sr and inter_len > best_len):
+                best_i = i
+                best_sr = sr
+                best_len = inter_len
+        if best_i is not None:
+            return river_names[best_i]
         return ""
 
     # ── Deterministic color per terminal ──────────────────────────────────────
@@ -271,7 +288,7 @@ def generate_basins_kmz(river_features):
     ET.SubElement(document, "name").text = "Drainage Basins (merged watersheds)"
     ET.SubElement(document, "description").text = "HydroBASINS L4 merged by NEXT_DOWN watershed, colored, borderless"
 
-    # One style per terminal (no outline via PolyStyle only)
+    # One style per terminal (invisible outline so GEW renders the fill)
     style_map = {}
     for term, _ in merged_basins:
         rgb = terminal_color(term)
@@ -279,10 +296,13 @@ def generate_basins_kmz(river_features):
         sid = f"b{term}"
         style_map[term] = (sid, fill_hex)
         style = ET.SubElement(document, "Style", {"id": sid})
+        ls = ET.SubElement(style, "LineStyle")
+        ET.SubElement(ls, "color").text = "00000000"
+        ET.SubElement(ls, "width").text = "1"
         ps = ET.SubElement(style, "PolyStyle")
         ET.SubElement(ps, "color").text = fill_hex
         ET.SubElement(ps, "fill").text = "1"
-        ET.SubElement(ps, "outline").text = "0"
+        ET.SubElement(ps, "outline").text = "1"
 
     # Add placemarks
     written = 0
