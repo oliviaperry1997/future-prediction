@@ -856,6 +856,862 @@
                 </Folder>
             </Folder>
         </Folder>
+    <Folder id="2">
+            <name>Ecological Biomes (2050)</name>
+            <Folder id="3">
+                <Style id="8">
+                    <LineStyle id="10">
+                        <color>FFA0A0A0</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="9">
+                        <color>60A0A0A0</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <name>Tundra</name>
+                <Placemark id="5">
+                    <name>Tundra</name>
+                    <description>Tundra — Arctic fringe ecosystems (mosses, lichens, shrubs, permafrost) — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#8</styleUrl>
+                    <Polygon id="4">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="6">
+                                <coordinates>-180.0,65.0,0 180.0,65.0,0 180.0,85.0,0 -180.0,85.0,0 -180.0,65.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+            </Folder>
+            <Folder id="11">
+                <Style id="16">
+                    <LineStyle id="18">
+                        <color>FF3A7D3A</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="17">
+                        <color>603A7D3A</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="23">
+                    <LineStyle id="25">
+                        <color>FF3A7D3A</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="24">
+                        <color>603A7D3A</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <name>Boreal Forest/Taiga</name>
+                <Placemark id="13">
+                    <name>Boreal Forest/Taiga</name>
+                    <description>Boreal Forest/Taiga — Cold-tolerant coniferous forests and woodlands — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#16</styleUrl>
+                    <Polygon id="12">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="14">
+                                <coordinates>-170.0,50.0,0 -55.0,50.0,0 -55.0,65.0,0 -170.0,65.0,0 -170.0,50.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="20">
+                    <name>Boreal Forest/Taiga</name>
+                    <description>Boreal Forest/Taiga — Cold-tolerant coniferous forests and woodlands — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#23</styleUrl>
+                    <Polygon id="19">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="21">
+                                <coordinates>-15.0,50.0,0 180.0,50.0,0 180.0,65.0,0 -15.0,65.0,0 -15.0,50.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+            </Folder>
+            <Folder id="26">
+                <Style id="31">
+                    <LineStyle id="33">
+                        <color>FF5CA65C</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="32">
+                        <color>605CA65C</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="38">
+                    <LineStyle id="40">
+                        <color>FF5CA65C</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="39">
+                        <color>605CA65C</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="45">
+                    <LineStyle id="47">
+                        <color>FF5CA65C</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="46">
+                        <color>605CA65C</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="52">
+                    <LineStyle id="54">
+                        <color>FF5CA65C</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="53">
+                        <color>605CA65C</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="59">
+                    <LineStyle id="61">
+                        <color>FF5CA65C</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="60">
+                        <color>605CA65C</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <name>Temperate Forest</name>
+                <Placemark id="28">
+                    <name>Temperate Forest</name>
+                    <description>Temperate Forest — Mixed deciduous and coniferous mid-latitude forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#31</styleUrl>
+                    <Polygon id="27">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="29">
+                                <coordinates>-100.0,30.0,0 -55.0,30.0,0 -55.0,50.0,0 -100.0,50.0,0 -100.0,30.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="35">
+                    <name>Temperate Forest</name>
+                    <description>Temperate Forest — Mixed deciduous and coniferous mid-latitude forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#38</styleUrl>
+                    <Polygon id="34">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="36">
+                                <coordinates>-10.0,35.0,0 35.0,35.0,0 35.0,55.0,0 -10.0,55.0,0 -10.0,35.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="42">
+                    <name>Temperate Forest</name>
+                    <description>Temperate Forest — Mixed deciduous and coniferous mid-latitude forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#45</styleUrl>
+                    <Polygon id="41">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="43">
+                                <coordinates>100.0,25.0,0 145.0,25.0,0 145.0,50.0,0 100.0,50.0,0 100.0,25.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="49">
+                    <name>Temperate Forest</name>
+                    <description>Temperate Forest — Mixed deciduous and coniferous mid-latitude forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#52</styleUrl>
+                    <Polygon id="48">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="50">
+                                <coordinates>140.0,-47.0,0 180.0,-47.0,0 180.0,-25.0,0 140.0,-25.0,0 140.0,-47.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="56">
+                    <name>Temperate Forest</name>
+                    <description>Temperate Forest — Mixed deciduous and coniferous mid-latitude forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#59</styleUrl>
+                    <Polygon id="55">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="57">
+                                <coordinates>-76.0,-56.0,0 -64.0,-56.0,0 -64.0,-35.0,0 -76.0,-35.0,0 -76.0,-56.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+            </Folder>
+            <Folder id="62">
+                <Style id="67">
+                    <LineStyle id="69">
+                        <color>FFE8D44D</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="68">
+                        <color>60E8D44D</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="74">
+                    <LineStyle id="76">
+                        <color>FFE8D44D</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="75">
+                        <color>60E8D44D</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="81">
+                    <LineStyle id="83">
+                        <color>FFE8D44D</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="82">
+                        <color>60E8D44D</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="88">
+                    <LineStyle id="90">
+                        <color>FFE8D44D</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="89">
+                        <color>60E8D44D</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="95">
+                    <LineStyle id="97">
+                        <color>FFE8D44D</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="96">
+                        <color>60E8D44D</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <name>Grassland/Savanna</name>
+                <Placemark id="64">
+                    <name>Grassland/Savanna</name>
+                    <description>Grassland/Savanna — Open grasslands, savanna woodlands, and shrublands — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#67</styleUrl>
+                    <Polygon id="63">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="65">
+                                <coordinates>-18.0,8.0,0 40.0,8.0,0 40.0,18.0,0 -18.0,18.0,0 -18.0,8.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="71">
+                    <name>Grassland/Savanna</name>
+                    <description>Grassland/Savanna — Open grasslands, savanna woodlands, and shrublands — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#74</styleUrl>
+                    <Polygon id="70">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="72">
+                                <coordinates>28.0,-5.0,0 42.0,-5.0,0 42.0,5.0,0 28.0,5.0,0 28.0,-5.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="78">
+                    <name>Grassland/Savanna</name>
+                    <description>Grassland/Savanna — Open grasslands, savanna woodlands, and shrublands — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#81</styleUrl>
+                    <Polygon id="77">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="79">
+                                <coordinates>50.0,40.0,0 90.0,40.0,0 90.0,55.0,0 50.0,55.0,0 50.0,40.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="85">
+                    <name>Grassland/Savanna</name>
+                    <description>Grassland/Savanna — Open grasslands, savanna woodlands, and shrublands — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#88</styleUrl>
+                    <Polygon id="84">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="86">
+                                <coordinates>-105.0,28.0,0 -95.0,28.0,0 -95.0,52.0,0 -105.0,52.0,0 -105.0,28.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="92">
+                    <name>Grassland/Savanna</name>
+                    <description>Grassland/Savanna — Open grasslands, savanna woodlands, and shrublands — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#95</styleUrl>
+                    <Polygon id="91">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="93">
+                                <coordinates>-65.0,-40.0,0 -55.0,-40.0,0 -55.0,-25.0,0 -65.0,-25.0,0 -65.0,-40.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+            </Folder>
+            <Folder id="98">
+                <Style id="103">
+                    <LineStyle id="105">
+                        <color>FFEDC58E</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="104">
+                        <color>60EDC58E</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="110">
+                    <LineStyle id="112">
+                        <color>FFEDC58E</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="111">
+                        <color>60EDC58E</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="117">
+                    <LineStyle id="119">
+                        <color>FFEDC58E</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="118">
+                        <color>60EDC58E</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="124">
+                    <LineStyle id="126">
+                        <color>FFEDC58E</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="125">
+                        <color>60EDC58E</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="131">
+                    <LineStyle id="133">
+                        <color>FFEDC58E</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="132">
+                        <color>60EDC58E</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="138">
+                    <LineStyle id="140">
+                        <color>FFEDC58E</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="139">
+                        <color>60EDC58E</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <name>Desert</name>
+                <Placemark id="100">
+                    <name>Desert</name>
+                    <description>Desert — Hyper-arid and semi-arid desert ecosystems — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#103</styleUrl>
+                    <Polygon id="99">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="101">
+                                <coordinates>-18.0,18.0,0 40.0,18.0,0 40.0,35.0,0 -18.0,35.0,0 -18.0,18.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="107">
+                    <name>Desert</name>
+                    <description>Desert — Hyper-arid and semi-arid desert ecosystems — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#110</styleUrl>
+                    <Polygon id="106">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="108">
+                                <coordinates>35.0,12.0,0 60.0,12.0,0 60.0,32.0,0 35.0,32.0,0 35.0,12.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="114">
+                    <name>Desert</name>
+                    <description>Desert — Hyper-arid and semi-arid desert ecosystems — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#117</styleUrl>
+                    <Polygon id="113">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="115">
+                                <coordinates>85.0,40.0,0 115.0,40.0,0 115.0,48.0,0 85.0,48.0,0 85.0,40.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="121">
+                    <name>Desert</name>
+                    <description>Desert — Hyper-arid and semi-arid desert ecosystems — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#124</styleUrl>
+                    <Polygon id="120">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="122">
+                                <coordinates>115.0,-35.0,0 150.0,-35.0,0 150.0,-18.0,0 115.0,-18.0,0 115.0,-35.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="128">
+                    <name>Desert</name>
+                    <description>Desert — Hyper-arid and semi-arid desert ecosystems — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#131</styleUrl>
+                    <Polygon id="127">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="129">
+                                <coordinates>12.0,-30.0,0 30.0,-30.0,0 30.0,-18.0,0 12.0,-18.0,0 12.0,-30.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="135">
+                    <name>Desert</name>
+                    <description>Desert — Hyper-arid and semi-arid desert ecosystems — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#138</styleUrl>
+                    <Polygon id="134">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="136">
+                                <coordinates>-75.0,-52.0,0 -65.0,-52.0,0 -65.0,-24.0,0 -75.0,-24.0,0 -75.0,-52.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+            </Folder>
+            <Folder id="141">
+                <Style id="146">
+                    <LineStyle id="148">
+                        <color>FF1A5C1A</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="147">
+                        <color>601A5C1A</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="153">
+                    <LineStyle id="155">
+                        <color>FF1A5C1A</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="154">
+                        <color>601A5C1A</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="160">
+                    <LineStyle id="162">
+                        <color>FF1A5C1A</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="161">
+                        <color>601A5C1A</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <Style id="167">
+                    <LineStyle id="169">
+                        <color>FF1A5C1A</color>
+                        <colorMode>normal</colorMode>
+                        <width>0.5</width>
+                    </LineStyle>
+                    <PolyStyle id="168">
+                        <color>601A5C1A</color>
+                        <colorMode>normal</colorMode>
+                        <fill>1</fill>
+                        <outline>1</outline>
+                    </PolyStyle>
+                </Style>
+                <name>Tropical Rainforest</name>
+                <Placemark id="143">
+                    <name>Tropical Rainforest</name>
+                    <description>Tropical Rainforest — Equatorial moist broadleaf forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#146</styleUrl>
+                    <Polygon id="142">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="144">
+                                <coordinates>-82.0,-15.0,0 -45.0,-15.0,0 -45.0,5.0,0 -82.0,5.0,0 -82.0,-15.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="150">
+                    <name>Tropical Rainforest</name>
+                    <description>Tropical Rainforest — Equatorial moist broadleaf forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#153</styleUrl>
+                    <Polygon id="149">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="151">
+                                <coordinates>8.0,-8.0,0 32.0,-8.0,0 32.0,6.0,0 8.0,6.0,0 8.0,-8.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="157">
+                    <name>Tropical Rainforest</name>
+                    <description>Tropical Rainforest — Equatorial moist broadleaf forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#160</styleUrl>
+                    <Polygon id="156">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="158">
+                                <coordinates>95.0,-12.0,0 150.0,-12.0,0 150.0,12.0,0 95.0,12.0,0 95.0,-12.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+                <Placemark id="164">
+                    <name>Tropical Rainforest</name>
+                    <description>Tropical Rainforest — Equatorial moist broadleaf forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                    <styleUrl>#167</styleUrl>
+                    <Polygon id="163">
+                        <altitudeMode>clampToGround</altitudeMode>
+                        <outerBoundaryIs>
+                            <LinearRing id="165">
+                                <coordinates>-92.0,5.0,0 -78.0,5.0,0 -78.0,18.0,0 -92.0,18.0,0 -92.0,5.0,0</coordinates>
+                            </LinearRing>
+                        </outerBoundaryIs>
+                    </Polygon>
+                </Placemark>
+            </Folder>
+        </Folder>
+    <Folder id="2">
+            <Style id="7">
+                <LineStyle id="9">
+                    <color>ff55b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <width>0.5</width>
+                </LineStyle>
+                <PolyStyle id="8">
+                    <color>6055b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="14">
+                <LineStyle id="16">
+                    <color>ff55b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <width>0.5</width>
+                </LineStyle>
+                <PolyStyle id="15">
+                    <color>6055b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="21">
+                <LineStyle id="23">
+                    <color>ff55b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <width>0.5</width>
+                </LineStyle>
+                <PolyStyle id="22">
+                    <color>6055b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="28">
+                <LineStyle id="30">
+                    <color>ff55b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <width>0.5</width>
+                </LineStyle>
+                <PolyStyle id="29">
+                    <color>6055b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="35">
+                <LineStyle id="37">
+                    <color>ff55b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <width>0.5</width>
+                </LineStyle>
+                <PolyStyle id="36">
+                    <color>6055b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="42">
+                <LineStyle id="44">
+                    <color>ff55b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <width>0.5</width>
+                </LineStyle>
+                <PolyStyle id="43">
+                    <color>6055b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="49">
+                <LineStyle id="51">
+                    <color>ff55b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <width>0.5</width>
+                </LineStyle>
+                <PolyStyle id="50">
+                    <color>6055b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="56">
+                <LineStyle id="58">
+                    <color>ff55b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <width>0.5</width>
+                </LineStyle>
+                <PolyStyle id="57">
+                    <color>6055b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <Style id="63">
+                <LineStyle id="65">
+                    <color>ff55b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <width>0.5</width>
+                </LineStyle>
+                <PolyStyle id="64">
+                    <color>6055b0b0</color>
+                    <colorMode>normal</colorMode>
+                    <fill>1</fill>
+                    <outline>1</outline>
+                </PolyStyle>
+            </Style>
+            <name>Sea Level Rise Inundation (0.35m)</name>
+            <Placemark id="4">
+                <name>Bangladesh Delta Inundation Zone</name>
+                <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Ganges-Brahmaputra-Meghna delta — densely populated low-lying coastal zone See: 2050-snapshot/domains/climate.md#sea-level</description>
+                <styleUrl>#7</styleUrl>
+                <Polygon id="3">
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing id="5">
+                            <coordinates>93.0,21.0,0 93.0,24.0,0 88.0,24.0,0 88.0,21.0,0 93.0,21.0,0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="11">
+                <name>Mekong Delta Inundation Zone</name>
+                <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Vietnam's Mekong Delta — primary rice-growing region, extreme flood risk See: 2050-snapshot/domains/climate.md#sea-level</description>
+                <styleUrl>#14</styleUrl>
+                <Polygon id="10">
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing id="12">
+                            <coordinates>107.0,8.5,0 107.0,10.5,0 105.0,10.5,0 105.0,8.5,0 107.0,8.5,0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="18">
+                <name>Nile Delta Inundation Zone</name>
+                <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Egypt's Nile Delta fan — agricultural heartland and population center See: 2050-snapshot/domains/climate.md#sea-level</description>
+                <styleUrl>#21</styleUrl>
+                <Polygon id="17">
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing id="19">
+                            <coordinates>32.0,30.0,0 32.0,31.5,0 30.0,31.5,0 30.0,30.0,0 32.0,30.0,0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="25">
+                <name>US Gulf Coast Inundation Zone</name>
+                <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Houston to Mobile — hurricane-prone coastal urban corridor See: 2050-snapshot/domains/climate.md#sea-level</description>
+                <styleUrl>#28</styleUrl>
+                <Polygon id="24">
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing id="26">
+                            <coordinates>-88.0,28.0,0 -88.0,31.0,0 -96.0,31.0,0 -96.0,28.0,0 -88.0,28.0,0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="32">
+                <name>Pacific Atolls Inundation Zone — Tuvalu</name>
+                <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Low-lying atoll nations — maximum elevation &lt;2m, extreme SLR vulnerability See: 2050-snapshot/domains/climate.md#sea-level</description>
+                <styleUrl>#35</styleUrl>
+                <Polygon id="31">
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing id="33">
+                            <coordinates>179.22,-8.52,0 179.22,-8.48,0 179.17999999999998,-8.48,0 179.17999999999998,-8.52,0 179.22,-8.52,0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="39">
+                <name>Pacific Atolls Inundation Zone — Kiribati</name>
+                <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Low-lying atoll nations — maximum elevation &lt;2m, extreme SLR vulnerability See: 2050-snapshot/domains/climate.md#sea-level</description>
+                <styleUrl>#42</styleUrl>
+                <Polygon id="38">
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing id="40">
+                            <coordinates>173.02,1.48,0 173.02,1.52,0 172.98,1.52,0 172.98,1.48,0 173.02,1.48,0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="46">
+                <name>Pacific Atolls Inundation Zone — Marshall Islands</name>
+                <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Low-lying atoll nations — maximum elevation &lt;2m, extreme SLR vulnerability See: 2050-snapshot/domains/climate.md#sea-level</description>
+                <styleUrl>#49</styleUrl>
+                <Polygon id="45">
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing id="47">
+                            <coordinates>171.02,6.98,0 171.02,7.02,0 170.98,7.02,0 170.98,6.98,0 171.02,6.98,0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="53">
+                <name>Pacific Atolls Inundation Zone — Maldives</name>
+                <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Low-lying atoll nations — maximum elevation &lt;2m, extreme SLR vulnerability See: 2050-snapshot/domains/climate.md#sea-level</description>
+                <styleUrl>#56</styleUrl>
+                <Polygon id="52">
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing id="54">
+                            <coordinates>73.52,2.98,0 73.52,3.02,0 73.48,3.02,0 73.48,2.98,0 73.52,2.98,0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+            <Placemark id="60">
+                <name>Netherlands Inundation Zone</name>
+                <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Dutch coastal zone — polder landscape already below sea level See: 2050-snapshot/domains/climate.md#sea-level</description>
+                <styleUrl>#63</styleUrl>
+                <Polygon id="59">
+                    <altitudeMode>clampToGround</altitudeMode>
+                    <outerBoundaryIs>
+                        <LinearRing id="61">
+                            <coordinates>8.0,51.0,0 8.0,54.0,0 3.0,54.0,0 3.0,51.0,0 8.0,51.0,0</coordinates>
+                        </LinearRing>
+                    </outerBoundaryIs>
+                </Polygon>
+            </Placemark>
+        </Folder>
     <Folder>
       <name>Climate</name>
       <Placemark>
