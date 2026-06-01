@@ -16,6 +16,20 @@ from rasterio.crs import CRS
 from rasterio.enums import Resampling
 from PIL import Image
 
+# ── Lake mask (reuse cached from biome pipeline) ──────────────────────────────
+NE_LAKES_MASK = "source/ne_lakes_mask.npy"
+
+
+def load_lake_mask(h, w):
+    if not os.path.exists(NE_LAKES_MASK):
+        print(f"Lake mask not found at {NE_LAKES_MASK}, skipping.")
+        return None
+    mask = np.load(NE_LAKES_MASK)
+    if mask.shape != (h, w):
+        print(f"Lake mask shape mismatch ({mask.shape} vs ({h},{w})), skipping.")
+        return None
+    return mask
+
 TIFF_PATH = "source/koppen_2041-2070_ssp370.tif"
 TILES_DIR = "tiles"
 MIN_ZOOM  = 0
@@ -82,6 +96,13 @@ def main():
             src_crs=src.crs, dst_crs=WEB_MERCATOR,
             dst_transform=dst_transform, resampling=Resampling.nearest,
         )
+
+    # ── Mask out lake pixels ────────────────────────────────────────────────────
+    lake_mask = load_lake_mask(TARGET_H, TARGET_W)
+    if lake_mask is not None:
+        n_lake = int(((band > 0) & lake_mask).sum())
+        band[lake_mask] = 0
+        print(f"Zeroed {n_lake:,} lake pixels")
 
     print("Applying colour LUT…")
     rgba = build_lut()[band]
