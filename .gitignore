@@ -16,5 +16,9 @@ entity-config-debug.json
 2050-snapshot/kml/source/us-counties-500k.kml
 2050-snapshot/kml/source/hybas_*.zip
 2050-snapshot/kml/source/global-countries-10m.kml
+2050-snapshot/kml/source/rf_model.joblib
+2050-snapshot/kml/source/rf_votes.npy
+2050-snapshot/kml/source/resolve_ecoregions_2017.zip
+2050-snapshot/kml/source/CHELSA_*.tif
 2050-snapshot/kml/borders.kml.bak.*
 2050-snapshot/kml/climate.kml.bak.*

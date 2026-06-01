@@ -2,8 +2,15 @@
 """
 Train a Random Forest classifier on RESOLVE 2017 biome labels + CHELSA historical
 bioclimatic variables, then predict projected biomes for 2041-2070 using an
-ensemble of all 5 CHELSA CMIP6 GCMs (majority vote per pixel), followed by
-a spatial majority filter to remove isolated noisy patches.
+ensemble of all 5 CHELSA CMIP6 GCMs (majority vote per pixel).
+
+Post-processing rules applied after majority vote:
+  1. Desert (13) + mean future bio12 > 250 mm  → reassign to 2nd-best voted class
+  2. Any class + Köppen 2050 = ET (29) or EF (30)  → Tundra (11)
+
+Caching:
+  - Trained RF model saved to source/rf_model.joblib  (skip retrain if present)
+  - Vote array saved to source/rf_votes.npy            (skip re-prediction if present)
 
 Streams all 19 CHELSA bioclim variables directly over HTTP — no large downloads.
 Reads at 0.1° resolution (3600×1800).
@@ -13,12 +20,13 @@ GCMs used (all available in CHELSA V2.1 SSP3-7.0):
 
 Inputs:
   source/resolve_biomes_2017.tif    — RESOLVE labels (local)
+  source/koppen_2041-2070_ssp370.tif — GloH2O V3 Köppen (local, for ET/EF override)
   CHELSA V2.1 bio01-bio19           — streamed over HTTP (historical + 5 future GCMs)
 
 Output:
   source/resolve_rf_projected_2050.tif   — uint8, RESOLVE biome IDs 1-14
 
-Runtime: ~25-30 min total
+Runtime: ~25-30 min total (first run); faster on re-run with cached model/votes
 """
 
 import os
@@ -29,18 +37,24 @@ import rasterio.warp
 from rasterio.crs import CRS
 from rasterio.enums import Resampling
 from rasterio.transform import from_bounds
-from scipy.ndimage import generic_filter
 from sklearn.ensemble import RandomForestClassifier
+import joblib
 
 # ── Config ────────────────────────────────────────────────────────────────────
 TARGET_H, TARGET_W = 1800, 3600   # 0.1° resolution
 N_ESTIMATORS       = 200
 N_JOBS             = -1
 RANDOM_STATE       = 42
-FILTER_SIZE        = 5            # majority filter window (pixels); 5 = ~55km at equator
+
+# Köppen class codes for ET and EF in GloH2O V3 numbering
+KOPPEN_ET = 29
+KOPPEN_EF = 30
 
 RESOLVE_TIF = "source/resolve_biomes_2017.tif"
+KOPPEN_TIF  = "source/koppen_2041-2070_ssp370.tif"
 OUT_TIF     = "source/resolve_rf_projected_2050.tif"
+MODEL_PATH  = "source/rf_model.joblib"
+VOTES_PATH  = "source/rf_votes.npy"
 
 CHELSA_BASE = "https://os.unil.cloud.switch.ch/chelsa02/chelsa/global/bioclim"
 
@@ -78,10 +92,10 @@ def future_url(n, gcm):
 
 
 # ── Raster helpers ────────────────────────────────────────────────────────────
-def read_layer(url_or_path):
+def read_layer(url_or_path, resampling=Resampling.average):
     with rasterio.open(url_or_path) as src:
         data = src.read(1, out_shape=(TARGET_H, TARGET_W),
-                        resampling=Resampling.average).astype(np.float32)
+                        resampling=resampling).astype(np.float32)
         nd = src.nodata
     if nd is not None:
         data[data == nd] = np.nan
@@ -100,27 +114,6 @@ def stream_stack(url_fn, label, **kwargs):
     return stack
 
 
-# ── Majority filter (spatial smoothing) ──────────────────────────────────────
-def majority_filter(arr, size=FILTER_SIZE, nodata=0):
-    """
-    Replace each pixel with the modal value in a (size×size) neighbourhood.
-    Nodata pixels (0) are excluded from the vote and preserved as 0.
-    """
-    print(f"  Applying {size}×{size} majority filter…")
-
-    def modal(window):
-        vals = window[window != nodata].astype(np.int32)
-        if len(vals) == 0:
-            return nodata
-        counts = np.bincount(vals, minlength=15)
-        return np.argmax(counts)
-
-    result = generic_filter(arr.astype(np.float64), modal,
-                            size=size, mode="nearest").astype(np.uint8)
-    result[arr == nodata] = nodata   # preserve original nodata
-    return result
-
-
 # ── Main ─────────────────────────────────────────────────────────────────────
 def main():
     # ── RESOLVE labels ────────────────────────────────────────────────────────
@@ -131,57 +124,123 @@ def main():
     land_mask = resolve > 0
     print(f"  Land pixels: {land_mask.sum():,}")
 
-    # ── Train RF on historical climate ───────────────────────────────────────
-    print("\nStreaming CHELSA historical bioclim (1981-2010)…")
-    hist_stack = stream_stack(historical_url, "historical")
+    # ── Köppen 2050 (for ET/EF override) ─────────────────────────────────────
+    print("Loading Köppen 2050 (for ET/EF post-processing)…")
+    with rasterio.open(KOPPEN_TIF) as src:
+        koppen = src.read(1, out_shape=(TARGET_H, TARGET_W),
+                          resampling=Resampling.nearest).astype(np.uint8)
+    polar_mask = (koppen == KOPPEN_ET) | (koppen == KOPPEN_EF)
+    print(f"  Polar pixels (ET+EF): {polar_mask.sum():,}")
 
-    flat_labels = resolve[land_mask]
-    flat_hist   = hist_stack[land_mask]
-    valid       = ~np.isnan(flat_hist).any(axis=1)
-    X_train, y_train = flat_hist[valid], flat_labels[valid]
-    print(f"\nTraining RandomForest on {len(X_train):,} samples…")
-    t0 = time.time()
-    clf = RandomForestClassifier(n_estimators=N_ESTIMATORS, n_jobs=N_JOBS,
-                                 random_state=RANDOM_STATE,
-                                 class_weight="balanced", min_samples_leaf=5)
-    clf.fit(X_train, y_train)
-    print(f"  Trained in {time.time()-t0:.1f}s")
+    # ── Train RF (or load from cache) ─────────────────────────────────────────
+    if os.path.exists(MODEL_PATH):
+        print(f"\nLoading cached RF model from {MODEL_PATH}…")
+        clf = joblib.load(MODEL_PATH)
+    else:
+        print("\nStreaming CHELSA historical bioclim (1981-2010)…")
+        hist_stack = stream_stack(historical_url, "historical")
 
-    print("\n  Top feature importances:")
-    imp = clf.feature_importances_
-    for i in np.argsort(imp)[::-1][:8]:
-        print(f"    bio{i+1:02d}: {imp[i]:.3f}")
+        flat_labels = resolve[land_mask]
+        flat_hist   = hist_stack[land_mask]
+        valid       = ~np.isnan(flat_hist).any(axis=1)
+        X_train, y_train = flat_hist[valid], flat_labels[valid]
+        print(f"\nTraining RandomForest on {len(X_train):,} samples…")
+        t0 = time.time()
+        clf = RandomForestClassifier(n_estimators=N_ESTIMATORS, n_jobs=N_JOBS,
+                                     random_state=RANDOM_STATE,
+                                     class_weight="balanced", min_samples_leaf=5)
+        clf.fit(X_train, y_train)
+        print(f"  Trained in {time.time()-t0:.1f}s")
+        joblib.dump(clf, MODEL_PATH)
+        print(f"  Model saved to {MODEL_PATH}")
+
+        print("\n  Top feature importances:")
+        imp = clf.feature_importances_
+        for i in np.argsort(imp)[::-1][:8]:
+            print(f"    bio{i+1:02d}: {imp[i]:.3f}")
 
     # ── Predict for each GCM, accumulate votes ────────────────────────────────
-    # votes[i, j, k] = number of GCMs that predicted class k at pixel (i,j)
     n_classes  = 15   # biome IDs 0-14
-    votes      = np.zeros((TARGET_H, TARGET_W, n_classes), dtype=np.uint8)
-    land_flat  = np.where(land_mask.ravel())[0]
 
-    for gcm in GCMS:
-        print(f"\nStreaming future bioclim — {gcm}…")
-        fut_stack  = stream_stack(future_url, gcm, gcm=gcm)
-        flat_fut   = fut_stack[land_mask]
-        valid_fut  = ~np.isnan(flat_fut).any(axis=1)
+    if os.path.exists(VOTES_PATH):
+        print(f"\nLoading cached votes from {VOTES_PATH}…")
+        votes = np.load(VOTES_PATH)
+        # Also load mean future bio12 for the desert fix — need to restream if not cached
+        print("  (bio12 precip ensemble mean will be restreamed for desert post-processing)")
+        bio12_sum = None
+        bio12_count = 0
+        for gcm in GCMS:
+            url = future_url(12, gcm)
+            print(f"  Streaming bio12 for {gcm}…", end=" ", flush=True)
+            t0 = time.time()
+            layer = read_layer(url)
+            print(f"{time.time()-t0:.1f}s")
+            if bio12_sum is None:
+                bio12_sum = np.where(np.isnan(layer), 0.0, layer)
+            else:
+                bio12_sum += np.where(np.isnan(layer), 0.0, layer)
+            bio12_count += 1
+        bio12_mean = bio12_sum / bio12_count
+    else:
+        votes      = np.zeros((TARGET_H, TARGET_W, n_classes), dtype=np.uint8)
+        bio12_sum  = None
+        bio12_count = 0
 
-        preds = np.zeros(land_mask.sum(), dtype=np.uint8)
-        preds[valid_fut] = clf.predict(flat_fut[valid_fut]).astype(np.uint8)
+        for gcm in GCMS:
+            print(f"\nStreaming future bioclim — {gcm}…")
+            fut_stack  = stream_stack(future_url, gcm, gcm=gcm)
+            flat_fut   = fut_stack[land_mask]
+            valid_fut  = ~np.isnan(flat_fut).any(axis=1)
 
-        # Accumulate into votes grid
-        pred_grid = np.zeros((TARGET_H, TARGET_W), dtype=np.uint8)
-        pred_grid[land_mask] = preds
-        for cls in range(1, n_classes):
-            votes[:, :, cls] += (pred_grid == cls).astype(np.uint8)
+            preds = np.zeros(land_mask.sum(), dtype=np.uint8)
+            preds[valid_fut] = clf.predict(flat_fut[valid_fut]).astype(np.uint8)
 
-        print(f"  {gcm} done.")
+            # Accumulate into votes grid
+            pred_grid = np.zeros((TARGET_H, TARGET_W), dtype=np.uint8)
+            pred_grid[land_mask] = preds
+            for cls in range(1, n_classes):
+                votes[:, :, cls] += (pred_grid == cls).astype(np.uint8)
+
+            # Accumulate bio12 (index 11) for desert precipitation check
+            bio12 = fut_stack[:, :, 11]  # bio12 = precipitation_annual
+            if bio12_sum is None:
+                bio12_sum = np.where(np.isnan(bio12), 0.0, bio12)
+            else:
+                bio12_sum += np.where(np.isnan(bio12), 0.0, bio12)
+            bio12_count += 1
+
+            print(f"  {gcm} done.")
+
+        np.save(VOTES_PATH, votes)
+        print(f"\nVotes saved to {VOTES_PATH}")
+        bio12_mean = bio12_sum / bio12_count
 
     # ── Majority vote across GCMs ─────────────────────────────────────────────
     print("\nComputing majority vote across GCMs…")
     result = np.argmax(votes, axis=2).astype(np.uint8)
     result[~land_mask] = 0   # restore ocean/nodata
 
-    # ── Spatial majority filter ───────────────────────────────────────────────
-    result = majority_filter(result, size=FILTER_SIZE)
+    # ── Post-processing rule 1: Desert + precip > 250 mm → 2nd-best class ─────
+    #    CHELSA bio12 is in mm (integer stored as mm directly in V2.1)
+    desert_precip_mask = (result == 13) & land_mask & (bio12_mean > 250)
+    n_fixed_desert = int(desert_precip_mask.sum())
+    if n_fixed_desert > 0:
+        print(f"\nPost-processing: fixing {n_fixed_desert:,} desert pixels with bio12 > 250 mm…")
+        rows, cols = np.where(desert_precip_mask)
+        for r, c in zip(rows, cols):
+            v = votes[r, c].copy()
+            v[13] = 0   # zero out Desert vote
+            second_best = int(np.argmax(v))
+            result[r, c] = second_best if second_best > 0 else 8  # fallback: temp grasslands
+        print(f"  Done.")
+
+    # ── Post-processing rule 2: Köppen ET/EF → Tundra (11) ───────────────────
+    polar_land_mask = polar_mask & land_mask
+    n_polar = int(polar_land_mask.sum())
+    if n_polar > 0:
+        print(f"\nPost-processing: overriding {n_polar:,} Köppen ET/EF pixels → Tundra (11)…")
+        result[polar_land_mask] = 11
+        print(f"  Done.")
 
     # ── Coverage stats ────────────────────────────────────────────────────────
     total = int((result > 0).sum())

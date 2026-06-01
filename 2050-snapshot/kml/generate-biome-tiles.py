@@ -128,7 +128,7 @@ def main():
         "RESOLVE 2017 Current Biomes",
     )
     generate_tiles(
-        "source/resolve_projected_2050.tif",
+        "source/resolve_rf_projected_2050.tif",
         os.path.join(TILES_DIR, "biomes-2050"),
         "Projected 2050 Biomes (Köppen→RESOLVE crosswalk)",
     )
