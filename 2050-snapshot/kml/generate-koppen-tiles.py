@@ -148,7 +148,6 @@ def main():
 
         r, g, b = hex_to_rgb(hex_color)
 
-        # RGBA: only pixels matching this zone are visible
         rgba_zone        = np.zeros((TARGET_H, TARGET_W, 4), dtype=np.uint8)
         mask             = mercator_band == pv
         rgba_zone[mask]  = [r, g, b, ALPHA]
@@ -157,12 +156,51 @@ def main():
         print(f"  [{i}/{total_zones}] {code} ({mask.sum():,} px) → {zone_dir}/")
         write_tiles(rgba_zone, TARGET_W, TARGET_H, zone_dir, label=code)
 
+    # ── 2-letter group layers (e.g. Cs = Csa+Csb+Csc) ────────────────────────
+    # Build mapping: prefix → list of (pixel_value, rgba)
+    from collections import defaultdict
+    groups = defaultdict(list)
+    for pv, code in RASTER_LEGEND.items():
+        prefix = code[:2]
+        hex_color = KOPPEN_COLORS.get(code, "")
+        if hex_color:
+            r, g, b = hex_to_rgb(hex_color)
+            groups[prefix].append((pv, r, g, b))
+
+    # Only emit a group tile set when the group contains >1 zone
+    multi_groups = {k: v for k, v in groups.items() if len(v) > 1}
+    print(f"\nGenerating 2-letter group tile sets ({len(multi_groups)} groups) → {TILES_DIR}/{{group}}/…")
+
+    for i, (prefix, members) in enumerate(sorted(multi_groups.items()), 1):
+        rgba_group = np.zeros((TARGET_H, TARGET_W, 4), dtype=np.uint8)
+        px_total = 0
+        for pv, r, g, b in members:
+            mask = mercator_band == pv
+            rgba_group[mask] = [r, g, b, ALPHA]
+            px_total += mask.sum()
+
+        codes = ", ".join(RASTER_LEGEND[pv] for pv, *_ in members)
+        group_dir = os.path.join(TILES_DIR, prefix)
+        print(f"  [{i}/{len(multi_groups)}] {prefix} ({codes}) — {px_total:,} px → {group_dir}/")
+        write_tiles(rgba_group, TARGET_W, TARGET_H, group_dir, label=prefix)
+
     print("\nDone.")
     print()
+    BASE = "https://oliviaperry1997.github.io/future-prediction/2050-snapshot/kml/tiles"
     print("Tile overlay URLs for Google Earth Web:")
-    print(f"  All zones:  https://oliviaperry1997.github.io/future-prediction/2050-snapshot/kml/tiles/{{z}}/{{x}}/{{y}}.png")
+    print(f"  All zones : {BASE}/{{z}}/{{x}}/{{y}}.png")
+    print()
+    print("  2-letter groups (recommended — 13 layers):")
+    for prefix in sorted(multi_groups):
+        print(f"  {prefix:<4}: {BASE}/{prefix}/{{z}}/{{x}}/{{y}}.png")
+    # Single-zone prefixes (Af, Am, Aw, ET, EF)
+    single = {code[:2] for code in KOPPEN_COLORS if code[:2] not in multi_groups}
+    for code in sorted(single):
+        print(f"  {code:<4}: {BASE}/{code}/{{z}}/{{x}}/{{y}}.png")
+    print()
+    print("  Individual zones (30 layers):")
     for code in KOPPEN_COLORS:
-        print(f"  {code:<4}: https://oliviaperry1997.github.io/future-prediction/2050-snapshot/kml/tiles/{code}/{{z}}/{{x}}/{{y}}.png")
+        print(f"  {code:<4}: {BASE}/{code}/{{z}}/{{x}}/{{y}}.png")
 
 
 if __name__ == "__main__":
