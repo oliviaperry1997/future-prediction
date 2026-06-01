@@ -141,6 +141,1346 @@ BIOME_RECLASSIFICATION = {
 
 BIOMES_MD_ANCHOR = "2050-snapshot/domains/climate.md#global-climate-state"
 
+# --- Refined Placemarks Constants ---
+
+# Cross-reference anchors for the 11 thematic placemarks
+# Maps placemark name -> climate.md section anchor
+REFINED_ANCHORS = {
+    "arctic": "2050-snapshot/domains/climate.md#arctic",
+    "greenland": "2050-snapshot/domains/climate.md#greenland",
+    "glaciers": "2050-snapshot/domains/climate.md#glaciers",
+    "sea-level": "2050-snapshot/domains/climate.md#sea-level",
+    "heatwaves": "2050-snapshot/domains/climate.md#heatwaves",
+    "wildfire": "2050-snapshot/domains/climate.md#wildfire",
+    "africa": "2050-snapshot/domains/climate.md#africa",
+    "gulf": "2050-snapshot/domains/climate.md#west-asia--middle-east",
+    "water-scarcity": "2050-snapshot/domains/climate.md#water-scarcity",
+    "arctic-resources": "2050-snapshot/domains/climate.md#arctic-resource-competition",
+    "technology": "2050-snapshot/domains/climate.md#to-technology",
+}
+
+# Style colors for refined placemarks
+# Format: (poly_color_AARRGGBB, line_color_AARRGGBB, line_width)
+REFINED_STYLE_DEFAULT = ("4055b0b0", "ff55b0b0", 0.5)  # Standard teal climate overlay
+REFINED_STYLE_WATER = ("405555b0", "ff5555b0", 0.5)     # Teal-blue shift for water basins
+REFINED_STYLE_ARCTIC = ("40b0b055", "ffb0b055", 0.5)    # Teal-green shift for arctic resources
+
+APPROXIMATE_NOTE = (
+    "APPROXIMATE — Narrative-derived polygon. Replace with data-driven "
+    "geometry when source dataset becomes available."
+)
+
+
+def _make_coords_box(min_lon, min_lat, max_lon, max_lat):
+    """Create a rectangular bounding box coordinate list (counterclockwise)."""
+    return [
+        (min_lon, min_lat), (max_lon, min_lat),
+        (max_lon, max_lat), (min_lon, max_lat),
+        (min_lon, min_lat),
+    ]
+
+
+def _make_zones_from_func(placemark_name, anchor_key, zones_data, approx=False):
+    """
+    Build zone list from structured zone data.
+
+    zones_data: list of dicts with keys: zone_name, coords, desc_suffix (optional)
+    Returns list of zone dicts for the aggregator.
+    """
+    anchor = REFINED_ANCHORS.get(anchor_key, "")
+    approx_note = APPROXIMATE_NOTE if approx else ""
+    zones = []
+
+    for z in zones_data:
+        desc = z.get("desc_suffix", "")
+        full_desc = (
+            f"{desc} "
+            f"{approx_note} "
+            f"See: {anchor}"
+        ).strip()
+        # Clean up double spaces/whitespace
+        full_desc = " ".join(full_desc.split())
+
+        zones.append({
+            "name": placemark_name,
+            "zone_name": z.get("zone_name", ""),
+            "coords": z["coords"],
+            "desc": full_desc,
+            "style": REFINED_STYLE_DEFAULT,
+        })
+
+    return zones
+
+
+# --- 1. Arctic Permafrost Degradation Zone ---
+
+def refine_arctic_permafrost():
+    """
+    Arctic Permafrost Degradation Zone — multi-polygon across Siberia, Alaska, Canada.
+
+    Fallback from climate.md: Permafrost across Siberia, Alaska, and northern Canada
+    above 60°N excluding Greenland ice sheet.
+
+    Returns:
+        list of zone dicts (Siberian, Alaskan, Canadian permafrost zones)
+    """
+    anchor = REFINED_ANCHORS["arctic"]
+    approx = APPROXIMATE_NOTE
+
+    zones = []
+
+    # Siberian permafrost: ~60-180°E, 60-75°N — detailed polygon tracing permafrost extent
+    siberia_coords = [
+        (60, 60), (75, 60), (85, 61), (95, 63), (105, 64), (115, 64),
+        (125, 63), (135, 62), (145, 61), (155, 60), (165, 60),
+        (175, 62), (180, 66), (180, 75), (170, 76), (160, 75),
+        (150, 74), (140, 74), (130, 73), (120, 72), (110, 72),
+        (100, 71), (90, 70), (80, 68), (70, 66), (60, 65), (60, 60),
+    ]
+    zones.append({
+        "name": "Arctic Permafrost Degradation Zone",
+        "zone_name": "Siberian Permafrost",
+        "coords": siberia_coords,
+        "desc": (
+            "Siberian permafrost zone — continuous and discontinuous permafrost "
+            "across the Siberian Arctic. Methane release from thawing yedoma "
+            "permafrost is a major positive feedback to global warming. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    # Alaskan permafrost: ~170-140°W, 60-72°N
+    alaska_coords = [
+        (-170, 60), (-165, 60), (-160, 61), (-155, 62), (-150, 63),
+        (-145, 63), (-140, 60), (-140, 72), (-145, 72), (-150, 71),
+        (-155, 71), (-160, 70), (-165, 68), (-170, 66), (-170, 60),
+    ]
+    zones.append({
+        "name": "Arctic Permafrost Degradation Zone",
+        "zone_name": "Alaskan Permafrost",
+        "coords": alaska_coords,
+        "desc": (
+            "Alaskan permafrost zone — North Slope and interior Alaska. "
+            "Active layer depth has increased 30-100cm, destabilizing infrastructure. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    # Canadian permafrost: ~140-60°W, 60-75°N (continental Canada, excluding Greenland)
+    canada_coords = [
+        (-140, 60), (-130, 60), (-120, 61), (-110, 62), (-100, 63),
+        (-90, 64), (-80, 65), (-70, 66), (-60, 67),
+        (-60, 75), (-70, 73), (-80, 72), (-90, 72),
+        (-100, 72), (-110, 71), (-120, 69), (-130, 67),
+        (-140, 65), (-140, 60),
+    ]
+    zones.append({
+        "name": "Arctic Permafrost Degradation Zone",
+        "zone_name": "Canadian Permafrost",
+        "coords": canada_coords,
+        "desc": (
+            "Canadian permafrost zone — northern Canada excluding the Greenland ice sheet. "
+            "Infrastructure damage from permafrost thaw affects roads, buildings, and airports. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    return zones
+
+
+# --- 2. Greenland Ice Sheet Retreat Zone ---
+
+def refine_greenland_ice():
+    """
+    Greenland Ice Sheet Retreat Zone — single polygon covering Greenland ice sheet.
+
+    Fallback: Greenland polygon showing ice sheet extent (~80% of island).
+
+    Returns:
+        list with one zone dict
+    """
+    anchor = REFINED_ANCHORS["greenland"]
+    approx = APPROXIMATE_NOTE
+
+    # Greenland ice sheet outline (approximate, ~80% of island area)
+    greenland_coords = [
+        (-55, 60), (-48, 60), (-44, 62), (-42, 64), (-40, 66),
+        (-38, 68), (-36, 70), (-34, 72), (-32, 75), (-30, 78),
+        (-28, 80), (-25, 82), (-20, 82), (-18, 80), (-16, 78),
+        (-18, 76), (-20, 74), (-22, 72), (-22, 70), (-20, 68),
+        (-22, 66), (-24, 64), (-28, 62), (-35, 61), (-42, 60),
+        (-48, 60), (-55, 60),
+    ]
+
+    return [{
+        "name": "Greenland Ice Sheet Retreat Zone",
+        "zone_name": "",
+        "coords": greenland_coords,
+        "desc": (
+            "Greenland ice sheet — mass loss ~300-400 Gt/yr contributing "
+            "~0.8-1.0 mm/yr to global sea level rise. The equilibrium line "
+            "has migrated 200-400m upward in elevation since the early 2020s. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    }]
+
+
+# --- 3. Glacier Mass Loss Extent ---
+
+def refine_glaciers():
+    """
+    Glacier Mass Loss Extent — multi-polygon for major glacierized regions.
+
+    6+ regional polygons: Himalayas, Andes, Alps, Alaska Range, Rockies, Kilimanjaro.
+
+    Returns:
+        list of zone dicts
+    """
+    anchor = REFINED_ANCHORS["glaciers"]
+    approx = APPROXIMATE_NOTE
+
+    zones = []
+
+    # Himalayas/Karakoram: 28-32°N, 75-95°E
+    himalayas_coords = [
+        (75, 28), (78, 27), (82, 27), (85, 28), (88, 28), (90, 29),
+        (95, 30), (95, 32), (92, 32), (88, 31), (85, 31), (80, 31),
+        (77, 30), (75, 29), (75, 28),
+    ]
+    zones.append({
+        "name": "Glacier Mass Loss Extent",
+        "zone_name": "Himalayas-Karakoram",
+        "coords": himalayas_coords,
+        "desc": (
+            "Himalayan and Karakoram glacier zone — 40-60% mass loss since 1990s. "
+            "Threatens dry-season water supply for 1.5+ billion people across the "
+            "Indus, Ganges, and Brahmaputra basins. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    # Andes: 10°S-50°S, 70-80°W
+    andes_coords = [
+        (-80, -10), (-70, -10), (-72, -20), (-70, -30), (-72, -35),
+        (-70, -40), (-72, -45), (-70, -50), (-76, -50), (-74, -45),
+        (-76, -40), (-74, -35), (-76, -30), (-74, -20), (-78, -15),
+        (-80, -10),
+    ]
+    zones.append({
+        "name": "Glacier Mass Loss Extent",
+        "zone_name": "Andes",
+        "coords": andes_coords,
+        "desc": (
+            "Andean glacier zone — tropical glaciers functionally extinct "
+            "below 5,500m. Water supply threatened for La Paz, Quito, Lima, Bogotá. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    # Alps: 45-48°N, 6-15°E
+    alps_coords = [
+        (6, 45), (7, 45), (8, 45), (10, 45), (12, 45),
+        (15, 46), (15, 48), (12, 47), (10, 47), (8, 47),
+        (7, 46), (6, 46), (6, 45),
+    ]
+    zones.append({
+        "name": "Glacier Mass Loss Extent",
+        "zone_name": "European Alps",
+        "coords": alps_coords,
+        "desc": (
+            "Alpine glacier zone — 50-60% volume loss since 2000. "
+            "Summer ski tourism eliminated; hydropower reduced 15-25%. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    # Alaska Range: 60-65°N, 140-150°W
+    alaska_range_coords = [
+        (-150, 60), (-145, 61), (-140, 62), (-140, 65), (-145, 64),
+        (-148, 63), (-150, 62), (-150, 60),
+    ]
+    zones.append({
+        "name": "Glacier Mass Loss Extent",
+        "zone_name": "Alaska Range",
+        "coords": alaska_range_coords,
+        "desc": (
+            "Alaskan glacier zone — includes major glaciers of the Alaska Range "
+            "and coastal mountains. Rapid retreat accelerating sea level contribution. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    # Rockies: 35-50°N, 105-115°W
+    rockies_coords = [
+        (-115, 35), (-110, 35), (-105, 38), (-105, 42),
+        (-108, 45), (-105, 48), (-110, 50), (-115, 48),
+        (-115, 42), (-115, 35),
+    ]
+    zones.append({
+        "name": "Glacier Mass Loss Extent",
+        "zone_name": "Rocky Mountains",
+        "coords": rockies_coords,
+        "desc": (
+            "Rocky Mountain glacier zone — reduced snowpack threatens "
+            "water supply for western US and Canada. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    # Kilimanjaro: ~3°S, 37°E
+    kilimanjaro_coords = [
+        (37.1, -3.2), (37.3, -3.2), (37.4, -3.0), (37.4, -2.9),
+        (37.3, -2.8), (37.1, -2.8), (37.0, -2.9), (37.0, -3.1),
+        (37.1, -3.2),
+    ]
+    zones.append({
+        "name": "Glacier Mass Loss Extent",
+        "zone_name": "Kilimanjaro, East Africa",
+        "coords": kilimanjaro_coords,
+        "desc": (
+            "Kilimanjaro glacier zone — tropical glaciers functionally extinct below 5,500m. "
+            "East African glacier loss threatens regional water supply. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    return zones
+
+
+# --- 4. Sea Level Impact Zones ---
+
+def refine_sealevel():
+    """
+    Sea Level Impact Zones — coastal low-elevation zones for major coastal regions.
+
+    Broader than the 6 SLR hotspot regions from Plan 03 — covers all
+    major coastal low-elevation zones referenced in climate.md §Key Changes.
+
+    Returns:
+        list of zone dicts
+    """
+    anchor = REFINED_ANCHORS["sea-level"]
+    approx = APPROXIMATE_NOTE
+
+    zones = []
+
+    coastal_regions = [
+        {
+            "zone": "Bangladesh — Ganges-Brahmaputra Delta",
+            "coords": [
+                (88, 21), (89, 21.5), (90, 22), (91, 22.5), (92, 23),
+                (92, 24), (91, 24), (90, 23.5), (89, 23), (88, 22.5),
+                (88, 21),
+            ],
+        },
+        {
+            "zone": "Mekong Delta — Vietnam",
+            "coords": [
+                (104.5, 8.5), (106, 8.5), (107, 9), (107, 10.5),
+                (106, 10.5), (104.5, 10), (104.5, 8.5),
+            ],
+        },
+        {
+            "zone": "Nile Delta — Egypt",
+            "coords": [
+                (29.5, 30), (30.5, 30), (31.5, 30.5), (32, 31),
+                (31.5, 31.5), (31, 31.5), (30, 31), (29.5, 30.5),
+                (29.5, 30),
+            ],
+        },
+        {
+            "zone": "US Gulf Coast",
+            "coords": [
+                (-96, 28), (-94, 28.5), (-92, 29), (-90, 29.5),
+                (-88, 30), (-88, 31), (-90, 31), (-92, 30.5),
+                (-94, 30), (-96, 29.5), (-96, 28),
+            ],
+        },
+        {
+            "zone": "US East Coast — Mid-Atlantic",
+            "coords": [
+                (-77, 36), (-75, 36), (-74, 38), (-74, 40),
+                (-75, 41), (-76, 41), (-77, 40), (-77, 38),
+                (-77, 36),
+            ],
+        },
+        {
+            "zone": "Netherlands — North Sea Coast",
+            "coords": [
+                (3, 51), (4, 51.5), (5, 52), (6, 52.5), (7, 53),
+                (8, 53.5), (8, 54), (7, 54), (6, 53.5), (5, 53),
+                (4, 52.5), (3, 52), (3, 51),
+            ],
+        },
+        {
+            "zone": "Pacific Atolls — Tuvalu, Kiribati, Marshall Islands, Maldives",
+            "coords": [
+                # Rough polygon covering Pacific atoll zones
+                (172, -10), (180, -8), (180, 10), (172, 8),
+                (160, 5), (140, 0), (120, -5), (100, -5),
+                (73, 3), (73, 5), (100, 0), (120, 5),
+                (140, 10), (160, 10), (172, -10),
+            ],
+        },
+        {
+            "zone": "Shanghai — Yangtze Delta",
+            "coords": [
+                (121, 30.5), (122, 30.5), (122, 31.5), (121.5, 31.8),
+                (121, 31.5), (121, 30.5),
+            ],
+        },
+        {
+            "zone": "South American Atlantic Coast",
+            "coords": [
+                (-58, -35), (-52, -34), (-48, -30), (-42, -25),
+                (-40, -20), (-38, -15), (-38, -12), (-40, -12),
+                (-42, -20), (-48, -25), (-52, -30), (-58, -33),
+                (-58, -35),
+            ],
+        },
+        {
+            "zone": "West Africa — Gulf of Guinea Coast",
+            "coords": [
+                (-8, 4.5), (-5, 4.5), (-2, 5), (0, 5),
+                (2, 5), (5, 5), (8, 4.5), (8, 6),
+                (5, 6), (2, 5.5), (0, 5.5), (-2, 5.5),
+                (-5, 5), (-8, 5), (-8, 4.5),
+            ],
+        },
+    ]
+
+    for region in coastal_regions:
+        zones.append({
+            "name": "Sea Level Impact Zones",
+            "zone_name": region["zone"],
+            "coords": region["coords"],
+            "desc": (
+                f"Coastal low-elevation zone — {region['zone']}. "
+                f"Sea level rise of +0.35m by 2050 (global mean) with regional "
+                f"variation due to subsidence, tidal amplification, and ocean dynamics. "
+                f"{approx} "
+                f"See: {anchor}"
+            ),
+            "style": REFINED_STYLE_DEFAULT,
+        })
+
+    return zones
+
+
+# --- 5. Extreme Heat Zones ---
+
+def refine_heat():
+    """
+    Extreme Heat Zones — 4 regional polygons.
+
+    Indus Valley, Persian Gulf coastal zone, Sahel belt, US Southwest.
+
+    Returns:
+        list of zone dicts
+    """
+    anchor = REFINED_ANCHORS["heatwaves"]
+    approx = APPROXIMATE_NOTE
+
+    zones = []
+
+    # Indus Valley: 22-32°N, 68-78°E
+    indus_coords = [
+        (68, 22), (70, 22), (72, 23), (74, 24), (76, 25),
+        (78, 28), (78, 32), (76, 32), (74, 30), (72, 28),
+        (70, 26), (68, 24), (68, 22),
+    ]
+    zones.append({
+        "name": "Extreme Heat Zones",
+        "zone_name": "Indus Valley",
+        "coords": indus_coords,
+        "desc": (
+            "Indus Valley heat zone — routinely exceeds 50°C. "
+            "Wet-bulb temperatures approach survivability threshold during peak events. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    # Persian Gulf coastal: 22-30°N, 46-58°E
+    gulf_coords = [
+        (46, 22), (48, 22), (50, 23), (52, 24), (54, 25),
+        (56, 26), (58, 27), (58, 30), (56, 30), (54, 28),
+        (52, 27), (50, 26), (48, 25), (46, 24), (46, 22),
+    ]
+    zones.append({
+        "name": "Extreme Heat Zones",
+        "zone_name": "Persian Gulf",
+        "coords": gulf_coords,
+        "desc": (
+            "Persian Gulf heat zone — wet-bulb temperatures exceed "
+            "human survivability threshold (35°C) for brief periods. "
+            "Outdoor labor lethal without artificial cooling. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    # Sahel belt: 10-20°N, 15°W-40°E
+    sahel_coords = [
+        (-15, 10), (-10, 10), (-5, 11), (0, 12), (5, 13),
+        (10, 14), (15, 15), (20, 15), (25, 16), (30, 17),
+        (35, 18), (40, 20), (40, 18), (35, 16), (30, 15),
+        (25, 14), (20, 13), (15, 12), (10, 11), (5, 11),
+        (0, 10), (-5, 10), (-10, 9), (-15, 9), (-15, 10),
+    ]
+    zones.append({
+        "name": "Extreme Heat Zones",
+        "zone_name": "Sahel Belt",
+        "coords": sahel_coords,
+        "desc": (
+            "Sahel heat zone — 15-25% rainfall decline combined with "
+            "temperature increases of 2-3°C. Agricultural viability collapsed "
+            "in worst-affected zones. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    # US Southwest: 30-40°N, 105-120°W
+    ussw_coords = [
+        (-120, 30), (-115, 30), (-110, 31), (-105, 33),
+        (-105, 36), (-108, 38), (-110, 40), (-115, 40),
+        (-120, 38), (-120, 35), (-120, 30),
+    ]
+    zones.append({
+        "name": "Extreme Heat Zones",
+        "zone_name": "US Southwest",
+        "coords": ussw_coords,
+        "desc": (
+            "US Southwest heat zone — decade-scale megadrought ongoing since "
+            "early 2000s. Colorado River flows at 30-40% of early-21st-century baseline. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    return zones
+
+
+# --- 6. Fire Regime Shift ---
+
+def refine_fire():
+    """
+    Fire Regime Shift — 5 regional polygons.
+
+    Western US/Canada, Siberia, Australia, Mediterranean, Amazon.
+
+    Returns:
+        list of zone dicts
+    """
+    anchor = REFINED_ANCHORS["wildfire"]
+    approx = APPROXIMATE_NOTE
+
+    zones = []
+
+    # Western US/Canada: 30-55°N, 120-130°W
+    wus_coords = [
+        (-130, 30), (-118, 30), (-115, 32), (-115, 35),
+        (-118, 38), (-120, 42), (-120, 45), (-118, 48),
+        (-120, 50), (-125, 52), (-130, 55), (-130, 50),
+        (-130, 40), (-130, 30),
+    ]
+    zones.append({
+        "name": "Fire Regime Shift",
+        "zone_name": "Western US/Canada",
+        "coords": wus_coords,
+        "desc": (
+            "Western US/Canada fire regime — area burned annually increased 2-3x. "
+            "Fire seasons 30-50 days longer. Pyrocumulonimbus clouds inject smoke "
+            "into stratosphere. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    # Siberia: 50-70°N, 60-180°E
+    siberia_fire_coords = [
+        (60, 50), (80, 50), (100, 52), (120, 54), (140, 56),
+        (160, 58), (180, 60), (180, 70), (160, 68), (140, 66),
+        (120, 64), (100, 62), (80, 60), (60, 58), (60, 50),
+    ]
+    zones.append({
+        "name": "Fire Regime Shift",
+        "zone_name": "Siberia",
+        "coords": siberia_fire_coords,
+        "desc": (
+            "Siberian fire regime — most dramatic boreal increase. "
+            "Fires in previously fire-resistant peatlands release carbon stored for millennia. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    # Australia: 20-40°S, 115-155°E
+    aus_coords = [
+        (115, -40), (120, -38), (125, -35), (130, -33),
+        (135, -30), (140, -28), (145, -25), (150, -22),
+        (155, -20), (155, -25), (150, -27), (145, -30),
+        (140, -33), (135, -36), (130, -38), (125, -40),
+        (115, -40),
+    ]
+    zones.append({
+        "name": "Fire Regime Shift",
+        "zone_name": "Australia",
+        "coords": aus_coords,
+        "desc": (
+            "Australian fire regime — Black Summer (2019-20) is now a typical "
+            "fire season. Area burned 2-3x higher than pre-2019 baseline. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    # Mediterranean Basin: 35-45°N, 10°W-40°E
+    med_coords = [
+        (-10, 35), (-5, 36), (0, 37), (5, 38), (10, 39),
+        (15, 40), (20, 41), (25, 42), (30, 43), (35, 44),
+        (40, 45), (40, 42), (35, 40), (30, 38), (25, 37),
+        (20, 36), (15, 35), (10, 35), (5, 35), (0, 35),
+        (-5, 35), (-10, 35),
+    ]
+    zones.append({
+        "name": "Fire Regime Shift",
+        "zone_name": "Mediterranean Basin",
+        "coords": med_coords,
+        "desc": (
+            "Mediterranean fire regime — wildfire seasons 60+ days longer. "
+            "Southern Spain, Italy, Greece, Turkey face desertification. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    # Amazon: 15°S-5°N, 40-80°W
+    amazon_coords = [
+        (-80, -15), (-72, -15), (-65, -12), (-60, -8),
+        (-55, -5), (-50, -2), (-45, 0), (-40, 3),
+        (-40, 5), (-45, 5), (-50, 4), (-55, 2),
+        (-60, 0), (-65, -2), (-70, -5), (-75, -8),
+        (-80, -10), (-80, -15),
+    ]
+    zones.append({
+        "name": "Fire Regime Shift",
+        "zone_name": "Amazon Basin",
+        "coords": amazon_coords,
+        "desc": (
+            "Amazon fire regime — basin crossed dieback threshold in August 2047. "
+            "Ecological collapse underway with savannization of 30-50% of forest area. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    })
+
+    return zones
+
+
+# --- 7. Sahel Degradation Zone ---
+
+def refine_sahel():
+    """
+    Sahel Degradation Zone — multi-polygon per Sahel country.
+
+    5 country polygons: Mali, Burkina Faso, Niger, Chad, Sudan.
+
+    Returns:
+        list of zone dicts
+    """
+    anchor = REFINED_ANCHORS["africa"]
+    approx = APPROXIMATE_NOTE
+
+    zones = []
+
+    # Coordinates from approximate country boundaries
+    sahel_countries = [
+        {
+            "name": "Mali",
+            "coords": [
+                (-12, 10), (-12, 15), (-8, 16), (-5, 17),
+                (-4, 20), (-4, 25), (0, 25), (4, 25),
+                (4, 20), (4, 15), (4, 12), (2, 10),
+                (0, 10), (-4, 10), (-8, 10), (-12, 10),
+            ],
+        },
+        {
+            "name": "Burkina Faso",
+            "coords": [
+                (-5, 9.5), (-5, 12), (-2, 13), (0, 13),
+                (2, 13), (2, 11), (2, 9.5), (0, 9.5),
+                (-2, 9.5), (-5, 9.5),
+            ],
+        },
+        {
+            "name": "Niger",
+            "coords": [
+                (0, 12), (2, 12), (4, 13), (8, 14),
+                (12, 14), (16, 16), (16, 20), (12, 20),
+                (8, 22), (6, 23), (4, 23), (2, 20),
+                (0, 18), (0, 14), (0, 12),
+            ],
+        },
+        {
+            "name": "Chad",
+            "coords": [
+                (14, 8), (16, 8), (18, 8), (20, 9),
+                (22, 11), (24, 14), (24, 18), (22, 20),
+                (20, 22), (18, 22), (16, 20), (14, 18),
+                (14, 15), (14, 12), (14, 8),
+            ],
+        },
+        {
+            "name": "Sudan",
+            "coords": [
+                (22, 10), (24, 10), (26, 10), (28, 12),
+                (30, 14), (32, 16), (34, 18), (36, 20),
+                (38, 22), (36, 24), (34, 24), (32, 22),
+                (30, 20), (28, 18), (26, 16), (24, 14),
+                (22, 12), (22, 10),
+            ],
+        },
+    ]
+
+    for country in sahel_countries:
+        zones.append({
+            "name": "Sahel Degradation Zone",
+            "zone_name": country["name"],
+            "coords": country["coords"],
+            "desc": (
+                f"{country['name']} — Sahel country experiencing 15-25% rainfall decline "
+                f"and 2-3°C temperature increase. Agricultural viability collapsed in "
+                f"worst-affected zones. Single largest climate-driven humanitarian disaster. "
+                f"{approx} "
+                f"See: {anchor}"
+            ),
+            "style": REFINED_STYLE_DEFAULT,
+        })
+
+    return zones
+
+
+# --- 8. Extreme Heat — Persian Gulf ---
+
+def refine_persian_gulf():
+    """
+    Extreme Heat — Persian Gulf — single detailed coastal polygon.
+
+    Persian Gulf coastline + 50km inland buffer (22-32°N, 46-58°E).
+
+    Returns:
+        list with one zone dict
+    """
+    anchor = REFINED_ANCHORS["gulf"]
+    approx = APPROXIMATE_NOTE
+
+    # Detailed polygon following Persian Gulf coastline with inland buffer
+    gulf_coords = [
+        (46, 22), (48, 22), (49, 23), (50, 23.5), (51, 24),
+        (52, 24.5), (53, 25), (54, 25.5), (55, 26), (56, 26.5),
+        (57, 27), (58, 27.5), (58, 30), (57, 30), (56, 29),
+        (54, 28), (52, 27.5), (50, 27), (49, 26), (48, 25.5),
+        (47, 25), (46, 24), (46, 22),
+    ]
+
+    return [{
+        "name": "Extreme Heat — Persian Gulf",
+        "zone_name": "",
+        "coords": gulf_coords,
+        "desc": (
+            "Persian Gulf extreme heat zone — wet-bulb temperatures exceed "
+            "human survivability threshold (35°C) for brief annual periods. "
+            "Summer temperatures routinely exceed 50°C in Iraq, Kuwait, "
+            "Saudi Arabia, and Iran. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_DEFAULT,
+    }]
+
+
+# --- 9. Transboundary Water Conflict Basins ---
+
+def _try_read_hydrosheds_basin(continent_code, bbox):
+    """
+    Attempt to read HydroSHEDS sub-basins within a bounding box.
+
+    Args:
+        continent_code: 'as', 'af', 'eu', 'na', 'sa', 'si', 'au'
+        bbox: (min_lon, min_lat, max_lon, max_lat)
+
+    Returns:
+        Shapely MultiPolygon or None if data unavailable
+    """
+    from shapely.geometry import shape, box
+    from shapely.ops import unary_union
+
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    zip_path = os.path.join(script_dir, "source", f"hybas_{continent_code}_lev04_v1c.zip")
+
+    if not os.path.isfile(zip_path):
+        return None
+
+    try:
+        import fiona
+        search_box = box(*bbox)
+        basin_polys = []
+
+        with fiona.open(f"zip://{zip_path}") as src:
+            for feat in src:
+                geom = shape(feat["geometry"])
+                if geom.intersects(search_box):
+                    if not geom.is_empty and geom.is_valid:
+                        basin_polys.append(geom)
+
+        if not basin_polys:
+            return None
+
+        merged = unary_union(basin_polys)
+        if merged.is_empty:
+            return None
+
+        # Simplify for KML size
+        simplified = merged.simplify(0.02, preserve_topology=True)
+        return simplified
+
+    except Exception as e:
+        log.warning(f"HydroSHEDS read failed for {continent_code}: {e}")
+        return None
+
+
+def refine_water_basins():
+    """
+    Transboundary Water Conflict Basins — 9 individual watershed polygons.
+
+    Data-driven (primary): Uses HydroSHEDS HydroBASINS level 4 data.
+    Fallback: Approximate bounding polygons from known river basin extents.
+
+    Basins: Indus, Nile, Mekong, Colorado, Amu Darya, Tigris-Euphrates,
+            Dnieper, Yellow River, Amur/Heilongjiang.
+
+    Returns:
+        list of zone dicts
+    """
+    anchor = REFINED_ANCHORS["water-scarcity"]
+
+    # Basin bounding boxes for HydroSHEDS lookup + fallback
+    # (continent_code, bbox(min_lon, min_lat, max_lon, max_lat), name)
+    basin_defs = [
+        ("as", (65, 22, 82, 38), "Indus River Basin"),
+        ("af", (25, -5, 50, 20), "Nile River Basin"),
+        ("as", (95, 8, 110, 35), "Mekong River Basin"),
+        ("na", (-114, 30, -105, 41), "Colorado River Basin"),
+        ("as", (55, 34, 75, 44), "Amu Darya / Syr Darya Basin"),
+        ("as", (35, 28, 50, 40), "Tigris-Euphrates Basin"),
+        ("eu", (28, 48, 38, 57), "Dnieper River Basin"),
+        ("as", (95, 32, 115, 42), "Yellow River Basin"),
+        ("si", (108, 40, 145, 58), "Amur / Heilongjiang Basin"),
+    ]
+
+    # Fallback approximate polygons per basin (known river basin extents)
+    fallback_coords = {
+        "Indus River Basin": [
+            (65, 22), (68, 24), (70, 26), (72, 28), (74, 30),
+            (76, 32), (78, 34), (82, 36), (82, 38), (80, 38),
+            (78, 36), (76, 34), (74, 32), (72, 30), (70, 28),
+            (68, 26), (66, 24), (65, 22),
+        ],
+        "Nile River Basin": [
+            (25, -5), (28, -5), (30, -3), (32, 0), (34, 5),
+            (36, 10), (38, 15), (40, 20), (50, 20), (50, 18),
+            (48, 15), (46, 12), (44, 10), (42, 5), (40, 0),
+            (38, -2), (36, -4), (34, -5), (30, -5), (25, -5),
+        ],
+        "Mekong River Basin": [
+            (95, 8), (98, 8), (100, 10), (102, 12), (104, 14),
+            (106, 16), (108, 18), (110, 22), (110, 35), (108, 35),
+            (106, 30), (104, 25), (102, 20), (100, 16), (98, 14),
+            (96, 12), (95, 10), (95, 8),
+        ],
+        "Colorado River Basin": [
+            (-114, 30), (-112, 31), (-110, 32), (-108, 34),
+            (-106, 36), (-105, 38), (-105, 41), (-108, 41),
+            (-110, 40), (-112, 39), (-114, 37), (-114, 35),
+            (-114, 33), (-114, 30),
+        ],
+        "Amu Darya / Syr Darya Basin": [
+            (55, 34), (58, 34), (60, 36), (62, 38), (65, 40),
+            (68, 42), (70, 44), (75, 44), (75, 42), (72, 40),
+            (68, 38), (65, 36), (62, 35), (58, 35), (55, 34),
+        ],
+        "Tigris-Euphrates Basin": [
+            (35, 28), (36, 30), (38, 32), (40, 34), (42, 36),
+            (44, 38), (46, 40), (50, 40), (50, 38), (48, 36),
+            (46, 34), (44, 32), (42, 30), (40, 29), (38, 28),
+            (35, 28),
+        ],
+        "Dnieper River Basin": [
+            (28, 48), (30, 48), (32, 49), (34, 50), (36, 52),
+            (38, 54), (38, 57), (36, 57), (34, 55), (32, 53),
+            (30, 51), (28, 50), (28, 48),
+        ],
+        "Yellow River Basin": [
+            (95, 32), (98, 32), (100, 34), (102, 36), (105, 38),
+            (108, 40), (112, 42), (115, 42), (115, 40), (112, 38),
+            (108, 36), (105, 35), (102, 34), (100, 33), (98, 32),
+            (95, 32),
+        ],
+        "Amur / Heilongjiang Basin": [
+            (108, 40), (112, 40), (115, 42), (118, 44), (120, 46),
+            (125, 48), (130, 50), (135, 52), (140, 54), (145, 56),
+            (145, 58), (142, 58), (138, 56), (132, 54), (128, 52),
+            (124, 50), (120, 48), (115, 46), (112, 44), (108, 42),
+            (108, 40),
+        ],
+    }
+
+    zones = []
+
+    for continent_code, bbox, basin_name in basin_defs:
+        # Try data-driven: HydroSHEDS
+        geom = _try_read_hydrosheds_basin(continent_code, bbox)
+
+        if geom is not None:
+            if geom.geom_type == "Polygon":
+                coords = [(x, y) for x, y in geom.exterior.coords]
+            elif geom.geom_type == "MultiPolygon":
+                # Take the largest component
+                parts = sorted(geom.geoms, key=lambda p: p.area, reverse=True)
+                coords = [(x, y) for x, y in parts[0].exterior.coords]
+            else:
+                coords = fallback_coords[basin_name]
+
+            desc_prefix = f"{basin_name} — HydroSHEDS-derived watershed polygon."
+        else:
+            # Fallback: approximate polygon
+            coords = fallback_coords.get(basin_name, [])
+            desc_prefix = (
+                f"{basin_name} — APPROXIMATE watershed boundary. "
+                f"HydroSHEDS data unavailable for this region."
+            )
+
+        if not coords:
+            continue
+
+        zones.append({
+            "name": "Transboundary Water Conflict Basins",
+            "zone_name": basin_name,
+            "coords": coords,
+            "desc": (
+                f"{desc_prefix} "
+                f"Transboundary basin under water scarcity stress in 2050. "
+                f"See: {anchor}"
+            ),
+            "style": REFINED_STYLE_WATER,
+        })
+
+    return zones
+
+
+# --- 10. Arctic Resource Zones ---
+
+def refine_arctic_resources():
+    """
+    Arctic Resource Zones — 5 sector polygons around the Arctic.
+
+    Russian, Canadian, US/Alaskan, Norwegian, Greenlandic/Danish sectors.
+
+    Returns:
+        list of zone dicts
+    """
+    anchor = REFINED_ANCHORS["arctic-resources"]
+    approx = APPROXIMATE_NOTE
+
+    zones = []
+
+    # Russian Arctic sector: ~30°E to ~180°E, above 66.5°N
+    russian_coords = [
+        (30, 66.5), (40, 67), (50, 68), (65, 69), (80, 70),
+        (95, 71), (110, 72), (125, 73), (140, 74), (155, 75),
+        (170, 76), (180, 77), (180, 90), (170, 90), (155, 90),
+        (140, 90), (125, 90), (110, 90), (95, 90), (80, 90),
+        (65, 90), (50, 90), (40, 90), (30, 90), (30, 66.5),
+    ]
+    zones.append({
+        "name": "Arctic Resource Zones",
+        "zone_name": "Russian Arctic Sector",
+        "coords": russian_coords,
+        "desc": (
+            "Russian Arctic sector — extensive Northern Sea Route (ice-free 5-7 months/year). "
+            "Nuclear-powered icebreakers based in Murmansk. Permafrost thaw affects 65% "
+            "of Russian territory. Oil, gas, and mineral resources. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_ARCTIC,
+    })
+
+    # Canadian Arctic sector: ~60°W to ~140°W, above 66.5°N
+    canadian_coords = [
+        (-140, 66.5), (-130, 67), (-120, 68), (-110, 69),
+        (-100, 70), (-90, 71), (-80, 72), (-70, 73),
+        (-60, 74), (-60, 90), (-70, 90), (-80, 90),
+        (-90, 90), (-100, 90), (-110, 90), (-120, 90),
+        (-130, 90), (-140, 90), (-140, 66.5),
+    ]
+    zones.append({
+        "name": "Arctic Resource Zones",
+        "zone_name": "Canadian Arctic Sector",
+        "coords": canadian_coords,
+        "desc": (
+            "Canadian Arctic sector — Northwest Passage shipping route. "
+            "Permafrost infrastructure damage. Arctic sovereignty claims "
+            "including extended continental shelf submission. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_ARCTIC,
+    })
+
+    # US/Alaskan Arctic sector: ~140°W to ~180°W, above 66.5°N
+    us_arctic_coords = [
+        (-180, 66.5), (-170, 67), (-160, 68), (-150, 69),
+        (-140, 70), (-140, 90), (-150, 90), (-160, 90),
+        (-170, 90), (-180, 90), (-180, 66.5),
+    ]
+    zones.append({
+        "name": "Arctic Resource Zones",
+        "zone_name": "US/Alaskan Arctic Sector",
+        "coords": us_arctic_coords,
+        "desc": (
+            "US/Alaskan Arctic sector — North Slope oil and gas reserves. "
+            "Permafrost thaw affecting infrastructure. Arctic strategic importance. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_ARCTIC,
+    })
+
+    # Norwegian Arctic sector: ~30°E to ~10°W, above 66.5°N
+    norwegian_coords = [
+        (-10, 66.5), (0, 67), (10, 68), (20, 69),
+        (30, 70), (30, 90), (20, 90), (10, 90),
+        (0, 90), (-10, 90), (-10, 66.5),
+    ]
+    zones.append({
+        "name": "Arctic Resource Zones",
+        "zone_name": "Norwegian Arctic Sector",
+        "coords": norwegian_coords,
+        "desc": (
+            "Norwegian Arctic sector — Svalbard archipelago, Barents Sea oil and gas. "
+            "Strategic position for Arctic shipping and research. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_ARCTIC,
+    })
+
+    # Greenlandic/Danish Arctic sector: ~10°W to ~60°W, above 66.5°N
+    greenlandic_coords = [
+        (-60, 66.5), (-50, 67), (-40, 68), (-30, 69),
+        (-20, 70), (-10, 71), (-10, 90), (-20, 90),
+        (-30, 90), (-40, 90), (-50, 90), (-60, 90),
+        (-60, 66.5),
+    ]
+    zones.append({
+        "name": "Arctic Resource Zones",
+        "zone_name": "Greenlandic/Danish Arctic Sector",
+        "coords": greenlandic_coords,
+        "desc": (
+            "Greenlandic/Danish Arctic sector — Greenland ice sheet mineral resources. "
+            "Ice sheet melt opening new shipping routes and resource access. "
+            "Greenland's strategic position between North America and Europe. "
+            f"{approx} "
+            f"See: {anchor}"
+        ),
+        "style": REFINED_STYLE_ARCTIC,
+    })
+
+    return zones
+
+
+# --- 11. Desalination and Adaptation Infrastructure ---
+
+def refine_desalination():
+    """
+    Desalination and Adaptation Infrastructure — point-based placemarks.
+
+    Locations from climate.md narrative:
+    - Desalination plants: Saudi Arabia, Israel/APR, UAE, California/Pacifica, Australia, Singapore
+    - Coastal defenses: Netherlands, London Thames Barrier, Shanghai, New York Harbor
+
+    Returns:
+        list of zone dicts (point placemarks)
+    """
+    anchor = REFINED_ANCHORS["technology"]
+
+    points = [
+        {
+            "zone_name": "Saudi Arabia — Desalination Hub",
+            "coords": [(50.2, 26.4)],
+            "desc": (
+                "Major desalination plant cluster — Saudi Arabia's water supply "
+                "is critically dependent on desalination. The world's largest "
+                "desalination producer."
+            ),
+        },
+        {
+            "zone_name": "Israel / APR — Desalination",
+            "coords": [(34.8, 32.6)],
+            "desc": (
+                "Advanced desalination infrastructure — Israel/APR operates "
+                "some of the world's most efficient reverse-osmosis plants, "
+                "supplying ~80% of domestic water."
+            ),
+        },
+        {
+            "zone_name": "UAE — Desalination",
+            "coords": [(55.3, 25.2)],
+            "desc": (
+                "UAE desalination capacity — extensive thermal and reverse-osmosis "
+                "desalination supporting urban and industrial water needs."
+            ),
+        },
+        {
+            "zone_name": "California/Pacifica — Desalination",
+            "coords": [(-117.0, 33.0)],
+            "desc": (
+                "Pacifica desalination plants — drought-driven investment in "
+                "coastal desalination infrastructure for Southern California."
+            ),
+        },
+        {
+            "zone_name": "Australia — Desalination",
+            "coords": [(151.2, -33.8)],
+            "desc": (
+                "Australian desalination plants — Sydney and other major cities "
+                "depend on desalination for drought security."
+            ),
+        },
+        {
+            "zone_name": "Singapore — Desalination",
+            "coords": [(103.8, 1.3)],
+            "desc": (
+                "Singapore desalination and NEWater — advanced water recycling "
+                "and desalination for water-independent city-state."
+            ),
+        },
+        {
+            "zone_name": "Netherlands — Coastal Defenses",
+            "coords": [(4.3, 52.0)],
+            "desc": (
+                "Dutch Delta Works and North Sea protection — the world's most "
+                "advanced sea defense system, continuously upgraded for 0.35m+ SLR."
+            ),
+        },
+        {
+            "zone_name": "London — Thames Barrier",
+            "coords": [(0.0, 51.5)],
+            "desc": (
+                "Thames Barrier — London's primary flood defense. Regularly "
+                "closed due to storm surge + sea level rise combination."
+            ),
+        },
+        {
+            "zone_name": "Shanghai — Coastal Defenses",
+            "coords": [(121.5, 31.2)],
+            "desc": (
+                "Shanghai flood defense system — extensive sea walls and barriers "
+                "protecting China's economic center from storm surge and SLR."
+            ),
+        },
+        {
+            "zone_name": "New York Harbor — Coastal Defenses",
+            "coords": [(-74.0, 40.7)],
+            "desc": (
+                "New York Harbor storm surge barrier — post-Sandy investment "
+                "in harbor-scale flood protection infrastructure."
+            ),
+        },
+    ]
+
+    zones = []
+    for pt in points:
+        full_desc = (
+            f"{pt['desc']} "
+            f"See: {anchor}"
+        )
+        zones.append({
+            "name": "Desalination and Adaptation Infrastructure",
+            "zone_name": pt["zone_name"],
+            "coords": pt["coords"],
+            "desc": full_desc,
+            "style": REFINED_STYLE_DEFAULT,
+            "is_point": True,
+        })
+
+    return zones
+
+
+# --- Aggregator ---
+
+REFINED_FUNCTIONS = [
+    refine_arctic_permafrost,
+    refine_greenland_ice,
+    refine_glaciers,
+    refine_sealevel,
+    refine_heat,
+    refine_fire,
+    refine_sahel,
+    refine_persian_gulf,
+    refine_water_basins,
+    refine_arctic_resources,
+    refine_desalination,
+]
+
+
+def refine_all_placemarks(output_path="climate_refined.kml"):
+    """
+    Generate refined Climate folder with all 11 thematic placemarks upgraded
+    from rough bounding boxes to accurate multi-polygon geometries.
+
+    Each refine function returns zones with name, coords, description, and style.
+    Multi-polygon placemarks get a Folder with per-zone Placemarks.
+    Single-polygon placemarks get a Folder with one Placemark.
+    Point placemarks use Point geometry with descriptive text.
+
+    Args:
+        output_path: Path for output KML file (default: climate_refined.kml).
+
+    Returns:
+        Path to generated KML file, or None if generation failed.
+    """
+    import simplekml
+    from shapely.geometry import Point as ShapelyPoint
+
+    kml = simplekml.Kml(name="Climate (Refined)")
+    root_folder = kml.newfolder(name="Climate")
+
+    total_placemarks = 0
+    total_vertices = 0
+
+    for refine_fn in REFINED_FUNCTIONS:
+        fn_name = refine_fn.__name__
+        log.info(f"Generating zones from {fn_name}...")
+
+        zones = refine_fn()
+        if not zones:
+            log.warning(f"  {fn_name}: no zones returned")
+            continue
+
+        placemark_name = zones[0]["name"]
+
+        if len(zones) == 1 and not zones[0].get("is_point"):
+            # Single polygon placemark — create a folder with one polygon
+            z = zones[0]
+            zone_folder = root_folder.newfolder(name=placemark_name)
+            poly_color, line_color, line_width = z["style"]
+
+            coords_list = z["coords"]
+            if len(coords_list) >= 4:
+                kml_coords = [(x, y, 0) for x, y in coords_list]
+                pm = zone_folder.newpolygon(
+                    name=placemark_name,
+                    description=z["desc"],
+                    outerboundaryis=kml_coords,
+                )
+                pm.style.polystyle.color = poly_color
+                pm.style.polystyle.outline = 1
+                pm.style.linestyle.color = line_color
+                pm.style.linestyle.width = line_width
+                pm.altitudemode = simplekml.AltitudeMode.clamptoground
+                total_placemarks += 1
+                total_vertices += len(kml_coords)
+
+        elif len(zones) >= 2 or zones[0].get("is_point"):
+            # Multi-polygon or point placemark — create a folder
+            multi_folder = root_folder.newfolder(name=placemark_name)
+
+            for z in zones:
+                poly_color, line_color, line_width = z["style"]
+                zone_name = z["zone_name"] if z["zone_name"] else placemark_name
+
+                if z.get("is_point"):
+                    # Point placemark
+                    lon, lat = z["coords"][0]
+                    pm = multi_folder.newpoint(
+                        name=zone_name,
+                        description=z["desc"],
+                        coords=[(lon, lat, 0)],
+                    )
+                    # Use a visible icon
+                    pm.style.iconstyle.color = poly_color
+                    pm.style.iconstyle.scale = 0.8
+                    pm.altitudemode = simplekml.AltitudeMode.clamptoground
+                    total_placemarks += 1
+                else:
+                    coords_list = z["coords"]
+                    if len(coords_list) >= 4:
+                        kml_coords = [(x, y, 0) for x, y in coords_list]
+                        pm = multi_folder.newpolygon(
+                            name=zone_name,
+                            description=z["desc"],
+                            outerboundaryis=kml_coords,
+                        )
+                        pm.style.polystyle.color = poly_color
+                        pm.style.polystyle.outline = 1
+                        pm.style.linestyle.color = line_color
+                        pm.style.linestyle.width = line_width
+                        pm.altitudemode = simplekml.AltitudeMode.clamptoground
+                        total_placemarks += 1
+                        total_vertices += len(kml_coords)
+
+        else:
+            log.warning(f"  {fn_name}: unexpected zone structure — skipping")
+
+        log.info(
+            f"  {fn_name}: {len(zones)} zones processed"
+        )
+
+    kml.save(output_path)
+    file_size = os.path.getsize(output_path)
+    log.info(
+        f"Refined placemarks KML saved: {output_path} ({file_size:,} bytes, "
+        f"{len(REFINED_FUNCTIONS)} placemark groups, "
+        f"{total_placemarks} total zone placemarks, "
+        f"{total_vertices} polygon vertices)"
+    )
+
+    return output_path if os.path.isfile(output_path) else None
+
+
 # --- Sea Level Rise constants ---
 
 SLR_REGIONS = [
@@ -1097,11 +2437,19 @@ def main():
     """CLI entry point.
 
     Usage:
-        python generate-climate-layers.py              # Generate Köppen layer
-        python generate-climate-layers.py --biomes     # Generate Biomes layer
-        python generate-climate-layers.py --slr        # Generate SLR layer
+        python generate-climate-layers.py                    # Generate Köppen layer
+        python generate-climate-layers.py --biomes           # Generate Biomes layer
+        python generate-climate-layers.py --slr              # Generate SLR layer
+        python generate-climate-layers.py --refine           # Generate refined placemarks
     """
-    if "--biomes" in sys.argv:
+    if "--refine" in sys.argv:
+        result = refine_all_placemarks()
+        if result:
+            print(f"Refined placemarks KML generated: {result}")
+        else:
+            print("Failed to generate refined placemarks KML")
+            sys.exit(1)
+    elif "--biomes" in sys.argv:
         result = generate_biomes_kml()
         if result:
             print(f"Biomes KML generated: {result}")
