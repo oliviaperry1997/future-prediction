@@ -55,6 +55,807 @@
         <styleUrl>#__managed_style_0000000000000272</styleUrl>
       </Pair>
     </StyleMap>
+    <Folder id="2">
+            <name>Köppen-Geiger Climate Classification (2050)</name>
+            <Folder id="3">
+                <name>A — Tropical Climates</name>
+                <Folder id="8">
+                    <Style id="13">
+                        <LineStyle id="15">
+                            <color>FF0000FF</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="14">
+                            <color>800000FF</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Af</name>
+                    <Placemark id="10">
+                        <name>Af</name>
+                        <description>Köppen-Geiger climate zone: Af (Tropical Rainforest) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#13</styleUrl>
+                        <Polygon id="9">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="11">
+                                    <coordinates>-60.0,-15.0,0 -60.0,15.0,0 -180.0,15.0,0 -180.0,-15.0,0 -60.0,-15.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="16">
+                    <Style id="21">
+                        <LineStyle id="23">
+                            <color>FF0078FF</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="22">
+                            <color>800078FF</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Am</name>
+                    <Placemark id="18">
+                        <name>Am</name>
+                        <description>Köppen-Geiger climate zone: Am (Tropical Monsoon) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#21</styleUrl>
+                        <Polygon id="17">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="19">
+                                    <coordinates>60.0,-15.0,0 60.0,15.0,0 -60.0,15.0,0 -60.0,-15.0,0 60.0,-15.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="24">
+                    <Style id="29">
+                        <LineStyle id="31">
+                            <color>FF46AAFA</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="30">
+                            <color>8046AAFA</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Aw</name>
+                    <Placemark id="26">
+                        <name>Aw</name>
+                        <description>Köppen-Geiger climate zone: Aw (Tropical Savannah) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#29</styleUrl>
+                        <Polygon id="25">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="27">
+                                    <coordinates>180.0,-15.0,0 180.0,15.0,0 60.0,15.0,0 60.0,-15.0,0 180.0,-15.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+            </Folder>
+            <Folder id="4">
+                <name>B — Arid Climates</name>
+                <Folder id="32">
+                    <Style id="37">
+                        <LineStyle id="39">
+                            <color>FFFE0000</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="38">
+                            <color>80FE0000</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>BWh</name>
+                    <Placemark id="34">
+                        <name>BWh</name>
+                        <description>Köppen-Geiger climate zone: BWh (Hot Desert) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#37</styleUrl>
+                        <Polygon id="33">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="35">
+                                    <coordinates>90.0,15.0,0 90.0,38.0,0 0.0,38.0,0 0.0,15.0,0 90.0,15.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="40">
+                    <Style id="45">
+                        <LineStyle id="47">
+                            <color>FFFE9695</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="46">
+                            <color>80FE9695</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>BWk</name>
+                    <Placemark id="42">
+                        <name>BWk</name>
+                        <description>Köppen-Geiger climate zone: BWk (Cold Desert) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#45</styleUrl>
+                        <Polygon id="41">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="43">
+                                    <coordinates>180.0,15.0,0 180.0,38.0,0 90.0,38.0,0 90.0,15.0,0 180.0,15.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="48">
+                    <Style id="53">
+                        <LineStyle id="55">
+                            <color>FFF5A505</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="54">
+                            <color>80F5A505</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>BSh</name>
+                    <Placemark id="50">
+                        <name>BSh</name>
+                        <description>Köppen-Geiger climate zone: BSh (Hot Semi-arid) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#53</styleUrl>
+                        <Polygon id="49">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="51">
+                                    <coordinates>-90.0,15.0,0 -90.0,38.0,0 -180.0,38.0,0 -180.0,15.0,0 -90.0,15.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="56">
+                    <Style id="61">
+                        <LineStyle id="63">
+                            <color>FFFFDC7C</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="62">
+                            <color>80FFDC7C</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>BSk</name>
+                    <Placemark id="58">
+                        <name>BSk</name>
+                        <description>Köppen-Geiger climate zone: BSk (Cold Semi-arid) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#61</styleUrl>
+                        <Polygon id="57">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="59">
+                                    <coordinates>0.0,15.0,0 0.0,38.0,0 -90.0,38.0,0 -90.0,15.0,0 0.0,15.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+            </Folder>
+            <Folder id="5">
+                <name>C — Temperate Climates</name>
+                <Folder id="64">
+                    <Style id="69">
+                        <LineStyle id="71">
+                            <color>FFFFCC00</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="70">
+                            <color>80FFCC00</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Csa</name>
+                    <Placemark id="66">
+                        <name>Csa</name>
+                        <description>Köppen-Geiger climate zone: Csa (Hot-summer Mediterranean) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#69</styleUrl>
+                        <Polygon id="65">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="67">
+                                    <coordinates>0.0,30.0,0 0.0,55.0,0 -45.0,55.0,0 -45.0,30.0,0 0.0,30.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="72">
+                    <Style id="77">
+                        <LineStyle id="79">
+                            <color>FFC9C800</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="78">
+                            <color>80C9C800</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Csb</name>
+                    <Placemark id="74">
+                        <name>Csb</name>
+                        <description>Köppen-Geiger climate zone: Csb (Warm-summer Mediterranean) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#77</styleUrl>
+                        <Polygon id="73">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="75">
+                                    <coordinates>45.0,30.0,0 45.0,55.0,0 0.0,55.0,0 0.0,30.0,0 45.0,30.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="80">
+                    <Style id="85">
+                        <LineStyle id="87">
+                            <color>FFC6C76A</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="86">
+                            <color>80C6C76A</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Cwa</name>
+                    <Placemark id="82">
+                        <name>Cwa</name>
+                        <description>Köppen-Geiger climate zone: Cwa (Monsoon humid subtropical) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#85</styleUrl>
+                        <Polygon id="81">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="83">
+                                    <coordinates>90.0,30.0,0 90.0,55.0,0 45.0,55.0,0 45.0,30.0,0 90.0,30.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="88">
+                    <Style id="93">
+                        <LineStyle id="95">
+                            <color>FF6C9A5E</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="94">
+                            <color>806C9A5E</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Cwb</name>
+                    <Placemark id="90">
+                        <name>Cwb</name>
+                        <description>Köppen-Geiger climate zone: Cwb (Subtropical highland) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#93</styleUrl>
+                        <Polygon id="89">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="91">
+                                    <coordinates>135.0,30.0,0 135.0,55.0,0 90.0,55.0,0 90.0,30.0,0 135.0,30.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="96">
+                    <Style id="101">
+                        <LineStyle id="103">
+                            <color>FF7EAA7D</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="102">
+                            <color>807EAA7D</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Cwc</name>
+                    <Placemark id="98">
+                        <name>Cwc</name>
+                        <description>Köppen-Geiger climate zone: Cwc (Cold subtropical highland) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#101</styleUrl>
+                        <Polygon id="97">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="99">
+                                    <coordinates>180.0,30.0,0 180.0,55.0,0 135.0,55.0,0 135.0,30.0,0 180.0,30.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="104">
+                    <Style id="109">
+                        <LineStyle id="111">
+                            <color>FF96FF96</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="110">
+                            <color>8096FF96</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Cfa</name>
+                    <Placemark id="106">
+                        <name>Cfa</name>
+                        <description>Köppen-Geiger climate zone: Cfa (Humid subtropical) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#109</styleUrl>
+                        <Polygon id="105">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="107">
+                                    <coordinates>-135.0,30.0,0 -135.0,55.0,0 -180.0,55.0,0 -180.0,30.0,0 -135.0,30.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="112">
+                    <Style id="117">
+                        <LineStyle id="119">
+                            <color>FF6DB46D</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="118">
+                            <color>806DB46D</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Cfb</name>
+                    <Placemark id="114">
+                        <name>Cfb</name>
+                        <description>Köppen-Geiger climate zone: Cfb (Oceanic) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#117</styleUrl>
+                        <Polygon id="113">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="115">
+                                    <coordinates>-90.0,30.0,0 -90.0,55.0,0 -135.0,55.0,0 -135.0,30.0,0 -90.0,30.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="120">
+                    <Style id="125">
+                        <LineStyle id="127">
+                            <color>FF40A040</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="126">
+                            <color>8040A040</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Cfc</name>
+                    <Placemark id="122">
+                        <name>Cfc</name>
+                        <description>Köppen-Geiger climate zone: Cfc (Subpolar oceanic) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#125</styleUrl>
+                        <Polygon id="121">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="123">
+                                    <coordinates>-45.0,30.0,0 -45.0,55.0,0 -90.0,55.0,0 -90.0,30.0,0 -45.0,30.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+            </Folder>
+            <Folder id="6">
+                <name>D — Continental Climates</name>
+                <Folder id="128">
+                    <Style id="133">
+                        <LineStyle id="135">
+                            <color>FF5EBDC9</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="134">
+                            <color>805EBDC9</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Dsa</name>
+                    <Placemark id="130">
+                        <name>Dsa</name>
+                        <description>Köppen-Geiger climate zone: Dsa (Mediterranean hot continental) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#133</styleUrl>
+                        <Polygon id="129">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="131">
+                                    <coordinates>0.0,45.0,0 0.0,65.0,0 -36.0,65.0,0 -36.0,45.0,0 0.0,45.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="136">
+                    <Style id="141">
+                        <LineStyle id="143">
+                            <color>FF4DA6B8</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="142">
+                            <color>804DA6B8</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Dsb</name>
+                    <Placemark id="138">
+                        <name>Dsb</name>
+                        <description>Köppen-Geiger climate zone: Dsb (Mediterranean warm continental) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#141</styleUrl>
+                        <Polygon id="137">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="139">
+                                    <coordinates>36.0,45.0,0 36.0,65.0,0 0.0,65.0,0 0.0,45.0,0 36.0,45.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="144">
+                    <Style id="149">
+                        <LineStyle id="151">
+                            <color>FF2F8FA5</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="150">
+                            <color>802F8FA5</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Dsc</name>
+                    <Placemark id="146">
+                        <name>Dsc</name>
+                        <description>Köppen-Geiger climate zone: Dsc (Mediterranean subarctic) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#149</styleUrl>
+                        <Polygon id="145">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="147">
+                                    <coordinates>72.0,45.0,0 72.0,65.0,0 36.0,65.0,0 36.0,45.0,0 72.0,45.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="152">
+                    <Style id="157">
+                        <LineStyle id="159">
+                            <color>FF5DF0F0</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="158">
+                            <color>805DF0F0</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Dwa</name>
+                    <Placemark id="154">
+                        <name>Dwa</name>
+                        <description>Köppen-Geiger climate zone: Dwa (Monsoon hot continental) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#157</styleUrl>
+                        <Polygon id="153">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="155">
+                                    <coordinates>108.0,45.0,0 108.0,65.0,0 72.0,65.0,0 72.0,45.0,0 108.0,45.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="160">
+                    <Style id="165">
+                        <LineStyle id="167">
+                            <color>FF41C8C8</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="166">
+                            <color>8041C8C8</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Dwb</name>
+                    <Placemark id="162">
+                        <name>Dwb</name>
+                        <description>Köppen-Geiger climate zone: Dwb (Monsoon warm continental) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#165</styleUrl>
+                        <Polygon id="161">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="163">
+                                    <coordinates>144.0,45.0,0 144.0,65.0,0 108.0,65.0,0 108.0,45.0,0 144.0,45.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="168">
+                    <Style id="173">
+                        <LineStyle id="175">
+                            <color>FF2CAAAA</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="174">
+                            <color>802CAAAA</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Dwc</name>
+                    <Placemark id="170">
+                        <name>Dwc</name>
+                        <description>Köppen-Geiger climate zone: Dwc (Monsoon subarctic) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#173</styleUrl>
+                        <Polygon id="169">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="171">
+                                    <coordinates>180.0,45.0,0 180.0,65.0,0 144.0,65.0,0 144.0,45.0,0 180.0,45.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="176">
+                    <Style id="181">
+                        <LineStyle id="183">
+                            <color>FF00FFFF</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="182">
+                            <color>8000FFFF</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Dfa</name>
+                    <Placemark id="178">
+                        <name>Dfa</name>
+                        <description>Köppen-Geiger climate zone: Dfa (Hot continental) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#181</styleUrl>
+                        <Polygon id="177">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="179">
+                                    <coordinates>-144.0,45.0,0 -144.0,65.0,0 -180.0,65.0,0 -180.0,45.0,0 -144.0,45.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="184">
+                    <Style id="189">
+                        <LineStyle id="191">
+                            <color>FF46D2D2</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="190">
+                            <color>8046D2D2</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Dfb</name>
+                    <Placemark id="186">
+                        <name>Dfb</name>
+                        <description>Köppen-Geiger climate zone: Dfb (Warm continental) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#189</styleUrl>
+                        <Polygon id="185">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="187">
+                                    <coordinates>-108.0,45.0,0 -108.0,65.0,0 -144.0,65.0,0 -144.0,45.0,0 -108.0,45.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="192">
+                    <Style id="197">
+                        <LineStyle id="199">
+                            <color>FF64C8E4</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="198">
+                            <color>8064C8E4</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Dfc</name>
+                    <Placemark id="194">
+                        <name>Dfc</name>
+                        <description>Köppen-Geiger climate zone: Dfc (Subarctic) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#197</styleUrl>
+                        <Polygon id="193">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="195">
+                                    <coordinates>-72.0,45.0,0 -72.0,65.0,0 -108.0,65.0,0 -108.0,45.0,0 -72.0,45.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="200">
+                    <Style id="205">
+                        <LineStyle id="207">
+                            <color>FF5EE0F0</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="206">
+                            <color>805EE0F0</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>Dfd</name>
+                    <Placemark id="202">
+                        <name>Dfd</name>
+                        <description>Köppen-Geiger climate zone: Dfd (Extreme subarctic) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#205</styleUrl>
+                        <Polygon id="201">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="203">
+                                    <coordinates>-36.0,45.0,0 -36.0,65.0,0 -72.0,65.0,0 -72.0,45.0,0 -36.0,45.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+            </Folder>
+            <Folder id="7">
+                <name>E — Polar Climates</name>
+                <Folder id="208">
+                    <Style id="213">
+                        <LineStyle id="215">
+                            <color>FF964696</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="214">
+                            <color>80964696</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>ET</name>
+                    <Placemark id="210">
+                        <name>ET</name>
+                        <description>Köppen-Geiger climate zone: ET (Tundra) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#213</styleUrl>
+                        <Polygon id="209">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="211">
+                                    <coordinates>180.0,60.0,0 180.0,72.0,0 0.0,72.0,0 0.0,60.0,0 180.0,60.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+                <Folder id="216">
+                    <Style id="221">
+                        <LineStyle id="223">
+                            <color>FFFFFFFF</color>
+                            <colorMode>normal</colorMode>
+                            <width>0.5</width>
+                        </LineStyle>
+                        <PolyStyle id="222">
+                            <color>80FFFFFF</color>
+                            <colorMode>normal</colorMode>
+                            <fill>1</fill>
+                            <outline>1</outline>
+                        </PolyStyle>
+                    </Style>
+                    <name>EF</name>
+                    <Placemark id="218">
+                        <name>EF</name>
+                        <description>Köppen-Geiger climate zone: EF (Frost/Ice Cap) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
+                        <styleUrl>#221</styleUrl>
+                        <Polygon id="217">
+                            <altitudeMode>clampToGround</altitudeMode>
+                            <outerBoundaryIs>
+                                <LinearRing id="219">
+                                    <coordinates>0.0,72.0,0 0.0,85.0,0 -180.0,85.0,0 -180.0,72.0,0 0.0,72.0,0</coordinates>
+                                </LinearRing>
+                            </outerBoundaryIs>
+                        </Polygon>
+                    </Placemark>
+                </Folder>
+            </Folder>
+        </Folder>
     <Folder>
       <name>Climate</name>
       <Placemark>

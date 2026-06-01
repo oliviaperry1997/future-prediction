@@ -1,0 +1,194 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+  <Document>
+    <name>2050 Climate</name>
+    <visibility>0</visibility>
+    <gx:CascadingStyle id="__managed_style_0000000000000271">
+      <Style>
+        <IconStyle>
+          <Icon>
+            <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+          </Icon>
+          <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+        </IconStyle>
+        <LabelStyle/>
+        <LineStyle>
+          <color>ff55b0b0</color>
+          <width>0.5</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>4055b0b0</color>
+        </PolyStyle>
+        <BalloonStyle>
+          <displayMode>hide</displayMode>
+        </BalloonStyle>
+      </Style>
+    </gx:CascadingStyle>
+    <gx:CascadingStyle id="__managed_style_0000000000000272">
+      <Style>
+        <IconStyle>
+          <Icon>
+            <href>https://earth.google.com/earth/document/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+          </Icon>
+          <hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+        </IconStyle>
+        <LabelStyle/>
+        <LineStyle>
+          <color>ff55b0b0</color>
+          <width>1.0</width>
+        </LineStyle>
+        <PolyStyle>
+          <color>4055b0b0</color>
+        </PolyStyle>
+        <BalloonStyle>
+          <displayMode>hide</displayMode>
+        </BalloonStyle>
+      </Style>
+    </gx:CascadingStyle>
+    <StyleMap id="__managed_style_0000000000000273">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#__managed_style_0000000000000271</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#__managed_style_0000000000000272</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Climate</name>
+      <Placemark>
+        <name>Arctic Permafrost Degradation Zone</name>
+        <description>See: 2050-snapshot/domains/climate.md#arctic</description>
+        <Polygon>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>-180.000000,65.000000,0 180.000000,65.000000,0 180.000000,90.000000,0 -180.000000,90.000000,0 -180.000000,65.000000,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Greenland Ice Sheet Retreat Zone</name>
+        <description>See: 2050-snapshot/domains/climate.md#greenland</description>
+        <Polygon>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>-55.000000,60.000000,0 -15.000000,60.000000,0 -15.000000,85.000000,0 -55.000000,85.000000,0 -55.000000,60.000000,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Glacier Mass Loss Extent</name>
+        <description>See: 2050-snapshot/domains/climate.md#glaciers</description>
+        <Polygon>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>-180.000000,-90.000000,0 180.000000,-90.000000,0 180.000000,90.000000,0 -180.000000,90.000000,0 -180.000000,-90.000000,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Sea Level Impact Zones</name>
+        <description>See: 2050-snapshot/domains/climate.md#sea-level</description>
+        <Polygon>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>-180.000000,-90.000000,0 180.000000,-90.000000,0 180.000000,90.000000,0 -180.000000,90.000000,0 -180.000000,-90.000000,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Extreme Heat Zones</name>
+        <description>See: 2050-snapshot/domains/climate.md#heatwaves</description>
+        <Polygon>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>40.000000,10.000000,0 100.000000,10.000000,0 100.000000,40.000000,0 40.000000,40.000000,0 40.000000,10.000000,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Fire Regime Shift</name>
+        <description>See: 2050-snapshot/domains/climate.md#wildfire</description>
+        <Polygon>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>-130.000000,30.000000,0 -100.000000,30.000000,0 -100.000000,60.000000,0 -130.000000,60.000000,0 -130.000000,30.000000,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Sahel Degradation Zone</name>
+        <description>See: 2050-snapshot/domains/climate.md#africa</description>
+        <Polygon>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>-18.000000,10.000000,0 40.000000,10.000000,0 40.000000,20.000000,0 -18.000000,20.000000,0 -18.000000,10.000000,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Extreme Heat — Persian Gulf</name>
+        <description>See: 2050-snapshot/domains/climate.md#west-asia--middle-east</description>
+        <Polygon>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>40.000000,22.000000,0 60.000000,22.000000,0 60.000000,32.000000,0 40.000000,32.000000,0 40.000000,22.000000,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Transboundary Water Conflict Basins</name>
+        <description>See: 2050-snapshot/domains/climate.md#water-scarcity</description>
+        <Polygon>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>-180.000000,-90.000000,0 180.000000,-90.000000,0 180.000000,90.000000,0 -180.000000,90.000000,0 -180.000000,-90.000000,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Arctic Resource Zones</name>
+        <description>See: 2050-snapshot/domains/climate.md#arctic-resource-competition</description>
+        <Polygon>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>-180.000000,66.000000,0 180.000000,66.000000,0 180.000000,90.000000,0 -180.000000,90.000000,0 -180.000000,66.000000,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Desalination and Adaptation Infrastructure</name>
+        <description>See: 2050-snapshot/domains/climate.md#to-technology</description>
+        <Polygon>
+          <altitudeMode>clampToGround</altitudeMode>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>-180.000000,-90.000000,0 180.000000,-90.000000,0 180.000000,90.000000,0 -180.000000,90.000000,0 -180.000000,-90.000000,0</coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
