@@ -104,4 +104,4 @@ This document evolves at phase transitions and milestone boundaries.
 
 ---
 
-*Last updated: 2026-05-28 — v1.1 milestone — Phase 9 complete*
+*Last updated: 2026-06-01 — v1.1 milestone — Phase 21 complete (climate KML layers, Köppen classification, biomes, SLR, thematic placemarks)*
