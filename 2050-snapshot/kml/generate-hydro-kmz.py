@@ -14,6 +14,7 @@ import os, subprocess, tempfile, shutil, zipfile, glob, colorsys, xml.etree.Elem
 import fiona
 import fiona.transform
 from shapely.geometry import shape, mapping
+from shapely.ops import unary_union
 
 # ── River config ──────────────────────────────────────────────────────────────
 NE_RIVERS_URL = "https://naciscdn.org/naturalearth/10m/physical/ne_10m_rivers_lake_centerlines.zip"
@@ -108,7 +109,9 @@ def generate_rivers_kmz():
                         continue
                     sr = props.get("scalerank", 6) or 6
                     name = (props.get("name") or props.get("label") or "").strip()
-                    rivers.append((name or f"River ({fc})", sr, g))
+                    geom = shape(g)
+                    simplified = geom.simplify(0.001, preserve_topology=True)
+                    rivers.append((name or f"River ({fc})", sr, mapping(simplified)))
         finally:
             shutil.rmtree(tmpdir)
 
@@ -171,8 +174,8 @@ def generate_basins_kmz():
         print("No HydroBASINS zip files found — skipping."); return
 
     # ── Collect features, simplify geometry ──────────────────────────────────
-    SIMPLIFY_TOLERANCE = 0.02   # degrees (~2 km at equator)
-    basins = []  # (hybas_id, geometry)
+    SIMPLIFY_TOLERANCE = 0.065  # degrees (~7 km at equator)
+    basin_data = []  # (hybas_id, next_down, geometry)
     for zp in zips:
         cont = os.path.basename(zp).split("_")[1]
         print(f"  Reading {cont} basins…")
@@ -191,15 +194,45 @@ def generate_basins_kmz():
                         if g is None:
                             continue
                         hid = feat["properties"]["HYBAS_ID"]
+                        nd = feat["properties"].get("NEXT_DOWN", 0) or 0
                         geom = shape(g)
                         geom_simple = geom.simplify(SIMPLIFY_TOLERANCE,
                                                      preserve_topology=True)
-                        basins.append((hid, mapping(geom_simple)))
+                        basin_data.append((hid, nd, geom_simple))
             finally:
                 shutil.rmtree(tmpdir)
 
-    # ── Deterministic color per basin ──────────────────────────────────────────
-    def basin_color(hid):
+    # ── Trace each basin to its ultimate outlet via NEXT_DOWN ───────────────
+    next_down = {hid: nd for hid, nd, _ in basin_data}
+
+    def ultimate_outlet(start_hid):
+        seen = set()
+        hid = start_hid
+        while hid in next_down and next_down[hid] not in (0, hid):
+            if hid in seen:
+                break
+            seen.add(hid)
+            hid = next_down[hid]
+        return hid
+
+    groups = {}
+    for hid, nd, geom in basin_data:
+        term = ultimate_outlet(hid)
+        groups.setdefault(term, []).append(geom)
+
+    # ── Merge geometries per watershed group ────────────────────────────────
+    merged_basins = []  # (terminal_id, merged_shapely_geom)
+    for term, geoms in groups.items():
+        if len(geoms) == 1:
+            merged_basins.append((term, geoms[0]))
+        else:
+            merged_basins.append((term, unary_union(geoms)))
+    merged_basins.sort(key=lambda x: x[0])
+
+    print(f"  {len(basin_data)} sub-basins merged into {len(merged_basins)} watersheds")
+
+    # ── Deterministic color per terminal ──────────────────────────────────────
+    def terminal_color(hid):
         h = (hash((hid, 0)) & 0xFFFF) / 65536.0
         s = 0.45 + ((hash((hid, 1)) & 0xFF) / 256.0) * 0.3
         v = 0.55 + ((hash((hid, 2)) & 0xFF) / 256.0) * 0.3
@@ -209,50 +242,51 @@ def generate_basins_kmz():
     # ── Build KML ─────────────────────────────────────────────────────────────
     doc = ET.Element("kml", {"xmlns": "http://www.opengis.net/kml/2.2"})
     document = ET.SubElement(doc, "Document")
-    ET.SubElement(document, "name").text = "Drainage Basins (HydroBASINS L4)"
-    ET.SubElement(document, "description").text = "HydroBASINS level 4 drainage basins, colored by ID with 25% fill, borderless"
+    ET.SubElement(document, "name").text = "Drainage Basins (merged watersheds)"
+    ET.SubElement(document, "description").text = "HydroBASINS L4 merged by NEXT_DOWN watershed, colored, borderless"
 
-    # One style per basin (fill color only, no outline)
-    basin_styles = {}
-    for hid, geom in basins:
-        if hid in basin_styles:
-            continue
-        rgb = basin_color(hid)
+    # One style per terminal (explicit transparent line to suppress default yellow)
+    style_map = {}
+    for term, _ in merged_basins:
+        rgb = terminal_color(term)
         fill_hex = kml_color(rgb, BASIN_ALPHA)
-        sid = f"b{hid}"
-        basin_styles[hid] = (sid, fill_hex)
+        sid = f"b{term}"
+        style_map[term] = (sid, fill_hex)
         style = ET.SubElement(document, "Style", {"id": sid})
         ps = ET.SubElement(style, "PolyStyle")
         ET.SubElement(ps, "color").text = fill_hex
         ET.SubElement(ps, "fill").text = "1"
         ET.SubElement(ps, "outline").text = "0"
+        ls = ET.SubElement(style, "LineStyle")
+        ET.SubElement(ls, "color").text = "00000000"
+        ET.SubElement(ls, "width").text = "0"
 
     # Add placemarks
     written = 0
-    for hid, geom in basins:
-        sid, fill_hex = basin_styles[hid]
-        coord_parts = coord_string(geom)
+    for term, merged_geom in merged_basins:
+        sid, fill_hex = style_map[term]
+        geom_dict = mapping(merged_geom)
+        coord_parts = coord_string(geom_dict)
         if not coord_parts:
             continue
 
         pm = ET.SubElement(document, "Placemark")
-        ET.SubElement(pm, "name").text = f"Basin {hid}"
+        ET.SubElement(pm, "name").text = f"Watershed {term}"
         ET.SubElement(pm, "styleUrl").text = f"#{sid}"
 
-        if geom["type"] == "Polygon":
+        if geom_dict["type"] == "Polygon":
             poly = ET.SubElement(pm, "Polygon")
             ET.SubElement(poly, "tessellate").text = "1"
             ET.SubElement(poly, "altitudeMode").text = "clampToGround"
             ob = ET.SubElement(poly, "outerBoundaryIs")
             lr = ET.SubElement(ob, "LinearRing")
             ET.SubElement(lr, "coordinates").text = coord_parts[0]
-            # Inner rings (if any)
             for inner_coords in coord_parts[1:]:
                 ib = ET.SubElement(poly, "innerBoundaryIs")
                 lr2 = ET.SubElement(ib, "LinearRing")
                 ET.SubElement(lr2, "coordinates").text = inner_coords
-        elif geom["type"] == "MultiPolygon":
-            for ring_list in geom["coordinates"]:
+        elif geom_dict["type"] == "MultiPolygon":
+            for ring_list in geom_dict["coordinates"]:
                 poly = ET.SubElement(pm, "Polygon")
                 ET.SubElement(poly, "tessellate").text = "1"
                 ET.SubElement(poly, "altitudeMode").text = "clampToGround"
@@ -266,7 +300,7 @@ def generate_basins_kmz():
                     ET.SubElement(lr, "coordinates").text = coords
         written += 1
 
-    print(f"  {written} basin features")
+    print(f"  {written} merged watershed placemarks")
 
     # ── Write KMZ ─────────────────────────────────────────────────────────────
     kml_xml = ET.tostring(doc, encoding="utf-8", xml_declaration=True)
