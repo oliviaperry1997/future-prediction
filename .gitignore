@@ -10,3 +10,11 @@ entity-config-debug.json
 
 # Large data files
 *.gpkg
+2050-snapshot/kml/source/koppen_geiger_tif.zip
+2050-snapshot/kml/source/ne-admin1-10m.kml
+2050-snapshot/kml/source/ne_admin_1_states_provinces.zip
+2050-snapshot/kml/source/us-counties-500k.kml
+2050-snapshot/kml/source/hybas_*.zip
+2050-snapshot/kml/source/global-countries-10m.kml
+2050-snapshot/kml/borders.kml.bak.*
+2050-snapshot/kml/climate.kml.bak.*

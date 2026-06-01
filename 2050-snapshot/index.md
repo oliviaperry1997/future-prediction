@@ -26,7 +26,7 @@ This document is the entry point for the 2050 milestone — a steady-state snaps
 
 ### Climate KML Layers
 
-- **[Köppen-Geiger Climate Classification (2050)](../kml/climate.kml)** — SSP3-7.0 2041-2070 Köppen-Geiger climate zones based on GloH2O V3 (Beck et al. 2023), 1km resolution. 30 climate sub-types with standard color scheme.
+- **[Köppen-Geiger Climate Classification (2050)](../kml/climate.kml)** — SSP3-7.0 2041-2070 Köppen-Geiger climate zones based on GloH2O V3 (Beck et al. 2023), 0.1° resolution (~11km). All 30 climate sub-types with standard color scheme. Data-driven from figshare: gloh2o.org/koppen.
 - **[Ecological Biomes (2050)](../kml/climate.kml)** — WWF Terrestrial Ecoregions reclassified into 6 major biome types, showing projected shifts under 2050 climate conditions.
 - **[Sea Level Rise Inundation (0.35m)](../kml/climate.kml)** — Coastal inundation zones under +0.35m sea level rise, derived from SRTM/COP30 DEM elevation data. 6 regional zones with semi-transparent blue overlay.
 - **[Climate Thematic Placemarks](../kml/climate.kml)** — 11 thematic placemarks covering permafrost degradation, ice sheet retreat, glacier loss, extreme heat zones, fire regime shifts, Sahel degradation, water conflict basins, and adaptation infrastructure. Multi-polygon geometries derived from HydroSHEDS, GADM, and climate-model data.

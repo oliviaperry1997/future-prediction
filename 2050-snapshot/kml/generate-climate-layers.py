@@ -19,6 +19,7 @@ import logging
 import os
 import sys
 from collections import Counter, defaultdict
+from lxml import etree
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 log = logging.getLogger(__name__)
@@ -89,15 +90,17 @@ ALL_KOPPEN_CODES = [
 ]
 
 # Numeric value -> sub-type code (GloH2O V3 Beck et al. 2023 standard legend)
+# V3 expanded from 27 to 30 classes, adding Csc (10), Dsd (20), Dwd (24),
+# shifting values accordingly vs the V1 legend.
 RASTER_LEGEND = {
     1: "Af", 2: "Am", 3: "Aw",
     4: "BWh", 5: "BWk", 6: "BSh", 7: "BSk",
-    8: "Csa", 9: "Csb", 10: "Cwa", 11: "Cwb", 12: "Cwc",
-    13: "Cfa", 14: "Cfb", 15: "Cfc",
-    16: "Dsa", 17: "Dsb", 18: "Dsc",
-    19: "Dwa", 20: "Dwb", 21: "Dwc",
-    22: "Dfa", 23: "Dfb", 24: "Dfc", 25: "Dfd",
-    26: "ET", 27: "EF",
+    8: "Csa", 9: "Csb", 10: "Csc", 11: "Cwa", 12: "Cwb", 13: "Cwc",
+    14: "Cfa", 15: "Cfb", 16: "Cfc",
+    17: "Dsa", 18: "Dsb", 19: "Dsc", 20: "Dsd",
+    21: "Dwa", 22: "Dwb", 23: "Dwc", 24: "Dwd",
+    25: "Dfa", 26: "Dfb", 27: "Dfc", 28: "Dfd",
+    29: "ET", 30: "EF",
 }
 
 # Cross-reference target for all placemarks
@@ -1681,12 +1684,12 @@ def generate_from_geotiff(geotiff_path, script_dir):
         log.info(f"  Raster shape: {band.shape}, CRS: {crs}")
 
         # Print value histogram (T-21-05)
-        unique, counts = Counter(band[band != src.nodata]).most_common()
-        if not unique:
-            unique, counts = Counter(band.flatten()).most_common()
+        value_counts = Counter(band[band != src.nodata]).most_common()
+        if not value_counts:
+            value_counts = Counter(band.flatten()).most_common()
 
-        log.info(f"  Unique pixel values found: {len(unique)}")
-        for val, cnt in unique[:35]:
+        log.info(f"  Unique pixel values found: {len(value_counts)}")
+        for val, cnt in value_counts[:35]:
             code = RASTER_LEGEND.get(val, "UNKNOWN")
             log.info(f"    Value {val:3d} ({code:>4s}): {cnt:>10,d} pixels")
 
@@ -1818,7 +1821,7 @@ def build_koppen_kml(subtype_polygons, output_path):
             # Set default style for this subtype — applies to all contained placemarks
             hex_color = KOPPEN_COLORS.get(code, "#CCCCCC")
             poly_color = hex_to_kml_color(hex_color, alpha="80")
-            line_color = hex_to_kml_color(hex_color, alpha="FF")
+            line_color = "00000000"  # fully transparent — borders suppressed via outline=0 + zero-alpha
 
             for poly in polygons:
                 if poly.is_empty:
@@ -1829,18 +1832,27 @@ def build_koppen_kml(subtype_polygons, output_path):
                     if len(coords_list) < 4:
                         continue
 
-                    # Convert to (lon, lat, 0) format for simplekml
-                    kml_coords = [(x, y, 0) for x, y in coords_list]
+                    # Convert to (lon, lat, 0) format for simplekml, clamping lon to [-180, 180]
+                    clamp_lon = lambda v: min(180.0, max(-180.0, v))
+                    clamp_lat = lambda v: min(90.0, max(-90.0, v))
+                    kml_coords = [(clamp_lon(x), clamp_lat(y), 0) for x, y in coords_list]
+                    kml_inner = [
+                        [(clamp_lon(x), clamp_lat(y), 0) for x, y in ring.coords]
+                        for ring in poly.interiors
+                    ] if poly.interiors else None
 
-                    pm = subtype_folder.newpolygon(
+                    kwargs = dict(
                         name=f"{code}",
                         description=make_description(code),
                         outerboundaryis=kml_coords,
                     )
+                    if kml_inner:
+                        kwargs["innerboundaryis"] = kml_inner
+                    pm = subtype_folder.newpolygon(**kwargs)
                     pm.style.polystyle.color = poly_color
-                    pm.style.polystyle.outline = 1
+                    pm.style.polystyle.outline = 0
                     pm.style.linestyle.color = line_color
-                    pm.style.linestyle.width = 0.5
+                    pm.style.linestyle.width = 0
                     pm.altitudemode = simplekml.AltitudeMode.clamptoground
 
                     total_placemarks += 1
@@ -1853,17 +1865,24 @@ def build_koppen_kml(subtype_polygons, output_path):
                         coords_list = list(part.exterior.coords)
                         if len(coords_list) < 4:
                             continue
-                        kml_coords = [(x, y, 0) for x, y in coords_list]
+                        kml_coords = [(clamp_lon(x), clamp_lat(y), 0) for x, y in coords_list]
+                        kml_inner = [
+                            [(clamp_lon(x), clamp_lat(y), 0) for x, y in ring.coords]
+                            for ring in part.interiors
+                        ] if part.interiors else None
 
-                        pm = subtype_folder.newpolygon(
+                        kwargs = dict(
                             name=f"{code}",
                             description=make_description(code),
                             outerboundaryis=kml_coords,
                         )
+                        if kml_inner:
+                            kwargs["innerboundaryis"] = kml_inner
+                        pm = subtype_folder.newpolygon(**kwargs)
                         pm.style.polystyle.color = poly_color
-                        pm.style.polystyle.outline = 1
+                        pm.style.polystyle.outline = 0
                         pm.style.linestyle.color = line_color
-                        pm.style.linestyle.width = 0.5
+                        pm.style.linestyle.width = 0
                         pm.altitudemode = simplekml.AltitudeMode.clamptoground
 
                         total_placemarks += 1
@@ -1875,6 +1894,28 @@ def build_koppen_kml(subtype_polygons, output_path):
     )
 
     kml.save(output_path)
+
+    # Fix simplekml's broken multi-hole serialization:
+    # simplekml puts N LinearRings inside ONE <innerBoundaryIs>, but KML spec
+    # requires ONE <innerBoundaryIs> per ring. Split them now.
+    KML_NS = "http://www.opengis.net/kml/2.2"
+    tree = etree.parse(output_path)
+    fixed_holes = 0
+    for poly_el in tree.findall(f".//{{{KML_NS}}}Polygon"):
+        for inner_el in list(poly_el.findall(f"{{{KML_NS}}}innerBoundaryIs")):
+            rings = inner_el.findall(f"{{{KML_NS}}}LinearRing")
+            if len(rings) > 1:
+                idx = list(poly_el).index(inner_el)
+                poly_el.remove(inner_el)
+                for offset, ring in enumerate(rings):
+                    new_inner = etree.Element(f"{{{KML_NS}}}innerBoundaryIs")
+                    new_inner.append(ring)
+                    poly_el.insert(idx + offset, new_inner)
+                fixed_holes += len(rings)
+    tree.write(output_path, xml_declaration=True, encoding="UTF-8")
+    if fixed_holes:
+        log.info(f"Fixed innerBoundaryIs: split {fixed_holes} rings into separate elements")
+
     file_size = os.path.getsize(output_path)
     log.info(f"Written: {output_path} ({file_size:,} bytes)")
 
