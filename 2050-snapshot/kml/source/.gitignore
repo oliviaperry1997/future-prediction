@@ -1,0 +1,29 @@
+# Downloaded source datasets — large binary files, not source code
+# These are downloaded by download-data.py during Phase 21 climate KML work
+
+# GloH2O V3 Köppen-Geiger ZIP archive and extracted data
+koppen_geiger_tif.zip
+koppen_*.tif
+
+# WWF Terrestrial Ecoregions
+official_teow.zip
+wwf_terr_ecos.*
+
+# HydroSHEDS HydroBASINS watershed data
+hybas_*.zip
+hybas_*/
+
+# SRTM/Copernicus DEM tiles
+*_DEM.tif
+
+# Shapefile component files
+*.shp
+*.shx
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.xml
+
+# Python cache
+__pycache__/
