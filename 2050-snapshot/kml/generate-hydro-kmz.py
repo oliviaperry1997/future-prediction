@@ -183,8 +183,8 @@ def generate_basins_kmz(river_features):
         print("No HydroBASINS zip files found — skipping."); return
 
     # ── Collect features, simplify geometry ──────────────────────────────────
-    SIMPLIFY_TOLERANCE = 0.065  # degrees (~7 km at equator)
-    basin_data = []  # (hybas_id, next_down, geometry)
+    SIMPLIFY_TOLERANCE = 0.04  # degrees (~4.5 km at equator)
+    basin_data = []  # (hybas_id, main_bas, geometry)
     for zp in zips:
         cont = os.path.basename(zp).split("_")[1]
         print(f"  Reading {cont} basins…")
@@ -203,35 +203,18 @@ def generate_basins_kmz(river_features):
                         if g is None:
                             continue
                         hid = feat["properties"]["HYBAS_ID"]
-                        nd = feat["properties"].get("NEXT_DOWN", 0) or 0
+                        mb = feat["properties"]["MAIN_BAS"]
                         geom = shape(g)
                         geom_simple = geom.simplify(SIMPLIFY_TOLERANCE,
                                                      preserve_topology=True)
-                        basin_data.append((hid, nd, geom_simple))
+                        basin_data.append((hid, mb, geom_simple))
             finally:
                 shutil.rmtree(tmpdir)
 
-    # ── Trace each basin to its ultimate outlet via NEXT_DOWN ───────────────
-    next_down = {hid: nd for hid, nd, _ in basin_data}
+    print(f"  {len(basin_data)} sub-basins, {len(set(mb for _,mb,_ in basin_data))} MAIN_BAS groups")
 
-    def ultimate_outlet(start_hid):
-        seen = set()
-        hid = start_hid
-        while hid in next_down and next_down[hid] not in (0, hid):
-            if hid in seen:
-                break
-            seen.add(hid)
-            hid = next_down[hid]
-        return hid
-
-    groups = {}
-    for hid, nd, geom in basin_data:
-        term = ultimate_outlet(hid)
-        groups.setdefault(term, []).append(geom)
-
-    # ── Merge geometries per watershed group ────────────────────────────────
-    def drop_interior_rings(geom):
-        """Remove interior holes from merged polygons."""
+    # ── Group by MAIN_BAS, merge, drop interior rings ────────────────────────
+    def drop_interior(geom):
         if geom.is_empty:
             return geom
         if geom.geom_type == 'Polygon':
@@ -243,16 +226,20 @@ def generate_basins_kmz(river_features):
             return MultiPolygon(cleaned)
         return geom
 
-    merged_basins = []  # (terminal_id, merged_shapely_geom)
-    for term, geoms in groups.items():
+    groups = {}
+    for hid, mb, geom in basin_data:
+        groups.setdefault(mb, []).append(geom)
+
+    merged_basins = []
+    for mb, geoms in groups.items():
         if len(geoms) == 1:
             merged = geoms[0]
         else:
             merged = unary_union(geoms)
-        merged_basins.append((term, drop_interior_rings(merged)))
+        merged_basins.append((mb, drop_interior(merged)))
     merged_basins.sort(key=lambda x: x[0])
 
-    print(f"  {len(basin_data)} sub-basins merged into {len(merged_basins)} watersheds")
+    print(f"  Merged into {len(merged_basins)} watersheds")
 
     # ── Build river name lookup via spatial index ────────────────────────────
     river_geoms = [r[2] for r in river_features]
@@ -260,7 +247,7 @@ def generate_basins_kmz(river_features):
     river_srs = [r[1] for r in river_features]
     name_tree = STRtree(river_geoms)
 
-    def watershed_name(term, merged_geom):
+    def watershed_name(mb, merged_geom):
         candidates = name_tree.query(merged_geom)
         best_i = None
         best_sr = 999
@@ -281,27 +268,27 @@ def generate_basins_kmz(river_features):
             return river_names[best_i]
         return ""
 
-    # ── Deterministic color per terminal ──────────────────────────────────────
-    def terminal_color(hid):
-        h = (hash((hid, 0)) & 0xFFFF) / 65536.0
-        s = 0.45 + ((hash((hid, 1)) & 0xFF) / 256.0) * 0.3
-        v = 0.55 + ((hash((hid, 2)) & 0xFF) / 256.0) * 0.3
+    # ── Deterministic color per MAIN_BAS ──────────────────────────────────────
+    def group_color(mb):
+        h = (hash((mb, 0)) & 0xFFFF) / 65536.0
+        s = 0.45 + ((hash((mb, 1)) & 0xFF) / 256.0) * 0.3
+        v = 0.55 + ((hash((mb, 2)) & 0xFF) / 256.0) * 0.3
         r, g, b = colorsys.hsv_to_rgb(h, s, v)
         return (int(r * 255), int(g * 255), int(b * 255))
 
     # ── Build KML ─────────────────────────────────────────────────────────────
     doc = ET.Element("kml", {"xmlns": "http://www.opengis.net/kml/2.2"})
     document = ET.SubElement(doc, "Document")
-    ET.SubElement(document, "name").text = "Drainage Basins (merged watersheds)"
-    ET.SubElement(document, "description").text = "HydroBASINS L4 merged by NEXT_DOWN watershed, colored, borderless"
+    ET.SubElement(document, "name").text = "Drainage Basins (HydroBASINS L4)"
+    ET.SubElement(document, "description").text = "HydroBASINS L4 merged by MAIN_BAS, borderless"
 
-    # One style per terminal (invisible outline so GEW renders the fill)
+    # One style per MAIN_BAS (invisible outline so GEW renders the fill)
     style_map = {}
-    for term, _ in merged_basins:
-        rgb = terminal_color(term)
+    for mb, _ in merged_basins:
+        rgb = group_color(mb)
         fill_hex = kml_color(rgb, BASIN_ALPHA)
-        sid = f"b{term}"
-        style_map[term] = (sid, fill_hex)
+        sid = f"b{mb}"
+        style_map[mb] = (sid, fill_hex)
         style = ET.SubElement(document, "Style", {"id": sid})
         ls = ET.SubElement(style, "LineStyle")
         ET.SubElement(ls, "color").text = "00000000"
@@ -311,18 +298,18 @@ def generate_basins_kmz(river_features):
         ET.SubElement(ps, "fill").text = "1"
         ET.SubElement(ps, "outline").text = "1"
 
-    # Add placemarks
+    # Add placemarks (one per merged MAIN_BAS)
     written = 0
-    for term, merged_geom in merged_basins:
-        sid, fill_hex = style_map[term]
+    for mb, merged_geom in merged_basins:
+        sid, fill_hex = style_map[mb]
         geom_dict = mapping(merged_geom)
         coord_parts = coord_string(geom_dict)
         if not coord_parts:
             continue
 
-        label = watershed_name(term, merged_geom)
+        label = watershed_name(mb, merged_geom)
         if not label:
-            label = f"Watershed {term}"
+            label = f"Watershed {mb}"
 
         pm = ET.SubElement(document, "Placemark")
         ET.SubElement(pm, "name").text = label
@@ -335,10 +322,6 @@ def generate_basins_kmz(river_features):
             ob = ET.SubElement(poly, "outerBoundaryIs")
             lr = ET.SubElement(ob, "LinearRing")
             ET.SubElement(lr, "coordinates").text = coord_parts[0]
-            for inner_coords in coord_parts[1:]:
-                ib = ET.SubElement(poly, "innerBoundaryIs")
-                lr2 = ET.SubElement(ib, "LinearRing")
-                ET.SubElement(lr2, "coordinates").text = inner_coords
         elif geom_dict["type"] == "MultiPolygon":
             for ring_list in geom_dict["coordinates"]:
                 poly = ET.SubElement(pm, "Polygon")
