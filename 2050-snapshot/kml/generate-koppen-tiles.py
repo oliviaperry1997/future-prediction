@@ -4,8 +4,9 @@ Generate XYZ Web Mercator tiles for Köppen-Geiger 2050 climate zones (combined)
 
 Output: tiles/{z}/{x}/{y}.png  (zoom levels 0–6)
 
-Lake pixels masked using Natural Earth 10m lakes, rasterized at the source
-TIF's native resolution so lake boundaries match the data pixel size.
+Water pixels (oceans, seas, lakes) masked using Natural Earth 10m land,
+rasterized at the source TIF's native resolution so boundaries match
+the data pixel size.
 """
 
 import os
@@ -55,25 +56,26 @@ RASTER_LEGEND = {
 
 WEB_MERCATOR = CRS.from_epsg(3857)
 
-NE_LAKES_URL = "https://naciscdn.org/naturalearth/10m/physical/ne_10m_lakes.zip"
-NE_LAKES_ZIP = "source/ne_10m_lakes.zip"
+NE_LAND_URL = "https://naciscdn.org/naturalearth/10m/physical/ne_10m_land.zip"
+NE_LAND_ZIP = "source/ne_10m_land.zip"
 
 
-def get_lake_mask_4326(h, w):
-    cache_path = f"source/ne_lakes_mask_{h}x{w}.npy"
+def get_land_mask_4326(h, w):
+    """Return boolean array (h, w) EPSG:4326, True where pixel is land."""
+    cache_path = f"source/ne_land_mask_{h}x{w}.npy"
     if os.path.exists(cache_path):
-        print(f"  Loading cached lake mask ({h}×{w})…")
+        print(f"  Loading cached land mask ({h}×{w})…")
         return np.load(cache_path)
 
-    if not os.path.exists(NE_LAKES_ZIP):
-        print(f"  Downloading Natural Earth 10m lakes…", flush=True)
-        subprocess.run(["curl", "-L", NE_LAKES_URL, "-o", NE_LAKES_ZIP], check=True)
+    if not os.path.exists(NE_LAND_ZIP):
+        print(f"  Downloading Natural Earth 10m land…", flush=True)
+        subprocess.run(["curl", "-L", NE_LAND_URL, "-o", NE_LAND_ZIP], check=True)
 
-    print(f"  Rasterizing lake polygons at {h}×{w} EPSG:4326…")
+    print(f"  Rasterizing land polygon at {h}×{w} EPSG:4326…")
     t = rasterio.transform.from_bounds(-180, -90, 180, 90, w, h)
 
     geoms = []
-    with zipfile.ZipFile(NE_LAKES_ZIP) as zf:
+    with zipfile.ZipFile(NE_LAND_ZIP) as zf:
         tmpdir = tempfile.mkdtemp()
         try:
             zf.extractall(tmpdir)
@@ -90,7 +92,7 @@ def get_lake_mask_4326(h, w):
         finally:
             shutil.rmtree(tmpdir)
 
-    print(f"  {len(geoms)} lake polygons")
+    print(f"  {len(geoms)} land polygons")
     mask = rasterio.features.rasterize(
         geoms, out_shape=(h, w),
         transform=t, fill=0, default_value=1, dtype="uint8"
@@ -133,11 +135,12 @@ def main():
         src_crs = src.crs
         src_transform = src.transform
 
-    # ── Lake mask at source resolution ───────────────────────────────────────
-    lake_mask = get_lake_mask_4326(src_h, src_w)
-    n_lake = int(((src_band > 0) & lake_mask).sum())
-    src_band[lake_mask] = 0
-    print(f"Zeroed {n_lake:,} lake pixels")
+    # ── Land mask at source resolution (zero out water) ─────────────────────
+    land_mask = get_land_mask_4326(src_h, src_w)
+    water_mask = ~land_mask
+    n_water = int(((src_band > 0) & water_mask).sum())
+    src_band[water_mask] = 0
+    print(f"Zeroed {n_water:,} water pixels")
 
     # ── Reproject to Web Mercator ────────────────────────────────────────────
     print(f"Reprojecting to {TARGET_H}×{TARGET_W} Web Mercator…")
