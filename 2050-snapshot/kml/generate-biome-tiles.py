@@ -17,12 +17,20 @@ Tile overlay URLs for Google Earth Web:
   https://oliviaperry1997.github.io/future-prediction/2050-snapshot/kml/tiles/biomes-2050/{z}/{x}/{y}.png
 """
 
+import io
 import os
+import urllib.request
+import zipfile
 import numpy as np
 import rasterio
 import rasterio.warp
+import rasterio.features
+import rasterio.transform
 from rasterio.crs import CRS
 from rasterio.enums import Resampling
+import fiona
+import fiona.transform
+from shapely.geometry import shape
 from PIL import Image
 
 TILES_DIR = "tiles"
@@ -62,6 +70,68 @@ WHITTAKER_BIOMES = {
 
 WEB_MERCATOR = CRS.from_epsg(3857)
 
+NE_LAKES_URL  = "https://naciscdn.org/naturalearth/10m/physical/ne_10m_lakes.zip"
+NE_LAKES_ZIP  = "source/ne_10m_lakes.zip"
+NE_LAKES_MASK = "source/ne_lakes_mask.npy"   # cached Web Mercator mask
+
+
+def get_lake_mask(target_w, target_h, origin):
+    """Return boolean array (H, W) True where pixel is a lake — Web Mercator grid."""
+    if os.path.exists(NE_LAKES_MASK):
+        print("  Loading cached lake mask…")
+        return np.load(NE_LAKES_MASK)
+
+    # Download NE 10m lakes shapefile if needed
+    if not os.path.exists(NE_LAKES_ZIP):
+        print(f"  Downloading Natural Earth 10m lakes from {NE_LAKES_URL}…")
+        import ssl, subprocess
+        result = subprocess.run(["curl", "-L", NE_LAKES_URL, "-o", NE_LAKES_ZIP], capture_output=True)
+        if result.returncode != 0:
+            raise RuntimeError(f"curl failed: {result.stderr.decode()}")
+        print(f"  Saved to {NE_LAKES_ZIP}")
+
+    print("  Rasterizing lake polygons to Web Mercator…")
+    transform = rasterio.transform.from_bounds(
+        -origin, -origin, origin, origin, target_w, target_h
+    )
+
+    geoms = []
+    with zipfile.ZipFile(NE_LAKES_ZIP) as zf:
+        # extract to temp dir in memory via MemoryFile not supported for shp — use tmp
+        import tempfile, shutil
+        tmpdir = tempfile.mkdtemp()
+        try:
+            zf.extractall(tmpdir)
+            # find the .shp file
+            shp_path = next(
+                os.path.join(root, f)
+                for root, _, files in os.walk(tmpdir)
+                for f in files if f.endswith(".shp")
+            )
+            with fiona.open(shp_path) as lyr:
+                src_crs = lyr.crs_wkt if hasattr(lyr, "crs_wkt") else lyr.crs
+                for feat in lyr:
+                    geom = feat["geometry"]
+                    if geom is None:
+                        continue
+                    # reproject geometry to EPSG:3857
+                    geom_reproj = fiona.transform.transform_geom(
+                        src_crs, "EPSG:3857", geom
+                    )
+                    geoms.append(geom_reproj)
+        finally:
+            shutil.rmtree(tmpdir)
+
+    print(f"  {len(geoms)} lake polygons reprojected")
+    mask = rasterio.features.rasterize(
+        geoms, out_shape=(target_h, target_w),
+        transform=transform, fill=0, default_value=1, dtype="uint8"
+    ).astype(bool)
+
+    np.save(NE_LAKES_MASK, mask)
+    print(f"  Lake mask saved to {NE_LAKES_MASK}")
+    return mask
+
 
 def build_lut(biome_dict, alpha):
     lut = np.zeros((256, 4), dtype=np.uint8)
@@ -71,7 +141,7 @@ def build_lut(biome_dict, alpha):
     return lut
 
 
-def generate_tiles(tiff_path, out_dir, label, biome_dict=None):
+def generate_tiles(tiff_path, out_dir, label, biome_dict=None, lake_mask=None):
     if biome_dict is None:
         biome_dict = RESOLVE_BIOMES
     TARGET_W = TARGET_H = 16384
@@ -89,6 +159,12 @@ def generate_tiles(tiff_path, out_dir, label, biome_dict=None):
             src_crs=src.crs, dst_crs=WEB_MERCATOR,
             dst_transform=dst_transform, resampling=Resampling.nearest,
         )
+
+    # Zero out lake pixels before colouring
+    if lake_mask is not None:
+        n_lake = int(((band > 0) & lake_mask).sum())
+        band[lake_mask] = 0
+        print(f"  Zeroed {n_lake:,} lake pixels")
 
     # lut determined by passed biome_dict
     lut = build_lut(biome_dict, ALPHA)
@@ -122,15 +198,22 @@ def generate_tiles(tiff_path, out_dir, label, biome_dict=None):
 
 
 def main():
+    TARGET_W = TARGET_H = 16384
+    ORIGIN = 20037508.342789244
+    print("Building lake mask…")
+    lake_mask = get_lake_mask(TARGET_W, TARGET_H, ORIGIN)
+
     generate_tiles(
         "source/resolve_biomes_2017.tif",
         os.path.join(TILES_DIR, "biomes-current"),
         "RESOLVE 2017 Current Biomes",
+        lake_mask=lake_mask,
     )
     generate_tiles(
         "source/resolve_rf_projected_2050.tif",
         os.path.join(TILES_DIR, "biomes-2050"),
-        "Projected 2050 Biomes (Köppen→RESOLVE crosswalk)",
+        "Projected 2050 Biomes (RF ensemble)",
+        lake_mask=lake_mask,
     )
 
     BASE = "https://oliviaperry1997.github.io/future-prediction/2050-snapshot/kml/tiles"
