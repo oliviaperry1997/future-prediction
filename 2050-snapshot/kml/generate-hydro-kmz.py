@@ -15,6 +15,7 @@ import fiona
 import fiona.transform
 from shapely.geometry import shape, mapping
 from shapely.ops import unary_union
+from shapely.strtree import STRtree
 
 # ── River config ──────────────────────────────────────────────────────────────
 NE_RIVERS_URL = "https://naciscdn.org/naturalearth/10m/physical/ne_10m_rivers_lake_centerlines.zip"
@@ -26,8 +27,7 @@ RIVER_WIDTH   = {1: 6, 2: 5, 3: 4, 4: 3, 5: 2, 6: 2, 7: 1, 8: 1,
 
 # ── Drainage basin config ─────────────────────────────────────────────────────
 HYBAS_GLOB       = "source/hybas_*_lev04_v1c.zip"
-BASIN_ALPHA      = 64       # ~25%
-BASIN_OUTLINE_ALPHA = 0     # borderless
+BASIN_ALPHA      = 128      # ~50%
 
 # ── Output ────────────────────────────────────────────────────────────────────
 RIVERS_KMZ = "rivers.kmz"
@@ -86,7 +86,7 @@ def generate_rivers_kmz():
         subprocess.run(["curl", "-L", NE_RIVERS_URL, "-o", NE_RIVERS_ZIP], check=True)
 
     # ── Read features ─────────────────────────────────────────────────────────
-    rivers = []  # (name, scalerank, geometry)
+    rivers = []  # (name, scalerank, shapely_geom, dict_geom)
     print("Reading river features…")
     with zipfile.ZipFile(NE_RIVERS_ZIP) as zf:
         tmpdir = tempfile.mkdtemp()
@@ -110,8 +110,11 @@ def generate_rivers_kmz():
                     sr = props.get("scalerank", 6) or 6
                     name = (props.get("name") or props.get("label") or "").strip()
                     geom = shape(g)
-                    simplified = geom.simplify(0.001, preserve_topology=True)
-                    rivers.append((name or f"River ({fc})", sr, mapping(simplified)))
+                    if sr <= 6:
+                        rivers.append((name or f"River ({fc})", sr, geom, mapping(geom)))
+                    else:
+                        simplified = geom.simplify(0.001, preserve_topology=True)
+                        rivers.append((name or f"River ({fc})", sr, simplified, mapping(simplified)))
         finally:
             shutil.rmtree(tmpdir)
 
@@ -137,7 +140,7 @@ def generate_rivers_kmz():
 
     # Add placemarks
     written = 0
-    for name, sr, geom in rivers:
+    for name, sr, _, geom in rivers:
         w = RIVER_WIDTH.get(sr, 1)
         coords = coord_string_line(geom)
         if not coords or len(coords) < 20:
@@ -164,9 +167,11 @@ def generate_rivers_kmz():
     size_kb = os.path.getsize(out_path) / 1024
     print(f"  Written: {out_path} ({size_kb:.0f} KB)")
 
+    return rivers
+
 
 # ── Basin KMZ ─────────────────────────────────────────────────────────────────
-def generate_basins_kmz():
+def generate_basins_kmz(river_features):
     os.environ.setdefault("OGR_ENABLE_PARTIAL_REPROJECTION", "TRUE")
     out_path = os.path.join(os.path.dirname(__file__) or ".", BASINS_KMZ)
     zips = sorted(glob.glob(HYBAS_GLOB))
@@ -231,6 +236,27 @@ def generate_basins_kmz():
 
     print(f"  {len(basin_data)} sub-basins merged into {len(merged_basins)} watersheds")
 
+    # ── Build river name lookup via spatial index ────────────────────────────
+    river_geoms = [r[2] for r in river_features]
+    river_names = [r[0] for r in river_features]
+    river_srs = [r[1] for r in river_features]
+    name_tree = STRtree(river_geoms)
+
+    def watershed_name(term, merged_geom):
+        candidates = name_tree.query(merged_geom)
+        scored = [(i, river_srs[i]) for i in candidates
+                  if merged_geom.intersects(river_geoms[i])]
+        if not scored:
+            return ""
+        best = min(scored, key=lambda x: x[1])[0]
+        n = river_names[best]
+        # Skip generic "River (River)" names
+        if n and not n.startswith("River ("):
+            return n
+        if scored:
+            return river_names[min(scored, key=lambda x: x[1])[0]]
+        return ""
+
     # ── Deterministic color per terminal ──────────────────────────────────────
     def terminal_color(hid):
         h = (hash((hid, 0)) & 0xFFFF) / 65536.0
@@ -245,7 +271,7 @@ def generate_basins_kmz():
     ET.SubElement(document, "name").text = "Drainage Basins (merged watersheds)"
     ET.SubElement(document, "description").text = "HydroBASINS L4 merged by NEXT_DOWN watershed, colored, borderless"
 
-    # One style per terminal (explicit transparent line to suppress default yellow)
+    # One style per terminal (no outline via PolyStyle only)
     style_map = {}
     for term, _ in merged_basins:
         rgb = terminal_color(term)
@@ -257,9 +283,6 @@ def generate_basins_kmz():
         ET.SubElement(ps, "color").text = fill_hex
         ET.SubElement(ps, "fill").text = "1"
         ET.SubElement(ps, "outline").text = "0"
-        ls = ET.SubElement(style, "LineStyle")
-        ET.SubElement(ls, "color").text = "00000000"
-        ET.SubElement(ls, "width").text = "0"
 
     # Add placemarks
     written = 0
@@ -270,8 +293,12 @@ def generate_basins_kmz():
         if not coord_parts:
             continue
 
+        label = watershed_name(term, merged_geom)
+        if not label:
+            label = f"Watershed {term}"
+
         pm = ET.SubElement(document, "Placemark")
-        ET.SubElement(pm, "name").text = f"Watershed {term}"
+        ET.SubElement(pm, "name").text = label
         ET.SubElement(pm, "styleUrl").text = f"#{sid}"
 
         if geom_dict["type"] == "Polygon":
@@ -314,10 +341,10 @@ def generate_basins_kmz():
 # ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     print("=== Rivers ===")
-    generate_rivers_kmz()
+    river_features = generate_rivers_kmz()
 
     print("\n=== Drainage Basins ===")
-    generate_basins_kmz()
+    generate_basins_kmz(river_features)
 
     print("\nKMZ files written to current directory:")
     for f in [RIVERS_KMZ, BASINS_KMZ]:
