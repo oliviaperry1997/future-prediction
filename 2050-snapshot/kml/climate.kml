@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
   <Document>
     <name>2050 Climate</name>
-    <visibility>0</visibility>
+    <Style id="climate-overlay"><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style><Style id="climate-overlay-hi"><LineStyle><color>ff55b0b0</color><width>1.0</width></LineStyle><PolyStyle><color>6055b0b0</color></PolyStyle></Style><Style id="climate-basin"><LineStyle><color>ff5555b0</color><width>0.5</width></LineStyle><PolyStyle><color>405555b0</color></PolyStyle></Style><Style id="climate-arctic"><LineStyle><color>ffb0b055</color><width>0.5</width></LineStyle><PolyStyle><color>40b0b055</color></PolyStyle></Style><Style id="koppen-Af"><LineStyle><color>FFFF0000</color><width>0.5</width></LineStyle><PolyStyle><color>80FF0000</color></PolyStyle></Style><Style id="koppen-Am"><LineStyle><color>FFFF7800</color><width>0.5</width></LineStyle><PolyStyle><color>80FF7800</color></PolyStyle></Style><Style id="koppen-Aw"><LineStyle><color>FFFAAA46</color><width>0.5</width></LineStyle><PolyStyle><color>80FAAA46</color></PolyStyle></Style><Style id="koppen-BWh"><LineStyle><color>FF0000FE</color><width>0.5</width></LineStyle><PolyStyle><color>800000FE</color></PolyStyle></Style><Style id="koppen-BWk"><LineStyle><color>FF9596FE</color><width>0.5</width></LineStyle><PolyStyle><color>809596FE</color></PolyStyle></Style><Style id="koppen-BSh"><LineStyle><color>FF05A5F5</color><width>0.5</width></LineStyle><PolyStyle><color>8005A5F5</color></PolyStyle></Style><Style id="koppen-BSk"><LineStyle><color>FF7CDCFF</color><width>0.5</width></LineStyle><PolyStyle><color>807CDCFF</color></PolyStyle></Style><Style id="koppen-Csa"><LineStyle><color>FF00CCFF</color><width>0.5</width></LineStyle><PolyStyle><color>8000CCFF</color></PolyStyle></Style><Style id="koppen-Csb"><LineStyle><color>FF00C8C9</color><width>0.5</width></LineStyle><PolyStyle><color>8000C8C9</color></PolyStyle></Style><Style id="koppen-Cwa"><LineStyle><color>FF6AC7C6</color><width>0.5</width></LineStyle><PolyStyle><color>806AC7C6</color></PolyStyle></Style><Style id="koppen-Cwb"><LineStyle><color>FF5E9A6C</color><width>0.5</width></LineStyle><PolyStyle><color>805E9A6C</color></PolyStyle></Style><Style id="koppen-Cwc"><LineStyle><color>FF7DAA7E</color><width>0.5</width></LineStyle><PolyStyle><color>807DAA7E</color></PolyStyle></Style><Style id="koppen-Cfa"><LineStyle><color>FF96FF96</color><width>0.5</width></LineStyle><PolyStyle><color>8096FF96</color></PolyStyle></Style><Style id="koppen-Cfb"><LineStyle><color>FF6DB46D</color><width>0.5</width></LineStyle><PolyStyle><color>806DB46D</color></PolyStyle></Style><Style id="koppen-Cfc"><LineStyle><color>FF40A040</color><width>0.5</width></LineStyle><PolyStyle><color>8040A040</color></PolyStyle></Style><Style id="koppen-Dsa"><LineStyle><color>FFC9BD5E</color><width>0.5</width></LineStyle><PolyStyle><color>80C9BD5E</color></PolyStyle></Style><Style id="koppen-Dsb"><LineStyle><color>FFB8A64D</color><width>0.5</width></LineStyle><PolyStyle><color>80B8A64D</color></PolyStyle></Style><Style id="koppen-Dsc"><LineStyle><color>FFA58F2F</color><width>0.5</width></LineStyle><PolyStyle><color>80A58F2F</color></PolyStyle></Style><Style id="koppen-Dwa"><LineStyle><color>FFF0F05D</color><width>0.5</width></LineStyle><PolyStyle><color>80F0F05D</color></PolyStyle></Style><Style id="koppen-Dwb"><LineStyle><color>FFC8C841</color><width>0.5</width></LineStyle><PolyStyle><color>80C8C841</color></PolyStyle></Style><Style id="koppen-Dwc"><LineStyle><color>FFAAAA2C</color><width>0.5</width></LineStyle><PolyStyle><color>80AAAA2C</color></PolyStyle></Style><Style id="koppen-Dfa"><LineStyle><color>FFFFFF00</color><width>0.5</width></LineStyle><PolyStyle><color>80FFFF00</color></PolyStyle></Style><Style id="koppen-Dfb"><LineStyle><color>FFD2D246</color><width>0.5</width></LineStyle><PolyStyle><color>80D2D246</color></PolyStyle></Style><Style id="koppen-Dfc"><LineStyle><color>FFE4C864</color><width>0.5</width></LineStyle><PolyStyle><color>80E4C864</color></PolyStyle></Style><Style id="koppen-Dfd"><LineStyle><color>FFF0E05E</color><width>0.5</width></LineStyle><PolyStyle><color>80F0E05E</color></PolyStyle></Style><Style id="koppen-ET"><LineStyle><color>FF964696</color><width>0.5</width></LineStyle><PolyStyle><color>80964696</color></PolyStyle></Style><Style id="koppen-EF"><LineStyle><color>FFFFFFFF</color><width>0.5</width></LineStyle><PolyStyle><color>80FFFFFF</color></PolyStyle></Style><Style id="biome-tundra"><LineStyle><color>FFA0A0A0</color><width>0.5</width></LineStyle><PolyStyle><color>60A0A0A0</color></PolyStyle></Style><Style id="biome-boreal-forest-taiga"><LineStyle><color>FF3A7D3A</color><width>0.5</width></LineStyle><PolyStyle><color>603A7D3A</color></PolyStyle></Style><Style id="biome-temperate-forest"><LineStyle><color>FF5CA65C</color><width>0.5</width></LineStyle><PolyStyle><color>605CA65C</color></PolyStyle></Style><Style id="biome-grassland-savanna"><LineStyle><color>FF4DD4E8</color><width>0.5</width></LineStyle><PolyStyle><color>604DD4E8</color></PolyStyle></Style><Style id="biome-desert"><LineStyle><color>FF8EC5ED</color><width>0.5</width></LineStyle><PolyStyle><color>608EC5ED</color></PolyStyle></Style><Style id="biome-tropical-rainforest"><LineStyle><color>FF1A5C1A</color><width>0.5</width></LineStyle><PolyStyle><color>601A5C1A</color></PolyStyle></Style><Style id="climate-icon"><IconStyle><color>ff55b0b0</color><scale>0.8</scale></IconStyle></Style><visibility>0</visibility>
     <gx:CascadingStyle id="__managed_style_0000000000000271">
       <Style>
         <IconStyle>
@@ -75,7 +75,7 @@
                     <Placemark id="10">
                         <name>Af</name>
                         <description>Köppen-Geiger climate zone: Af (Tropical Rainforest) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="9">
+                        <Polygon id="9">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="11">
@@ -83,7 +83,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Af</styleUrl></Placemark>
                 </Folder>
                 <Folder id="16">
                     <Style id="21">
@@ -103,7 +103,7 @@
                     <Placemark id="18">
                         <name>Am</name>
                         <description>Köppen-Geiger climate zone: Am (Tropical Monsoon) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="17">
+                        <Polygon id="17">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="19">
@@ -111,7 +111,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Am</styleUrl></Placemark>
                 </Folder>
                 <Folder id="24">
                     <Style id="29">
@@ -131,7 +131,7 @@
                     <Placemark id="26">
                         <name>Aw</name>
                         <description>Köppen-Geiger climate zone: Aw (Tropical Savannah) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="25">
+                        <Polygon id="25">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="27">
@@ -139,7 +139,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Aw</styleUrl></Placemark>
                 </Folder>
             </Folder>
             <Folder id="4">
@@ -162,7 +162,7 @@
                     <Placemark id="34">
                         <name>BWh</name>
                         <description>Köppen-Geiger climate zone: BWh (Hot Desert) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="33">
+                        <Polygon id="33">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="35">
@@ -170,7 +170,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-BWh</styleUrl></Placemark>
                 </Folder>
                 <Folder id="40">
                     <Style id="45">
@@ -190,7 +190,7 @@
                     <Placemark id="42">
                         <name>BWk</name>
                         <description>Köppen-Geiger climate zone: BWk (Cold Desert) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="41">
+                        <Polygon id="41">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="43">
@@ -198,7 +198,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-BWk</styleUrl></Placemark>
                 </Folder>
                 <Folder id="48">
                     <Style id="53">
@@ -218,7 +218,7 @@
                     <Placemark id="50">
                         <name>BSh</name>
                         <description>Köppen-Geiger climate zone: BSh (Hot Semi-arid) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="49">
+                        <Polygon id="49">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="51">
@@ -226,7 +226,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-BSh</styleUrl></Placemark>
                 </Folder>
                 <Folder id="56">
                     <Style id="61">
@@ -246,7 +246,7 @@
                     <Placemark id="58">
                         <name>BSk</name>
                         <description>Köppen-Geiger climate zone: BSk (Cold Semi-arid) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="57">
+                        <Polygon id="57">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="59">
@@ -254,7 +254,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-BSk</styleUrl></Placemark>
                 </Folder>
             </Folder>
             <Folder id="5">
@@ -277,7 +277,7 @@
                     <Placemark id="66">
                         <name>Csa</name>
                         <description>Köppen-Geiger climate zone: Csa (Hot-summer Mediterranean) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="65">
+                        <Polygon id="65">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="67">
@@ -285,7 +285,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Csa</styleUrl></Placemark>
                 </Folder>
                 <Folder id="72">
                     <Style id="77">
@@ -305,7 +305,7 @@
                     <Placemark id="74">
                         <name>Csb</name>
                         <description>Köppen-Geiger climate zone: Csb (Warm-summer Mediterranean) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="73">
+                        <Polygon id="73">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="75">
@@ -313,7 +313,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Csb</styleUrl></Placemark>
                 </Folder>
                 <Folder id="80">
                     <Style id="85">
@@ -333,7 +333,7 @@
                     <Placemark id="82">
                         <name>Cwa</name>
                         <description>Köppen-Geiger climate zone: Cwa (Monsoon humid subtropical) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="81">
+                        <Polygon id="81">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="83">
@@ -341,7 +341,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Cwa</styleUrl></Placemark>
                 </Folder>
                 <Folder id="88">
                     <Style id="93">
@@ -361,7 +361,7 @@
                     <Placemark id="90">
                         <name>Cwb</name>
                         <description>Köppen-Geiger climate zone: Cwb (Subtropical highland) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="89">
+                        <Polygon id="89">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="91">
@@ -369,7 +369,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Cwb</styleUrl></Placemark>
                 </Folder>
                 <Folder id="96">
                     <Style id="101">
@@ -389,7 +389,7 @@
                     <Placemark id="98">
                         <name>Cwc</name>
                         <description>Köppen-Geiger climate zone: Cwc (Cold subtropical highland) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="97">
+                        <Polygon id="97">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="99">
@@ -397,7 +397,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Cwc</styleUrl></Placemark>
                 </Folder>
                 <Folder id="104">
                     <Style id="109">
@@ -417,7 +417,7 @@
                     <Placemark id="106">
                         <name>Cfa</name>
                         <description>Köppen-Geiger climate zone: Cfa (Humid subtropical) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="105">
+                        <Polygon id="105">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="107">
@@ -425,7 +425,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Cfa</styleUrl></Placemark>
                 </Folder>
                 <Folder id="112">
                     <Style id="117">
@@ -445,7 +445,7 @@
                     <Placemark id="114">
                         <name>Cfb</name>
                         <description>Köppen-Geiger climate zone: Cfb (Oceanic) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="113">
+                        <Polygon id="113">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="115">
@@ -453,7 +453,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Cfb</styleUrl></Placemark>
                 </Folder>
                 <Folder id="120">
                     <Style id="125">
@@ -473,7 +473,7 @@
                     <Placemark id="122">
                         <name>Cfc</name>
                         <description>Köppen-Geiger climate zone: Cfc (Subpolar oceanic) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="121">
+                        <Polygon id="121">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="123">
@@ -481,7 +481,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Cfc</styleUrl></Placemark>
                 </Folder>
             </Folder>
             <Folder id="6">
@@ -504,7 +504,7 @@
                     <Placemark id="130">
                         <name>Dsa</name>
                         <description>Köppen-Geiger climate zone: Dsa (Mediterranean hot continental) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="129">
+                        <Polygon id="129">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="131">
@@ -512,7 +512,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Dsa</styleUrl></Placemark>
                 </Folder>
                 <Folder id="136">
                     <Style id="141">
@@ -532,7 +532,7 @@
                     <Placemark id="138">
                         <name>Dsb</name>
                         <description>Köppen-Geiger climate zone: Dsb (Mediterranean warm continental) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="137">
+                        <Polygon id="137">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="139">
@@ -540,7 +540,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Dsb</styleUrl></Placemark>
                 </Folder>
                 <Folder id="144">
                     <Style id="149">
@@ -560,7 +560,7 @@
                     <Placemark id="146">
                         <name>Dsc</name>
                         <description>Köppen-Geiger climate zone: Dsc (Mediterranean subarctic) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="145">
+                        <Polygon id="145">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="147">
@@ -568,7 +568,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Dsc</styleUrl></Placemark>
                 </Folder>
                 <Folder id="152">
                     <Style id="157">
@@ -588,7 +588,7 @@
                     <Placemark id="154">
                         <name>Dwa</name>
                         <description>Köppen-Geiger climate zone: Dwa (Monsoon hot continental) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="153">
+                        <Polygon id="153">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="155">
@@ -596,7 +596,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Dwa</styleUrl></Placemark>
                 </Folder>
                 <Folder id="160">
                     <Style id="165">
@@ -616,7 +616,7 @@
                     <Placemark id="162">
                         <name>Dwb</name>
                         <description>Köppen-Geiger climate zone: Dwb (Monsoon warm continental) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="161">
+                        <Polygon id="161">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="163">
@@ -624,7 +624,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Dwb</styleUrl></Placemark>
                 </Folder>
                 <Folder id="168">
                     <Style id="173">
@@ -644,7 +644,7 @@
                     <Placemark id="170">
                         <name>Dwc</name>
                         <description>Köppen-Geiger climate zone: Dwc (Monsoon subarctic) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="169">
+                        <Polygon id="169">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="171">
@@ -652,7 +652,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Dwc</styleUrl></Placemark>
                 </Folder>
                 <Folder id="176">
                     <Style id="181">
@@ -672,7 +672,7 @@
                     <Placemark id="178">
                         <name>Dfa</name>
                         <description>Köppen-Geiger climate zone: Dfa (Hot continental) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="177">
+                        <Polygon id="177">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="179">
@@ -680,7 +680,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Dfa</styleUrl></Placemark>
                 </Folder>
                 <Folder id="184">
                     <Style id="189">
@@ -700,7 +700,7 @@
                     <Placemark id="186">
                         <name>Dfb</name>
                         <description>Köppen-Geiger climate zone: Dfb (Warm continental) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="185">
+                        <Polygon id="185">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="187">
@@ -708,7 +708,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Dfb</styleUrl></Placemark>
                 </Folder>
                 <Folder id="192">
                     <Style id="197">
@@ -728,7 +728,7 @@
                     <Placemark id="194">
                         <name>Dfc</name>
                         <description>Köppen-Geiger climate zone: Dfc (Subarctic) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="193">
+                        <Polygon id="193">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="195">
@@ -736,7 +736,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Dfc</styleUrl></Placemark>
                 </Folder>
                 <Folder id="200">
                     <Style id="205">
@@ -756,7 +756,7 @@
                     <Placemark id="202">
                         <name>Dfd</name>
                         <description>Köppen-Geiger climate zone: Dfd (Extreme subarctic) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="201">
+                        <Polygon id="201">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="203">
@@ -764,7 +764,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-Dfd</styleUrl></Placemark>
                 </Folder>
             </Folder>
             <Folder id="7">
@@ -787,7 +787,7 @@
                     <Placemark id="210">
                         <name>ET</name>
                         <description>Köppen-Geiger climate zone: ET (Tundra) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="209">
+                        <Polygon id="209">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="211">
@@ -795,7 +795,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-ET</styleUrl></Placemark>
                 </Folder>
                 <Folder id="216">
                     <Style id="221">
@@ -815,7 +815,7 @@
                     <Placemark id="218">
                         <name>EF</name>
                         <description>Köppen-Geiger climate zone: EF (Frost/Ice Cap) — 2050 projection under SSP3-7.0. See: 2050-snapshot/domains/climate.md#global-climate-state. [NOTE: Approximate — derived from climate narrative; replace with GloH2O V3 GeoTIFF when available.]</description>
-                        <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="217">
+                        <Polygon id="217">
                             <altitudeMode>clampToGround</altitudeMode>
                             <outerBoundaryIs>
                                 <LinearRing id="219">
@@ -823,7 +823,7 @@
                                 </LinearRing>
                             </outerBoundaryIs>
                         </Polygon>
-                    </Placemark>
+                    <styleUrl>#koppen-EF</styleUrl></Placemark>
                 </Folder>
             </Folder>
         </Folder><Folder><name>Risk Areas</name><Folder id="147">
@@ -883,7 +883,7 @@
                 <Placemark id="149">
                     <name>Indus Valley</name>
                     <description>Indus Valley heat zone — routinely exceeds 50°C. Wet-bulb temperatures approach survivability threshold during peak events. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#heatwaves</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="148">
+                    <Polygon id="148">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="150">
@@ -891,11 +891,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="156">
                     <name>Persian Gulf</name>
                     <description>Persian Gulf heat zone — wet-bulb temperatures exceed human survivability threshold (35°C) for brief periods. Outdoor labor lethal without artificial cooling. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#heatwaves</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="155">
+                    <Polygon id="155">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="157">
@@ -903,11 +903,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="163">
                     <name>Sahel Belt</name>
                     <description>Sahel heat zone — 15-25% rainfall decline combined with temperature increases of 2-3°C. Agricultural viability collapsed in worst-affected zones. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#heatwaves</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="162">
+                    <Polygon id="162">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="164">
@@ -915,11 +915,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="170">
                     <name>US Southwest</name>
                     <description>US Southwest heat zone — decade-scale megadrought ongoing since early 2000s. Colorado River flows at 30-40% of early-21st-century baseline. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#heatwaves</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="169">
+                    <Polygon id="169">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="171">
@@ -927,7 +927,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
             </Folder>
             <Folder id="176">
                 <Style id="181">
@@ -999,7 +999,7 @@
                 <Placemark id="178">
                     <name>Western US/Canada</name>
                     <description>Western US/Canada fire regime — area burned annually increased 2-3x. Fire seasons 30-50 days longer. Pyrocumulonimbus clouds inject smoke into stratosphere. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#wildfire</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="177">
+                    <Polygon id="177">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="179">
@@ -1007,11 +1007,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="185">
                     <name>Siberia</name>
                     <description>Siberian fire regime — most dramatic boreal increase. Fires in previously fire-resistant peatlands release carbon stored for millennia. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#wildfire</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="184">
+                    <Polygon id="184">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="186">
@@ -1019,11 +1019,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="192">
                     <name>Australia</name>
                     <description>Australian fire regime — Black Summer (2019-20) is now a typical fire season. Area burned 2-3x higher than pre-2019 baseline. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#wildfire</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="191">
+                    <Polygon id="191">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="193">
@@ -1031,11 +1031,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="199">
                     <name>Mediterranean Basin</name>
                     <description>Mediterranean fire regime — wildfire seasons 60+ days longer. Southern Spain, Italy, Greece, Turkey face desertification. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#wildfire</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="198">
+                    <Polygon id="198">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="200">
@@ -1043,11 +1043,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="206">
                     <name>Amazon Basin</name>
                     <description>Amazon fire regime — basin crossed dieback threshold in August 2047. Ecological collapse underway with savannization of 30-50% of forest area. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#wildfire</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="205">
+                    <Polygon id="205">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="207">
@@ -1055,7 +1055,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
             </Folder>
             <Folder id="248">
                 <Style id="253">
@@ -1075,7 +1075,7 @@
                 <Placemark id="250">
                     <name>Extreme Heat — Persian Gulf</name>
                     <description>Persian Gulf extreme heat zone — wet-bulb temperatures exceed human survivability threshold (35°C) for brief annual periods. Summer temperatures routinely exceed 50°C in Iraq, Kuwait, Saudi Arabia, and Iran. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#west-asia--middle-east</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="249">
+                    <Polygon id="249">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="251">
@@ -1083,7 +1083,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
             </Folder>
             <Folder id="212">
                 <Style id="217">
@@ -1155,7 +1155,7 @@
                 <Placemark id="214">
                     <name>Mali</name>
                     <description>Mali — Sahel country experiencing 15-25% rainfall decline and 2-3°C temperature increase. Agricultural viability collapsed in worst-affected zones. Single largest climate-driven humanitarian disaster. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#africa</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="213">
+                    <Polygon id="213">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="215">
@@ -1163,11 +1163,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="221">
                     <name>Burkina Faso</name>
                     <description>Burkina Faso — Sahel country experiencing 15-25% rainfall decline and 2-3°C temperature increase. Agricultural viability collapsed in worst-affected zones. Single largest climate-driven humanitarian disaster. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#africa</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="220">
+                    <Polygon id="220">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="222">
@@ -1175,11 +1175,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="228">
                     <name>Niger</name>
                     <description>Niger — Sahel country experiencing 15-25% rainfall decline and 2-3°C temperature increase. Agricultural viability collapsed in worst-affected zones. Single largest climate-driven humanitarian disaster. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#africa</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="227">
+                    <Polygon id="227">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="229">
@@ -1187,11 +1187,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="235">
                     <name>Chad</name>
                     <description>Chad — Sahel country experiencing 15-25% rainfall decline and 2-3°C temperature increase. Agricultural viability collapsed in worst-affected zones. Single largest climate-driven humanitarian disaster. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#africa</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="234">
+                    <Polygon id="234">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="236">
@@ -1199,11 +1199,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="242">
                     <name>Sudan</name>
                     <description>Sudan — Sahel country experiencing 15-25% rainfall decline and 2-3°C temperature increase. Agricultural viability collapsed in worst-affected zones. Single largest climate-driven humanitarian disaster. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#africa</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="241">
+                    <Polygon id="241">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="243">
@@ -1211,7 +1211,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
             </Folder>
             </Folder><Folder><name>Ecoregions &amp; Biomes</name><Folder id="3">
                 <Style id="8">
@@ -1231,7 +1231,7 @@
                 <Placemark id="5">
                     <name>Tundra</name>
                     <description>Tundra — Arctic fringe ecosystems (mosses, lichens, shrubs, permafrost) — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="4">
+                    <Polygon id="4">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="6">
@@ -1239,7 +1239,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-tundra</styleUrl></Placemark>
             </Folder>
             <Folder id="11">
                 <Style id="16">
@@ -1272,7 +1272,7 @@
                 <Placemark id="13">
                     <name>Boreal Forest/Taiga</name>
                     <description>Boreal Forest/Taiga — Cold-tolerant coniferous forests and woodlands — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="12">
+                    <Polygon id="12">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="14">
@@ -1280,11 +1280,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-boreal-forest-taiga</styleUrl></Placemark>
                 <Placemark id="20">
                     <name>Boreal Forest/Taiga</name>
                     <description>Boreal Forest/Taiga — Cold-tolerant coniferous forests and woodlands — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="19">
+                    <Polygon id="19">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="21">
@@ -1292,7 +1292,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-boreal-forest-taiga</styleUrl></Placemark>
             </Folder>
             <Folder id="26">
                 <Style id="31">
@@ -1364,7 +1364,7 @@
                 <Placemark id="28">
                     <name>Temperate Forest</name>
                     <description>Temperate Forest — Mixed deciduous and coniferous mid-latitude forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="27">
+                    <Polygon id="27">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="29">
@@ -1372,11 +1372,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-temperate-forest</styleUrl></Placemark>
                 <Placemark id="35">
                     <name>Temperate Forest</name>
                     <description>Temperate Forest — Mixed deciduous and coniferous mid-latitude forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="34">
+                    <Polygon id="34">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="36">
@@ -1384,11 +1384,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-temperate-forest</styleUrl></Placemark>
                 <Placemark id="42">
                     <name>Temperate Forest</name>
                     <description>Temperate Forest — Mixed deciduous and coniferous mid-latitude forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="41">
+                    <Polygon id="41">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="43">
@@ -1396,11 +1396,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-temperate-forest</styleUrl></Placemark>
                 <Placemark id="49">
                     <name>Temperate Forest</name>
                     <description>Temperate Forest — Mixed deciduous and coniferous mid-latitude forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="48">
+                    <Polygon id="48">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="50">
@@ -1408,11 +1408,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-temperate-forest</styleUrl></Placemark>
                 <Placemark id="56">
                     <name>Temperate Forest</name>
                     <description>Temperate Forest — Mixed deciduous and coniferous mid-latitude forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="55">
+                    <Polygon id="55">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="57">
@@ -1420,7 +1420,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-temperate-forest</styleUrl></Placemark>
             </Folder>
             <Folder id="62">
                 <Style id="67">
@@ -1492,7 +1492,7 @@
                 <Placemark id="64">
                     <name>Grassland/Savanna</name>
                     <description>Grassland/Savanna — Open grasslands, savanna woodlands, and shrublands — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="63">
+                    <Polygon id="63">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="65">
@@ -1500,11 +1500,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-grassland-savanna</styleUrl></Placemark>
                 <Placemark id="71">
                     <name>Grassland/Savanna</name>
                     <description>Grassland/Savanna — Open grasslands, savanna woodlands, and shrublands — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="70">
+                    <Polygon id="70">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="72">
@@ -1512,11 +1512,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-grassland-savanna</styleUrl></Placemark>
                 <Placemark id="78">
                     <name>Grassland/Savanna</name>
                     <description>Grassland/Savanna — Open grasslands, savanna woodlands, and shrublands — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="77">
+                    <Polygon id="77">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="79">
@@ -1524,11 +1524,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-grassland-savanna</styleUrl></Placemark>
                 <Placemark id="85">
                     <name>Grassland/Savanna</name>
                     <description>Grassland/Savanna — Open grasslands, savanna woodlands, and shrublands — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="84">
+                    <Polygon id="84">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="86">
@@ -1536,11 +1536,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-grassland-savanna</styleUrl></Placemark>
                 <Placemark id="92">
                     <name>Grassland/Savanna</name>
                     <description>Grassland/Savanna — Open grasslands, savanna woodlands, and shrublands — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="91">
+                    <Polygon id="91">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="93">
@@ -1548,7 +1548,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-grassland-savanna</styleUrl></Placemark>
             </Folder>
             <Folder id="98">
                 <Style id="103">
@@ -1633,7 +1633,7 @@
                 <Placemark id="100">
                     <name>Desert</name>
                     <description>Desert — Hyper-arid and semi-arid desert ecosystems — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="99">
+                    <Polygon id="99">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="101">
@@ -1641,11 +1641,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-desert</styleUrl></Placemark>
                 <Placemark id="107">
                     <name>Desert</name>
                     <description>Desert — Hyper-arid and semi-arid desert ecosystems — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="106">
+                    <Polygon id="106">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="108">
@@ -1653,11 +1653,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-desert</styleUrl></Placemark>
                 <Placemark id="114">
                     <name>Desert</name>
                     <description>Desert — Hyper-arid and semi-arid desert ecosystems — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="113">
+                    <Polygon id="113">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="115">
@@ -1665,11 +1665,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-desert</styleUrl></Placemark>
                 <Placemark id="121">
                     <name>Desert</name>
                     <description>Desert — Hyper-arid and semi-arid desert ecosystems — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="120">
+                    <Polygon id="120">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="122">
@@ -1677,11 +1677,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-desert</styleUrl></Placemark>
                 <Placemark id="128">
                     <name>Desert</name>
                     <description>Desert — Hyper-arid and semi-arid desert ecosystems — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="127">
+                    <Polygon id="127">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="129">
@@ -1689,11 +1689,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-desert</styleUrl></Placemark>
                 <Placemark id="135">
                     <name>Desert</name>
                     <description>Desert — Hyper-arid and semi-arid desert ecosystems — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="134">
+                    <Polygon id="134">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="136">
@@ -1701,7 +1701,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-desert</styleUrl></Placemark>
             </Folder>
             <Folder id="141">
                 <Style id="146">
@@ -1760,7 +1760,7 @@
                 <Placemark id="143">
                     <name>Tropical Rainforest</name>
                     <description>Tropical Rainforest — Equatorial moist broadleaf forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="142">
+                    <Polygon id="142">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="144">
@@ -1768,11 +1768,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-tropical-rainforest</styleUrl></Placemark>
                 <Placemark id="150">
                     <name>Tropical Rainforest</name>
                     <description>Tropical Rainforest — Equatorial moist broadleaf forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="149">
+                    <Polygon id="149">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="151">
@@ -1780,11 +1780,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-tropical-rainforest</styleUrl></Placemark>
                 <Placemark id="157">
                     <name>Tropical Rainforest</name>
                     <description>Tropical Rainforest — Equatorial moist broadleaf forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="156">
+                    <Polygon id="156">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="158">
@@ -1792,11 +1792,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-tropical-rainforest</styleUrl></Placemark>
                 <Placemark id="164">
                     <name>Tropical Rainforest</name>
                     <description>Tropical Rainforest — Equatorial moist broadleaf forests — 2050 projection. APPROXIMATE — Replace with data-driven polygons when WWF T errestrial Ecoregions source becomes available. See: 2050-snapshot/domains/climate.md#global-climate-state</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="163">
+                    <Polygon id="163">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="165">
@@ -1804,7 +1804,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#biome-tropical-rainforest</styleUrl></Placemark>
             </Folder>
         </Folder><Folder><name>Drainage Basins</name><Folder id="256">
                 <Style id="261">
@@ -1928,7 +1928,7 @@
                 <Placemark id="258">
                     <name>Indus River Basin</name>
                     <description>Indus River Basin — HydroSHEDS-derived watershed polygon. Transboundary basin under water scarcity stress in 2050. See: 2050-snapshot/domains/climate.md#water-scarcity</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="257">
+                    <Polygon id="257">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="259">
@@ -1936,11 +1936,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-basin</styleUrl></Placemark>
                 <Placemark id="265">
                     <name>Nile River Basin</name>
                     <description>Nile River Basin — HydroSHEDS-derived watershed polygon. Transboundary basin under water scarcity stress in 2050. See: 2050-snapshot/domains/climate.md#water-scarcity</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="264">
+                    <Polygon id="264">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="266">
@@ -1948,11 +1948,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-basin</styleUrl></Placemark>
                 <Placemark id="272">
                     <name>Mekong River Basin</name>
                     <description>Mekong River Basin — HydroSHEDS-derived watershed polygon. Transboundary basin under water scarcity stress in 2050. See: 2050-snapshot/domains/climate.md#water-scarcity</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="271">
+                    <Polygon id="271">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="273">
@@ -1960,11 +1960,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-basin</styleUrl></Placemark>
                 <Placemark id="279">
                     <name>Colorado River Basin</name>
                     <description>Colorado River Basin — HydroSHEDS-derived watershed polygon. Transboundary basin under water scarcity stress in 2050. See: 2050-snapshot/domains/climate.md#water-scarcity</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="278">
+                    <Polygon id="278">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="280">
@@ -1972,11 +1972,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-basin</styleUrl></Placemark>
                 <Placemark id="286">
                     <name>Amu Darya / Syr Darya Basin</name>
                     <description>Amu Darya / Syr Darya Basin — HydroSHEDS-derived watershed polygon. Transboundary basin under water scarcity stress in 2050. See: 2050-snapshot/domains/climate.md#water-scarcity</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="285">
+                    <Polygon id="285">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="287">
@@ -1984,11 +1984,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-basin</styleUrl></Placemark>
                 <Placemark id="293">
                     <name>Tigris-Euphrates Basin</name>
                     <description>Tigris-Euphrates Basin — APPROXIMATE watershed boundary. HydroSHEDS data unavailable for this region. Transboundary basin under water scarcity stress in 2050. See: 2050-snapshot/domains/climate.md#water-scarcity</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="292">
+                    <Polygon id="292">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="294">
@@ -1996,11 +1996,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-basin</styleUrl></Placemark>
                 <Placemark id="300">
                     <name>Dnieper River Basin</name>
                     <description>Dnieper River Basin — HydroSHEDS-derived watershed polygon. Transboundary basin under water scarcity stress in 2050. See: 2050-snapshot/domains/climate.md#water-scarcity</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="299">
+                    <Polygon id="299">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="301">
@@ -2008,11 +2008,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-basin</styleUrl></Placemark>
                 <Placemark id="307">
                     <name>Yellow River Basin</name>
                     <description>Yellow River Basin — HydroSHEDS-derived watershed polygon. Transboundary basin under water scarcity stress in 2050. See: 2050-snapshot/domains/climate.md#water-scarcity</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="306">
+                    <Polygon id="306">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="308">
@@ -2020,11 +2020,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-basin</styleUrl></Placemark>
                 <Placemark id="314">
                     <name>Amur / Heilongjiang Basin</name>
                     <description>Amur / Heilongjiang Basin — HydroSHEDS-derived watershed polygon. Transboundary basin under water scarcity stress in 2050. See: 2050-snapshot/domains/climate.md#water-scarcity</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="313">
+                    <Polygon id="313">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="315">
@@ -2032,12 +2032,12 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-basin</styleUrl></Placemark>
             </Folder>
             </Folder><Folder><name>Inundation Zones</name><Folder><name>Sea Level Rise Inundation (0.35m)</name><Placemark id="4">
                 <name>Bangladesh Delta Inundation Zone</name>
                 <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Ganges-Brahmaputra-Meghna delta — densely populated low-lying coastal zone See: 2050-snapshot/domains/climate.md#sea-level</description>
-                <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="3">
+                <Polygon id="3">
                     <altitudeMode>clampToGround</altitudeMode>
                     <outerBoundaryIs>
                         <LinearRing id="5">
@@ -2045,11 +2045,11 @@
                         </LinearRing>
                     </outerBoundaryIs>
                 </Polygon>
-            </Placemark>
+            <styleUrl>#climate-overlay</styleUrl></Placemark>
             <Placemark id="11">
                 <name>Mekong Delta Inundation Zone</name>
                 <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Vietnam's Mekong Delta — primary rice-growing region, extreme flood risk See: 2050-snapshot/domains/climate.md#sea-level</description>
-                <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="10">
+                <Polygon id="10">
                     <altitudeMode>clampToGround</altitudeMode>
                     <outerBoundaryIs>
                         <LinearRing id="12">
@@ -2057,11 +2057,11 @@
                         </LinearRing>
                     </outerBoundaryIs>
                 </Polygon>
-            </Placemark>
+            <styleUrl>#climate-overlay</styleUrl></Placemark>
             <Placemark id="18">
                 <name>Nile Delta Inundation Zone</name>
                 <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Egypt's Nile Delta fan — agricultural heartland and population center See: 2050-snapshot/domains/climate.md#sea-level</description>
-                <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="17">
+                <Polygon id="17">
                     <altitudeMode>clampToGround</altitudeMode>
                     <outerBoundaryIs>
                         <LinearRing id="19">
@@ -2069,11 +2069,11 @@
                         </LinearRing>
                     </outerBoundaryIs>
                 </Polygon>
-            </Placemark>
+            <styleUrl>#climate-overlay</styleUrl></Placemark>
             <Placemark id="25">
                 <name>US Gulf Coast Inundation Zone</name>
                 <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Houston to Mobile — hurricane-prone coastal urban corridor See: 2050-snapshot/domains/climate.md#sea-level</description>
-                <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="24">
+                <Polygon id="24">
                     <altitudeMode>clampToGround</altitudeMode>
                     <outerBoundaryIs>
                         <LinearRing id="26">
@@ -2081,11 +2081,11 @@
                         </LinearRing>
                     </outerBoundaryIs>
                 </Polygon>
-            </Placemark>
+            <styleUrl>#climate-overlay</styleUrl></Placemark>
             <Placemark id="32">
                 <name>Pacific Atolls Inundation Zone — Tuvalu</name>
                 <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Low-lying atoll nations — maximum elevation &lt;2m, extreme SLR vulnerability See: 2050-snapshot/domains/climate.md#sea-level</description>
-                <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="31">
+                <Polygon id="31">
                     <altitudeMode>clampToGround</altitudeMode>
                     <outerBoundaryIs>
                         <LinearRing id="33">
@@ -2093,11 +2093,11 @@
                         </LinearRing>
                     </outerBoundaryIs>
                 </Polygon>
-            </Placemark>
+            <styleUrl>#climate-overlay</styleUrl></Placemark>
             <Placemark id="39">
                 <name>Pacific Atolls Inundation Zone — Kiribati</name>
                 <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Low-lying atoll nations — maximum elevation &lt;2m, extreme SLR vulnerability See: 2050-snapshot/domains/climate.md#sea-level</description>
-                <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="38">
+                <Polygon id="38">
                     <altitudeMode>clampToGround</altitudeMode>
                     <outerBoundaryIs>
                         <LinearRing id="40">
@@ -2105,11 +2105,11 @@
                         </LinearRing>
                     </outerBoundaryIs>
                 </Polygon>
-            </Placemark>
+            <styleUrl>#climate-overlay</styleUrl></Placemark>
             <Placemark id="46">
                 <name>Pacific Atolls Inundation Zone — Marshall Islands</name>
                 <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Low-lying atoll nations — maximum elevation &lt;2m, extreme SLR vulnerability See: 2050-snapshot/domains/climate.md#sea-level</description>
-                <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="45">
+                <Polygon id="45">
                     <altitudeMode>clampToGround</altitudeMode>
                     <outerBoundaryIs>
                         <LinearRing id="47">
@@ -2117,11 +2117,11 @@
                         </LinearRing>
                     </outerBoundaryIs>
                 </Polygon>
-            </Placemark>
+            <styleUrl>#climate-overlay</styleUrl></Placemark>
             <Placemark id="53">
                 <name>Pacific Atolls Inundation Zone — Maldives</name>
                 <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Low-lying atoll nations — maximum elevation &lt;2m, extreme SLR vulnerability See: 2050-snapshot/domains/climate.md#sea-level</description>
-                <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="52">
+                <Polygon id="52">
                     <altitudeMode>clampToGround</altitudeMode>
                     <outerBoundaryIs>
                         <LinearRing id="54">
@@ -2129,11 +2129,11 @@
                         </LinearRing>
                     </outerBoundaryIs>
                 </Polygon>
-            </Placemark>
+            <styleUrl>#climate-overlay</styleUrl></Placemark>
             <Placemark id="60">
                 <name>Netherlands Inundation Zone</name>
                 <description>Sea level rise inundation zone (+0.35m by 2050). APPROXIMATE — Replace with DEM-derived polygon when elevation source data becomes available. +0.35m is a global mean; local effects vary due to subsidence, tides, and storm surge. Dutch coastal zone — polder landscape already below sea level See: 2050-snapshot/domains/climate.md#sea-level</description>
-                <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="59">
+                <Polygon id="59">
                     <altitudeMode>clampToGround</altitudeMode>
                     <outerBoundaryIs>
                         <LinearRing id="61">
@@ -2141,7 +2141,7 @@
                         </LinearRing>
                     </outerBoundaryIs>
                 </Polygon>
-            </Placemark>
+            <styleUrl>#climate-overlay</styleUrl></Placemark>
         </Folder><Folder id="76">
                 <Style id="81">
                     <LineStyle id="83">
@@ -2277,7 +2277,7 @@
                 <Placemark id="78">
                     <name>Bangladesh — Ganges-Brahmaputra Delta</name>
                     <description>Coastal low-elevation zone — Bangladesh — Ganges-Brahmaputra Delta. Sea level rise of +0.35m by 2050 (global mean) with regional variation due to subsidence, tidal amplification, and ocean dynamics. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#sea-level</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="77">
+                    <Polygon id="77">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="79">
@@ -2285,11 +2285,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="85">
                     <name>Mekong Delta — Vietnam</name>
                     <description>Coastal low-elevation zone — Mekong Delta — Vietnam. Sea level rise of +0.35m by 2050 (global mean) with regional variation due to subsidence, tidal amplification, and ocean dynamics. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#sea-level</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="84">
+                    <Polygon id="84">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="86">
@@ -2297,11 +2297,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="92">
                     <name>Nile Delta — Egypt</name>
                     <description>Coastal low-elevation zone — Nile Delta — Egypt. Sea level rise of +0.35m by 2050 (global mean) with regional variation due to subsidence, tidal amplification, and ocean dynamics. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#sea-level</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="91">
+                    <Polygon id="91">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="93">
@@ -2309,11 +2309,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="99">
                     <name>US Gulf Coast</name>
                     <description>Coastal low-elevation zone — US Gulf Coast. Sea level rise of +0.35m by 2050 (global mean) with regional variation due to subsidence, tidal amplification, and ocean dynamics. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#sea-level</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="98">
+                    <Polygon id="98">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="100">
@@ -2321,11 +2321,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="106">
                     <name>US East Coast — Mid-Atlantic</name>
                     <description>Coastal low-elevation zone — US East Coast — Mid-Atlantic. Sea level rise of +0.35m by 2050 (global mean) with regional variation due to subsidence, tidal amplification, and ocean dynamics. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#sea-level</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="105">
+                    <Polygon id="105">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="107">
@@ -2333,11 +2333,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="113">
                     <name>Netherlands — North Sea Coast</name>
                     <description>Coastal low-elevation zone — Netherlands — North Sea Coast. Sea level rise of +0.35m by 2050 (global mean) with regional variation due to subsidence, tidal amplification, and ocean dynamics. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#sea-level</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="112">
+                    <Polygon id="112">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="114">
@@ -2345,11 +2345,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="120">
                     <name>Pacific Atolls — Tuvalu, Kiribati, Marshall Islands, Maldives</name>
                     <description>Coastal low-elevation zone — Pacific Atolls — Tuvalu, Kiribati, Marshall Islands, Maldives. Sea level rise of +0.35m by 2050 (global mean) with regional variation due to subsidence, tidal amplification, and ocean dynamics. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#sea-level</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="119">
+                    <Polygon id="119">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="121">
@@ -2357,11 +2357,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="127">
                     <name>Shanghai — Yangtze Delta</name>
                     <description>Coastal low-elevation zone — Shanghai — Yangtze Delta. Sea level rise of +0.35m by 2050 (global mean) with regional variation due to subsidence, tidal amplification, and ocean dynamics. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#sea-level</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="126">
+                    <Polygon id="126">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="128">
@@ -2369,11 +2369,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="134">
                     <name>South American Atlantic Coast</name>
                     <description>Coastal low-elevation zone — South American Atlantic Coast. Sea level rise of +0.35m by 2050 (global mean) with regional variation due to subsidence, tidal amplification, and ocean dynamics. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#sea-level</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="133">
+                    <Polygon id="133">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="135">
@@ -2381,11 +2381,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="141">
                     <name>West Africa — Gulf of Guinea Coast</name>
                     <description>Coastal low-elevation zone — West Africa — Gulf of Guinea Coast. Sea level rise of +0.35m by 2050 (global mean) with regional variation due to subsidence, tidal amplification, and ocean dynamics. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#sea-level</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="140">
+                    <Polygon id="140">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="142">
@@ -2393,7 +2393,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
             </Folder>
             <Style id="7">
                 <LineStyle id="9">
@@ -2556,7 +2556,7 @@
                 <Placemark id="5">
                     <name>Siberian Permafrost</name>
                     <description>Siberian permafrost zone — continuous and discontinuous permafrost across the Siberian Arctic. Methane release from thawing yedoma permafrost is a major positive feedback to global warming. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#arctic</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="4">
+                    <Polygon id="4">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="6">
@@ -2564,11 +2564,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="12">
                     <name>Alaskan Permafrost</name>
                     <description>Alaskan permafrost zone — North Slope and interior Alaska. Active layer depth has increased 30-100cm, destabilizing infrastructure. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#arctic</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="11">
+                    <Polygon id="11">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="13">
@@ -2576,11 +2576,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="19">
                     <name>Canadian Permafrost</name>
                     <description>Canadian permafrost zone — northern Canada excluding the Greenland ice sheet. Infrastructure damage from permafrost thaw affects roads, buildings, and airports. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#arctic</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="18">
+                    <Polygon id="18">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="20">
@@ -2588,7 +2588,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
             </Folder>
             <Folder id="25">
                 <Style id="30">
@@ -2608,7 +2608,7 @@
                 <Placemark id="27">
                     <name>Greenland Ice Sheet Retreat Zone</name>
                     <description>Greenland ice sheet — mass loss ~300-400 Gt/yr contributing ~0.8-1.0 mm/yr to global sea level rise. The equilibrium line has migrated 200-400m upward in elevation since the early 2020s. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#greenland</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="26">
+                    <Polygon id="26">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="28">
@@ -2616,7 +2616,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
             </Folder>
             <Folder id="33">
                 <Style id="38">
@@ -2701,7 +2701,7 @@
                 <Placemark id="35">
                     <name>Himalayas-Karakoram</name>
                     <description>Himalayan and Karakoram glacier zone — 40-60% mass loss since 1990s. Threatens dry-season water supply for 1.5+ billion people across the Indus, Ganges, and Brahmaputra basins. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#glaciers</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="34">
+                    <Polygon id="34">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="36">
@@ -2709,11 +2709,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="42">
                     <name>Andes</name>
                     <description>Andean glacier zone — tropical glaciers functionally extinct below 5,500m. Water supply threatened for La Paz, Quito, Lima, Bogotá. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#glaciers</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="41">
+                    <Polygon id="41">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="43">
@@ -2721,11 +2721,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="49">
                     <name>European Alps</name>
                     <description>Alpine glacier zone — 50-60% volume loss since 2000. Summer ski tourism eliminated; hydropower reduced 15-25%. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#glaciers</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="48">
+                    <Polygon id="48">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="50">
@@ -2733,11 +2733,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="56">
                     <name>Alaska Range</name>
                     <description>Alaskan glacier zone — includes major glaciers of the Alaska Range and coastal mountains. Rapid retreat accelerating sea level contribution. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#glaciers</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="55">
+                    <Polygon id="55">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="57">
@@ -2745,11 +2745,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="63">
                     <name>Rocky Mountains</name>
                     <description>Rocky Mountain glacier zone — reduced snowpack threatens water supply for western US and Canada. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#glaciers</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="62">
+                    <Polygon id="62">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="64">
@@ -2757,11 +2757,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
                 <Placemark id="70">
                     <name>Kilimanjaro, East Africa</name>
                     <description>Kilimanjaro glacier zone — tropical glaciers functionally extinct below 5,500m. East African glacier loss threatens regional water supply. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#glaciers</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="69">
+                    <Polygon id="69">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="71">
@@ -2769,7 +2769,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-overlay</styleUrl></Placemark>
             </Folder>
             </Folder><Folder><name>Resources &amp; Infrastructure</name><Folder id="320">
                 <Style id="325">
@@ -2841,7 +2841,7 @@
                 <Placemark id="322">
                     <name>Russian Arctic Sector</name>
                     <description>Russian Arctic sector — extensive Northern Sea Route (ice-free 5-7 months/year). Nuclear-powered icebreakers based in Murmansk. Permafrost thaw affects 65% of Russian territory. Oil, gas, and mineral resources. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#arctic-resource-competition</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="321">
+                    <Polygon id="321">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="323">
@@ -2849,11 +2849,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-arctic</styleUrl></Placemark>
                 <Placemark id="329">
                     <name>Canadian Arctic Sector</name>
                     <description>Canadian Arctic sector — Northwest Passage shipping route. Permafrost infrastructure damage. Arctic sovereignty claims including extended continental shelf submission. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#arctic-resource-competition</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="328">
+                    <Polygon id="328">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="330">
@@ -2861,11 +2861,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-arctic</styleUrl></Placemark>
                 <Placemark id="336">
                     <name>US/Alaskan Arctic Sector</name>
                     <description>US/Alaskan Arctic sector — North Slope oil and gas reserves. Permafrost thaw affecting infrastructure. Arctic strategic importance. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#arctic-resource-competition</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="335">
+                    <Polygon id="335">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="337">
@@ -2873,11 +2873,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-arctic</styleUrl></Placemark>
                 <Placemark id="343">
                     <name>Norwegian Arctic Sector</name>
                     <description>Norwegian Arctic sector — Svalbard archipelago, Barents Sea oil and gas. Strategic position for Arctic shipping and research. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#arctic-resource-competition</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="342">
+                    <Polygon id="342">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="344">
@@ -2885,11 +2885,11 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-arctic</styleUrl></Placemark>
                 <Placemark id="350">
                     <name>Greenlandic/Danish Arctic Sector</name>
                     <description>Greenlandic/Danish Arctic sector — Greenland ice sheet mineral resources. Ice sheet melt opening new shipping routes and resource access. Greenland's strategic position between North America and Europe. APPROXIMATE — Narrative-derived polygon. Replace with data-driven geometry when source dataset becomes available. See: 2050-snapshot/domains/climate.md#arctic-resource-competition</description>
-                    <gx:CascadingStyle><Style><LineStyle><color>ff55b0b0</color><width>0.5</width></LineStyle><PolyStyle><color>4055b0b0</color></PolyStyle></Style></gx:CascadingStyle><Polygon id="349">
+                    <Polygon id="349">
                         <altitudeMode>clampToGround</altitudeMode>
                         <outerBoundaryIs>
                             <LinearRing id="351">
@@ -2897,7 +2897,7 @@
                             </LinearRing>
                         </outerBoundaryIs>
                     </Polygon>
-                </Placemark>
+                <styleUrl>#climate-arctic</styleUrl></Placemark>
             </Folder>
             <Folder id="356">
                 <Style id="359">
@@ -3014,83 +3014,83 @@
                 <Placemark id="358">
                     <name>Saudi Arabia — Desalination Hub</name>
                     <description>Major desalination plant cluster — Saudi Arabia's water supply is critically dependent on desalination. The world's largest desalination producer. See: 2050-snapshot/domains/climate.md#to-technology</description>
-                    <gx:CascadingStyle><Style><IconStyle><color>ff55b0b0</color><scale>0.8</scale></IconStyle></Style></gx:CascadingStyle><Point id="357">
+                    <Point id="357">
                         <coordinates>50.2,26.4,0</coordinates>
                         <altitudeMode>clampToGround</altitudeMode>
                     </Point>
-                </Placemark>
+                <styleUrl>#climate-icon</styleUrl></Placemark>
                 <Placemark id="363">
                     <name>Israel / APR — Desalination</name>
                     <description>Advanced desalination infrastructure — Israel/APR operates some of the world's most efficient reverse-osmosis plants, supplying ~80% of domestic water. See: 2050-snapshot/domains/climate.md#to-technology</description>
-                    <gx:CascadingStyle><Style><IconStyle><color>ff55b0b0</color><scale>0.8</scale></IconStyle></Style></gx:CascadingStyle><Point id="362">
+                    <Point id="362">
                         <coordinates>34.8,32.6,0</coordinates>
                         <altitudeMode>clampToGround</altitudeMode>
                     </Point>
-                </Placemark>
+                <styleUrl>#climate-icon</styleUrl></Placemark>
                 <Placemark id="368">
                     <name>UAE — Desalination</name>
                     <description>UAE desalination capacity — extensive thermal and reverse-osmosis desalination supporting urban and industrial water needs. See: 2050-snapshot/domains/climate.md#to-technology</description>
-                    <gx:CascadingStyle><Style><IconStyle><color>ff55b0b0</color><scale>0.8</scale></IconStyle></Style></gx:CascadingStyle><Point id="367">
+                    <Point id="367">
                         <coordinates>55.3,25.2,0</coordinates>
                         <altitudeMode>clampToGround</altitudeMode>
                     </Point>
-                </Placemark>
+                <styleUrl>#climate-icon</styleUrl></Placemark>
                 <Placemark id="373">
                     <name>California/Pacifica — Desalination</name>
                     <description>Pacifica desalination plants — drought-driven investment in coastal desalination infrastructure for Southern California. See: 2050-snapshot/domains/climate.md#to-technology</description>
-                    <gx:CascadingStyle><Style><IconStyle><color>ff55b0b0</color><scale>0.8</scale></IconStyle></Style></gx:CascadingStyle><Point id="372">
+                    <Point id="372">
                         <coordinates>-117.0,33.0,0</coordinates>
                         <altitudeMode>clampToGround</altitudeMode>
                     </Point>
-                </Placemark>
+                <styleUrl>#climate-icon</styleUrl></Placemark>
                 <Placemark id="378">
                     <name>Australia — Desalination</name>
                     <description>Australian desalination plants — Sydney and other major cities depend on desalination for drought security. See: 2050-snapshot/domains/climate.md#to-technology</description>
-                    <gx:CascadingStyle><Style><IconStyle><color>ff55b0b0</color><scale>0.8</scale></IconStyle></Style></gx:CascadingStyle><Point id="377">
+                    <Point id="377">
                         <coordinates>151.2,-33.8,0</coordinates>
                         <altitudeMode>clampToGround</altitudeMode>
                     </Point>
-                </Placemark>
+                <styleUrl>#climate-icon</styleUrl></Placemark>
                 <Placemark id="383">
                     <name>Singapore — Desalination</name>
                     <description>Singapore desalination and NEWater — advanced water recycling and desalination for water-independent city-state. See: 2050-snapshot/domains/climate.md#to-technology</description>
-                    <gx:CascadingStyle><Style><IconStyle><color>ff55b0b0</color><scale>0.8</scale></IconStyle></Style></gx:CascadingStyle><Point id="382">
+                    <Point id="382">
                         <coordinates>103.8,1.3,0</coordinates>
                         <altitudeMode>clampToGround</altitudeMode>
                     </Point>
-                </Placemark>
+                <styleUrl>#climate-icon</styleUrl></Placemark>
                 <Placemark id="388">
                     <name>Netherlands — Coastal Defenses</name>
                     <description>Dutch Delta Works and North Sea protection — the world's most advanced sea defense system, continuously upgraded for 0.35m+ SLR. See: 2050-snapshot/domains/climate.md#to-technology</description>
-                    <gx:CascadingStyle><Style><IconStyle><color>ff55b0b0</color><scale>0.8</scale></IconStyle></Style></gx:CascadingStyle><Point id="387">
+                    <Point id="387">
                         <coordinates>4.3,52.0,0</coordinates>
                         <altitudeMode>clampToGround</altitudeMode>
                     </Point>
-                </Placemark>
+                <styleUrl>#climate-icon</styleUrl></Placemark>
                 <Placemark id="393">
                     <name>London — Thames Barrier</name>
                     <description>Thames Barrier — London's primary flood defense. Regularly closed due to storm surge + sea level rise combination. See: 2050-snapshot/domains/climate.md#to-technology</description>
-                    <gx:CascadingStyle><Style><IconStyle><color>ff55b0b0</color><scale>0.8</scale></IconStyle></Style></gx:CascadingStyle><Point id="392">
+                    <Point id="392">
                         <coordinates>0.0,51.5,0</coordinates>
                         <altitudeMode>clampToGround</altitudeMode>
                     </Point>
-                </Placemark>
+                <styleUrl>#climate-icon</styleUrl></Placemark>
                 <Placemark id="398">
                     <name>Shanghai — Coastal Defenses</name>
                     <description>Shanghai flood defense system — extensive sea walls and barriers protecting China's economic center from storm surge and SLR. See: 2050-snapshot/domains/climate.md#to-technology</description>
-                    <gx:CascadingStyle><Style><IconStyle><color>ff55b0b0</color><scale>0.8</scale></IconStyle></Style></gx:CascadingStyle><Point id="397">
+                    <Point id="397">
                         <coordinates>121.5,31.2,0</coordinates>
                         <altitudeMode>clampToGround</altitudeMode>
                     </Point>
-                </Placemark>
+                <styleUrl>#climate-icon</styleUrl></Placemark>
                 <Placemark id="403">
                     <name>New York Harbor — Coastal Defenses</name>
                     <description>New York Harbor storm surge barrier — post-Sandy investment in harbor-scale flood protection infrastructure. See: 2050-snapshot/domains/climate.md#to-technology</description>
-                    <gx:CascadingStyle><Style><IconStyle><color>ff55b0b0</color><scale>0.8</scale></IconStyle></Style></gx:CascadingStyle><Point id="402">
+                    <Point id="402">
                         <coordinates>-74.0,40.7,0</coordinates>
                         <altitudeMode>clampToGround</altitudeMode>
                     </Point>
-                </Placemark>
+                <styleUrl>#climate-icon</styleUrl></Placemark>
             </Folder>
         </Folder></Document>
 </kml>

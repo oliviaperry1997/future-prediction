@@ -1527,12 +1527,13 @@ SLR_MD_ANCHOR = "2050-snapshot/domains/climate.md#sea-level"
 
 def hex_to_kml_color(hex_color, alpha="80"):
     """
-    Convert #RRGGBB to AARRGGBB KML color format.
-    Matches the project convention used in climate.kml and entity-config.json.
+    Convert #RRGGBB to AABBGGRR KML color format.
+    KML uses AABBGGRR byte order (blue-red swapped vs HTML).
     Alpha 80 = ~50% opacity (semi-transparent overlay).
     """
     hex_color = hex_color.lstrip("#")
-    return f"{alpha}{hex_color}"
+    rr, gg, bb = hex_color[0:2], hex_color[2:4], hex_color[4:6]
+    return f"{alpha}{bb}{gg}{rr}"
 
 
 def make_description(subtype_code):
