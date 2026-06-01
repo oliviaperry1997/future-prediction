@@ -62,17 +62,18 @@ def coord_string(geom):
     return []
 
 
-def coord_string_line(geom):
-    """Build KML coordinate string from a LineString/MultiLineString."""
-    coords = []
+def coord_parts(geom):
+    """Return list of coordinate strings, one per LineString part."""
     if geom["type"] == "LineString":
-        coords = geom["coordinates"]
+        coords = " ".join(f"{x},{y},0" for x, y in geom["coordinates"])
+        return [coords] if len(geom["coordinates"]) >= 3 else []
     elif geom["type"] == "MultiLineString":
+        parts = []
         for part in geom["coordinates"]:
-            coords.extend(part)
-    if coords:
-        return " ".join(f"{x},{y},0" for x, y in coords)
-    return ""
+            if len(part) >= 3:
+                parts.append(" ".join(f"{x},{y},0" for x, y in part))
+        return parts
+    return []
 
 
 # ── River KMZ ─────────────────────────────────────────────────────────────────
@@ -138,20 +139,26 @@ def generate_rivers_kmz():
     # Add placemarks
     written = 0
     for name, sr, _, geom in rivers:
-        w = RIVER_WIDTH.get(sr, 1)
-        coords = coord_string_line(geom)
-        if not coords or len(coords) < 20:
+        parts = coord_parts(geom)
+        if not parts:
             continue
 
         pm = ET.SubElement(document, "Placemark")
         ET.SubElement(pm, "name").text = name
         ET.SubElement(pm, "styleUrl").text = f"#{style_ids.get(sr, 'river_w1')}"
 
-        if geom["type"] in ("LineString", "MultiLineString"):
+        if len(parts) == 1:
             ls_elem = ET.SubElement(pm, "LineString")
             ET.SubElement(ls_elem, "tessellate").text = "1"
             ET.SubElement(ls_elem, "altitudeMode").text = "clampToGround"
-            ET.SubElement(ls_elem, "coordinates").text = coords
+            ET.SubElement(ls_elem, "coordinates").text = parts[0]
+        else:
+            mg = ET.SubElement(pm, "MultiGeometry")
+            for part_coords in parts:
+                ls_elem = ET.SubElement(mg, "LineString")
+                ET.SubElement(ls_elem, "tessellate").text = "1"
+                ET.SubElement(ls_elem, "altitudeMode").text = "clampToGround"
+                ET.SubElement(ls_elem, "coordinates").text = part_coords
         written += 1
 
     print(f"  {written} river features")
