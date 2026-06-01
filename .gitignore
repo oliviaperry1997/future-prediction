@@ -18,7 +18,8 @@ entity-config-debug.json
 2050-snapshot/kml/source/global-countries-10m.kml
 2050-snapshot/kml/source/rf_model.joblib
 2050-snapshot/kml/source/rf_votes.npy
-2050-snapshot/kml/source/ne_lakes_mask.npy
+2050-snapshot/kml/source/ne_lakes_mask*.npy
+2050-snapshot/kml/source/ne_10m_lakes.zip
 2050-snapshot/kml/source/resolve_ecoregions_2017.zip
 2050-snapshot/kml/source/CHELSA_*.tif
 2050-snapshot/kml/borders.kml.bak.*

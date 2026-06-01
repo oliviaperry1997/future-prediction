@@ -4,31 +4,23 @@ Generate XYZ Web Mercator tiles for Köppen-Geiger 2050 climate zones (combined)
 
 Output: tiles/{z}/{x}/{y}.png  (zoom levels 0–6)
 
-Feed the tile URL to Google Earth Web's Tile Overlay:
-  https://oliviaperry1997.github.io/future-prediction/2050-snapshot/kml/tiles/{z}/{x}/{y}.png
+Lake pixels masked using Natural Earth 10m lakes, rasterized at the source
+TIF's native resolution so lake boundaries match the data pixel size.
 """
 
 import os
+import subprocess
+import tempfile
+import shutil
+import zipfile
 import numpy as np
 import rasterio
 import rasterio.warp
+import rasterio.features
 from rasterio.crs import CRS
 from rasterio.enums import Resampling
+import fiona
 from PIL import Image
-
-# ── Lake mask (reuse cached from biome pipeline) ──────────────────────────────
-NE_LAKES_MASK = "source/ne_lakes_mask.npy"
-
-
-def load_lake_mask(h, w):
-    if not os.path.exists(NE_LAKES_MASK):
-        print(f"Lake mask not found at {NE_LAKES_MASK}, skipping.")
-        return None
-    mask = np.load(NE_LAKES_MASK)
-    if mask.shape != (h, w):
-        print(f"Lake mask shape mismatch ({mask.shape} vs ({h},{w})), skipping.")
-        return None
-    return mask
 
 TIFF_PATH = "source/koppen_2041-2070_ssp370.tif"
 TILES_DIR = "tiles"
@@ -63,6 +55,51 @@ RASTER_LEGEND = {
 
 WEB_MERCATOR = CRS.from_epsg(3857)
 
+NE_LAKES_URL = "https://naciscdn.org/naturalearth/10m/physical/ne_10m_lakes.zip"
+NE_LAKES_ZIP = "source/ne_10m_lakes.zip"
+
+
+def get_lake_mask_4326(h, w):
+    cache_path = f"source/ne_lakes_mask_{h}x{w}.npy"
+    if os.path.exists(cache_path):
+        print(f"  Loading cached lake mask ({h}×{w})…")
+        return np.load(cache_path)
+
+    if not os.path.exists(NE_LAKES_ZIP):
+        print(f"  Downloading Natural Earth 10m lakes…", flush=True)
+        subprocess.run(["curl", "-L", NE_LAKES_URL, "-o", NE_LAKES_ZIP], check=True)
+
+    print(f"  Rasterizing lake polygons at {h}×{w} EPSG:4326…")
+    t = rasterio.transform.from_bounds(-180, -90, 180, 90, w, h)
+
+    geoms = []
+    with zipfile.ZipFile(NE_LAKES_ZIP) as zf:
+        tmpdir = tempfile.mkdtemp()
+        try:
+            zf.extractall(tmpdir)
+            shp_path = next(
+                os.path.join(root, f)
+                for root, _, files in os.walk(tmpdir)
+                for f in files if f.endswith(".shp")
+            )
+            with fiona.open(shp_path) as lyr:
+                for feat in lyr:
+                    g = feat["geometry"]
+                    if g is not None:
+                        geoms.append(g)
+        finally:
+            shutil.rmtree(tmpdir)
+
+    print(f"  {len(geoms)} lake polygons")
+    mask = rasterio.features.rasterize(
+        geoms, out_shape=(h, w),
+        transform=t, fill=0, default_value=1, dtype="uint8"
+    ).astype(bool)
+
+    np.save(cache_path, mask)
+    print(f"  Mask saved to {cache_path}")
+    return mask
+
 
 def hex_to_rgba(h, alpha=ALPHA):
     h = h.lstrip("#")
@@ -88,21 +125,29 @@ def main():
         -ORIGIN, -ORIGIN, ORIGIN, ORIGIN, TARGET_W, TARGET_H
     )
 
-    print("Reprojecting Köppen GeoTIFF to Web Mercator…")
+    # ── Read source band at native resolution ────────────────────────────────
     with rasterio.open(TIFF_PATH) as src:
-        band = np.zeros((TARGET_H, TARGET_W), dtype=np.uint8)
-        rasterio.warp.reproject(
-            source=rasterio.band(src, 1), destination=band,
-            src_crs=src.crs, dst_crs=WEB_MERCATOR,
-            dst_transform=dst_transform, resampling=Resampling.nearest,
-        )
+        src_h, src_w = src.height, src.width
+        print(f"Reading source ({src_h}×{src_w})…")
+        src_band = src.read(1).astype(np.uint8)
+        src_crs = src.crs
+        src_transform = src.transform
 
-    # ── Mask out lake pixels ────────────────────────────────────────────────────
-    lake_mask = load_lake_mask(TARGET_H, TARGET_W)
-    if lake_mask is not None:
-        n_lake = int(((band > 0) & lake_mask).sum())
-        band[lake_mask] = 0
-        print(f"Zeroed {n_lake:,} lake pixels")
+    # ── Lake mask at source resolution ───────────────────────────────────────
+    lake_mask = get_lake_mask_4326(src_h, src_w)
+    n_lake = int(((src_band > 0) & lake_mask).sum())
+    src_band[lake_mask] = 0
+    print(f"Zeroed {n_lake:,} lake pixels")
+
+    # ── Reproject to Web Mercator ────────────────────────────────────────────
+    print(f"Reprojecting to {TARGET_H}×{TARGET_W} Web Mercator…")
+    band = np.zeros((TARGET_H, TARGET_W), dtype=np.uint8)
+    rasterio.warp.reproject(
+        source=src_band, destination=band,
+        src_crs=src_crs, dst_crs=WEB_MERCATOR,
+        src_transform=src_transform,
+        dst_transform=dst_transform, resampling=Resampling.nearest,
+    )
 
     print("Applying colour LUT…")
     rgba = build_lut()[band]
