@@ -491,7 +491,7 @@ Plans:
 | 19. Antarctica Review | 4/4 | Complete | 2026-05-30 |
 | 19.1. Antarctica Gap Closure | 4/4 | Complete | 2026-05-30 |
 | 20. Africa & America Re-review | 5/7 | In Progress|  |
-| 21. Climate KML Work | 5/5 | Planned|  |
+| 21. Climate KML Work | 5/5 | Complete    | 2026-06-01 |
 
 ### Phase 20: Africa and America Re-review
 
@@ -532,14 +532,14 @@ Plans:
   7. 2050-index.md lists all 4 new climate layers with descriptions
   8. No borders.kml cross-references added (per D-14 scope limitation)
   9. 21-VERIFICATION.md documents all check results
-**Plans:** 5 plans
+**Plans:** 5/5 plans complete
 
 Plans:
-- [ ] 21-01-PLAN.md — Research & Data Pipeline (Wave 1)
-- [ ] 21-02-PLAN.md — Köppen Classification Layer (Wave 2, blocked on 01)
-- [ ] 21-03-PLAN.md — Biomes + SLR Inundation Layers (Wave 2, parallel with 02)
-- [ ] 21-04-PLAN.md — Thematic Placemark Refinement (Wave 3, blocked on 02+03)
-- [ ] 21-05-PLAN.md — Cross-Reference Integration & Verification (Wave 4, blocked on 04)
+- [x] 21-01-PLAN.md — Research & Data Pipeline (Wave 1)
+- [x] 21-02-PLAN.md — Köppen Classification Layer (Wave 2, blocked on 01)
+- [x] 21-03-PLAN.md — Biomes + SLR Inundation Layers (Wave 2, parallel with 02)
+- [x] 21-04-PLAN.md — Thematic Placemark Refinement (Wave 3, blocked on 02+03)
+- [x] 21-05-PLAN.md — Cross-Reference Integration & Verification (Wave 4, blocked on 04)
 
 **Cross-cutting constraints:**
 - Plans 02 and 03 are parallel (Wave 2) — different generation functions, no file conflicts
