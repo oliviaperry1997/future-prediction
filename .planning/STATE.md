@@ -2,16 +2,16 @@
 gsd_state_version: 1.0
 milestone: v1.1
 milestone_name: 2050 Regional Review — Eurasia, Oceania, Antarctica
-status: verifying
-stopped_at: Phase 21 context gathered
-last_updated: "2026-05-31T22:12:22.516Z"
-last_activity: 2026-05-31
+status: planning
+stopped_at: Phase 21 plans created
+last_updated: "2026-06-01T12:00:00.000Z"
+last_activity: 2026-06-01
 progress:
   total_phases: 22
-  completed_phases: 14
-  total_plans: 62
-  completed_plans: 69
-  percent: 100
+  completed_phases: 19
+  total_plans: 67
+  completed_plans: 64
+  percent: 96
 ---
 
 # Project State
@@ -21,14 +21,14 @@ progress:
 See: .planning/PROJECT.md (updated 2026-05-19)
 
 **Core value:** A coherent, grounded, internally consistent vision of how the world transforms between now and 2100, detailed enough to draw accurate maps at each quarter-century checkpoint.
-**Current focus:** Phase 20 — africa-and-america-re-review
+**Current focus:** Phase 21 — climate-kml-work
 
 ## Current Position
 
-Phase: 20 (africa-and-america-re-review) — COMPLETE
-Plan: 7 complete (7 of 7)
-Status: Phase complete — ready for verification
-Last activity: 2026-05-31
+Phase: 21 (climate-kml-work) — PLANNED
+Plan: 5 planned (0 of 5)
+Status: Plans created — ready for execution
+Last activity: 2026-06-01
 
 ## Performance Metrics
 
@@ -129,6 +129,14 @@ Last activity: 2026-05-31
 - [Phase 20 Plan 05]: Eritrea labeled "Stage 1-2 Reactionary Stasis" per transition doc
 - [Phase 20 Plan 05]: APR members (Egypt, Libya, Tunisia, Algeria, Sudan) use → See KML: Arab Popular Republic; Morocco standalone
 
+### Phase 21 Decisions
+
+- [Phase 21]: All 4 climate layers (Köppen, Biomes, SLR, Thematic Placemarks) organized as separate folders in climate.kml, merged via lxml tree manipulation
+- [Phase 21]: GloH2O V3 (2041-2070 SSP3-7.0, 1km) selected as primary Köppen data source per D-02
+- [Phase 21]: Standard Köppen color scheme from Beck et al. (2023) for immediate legibility
+- [Phase 21]: Data-first approach with graceful fallback to narrative-derived approximations when source data unavailable
+- [Phase 21]: 5-wave plan structure: Research (W1) → Köppen (W2) + Biomes/SLR (W2 parallel) → Placemark Refinement (W3) → Cross-refs+Verification (W4)
+
 ### Pending Todos
 
 - Load regenerated borders.kml in Google Earth Pro to visually verify all fragment boundaries
@@ -151,6 +159,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-05-31T22:12:22.506Z
-Stopped at: Phase 21 context gathered
-Resume file: .planning/phases/21-climate-kml-work/21-CONTEXT.md
+Last session: 2026-06-01T12:00:00.000Z
+Stopped at: Phase 21 plans created
+Resume file: .planning/phases/21-climate-kml-work/21-01-PLAN.md

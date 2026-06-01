@@ -491,6 +491,7 @@ Plans:
 | 19. Antarctica Review | 4/4 | Complete | 2026-05-30 |
 | 19.1. Antarctica Gap Closure | 4/4 | Complete | 2026-05-30 |
 | 20. Africa & America Re-review | 5/7 | In Progress|  |
+| 21. Climate KML Work | 5/5 | Planned|  |
 
 ### Phase 20: Africa and America Re-review
 
@@ -514,3 +515,38 @@ Plans:
 - [x] 20-05-PLAN.md — Africa Economy & Demographics Profiles (Wave 5)
 - [x] 20-06-PLAN.md — Americas Economy & Demographics Profiles (Wave 6)
 - [ ] 20-07-PLAN.md — Culture, Climate & Technology Profiles (Wave 5)**
+
+### Phase 21: climate kml work
+
+**Mode**: mvp
+**Goal**: Climate.kml has 4 data-driven overlay layers (Köppen, Biomes, SLR, Thematic Placemarks) replacing the existing 11 rough-bounding-box placemarks with accurate multi-polygon geometries. All 4 layers have bidirectional cross-references between KML and climate.md. The 2050-index.md lists all new layers.
+**Depends on:** Phase 20
+**Requirements**: CLMKML-01, CLMKML-02, CLMKML-03, CLMKML-04, CLMKML-05
+**Success Criteria** (what must be TRUE):
+  1. Climate.kml contains 4 folders: Köppen (30 sub-types), Biomes (6 types), SLR (6 zones), Climate (11 thematic placemarks)
+  2. All 11 thematic placemarks use multi-polygon geometries with accurate data-derived shapes (no rough bounding boxes)
+  3. Water conflict basins have 9+ HydroSHEDS-derived watershed polygons
+  4. Fire regime shift has 5+ regional polygons (W US, Siberia, Australia, Mediterranean, Amazon)
+  5. Every placemark in climate.kml has a `See:` cross-reference to the corresponding climate.md section
+  6. Every climate.md section with a KML layer has a back-link to climate.kml
+  7. 2050-index.md lists all 4 new climate layers with descriptions
+  8. No borders.kml cross-references added (per D-14 scope limitation)
+  9. 21-VERIFICATION.md documents all check results
+**Plans:** 5 plans
+
+Plans:
+- [ ] 21-01-PLAN.md — Research & Data Pipeline (Wave 1)
+- [ ] 21-02-PLAN.md — Köppen Classification Layer (Wave 2, blocked on 01)
+- [ ] 21-03-PLAN.md — Biomes + SLR Inundation Layers (Wave 2, parallel with 02)
+- [ ] 21-04-PLAN.md — Thematic Placemark Refinement (Wave 3, blocked on 02+03)
+- [ ] 21-05-PLAN.md — Cross-Reference Integration & Verification (Wave 4, blocked on 04)
+
+**Cross-cutting constraints:**
+- Plans 02 and 03 are parallel (Wave 2) — different generation functions, no file conflicts
+- Plan 04 must wait for both 02 and 03 (refined placemarks merge into climate.kml with Köppen/Biomes/SLR already present)
+- Plan 05 is final — cross-references and verification after all content is stable
+- Per D-04: New layers AND placemark refinement, not deferred
+- Per D-12/D-15: All content in climate.kml, no new KML files
+- Per D-13: Bidirectional cross-references (KML→md and md→KML)
+- Per D-14: No borders.kml cross-references
+- Per D-19 precedent: Programmatic generation + user refinement

@@ -108,6 +108,14 @@ Region-by-region plausibility audit for the 2050 snapshot.
 
 - [x] **ANTA-01**: Antarctica — review complete
 
+### Climate KML Work
+
+- [ ] **CLMKML-01**: Data pipeline + Köppen classification layer — research and identify data sources for all 4 climate layers (Köppen, Biomes, SLR, thematic placemarks); implement download-data.py; implement Köppen polygon generation from GloH2O V3 with 30 sub-types and standard color scheme
+- [ ] **CLMKML-02**: Biomes + SLR layers — implement WWF Terrestrial Ecoregion → biome polygon generation (6 types); implement DEM-based sea level rise inundation zones (0.35m, 6 regions); merge both into climate.kml
+- [ ] **CLMKML-03**: Thematic placemark refinement — replace all 11 existing climate placemarks' rough bounding boxes with accurate multi-polygon geometries (HydroSHEDS watersheds for water basins, GADM for Sahel, Köppen-permafrost overlap for Arctic, glacier inventory for glaciers, regional polygons for fire/heat)
+- [ ] **CLMKML-04**: Cross-reference integration — add bidirectional KML↔climate.md back-links for all 14 KML layers; update 2050-index.md with 4 new climate KML entries; no borders.kml cross-references per D-14
+- [ ] **CLMKML-05**: Verification — run complete suite of automated checks (KML structure, cross-references, no global bounding boxes); produce 21-VERIFICATION.md with PASS/FAIL results
+
 ## Out of Scope
 
 | Feature | Reason |
@@ -172,10 +180,15 @@ Region-by-region plausibility audit for the 2050 snapshot.
 
 | AFAM-01 | Phase 20 | Complete |
 | AFAM-02 | Phase 20 | Complete |
+| CLMKML-01 | Phase 21 | Pending |
+| CLMKML-02 | Phase 21 | Pending |
+| CLMKML-03 | Phase 21 | Pending |
+| CLMKML-04 | Phase 21 | Pending |
+| CLMKML-05 | Phase 21 | Pending |
 
 **Coverage:**
-- v1.1 requirements: 16 total
-- Mapped to phases: 16
+- v1.1 requirements: 21 total
+- Mapped to phases: 21
 - Unmapped: 0 ✓
 
 ---
