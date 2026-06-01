@@ -1,5 +1,4 @@
 # Generated/binary files
-*.kmz
 .DS_Store
 __pycache__/
 entity-config-debug.json
