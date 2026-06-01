@@ -6,8 +6,8 @@ Generate XYZ Web Mercator tiles for biome layers (combined, one tileset each).
     source: source/resolve_biomes_2017.tif
     output: tiles/biomes-current/{z}/{x}/{y}.png
 
-  Whittaker 2050 projected biomes (9 classes, CHELSA SSP3-7.0 2041-2070):
-    source: source/whittaker_biomes_2050.tif
+  Projected 2050 biomes via Köppen→RESOLVE crosswalk (10 of 14 RESOLVE classes):
+    source: source/resolve_projected_2050.tif
     output: tiles/biomes-2050/{z}/{x}/{y}.png
 
 Zoom 0-6, nearest-neighbour, transparent ocean/nodata tiles skipped.
@@ -71,7 +71,9 @@ def build_lut(biome_dict, alpha):
     return lut
 
 
-def generate_tiles(tiff_path, out_dir, label):
+def generate_tiles(tiff_path, out_dir, label, biome_dict=None):
+    if biome_dict is None:
+        biome_dict = RESOLVE_BIOMES
     TARGET_W = TARGET_H = 16384
     ORIGIN = 20037508.342789244
     dst_transform = rasterio.transform.from_bounds(
@@ -88,11 +90,8 @@ def generate_tiles(tiff_path, out_dir, label):
             dst_transform=dst_transform, resampling=Resampling.nearest,
         )
 
-    # lut determined by which dataset we're processing
-    if "resolve" in tiff_path:
-        lut = build_lut(RESOLVE_BIOMES, ALPHA)
-    else:
-        lut = build_lut(WHITTAKER_BIOMES, ALPHA)
+    # lut determined by passed biome_dict
+    lut = build_lut(biome_dict, ALPHA)
 
     rgba = lut[band]
     written = total = 0
@@ -129,9 +128,9 @@ def main():
         "RESOLVE 2017 Current Biomes",
     )
     generate_tiles(
-        "source/whittaker_biomes_2050.tif",
+        "source/resolve_projected_2050.tif",
         os.path.join(TILES_DIR, "biomes-2050"),
-        "Whittaker 2050 Projected Biomes (CHELSA SSP3-7.0)",
+        "Projected 2050 Biomes (Köppen→RESOLVE crosswalk)",
     )
 
     BASE = "https://oliviaperry1997.github.io/future-prediction/2050-snapshot/kml/tiles"
