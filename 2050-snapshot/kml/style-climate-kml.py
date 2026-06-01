@@ -38,14 +38,15 @@ def make_icon_style(elem_id, color="ff55b0b0"):
 
 # Standard Köppen colors (from Beck et al. 2023)
 KOPPEN_COLORS = {
-    "Af": "#0000FF", "Am": "#0078FF", "Aw": "#46AAFA",
-    "BWh": "#FE0000", "BWk": "#FE9695", "BSh": "#F5A505", "BSk": "#FFDC7C",
-    "Csa": "#FFCC00", "Csb": "#C9C800", "Cwa": "#C6C76A", "Cwb": "#6C9A5E",
-    "Cwc": "#7EAA7D", "Cfa": "#96FF96", "Cfb": "#6DB46D", "Cfc": "#40A040",
-    "Dsa": "#5EBDC9", "Dsb": "#4DA6B8", "Dsc": "#2F8FA5",
-    "Dwa": "#5DF0F0", "Dwb": "#41C8C8", "Dwc": "#2CAAAA",
-    "Dfa": "#00FFFF", "Dfb": "#46D2D2", "Dfc": "#64C8E4", "Dfd": "#5EE0F0",
-    "ET": "#964696", "EF": "#FFFFFF",
+    "Af": "#0000F5",   "Am": "#3475F6",   "Aw": "#61A7F7",
+    "BWh": "#E83423",  "BWk": "#F19C98",  "BSh": "#E8A63A",  "BSk": "#F9DD77",
+    "Csa": "#FFFF55",  "Csb": "#C5C740",  "Csc": "#96952E",
+    "Cwa": "#B0FCA0",  "Cwb": "#7CC471",  "Cwc": "#509541",
+    "Cfa": "#D1FD6E",  "Cfb": "#92F95B",  "Cfc": "#64C43A",
+    "Dsa": "#E934F6",  "Dsb": "#B526BF",  "Dsc": "#88388E",  "Dsd": "#8E668F",
+    "Dwa": "#ACB1F9",  "Dwb": "#6075D3",  "Dwc": "#4F52AF",  "Dwd": "#2C0381",
+    "Dfa": "#75FBFC",  "Dfb": "#66C4F8",  "Dfc": "#367C7C",  "Dfd": "#1A445C",
+    "ET": "#B2B2B2",   "EF": "#686868",
 }
 
 # Biome colors
