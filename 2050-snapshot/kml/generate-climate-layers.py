@@ -190,7 +190,7 @@ def create_fallback_polygons(code):
     return [ring]
 
 
-def generate_fallback_koppen_kml(kml, script_dir):
+def generate_fallback_koppen_kml(script_dir):
     """
     Generate approximate Köppen zones using latitudinal-band fallback.
     Called when the GeoTIFF source data is unavailable.
@@ -200,7 +200,6 @@ def generate_fallback_koppen_kml(kml, script_dir):
     log.info("      Replace with real GeoTIFF data when source becomes available")
 
     from shapely.geometry import Polygon
-    from shapely.wkt import dumps as wkt_dumps
 
     subtype_polygons = defaultdict(list)
     total_vertices = 0
@@ -228,7 +227,7 @@ def generate_fallback_koppen_kml(kml, script_dir):
 
 # --- GeoTIFF-based generation ---
 
-def generate_from_geotiff(kml, geotiff_path, script_dir):
+def generate_from_geotiff(geotiff_path, script_dir):
     """
     Generate Köppen zones from GloH2O V3 2041-2070 SSP3-7.0 GeoTIFF.
     Polygonizes contiguous zones of the same class, simplifies geometry,
@@ -476,17 +475,15 @@ def generate_koppen_kml(output_path="climate_koppen.kml"):
             f"  or run download-data.py from Plan 01.\n"
             f"  Falling back to approximate latitudinal-band approximation."
         )
-        kml = simplekml_factory()
-        subtype_polygons = generate_fallback_koppen_kml(kml, script_dir)
+        subtype_polygons = generate_fallback_koppen_kml(script_dir)
         if not subtype_polygons:
             log.error("Fallback generation produced no polygons — aborting")
             return None
-        kml_result = build_koppen_kml(subtype_polygons, output_path)
+        build_koppen_kml(subtype_polygons, output_path)
         return output_path if os.path.isfile(output_path) else None
 
     try:
-        kml = simplekml_factory()
-        subtype_polygons = generate_from_geotiff(kml, geotiff_path, script_dir)
+        subtype_polygons = generate_from_geotiff(geotiff_path, script_dir)
         if not subtype_polygons:
             log.error("GeoTIFF polygonization produced no polygons — aborting")
             return None
@@ -495,19 +492,12 @@ def generate_koppen_kml(output_path="climate_koppen.kml"):
     except Exception as e:
         log.error(f"GeoTIFF processing failed: {e}")
         log.info("Falling back to approximate latitudinal-band polygons...")
-        kml = simplekml_factory()
-        subtype_polygons = generate_fallback_koppen_kml(kml, script_dir)
+        subtype_polygons = generate_fallback_koppen_kml(script_dir)
         if not subtype_polygons:
             log.error("Fallback generation also failed")
             return None
         build_koppen_kml(subtype_polygons, output_path)
         return output_path if os.path.isfile(output_path) else None
-
-
-def simplekml_factory():
-    """Create a simplekml Kml namespace object for internal use."""
-    import simplekml
-    return simplekml.Kml(name="Köppen-Geiger Climate Classification (2050)")
 
 
 def main():
