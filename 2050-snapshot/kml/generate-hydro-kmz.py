@@ -13,7 +13,7 @@ Output:
 import os, subprocess, tempfile, shutil, zipfile, glob, colorsys, xml.etree.ElementTree as ET
 import fiona
 import fiona.transform
-from shapely.geometry import shape, mapping
+from shapely.geometry import shape, mapping, Polygon, MultiPolygon
 from shapely.strtree import STRtree
 
 # ── River config ──────────────────────────────────────────────────────────────
@@ -181,9 +181,36 @@ def generate_basins_kmz(river_features):
     if not zips:
         print("No HydroBASINS zip files found — skipping."); return
 
-    # ── Collect features, simplify geometry ──────────────────────────────────
-    SIMPLIFY_TOLERANCE = 0.07  # degrees (~7.5 km at equator)
-    basin_data = []  # (hybas_id, main_bas, geometry)
+    def clean_geom(geom):
+        """Fix self-intersections and drop interior rings."""
+        g = geom.buffer(0) if not geom.is_valid else geom
+        g = g.simplify(SIMPLIFY_TOLERANCE, preserve_topology=True)
+        if not g.is_valid:
+            g = g.buffer(0)
+        if g.is_empty:
+            return None
+        if g.geom_type == "Polygon":
+            return Polygon(g.exterior)
+        elif g.geom_type == "MultiPolygon":
+            parts = [Polygon(p.exterior) for p in g.geoms]
+            parts = [p for p in parts if not p.is_empty and p.area > 0]
+            if not parts:
+                return None
+            return MultiPolygon(parts) if len(parts) > 1 else parts[0]
+        return g
+
+    def drop_geom_interiors(geom):
+        if geom.geom_type == "Polygon":
+            return Polygon(geom.exterior)
+        elif geom.geom_type == "MultiPolygon":
+            parts = [Polygon(p.exterior) for p in geom.geoms]
+            return MultiPolygon(parts) if len(parts) > 1 else parts[0]
+        return geom
+
+    SIMPLIFY_TOLERANCE = 0.07
+    basin_data = []
+    invalid_orig = 0
+    had_holes = 0
     for zp in zips:
         cont = os.path.basename(zp).split("_")[1]
         print(f"  Reading {cont} basins…")
@@ -204,13 +231,20 @@ def generate_basins_kmz(river_features):
                         hid = feat["properties"]["HYBAS_ID"]
                         mb = feat["properties"]["MAIN_BAS"]
                         geom = shape(g)
-                        geom_simple = geom.simplify(SIMPLIFY_TOLERANCE,
-                                                     preserve_topology=True)
-                        basin_data.append((hid, mb, geom_simple))
+                        if not geom.is_valid:
+                            invalid_orig += 1
+                        if (geom.geom_type == "Polygon" and geom.interiors) or \
+                           (geom.geom_type == "MultiPolygon" and any(p.interiors for p in geom.geoms)):
+                            had_holes += 1
+                        geom = clean_geom(geom)
+                        if geom is None:
+                            continue
+                        geom = drop_geom_interiors(geom)
+                        basin_data.append((hid, mb, geom))
             finally:
                 shutil.rmtree(tmpdir)
 
-    print(f"  {len(basin_data)} sub-basins, {len(set(mb for _,mb,_ in basin_data))} MAIN_BAS groups")
+    print(f"  {len(basin_data)} sub-basins, {invalid_orig} invalid original, {had_holes} with holes, all cleaned")
 
     # ── Build river name lookup via spatial index ────────────────────────────
     river_geoms = [r[2] for r in river_features]
@@ -273,7 +307,7 @@ def generate_basins_kmz(river_features):
         ET.SubElement(ps, "fill").text = "1"
         ET.SubElement(ps, "outline").text = "1"
 
-    # Add placemarks (one per sub-basin)
+    # Add placemarks (one per sub-basin, no interior rings)
     written = 0
     total_vertices = 0
     for hid, mb, geom in basin_data:
@@ -297,25 +331,17 @@ def generate_basins_kmz(river_features):
             ob = ET.SubElement(poly, "outerBoundaryIs")
             lr = ET.SubElement(ob, "LinearRing")
             ET.SubElement(lr, "coordinates").text = coord_parts[0]
-            for inner_coords in coord_parts[1:]:
-                ib = ET.SubElement(poly, "innerBoundaryIs")
-                lr2 = ET.SubElement(ib, "LinearRing")
-                ET.SubElement(lr2, "coordinates").text = inner_coords
-            total_vertices += sum(len(c.split()) for c in coord_parts)
+            total_vertices += len(coord_parts[0].split())
         elif geom.geom_type == "MultiPolygon":
             for ring_list in mapping(geom)["coordinates"]:
                 poly = ET.SubElement(pm, "Polygon")
                 ET.SubElement(poly, "tessellate").text = "1"
                 ET.SubElement(poly, "altitudeMode").text = "clampToGround"
-                for i, ring in enumerate(ring_list):
-                    coords = " ".join(f"{x},{y},0" for x, y in ring)
-                    if i == 0:
-                        ob = ET.SubElement(poly, "outerBoundaryIs")
-                    else:
-                        ib = ET.SubElement(poly, "innerBoundaryIs")
-                    lr = ET.SubElement(ob if i == 0 else ib, "LinearRing")
-                    ET.SubElement(lr, "coordinates").text = coords
-                    total_vertices += len(ring)
+                ob = ET.SubElement(poly, "outerBoundaryIs")
+                coords = " ".join(f"{x},{y},0" for x, y in ring_list[0])
+                lr = ET.SubElement(ob, "LinearRing")
+                ET.SubElement(lr, "coordinates").text = coords
+                total_vertices += len(ring_list[0])
         written += 1
 
     print(f"  {written} sub-basin placemarks, {total_vertices} vertices ({'PASS' if total_vertices <= 250000 else 'FAIL'} — limit 250k)")
