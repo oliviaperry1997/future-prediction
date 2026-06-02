@@ -7,6 +7,8 @@ ensemble of all 5 CHELSA CMIP6 GCMs (majority vote per pixel).
 Post-processing rules applied after majority vote:
   1. Desert (13) + mean future bio12 > 250 mm  → reassign to 2nd-best voted class
   2. Any class + Köppen 2050 = ET (29) or EF (30)  → Tundra (11)
+  3. Boreal/Taiga (6) in non-boreal Köppen climates (Dfa/Dwa/Dsa/Bsk/…)
+     → reassign to 2nd-best voted class
 
 Caching:
   - Trained RF model saved to source/rf_model.joblib  (skip retrain if present)
@@ -240,6 +242,25 @@ def main():
     if n_polar > 0:
         print(f"\nPost-processing: overriding {n_polar:,} Köppen ET/EF pixels → Tundra (11)…")
         result[polar_land_mask] = 11
+        print(f"  Done.")
+
+    # ── Post-processing rule 3: Boreal in non-boreal climates → 2nd best ────
+    #    Köppen climates that cannot support Boreal/Taiga:
+    #    Hot: Dfa(25), Dwa(21), Dsa(17)
+    #    Temperate: Cfa(14), Cfb(15), Csc(10), Csa(8), Csb(9), Cwa(11), Cwb(12), Cwc(13)
+    #    Arid: BWh(4), BWk(5), BSh(6), BSk(7)
+    #    Cfc(16) is subpolar oceanic — marginal, include as flagged.
+    NON_BOREAL_KOPPEN = {4,5,6,7,8,9,10,11,12,13,14,15,17,21,25}
+    boreal_bad = (result == 6) & land_mask & np.isin(koppen, list(NON_BOREAL_KOPPEN))
+    n_boreal = int(boreal_bad.sum())
+    if n_boreal > 0:
+        print(f"\nPost-processing: fixing {n_boreal:,} Boreal(6) pixels in non-boreal Köppen climates…")
+        rows, cols = np.where(boreal_bad)
+        for r, c in zip(rows, cols):
+            v = votes[r, c].copy()
+            v[6] = 0
+            second_best = int(np.argmax(v))
+            result[r, c] = second_best if second_best > 0 else 8
         print(f"  Done.")
 
     # ── Coverage stats ────────────────────────────────────────────────────────
