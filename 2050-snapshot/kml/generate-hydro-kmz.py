@@ -13,8 +13,7 @@ Output:
 import os, subprocess, tempfile, shutil, zipfile, glob, colorsys, xml.etree.ElementTree as ET
 import fiona
 import fiona.transform
-from shapely.geometry import shape, mapping, Polygon, MultiPolygon
-from shapely.ops import unary_union
+from shapely.geometry import shape, mapping
 from shapely.strtree import STRtree
 
 # ── River config ──────────────────────────────────────────────────────────────
@@ -183,7 +182,7 @@ def generate_basins_kmz(river_features):
         print("No HydroBASINS zip files found — skipping."); return
 
     # ── Collect features, simplify geometry ──────────────────────────────────
-    SIMPLIFY_TOLERANCE = 0.04  # degrees (~4.5 km at equator)
+    SIMPLIFY_TOLERANCE = 0.07  # degrees (~7.5 km at equator)
     basin_data = []  # (hybas_id, main_bas, geometry)
     for zp in zips:
         cont = os.path.basename(zp).split("_")[1]
@@ -213,52 +212,24 @@ def generate_basins_kmz(river_features):
 
     print(f"  {len(basin_data)} sub-basins, {len(set(mb for _,mb,_ in basin_data))} MAIN_BAS groups")
 
-    # ── Group by MAIN_BAS, merge, drop interior rings ────────────────────────
-    def drop_interior(geom):
-        if geom.is_empty:
-            return geom
-        if geom.geom_type == 'Polygon':
-            return Polygon(geom.exterior)
-        elif geom.geom_type == 'MultiPolygon':
-            cleaned = [Polygon(p.exterior) for p in geom.geoms]
-            if len(cleaned) == 1:
-                return cleaned[0]
-            return MultiPolygon(cleaned)
-        return geom
-
-    groups = {}
-    for hid, mb, geom in basin_data:
-        groups.setdefault(mb, []).append(geom)
-
-    merged_basins = []
-    for mb, geoms in groups.items():
-        if len(geoms) == 1:
-            merged = geoms[0]
-        else:
-            merged = unary_union(geoms)
-        merged_basins.append((mb, drop_interior(merged)))
-    merged_basins.sort(key=lambda x: x[0])
-
-    print(f"  Merged into {len(merged_basins)} watersheds")
-
     # ── Build river name lookup via spatial index ────────────────────────────
     river_geoms = [r[2] for r in river_features]
     river_names = [r[0] for r in river_features]
     river_srs = [r[1] for r in river_features]
     name_tree = STRtree(river_geoms)
 
-    def watershed_name(mb, merged_geom):
-        candidates = name_tree.query(merged_geom)
+    def basin_name(hid, geom):
+        candidates = name_tree.query(geom)
         best_i = None
         best_sr = 999
         best_len = 0.0
         for i in candidates:
-            if not merged_geom.intersects(river_geoms[i]):
+            if not geom.intersects(river_geoms[i]):
                 continue
             n = river_names[i]
             if n.startswith("River ("):
                 continue
-            inter_len = merged_geom.intersection(river_geoms[i]).length
+            inter_len = geom.intersection(river_geoms[i]).length
             sr = river_srs[i]
             if sr < best_sr or (sr == best_sr and inter_len > best_len):
                 best_i = i
@@ -280,11 +251,15 @@ def generate_basins_kmz(river_features):
     doc = ET.Element("kml", {"xmlns": "http://www.opengis.net/kml/2.2"})
     document = ET.SubElement(doc, "Document")
     ET.SubElement(document, "name").text = "Drainage Basins (HydroBASINS L4)"
-    ET.SubElement(document, "description").text = "HydroBASINS L4 merged by MAIN_BAS, borderless"
+    ET.SubElement(document, "description").text = "HydroBASINS L4 sub-basins colored by MAIN_BAS"
 
     # One style per MAIN_BAS (invisible outline so GEW renders the fill)
     style_map = {}
-    for mb, _ in merged_basins:
+    mb_seen = set()
+    for hid, mb, _ in basin_data:
+        if mb in mb_seen:
+            continue
+        mb_seen.add(mb)
         rgb = group_color(mb)
         fill_hex = kml_color(rgb, BASIN_ALPHA)
         sid = f"b{mb}"
@@ -298,32 +273,37 @@ def generate_basins_kmz(river_features):
         ET.SubElement(ps, "fill").text = "1"
         ET.SubElement(ps, "outline").text = "1"
 
-    # Add placemarks (one per merged MAIN_BAS)
+    # Add placemarks (one per sub-basin)
     written = 0
-    for mb, merged_geom in merged_basins:
+    total_vertices = 0
+    for hid, mb, geom in basin_data:
         sid, fill_hex = style_map[mb]
-        geom_dict = mapping(merged_geom)
-        coord_parts = coord_string(geom_dict)
+        coord_parts = coord_string(mapping(geom))
         if not coord_parts:
             continue
 
-        label = watershed_name(mb, merged_geom)
+        label = basin_name(hid, geom)
         if not label:
-            label = f"Watershed {mb}"
+            label = f"Basin {hid}"
 
         pm = ET.SubElement(document, "Placemark")
         ET.SubElement(pm, "name").text = label
         ET.SubElement(pm, "styleUrl").text = f"#{sid}"
 
-        if geom_dict["type"] == "Polygon":
+        if geom.geom_type == "Polygon":
             poly = ET.SubElement(pm, "Polygon")
             ET.SubElement(poly, "tessellate").text = "1"
             ET.SubElement(poly, "altitudeMode").text = "clampToGround"
             ob = ET.SubElement(poly, "outerBoundaryIs")
             lr = ET.SubElement(ob, "LinearRing")
             ET.SubElement(lr, "coordinates").text = coord_parts[0]
-        elif geom_dict["type"] == "MultiPolygon":
-            for ring_list in geom_dict["coordinates"]:
+            for inner_coords in coord_parts[1:]:
+                ib = ET.SubElement(poly, "innerBoundaryIs")
+                lr2 = ET.SubElement(ib, "LinearRing")
+                ET.SubElement(lr2, "coordinates").text = inner_coords
+            total_vertices += sum(len(c.split()) for c in coord_parts)
+        elif geom.geom_type == "MultiPolygon":
+            for ring_list in mapping(geom)["coordinates"]:
                 poly = ET.SubElement(pm, "Polygon")
                 ET.SubElement(poly, "tessellate").text = "1"
                 ET.SubElement(poly, "altitudeMode").text = "clampToGround"
@@ -335,9 +315,10 @@ def generate_basins_kmz(river_features):
                         ib = ET.SubElement(poly, "innerBoundaryIs")
                     lr = ET.SubElement(ob if i == 0 else ib, "LinearRing")
                     ET.SubElement(lr, "coordinates").text = coords
+                    total_vertices += len(ring)
         written += 1
 
-    print(f"  {written} merged watershed placemarks")
+    print(f"  {written} sub-basin placemarks, {total_vertices} vertices ({'PASS' if total_vertices <= 250000 else 'FAIL'} — limit 250k)")
 
     # ── Write KMZ ─────────────────────────────────────────────────────────────
     kml_xml = ET.tostring(doc, encoding="utf-8", xml_declaration=True)
