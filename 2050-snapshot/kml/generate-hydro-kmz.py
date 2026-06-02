@@ -333,8 +333,9 @@ def generate_basins_kmz(river_features):
             ET.SubElement(lr, "coordinates").text = coord_parts[0]
             total_vertices += len(coord_parts[0].split())
         elif geom.geom_type == "MultiPolygon":
+            mg = ET.SubElement(pm, "MultiGeometry")
             for ring_list in mapping(geom)["coordinates"]:
-                poly = ET.SubElement(pm, "Polygon")
+                poly = ET.SubElement(mg, "Polygon")
                 ET.SubElement(poly, "tessellate").text = "1"
                 ET.SubElement(poly, "altitudeMode").text = "clampToGround"
                 ob = ET.SubElement(poly, "outerBoundaryIs")
