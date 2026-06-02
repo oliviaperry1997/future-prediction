@@ -15,6 +15,7 @@ import fiona
 import fiona.transform
 from shapely.geometry import shape, mapping, Polygon, MultiPolygon
 from shapely.strtree import STRtree
+from shapely.validation import make_valid
 
 # ── River config ──────────────────────────────────────────────────────────────
 NE_RIVERS_URL = "https://naciscdn.org/naturalearth/10m/physical/ne_10m_rivers_lake_centerlines.zip"
@@ -46,17 +47,20 @@ def make_element(tag, text=None, attrib=None):
     return e
 
 
+def fmt_coord(x, y):
+    return f"{max(-180.0, min(180.0, x))},{y},0"
+
 def coord_string(geom):
     """Build KML coordinate string from a geometry dict (EPSG:4326)."""
     parts = []
     if geom["type"] == "Polygon":
         for ring in geom["coordinates"]:
-            parts.append(" ".join(f"{x},{y},0" for x, y in ring))
+            parts.append(" ".join(fmt_coord(x, y) for x, y in ring))
         return parts
     elif geom["type"] == "MultiPolygon":
         for poly in geom["coordinates"]:
             for ring in poly:
-                parts.append(" ".join(f"{x},{y},0" for x, y in ring))
+                parts.append(" ".join(fmt_coord(x, y) for x, y in ring))
         return parts
     return []
 
@@ -64,13 +68,13 @@ def coord_string(geom):
 def coord_parts(geom):
     """Return list of coordinate strings, one per LineString part."""
     if geom["type"] == "LineString":
-        coords = " ".join(f"{x},{y},0" for x, y in geom["coordinates"])
+        coords = " ".join(fmt_coord(x, y) for x, y in geom["coordinates"])
         return [coords] if len(geom["coordinates"]) >= 3 else []
     elif geom["type"] == "MultiLineString":
         parts = []
         for part in geom["coordinates"]:
             if len(part) >= 3:
-                parts.append(" ".join(f"{x},{y},0" for x, y in part))
+                parts.append(" ".join(fmt_coord(x, y) for x, y in part))
         return parts
     return []
 
@@ -182,22 +186,34 @@ def generate_basins_kmz(river_features):
         print("No HydroBASINS zip files found — skipping."); return
 
     def clean_geom(geom):
-        """Fix self-intersections and drop interior rings."""
-        g = geom.buffer(0) if not geom.is_valid else geom
-        g = g.simplify(SIMPLIFY_TOLERANCE, preserve_topology=True)
-        if not g.is_valid:
-            g = g.buffer(0)
-        if g.is_empty:
+        """Fix invalid geometries, drop interior rings, discard tiny slivers."""
+        if not geom.is_valid:
+            geom = make_valid(geom)
+        geom = geom.simplify(SIMPLIFY_TOLERANCE, preserve_topology=True)
+        if not geom.is_valid:
+            geom = make_valid(geom)
+        if geom.is_empty:
             return None
-        if g.geom_type == "Polygon":
-            return Polygon(g.exterior)
-        elif g.geom_type == "MultiPolygon":
-            parts = [Polygon(p.exterior) for p in g.geoms]
-            parts = [p for p in parts if not p.is_empty and p.area > 0]
+        if geom.geom_type == "Polygon":
+            return None if geom.area < MIN_AREA else Polygon(geom.exterior)
+        elif geom.geom_type == "MultiPolygon":
+            parts = [Polygon(p.exterior) for p in geom.geoms if p.area >= MIN_AREA]
             if not parts:
                 return None
             return MultiPolygon(parts) if len(parts) > 1 else parts[0]
-        return g
+        elif geom.geom_type == "GeometryCollection":
+            parts = []
+            for p in geom.geoms:
+                if p.is_empty or p.area < MIN_AREA:
+                    continue
+                if p.geom_type == "Polygon":
+                    parts.append(Polygon(p.exterior))
+                elif p.geom_type == "MultiPolygon":
+                    parts.extend(Polygon(sp.exterior) for sp in p.geoms if sp.area >= MIN_AREA)
+            if not parts:
+                return None
+            return MultiPolygon(parts) if len(parts) > 1 else parts[0]
+        return geom
 
     def drop_geom_interiors(geom):
         if geom.geom_type == "Polygon":
@@ -208,6 +224,7 @@ def generate_basins_kmz(river_features):
         return geom
 
     SIMPLIFY_TOLERANCE = 0.07
+    MIN_AREA = 0.001  # deg² (~0.01 km² at equator); discard tiny slivers
     basin_data = []
     invalid_orig = 0
     had_holes = 0
@@ -339,7 +356,7 @@ def generate_basins_kmz(river_features):
                 ET.SubElement(poly, "tessellate").text = "1"
                 ET.SubElement(poly, "altitudeMode").text = "clampToGround"
                 ob = ET.SubElement(poly, "outerBoundaryIs")
-                coords = " ".join(f"{x},{y},0" for x, y in ring_list[0])
+                coords = " ".join(fmt_coord(x, y) for x, y in ring_list[0])
                 lr = ET.SubElement(ob, "LinearRing")
                 ET.SubElement(lr, "coordinates").text = coords
                 total_vertices += len(ring_list[0])
