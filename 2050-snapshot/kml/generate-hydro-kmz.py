@@ -14,6 +14,7 @@ import os, subprocess, tempfile, shutil, zipfile, glob, colorsys, xml.etree.Elem
 import fiona
 import fiona.transform
 from shapely.geometry import shape, mapping, Polygon, MultiPolygon
+from shapely.ops import unary_union
 from shapely.strtree import STRtree
 from shapely.validation import make_valid
 
@@ -186,15 +187,10 @@ def generate_basins_kmz(river_features):
         print("No HydroBASINS zip files found — skipping."); return
 
     SIMPLIFY_TOLERANCE = 0.03  # degrees (~3.3 km at equator)
-    MIN_AREA = 0.001            # deg²; discard tiny slivers
+    MIN_AREA = 0.001            # deg²
 
     def clean_geom(geom):
         """Fix invalid geometries, drop interior rings, discard tiny slivers."""
-        if not geom.is_valid:
-            geom = make_valid(geom)
-        if geom.is_empty or geom.area < MIN_AREA:
-            return None
-        geom = geom.simplify(SIMPLIFY_TOLERANCE, preserve_topology=True)
         if not geom.is_valid:
             geom = make_valid(geom)
         if geom.is_empty or geom.area < MIN_AREA:
@@ -203,23 +199,13 @@ def generate_basins_kmz(river_features):
             return None
         if geom.geom_type == "Polygon":
             return None if geom.area < MIN_AREA else Polygon(geom.exterior)
-        elif geom.geom_type == "MultiPolygon":
-            parts = [Polygon(p.exterior) for p in geom.geoms if p.area >= MIN_AREA]
-            if not parts:
-                return None
-            return MultiPolygon(parts) if len(parts) > 1 else parts[0]
-        return None
+        parts = [Polygon(p.exterior) for p in geom.geoms if p.area >= MIN_AREA]
+        if not parts:
+            return None
+        return MultiPolygon(parts) if len(parts) > 1 else parts[0]
 
-    def drop_geom_interiors(geom):
-        if geom.geom_type == "Polygon":
-            return Polygon(geom.exterior)
-        elif geom.geom_type == "MultiPolygon":
-            parts = [Polygon(p.exterior) for p in geom.geoms]
-            return MultiPolygon(parts) if len(parts) > 1 else parts[0]
-        return geom
-    basin_data = []
+    basin_data = []  # (HYBAS_ID, MAIN_BAS, geometry)
     invalid_orig = 0
-    had_holes = 0
     for zp in zips:
         cont = os.path.basename(zp).split("_")[1]
         print(f"  Reading {cont} basins…")
@@ -242,18 +228,44 @@ def generate_basins_kmz(river_features):
                         geom = shape(g)
                         if not geom.is_valid:
                             invalid_orig += 1
-                        if (geom.geom_type == "Polygon" and geom.interiors) or \
-                           (geom.geom_type == "MultiPolygon" and any(p.interiors for p in geom.geoms)):
-                            had_holes += 1
                         geom = clean_geom(geom)
-                        if geom is None:
-                            continue
-                        geom = drop_geom_interiors(geom)
-                        basin_data.append((hid, mb, geom))
+                        if geom is not None:
+                            basin_data.append((hid, mb, geom))
             finally:
                 shutil.rmtree(tmpdir)
 
-    print(f"  {len(basin_data)} sub-basins, {invalid_orig} invalid original, {had_holes} with holes, all cleaned")
+    print(f"  {len(basin_data)} cleaned sub-basins ({invalid_orig} invalid original)")
+
+    # ── Merge by MAIN_BAS, then simplify ────────────────────────────────────
+    groups = {}
+    for hid, mb, geom in basin_data:
+        groups.setdefault(mb, []).append(geom)
+
+    merged = []  # (MAIN_BAS, merged_geom)
+    for mb, geoms in groups.items():
+        if len(geoms) == 1:
+            merged_geom = geoms[0]
+        else:
+            merged_geom = unary_union(geoms)
+        if not merged_geom.is_valid:
+            merged_geom = make_valid(merged_geom)
+        if merged_geom.is_empty or merged_geom.area < MIN_AREA:
+            continue
+        if merged_geom.geom_type not in ("Polygon", "MultiPolygon"):
+            continue
+        merged_geom = merged_geom.simplify(SIMPLIFY_TOLERANCE, preserve_topology=True)
+        if merged_geom.is_empty or merged_geom.area < MIN_AREA:
+            continue
+        if merged_geom.geom_type == "Polygon":
+            merged_geom = Polygon(merged_geom.exterior)
+        else:
+            parts = [Polygon(p.exterior) for p in merged_geom.geoms if p.area >= MIN_AREA]
+            if not parts:
+                continue
+            merged_geom = MultiPolygon(parts) if len(parts) > 1 else parts[0]
+        merged.append((mb, merged_geom))
+
+    print(f"  Merged into {len(merged)} watersheds by MAIN_BAS")
 
     # ── Build river name lookup via spatial index ────────────────────────────
     river_geoms = [r[2] for r in river_features]
@@ -261,18 +273,18 @@ def generate_basins_kmz(river_features):
     river_srs = [r[1] for r in river_features]
     name_tree = STRtree(river_geoms)
 
-    def basin_name(hid, geom):
-        candidates = name_tree.query(geom)
+    def watershed_name(mb, merged_geom):
+        candidates = name_tree.query(merged_geom)
         best_i = None
         best_sr = 999
         best_len = 0.0
         for i in candidates:
-            if not geom.intersects(river_geoms[i]):
+            if not merged_geom.intersects(river_geoms[i]):
                 continue
             n = river_names[i]
             if n.startswith("River ("):
                 continue
-            inter_len = geom.intersection(river_geoms[i]).length
+            inter_len = merged_geom.intersection(river_geoms[i]).length
             sr = river_srs[i]
             if sr < best_sr or (sr == best_sr and inter_len > best_len):
                 best_i = i
@@ -294,19 +306,12 @@ def generate_basins_kmz(river_features):
     doc = ET.Element("kml", {"xmlns": "http://www.opengis.net/kml/2.2"})
     document = ET.SubElement(doc, "Document")
     ET.SubElement(document, "name").text = "Drainage Basins (HydroBASINS L4)"
-    ET.SubElement(document, "description").text = "HydroBASINS L4 sub-basins colored by MAIN_BAS"
+    ET.SubElement(document, "description").text = "HydroBASINS L4 merged by MAIN_BAS"
 
-    # One style per MAIN_BAS (invisible outline so GEW renders the fill)
-    style_map = {}
-    mb_seen = set()
-    for hid, mb, _ in basin_data:
-        if mb in mb_seen:
-            continue
-        mb_seen.add(mb)
+    for mb, _ in merged:
         rgb = group_color(mb)
         fill_hex = kml_color(rgb, BASIN_ALPHA)
         sid = f"b{mb}"
-        style_map[mb] = (sid, fill_hex)
         style = ET.SubElement(document, "Style", {"id": sid})
         ls = ET.SubElement(style, "LineStyle")
         ET.SubElement(ls, "color").text = "00000000"
@@ -316,24 +321,23 @@ def generate_basins_kmz(river_features):
         ET.SubElement(ps, "fill").text = "1"
         ET.SubElement(ps, "outline").text = "1"
 
-    # Add placemarks (one per sub-basin, no interior rings)
     written = 0
     total_vertices = 0
-    for hid, mb, geom in basin_data:
-        sid, fill_hex = style_map[mb]
-        coord_parts = coord_string(mapping(geom))
+    for mb, merged_geom in merged:
+        sid = f"b{mb}"
+        coord_parts = coord_string(mapping(merged_geom))
         if not coord_parts:
             continue
 
-        label = basin_name(hid, geom)
+        label = watershed_name(mb, merged_geom)
         if not label:
-            label = f"Basin {hid}"
+            label = f"Watershed {mb}"
 
         pm = ET.SubElement(document, "Placemark")
         ET.SubElement(pm, "name").text = label
         ET.SubElement(pm, "styleUrl").text = f"#{sid}"
 
-        if geom.geom_type == "Polygon":
+        if merged_geom.geom_type == "Polygon":
             poly = ET.SubElement(pm, "Polygon")
             ET.SubElement(poly, "tessellate").text = "1"
             ET.SubElement(poly, "altitudeMode").text = "clampToGround"
@@ -341,10 +345,10 @@ def generate_basins_kmz(river_features):
             lr = ET.SubElement(ob, "LinearRing")
             ET.SubElement(lr, "coordinates").text = coord_parts[0]
             total_vertices += len(coord_parts[0].split())
-        elif geom.geom_type == "MultiPolygon":
-            mg = ET.SubElement(pm, "MultiGeometry")
-            for ring_list in mapping(geom)["coordinates"]:
-                poly = ET.SubElement(mg, "Polygon")
+        elif merged_geom.geom_type == "MultiPolygon":
+            mg_elem = ET.SubElement(pm, "MultiGeometry")
+            for ring_list in mapping(merged_geom)["coordinates"]:
+                poly = ET.SubElement(mg_elem, "Polygon")
                 ET.SubElement(poly, "tessellate").text = "1"
                 ET.SubElement(poly, "altitudeMode").text = "clampToGround"
                 ob = ET.SubElement(poly, "outerBoundaryIs")
@@ -354,7 +358,7 @@ def generate_basins_kmz(river_features):
                 total_vertices += len(ring_list[0])
         written += 1
 
-    print(f"  {written} sub-basin placemarks, {total_vertices} vertices ({'PASS' if total_vertices <= 250000 else 'FAIL'} — limit 250k)")
+    print(f"  {written} watershed placemarks, {total_vertices} vertices ({'PASS' if total_vertices <= 250000 else 'FAIL'} — limit 250k)")
 
     # ── Write KMZ ─────────────────────────────────────────────────────────────
     kml_xml = ET.tostring(doc, encoding="utf-8", xml_declaration=True)
