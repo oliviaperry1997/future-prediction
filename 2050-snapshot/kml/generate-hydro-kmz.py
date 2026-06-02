@@ -185,14 +185,21 @@ def generate_basins_kmz(river_features):
     if not zips:
         print("No HydroBASINS zip files found — skipping."); return
 
+    SIMPLIFY_TOLERANCE = 0.03  # degrees (~3.3 km at equator)
+    MIN_AREA = 0.001            # deg²; discard tiny slivers
+
     def clean_geom(geom):
         """Fix invalid geometries, drop interior rings, discard tiny slivers."""
         if not geom.is_valid:
             geom = make_valid(geom)
+        if geom.is_empty or geom.area < MIN_AREA:
+            return None
         geom = geom.simplify(SIMPLIFY_TOLERANCE, preserve_topology=True)
         if not geom.is_valid:
             geom = make_valid(geom)
-        if geom.is_empty:
+        if geom.is_empty or geom.area < MIN_AREA:
+            return None
+        if geom.geom_type not in ("Polygon", "MultiPolygon"):
             return None
         if geom.geom_type == "Polygon":
             return None if geom.area < MIN_AREA else Polygon(geom.exterior)
@@ -201,19 +208,7 @@ def generate_basins_kmz(river_features):
             if not parts:
                 return None
             return MultiPolygon(parts) if len(parts) > 1 else parts[0]
-        elif geom.geom_type == "GeometryCollection":
-            parts = []
-            for p in geom.geoms:
-                if p.is_empty or p.area < MIN_AREA:
-                    continue
-                if p.geom_type == "Polygon":
-                    parts.append(Polygon(p.exterior))
-                elif p.geom_type == "MultiPolygon":
-                    parts.extend(Polygon(sp.exterior) for sp in p.geoms if sp.area >= MIN_AREA)
-            if not parts:
-                return None
-            return MultiPolygon(parts) if len(parts) > 1 else parts[0]
-        return geom
+        return None
 
     def drop_geom_interiors(geom):
         if geom.geom_type == "Polygon":
@@ -222,9 +217,6 @@ def generate_basins_kmz(river_features):
             parts = [Polygon(p.exterior) for p in geom.geoms]
             return MultiPolygon(parts) if len(parts) > 1 else parts[0]
         return geom
-
-    SIMPLIFY_TOLERANCE = 0.07
-    MIN_AREA = 0.001  # deg² (~0.01 km² at equator); discard tiny slivers
     basin_data = []
     invalid_orig = 0
     had_holes = 0
