@@ -202,13 +202,15 @@ def main():
 
     BASE = "https://oliviaperry1997.github.io/future-prediction/tiles"
     print(f"\nTile overlay URLs (GitHub Pages):")
-    print(f"  Köppen 2050:       {BASE}/{{z}}/{{x}}/{{y}}.png")
+    print(f"  Climate 2050:     {BASE}/climate-2050/{{z}}/{{x}}/{{y}}.png")
     print(f"  Biomes (current):  {BASE}/biomes-current/{{z}}/{{x}}/{{y}}.png")
     print(f"  Biomes (2050):     {BASE}/biomes-2050/{{z}}/{{x}}/{{y}}.png")
+    print(f"  Inundation 2050:   {BASE}/inundation-2050/{{z}}/{{x}}/{{y}}.png")
     print(f"\nLocal (serve-tiles.py):")
-    print(f"  Köppen 2050:       http://localhost:8080/tiles/{{z}}/{{x}}/{{y}}.png")
+    print(f"  Climate 2050:     http://localhost:8080/tiles/climate-2050/{{z}}/{{x}}/{{y}}.png")
     print(f"  Biomes (current):  http://localhost:8080/tiles/biomes-current/{{z}}/{{x}}/{{y}}.png")
     print(f"  Biomes (2050):     http://localhost:8080/tiles/biomes-2050/{{z}}/{{x}}/{{y}}.png")
+    print(f"  Inundation 2050:   http://localhost:8080/tiles/inundation-2050/{{z}}/{{x}}/{{y}}.png")
 
 
 if __name__ == "__main__":

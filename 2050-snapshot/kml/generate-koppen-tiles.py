@@ -2,7 +2,7 @@
 """
 Generate XYZ Web Mercator tiles for Köppen-Geiger 2050 climate zones (combined).
 
-Output: tiles/{z}/{x}/{y}.png  (zoom levels 0–6)
+Output: tiles/climate-2050/{z}/{x}/{y}.png  (zoom levels 0–6)
 
 Water pixels (oceans, seas, lakes) masked using Natural Earth 10m land,
 rasterized at the source TIF's native resolution so boundaries match
@@ -24,7 +24,7 @@ import fiona
 from PIL import Image
 
 TIFF_PATH = "source/koppen_2041-2070_ssp370.tif"
-TILES_DIR = "../../docs/tiles"
+TILES_DIR = "../../docs/tiles/climate-2050"
 MIN_ZOOM  = 0
 MAX_ZOOM  = 6
 TILE_SIZE = 256
@@ -177,9 +177,9 @@ def main():
 
     print(f"\nDone. {written}/{total} tiles → {TILES_DIR}/")
     print("Tile overlay URL (GitHub Pages):")
-    print("  https://oliviaperry1997.github.io/future-prediction/tiles/{z}/{x}/{y}.png")
+    print("  https://oliviaperry1997.github.io/future-prediction/tiles/climate-2050/{z}/{x}/{y}.png")
     print("Local (serve-tiles.py):")
-    print("  http://localhost:8080/tiles/{z}/{x}/{y}.png")
+    print("  http://localhost:8080/tiles/climate-2050/{z}/{x}/{y}.png")
 
 
 if __name__ == "__main__":

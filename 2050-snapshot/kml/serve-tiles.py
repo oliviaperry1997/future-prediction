@@ -5,8 +5,11 @@ CORS-enabled local tile server for Köppen-Geiger XYZ tiles.
 Usage:
   python3 serve-tiles.py
 
-Then add a Tile Overlay in Google Earth Web with URL:
-  http://localhost:8080/tiles/{z}/{x}/{y}.png
+Then add Tile Overlays in Google Earth Web with URLs:
+  http://localhost:8080/tiles/climate-2050/{z}/{x}/{y}.png
+  http://localhost:8080/tiles/biomes-current/{z}/{x}/{y}.png
+  http://localhost:8080/tiles/biomes-2050/{z}/{x}/{y}.png
+  http://localhost:8080/tiles/inundation-2050/{z}/{x}/{y}.png
 
 Chrome allows HTTP requests to localhost from HTTPS pages (mixed-content exception),
 so this works even though Google Earth Web is served over HTTPS.
@@ -30,7 +33,7 @@ class CORSHandler(SimpleHTTPRequestHandler):
         self.send_header("Access-Control-Allow-Origin", "*")
         self.send_header("Access-Control-Allow-Methods", "GET, OPTIONS")
         self.send_header("Access-Control-Allow-Headers", "*")
-        self.send_header("Cache-Control", "public, max-age=86400")
+        self.send_header("Cache-Control", "no-cache")
         super().end_headers()
 
     def do_OPTIONS(self):
