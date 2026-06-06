@@ -30,7 +30,7 @@ from rasterio.enums import Resampling
 import fiona
 from PIL import Image
 
-TILES_DIR = "tiles"
+TILES_DIR = "../../docs/tiles"
 MIN_ZOOM  = 0
 MAX_ZOOM  = 6
 TILE_SIZE = 256
@@ -200,11 +200,15 @@ def main():
         "Projected 2050 Biomes (RF ensemble)",
     )
 
-    BASE = "https://oliviaperry1997.github.io/future-prediction/2050-snapshot/kml/tiles"
-    print(f"\nTile overlay URLs:")
+    BASE = "https://oliviaperry1997.github.io/future-prediction/tiles"
+    print(f"\nTile overlay URLs (GitHub Pages):")
     print(f"  Köppen 2050:       {BASE}/{{z}}/{{x}}/{{y}}.png")
     print(f"  Biomes (current):  {BASE}/biomes-current/{{z}}/{{x}}/{{y}}.png")
     print(f"  Biomes (2050):     {BASE}/biomes-2050/{{z}}/{{x}}/{{y}}.png")
+    print(f"\nLocal (serve-tiles.py):")
+    print(f"  Köppen 2050:       http://localhost:8080/tiles/{{z}}/{{x}}/{{y}}.png")
+    print(f"  Biomes (current):  http://localhost:8080/tiles/biomes-current/{{z}}/{{x}}/{{y}}.png")
+    print(f"  Biomes (2050):     http://localhost:8080/tiles/biomes-2050/{{z}}/{{x}}/{{y}}.png")
 
 
 if __name__ == "__main__":

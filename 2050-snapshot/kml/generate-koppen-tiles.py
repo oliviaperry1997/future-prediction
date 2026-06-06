@@ -24,7 +24,7 @@ import fiona
 from PIL import Image
 
 TIFF_PATH = "source/koppen_2041-2070_ssp370.tif"
-TILES_DIR = "tiles"
+TILES_DIR = "../../docs/tiles"
 MIN_ZOOM  = 0
 MAX_ZOOM  = 6
 TILE_SIZE = 256
@@ -176,8 +176,10 @@ def main():
                 written += 1
 
     print(f"\nDone. {written}/{total} tiles → {TILES_DIR}/")
-    print("Tile overlay URL:")
-    print("  https://oliviaperry1997.github.io/future-prediction/2050-snapshot/kml/tiles/{z}/{x}/{y}.png")
+    print("Tile overlay URL (GitHub Pages):")
+    print("  https://oliviaperry1997.github.io/future-prediction/tiles/{z}/{x}/{y}.png")
+    print("Local (serve-tiles.py):")
+    print("  http://localhost:8080/tiles/{z}/{x}/{y}.png")
 
 
 if __name__ == "__main__":
