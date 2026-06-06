@@ -22,6 +22,17 @@ milestone: 2050
 - Automation reached 40-60% penetration in manufacturing and 20-35% in services across advanced economies; revolutionary states have implemented forms of universal basic income or guaranteed employment, while reactionary states lack social safety nets, producing divergent labor market outcomes
 - Post-capitalist economic models emerged as viable alternatives in revolutionary successor states and across parts of the Global South — the Pacifica formally declared a socialist economy by ~2044 (T-14), and the BRICS+ alternative financial system (operational since 2041, T-12) provides infrastructure for non-dollar-denominated economic activity
 
+## Economy KML Layers
+
+The 2050 economic landscape is visualized as 4 overlay layers in `economy.kml`:
+
+1. **Cities & Megalopolises** — Major urban centers and UMS β=81 megalopolis regions (dynamic population-density clustering)
+2. **Production Metric (BCU-equivalent)** — Entity-level economic output in BRICS+ Digital Basket Currency, replacing dollar-denominated GDP
+3. **Transit & Logistics Systems** — Major trade corridors, high-speed rail, spaceports, and deep-water ports
+4. **Production Sectors** — Entity-level dominant sector classification (Technology & Finance, Advanced Manufacturing, Energy & Extraction, Agriculture & Food, Services & Tourism, Mixed/Diversified)
+
+→ See KML: [economy.kml](../kml/economy.kml) — all 4 layers
+
 ## Analysis
 
 ### Global Financial Architecture
@@ -62,7 +73,7 @@ The BCU is not used for domestic transactions in any member state — it functio
 
 **Capital flows:** Global capital markets are fragmented along bloc lines by 2050. Revolutionary successor states attract BRICS+ investment and development finance — the Pacifica, Atlantica, and Great Lakes have received significant BRICS+ MDB infrastructure lending. Reactionary states face capital flight and higher borrowing costs; their bonds trade at distressed levels, and international investment is limited to extractive sectors with high risk premiums. Texas and New Afrika, despite residual energy assets, face rapidly rising borrowing costs as global demand for fossil fuels declines. Cross-bloc capital flows are substantially reduced from pre-2026 levels — portfolio investment across blocs is minimal, foreign direct investment flows primarily within blocs, and sovereign wealth funds increasingly align reserve management with political alignment.
 
-→ See KML: BRICS+ Financial Infrastructure
+→ See KML: Production Metric (BCU-equivalent) — economy.kml Layer 2
 
 #### Trade Blocs
 
@@ -103,7 +114,7 @@ The global trading system has regionalized along political and currency lines. F
 - **Integration depth:** AfCFTA has eliminated tariffs on 90% of goods but faces non-tariff barriers, infrastructure gaps, and limited manufacturing capacity outside a few economies. The East African Federation (EAF) is the most integrated sub-region — functioning as a confederation with a common currency (East African Shilling) and coordinated economic policy. The Confederation of Sahel States (AES) operates a separate common currency. ECOWAS remains fragmented on monetary union. SADC maintains a free trade area with uneven compliance.
 - → See borders analysis: [Africa](../../2050-snapshot/domains/borders-geopolitics.md#africa)
 
-→ See KML: Trade Bloc Zones
+→ See KML: Production Sectors — economy.kml Layer 4
 
 ### Labor & Automation
 
@@ -146,7 +157,7 @@ The 2050 employment landscape is defined by the uneven penetration of automation
 - The challenge of purpose and meaning in a highly automated society is a defining cultural question in revolutionary states — see culture snapshot for ideological dimensions.
 - → See transition doc: [economy.md Driver 5](../../2026-2050-transition/economy.md#driver-5-automation-driven-labor-restructuring)
 
-→ See KML: Labor Market Zones
+→ See KML: Production Metric (BCU-equivalent) — economy.kml Layer 2
 
 ### Economic Profiles — Americas
 
